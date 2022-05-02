@@ -115,7 +115,7 @@ function create_post_entry(archive)
         	<br>
 
         	<span class = post-item id = $(lowercase(archive.title) |> x -> replace(x, " " => "-"))>
-             		<a href = http://localhost:8000/$(archive.filename[1:end-3])/>
+             		<a href = https://thecedarprince.github.io/$(archive.filename[1:end-3])/>
                   			<strong>
                        				$(archive.title)
                   			</strong>
