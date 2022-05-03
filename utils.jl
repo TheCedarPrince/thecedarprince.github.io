@@ -112,23 +112,23 @@ Creates the raw HTML for a note given an ArchiveNote
 """
 function create_post_entry(archive)
     post = """
-        	<br>
+          	<br>
 
-        	<span class = post-item id = $(lowercase(archive.title) |> x -> replace(x, " " => "-"))>
-             		<a href = https://jacobzelko.com/$(archive.filename[1:end-3])/>
-                  			<strong>
-                       				$(archive.title)
-                  			</strong>
-                  			[$(archive.date |> d -> Dates.format(d, "u d Y"))]
-             		</a>
-             		<br>
-                  			$(archive.summary)
-             		<br>
-                  			$(archive.keywords)
-             		<br>
-        	</span>
+          	<span class = post-item id = $(lowercase(archive.title) |> x -> replace(x, " " => "-"))>
+                 		<a href = http://jacobzelko.com/$(archive.filename[1:end-3])/>
+                        			<strong>
+                               				$(archive.title)
+                        			</strong>
+                        			[$(archive.date |> d -> Dates.format(d, "u d Y"))]
+                 		</a>
+                 		<br>
+                        			$(archive.summary)
+                 		<br>
+                        			$(archive.keywords)
+                 		<br>
+          	</span>
 
-        	<br>
+          	<br>
    """
 
     return post
@@ -167,6 +167,10 @@ function create_page(archive)
      @def tags = $(archive.keywords |> x -> replace(x, "#" => "") |> split .|> String)
 
      {{insert_note $(joinpath(archive.filepath, archive.filename)) _assets/notes/zettel.bib}}
+
+     ## Discussion:
+     
+     {{addcomments}}
      """,
         )
     end
@@ -287,5 +291,25 @@ function hfun_build_blog()
     CSV.write("_assets/notes/note_cache.csv", article_cache)
 
     return posts
+end
+
+"""
+    {{ addcomments }}
+
+Add a comment widget, managed by utterances <https://utteranc.es>.
+"""
+function hfun_addcomments()
+
+    html_string = """
+    <script src="https://utteranc.es/client.js"
+           repo="TheCedarPrince/thecedarprince.github.io"
+           issue-term="url"
+           label="post"
+           theme="github-light"
+           crossorigin="anonymous"
+           async>
+    </script>"""
+
+    return html_string
 end
 
