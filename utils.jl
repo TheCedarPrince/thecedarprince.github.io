@@ -165,6 +165,7 @@ function create_page(archive)
      @def title = "$(archive.title)"
      @def slug = "$(archive.filename[1:end-3])"
      @def tags = $(archive.keywords |> x -> replace(x, "#" => "") |> split .|> String)
+     @def description = "$(archive.summary |> String)"
 
      {{insert_note $(joinpath(archive.filepath, archive.filename)) _assets/notes/zettel.bib}}
 
