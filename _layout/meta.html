@@ -1,0 +1,20 @@
+<!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+{{isdef title}}<meta name="title" content="{{fill title}}">{{end}}
+{{isdef description}}<meta name="description" content="{{fill description}}">{{end}}
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+{{isdef title}}<meta property="og:title" content="{{fill title}}">{{end}}
+{{isdef description}}<meta property="og:description" content="{{fill description}}">{{end}}
+{{isdef image}}<meta property="og:image" content="{{image}}">{{end}}
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+{{isdef title}}<meta property="twitter:title" content="{{fill title}}">{{end}}
+{{isdef description}}<meta property="twitter:description" content="{{fill description}}">{{end}}
+{{isdef image}}<meta property="twitter:image" content="{{fill image}}">{{end}}
