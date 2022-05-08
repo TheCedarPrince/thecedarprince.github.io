@@ -167,6 +167,10 @@ function create_page(archive)
      @def tags = $(archive.keywords |> x -> replace(x, "#" => "") |> split .|> String)
      @def description = "$(archive.summary |> String)"
 
+     @def rss_title = "$(archive.title)"
+     @def rss_description = "$(archive.summary |> String)"
+     @def rss_pubdate = Date$(archive.date |> Dates.yearmonthday)
+
      {{insert_note $(joinpath(archive.filepath, archive.filename)) _assets/notes/zettel.bib}}
 
      ## Discussion:

@@ -13,10 +13,12 @@ image = "https://jacobzelko.com/assets/profile.png"
 ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
-generate_rss = true
 website_title = "the cedar ledge"
-website_descr = "Jacob S. Zelko's personal website"
-website_url   = ""
+website_description = "Jacob S. Zelko's personal website"
+website_url = "https://jacobzelko.com"
+
+generate_rss = true
+rss_full_content = false
 +++
 
 <!--
