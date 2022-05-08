@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  The Picture of Dorian Gray  ]]>
+  </title>
+  <link> https://jacobzelko.com/04202022021854-picture-dorian-gray/index.html </link>
+  <guid> https://jacobzelko.com/04202022021854-picture-dorian-gray/index.html </guid>
+  <description>
+    <![CDATA[  Book review on the extreme hedonism, classist privilege, and complete moral collapse written about Dorian Gray  ]]>
+  </description>  
+    
+  <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender  ]]>
+  </title>
+  <link> https://jacobzelko.com/04162022002725-mathematician-gender-rethinking/index.html </link>
+  <guid> https://jacobzelko.com/04162022002725-mathematician-gender-rethinking/index.html </guid>
+  <description>
+    <![CDATA[  Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read&#33;  ]]>
+  </description>  
+    
+  <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Lord of the Flies  ]]>
+  </title>
+  <link> https://jacobzelko.com/04112022004224-lord-of-flies/index.html </link>
+  <guid> https://jacobzelko.com/04112022004224-lord-of-flies/index.html </guid>
+  <description>
+    <![CDATA[  A review of the book as well as thoughts on why I did not enjoy it  ]]>
+  </description>  
+    
+  <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

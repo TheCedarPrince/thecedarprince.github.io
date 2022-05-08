@@ -1,4 +1,4 @@
-Sitemap: sitemap.xml
+Sitemap: https://jacobzelko.com/sitemap.xml
 
 User-agent: *
 Disallow:

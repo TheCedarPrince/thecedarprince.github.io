@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Personal Perspectives on Faith  ]]>
+  </title>
+  <link> https://jacobzelko.com/05072022162026-personal-faith-perspectives/index.html </link>
+  <guid> https://jacobzelko.com/05072022162026-personal-faith-perspectives/index.html </guid>
+  <description>
+    <![CDATA[  An evolving note on my perspectives on faith as a practicing Christian  ]]>
+  </description>  
+    
+  <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Picture of Dorian Gray  ]]>
+  </title>
+  <link> https://jacobzelko.com/04202022021854-picture-dorian-gray/index.html </link>
+  <guid> https://jacobzelko.com/04202022021854-picture-dorian-gray/index.html </guid>
+  <description>
+    <![CDATA[  Book review on the extreme hedonism, classist privilege, and complete moral collapse written about Dorian Gray  ]]>
+  </description>  
+    
+  <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Open Knowledge Standard  ]]>
+  </title>
+  <link> https://jacobzelko.com/04172022033744-open-knowledge-standard/index.html </link>
+  <guid> https://jacobzelko.com/04172022033744-open-knowledge-standard/index.html </guid>
+  <description>
+    <![CDATA[  A working proposal on a standard knowledge format for taking notes  ]]>
+  </description>  
+    
+  <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender  ]]>
+  </title>
+  <link> https://jacobzelko.com/04162022002725-mathematician-gender-rethinking/index.html </link>
+  <guid> https://jacobzelko.com/04162022002725-mathematician-gender-rethinking/index.html </guid>
+  <description>
+    <![CDATA[  Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read&#33;  ]]>
+  </description>  
+    
+  <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>
