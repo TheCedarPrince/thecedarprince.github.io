@@ -1,11 +1,11 @@
-@def title = "Home"
-@def tags = ["home", "about"]
-
++++
+title = "Home"
+tags = ["home", "about"]
++++
 
 # Hello! | ¡Hola! | !مرحبا
 
 ![center-aligned-image](/assets/rounded_profile_reduced.png)
-
 
 ---
 
@@ -13,46 +13,45 @@
 
 ---
 
-### My Name Is Jacob S. Zelko -- Welcome to _the cedar ledge_! :wave:
+### About Me, Jacob S. Zelko -- welcome to _the cedar ledge_! :wave:
 
-I am a graduate of [Georgia Institute of Technology](https://www.bme.gatech.edu/) with a BS in biomedical engineering.
-I currently work at [Georgia Tech Research Institute](https://gtri.gatech.edu/) in the Health Emerging and Advanced Technologies division (HEAT-D) as a Health Data Analytics and Informatics Researcher as well as being a Contractor for the [Centers for Disease Control](https://www.cdc.gov/).
+<!--TODO: Update my CV - convert to Markdown with pandoc filter?-->
+<!--TODO: Add CV page-->
+Visit this [link to see my CV :page_facing_up:](https://drive.google.com/file/d/1ypAm8i6eYd7cZfFolItf4Q6B08459VwP/view?usp=sharing)
 
-### What Am I Passionate About? :nerd_face:
+My name is Jacob S. Zelko!
+I graduated [Georgia Institute of Technology](https://www.bme.gatech.edu/) with a BS in biomedical engineering.
+I work at [Georgia Tech Research Institute](https://gtri.gatech.edu/) in the HEAT Division as a researcher and am a Contractor for the [Centers for Disease Control](https://www.cdc.gov/).
 
-<!--TODO: Rewrite this section-->
+My research career has focused on mental health -- in particular, examining bipolar disorder, depression, and suicidality.
+This focus has led me to studying about the social determinants of health, neurocognitive disabilities, and health equity.
+Additionally, I have vested interests in observational health research and am an [active member of OHDSI](https://www.ohdsi.org), open and reproducible science, knowledge management, science education, and as a [practicing Christian](05072022162026-personal-faith-perspectives), the intersection of faith communities and science.
 
-Broadly speaking, I am interested in the social determinants of health, resource constrained environments, neurocognitive disabilities, mental health, equitable healthcare, reproducible science, open source science, knowledge management, and education.
-Additionally, as a [practicing Christian](05072022162026-personal-faith-perspectives.md), I am very interested in the intersection of faith communities and science.
-More technically, I develop open source scientific software using Julia and Python to analyze medical datasets to produce performant analysis pipelines and visualization schemes.
-I use my [blog](/blog) to share on my thoughts on anything ranging from programming and knowledge management to academia and best practices.
+### What about Fun Stuff Like Hobbies? :guitar:
 
-<!--TODO: Address Projects page-->
-For information about ongoing projects, please visit my [Projects](/projects/) page.
+In terms of hobbies, I study Category Theory with the [AlgebraicJulia community](https://www.algebraicjulia.org/) and record my learnings on [Crash Course Category Theory (C3T)](https://jacobzelko.com/C3T/).
+In the open source world, I am the co-creator of [JuliaAnimators](https://github.com/JuliaAnimators) and the animation engine, [Javis.jl](https://github.com/JuliaAnimators/Javis.jl), and stream its development on my [educational Twitch channel](https://www.twitch.tv/thecedarprince) to teach software engineering, programming, and development patterns.
+Finally, my more eclectic and smaller hobbies include reading, writing, electric and acoustic guitar, stenography, running, and traveling.
 
-### How To Navigate _the cedar ledge_? :computer:
 
-<!--TODO: Add in this section-->
+### How to Use _the cedar ledge_? :computer:
 
-### Any Hobbies? :guitar:
+This website not only consists of blog posts, but is also my knowledge base.
+The main sections are broken up as follows:
 
-<!--TODO: Update this-->
+- [Blog](/blog/) - long-form and self-contained pieces.
 
-I am a multi-instrumentalist; I am heavily influenced by acts like Caspian and Hammock and composers such as Ólafur Arnalds and Jóhann Jóhannsson.
-A short film I scored was even nominated for the [Cannes Short Film Corner](/projects/2018-09-20-Its Different/) at the Cannes festival!
+- [Archive](/archive/) - every page on this website - mostly works in progress.
 
-I also host an [educational Twitch channel](https://www.twitch.tv/thecedarprince) where I work on open source coding and research projects.
-I use this outlet to teach best practices in software engineering, how to program, and development workflows.
+- [Resources](/resources/) - resources on interacting with me, this website, and more.
 
-Also, for fun, I am trying to pick up Stenography to write quicker using a hobbyist stenography machine. :keyboard:
+    - [RSS](/resources/#rss) - RSS feed options for this site.
 
-### Want To Learn More About Me? :page_facing_up:
+    - [Contact](/resources/#contact-me) - chat with me on collaborations, consulting, etc.
 
-Here is a link to my [Curriculum Vitae](/cv/).
-If you have any questions about it, don't hesitate to reach out!
+### Is My Privacy Safe? :ninja:
 
-### Want To Chat, Collaborate, or Contract Me? :coffee:
-
-Although my bandwidth varies, I welcome anyone to reach out to me to chat about potential collaborations, consultant positions, or interests they have.
-I will make sure to respond in a timely manner!
-For how to contact me, please visit my [contact page](/contact/).
+Yes.
+At this time I do not collect analytics.
+Any comments pass through [utteranc.es](https://utteranc.es/) which does not store or collect any information from visitors.
+Comments are mirrored onto the [site's GitHub repository issues section](https://github.com/TheCedarPrince/thecedarprince.github.io/issues).
