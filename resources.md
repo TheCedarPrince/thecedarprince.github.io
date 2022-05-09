@@ -1,8 +1,9 @@
 @def title = "Contact"
 
 <!--TODO: Revamp this-->
+<!--TODO: Change to links section-->
 
-# Hi! 🙋‍♂
+# Contact Me 🙋‍♂
 
 Thank you for taking the time to visit my website. 
 The _best way_ to contact me is via my email which is [jacobszelko@gmail.com](mailto:jacobszelko@gmail).
@@ -11,3 +12,4 @@ I welcome any inquiry about chatting around common interests, possible collabora
 
 Please note, if you send me spam or inappropriate inquiries/media, I will block all communications with you. 
 
+# RSS :satellite:
