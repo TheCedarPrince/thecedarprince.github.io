@@ -5,6 +5,8 @@ tags = ["home", "about"]
 
 # Hello! | ¡Hola! | !مرحبا
 
+<!--TODO: Add Darkmode: https://darkmodejs.learn.uno-->
+
 ![center-aligned-image](/assets/rounded_profile_reduced.png)
 
 ---
@@ -49,7 +51,7 @@ The main sections are broken up as follows:
 
     - [Contact](/resources/#contact-me) - chat with me on collaborations, consulting, etc.
 
-### Is My Privacy Safe? :ninja:
+### Is My Privacy Safe? :lock:
 
 Yes.
 At this time I do not collect analytics.
