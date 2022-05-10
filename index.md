@@ -57,3 +57,4 @@ Yes.
 At this time I do not collect analytics.
 Any comments pass through [utteranc.es](https://utteranc.es/) which does not store or collect any information from visitors.
 Comments are mirrored onto the [site's GitHub repository issues section](https://github.com/TheCedarPrince/thecedarprince.github.io/issues).
+I only have one cookie so far and that is to save dark mode settings. :cookie:
