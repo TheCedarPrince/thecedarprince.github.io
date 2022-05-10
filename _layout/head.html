@@ -1,17 +1,54 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{insert meta.html}}
-  {{if hasmath}} {{insert head_katex.html }}     {{end}}
-  {{if hascode}} {{insert head_highlight.html }}   {{end}}
-  <link rel="stylesheet" href="/css/franklin.css">
-  <link rel="stylesheet" href="/css/basic.css">
-  <link rel="icon" href="/assets/favicon.ico">
-  {{isdef title}} <title>{{fill title}}</title>  {{end}}
-</head>
-<body>
-  {{insert header.html}}
 
-<!-- Content appended here -->
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {{insert meta.html}} {{if hasmath}} {{insert head_katex.html }} {{end}} {{if
+    hascode}} {{insert head_highlight.html }} {{end}}
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> {{isdef title}}
+    <title>{{fill title}}</title> {{end}}
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+    <!--STYLING FOR LUNR SEARCH BAR-->
+
+    <style>
+        .result-title a {
+            text-decoration: none;
+        }
+
+        .result-title a:hover {
+            text-decoration: underline;
+        }
+
+        .result-preview {
+            color: #808080;
+        }
+
+        .resultCount {
+            color: #808080;
+        }
+
+        .result-query {
+            font-weight: bold;
+        }
+
+        #lunrSearchForm {}
+    </style>
+
+    <!--END STYLING OF LUNR-->
+
+</head>
+
+
+<body>
+    {{insert header.html}} {{addsearchbar}}
+    <!-- Content appended here -->

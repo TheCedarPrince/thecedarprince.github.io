@@ -318,3 +318,22 @@ function hfun_addcomments()
     return html_string
 end
 
+
+"""
+    {{ addcomments }}
+
+Add a comment widget, managed by utterances <https://utteranc.es>.
+"""
+function hfun_addsearchbar()
+
+    html_string = """
+	<div align="center">
+        <form id="lunrSearchForm" name="lunrSearchForm">
+            <input class="search-input" name="q" placeholder="Enter search term" type="text">
+            <input type="submit" value="Search" formaction="/search/index.html">
+        </form>
+	</div>
+    """
+
+    return html_string
+end
