@@ -1,15 +1,23 @@
-@def title = "Contact"
+@def title = "Links"
 
 <!--TODO: Revamp this-->
 <!--TODO: Change to links section-->
 
 # Contact Me 🙋‍♂
 
-Thank you for taking the time to visit my website. 
+Thank you for taking the time to visit my website!
 The _best way_ to contact me is via my email which is [jacobszelko@gmail.com](mailto:jacobszelko@gmail).
-Else, I am also available on Twitter at my profile [@jacob_zelko](https://twitter.com/jacob_zelko).
 I welcome any inquiry about chatting around common interests, possible collaborations, or consultancy requests.
 
-Please note, if you send me spam or inappropriate inquiries/media, I will block all communications with you. 
-
 # RSS :satellite:
+
+I have a variety of possible feeds available to meet your needs:
+
+- [All Content Feed](https://jacobzelko.com/feed.xml) - RSS feed of everything I post.
+- [Blog Posts Feed](https://jacobzelko.com/tag/blog/feed.xml) - RSS of only blog posts
+- [Book Reviews Feed](https://jacobzelko.com/tag/book/feed.xml) - RSS of only book reviews
+
+# Where To Find Me :mag:
+
+<!--TODO: Add media links-->
+<!--TODO: add to Index section-->
