@@ -3,8 +3,6 @@
 
 <head>
 
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> {{insert meta.html}} {{if hasmath}} {{insert head_katex.html }} {{end}} {{if
     hascode}} {{insert head_highlight.html }} {{end}}
@@ -40,53 +38,6 @@
     <script src="/libs/lunr/lunr.min.js"></script>
     <script src="/libs/lunr/lunr_index.js"></script>
     <script src="/libs/lunr/lunrclient.min.js"></script>
-
-    <!--STYLING FOR LUNR SEARCH BAR-->
-
-    <style>
-        .result-title a {
-            text-decoration: none;
-        }
-
-        .result-title a:hover {
-            text-decoration: underline;
-        }
-
-        .result-preview {
-            color: #808080;
-        }
-
-        .resultCount {
-            color: #808080;
-        }
-
-        .result-query {
-            font-weight: bold;
-        }
-
-        #lunrSearchForm {}
-    </style>
-    <!--TODO: Add to new style section from LUNR-->
-    <!--TODO: Fix for Archive and Blog page-->
-    <style>
-        .darkmode--activated p,
-        .darkmode--activated h1,
-        .darkmode--activated h2,
-        .darkmode--activated h3,
-        .darkmode--activated li {
-            color: #ECEFF4;
-        }
-
-        .darkmode--activated a {
-            color: #81A1C1
-        }
-
-        .darkmode-toggle {
-            z-index: 500;
-        }
-    </style>
-
-    <!--END STYLING OF LUNR-->
 
 </head>
 
