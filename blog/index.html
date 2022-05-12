@@ -3,8 +3,6 @@
 
 <head>
 
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
 <meta charset="UTF-8">
@@ -60,53 +58,6 @@
     <script src="/libs/lunr/lunr_index.js"></script>
     <script src="/libs/lunr/lunrclient.min.js"></script>
 
-    <!--STYLING FOR LUNR SEARCH BAR-->
-
-    <style>
-        .result-title a {
-            text-decoration: none;
-        }
-
-        .result-title a:hover {
-            text-decoration: underline;
-        }
-
-        .result-preview {
-            color: #808080;
-        }
-
-        .resultCount {
-            color: #808080;
-        }
-
-        .result-query {
-            font-weight: bold;
-        }
-
-        #lunrSearchForm {}
-    </style>
-    <!--TODO: Add to new style section from LUNR-->
-    <!--TODO: Fix for Archive and Blog page-->
-    <style>
-        .darkmode--activated p,
-        .darkmode--activated h1,
-        .darkmode--activated h2,
-        .darkmode--activated h3,
-        .darkmode--activated li {
-            color: #ECEFF4;
-        }
-
-        .darkmode--activated a {
-            color: #81A1C1
-        }
-
-        .darkmode-toggle {
-            z-index: 500;
-        }
-    </style>
-
-    <!--END STYLING OF LUNR-->
-
 </head>
 
 
@@ -120,7 +71,7 @@
             <li><a href="/archive">Archive</a></li>
             <li><a href="/resources">Resources</a></li>
         </ul>
-        <img src="/assets/hamburger.svg" id="menu-icon">
+        <img src="/assets/hamburger.png" id="menu-icon">
     </nav>
     </div>
 </header>
@@ -135,6 +86,44 @@
 <div class="franklin-content"><h1 id="blog"><a href="#blog" class="header-anchor">Blog</a></h1>
 <p>My blog posts ordered by date. The titles, date, summaries, and key words of a blog are provided per entry.</p>
 <hr />
+       	<br>
+
+       	<span class = post-item id = the-book-of-why>
+              		<a href = http://jacobzelko.com/01072021082043-book-of-why/>
+                     			<strong>
+                            				The Book of Why
+                     			</strong>
+                     			[Jan 7 2021]
+              		</a>
+              		<br>
+                     			How causality gives us tools to understand the question of cause-and-effect and confounders
+              		<br>
+                     			##bibliography #causality #diagrams #counterfactual #statistics #graphs ##book ##blog
+              		<br>
+       	</span>
+
+       	<br>
+
+
+       	<br>
+
+       	<span class = post-item id = othello>
+              		<a href = http://jacobzelko.com/04102022034503-othello/>
+                     			<strong>
+                            				Othello
+                     			</strong>
+                     			[Apr 9 2022]
+              		</a>
+              		<br>
+                     			A review of the book Othello and some thoughts on the central conflict
+              		<br>
+                     			##summary ##book #play #tragedy #racism #boredeom ##blog
+              		<br>
+       	</span>
+
+       	<br>
+
+
        	<br>
 
        	<span class = post-item id = x-+-y-:-a-mathematician’s-manifesto-for-rethinking-gender>
@@ -213,7 +202,7 @@
 
 
 <div class="page-foot">
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: May 11, 2022.
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: May 12, 2022.
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
 </div>
 </div><!-- CONTENT ENDS HERE -->

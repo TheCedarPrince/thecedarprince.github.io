@@ -77,4 +77,23 @@
   </atom:author>
         
 </item>
+
+<item>
+  <title>
+    <![CDATA[  Othello  ]]>
+  </title>
+  <link> https://jacobzelko.com/04102022034503-othello/index.html </link>
+  <guid> https://jacobzelko.com/04102022034503-othello/index.html </guid>
+  <description>
+    <![CDATA[  A review of the book Othello and some thoughts on the central conflict  ]]>
+  </description>  
+    
+  <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
 </channel></rss>

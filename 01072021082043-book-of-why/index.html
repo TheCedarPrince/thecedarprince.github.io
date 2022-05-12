@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="The Book of Why">
+<meta name="description" content="How causality gives us tools to understand the question of cause-and-effect and confounders">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Book of Why">
+<meta property="og:description" content="How causality gives us tools to understand the question of cause-and-effect and confounders">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="The Book of Why">
+<meta property="twitter:description" content="How causality gives us tools to understand the question of cause-and-effect and confounders">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+  
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>The Book of Why</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', // default: '32px'
+                right: '32px', // default: '32px'
+                left: 'unset', // default: 'unset'
+                time: '.0s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: '#fff', // default: '#fff'
+                buttonColorDark: '#100f2c', // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ 	<div align="center">
+        <form id="lunrSearchForm" name="lunrSearchForm">
+            <input class="search-input" name="q" placeholder="Enter search term" type="text">
+            <input type="submit" value="Search" formaction="/search/index.html">
+        </form>
+	</div>
+    
+    <!-- Content appended here -->
+<div class="franklin-content"><h1 id="the-book-of-why">The Book of Why</h1>
+<blockquote>
+<p><strong>Date:</strong> January 07 2021</p>
+<p><strong>Summary:</strong> How causality gives us tools to understand the question of cause-and-effect and confounders</p>
+<p><strong>Keywords:</strong> ##bibliography #causality #diagrams #counterfactual #statistics #graphs ##book ##blog</p>
+</blockquote>
+<h2 id="bibliography-reference">Bibliography Reference:</h2>
+<p>J. Pearl and D. Mackenzie, The book of why: the new science of cause and effect, First edition. New York: Basic Books, 2018.</p>
+<h2 id="notes">Notes</h2>
+<p>This book shows that data is stupid. Data can record events but cannot answer why any of the events are the way they are.</p>
+<p>Causal inference posits the brain as the most advanced tool for understanding cause and effect.</p>
+<p>Forcing an occurrence means to submit it to one influence to trigger the desired event</p>
+<p><strong>Counterfactual:</strong> When scientific inquiry involves retrospective reflection. “Why?” is a counterfactual question.</p>
+<p>Probabilities encode our beliefs about a static world. Causality explains probabilities in a changing world.</p>
+<h3 id="benefits-of-causal-analysis">Benefits of Causal Analysis</h3>
+<p>Create a smoother human-machine interface.</p>
+<p><em>THOUGHTS: I wonder if that is what attracted me to the idea of Causal Inference - that it enables better human-machine interfaces. Like human-machine interaction as a discipline; I wonder if they have much in this area. Perhaps reach out to Valentine Wilson about the question?</em></p>
+<h3 id="critiques-of-statistics">Critiques of Statistics</h3>
+<p>Galton separated causation from statistics in 1889 causing the two separate fields to fully manifest.</p>
+<p>“Granger causality” and “vector autocorrelation” exists to accommodate for causal explanations. Associated Thoughts: Judea’s critique on probability-based causality</p>
+<h3 id="causal-calculus">Causal Calculus</h3>
+<p>Causal calculus uses two communications forms:</p>
+<ol type="1">
+<li><p>Causal Diagrams: communicates what is known.</p></li>
+<li><p>Symbolic language: defines what is wanted to be known</p></li>
+</ol>
+<h3 id="inference-engine">Inference Engine</h3>
+<p>The inference engine assumes perfect and unlimited data for the given figure:</p>
+<p><img src="01082021030619-inference-engine.png" /></p>
+<p><strong>Estimand:</strong> generalized mathematical formula to answer data questions. A statistical quantity estimated from data that can represent an answer to a query.</p>
+<p>A given estimand is computed on the basis of the causal model alone, prior to an examination of the specifics of the data. This gives the inference engine better adaptibility.</p>
+<p><strong>Binary Evaluation of Query:</strong> determines if a query can be answered under an existing causal model.</p>
+<p><strong>Knowledge:</strong> experience from the past such as prior observations and education.</p>
+<p><strong>Assumptions:</strong> explicit statements from available Knowledge.</p>
+<p><strong>Queries:</strong> the scientific questions to be answered.</p>
+<p><strong>Testable Implications:</strong> observable patterns or dependencies resulting from the listening pattern of a causal model.</p>
+<p><strong>Estimate:</strong> Estimate for the answer is determined alongside uncertainty metrics.The metrics reflect limited data, measurement errors, or missing data.</p>
+<h3 id="ladder-of-causality">Ladder of Causality</h3>
+<p>First rung: observation. This concerns recognition of patterns. This rung asks, “What if I see …?”</p>
+<p>The second rung: Doing. Altering an environment to achieve a certain goal. This rung poses the questions of “What if we do…?” or “How?”</p>
+<h3 id="mini-turing-test">Mini-Turing Test</h3>
+<p>Mini-Turing Test: Encode a simple story on a machine and see if it can answer causal questions a human can answer.</p>
+<p>Rules:</p>
+<ol type="1">
+<li><p>Limited only to causal reasoning and language.</p></li>
+<li><p>The story can be encoded in the easiest way for the programmer.</p></li>
+</ol>
+<h3 id="bayesian-analysis">Bayesian Analysis</h3>
+<p>Simplified Bayesian analysis: prior belief + new evidence = revised belief.</p>
+<p>Bayesian inference enables one to express personal experiences mathematically and combine it with data in a principled and transparent way.</p>
+<h3 id="causal-diagrams">Causal Diagrams</h3>
+<p>“Causation” via a causal diagram is straightforward. A variable X is a cause of Y if Y listens to X. Y’s value is determined by what it hears.</p>
+<h4 id="paths-in-path-diagrams">Paths in Path Diagrams</h4>
+<h5 id="chain-junction">Chain junction</h5>
+<p><span class="math display"><em>A</em> → <em>B</em> → <em>C</em></span></p>
+<p>B is the mediator which relays the effect of A to C. B filters information about A from C.</p>
+<h5 id="fork-junction">Fork Junction</h5>
+<p><span class="math display"><em>A</em> ← <em>B</em> → <em>C</em></span></p>
+<p>B is a confounder of A and C. B makes A and C statistically correlated despite no direct link between them.</p>
+<h5 id="collider-junction">Collider Junction</h5>
+<p><span class="math display"><em>A</em> → <em>B</em> ← <em>C</em></span></p>
+<p>Conditioning on B will make A and C dependent</p>
+<h4 id="lessons-from-path-diagrams">Lessons from Path Diagrams</h4>
+<ol type="1">
+<li><p>Causal analysis allows us to quantify real world processes</p></li>
+<li><p>Path analysis draws conclusions about individual causal relationships by examining the diagram as a whole.</p></li>
+<li><p>Two people creating differing causal diagrams for the same data and may not arrive at the same result.</p></li>
+</ol>
+<h2 id="quotes">Quotes</h2>
+<p>“When you prohibit speech, you prohibit thought and stifle principles, methods, and tools.” <em>Some angst about how causality is not permitted discussion in commons stats classes</em></p>
+<p>“You are smarter than your data. Data does not understand causes and effects; humans do.” <em>I like this thought a lot as the common notion is to “let the data guide you.” However this has led to many many problems in the world ranging from racial biases to incorrect inferences.</em></p>
+<p>All deep learning can do is match some function to data. <em>QUESTION: I wonder how true this is?</em></p>
+<p>“[To] understand causation, we have to teach a [computer] how to break the rules” <em>THOUGHTS: Fun “revolutionary” quote on what causation means for the day to day scientist.</em></p>
+<h2 id="references"><strong>References:</strong></h2>
+
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion:</a></h2>
+<script src="https://utteranc.es/client.js"
+       repo="TheCedarPrince/thecedarprince.github.io"
+       issue-term="url"
+       label="post"
+       theme="github-light"
+       crossorigin="anonymous"
+       async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: May 12, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+  </body>
+</html>
