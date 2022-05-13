@@ -73,6 +73,14 @@ function markdown_delinker(f)
 end
 
 """
+TODO: CREATE IMG SRC DELINKER 
+"""
+# function ()
+	
+# end
+
+
+"""
 Insert a note after rendering with pandoc
 """
 function hfun_insert_note(params)
