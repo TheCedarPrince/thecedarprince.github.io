@@ -73,10 +73,10 @@ function markdown_delinker(f)
 end
 
 """
-TODO: CREATE IMG SRC DELINKER 
+TODO: CREATE IMG SRC DELINKER
 """
 # function ()
-	
+
 # end
 
 
@@ -120,23 +120,23 @@ Creates the raw HTML for a note given an ArchiveNote
 """
 function create_post_entry(archive)
     post = """
-          	<br>
+            	<br>
 
-          	<span class = post-item id = $(lowercase(archive.title) |> x -> replace(x, " " => "-"))>
-                 		<a href = http://jacobzelko.com/$(archive.filename[1:end-3])/>
-                        			<strong>
-                               				$(archive.title)
-                        			</strong>
-                        			[$(archive.date |> d -> Dates.format(d, "u d Y"))]
-                 		</a>
-                 		<br>
-                        			$(archive.summary)
-                 		<br>
-                        			$(archive.keywords)
-                 		<br>
-          	</span>
+            	<span class = post-item id = $(lowercase(archive.title) |> x -> replace(x, " " => "-"))>
+                     		<a href = http://jacobzelko.com/$(archive.filename[1:end-3])/>
+                              			<strong>
+                                       				$(archive.title)
+                              			</strong>
+                              			[$(archive.date |> d -> Dates.format(d, "u d Y"))]
+                     		</a>
+                     		<br>
+                              			$(archive.summary)
+                     		<br>
+                              			$(archive.keywords)
+                     		<br>
+            	</span>
 
-          	<br>
+            	<br>
    """
 
     return post
@@ -182,7 +182,7 @@ function create_page(archive)
      {{insert_note $(joinpath(archive.filepath, archive.filename)) _assets/notes/zettel.bib}}
 
      ## Discussion:
-     
+
      {{addcomments}}
      """,
         )
@@ -314,13 +314,20 @@ Add a comment widget, managed by utterances <https://utteranc.es>.
 function hfun_addcomments()
 
     html_string = """
-    <script src="https://utteranc.es/client.js"
-           repo="TheCedarPrince/thecedarprince.github.io"
-           issue-term="url"
-           label="post"
-           theme="github-light"
-           crossorigin="anonymous"
-           async>
+    <script src="https://giscus.app/client.js"
+        data-repo="TheCedarPrince/thecedarprince.github.io"
+        data-repo-id="R_kgDOHRFrHA"
+        data-category="General"
+        data-category-id="DIC_kwDOHRFrHM4CPGIX"
+        data-mapping="url"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
     </script>"""
 
     return html_string
@@ -328,19 +335,19 @@ end
 
 
 """
-    {{ addcomments }}
+    {{ addsearchbar }}
 
-Add a comment widget, managed by utterances <https://utteranc.es>.
+Add search bar using lunr
 """
 function hfun_addsearchbar()
 
     html_string = """
-	<div align="center">
+ <div align="center">
         <form id="lunrSearchForm" name="lunrSearchForm">
             <input class="search-input" name="q" placeholder="Enter search term" type="text">
             <input type="submit" value="Search" formaction="/search/index.html">
         </form>
-	</div>
+ </div>
     """
 
     return html_string
