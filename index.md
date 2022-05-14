@@ -5,8 +5,6 @@ tags = ["home", "about"]
 
 # Hello! | ¡Hola! | !مرحبا
 
-<!--TODO: Add Darkmode: https://darkmodejs.learn.uno-->
-
 ![center-aligned-image](/assets/rounded_profile_reduced.png)
 
 ---
@@ -29,6 +27,8 @@ My research career has focused on mental health -- in particular, examining bipo
 This focus has led me to studying about the social determinants of health, neurocognitive disabilities, and health equity.
 Additionally, I have vested interests in observational health research and am an [active member of OHDSI](https://www.ohdsi.org), open and reproducible science, knowledge management, science education, and as a [practicing Christian](05072022162026-personal-faith-perspectives), the intersection of faith communities and science.
 
+<!--TODO: Add email subscription link-->
+
 ### What about Fun Stuff Like Hobbies? :guitar:
 
 In terms of hobbies, I study Category Theory with the [AlgebraicJulia community](https://www.algebraicjulia.org/) and record my learnings on [Crash Course Category Theory (C3T)](https://jacobzelko.com/C3T/).
@@ -47,14 +47,14 @@ The main sections are broken up as follows:
 
 - [Resources](/resources/) - resources on interacting with me, this website, and more.
 
+    - [Contact](/resources/#contact-me) - chat with me on collaborations, consulting, etc.
+
     - [RSS](/resources/#rss) - RSS feed options for this site.
 
-    - [Contact](/resources/#contact-me) - chat with me on collaborations, consulting, etc.
 
 ### Is My Privacy Safe? :lock:
 
 Yes.
 At this time I do not collect analytics.
-Any comments pass through [utteranc.es](https://utteranc.es/) which does not store or collect any information from visitors.
-Comments are mirrored onto the [site's GitHub repository issues section](https://github.com/TheCedarPrince/thecedarprince.github.io/issues).
-I only have one cookie so far and that is to save dark mode settings. :cookie:
+Any comments pass through [giscus](https://github.com/giscus/giscus) which [does not store or collect any information from visitors](https://github.com/giscus/giscus/blob/c0177074ec2409acce454e2168918d5597796896/PRIVACY-POLICY.md).
+Comments are mirrored onto the [site's GitHub Discussons section](https://github.com/TheCedarPrince/thecedarprince.github.io/discussions).
