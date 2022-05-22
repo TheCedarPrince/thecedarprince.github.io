@@ -39,4 +39,23 @@
   </atom:author>
         
 </item>
+
+<item>
+  <title>
+    <![CDATA[  Famous Quotes  ]]>
+  </title>
+  <link> https://jacobzelko.com/07222020181007-famous-quotes/index.html </link>
+  <guid> https://jacobzelko.com/07222020181007-famous-quotes/index.html </guid>
+  <description>
+    <![CDATA[  A collection of favorite quotes from books and people.  ]]>
+  </description>  
+    
+  <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
 </channel></rss>

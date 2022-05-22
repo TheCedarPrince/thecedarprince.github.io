@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  What Are Kuhnian Paradigms?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05222022044626-kuhnian-paradigm/index.html </link>
+  <guid> https://jacobzelko.com/05222022044626-kuhnian-paradigm/index.html </guid>
+  <description>
+    <![CDATA[  An overview on what Thomas Kuhn meant by paradigm and how that applies to science.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What is <em>Normal Science</em>?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05222022044134-normal-science/index.html </link>
+  <guid> https://jacobzelko.com/05222022044134-normal-science/index.html </guid>
+  <description>
+    <![CDATA[  An overview of what normal science is according to Thomas Kuhn.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Structure of Scientific Revolutions  ]]>
+  </title>
+  <link> https://jacobzelko.com/05152022174848-structure-revolutions/index.html </link>
+  <guid> https://jacobzelko.com/05152022174848-structure-revolutions/index.html </guid>
+  <description>
+    <![CDATA[  A book review of Thomas Kuhn&#39;s most famous book that challenged all of the philosophy of science and introduced such concepts as normal science, paradigm shift, why non-scientific fields struggle with similar revolutions, and when one can adopt new paradigms.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>
