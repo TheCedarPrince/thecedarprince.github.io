@@ -173,10 +173,10 @@ function create_page(archive)
      @def title = "$(archive.title)"
      @def slug = "$(archive.filename[1:end-3])"
      @def tags = $(archive.keywords |> x -> replace(x, "#" => "") |> split .|> String)
-     @def description = "$(archive.summary |> String)"
+     @def description = "$(archive.summary |> String |> x -> replace(x, "\"" => "'"))"
 
      @def rss_title = "$(archive.title)"
-     @def rss_description = "$(archive.summary |> String)"
+     @def rss_description = "$(archive.summary |> String |> x -> replace(x, "\"" => "'"))"
      @def rss_pubdate = Date$(archive.date |> Dates.yearmonthday)
 
      {{insert_note $(joinpath(archive.filepath, archive.filename)) _assets/notes/zettel.bib}}
