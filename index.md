@@ -55,6 +55,6 @@ The main sections are broken up as follows:
 ### Is My Privacy Safe? :lock:
 
 Yes.
-At this time I do not collect analytics.
+I collect analytics using [GoatCounter](https://www.goatcounter.com) which has a very [stringent privacy policy including **not tracking users**](https://www.goatcounter.com/help/privacy).
 Any comments pass through [giscus](https://github.com/giscus/giscus) which [does not store or collect any information from visitors](https://github.com/giscus/giscus/blob/c0177074ec2409acce454e2168918d5597796896/PRIVACY-POLICY.md).
-Comments are mirrored onto the [site's GitHub Discussons section](https://github.com/TheCedarPrince/thecedarprince.github.io/discussions).
+Any comment made on any post is mirrored onto the [site's GitHub Discussons section](https://github.com/TheCedarPrince/thecedarprince.github.io/discussions).
