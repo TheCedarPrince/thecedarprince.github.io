@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Categorical Data Structures for Technical Computing">
+<meta name="description" content="An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Categorical Data Structures for Technical Computing">
+<meta property="og:description" content="An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Categorical Data Structures for Technical Computing">
+<meta property="twitter:description" content="An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+ 
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Categorical Data Structures for Technical Computing</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>Categorical Data Structures for Technical Computing</h1>
+<p><strong>Date:</strong> October 6 2021</p>
+<p><strong>Summary:</strong> An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.</p>
+<p><strong>Keywords:</strong> #bibliography #acsets #graph #theory #category  #archive</p>
+<h1>Bibliography</h1>
+<p>E. Patterson, O. Lynch, and J. Fairbanks, &quot;Categorical Data Structures for Technical Computing,&quot; arXiv:2106.04703 &#91;cs, math&#93;, Jun. 2021, Accessed: Sep. 27, 2021. &#91;Online&#93;. Available: http://arxiv.org/abs/2106.04703</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#definitions">Definitions</a></li><li><a href="#limitations_of_the_data_frame">Limitations of the Data Frame</a></li><li><a href="#conclusions">Conclusions</a><ol><li><a href="#use_cases_for_acsets">Use Cases for Acsets</a></li><li><a href="#category_theory">Category Theory</a></li></ol></li><li><a href="#discussion_with_brighton_ancelin_-_october_6_2021">Discussion with Brighton Ancelin - October 6, 2021</a></li><li><a href="#questions">Questions</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="definitions"><a href="#definitions" class="header-anchor">Definitions</a></h3>
+<p><strong>Combinatorial Data</strong> - data stored in a graph</p>
+<p><strong>Attribute data</strong> - the data that would be put into a data frame</p>
+<h3 id="limitations_of_the_data_frame"><a href="#limitations_of_the_data_frame" class="header-anchor">Limitations of the Data Frame</a></h3>
+<ul>
+<li><p>Does not record relationships between entities</p>
+</li>
+<li><p>Analogous to the <code>FOREIGN KEY</code> concept in SQL</p>
+</li>
+</ul>
+<h3 id="conclusions"><a href="#conclusions" class="header-anchor">Conclusions</a></h3>
+<h4 id="use_cases_for_acsets"><a href="#use_cases_for_acsets" class="header-anchor">Use Cases for Acsets</a></h4>
+<ul>
+<li><p>Act as a unifying abstract data type</p>
+</li>
+<li><p>Particularly useful for graphs and data frames, data structures</p>
+</li>
+<li><p>Enables creation of novel data structures</p>
+</li>
+</ul>
+<h4 id="category_theory"><a href="#category_theory" class="header-anchor">Category Theory</a></h4>
+<ul>
+<li><p>The category theory for acsets is well understood</p>
+</li>
+<li><p>Opens possibility of implementation of</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- Limits
+- Colimits
+- Functorial data migration</code></pre>
+<h3 id="discussion_with_brighton_ancelin_-_october_6_2021"><a href="#discussion_with_brighton_ancelin_-_october_6_2021" class="header-anchor">Discussion with Brighton Ancelin - October 6, 2021</a></h3>
+<ul>
+<li><p>Combinatorial data could be thought of the data that:</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- Exists solely within a graph structure
+- Defines vertices <span class="hljs-keyword">in</span> a graph structure
+- Defines edges <span class="hljs-keyword">in</span> a graph structure
+- <span class="hljs-built_in">Set</span> of all vertices and set of all edges are isomorphic
+	- As long as edge-vertex relationships are maintained</code></pre>
+<ul>
+<li><p>Attribute data has something concrete that describes it apart from a graph structure</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- Encodes symmetries or relationships <span class="hljs-keyword">in</span> data that are important to that data</code></pre>
+<h3 id="questions"><a href="#questions" class="header-anchor">Questions</a></h3>
+<ul>
+<li><p>What are the &quot;new data structures&quot; that could be developed with this implementation</p>
+</li>
+<li><p>Why are attribute data combined in the same structure housing combinatorial data?</p>
+</li>
+<li><p>With the snippet of <code>add_part&#33;</code>, what is a &quot;part&quot;?</p>
+</li>
+</ul>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+        
+
+
+    
+  </body>
+</html>

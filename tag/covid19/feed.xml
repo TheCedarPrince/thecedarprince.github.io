@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  COVID-19 and the other pandemic: populations made vulnerable by systemic inequity  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022132448-covid-systemic-inequity/index.html </link>
+  <guid> https://jacobzelko.com/09082022132448-covid-systemic-inequity/index.html </guid>
+  <description>
+    <![CDATA[  How the COVID pandemic lead to highlighting vulnerable populations introduced by systemic inequity for healthcare  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable/index.html </link>
+  <guid> https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable/index.html </guid>
+  <description>
+    <![CDATA[  A brief report on the risks encountered by LGBTQ communities as a result of the COVID-19 pandemic  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Intellectual and Developmental Disability and COVID-19 Case-fatality Trends: TriNetX Analysis  ]]>
+  </title>
+  <link> https://jacobzelko.com/07192020022823-intellectual-trinetx-analysis/index.html </link>
+  <guid> https://jacobzelko.com/07192020022823-intellectual-trinetx-analysis/index.html </guid>
+  <description>
+    <![CDATA[  Intellectual and developmental disability and association with COVID-19 fatalities  ]]>
+  </description>  
+    
+  <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  TriNet  ]]>
+  </title>
+  <link> https://jacobzelko.com/07192020013500-trinetx-covid/index.html </link>
+  <guid> https://jacobzelko.com/07192020013500-trinetx-covid/index.html </guid>
+  <description>
+    <![CDATA[  An overview of what the TriNetX COVID-19 research platform is and how it works  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Could Autism Spectrum Disorders Be A Risk Factor For covid-19?  ]]>
+  </title>
+  <link> https://jacobzelko.com/07192020034934-asd-risk-factor/index.html </link>
+  <guid> https://jacobzelko.com/07192020034934-asd-risk-factor/index.html </guid>
+  <description>
+    <![CDATA[  Autism Spectrum Disorders as a potential risk factor in COVID-19 outcomes  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Hypothesis on Cytokine Dysregulation Worsened by COVID19 for People with ASD  ]]>
+  </title>
+  <link> https://jacobzelko.com/07102020174816-cytokine-asd-covid19/index.html </link>
+  <guid> https://jacobzelko.com/07102020174816-cytokine-asd-covid19/index.html </guid>
+  <description>
+    <![CDATA[  Loose hypothesis on worsening of cytokine regulation via ASD and COVID19  ]]>
+  </description>  
+    
+  <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  SARS-CoV-2  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020051547-sars-cov-2/index.html </link>
+  <guid> https://jacobzelko.com/03102020051547-sars-cov-2/index.html </guid>
+  <description>
+    <![CDATA[  Gives an overview of the 2020 SARS-CoV-2 &#40;COVID19&#41; pandemic and what the disease is.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Risk of Dying from COVID19  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020052237-covid19-dying/index.html </link>
+  <guid> https://jacobzelko.com/03102020052237-covid19-dying/index.html </guid>
+  <description>
+    <![CDATA[  Note on the current fatality when acquiring COVID19.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

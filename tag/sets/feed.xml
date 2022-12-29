@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  The Preimage of Elements, Sets, and Functions  ]]>
+  </title>
+  <link> https://jacobzelko.com/10282022132046-preimage-of-sets/index.html </link>
+  <guid> https://jacobzelko.com/10282022132046-preimage-of-sets/index.html </guid>
+  <description>
+    <![CDATA[  How the preimage appears in elements, sets, and functions  ]]>
+  </description>  
+    
+  <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Coproducts &#40;Disjoint Unions&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/09162022162129-coproducts-disjoints/index.html </link>
+  <guid> https://jacobzelko.com/09162022162129-coproducts-disjoints/index.html </guid>
+  <description>
+    <![CDATA[  Exploration on the disjoint union of sets.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Health as a Spectrum  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020022148-health-spectrum/index.html </link>
+  <guid> https://jacobzelko.com/03092020022148-health-spectrum/index.html </guid>
+  <description>
+    <![CDATA[  An idea that health can exist on a spectrum  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Intersectionality and Intersectionality Theory?  ]]>
+  </title>
+  <link> https://jacobzelko.com/11042022141714-what-intersectionality-theory/index.html </link>
+  <guid> https://jacobzelko.com/11042022141714-what-intersectionality-theory/index.html </guid>
+  <description>
+    <![CDATA[  An overview and summary on what is intersectionality and  ]]>
+  </description>  
+    
+  <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes/index.html </link>
+  <guid> https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes/index.html </guid>
+  <description>
+    <![CDATA[  A small article on how the CDC&#39;s social vulnerability index was associated with heat-related morbidities in Georgia  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable/index.html </link>
+  <guid> https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable/index.html </guid>
+  <description>
+    <![CDATA[  A brief report on the risks encountered by LGBTQ communities as a result of the COVID-19 pandemic  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Social Determinants Surrounding Terrorism  ]]>
+  </title>
+  <link> https://jacobzelko.com/08282022134930-social-determinants-terrorism/index.html </link>
+  <guid> https://jacobzelko.com/08282022134930-social-determinants-terrorism/index.html </guid>
+  <description>
+    <![CDATA[  Working note on the social determinants of terrorist activity in a vein inspired by the notion of social determinants of health  ]]>
+  </description>  
+    
+  <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective  ]]>
+  </title>
+  <link> https://jacobzelko.com/08192022115354-health-terrorism-factors/index.html </link>
+  <guid> https://jacobzelko.com/08192022115354-health-terrorism-factors/index.html </guid>
+  <description>
+    <![CDATA[  A review on how terrorism intersects with the social determinants of health  ]]>
+  </description>  
+    
+  <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Assessing Phenotype Definitions for Algorithmic Fairness  ]]>
+  </title>
+  <link> https://jacobzelko.com/08122022205622-assessing-phenotype-fairness/index.html </link>
+  <guid> https://jacobzelko.com/08122022205622-assessing-phenotype-fairness/index.html </guid>
+  <description>
+    <![CDATA[  A possible workflow for assessing fairness in the context of observational health studies  ]]>
+  </description>  
+    
+  <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;?  ]]>
+  </title>
+  <link> https://jacobzelko.com/01112022220843-spo2-explained/index.html </link>
+  <guid> https://jacobzelko.com/01112022220843-spo2-explained/index.html </guid>
+  <description>
+    <![CDATA[  What Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and the pros and cons associated with its use  ]]>
+  </description>  
+    
+  <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/01112022215755-oxygen-saturation/index.html </link>
+  <guid> https://jacobzelko.com/01112022215755-oxygen-saturation/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and its use as a biomarker and use in signal processing.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Are Computable Phenotypes?  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021074632-computable-phenotypes/index.html </link>
+  <guid> https://jacobzelko.com/01072021074632-computable-phenotypes/index.html </guid>
+  <description>
+    <![CDATA[  An overview into what computable phenotypes are and how they are used.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  TriNet  ]]>
+  </title>
+  <link> https://jacobzelko.com/07192020013500-trinetx-covid/index.html </link>
+  <guid> https://jacobzelko.com/07192020013500-trinetx-covid/index.html </guid>
+  <description>
+    <![CDATA[  An overview of what the TriNetX COVID-19 research platform is and how it works  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Intellectual and Developmental Disability  ]]>
+  </title>
+  <link> https://jacobzelko.com/07192020025408-intellectual-developmental-disability/index.html </link>
+  <guid> https://jacobzelko.com/07192020025408-intellectual-developmental-disability/index.html </guid>
+  <description>
+    <![CDATA[  What is Intellectual and Developmental Disability  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Treatments for SARS-CoV  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020195122-sars-cov-treatments/index.html </link>
+  <guid> https://jacobzelko.com/07122020195122-sars-cov-treatments/index.html </guid>
+  <description>
+    <![CDATA[  Known treatment methods for SARS-CoV  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Social Determinants of Health  ]]>
+  </title>
+  <link> https://jacobzelko.com/07112020161337-social-determinants-health/index.html </link>
+  <guid> https://jacobzelko.com/07112020161337-social-determinants-health/index.html </guid>
+  <description>
+    <![CDATA[  The comprehensive inception of social determinants in healthcare and society  ]]>
+  </description>  
+    
+  <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Hypothesis on Cytokine Dysregulation Worsened by COVID19 for People with ASD  ]]>
+  </title>
+  <link> https://jacobzelko.com/07102020174816-cytokine-asd-covid19/index.html </link>
+  <guid> https://jacobzelko.com/07102020174816-cytokine-asd-covid19/index.html </guid>
+  <description>
+    <![CDATA[  Loose hypothesis on worsening of cytokine regulation via ASD and COVID19  ]]>
+  </description>  
+    
+  <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Underestimating Digital Media Harm  ]]>
+  </title>
+  <link> https://jacobzelko.com/05252020221842-digital-media/index.html </link>
+  <guid> https://jacobzelko.com/05252020221842-digital-media/index.html </guid>
+  <description>
+    <![CDATA[  Twenge&#39;s critique of modern day assessment of the negative impacts of social media on adolescents.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Eight-Year Follow-Up Of A Community-Based Large Group Behavioral Smoking Cessation Intervention  ]]>
+  </title>
+  <link> https://jacobzelko.com/05172020232612-smoking-cessation/index.html </link>
+  <guid> https://jacobzelko.com/05172020232612-smoking-cessation/index.html </guid>
+  <description>
+    <![CDATA[  Study involving effective cognitive behavioral-based interventions for increasing smoking cessation in large group settings.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Electrodermal Activity?  ]]>
+  </title>
+  <link> https://jacobzelko.com/03242020003215-eda-explained/index.html </link>
+  <guid> https://jacobzelko.com/03242020003215-eda-explained/index.html </guid>
+  <description>
+    <![CDATA[  What electrodermal activity is and its pros and cons as a biomarker  ]]>
+  </description>  
+    
+  <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Electrodermal Activity  ]]>
+  </title>
+  <link> https://jacobzelko.com/03232020235136-electrodermal-activity/index.html </link>
+  <guid> https://jacobzelko.com/03232020235136-electrodermal-activity/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what electrodermal activity is and its use as a biomarker and use in signal processing.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  SARS-CoV-2  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020051547-sars-cov-2/index.html </link>
+  <guid> https://jacobzelko.com/03102020051547-sars-cov-2/index.html </guid>
+  <description>
+    <![CDATA[  Gives an overview of the 2020 SARS-CoV-2 &#40;COVID19&#41; pandemic and what the disease is.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Coronavirus Definition  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020054429-coronavirus-definition/index.html </link>
+  <guid> https://jacobzelko.com/03102020054429-coronavirus-definition/index.html </guid>
+  <description>
+    <![CDATA[  Note on what coronavirus is.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Risk of Dying from COVID19  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020052237-covid19-dying/index.html </link>
+  <guid> https://jacobzelko.com/03102020052237-covid19-dying/index.html </guid>
+  <description>
+    <![CDATA[  Note on the current fatality when acquiring COVID19.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  CDC Respiratory Disease Prevention  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020053006-cdc-respiratory-preventions/index.html </link>
+  <guid> https://jacobzelko.com/03102020053006-cdc-respiratory-preventions/index.html </guid>
+  <description>
+    <![CDATA[  Note on generic methods on preventing respiratory infection approved by the CDC.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Open Wearables Initiative  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </link>
+  <guid> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </guid>
+  <description>
+    <![CDATA[  OWEAR is a collaboration designed to promote the effective use of sensor-generated measures of health in clinical research through the open sharing and benchmarking of algorithms and datasets.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Health Index, Jacob 😷  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020025554-health-index/index.html </link>
+  <guid> https://jacobzelko.com/03092020025554-health-index/index.html </guid>
+  <description>
+    <![CDATA[  Index of topics pertaining to health, healthcare, public health, and other domains.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

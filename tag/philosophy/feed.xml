@@ -39,4 +39,42 @@
   </atom:author>
         
 </item>
+
+<item>
+  <title>
+    <![CDATA[  Against Method  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020043224-against-method/index.html </link>
+  <guid> https://jacobzelko.com/07122020043224-against-method/index.html </guid>
+  <description>
+    <![CDATA[  The use of anarchy as a philosophical approach to learning anything.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Antifragility  ]]>
+  </title>
+  <link> https://jacobzelko.com/03172020033742-antifragility/index.html </link>
+  <guid> https://jacobzelko.com/03172020033742-antifragility/index.html </guid>
+  <description>
+    <![CDATA[  An overview on Nassim Taleb&#39;s thoughts on Antifragility.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
 </channel></rss>

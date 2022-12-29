@@ -23,25 +23,6 @@
 
 <item>
   <title>
-    <![CDATA[  Invoking New Paradigms  ]]>
-  </title>
-  <link> https://jacobzelko.com/05222022045931-new-paradigms/index.html </link>
-  <guid> https://jacobzelko.com/05222022045931-new-paradigms/index.html </guid>
-  <description>
-    <![CDATA[  The costs of invoking a new paradigm and the lead-up to developing one  ]]>
-  </description>  
-    
-  <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Jacob Zelko</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
     <![CDATA[  On the Non-Linearity of Science  ]]>
   </title>
   <link> https://jacobzelko.com/05222022050357-non-linearity-science/index.html </link>
@@ -61,31 +42,12 @@
 
 <item>
   <title>
-    <![CDATA[  What Causes the Downfall of a Kuhnian Paradigm?  ]]>
+    <![CDATA[  Invoking New Paradigms  ]]>
   </title>
-  <link> https://jacobzelko.com/05222022044910-downfall-kuhnian-paradigm/index.html </link>
-  <guid> https://jacobzelko.com/05222022044910-downfall-kuhnian-paradigm/index.html </guid>
+  <link> https://jacobzelko.com/05222022045931-new-paradigms/index.html </link>
+  <guid> https://jacobzelko.com/05222022045931-new-paradigms/index.html </guid>
   <description>
-    <![CDATA[  What causes the collapse of a Kuhnian paradigm and what changes are created in that field.  ]]>
-  </description>  
-    
-  <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Jacob Zelko</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  What Are Kuhnian Paradigms?  ]]>
-  </title>
-  <link> https://jacobzelko.com/05222022044626-kuhnian-paradigm/index.html </link>
-  <guid> https://jacobzelko.com/05222022044626-kuhnian-paradigm/index.html </guid>
-  <description>
-    <![CDATA[  An overview on what Thomas Kuhn meant by paradigm and how that applies to science.  ]]>
+    <![CDATA[  The costs of invoking a new paradigm and the lead-up to developing one  ]]>
   </description>  
     
   <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
@@ -118,6 +80,25 @@
 
 <item>
   <title>
+    <![CDATA[  What Are Kuhnian Paradigms?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05222022044626-kuhnian-paradigm/index.html </link>
+  <guid> https://jacobzelko.com/05222022044626-kuhnian-paradigm/index.html </guid>
+  <description>
+    <![CDATA[  An overview on what Thomas Kuhn meant by paradigm and how that applies to science.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  The Structure of Scientific Revolutions  ]]>
   </title>
   <link> https://jacobzelko.com/05152022174848-structure-revolutions/index.html </link>
@@ -127,6 +108,25 @@
   </description>  
     
   <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Functional Programming  ]]>
+  </title>
+  <link> https://jacobzelko.com/11032021180434-functional-programming/index.html </link>
+  <guid> https://jacobzelko.com/11032021180434-functional-programming/index.html </guid>
+  <description>
+    <![CDATA[  An overview on what functional programming is and the  ]]>
+  </description>  
+    
+  <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>

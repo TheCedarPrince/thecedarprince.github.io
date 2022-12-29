@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Setting Up Julia LSP for Neovim">
+<meta name="description" content="An explanation of how to setup the Julia LSP for Neovim">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Setting Up Julia LSP for Neovim">
+<meta property="og:description" content="An explanation of how to setup the Julia LSP for Neovim">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Setting Up Julia LSP for Neovim">
+<meta property="twitter:description" content="An explanation of how to setup the Julia LSP for Neovim">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+ 
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Setting Up Julia LSP for Neovim</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>Setting Up Julia LSP for Neovim</h1>
+<p><strong>Date:</strong> August 31 2022</p>
+<p><strong>Summary:</strong> An explanation of how to setup the Julia LSP for Neovim</p>
+<p><strong>Keywords:</strong> ##summary #neovim #julia #programming #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#general_guide">General Guide</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="general_guide"><a href="#general_guide" class="header-anchor">General Guide</a></h3>
+<p>This is from Fredrik Ekre at the <a href="/https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
+<p>LanguageServer is somewhat slow to start so it is very useful to use a custom sysimage using PackageCompiler to reduce this time. On my machine I get the first response after 20&#43; seconds, but with a custom sysimage I can execute LS commands instantaneously.</p>
+<p>Here is my setup:</p>
+<ol>
+<li><p>Install <code>Mason.nvim</code> or <code>nvim-lspconfig</code> and install <code>julials</code> &#40;it may also be called something like Julia Language Server Protocol&#41;.</p>
+</li>
+<li><p>Modify <code>init.vim</code> or <code>init.lua</code> to use a custom Julia executable &#40;if it exists&#41;:</p>
+</li>
+</ol>
+<pre><code class="lua hljs"><span class="hljs-built_in">require</span><span class="hljs-string">&#x27;lspconfig&#x27;</span>.julials.setup{
+    on_new_config = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(new_config, _)</span></span>
+        <span class="hljs-keyword">local</span> julia = vim.fn.expand(<span class="hljs-string">&quot;~/.julia/environments/nvim-lspconfig/bin/julia&quot;</span>)
+        <span class="hljs-keyword">if</span> <span class="hljs-built_in">require</span><span class="hljs-string">&#x27;lspconfig&#x27;</span>.util.<span class="hljs-built_in">path</span>.is_file(julia) <span class="hljs-keyword">then</span>
+	    vim.notify(<span class="hljs-string">&quot;Hello!&quot;</span>)
+            new_config.cmd[<span class="hljs-number">1</span>] = julia
+        <span class="hljs-keyword">end</span>
+    <span class="hljs-keyword">end</span>
+}</code></pre>
+<p>&#40;OPTIONAL&#41; If you use Packer to manage your vim setup, run <code>PackerCompile</code>.</p>
+<p>NOTE: If you notice, there is a small line named <code>vim.notify&#40;&quot;Hello&#33;&quot;&#41;</code>. This is to test that <code>julials</code> is engaged when accessing a Julia file - you can check that it is engaged by writing <code>:messages</code> in vim. You should see &quot;Hello&#33;&quot; appear. This line can then safely be removed. </p>
+<ol start="3">
+<li><p>Create the <code>nvim-lspconfig</code> Julia environment by running the following in your shell:</p>
+</li>
+</ol>
+<pre><code class="sh hljs">julia --project=~/.julia/environments/nvim-lspconfig -e <span class="hljs-string">&#x27;using Pkg; Pkg.add(&quot;LanguageServer&quot;)&#x27;</span></code></pre>
+<p>And then navigate to the directory at <code>~.julia/environment/nvim-lspconfig</code>.</p>
+<ol start="3">
+<li><p>Copy the following makefile &#40;<a href="/https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
+</li>
+</ol>
+<pre><code class="make hljs"><span class="hljs-comment"># MIT License. Copyright (c) 2021 Fredrik Ekre</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment"># This Makefile can be used to build a custom Julia system image for LanguageServer.jl to</span>
+<span class="hljs-comment"># use with neovims built in LSP support. An up-to date version of this Makefile can be found</span>
+<span class="hljs-comment"># at https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment"># Usage instructions:</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment">#   1. Update the neovim configuration to use a custom julia executable. If you use</span>
+<span class="hljs-comment">#      nvim-lspconfig (recommended) you can modify the setup call to the following:</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment">#          require(&quot;lspconfig&quot;).julials.setup({</span>
+<span class="hljs-comment">#              on_new_config = function(new_config, _)</span>
+<span class="hljs-comment">#                  local julia = vim.fn.expand(&quot;~/.julia/environments/nvim-lspconfig/bin/julia&quot;)</span>
+<span class="hljs-comment">#                  if require(&quot;lspconfig&quot;).util.path.is_file(julia) then</span>
+<span class="hljs-comment">#                      new_config.cmd[1] = julia</span>
+<span class="hljs-comment">#                  end</span>
+<span class="hljs-comment">#              end,</span>
+<span class="hljs-comment">#              -- ...</span>
+<span class="hljs-comment">#          })</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment">#   2. Place this Makefile in ~/.julia/environments/nvim-lspconfig (create the directory if</span>
+<span class="hljs-comment">#      it doesn&#x27;t already exist).</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment">#   3. Change directory to ~/.julia/environments/nvim-lspconfig and run `make`. This will</span>
+<span class="hljs-comment">#      start up neovim in a custom project with a julia process that recods compiler</span>
+<span class="hljs-comment">#      statements. Follow the instructions in the opened source file, and then exit neovim.</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment">#   4. Upon exiting neovim PackageCompiler.jl will compile a custom system image which will</span>
+<span class="hljs-comment">#      automatically be used whenever you work on Julia projects in neovim.</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment"># Update instructions:</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment">#  To update the system image (e.g. when upgrading Julia or upgrading LanguageServer.jl or</span>
+<span class="hljs-comment">#  it&#x27;s dependencies) run the following commands from the</span>
+<span class="hljs-comment">#  ~/.julia/environments/nvim-lspconfig directory:</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment">#      julia --project=. -e &#x27;using Pkg; Pkg.update()&#x27;</span>
+<span class="hljs-comment">#      make</span>
+
+JULIA=<span class="hljs-variable">$(<span class="hljs-built_in">shell</span> which julia)</span>
+JULIA_PROJECT=
+SRCDIR:=<span class="hljs-variable">$(<span class="hljs-built_in">shell</span> dirname $(<span class="hljs-built_in">abspath</span> $(<span class="hljs-built_in">firstword</span> <span class="hljs-variable">$(MAKEFILE_LIST)</span>)</span>))
+<span class="hljs-keyword">ifeq</span> (<span class="hljs-variable">$(<span class="hljs-built_in">shell</span> uname -s)</span>,Linux)
+	SYSIMAGE=languageserver.so
+<span class="hljs-keyword">else</span>
+	SYSIMAGE=languageserver.dylib
+<span class="hljs-keyword">endif</span>
+
+<span class="hljs-section">default: <span class="hljs-variable">$(SYSIMAGE)</span></span>
+
+<span class="hljs-variable">$(SYSIMAGE)</span>: Manifest.toml packagecompiler/Manifest.toml packagecompiler/precompile_statements.jl
+	JULIA_LOAD_PATH=${PWD}:${PWD}/packagecompiler:@stdlib ${JULIA} -e &#x27;using PackageCompiler; PackageCompiler.create_sysimage(:LanguageServer, sysimage_path=<span class="hljs-string">&quot;<span class="hljs-variable">$(SYSIMAGE)</span>&quot;</span>, precompile_statements_file=<span class="hljs-string">&quot;packagecompiler/precompile_statements.jl&quot;</span>)&#x27;
+
+<span class="hljs-section">Manifest.toml: Project.toml</span>
+	JULIA_LOAD_PATH=${PWD}/Project.toml:@stdlib ${JULIA} -e &#x27;using Pkg; Pkg.instantiate()&#x27;
+
+<span class="hljs-section">Project.toml:</span>
+	JULIA_LOAD_PATH=${PWD}/Project.toml:@stdlib ${JULIA} -e &#x27;using Pkg; Pkg.add(<span class="hljs-string">&quot;LanguageServer&quot;</span>)&#x27;
+
+<span class="hljs-section">packagecompiler/Manifest.toml: packagecompiler/Project.toml</span>
+	JULIA_LOAD_PATH=${PWD}/packagecompiler/Project.toml:@stdlib ${JULIA} -e &#x27;using Pkg; Pkg.instantiate()&#x27;
+
+<span class="hljs-section">packagecompiler/Project.toml:</span>
+	mkdir -p packagecompiler
+	JULIA_LOAD_PATH=${PWD}/packagecompiler/Project.toml:@stdlib ${JULIA} -e &#x27;using Pkg; Pkg.add(<span class="hljs-string">&quot;PackageCompiler&quot;</span>)&#x27;
+
+<span class="hljs-section">packagecompiler/precompile_statements.jl: Manifest.toml bin/julia</span>
+	TMPDIR=<span class="hljs-variable">$(<span class="hljs-built_in">shell</span> mktemp -d)</span> &amp;&amp; \
+	cd $${TMPDIR} &amp;&amp; \
+	JULIA_LOAD_PATH=: ${JULIA} -e &#x27;using Pkg; Pkg.generate(<span class="hljs-string">&quot;Example&quot;</span>)&#x27; 2&gt; /dev/null &amp;&amp; \
+	cd Example &amp;&amp; \
+	JULIA_LOAD_PATH=$${PWD}:@stdlib ${JULIA} -e &#x27;using Pkg; Pkg.add([<span class="hljs-string">&quot;JSON&quot;</span>, <span class="hljs-string">&quot;fzf_jll&quot;</span>, <span class="hljs-string">&quot;Random&quot;</span>, <span class="hljs-string">&quot;Zlib_jll&quot;</span>])&#x27; 2&gt; /dev/null &amp;&amp; \
+	JULIA_LOAD_PATH=$${PWD}:@stdlib ${JULIA} -e &#x27;using Pkg; Pkg.precompile()&#x27; 2&gt; /dev/null &amp;&amp; \
+	echo <span class="hljs-string">&quot;$$PACKAGE_CONTENT&quot;</span> &gt; src/Example.jl &amp;&amp; \
+	JULIA_TRACE_COMPILE=1 nvim src/Example.jl &amp;&amp; \ <span class="hljs-comment"># <span class="hljs-doctag">NOTE:</span> You may need to check that neovim is correctly on your path</span>
+	rm -rf $${TMPDIR}
+
+<span class="hljs-section">bin/julia:</span>
+	mkdir -p bin
+	echo <span class="hljs-string">&quot;$$JULIA_SHIM&quot;</span> &gt; <span class="hljs-variable">$@</span>
+	chmod +x <span class="hljs-variable">$@</span>
+
+<span class="hljs-section">clean:</span>
+	rm -rf <span class="hljs-variable">$(SYSIMAGE)</span> packagecompiler bin
+
+<span class="hljs-meta"><span class="hljs-keyword">.PHONY</span>: clean default</span>
+
+<span class="hljs-keyword">export</span> JULIA_SHIM
+<span class="hljs-keyword">define</span> JULIA_SHIM
+<span class="hljs-comment">#!/bin/bash</span>
+JULIA=${JULIA}
+if [[ $${JULIA_TRACE_COMPILE} = <span class="hljs-string">&quot;1&quot;</span> ]]; then
+    exec $${JULIA} --trace-compile=${PWD}/packagecompiler/precompile_statements.jl <span class="hljs-string">&quot;$<span class="hljs-variable">$@</span>&quot;</span>
+elif [[ -f ${PWD}/<span class="hljs-variable">$(SYSIMAGE)</span> ]]; then
+    exec $${JULIA} --sysimage=${PWD}/<span class="hljs-variable">$(SYSIMAGE)</span> <span class="hljs-string">&quot;$<span class="hljs-variable">$@</span>&quot;</span>
+<span class="hljs-keyword">else</span>
+    exec $${JULIA} <span class="hljs-string">&quot;$<span class="hljs-variable">$@</span>&quot;</span>
+fi
+<span class="hljs-keyword">endef</span>
+
+<span class="hljs-keyword">export</span> PACKAGE_CONTENT
+<span class="hljs-keyword">define</span> PACKAGE_CONTENT
+<span class="hljs-comment"># This file is opened in neovim with a LanguageServer.jl process that records Julia</span>
+<span class="hljs-comment"># compilation statements for creating a custom sysimage.</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment"># This file has a bunch of linter errors which will exercise the linter and record</span>
+<span class="hljs-comment"># statements for that. When the diagnostic messages corresponding to those errors show up in</span>
+<span class="hljs-comment"># the buffer the language server should be ready to accept other commands (note: this may</span>
+<span class="hljs-comment"># take a while -- be patient). Here are some suggestions for various LSP functionality that</span>
+<span class="hljs-comment"># can be exercised (your regular keybindings should work):</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment">#  - :lua vim.lsp.buf.hover()</span>
+<span class="hljs-comment">#  - :lua vim.lsp.buf.definition()</span>
+<span class="hljs-comment">#  - :lua vim.lsp.buf.references()</span>
+<span class="hljs-comment">#  - :lua vim.lsp.buf.rename()</span>
+<span class="hljs-comment">#  - :lua vim.lsp.buf.formatting()</span>
+<span class="hljs-comment">#  - :lua vim.lsp.buf.formatting_sync()</span>
+<span class="hljs-comment">#  - :lua vim.lsp.buf.code_action()</span>
+<span class="hljs-comment">#  - Tab completion (if you have set this up using LSP)</span>
+<span class="hljs-comment">#  - ...</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment"># When you are finished, simply exit neovim and PackageCompiler.jl will use all the recorded</span>
+<span class="hljs-comment"># statements to create a custom sysimage. This sysimage will be used for the language server</span>
+<span class="hljs-comment"># process in the future, and should result in almost instant response.</span>
+
+module Example
+
+import JSON
+import fzf_jll
+using Random
+using Zlib_jll
+
+function hello(who, notused)
+    println(<span class="hljs-string">&quot;hello&quot;</span>, who)
+    shuffle([1, 2, 3])
+   shoffle([1, 2, 3])
+    fzzf = fzf_jll.fzzf()
+    fzf = fzf_jll.fzf(1)
+    JSON.print(stdout, Dict(<span class="hljs-string">&quot;hello&quot;</span> =&gt; [1, 2, 3]), 2, 123)
+    JSON.print(stdout, Dict(<span class="hljs-string">&quot;hello&quot;</span> =&gt; [1, 2, 3]))
+    hi(who)
+    return Zlib_jll.libz
+end
+
+function world(s)
+    if s == nothing
+      hello(s)
+  <span class="hljs-keyword">else</span>
+      hello(s)
+  end
+    x = [1, 2, 3]
+    for i in 1:length(x)
+        println(x[i])
+    end
+end
+
+end <span class="hljs-comment"># module</span>
+<span class="hljs-keyword">endef</span></code></pre>
+<ol start="4">
+<li><p>Run <code>make</code>. This will set up a dummy project and launch nvim with julia recording everything that is compiled. Wait until the LanguageServer responds &#40;there are a bunch of things in this dummy project that will result in warnings&#41; and then run some LanguageServer commands, for example <code>::lua vim.lsp.buf.hover&#40;&#41;</code> to fetch documentation&#41;.</p>
+</li>
+<li><p>Quit vim.</p>
+</li>
+<li><p>PackageCompiler will now build a custom <code>languageserver.so</code> sysimage.</p>
+</li>
+<li><p>Enjoy the Julia LSP&#33;</p>
+</li>
+</ol>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+        
+
+
+    
+  </body>
+</html>

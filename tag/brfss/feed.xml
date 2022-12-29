@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  A Systematic Review of Publications Assessing Reliability and Validity of the Behavioral Risk Factor Surveillance System &#40;BRFSS&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/06072021202628-brfss-systematic-review/index.html </link>
+  <guid> https://jacobzelko.com/06072021202628-brfss-systematic-review/index.html </guid>
+  <description>
+    <![CDATA[  A systematic review to determine the reliability and validity of the BRFSS  ]]>
+  </description>  
+    
+  <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Independent Component Analysis  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021054854-independent-component-analysis/index.html </link>
+  <guid> https://jacobzelko.com/01072021054854-independent-component-analysis/index.html </guid>
+  <description>
+    <![CDATA[  What independent component analysis is  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Mathematical Sums and Series  ]]>
+  </title>
+  <link> https://jacobzelko.com/01042021224715-sums-series/index.html </link>
+  <guid> https://jacobzelko.com/01042021224715-sums-series/index.html </guid>
+  <description>
+    <![CDATA[  Mathematical sums and series which are commonly used to assess complexity and create relationships  ]]>
+  </description>  
+    
+  <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Vector Algebra  ]]>
+  </title>
+  <link> https://jacobzelko.com/06172020134504-vector-algebra/index.html </link>
+  <guid> https://jacobzelko.com/06172020134504-vector-algebra/index.html </guid>
+  <description>
+    <![CDATA[  The algebraic functions one can execute on a vector  ]]>
+  </description>  
+    
+  <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Linear Combination  ]]>
+  </title>
+  <link> https://jacobzelko.com/05132020134039-linear-combination/index.html </link>
+  <guid> https://jacobzelko.com/05132020134039-linear-combination/index.html </guid>
+  <description>
+    <![CDATA[  A loose overview on linear combination and it geometric relationship  ]]>
+  </description>  
+    
+  <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Vectors  ]]>
+  </title>
+  <link> https://jacobzelko.com/05132020135855-linear-vectors/index.html </link>
+  <guid> https://jacobzelko.com/05132020135855-linear-vectors/index.html </guid>
+  <description>
+    <![CDATA[  Simple write up on column vectors  ]]>
+  </description>  
+    
+  <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

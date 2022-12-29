@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Body Mass Index &#40;BMI&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/04162022022947-body-mass-index/index.html </link>
+  <guid> https://jacobzelko.com/04162022022947-body-mass-index/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the body mass index and some of the concern surrounding it.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;?  ]]>
+  </title>
+  <link> https://jacobzelko.com/01112022220843-spo2-explained/index.html </link>
+  <guid> https://jacobzelko.com/01112022220843-spo2-explained/index.html </guid>
+  <description>
+    <![CDATA[  What Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and the pros and cons associated with its use  ]]>
+  </description>  
+    
+  <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/01112022215755-oxygen-saturation/index.html </link>
+  <guid> https://jacobzelko.com/01112022215755-oxygen-saturation/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and its use as a biomarker and use in signal processing.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  EDA as a Biomarker  ]]>
+  </title>
+  <link> https://jacobzelko.com/04092020153616-eda-biomarker/index.html </link>
+  <guid> https://jacobzelko.com/04092020153616-eda-biomarker/index.html </guid>
+  <description>
+    <![CDATA[  How EDA is used generally as a biomarker.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Common Causes of Artifact in EDA Signals  ]]>
+  </title>
+  <link> https://jacobzelko.com/03272020061037-eda-artifacts/index.html </link>
+  <guid> https://jacobzelko.com/03272020061037-eda-artifacts/index.html </guid>
+  <description>
+    <![CDATA[  An overview of common artifacts in EDA signals  ]]>
+  </description>  
+    
+  <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Electrodermal Activity?  ]]>
+  </title>
+  <link> https://jacobzelko.com/03242020003215-eda-explained/index.html </link>
+  <guid> https://jacobzelko.com/03242020003215-eda-explained/index.html </guid>
+  <description>
+    <![CDATA[  What electrodermal activity is and its pros and cons as a biomarker  ]]>
+  </description>  
+    
+  <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Electrodermal Activity  ]]>
+  </title>
+  <link> https://jacobzelko.com/03232020235136-electrodermal-activity/index.html </link>
+  <guid> https://jacobzelko.com/03232020235136-electrodermal-activity/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what electrodermal activity is and its use as a biomarker and use in signal processing.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

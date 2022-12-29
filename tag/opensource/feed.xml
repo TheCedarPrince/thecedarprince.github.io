@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  WFDB Record  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020061429-wfdb-format/index.html </link>
+  <guid> https://jacobzelko.com/03102020061429-wfdb-format/index.html </guid>
+  <description>
+    <![CDATA[  Overview of the Waveform Database &#40;WFDB&#41; record format  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Open Wearables Initiative  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </link>
+  <guid> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </guid>
+  <description>
+    <![CDATA[  OWEAR is a collaboration designed to promote the effective use of sensor-generated measures of health in clinical research through the open sharing and benchmarking of algorithms and datasets.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

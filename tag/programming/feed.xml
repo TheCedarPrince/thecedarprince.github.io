@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  A Beginner&#39;s to Master&#39;s Guide in Learning Lua  ]]>
+  </title>
+  <link> https://jacobzelko.com/10012022184345-learning-lua/index.html </link>
+  <guid> https://jacobzelko.com/10012022184345-learning-lua/index.html </guid>
+  <description>
+    <![CDATA[  My notes on learning the Lua programming language  ]]>
+  </description>  
+    
+  <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Setting Up Julia LSP for Neovim  ]]>
+  </title>
+  <link> https://jacobzelko.com/08312022162228-julia-lsp-setup/index.html </link>
+  <guid> https://jacobzelko.com/08312022162228-julia-lsp-setup/index.html </guid>
+  <description>
+    <![CDATA[  An explanation of how to setup the Julia LSP for Neovim  ]]>
+  </description>  
+    
+  <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Pure Functions in Programming  ]]>
+  </title>
+  <link> https://jacobzelko.com/11082021225843-pure-functions/index.html </link>
+  <guid> https://jacobzelko.com/11082021225843-pure-functions/index.html </guid>
+  <description>
+    <![CDATA[  An attempted overview on what is meant by pure functions  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Notes on Programming in Haskell  ]]>
+  </title>
+  <link> https://jacobzelko.com/11032021155827-haskell-programming/index.html </link>
+  <guid> https://jacobzelko.com/11032021155827-haskell-programming/index.html </guid>
+  <description>
+    <![CDATA[  My notes on an overview and summary on how to use Haskell  ]]>
+  </description>  
+    
+  <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Functional Programming  ]]>
+  </title>
+  <link> https://jacobzelko.com/11032021180434-functional-programming/index.html </link>
+  <guid> https://jacobzelko.com/11032021180434-functional-programming/index.html </guid>
+  <description>
+    <![CDATA[  An overview on what functional programming is and the  ]]>
+  </description>  
+    
+  <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Prelude - Haskell&#39;s Standard Library  ]]>
+  </title>
+  <link> https://jacobzelko.com/11032021171123-prelude-haskell-library/index.html </link>
+  <guid> https://jacobzelko.com/11032021171123-prelude-haskell-library/index.html </guid>
+  <description>
+    <![CDATA[  An overview of important components from Haskell&#39;s standard  ]]>
+  </description>  
+    
+  <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Manipulating Files in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021203741-R-file-manipulation/index.html </link>
+  <guid> https://jacobzelko.com/02082021203741-R-file-manipulation/index.html </guid>
+  <description>
+    <![CDATA[  Tips and tricks on how to manipulate files in R  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  renv - Reproducible Environments in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021205610-renv-package/index.html </link>
+  <guid> https://jacobzelko.com/02082021205610-renv-package/index.html </guid>
+  <description>
+    <![CDATA[  Useful state of the art package for reproducing R projects  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Programming in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021203324-r-programming/index.html </link>
+  <guid> https://jacobzelko.com/02082021203324-r-programming/index.html </guid>
+  <description>
+    <![CDATA[  Tips and tricks I learn while writing R code  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Implicit Returns  ]]>
+  </title>
+  <link> https://jacobzelko.com/05192020171152-implicit-return/index.html </link>
+  <guid> https://jacobzelko.com/05192020171152-implicit-return/index.html </guid>
+  <description>
+    <![CDATA[  How Julia performs implicit returns  ]]>
+  </description>  
+    
+  <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Global Programming Paradigm  ]]>
+  </title>
+  <link> https://jacobzelko.com/04182020162028-global-programming/index.html </link>
+  <guid> https://jacobzelko.com/04182020162028-global-programming/index.html </guid>
+  <description>
+    <![CDATA[  A thought on a global overlapping paradigm for developing useful and just-in-time software  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

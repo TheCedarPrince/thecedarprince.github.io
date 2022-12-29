@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/01112022215755-oxygen-saturation/index.html </link>
+  <guid> https://jacobzelko.com/01112022215755-oxygen-saturation/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and its use as a biomarker and use in signal processing.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Electronic Health Records  ]]>
+  </title>
+  <link> https://jacobzelko.com/01082021031034-electronic-health-records/index.html </link>
+  <guid> https://jacobzelko.com/01082021031034-electronic-health-records/index.html </guid>
+  <description>
+    <![CDATA[  An overview of Electronic Health Records  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  EDA as a Biomarker  ]]>
+  </title>
+  <link> https://jacobzelko.com/04092020153616-eda-biomarker/index.html </link>
+  <guid> https://jacobzelko.com/04092020153616-eda-biomarker/index.html </guid>
+  <description>
+    <![CDATA[  How EDA is used generally as a biomarker.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Electrodermal Activity  ]]>
+  </title>
+  <link> https://jacobzelko.com/03232020235136-electrodermal-activity/index.html </link>
+  <guid> https://jacobzelko.com/03232020235136-electrodermal-activity/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what electrodermal activity is and its use as a biomarker and use in signal processing.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  SARS-CoV-2  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020051547-sars-cov-2/index.html </link>
+  <guid> https://jacobzelko.com/03102020051547-sars-cov-2/index.html </guid>
+  <description>
+    <![CDATA[  Gives an overview of the 2020 SARS-CoV-2 &#40;COVID19&#41; pandemic and what the disease is.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  WFDB Record  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020061429-wfdb-format/index.html </link>
+  <guid> https://jacobzelko.com/03102020061429-wfdb-format/index.html </guid>
+  <description>
+    <![CDATA[  Overview of the Waveform Database &#40;WFDB&#41; record format  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Open Wearables Initiative  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </link>
+  <guid> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </guid>
+  <description>
+    <![CDATA[  OWEAR is a collaboration designed to promote the effective use of sensor-generated measures of health in clinical research through the open sharing and benchmarking of algorithms and datasets.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Health Index, Jacob 😷  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020025554-health-index/index.html </link>
+  <guid> https://jacobzelko.com/03092020025554-health-index/index.html </guid>
+  <description>
+    <![CDATA[  Index of topics pertaining to health, healthcare, public health, and other domains.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

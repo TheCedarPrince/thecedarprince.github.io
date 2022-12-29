@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  What is   ]]>
+  </title>
+  <link> https://jacobzelko.com/05222022044134-normal-science/index.html </link>
+  <guid> https://jacobzelko.com/05222022044134-normal-science/index.html </guid>
+  <description>
+    <![CDATA[  An overview of what normal science is according to Thomas Kuhn.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  On the Non-Linearity of Science  ]]>
   </title>
   <link> https://jacobzelko.com/05222022050357-non-linearity-science/index.html </link>
@@ -61,15 +80,15 @@
 
 <item>
   <title>
-    <![CDATA[  What is <em>Normal Science</em>?  ]]>
+    <![CDATA[  The Structure of Scientific Revolutions  ]]>
   </title>
-  <link> https://jacobzelko.com/05222022044134-normal-science/index.html </link>
-  <guid> https://jacobzelko.com/05222022044134-normal-science/index.html </guid>
+  <link> https://jacobzelko.com/05152022174848-structure-revolutions/index.html </link>
+  <guid> https://jacobzelko.com/05152022174848-structure-revolutions/index.html </guid>
   <description>
-    <![CDATA[  An overview of what normal science is according to Thomas Kuhn.  ]]>
+    <![CDATA[  A book review of Thomas Kuhn&#39;s most famous book that challenged all of the philosophy of science and introduced such concepts as normal science, paradigm shift, why non-scientific fields struggle with similar revolutions, and when one can adopt new paradigms.  ]]>
   </description>  
     
-  <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
+  <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
@@ -80,15 +99,129 @@
 
 <item>
   <title>
-    <![CDATA[  The Structure of Scientific Revolutions  ]]>
+    <![CDATA[  Divide and Conquer Algorithmic Design  ]]>
   </title>
-  <link> https://jacobzelko.com/05152022174848-structure-revolutions/index.html </link>
-  <guid> https://jacobzelko.com/05152022174848-structure-revolutions/index.html </guid>
+  <link> https://jacobzelko.com/01072021062203-divide-conquer/index.html </link>
+  <guid> https://jacobzelko.com/01072021062203-divide-conquer/index.html </guid>
   <description>
-    <![CDATA[  A book review of Thomas Kuhn&#39;s most famous book that challenged all of the philosophy of science and introduced such concepts as normal science, paradigm shift, why non-scientific fields struggle with similar revolutions, and when one can adopt new paradigms.  ]]>
+    <![CDATA[  The divide and conquer design paradigm to break down a problem to smaller parts and rebuild it to a solution  ]]>
   </description>  
     
-  <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>  
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Loop Invariants  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021071650-loop-invariants/index.html </link>
+  <guid> https://jacobzelko.com/01072021071650-loop-invariants/index.html </guid>
+  <description>
+    <![CDATA[  Statements used to show the correctness of an algorithm  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience/index.html </link>
+  <guid> https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience/index.html </guid>
+  <description>
+    <![CDATA[  How to approach the dilemma of visualizing complex data in neuroscience.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Sorting Algorithms  ]]>
+  </title>
+  <link> https://jacobzelko.com/12192020180920-sorting-algorithms/index.html </link>
+  <guid> https://jacobzelko.com/12192020180920-sorting-algorithms/index.html </guid>
+  <description>
+    <![CDATA[  Sorting algorithms take in an array of unsorted data as input  ]]>
+  </description>  
+    
+  <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What are Voxels  ]]>
+  </title>
+  <link> https://jacobzelko.com/11302020054820-voxel/index.html </link>
+  <guid> https://jacobzelko.com/11302020054820-voxel/index.html </guid>
+  <description>
+    <![CDATA[  A summary on what voxels are and their applications  ]]>
+  </description>  
+    
+  <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  DrWatson.jl  ]]>
+  </title>
+  <link> https://jacobzelko.com/10262020033701-drwatson-pkg/index.html </link>
+  <guid> https://jacobzelko.com/10262020033701-drwatson-pkg/index.html </guid>
+  <description>
+    <![CDATA[  DrWatson is a strong tool for encouraging reproducible science and enforces good project management.  ]]>
+  </description>  
+    
+  <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Education as a Spectrum  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020022908-education-spectrum/index.html </link>
+  <guid> https://jacobzelko.com/03092020022908-education-spectrum/index.html </guid>
+  <description>
+    <![CDATA[  The idea that there is no clear delineation of knowledge in reality.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>  
   
   
   <atom:author>

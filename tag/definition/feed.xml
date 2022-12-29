@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Definitions Concerning Terrorism  ]]>
+  </title>
+  <link> https://jacobzelko.com/08282022133230-definitions-around-terrorism/index.html </link>
+  <guid> https://jacobzelko.com/08282022133230-definitions-around-terrorism/index.html </guid>
+  <description>
+    <![CDATA[  A summary note focused on definitions concerning terrorism and  ]]>
+  </description>  
+    
+  <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Are Bundles or Groups?  ]]>
+  </title>
+  <link> https://jacobzelko.com/08052021202559-bundles-grouping/index.html </link>
+  <guid> https://jacobzelko.com/08052021202559-bundles-grouping/index.html </guid>
+  <description>
+    <![CDATA[  Explaining what bundles or groups are in the context of All-Payer Claims Databases  ]]>
+  </description>  
+    
+  <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Definition of Data Fusion  ]]>
+  </title>
+  <link> https://jacobzelko.com/04222020154543-data-fusion/index.html </link>
+  <guid> https://jacobzelko.com/04222020154543-data-fusion/index.html </guid>
+  <description>
+    <![CDATA[  One of the best definitions I have found for data fusion  ]]>
+  </description>  
+    
+  <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  GTD Definition  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020050130-gtd-definition/index.html </link>
+  <guid> https://jacobzelko.com/03192020050130-gtd-definition/index.html </guid>
+  <description>
+    <![CDATA[  A concise definition of what the GTD framework is.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

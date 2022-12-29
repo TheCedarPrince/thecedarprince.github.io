@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Introduction To Streaming for Data Scientists">
+<meta name="description" content="What is streaming data and how it can be used in data science and other applications">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Introduction To Streaming for Data Scientists">
+<meta property="og:description" content="What is streaming data and how it can be used in data science and other applications">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Introduction To Streaming for Data Scientists">
+<meta property="twitter:description" content="What is streaming data and how it can be used in data science and other applications">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+  
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Introduction To Streaming for Data Scientists</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>Introduction To Streaming for Data Scientists</h1>
+<p><strong>Date:</strong> September 9 2022</p>
+<p><strong>Summary:</strong> What is streaming data and how it can be used in data science and other applications</p>
+<p><strong>Keywords:</strong> #archive #data #streaming</p>
+<h1>Bibliography</h1>
+<p>C. Huyen, “Introduction to streaming for data scientists,” Aug. 03, 2022. https://huyenchip.com//2022/08/03/stream-processing-for-data-scientists.html &#40;accessed Sep. 02, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#reading_motivation">Reading Motivation</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="reading_motivation"><a href="#reading_motivation" class="header-anchor">Reading Motivation</a></h3>
+<p>Streaming is an immensely important concept I have consistently found. I came to appreciate the concept more deeply by interacting with <a href="/https://juliaio.github.io/TranscodingStreams.jl/stable/">TranscodingStreams.jl</a> to parse terabytes worth of data out of memory in a JSON format &#40;shudders at the thought of this&#41;.</p>
+<p>Once your data is stored in files, data lakes, or data warehouses, it becomes historical data.</p>
+<p>Streaming data refers to data that is still flowing through a system, e.g. moving from one microservice to another.</p>
+<p>Historical data is often processed in batch jobs — jobs that are kicked off periodically. For example, once a day, you might want to kick off a batch job to generate recommendations for all users. When data is processed in batch jobs, we refer to it as batch processing.</p>
+<p>Stream processing refers to doing computation on streaming data.</p>
+<p>Batch prediction means periodically generating predictions offline, before prediction requests arise.</p>
+<p>Online prediction means generating predictions on-demand, after prediction requests arise.</p>
+<p>One of the features you might use is the average price of all the items this user has looked at in the last 30 minutes. This is an online feature – it needs to be computed on online data &#40;as opposed to being pre-computed on historical data&#41;</p>
+<p>This “easy” way is stateless, which means that each computation is independent from the previous one.</p>
+<p>Stateful stream processing can avoid redundancy, hence faster and cheaper.</p>
+<p>Batch monitoring means running a script to compute the metrics you care about periodically &#40;like once a day&#41;, usually on data in warehouses like S3, BigQuery, Snowflake, etc. Batch monitoring is slow. You first have to wait for data to arrive at warehouses, then wait for the script to run.</p>
+<p>Real-time monitoring means computing metrics on data as it arrives, allowing you to get insights into your systems in &#40;near&#41; real-time.</p>
+<p>Continual learning refers to the ability to update your models whenever needed and to deploy this update quickly.</p>
+<p>Overtime, we’ll have a series of ordered updates, which is called a log. Each update is an example of an event. Logs are append-only. You can only append the new events to your existing log. You can’t overwrite previous events.</p>
+<p>There are two components of a streaming system: the realtime transport and the computation engine. The real-time transport, which are basically distributed logs.</p>
+<p>The computation engine performs computation &#40;e.g. joining, aggregation, filtering, etc.&#41; on the data being transported.</p>
+<p>The total price and the count constitute the internal state of the stream processing job.</p>
+<p>The saved internal state is called a checkpoint &#40;or savepoint&#41;, and this job can resume from any checkpoint.</p>
+<p>The computed average price value, if saved, will become a materialized view of the feature average price.</p>
+<p>Or you can update it using only the new information &#40;e.g. using the latest materialized average price &#43; the prices of updated items&#41;. The latter is called incremental materialized.</p>
+<p>Point-in-time correctness refers to a system’s ability to accurately perform a computation as it would’ve happened at any time in the past. Point-in-time correctness means no data leakage.</p>
+<p>Retroactively processing historical data using a different logic is also called backfilling.</p>
+<p>With batch backfilling, you can apply the new logic &#40;e.g. new feature definition&#41; to a table in the past.</p>
+<p>With stream backfilling, you can apply the new logic to the log in a given period of time in the past, e.g. apply it to the log on June 10, 2022.</p>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+  </body>
+</html>

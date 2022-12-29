@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  What Is Intersectionality and Intersectionality Theory?  ]]>
+  </title>
+  <link> https://jacobzelko.com/11042022141714-what-intersectionality-theory/index.html </link>
+  <guid> https://jacobzelko.com/11042022141714-what-intersectionality-theory/index.html </guid>
+  <description>
+    <![CDATA[  An overview and summary on what is intersectionality and  ]]>
+  </description>  
+    
+  <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Structural Intersectionality as a New Direction for Health Disparities Research  ]]>
+  </title>
+  <link> https://jacobzelko.com/11042022134535-structural-intersectionality/index.html </link>
+  <guid> https://jacobzelko.com/11042022134535-structural-intersectionality/index.html </guid>
+  <description>
+    <![CDATA[  An introduction to intersectionality theory and medical sociological ideas at play within health disparities research  ]]>
+  </description>  
+    
+  <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

@@ -23,15 +23,34 @@
 
 <item>
   <title>
-    <![CDATA[  The Open Knowledge Standard  ]]>
+    <![CDATA[  Prelude - Haskell&#39;s Standard Library  ]]>
   </title>
-  <link> https://jacobzelko.com/04172022033744-open-knowledge-standard/index.html </link>
-  <guid> https://jacobzelko.com/04172022033744-open-knowledge-standard/index.html </guid>
+  <link> https://jacobzelko.com/11032021171123-prelude-haskell-library/index.html </link>
+  <guid> https://jacobzelko.com/11032021171123-prelude-haskell-library/index.html </guid>
   <description>
-    <![CDATA[  A working proposal on a standard knowledge format for taking notes  ]]>
+    <![CDATA[  An overview of important components from Haskell&#39;s standard  ]]>
   </description>  
     
-  <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>  
+  <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  WFDB Record  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020061429-wfdb-format/index.html </link>
+  <guid> https://jacobzelko.com/03102020061429-wfdb-format/index.html </guid>
+  <description>
+    <![CDATA[  Overview of the Waveform Database &#40;WFDB&#41; record format  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   
   
   <atom:author>

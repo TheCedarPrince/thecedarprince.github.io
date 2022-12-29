@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Suicide  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020192840-suicide/index.html </link>
+  <guid> https://jacobzelko.com/07122020192840-suicide/index.html </guid>
+  <description>
+    <![CDATA[  Defining and exploring what suicide is  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Defining Digital Self-Harm  ]]>
+  </title>
+  <link> https://jacobzelko.com/06202020205907-digital-harm/index.html </link>
+  <guid> https://jacobzelko.com/06202020205907-digital-harm/index.html </guid>
+  <description>
+    <![CDATA[  An overview on what is digital self harm  ]]>
+  </description>  
+    
+  <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Self-Harm  ]]>
+  </title>
+  <link> https://jacobzelko.com/07082020161946-self-harm/index.html </link>
+  <guid> https://jacobzelko.com/07082020161946-self-harm/index.html </guid>
+  <description>
+    <![CDATA[  Self-harm is a mental illness that results in causing pain or harm to oneself  ]]>
+  </description>  
+    
+  <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

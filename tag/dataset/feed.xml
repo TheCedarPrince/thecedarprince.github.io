@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  All Of Us Initiative  ]]>
+  </title>
+  <link> https://jacobzelko.com/09202021224748-all-of-us/index.html </link>
+  <guid> https://jacobzelko.com/09202021224748-all-of-us/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the All Of Us Research Dataset and Program  ]]>
+  </description>  
+    
+  <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Cuebiq Mobility Data Summary  ]]>
+  </title>
+  <link> https://jacobzelko.com/06082021203922-cuebiq-mobility-summary/index.html </link>
+  <guid> https://jacobzelko.com/06082021203922-cuebiq-mobility-summary/index.html </guid>
+  <description>
+    <![CDATA[  An overview of where Cuebiq mobility data comes from and a highlight of some of its key variables.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021062915-mobility-patterns-gtri/index.html </link>
+  <guid> https://jacobzelko.com/01072021062915-mobility-patterns-gtri/index.html </guid>
+  <description>
+    <![CDATA[  How population mobility was affected by US mandates for stay-at-home orders  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  TriNet  ]]>
+  </title>
+  <link> https://jacobzelko.com/07192020013500-trinetx-covid/index.html </link>
+  <guid> https://jacobzelko.com/07192020013500-trinetx-covid/index.html </guid>
+  <description>
+    <![CDATA[  An overview of what the TriNetX COVID-19 research platform is and how it works  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Open Wearables Initiative  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </link>
+  <guid> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </guid>
+  <description>
+    <![CDATA[  OWEAR is a collaboration designed to promote the effective use of sensor-generated measures of health in clinical research through the open sharing and benchmarking of algorithms and datasets.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

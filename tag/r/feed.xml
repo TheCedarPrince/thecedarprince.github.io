@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Exploring Drug Concepts by Name  ]]>
+  </title>
+  <link> https://jacobzelko.com/07282021211226-drug-concepts/index.html </link>
+  <guid> https://jacobzelko.com/07282021211226-drug-concepts/index.html </guid>
+  <description>
+    <![CDATA[  How to explore drugs in an OHDSI table by name  ]]>
+  </description>  
+    
+  <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Exploring Ancestors and Descendants of a Concept  ]]>
+  </title>
+  <link> https://jacobzelko.com/07282021202459-exploring-ancestors-concept/index.html </link>
+  <guid> https://jacobzelko.com/07282021202459-exploring-ancestors-concept/index.html </guid>
+  <description>
+    <![CDATA[  How to explore ancestors and descendants of OHDSI concepts  ]]>
+  </description>  
+    
+  <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Manipulating Files in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021203741-R-file-manipulation/index.html </link>
+  <guid> https://jacobzelko.com/02082021203741-R-file-manipulation/index.html </guid>
+  <description>
+    <![CDATA[  Tips and tricks on how to manipulate files in R  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  renv - Reproducible Environments in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021205610-renv-package/index.html </link>
+  <guid> https://jacobzelko.com/02082021205610-renv-package/index.html </guid>
+  <description>
+    <![CDATA[  Useful state of the art package for reproducing R projects  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Programming in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021203324-r-programming/index.html </link>
+  <guid> https://jacobzelko.com/02082021203324-r-programming/index.html </guid>
+  <description>
+    <![CDATA[  Tips and tricks I learn while writing R code  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

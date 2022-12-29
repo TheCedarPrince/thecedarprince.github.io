@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Telehealth for global emergencies: Implications for coronavirus disease 2019 &#40;COVID-19&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/05022022171845-telehealth-global-emergencies/index.html </link>
+  <guid> https://jacobzelko.com/05022022171845-telehealth-global-emergencies/index.html </guid>
+  <description>
+    <![CDATA[  A great summary of how telehealth interventions can be used both in the COVID-19 pandemic and in general  ]]>
+  </description>  
+    
+  <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020  ]]>
+  </title>
+  <link> https://jacobzelko.com/06072021210734-mask-mandates-association/index.html </link>
+  <guid> https://jacobzelko.com/06072021210734-mask-mandates-association/index.html </guid>
+  <description>
+    <![CDATA[  How mask mandates could be correlated with on site dining and COVID death and growth rates  ]]>
+  </description>  
+    
+  <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020  ]]>
+  </title>
+  <link> https://jacobzelko.com/06072021214725-decline-hospitilizations-mask/index.html </link>
+  <guid> https://jacobzelko.com/06072021214725-decline-hospitilizations-mask/index.html </guid>
+  <description>
+    <![CDATA[  How mask mandates were associated with decreases in COVID hospitalization growth rates  ]]>
+  </description>  
+    
+  <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021062915-mobility-patterns-gtri/index.html </link>
+  <guid> https://jacobzelko.com/01072021062915-mobility-patterns-gtri/index.html </guid>
+  <description>
+    <![CDATA[  How population mobility was affected by US mandates for stay-at-home orders  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Income and Poverty in the COVID-19 Pandemic  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020152055-income-poverty-pandemic/index.html </link>
+  <guid> https://jacobzelko.com/12282020152055-income-poverty-pandemic/index.html </guid>
+  <description>
+    <![CDATA[  Emerging insights into income and poverty during the COVID-19 pandemic  ]]>
+  </description>  
+    
+  <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

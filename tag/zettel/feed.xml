@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Context-Aware Applications  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020071146-context-aware/index.html </link>
+  <guid> https://jacobzelko.com/03092020071146-context-aware/index.html </guid>
+  <description>
+    <![CDATA[  Explains what is a context-aware application.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Principles of the Zettelkasten  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020031618-zettelkasten-principles/index.html </link>
+  <guid> https://jacobzelko.com/03092020031618-zettelkasten-principles/index.html </guid>
+  <description>
+    <![CDATA[  General principles on how to create and use a Zettelkasten.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Aware Home: A Living Laboratory for Ubiquitous Computing Research  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020035135-kidd-aware-home/index.html </link>
+  <guid> https://jacobzelko.com/03092020035135-kidd-aware-home/index.html </guid>
+  <description>
+    <![CDATA[  Gives an overview of the Georgia Tech Aware Home.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Health as a Spectrum  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020022148-health-spectrum/index.html </link>
+  <guid> https://jacobzelko.com/03092020022148-health-spectrum/index.html </guid>
+  <description>
+    <![CDATA[  An idea that health can exist on a spectrum  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Learning MySQL  ]]>
+  </title>
+  <link> https://jacobzelko.com/03152021204433-mysql-programming/index.html </link>
+  <guid> https://jacobzelko.com/03152021204433-mysql-programming/index.html </guid>
+  <description>
+    <![CDATA[  Notes on my adventures in learning MySQL syntax and concepts  ]]>
+  </description>  
+    
+  <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Metapopulation Analysis  ]]>
+  </title>
+  <link> https://jacobzelko.com/03012021162136-metapopulation-analysis/index.html </link>
+  <guid> https://jacobzelko.com/03012021162136-metapopulation-analysis/index.html </guid>
+  <description>
+    <![CDATA[  An overview of metapopulation analysis and how it could be  ]]>
+  </description>  
+    
+  <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Organized Denialism  ]]>
+  </title>
+  <link> https://jacobzelko.com/02092021024221-organized-denialism/index.html </link>
+  <guid> https://jacobzelko.com/02092021024221-organized-denialism/index.html </guid>
+  <description>
+    <![CDATA[  Organized ignorance and invalidation of legitimate information  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Manipulating Files in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021203741-R-file-manipulation/index.html </link>
+  <guid> https://jacobzelko.com/02082021203741-R-file-manipulation/index.html </guid>
+  <description>
+    <![CDATA[  Tips and tricks on how to manipulate files in R  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  renv - Reproducible Environments in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021205610-renv-package/index.html </link>
+  <guid> https://jacobzelko.com/02082021205610-renv-package/index.html </guid>
+  <description>
+    <![CDATA[  Useful state of the art package for reproducing R projects  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Programming in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021203324-r-programming/index.html </link>
+  <guid> https://jacobzelko.com/02082021203324-r-programming/index.html </guid>
+  <description>
+    <![CDATA[  Tips and tricks I learn while writing R code  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  CDM Standardized Tables  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021170353-cdm-standardized-tables/index.html </link>
+  <guid> https://jacobzelko.com/02082021170353-cdm-standardized-tables/index.html </guid>
+  <description>
+    <![CDATA[  Standardized tables used in the OMOP Common Data Model  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Functional Gestures  ]]>
+  </title>
+  <link> https://jacobzelko.com/02072021223949-functional-gestures/index.html </link>
+  <guid> https://jacobzelko.com/02072021223949-functional-gestures/index.html </guid>
+  <description>
+    <![CDATA[  Physical gestures that carry semantic meaning  ]]>
+  </description>  
+    
+  <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Race  ]]>
+  </title>
+  <link> https://jacobzelko.com/01202021041928-what-is-race/index.html </link>
+  <guid> https://jacobzelko.com/01202021041928-what-is-race/index.html </guid>
+  <description>
+    <![CDATA[  Overviews on what race is as a concept  ]]>
+  </description>  
+    
+  <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Census Groups  ]]>
+  </title>
+  <link> https://jacobzelko.com/01202021043013-census-groups/index.html </link>
+  <guid> https://jacobzelko.com/01202021043013-census-groups/index.html </guid>
+  <description>
+    <![CDATA[  Overview on what US Census block groups are  ]]>
+  </description>  
+    
+  <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Divide and Conquer Algorithmic Design  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021062203-divide-conquer/index.html </link>
+  <guid> https://jacobzelko.com/01072021062203-divide-conquer/index.html </guid>
+  <description>
+    <![CDATA[  The divide and conquer design paradigm to break down a problem to smaller parts and rebuild it to a solution  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Loop Invariants  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021071650-loop-invariants/index.html </link>
+  <guid> https://jacobzelko.com/01072021071650-loop-invariants/index.html </guid>
+  <description>
+    <![CDATA[  Statements used to show the correctness of an algorithm  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Independent Component Analysis  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021054854-independent-component-analysis/index.html </link>
+  <guid> https://jacobzelko.com/01072021054854-independent-component-analysis/index.html </guid>
+  <description>
+    <![CDATA[  What independent component analysis is  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Random Access Machine &#40;RAM&#41; Model  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021072613-random-access-model/index.html </link>
+  <guid> https://jacobzelko.com/01072021072613-random-access-model/index.html </guid>
+  <description>
+    <![CDATA[  Modeling computational actions as single step actions  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Electronic Health Records  ]]>
+  </title>
+  <link> https://jacobzelko.com/01082021031034-electronic-health-records/index.html </link>
+  <guid> https://jacobzelko.com/01082021031034-electronic-health-records/index.html </guid>
+  <description>
+    <![CDATA[  An overview of Electronic Health Records  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Are Computable Phenotypes?  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021074632-computable-phenotypes/index.html </link>
+  <guid> https://jacobzelko.com/01072021074632-computable-phenotypes/index.html </guid>
+  <description>
+    <![CDATA[  An overview into what computable phenotypes are and how they are used.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Arithmetic Sums &amp; Series  ]]>
+  </title>
+  <link> https://jacobzelko.com/01052021044121-arithmetic-series/index.html </link>
+  <guid> https://jacobzelko.com/01052021044121-arithmetic-series/index.html </guid>
+  <description>
+    <![CDATA[  A brief overview on what arithmetic series are and some of its underlying math.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  All-Payer Claims Database  ]]>
+  </title>
+  <link> https://jacobzelko.com/01022021031334-all-payer-claims/index.html </link>
+  <guid> https://jacobzelko.com/01022021031334-all-payer-claims/index.html </guid>
+  <description>
+    <![CDATA[  An overview on what all payer claims databases are  ]]>
+  </description>  
+    
+  <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Peripheral Nervous System  ]]>
+  </title>
+  <link> https://jacobzelko.com/01022021030507-peripheral-nervous-system/index.html </link>
+  <guid> https://jacobzelko.com/01022021030507-peripheral-nervous-system/index.html </guid>
+  <description>
+    <![CDATA[  Notes on the peripheral nervous system  ]]>
+  </description>  
+    
+  <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Flow  ]]>
+  </title>
+  <link> https://jacobzelko.com/12302020172825-flow/index.html </link>
+  <guid> https://jacobzelko.com/12302020172825-flow/index.html </guid>
+  <description>
+    <![CDATA[  What is the concept of flow and being in a flow state  ]]>
+  </description>  
+    
+  <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Positron Emission Tomography &#40;PET&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020161408-positron-emission-tomography/index.html </link>
+  <guid> https://jacobzelko.com/12282020161408-positron-emission-tomography/index.html </guid>
+  <description>
+    <![CDATA[  What is Positron Emission Tomography &#40;PET&#41; scans  ]]>
+  </description>  
+    
+  <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Functional Magnetic Resonance Imaging  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020003750-functional-mri/index.html </link>
+  <guid> https://jacobzelko.com/12282020003750-functional-mri/index.html </guid>
+  <description>
+    <![CDATA[  What is an fMRI or Functional Magnetic Resonance Imaging  ]]>
+  </description>  
+    
+  <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Magnetoencephalography &#40;MEG&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020161201-magnetoencephalography/index.html </link>
+  <guid> https://jacobzelko.com/12282020161201-magnetoencephalography/index.html </guid>
+  <description>
+    <![CDATA[  What Magnetoencephalography is  ]]>
+  </description>  
+    
+  <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Electroencephalography  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020023207-electroencephalographs/index.html </link>
+  <guid> https://jacobzelko.com/12282020023207-electroencephalographs/index.html </guid>
+  <description>
+    <![CDATA[  What is Electroencephalography?  ]]>
+  </description>  
+    
+  <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is a Connectogram?  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020022324-connectogram/index.html </link>
+  <guid> https://jacobzelko.com/12282020022324-connectogram/index.html </guid>
+  <description>
+    <![CDATA[  Connectograms visuzalize the complicated data found in  ]]>
+  </description>  
+    
+  <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Contact Tracing  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020023843-contact-tracing/index.html </link>
+  <guid> https://jacobzelko.com/12282020023843-contact-tracing/index.html </guid>
+  <description>
+    <![CDATA[  Tracking contact between individuals of interest.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Dynamic Functional Connectivity  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020003106-dynamic-functional-connectivity/index.html </link>
+  <guid> https://jacobzelko.com/12282020003106-dynamic-functional-connectivity/index.html </guid>
+  <description>
+    <![CDATA[  The brain exhibiting changes to functional activity over time.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Functional Connectivity  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020004327-functional-connectivity/index.html </link>
+  <guid> https://jacobzelko.com/12282020004327-functional-connectivity/index.html </guid>
+  <description>
+    <![CDATA[  Brain activity which occurs between spatially separated  ]]>
+  </description>  
+    
+  <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Selection Sort  ]]>
+  </title>
+  <link> https://jacobzelko.com/12212020214012-selection-sort/index.html </link>
+  <guid> https://jacobzelko.com/12212020214012-selection-sort/index.html </guid>
+  <description>
+    <![CDATA[  Selection sort utilizes repeated usages of linear searches to  ]]>
+  </description>  
+    
+  <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Sliding Window Analysis  ]]>
+  </title>
+  <link> https://jacobzelko.com/11302020054836-sliding-window-analysis/index.html </link>
+  <guid> https://jacobzelko.com/11302020054836-sliding-window-analysis/index.html </guid>
+  <description>
+    <![CDATA[  How sliding window analysis works and is implemented  ]]>
+  </description>  
+    
+  <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Stereographic Projection  ]]>
+  </title>
+  <link> https://jacobzelko.com/11132020052431-stereographic-projection/index.html </link>
+  <guid> https://jacobzelko.com/11132020052431-stereographic-projection/index.html </guid>
+  <description>
+    <![CDATA[  A small note on the stereographic projection method  ]]>
+  </description>  
+    
+  <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Brain Imaging Data Structure &#40;BIDS&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/11052020174635-brain-imaging-structure/index.html </link>
+  <guid> https://jacobzelko.com/11052020174635-brain-imaging-structure/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the BIDS style for Brain Imaging Data.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Apache Arrow  ]]>
+  </title>
+  <link> https://jacobzelko.com/10262020041544-apache-arrow/index.html </link>
+  <guid> https://jacobzelko.com/10262020041544-apache-arrow/index.html </guid>
+  <description>
+    <![CDATA[  Language-agnostic in-memory columnar format for analytical query engines and data frames  ]]>
+  </description>  
+    
+  <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  DrWatson.jl  ]]>
+  </title>
+  <link> https://jacobzelko.com/10262020033701-drwatson-pkg/index.html </link>
+  <guid> https://jacobzelko.com/10262020033701-drwatson-pkg/index.html </guid>
+  <description>
+    <![CDATA[  DrWatson is a strong tool for encouraging reproducible science and enforces good project management.  ]]>
+  </description>  
+    
+  <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Multiscale Entropy  ]]>
+  </title>
+  <link> https://jacobzelko.com/10082020005615-multiscale-entropy/index.html </link>
+  <guid> https://jacobzelko.com/10082020005615-multiscale-entropy/index.html </guid>
+  <description>
+    <![CDATA[  Brief synopsis/explanation of what is Multiscale Entropy  ]]>
+  </description>  
+    
+  <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  TriNet  ]]>
+  </title>
+  <link> https://jacobzelko.com/07192020013500-trinetx-covid/index.html </link>
+  <guid> https://jacobzelko.com/07192020013500-trinetx-covid/index.html </guid>
+  <description>
+    <![CDATA[  An overview of what the TriNetX COVID-19 research platform is and how it works  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Intellectual and Developmental Disability  ]]>
+  </title>
+  <link> https://jacobzelko.com/07192020025408-intellectual-developmental-disability/index.html </link>
+  <guid> https://jacobzelko.com/07192020025408-intellectual-developmental-disability/index.html </guid>
+  <description>
+    <![CDATA[  What is Intellectual and Developmental Disability  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Indirect Self Harm  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020174529-indirect-self-harm/index.html </link>
+  <guid> https://jacobzelko.com/07122020174529-indirect-self-harm/index.html </guid>
+  <description>
+    <![CDATA[  Indirect self harm definition and associated examples  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Direct Self-Harm  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020185239-direct-self-harm/index.html </link>
+  <guid> https://jacobzelko.com/07122020185239-direct-self-harm/index.html </guid>
+  <description>
+    <![CDATA[  An overview of direct self harm and how it differs from other types of self-harming behaviors  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  False Expertise  ]]>
+  </title>
+  <link> https://jacobzelko.com/07132020022756-media-timothy/index.html </link>
+  <guid> https://jacobzelko.com/07132020022756-media-timothy/index.html </guid>
+  <description>
+    <![CDATA[  How Timothy speaks truth to today about false expertise abounding from social media  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Suicide  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020192840-suicide/index.html </link>
+  <guid> https://jacobzelko.com/07122020192840-suicide/index.html </guid>
+  <description>
+    <![CDATA[  Defining and exploring what suicide is  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Treatments for SARS-CoV  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020195122-sars-cov-treatments/index.html </link>
+  <guid> https://jacobzelko.com/07122020195122-sars-cov-treatments/index.html </guid>
+  <description>
+    <![CDATA[  Known treatment methods for SARS-CoV  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Hypothesis on Cytokine Dysregulation Worsened by COVID19 for People with ASD  ]]>
+  </title>
+  <link> https://jacobzelko.com/07102020174816-cytokine-asd-covid19/index.html </link>
+  <guid> https://jacobzelko.com/07102020174816-cytokine-asd-covid19/index.html </guid>
+  <description>
+    <![CDATA[  Loose hypothesis on worsening of cytokine regulation via ASD and COVID19  ]]>
+  </description>  
+    
+  <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What is Digital Self-Harm  ]]>
+  </title>
+  <link> https://jacobzelko.com/07082020155623-digital-self-harm/index.html </link>
+  <guid> https://jacobzelko.com/07082020155623-digital-self-harm/index.html </guid>
+  <description>
+    <![CDATA[  Exploration of the idea of Digital Self-Harm  ]]>
+  </description>  
+    
+  <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Self-Harm  ]]>
+  </title>
+  <link> https://jacobzelko.com/07082020161946-self-harm/index.html </link>
+  <guid> https://jacobzelko.com/07082020161946-self-harm/index.html </guid>
+  <description>
+    <![CDATA[  Self-harm is a mental illness that results in causing pain or harm to oneself  ]]>
+  </description>  
+    
+  <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Information about Common Coronaviruses  ]]>
+  </title>
+  <link> https://jacobzelko.com/07062020233904-common-coronavirus/index.html </link>
+  <guid> https://jacobzelko.com/07062020233904-common-coronavirus/index.html </guid>
+  <description>
+    <![CDATA[  Information about common coronavirae  ]]>
+  </description>  
+    
+  <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  SARS Coronavirae  ]]>
+  </title>
+  <link> https://jacobzelko.com/07062020234546-sars-coronavirus/index.html </link>
+  <guid> https://jacobzelko.com/07062020234546-sars-coronavirus/index.html </guid>
+  <description>
+    <![CDATA[  Unique characteristics of the SARS Coronvirae family  ]]>
+  </description>  
+    
+  <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Vector Algebra  ]]>
+  </title>
+  <link> https://jacobzelko.com/06172020134504-vector-algebra/index.html </link>
+  <guid> https://jacobzelko.com/06172020134504-vector-algebra/index.html </guid>
+  <description>
+    <![CDATA[  The algebraic functions one can execute on a vector  ]]>
+  </description>  
+    
+  <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Householder Notation  ]]>
+  </title>
+  <link> https://jacobzelko.com/06032020153234-householder-notation/index.html </link>
+  <guid> https://jacobzelko.com/06032020153234-householder-notation/index.html </guid>
+  <description>
+    <![CDATA[  Summary of how Householder notation works  ]]>
+  </description>  
+    
+  <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Spacing Effect  ]]>
+  </title>
+  <link> https://jacobzelko.com/05282020163507-spacing-effect/index.html </link>
+  <guid> https://jacobzelko.com/05282020163507-spacing-effect/index.html </guid>
+  <description>
+    <![CDATA[  A summary of the spacing effect  ]]>
+  </description>  
+    
+  <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Spaced Repetition Systems  ]]>
+  </title>
+  <link> https://jacobzelko.com/05252020183020-spaced-repetition-systems/index.html </link>
+  <guid> https://jacobzelko.com/05252020183020-spaced-repetition-systems/index.html </guid>
+  <description>
+    <![CDATA[  What are Spaced Repetition Systems and what is available?  ]]>
+  </description>  
+    
+  <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Hebbian Theory  ]]>
+  </title>
+  <link> https://jacobzelko.com/05252020222041-hebbian-theory/index.html </link>
+  <guid> https://jacobzelko.com/05252020222041-hebbian-theory/index.html </guid>
+  <description>
+    <![CDATA[  An overview on what Hebbian Theory actually is  ]]>
+  </description>  
+    
+  <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Finding a Line Which Contains Two Points  ]]>
+  </title>
+  <link> https://jacobzelko.com/05202020224416-line-two-points/index.html </link>
+  <guid> https://jacobzelko.com/05202020224416-line-two-points/index.html </guid>
+  <description>
+    <![CDATA[  An explanation on how to find a line that fits to two points  ]]>
+  </description>  
+    
+  <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Implicit Returns  ]]>
+  </title>
+  <link> https://jacobzelko.com/05192020171152-implicit-return/index.html </link>
+  <guid> https://jacobzelko.com/05192020171152-implicit-return/index.html </guid>
+  <description>
+    <![CDATA[  How Julia performs implicit returns  ]]>
+  </description>  
+    
+  <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Predictors and Factors Affecting Smoking Cessation  ]]>
+  </title>
+  <link> https://jacobzelko.com/05182020005014-smoking-recovery-indicators/index.html </link>
+  <guid> https://jacobzelko.com/05182020005014-smoking-recovery-indicators/index.html </guid>
+  <description>
+    <![CDATA[  Common positive and negative factors facilitating smoking cessation.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Linear Combination  ]]>
+  </title>
+  <link> https://jacobzelko.com/05132020134039-linear-combination/index.html </link>
+  <guid> https://jacobzelko.com/05132020134039-linear-combination/index.html </guid>
+  <description>
+    <![CDATA[  A loose overview on linear combination and it geometric relationship  ]]>
+  </description>  
+    
+  <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Vectors  ]]>
+  </title>
+  <link> https://jacobzelko.com/05132020135855-linear-vectors/index.html </link>
+  <guid> https://jacobzelko.com/05132020135855-linear-vectors/index.html </guid>
+  <description>
+    <![CDATA[  Simple write up on column vectors  ]]>
+  </description>  
+    
+  <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Leitner System  ]]>
+  </title>
+  <link> https://jacobzelko.com/05102020220941-leitner-system/index.html </link>
+  <guid> https://jacobzelko.com/05102020220941-leitner-system/index.html </guid>
+  <description>
+    <![CDATA[  A brief overview of how the Leitner system works  ]]>
+  </description>  
+    
+  <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Incremental Reading  ]]>
+  </title>
+  <link> https://jacobzelko.com/05092020053727-incremental-reading/index.html </link>
+  <guid> https://jacobzelko.com/05092020053727-incremental-reading/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the process of incremental reading  ]]>
+  </description>  
+    
+  <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity  ]]>
+  </title>
+  <link> https://jacobzelko.com/05032020155207-fabrication-serendipity/index.html </link>
+  <guid> https://jacobzelko.com/05032020155207-fabrication-serendipity/index.html </guid>
+  <description>
+    <![CDATA[  A more in-depth examination of the Zettelkasten method  ]]>
+  </description>  
+    
+  <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Room as an Extension of the Mind  ]]>
+  </title>
+  <link> https://jacobzelko.com/05092020053840-room-mind/index.html </link>
+  <guid> https://jacobzelko.com/05092020053840-room-mind/index.html </guid>
+  <description>
+    <![CDATA[  Working thought on how a person&#39;s environment can function as an extension of one&#39;s mental processes. Could possibly lead to decrease in cognitive loading.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Sleep as an Act of Faith  ]]>
+  </title>
+  <link> https://jacobzelko.com/04282020175356-sleep-act/index.html </link>
+  <guid> https://jacobzelko.com/04282020175356-sleep-act/index.html </guid>
+  <description>
+    <![CDATA[  Choosing to sleep is an act of faith  ]]>
+  </description>  
+    
+  <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Median Filtering  ]]>
+  </title>
+  <link> https://jacobzelko.com/04252020024813-median-filtering/index.html </link>
+  <guid> https://jacobzelko.com/04252020024813-median-filtering/index.html </guid>
+  <description>
+    <![CDATA[  An overview on how to use and implement a median filter  ]]>
+  </description>  
+    
+  <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Definition of Data Fusion  ]]>
+  </title>
+  <link> https://jacobzelko.com/04222020154543-data-fusion/index.html </link>
+  <guid> https://jacobzelko.com/04222020154543-data-fusion/index.html </guid>
+  <description>
+    <![CDATA[  One of the best definitions I have found for data fusion  ]]>
+  </description>  
+    
+  <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Global Programming Paradigm  ]]>
+  </title>
+  <link> https://jacobzelko.com/04182020162028-global-programming/index.html </link>
+  <guid> https://jacobzelko.com/04182020162028-global-programming/index.html </guid>
+  <description>
+    <![CDATA[  A thought on a global overlapping paradigm for developing useful and just-in-time software  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  EDA as a Biomarker  ]]>
+  </title>
+  <link> https://jacobzelko.com/04092020153616-eda-biomarker/index.html </link>
+  <guid> https://jacobzelko.com/04092020153616-eda-biomarker/index.html </guid>
+  <description>
+    <![CDATA[  How EDA is used generally as a biomarker.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Skin Conductance Level?  ]]>
+  </title>
+  <link> https://jacobzelko.com/04092020161622-skin-conductance/index.html </link>
+  <guid> https://jacobzelko.com/04092020161622-skin-conductance/index.html </guid>
+  <description>
+    <![CDATA[  Summary of what is skin conductance level.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Skin Conductance Response?  ]]>
+  </title>
+  <link> https://jacobzelko.com/04092020162632-skin-response/index.html </link>
+  <guid> https://jacobzelko.com/04092020162632-skin-response/index.html </guid>
+  <description>
+    <![CDATA[  A brief overview of what skin conductance response is and how it is conventionally used.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Criteria for Creating a Note in the Zettelkasten  ]]>
+  </title>
+  <link> https://jacobzelko.com/03302020005409-note-criteria/index.html </link>
+  <guid> https://jacobzelko.com/03302020005409-note-criteria/index.html </guid>
+  <description>
+    <![CDATA[  Simple criteria for when and how to add notes to the Zettelkasten  ]]>
+  </description>  
+    
+  <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  How We Ought to Create  ]]>
+  </title>
+  <link> https://jacobzelko.com/03302020002654-ought-create/index.html </link>
+  <guid> https://jacobzelko.com/03302020002654-ought-create/index.html </guid>
+  <description>
+    <![CDATA[  A note on how we ought to create  ]]>
+  </description>  
+    
+  <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What are Mental Models?  ]]>
+  </title>
+  <link> https://jacobzelko.com/03292020221326-what-mental-models/index.html </link>
+  <guid> https://jacobzelko.com/03292020221326-what-mental-models/index.html </guid>
+  <description>
+    <![CDATA[  A brief synopsis on what mental models are  ]]>
+  </description>  
+    
+  <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Discrete Haar Wavelet Transform  ]]>
+  </title>
+  <link> https://jacobzelko.com/03272020050924-discrete-haar/index.html </link>
+  <guid> https://jacobzelko.com/03272020050924-discrete-haar/index.html </guid>
+  <description>
+    <![CDATA[  Introduction to discrete haar wavelet transform and use cases  ]]>
+  </description>  
+    
+  <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Exponential Smoothing  ]]>
+  </title>
+  <link> https://jacobzelko.com/03272020064312-exponential-smoothing/index.html </link>
+  <guid> https://jacobzelko.com/03272020064312-exponential-smoothing/index.html </guid>
+  <description>
+    <![CDATA[  An overview on how to use the exponential smoothing algorithm  ]]>
+  </description>  
+    
+  <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Common Causes of Artifact in EDA Signals  ]]>
+  </title>
+  <link> https://jacobzelko.com/03272020061037-eda-artifacts/index.html </link>
+  <guid> https://jacobzelko.com/03272020061037-eda-artifacts/index.html </guid>
+  <description>
+    <![CDATA[  An overview of common artifacts in EDA signals  ]]>
+  </description>  
+    
+  <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Electrodermal Activity?  ]]>
+  </title>
+  <link> https://jacobzelko.com/03242020003215-eda-explained/index.html </link>
+  <guid> https://jacobzelko.com/03242020003215-eda-explained/index.html </guid>
+  <description>
+    <![CDATA[  What electrodermal activity is and its pros and cons as a biomarker  ]]>
+  </description>  
+    
+  <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Causality and Information Retrieval  ]]>
+  </title>
+  <link> https://jacobzelko.com/03212020002114-causality-information/index.html </link>
+  <guid> https://jacobzelko.com/03212020002114-causality-information/index.html </guid>
+  <description>
+    <![CDATA[  Thoughts on why I think JITRs are inferior to causal models.  ]]>
+  </description>  
+    
+  <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Monthly Planning in a Bullet Journal  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020013347-bullet-journal-month/index.html </link>
+  <guid> https://jacobzelko.com/03192020013347-bullet-journal-month/index.html </guid>
+  <description>
+    <![CDATA[  How to create a monthly plan when using a bullet journal.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  GTD Implementation  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020050207-gtd-implementation/index.html </link>
+  <guid> https://jacobzelko.com/03192020050207-gtd-implementation/index.html </guid>
+  <description>
+    <![CDATA[  A guide on how GTD is implemented.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  GTD Definition  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020050130-gtd-definition/index.html </link>
+  <guid> https://jacobzelko.com/03192020050130-gtd-definition/index.html </guid>
+  <description>
+    <![CDATA[  A concise definition of what the GTD framework is.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Trigger Lists  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020050346-trigger-list/index.html </link>
+  <guid> https://jacobzelko.com/03192020050346-trigger-list/index.html </guid>
+  <description>
+    <![CDATA[  Trigger lists can be used to &#39;trigger&#39; ideas or thoughts by reading custom phrases or items on a list.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Daily Planning in a Bullet Journal  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020035441-bullet-journal-daily/index.html </link>
+  <guid> https://jacobzelko.com/03192020035441-bullet-journal-daily/index.html </guid>
+  <description>
+    <![CDATA[  How to create a daily plan when using a bullet journal.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Weekly Planning in a Bullet Journal  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020035337-bullet-journal-weekly/index.html </link>
+  <guid> https://jacobzelko.com/03192020035337-bullet-journal-weekly/index.html </guid>
+  <description>
+    <![CDATA[  How to create a weekly plan when using a bullet journal.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  GTD Weekly Review  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020050249-gtd-weekly-review/index.html </link>
+  <guid> https://jacobzelko.com/03192020050249-gtd-weekly-review/index.html </guid>
+  <description>
+    <![CDATA[  How to conduct weekly reviews using GTD.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Antifragility  ]]>
+  </title>
+  <link> https://jacobzelko.com/03172020033742-antifragility/index.html </link>
+  <guid> https://jacobzelko.com/03172020033742-antifragility/index.html </guid>
+  <description>
+    <![CDATA[  An overview on Nassim Taleb&#39;s thoughts on Antifragility.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Coronavirus Definition  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020054429-coronavirus-definition/index.html </link>
+  <guid> https://jacobzelko.com/03102020054429-coronavirus-definition/index.html </guid>
+  <description>
+    <![CDATA[  Note on what coronavirus is.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Risk of Dying from COVID19  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020052237-covid19-dying/index.html </link>
+  <guid> https://jacobzelko.com/03102020052237-covid19-dying/index.html </guid>
+  <description>
+    <![CDATA[  Note on the current fatality when acquiring COVID19.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  CDC Respiratory Disease Prevention  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020053006-cdc-respiratory-preventions/index.html </link>
+  <guid> https://jacobzelko.com/03102020053006-cdc-respiratory-preventions/index.html </guid>
+  <description>
+    <![CDATA[  Note on generic methods on preventing respiratory infection approved by the CDC.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Open Wearables Initiative  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </link>
+  <guid> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </guid>
+  <description>
+    <![CDATA[  OWEAR is a collaboration designed to promote the effective use of sensor-generated measures of health in clinical research through the open sharing and benchmarking of algorithms and datasets.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Education as a Spectrum  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020022908-education-spectrum/index.html </link>
+  <guid> https://jacobzelko.com/03092020022908-education-spectrum/index.html </guid>
+  <description>
+    <![CDATA[  The idea that there is no clear delineation of knowledge in reality.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

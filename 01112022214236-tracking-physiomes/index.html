@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information">
+<meta name="description" content="Utilizing wearables to detect and find abnormalities in patient conditions">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information">
+<meta property="og:description" content="Utilizing wearables to detect and find abnormalities in patient conditions">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information">
+<meta property="twitter:description" content="Utilizing wearables to detect and find abnormalities in patient conditions">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+ 
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information</h1>
+<p><strong>Date:</strong> January 11 2022</p>
+<p><strong>Summary:</strong> Utilizing wearables to detect and find abnormalities in patient conditions</p>
+<p><strong>Keywords:</strong> #mhealth #spo2 #heart #rate #skin #temperature #lyme #disease ##bibliography #archive</p>
+<h1>Bibliography</h1>
+<p>X. Li et al., &quot;Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information,&quot; PLoS Biol, vol. 15, no. 1, p. e2001402, Jan. 2017, doi: 10.1371/journal.pbio.2001402.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#goals">Goals</a></li><li><a href="#population_details">Population Details</a></li><li><a href="#usage_of_wearables">Usage of Wearables</a></li><li><a href="#lyme_disease_found_in_subject_1">Lyme Disease Found in Subject 1</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="goals"><a href="#goals" class="header-anchor">Goals</a></h3>
+<ol>
+<li><p>Record real-time physiological data</p>
+</li>
+<li><p>Measure daily activity to find sleep patterns and reactions to surroundings</p>
+</li>
+<li><p>Create personalized baselines</p>
+</li>
+<li><p>Find differences in health of varying individuals</p>
+</li>
+<li><p>Detect when someone could potentially begin to fall ill</p>
+</li>
+</ol>
+<h3 id="population_details"><a href="#population_details" class="header-anchor">Population Details</a></h3>
+<ul>
+<li><p>40 people were used for validation testing</p>
+</li>
+<li><p>Participant #1 was tracked 679 days</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- Nearly <span class="hljs-number">250000</span> measurements on this person per day
+- Only <span class="hljs-number">603</span> days of records were used</code></pre>
+<h3 id="usage_of_wearables"><a href="#usage_of_wearables" class="header-anchor">Usage of Wearables</a></h3>
+<ul>
+<li><p>Metrics Collected</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- Heart Rate
+- [SpO2](/<span class="hljs-number">01112022220843</span>-spo2-explained.md)
+- Skin Temperature</code></pre>
+<ul>
+<li><p>Wearables were shown to:</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- Detect early signs of Lyme Disease
+- Determine an inflammatory response was occurring</code></pre>
+<ul>
+<li><p>Sensors</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- HR
+	- [Basis B1](/https://www.livescience.com/<span class="hljs-number">42460</span>-basis-b1-fitness-tracker-review.html<span class="hljs-comment">#:~:text=the%20best%20prices-,The%20Basis%20B1%20is%20an%20activity%20tracker%20that&#x27;s%20marketed%20as,burned,%20distance%20walked%20and%20sleep.) - discontinued</span>
+	- [Basis Peak](/https://www.livescience.com/<span class="hljs-number">42460</span>-basis-b1-fitness-tracker-review.html<span class="hljs-comment">#:~:text=the best prices-,The Basis B1 is an activity tracker that&#x27;s marketed as,burned, distance walked and sleep.) - recalled, discontinued</span>
+	- [Scanadu](/https://techcrunch.com/<span class="hljs-number">2016</span>/<span class="hljs-number">12</span>/<span class="hljs-number">13</span>/fda-orders-scanadu-to-shut-down-support-<span class="hljs-keyword">for</span>-its-scout-device-and-customers-are-mad/?guccounter=<span class="hljs-number">1</span>&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAALiRl2t7ma1bFByNmrMrAP8vVK5_iBXu35z3PuC9UVIY6cll8UaL5w2RWGvOBU68epFCefiwLghsqP3rxoNEGSKtAXSuMXQKrbSDsE4ti9xcfwcnjMtrx46tP89acwwmKKBJTdvCgmVRgo_zwQDSMztMxVAFFvbmhmYcdq8mTvER) - discontinued
+- Skin Temperature
+	- [Basis B1](/https://www.livescience.com/<span class="hljs-number">42460</span>-basis-b1-fitness-tracker-review.html<span class="hljs-comment">#:~:text=the%20best%20prices-,The%20Basis%20B1%20is%20an%20activity%20tracker%20that&#x27;s%20marketed%20as,burned,%20distance%20walked%20and%20sleep.) - discontinued</span>
+	- [Basis Peak](/https://www.livescience.com/<span class="hljs-number">42460</span>-basis-b1-fitness-tracker-review.html<span class="hljs-comment">#:~:text=the best prices-,The Basis B1 is an activity tracker that&#x27;s marketed as,burned, distance walked and sleep.) - recalled, discontinued</span></code></pre>
+<h3 id="lyme_disease_found_in_subject_1"><a href="#lyme_disease_found_in_subject_1" class="header-anchor">Lyme Disease Found in Subject 1</a></h3>
+<ul>
+<li><p>During days 470 - 474 outliers were found in</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- Abnormally elevated HR
+- Abnormally elevated skin temperature 
+- Decrease <span class="hljs-keyword">in</span> SpO2
+- Congruent with previous studies on nonportable devices [<span class="hljs-number">1</span>]</code></pre>
+<ul>
+<li><p>Coincided with Lyme Disease onset</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- Detected before typical bull&#x27;s rash manifestation
+- It was reported that SpO2 and HR was most important <span class="hljs-keyword">for</span> alerting of Lyme Disease
+- Strong and repeated signals <span class="hljs-keyword">in</span> change of heart algorithm were detected during Lyme Disease</code></pre>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+        
+
+
+    
+  </body>
+</html>

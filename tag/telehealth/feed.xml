@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Strategies for Evaluating Telehealth  ]]>
+  </title>
+  <link> https://jacobzelko.com/05022022153220-evaluating-telehealth/index.html </link>
+  <guid> https://jacobzelko.com/05022022153220-evaluating-telehealth/index.html </guid>
+  <description>
+    <![CDATA[  Short summary of the SPROUT Telehealth Evaluation and Measurement profile and how it is used  ]]>
+  </description>  
+    
+  <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Telehealth for global emergencies: Implications for coronavirus disease 2019 &#40;COVID-19&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/05022022171845-telehealth-global-emergencies/index.html </link>
+  <guid> https://jacobzelko.com/05022022171845-telehealth-global-emergencies/index.html </guid>
+  <description>
+    <![CDATA[  A great summary of how telehealth interventions can be used both in the COVID-19 pandemic and in general  ]]>
+  </description>  
+    
+  <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Telehealth  ]]>
+  </title>
+  <link> https://jacobzelko.com/05022022155118-telehealth/index.html </link>
+  <guid> https://jacobzelko.com/05022022155118-telehealth/index.html </guid>
+  <description>
+    <![CDATA[  Exhaustive landscape analysis looking into telehealth opportunities and challenges  ]]>
+  </description>  
+    
+  <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Telehealth?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05022022181455-telehealth-explained/index.html </link>
+  <guid> https://jacobzelko.com/05022022181455-telehealth-explained/index.html </guid>
+  <description>
+    <![CDATA[  An outline addressing what is telehealth and core components  ]]>
+  </description>  
+    
+  <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  State of Telehealth  ]]>
+  </title>
+  <link> https://jacobzelko.com/05022022144808-state-of-telehealth/index.html </link>
+  <guid> https://jacobzelko.com/05022022144808-state-of-telehealth/index.html </guid>
+  <description>
+    <![CDATA[  An overall summary and review of the state of telehealth based off literature  ]]>
+  </description>  
+    
+  <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Social Determinants Surrounding Terrorism  ]]>
+  </title>
+  <link> https://jacobzelko.com/08282022134930-social-determinants-terrorism/index.html </link>
+  <guid> https://jacobzelko.com/08282022134930-social-determinants-terrorism/index.html </guid>
+  <description>
+    <![CDATA[  Working note on the social determinants of terrorist activity in a vein inspired by the notion of social determinants of health  ]]>
+  </description>  
+    
+  <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Origins Of Terrorism: Cross-country Estimates Of Socio-economic Determinants Of Terrorism  ]]>
+  </title>
+  <link> https://jacobzelko.com/08232022220628-origins-terrorism/index.html </link>
+  <guid> https://jacobzelko.com/08232022220628-origins-terrorism/index.html </guid>
+  <description>
+    <![CDATA[  Brief summary of paper examining socioeconomic impacts or determinants of terroristic ideology  ]]>
+  </description>  
+    
+  <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective  ]]>
+  </title>
+  <link> https://jacobzelko.com/08192022115354-health-terrorism-factors/index.html </link>
+  <guid> https://jacobzelko.com/08192022115354-health-terrorism-factors/index.html </guid>
+  <description>
+    <![CDATA[  A review on how terrorism intersects with the social determinants of health  ]]>
+  </description>  
+    
+  <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Social Determinants of Health  ]]>
+  </title>
+  <link> https://jacobzelko.com/07112020161337-social-determinants-health/index.html </link>
+  <guid> https://jacobzelko.com/07112020161337-social-determinants-health/index.html </guid>
+  <description>
+    <![CDATA[  The comprehensive inception of social determinants in healthcare and society  ]]>
+  </description>  
+    
+  <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

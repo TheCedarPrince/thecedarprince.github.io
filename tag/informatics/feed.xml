@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/01112022215755-oxygen-saturation/index.html </link>
+  <guid> https://jacobzelko.com/01112022215755-oxygen-saturation/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and its use as a biomarker and use in signal processing.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Why everyone should care about &#39;Computable Phenotypes&#39;  ]]>
+  </title>
+  <link> https://jacobzelko.com/12292020005502-care-computable-phenotypes/index.html </link>
+  <guid> https://jacobzelko.com/12292020005502-care-computable-phenotypes/index.html </guid>
+  <description>
+    <![CDATA[  A brief summary on why this paper was not very useful in discussing computable phenotypes.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Electrodermal Activity  ]]>
+  </title>
+  <link> https://jacobzelko.com/03232020235136-electrodermal-activity/index.html </link>
+  <guid> https://jacobzelko.com/03232020235136-electrodermal-activity/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what electrodermal activity is and its use as a biomarker and use in signal processing.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

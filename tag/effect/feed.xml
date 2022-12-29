@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  A Case Study in the Failure to Apply the Results of Psychological Research  ]]>
+  </title>
+  <link> https://jacobzelko.com/06082020234244-dempster-critique/index.html </link>
+  <guid> https://jacobzelko.com/06082020234244-dempster-critique/index.html </guid>
+  <description>
+    <![CDATA[  A critique of possible reasons for why the Spacing Effect is not applied in American educational settings.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Spacing Effect  ]]>
+  </title>
+  <link> https://jacobzelko.com/05282020163507-spacing-effect/index.html </link>
+  <guid> https://jacobzelko.com/05282020163507-spacing-effect/index.html </guid>
+  <description>
+    <![CDATA[  A summary of the spacing effect  ]]>
+  </description>  
+    
+  <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning  ]]>
+  </title>
+  <link> https://jacobzelko.com/05252020211350-hard-on-self/index.html </link>
+  <guid> https://jacobzelko.com/05252020211350-hard-on-self/index.html </guid>
+  <description>
+    <![CDATA[  How increasing difficulties in learning can increase better long-term learning. Examples included.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Spaced Repetition Systems  ]]>
+  </title>
+  <link> https://jacobzelko.com/05252020183020-spaced-repetition-systems/index.html </link>
+  <guid> https://jacobzelko.com/05252020183020-spaced-repetition-systems/index.html </guid>
+  <description>
+    <![CDATA[  What are Spaced Repetition Systems and what is available?  ]]>
+  </description>  
+    
+  <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex  ]]>
+  </title>
+  <link> https://jacobzelko.com/01022021030923-retinotopically-alpha-band/index.html </link>
+  <guid> https://jacobzelko.com/01022021030923-retinotopically-alpha-band/index.html </guid>
+  <description>
+    <![CDATA[  Quick review of this paper to understand how covert attention works and how the study was used to assess this  ]]>
+  </description>  
+    
+  <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Incremental Reading  ]]>
+  </title>
+  <link> https://jacobzelko.com/05092020053727-incremental-reading/index.html </link>
+  <guid> https://jacobzelko.com/05092020053727-incremental-reading/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the process of incremental reading  ]]>
+  </description>  
+    
+  <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

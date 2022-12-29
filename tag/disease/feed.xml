@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information  ]]>
+  </title>
+  <link> https://jacobzelko.com/01112022214236-tracking-physiomes/index.html </link>
+  <guid> https://jacobzelko.com/01112022214236-tracking-physiomes/index.html </guid>
+  <description>
+    <![CDATA[  Utilizing wearables to detect and find abnormalities in patient conditions  ]]>
+  </description>  
+    
+  <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Coronavirus Definition  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020054429-coronavirus-definition/index.html </link>
+  <guid> https://jacobzelko.com/03102020054429-coronavirus-definition/index.html </guid>
+  <description>
+    <![CDATA[  Note on what coronavirus is.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Risk of Dying from COVID19  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020052237-covid19-dying/index.html </link>
+  <guid> https://jacobzelko.com/03102020052237-covid19-dying/index.html </guid>
+  <description>
+    <![CDATA[  Note on the current fatality when acquiring COVID19.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  CDC Respiratory Disease Prevention  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020053006-cdc-respiratory-preventions/index.html </link>
+  <guid> https://jacobzelko.com/03102020053006-cdc-respiratory-preventions/index.html </guid>
+  <description>
+    <![CDATA[  Note on generic methods on preventing respiratory infection approved by the CDC.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

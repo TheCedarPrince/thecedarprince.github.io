@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Abstract Data Types">
+<meta name="description" content="An overview and summary on what are abstract data types and what kinds exist">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Abstract Data Types">
+<meta property="og:description" content="An overview and summary on what are abstract data types and what kinds exist">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Abstract Data Types">
+<meta property="twitter:description" content="An overview and summary on what are abstract data types and what kinds exist">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+  <link rel="stylesheet" href="/libs/katex/katex.min.css">
+  
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Abstract Data Types</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>Abstract Data Types</h1>
+<p><strong>Date:</strong> October 5 2021</p>
+<p><strong>Summary:</strong> An overview and summary on what are abstract data types and what kinds exist</p>
+<p><strong>Keywords:</strong> ##summary #data #data #abstract #types #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#definitions">Definitions</a></li><li><a href="#characteristics">Characteristics</a></li><li><a href="#abstract_data_types">Abstract Data Types</a><ol><li><a href="#list_abstract_data_type">List Abstract Data Type</a><ol><li><a href="#minimum_required_operations">Minimum Required Operations</a></li></ol></li></ol></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="definitions"><a href="#definitions" class="header-anchor">Definitions</a></h3>
+<ul>
+<li><p><strong>Abstract Data Types</strong> - the description of a data type based on its associated behaviors and operations.</p>
+</li>
+</ul>
+<p>The details of Abstract Data Types are left vague &#40;i.e. abstract&#41; so that various languages can make their own implementations.</p>
+<ul>
+<li><p><strong>Data Structures</strong> - the concrete implementation details of a given data type.</p>
+</li>
+</ul>
+<h3 id="characteristics"><a href="#characteristics" class="header-anchor">Characteristics</a></h3>
+<ul>
+<li><p>Allows an implementer to focus on the functionality requirements as opposed to the logistics in the language of implementation</p>
+</li>
+</ul>
+<h3 id="abstract_data_types"><a href="#abstract_data_types" class="header-anchor">Abstract Data Types</a></h3>
+<h4 id="list_abstract_data_type"><a href="#list_abstract_data_type" class="header-anchor">List Abstract Data Type</a></h4>
+<p><strong>List Abstract Data Type</strong> - is a sequence of data values accessible via indexing.</p>
+<h5 id="minimum_required_operations"><a href="#minimum_required_operations" class="header-anchor">Minimum Required Operations</a></h5>
+<ul>
+<li><p><code>addAtIndex&#40;int index, T data&#41;</code> - adds <code>data</code> of generic type <code>T</code> to a list at a specified <code>index</code> of type <code>int</code>.</p>
+</li>
+</ul>
+<p>Any data at an index of <code>i</code> where it is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≥</mo></mrow><annotation encoding="application/x-tex">\geq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mrel">≥</span></span></span></span> the value of <code>index</code>, has a new value of <code>i &#43; 1</code> to make space for the inserted <code>data</code>.</p>
+<ul>
+<li><p><code>removeAtIndex&#40;int index&#41;</code> - removes <code>data</code> at a specified <code>index</code> in a list.</p>
+</li>
+</ul>
+<p>Any data with an index <code>i</code> where <code>i</code> is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&gt;</mo></mrow><annotation encoding="application/x-tex">&gt;</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&gt;</span></span></span></span> <code>index</code> has a new index of <code>i - 1</code> to &quot;shrink&quot; the list of objects.</p>
+<ul>
+<li><p><code>get&#40;int index&#41;</code> - returns <code>data</code> at a specific <code>index</code>.</p>
+</li>
+<li><p><code>isEmpty&#40;&#41;</code> - returns if the list is empty or not.</p>
+</li>
+<li><p><code>clear&#40;&#41;</code> - empties list; resets list back to when it had no data.</p>
+</li>
+<li><p><code>size&#40;&#41;</code> - returns the number of <code>data</code> stored in list.</p>
+</li>
+</ul>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+        
+
+
+
+    
+    
+  </body>
+</html>

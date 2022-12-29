@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Underestimating Digital Media Harm  ]]>
+  </title>
+  <link> https://jacobzelko.com/05252020221842-digital-media/index.html </link>
+  <guid> https://jacobzelko.com/05252020221842-digital-media/index.html </guid>
+  <description>
+    <![CDATA[  Twenge&#39;s critique of modern day assessment of the negative impacts of social media on adolescents.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Predictors and Factors Affecting Smoking Cessation  ]]>
+  </title>
+  <link> https://jacobzelko.com/05182020005014-smoking-recovery-indicators/index.html </link>
+  <guid> https://jacobzelko.com/05182020005014-smoking-recovery-indicators/index.html </guid>
+  <description>
+    <![CDATA[  Common positive and negative factors facilitating smoking cessation.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

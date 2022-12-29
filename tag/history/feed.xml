@@ -39,4 +39,42 @@
   </atom:author>
         
 </item>
+
+<item>
+  <title>
+    <![CDATA[  History of the RDF  ]]>
+  </title>
+  <link> https://jacobzelko.com/02182022164256-rdf-history/index.html </link>
+  <guid> https://jacobzelko.com/02182022164256-rdf-history/index.html </guid>
+  <description>
+    <![CDATA[  Very brief history of the RDF  ]]>
+  </description>  
+    
+  <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Artificial Intelligence Timeline  ]]>
+  </title>
+  <link> https://jacobzelko.com/02152021024738-artificial-intelligence-timeline/index.html </link>
+  <guid> https://jacobzelko.com/02152021024738-artificial-intelligence-timeline/index.html </guid>
+  <description>
+    <![CDATA[  A timeline summary of the history of Artificial Intelligence  ]]>
+  </description>  
+    
+  <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
 </channel></rss>

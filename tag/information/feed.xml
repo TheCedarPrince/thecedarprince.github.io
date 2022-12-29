@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  The Analogy between the Relativity of Simultaneity and Information Dissemination  ]]>
+  </title>
+  <link> https://jacobzelko.com/12242022202340-relativity-information-gaps/index.html </link>
+  <guid> https://jacobzelko.com/12242022202340-relativity-information-gaps/index.html </guid>
+  <description>
+    <![CDATA[  A thought on the analogy between the relativity of simultaneity and information dissemination in consideration of Marshall MacLuhan&#39;s concept of the &#39;action and reaction&#39;  ]]>
+  </description>  
+    
+  <pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Criteria for Creating a Note in the Zettelkasten  ]]>
+  </title>
+  <link> https://jacobzelko.com/03302020005409-note-criteria/index.html </link>
+  <guid> https://jacobzelko.com/03302020005409-note-criteria/index.html </guid>
+  <description>
+    <![CDATA[  Simple criteria for when and how to add notes to the Zettelkasten  ]]>
+  </description>  
+    
+  <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

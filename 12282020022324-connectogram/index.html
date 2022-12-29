@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="What Is a Connectogram?">
+<meta name="description" content="Connectograms visuzalize the complicated data found in">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="What Is a Connectogram?">
+<meta property="og:description" content="Connectograms visuzalize the complicated data found in">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="What Is a Connectogram?">
+<meta property="twitter:description" content="Connectograms visuzalize the complicated data found in">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+  
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>What Is a Connectogram?</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>What Is a Connectogram?</h1>
+<p><strong>Date:</strong> December 27 2020</p>
+<p><strong>Summary:</strong> Connectograms visuzalize the complicated data found in</p>
+<p><strong>Keywords:</strong> ##zettel #connectogram #brain #neuroscience #dataviz #visualizations #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#usage">Usage</a></li><li><a href="#characteristics_of_a_connectogram">Characteristics of a Connectogram</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="usage"><a href="#usage" class="header-anchor">Usage</a></h3>
+<p>Connectograms based on diffusion MRI data employ graphs to demonstrate white matter connections and cortical characteristics. Connectograms can inform treatment of patients with neuroanatomical abnormalities. They can also be used for average cortical metrics and tractography data, across populations of any size.</p>
+<h3 id="characteristics_of_a_connectogram"><a href="#characteristics_of_a_connectogram" class="header-anchor">Characteristics of a Connectogram</a></h3>
+<p>The outermost cortical surface ring:</p>
+<ul>
+<li><p>Circular</p>
+</li>
+<li><p>Left and right depicts respective hemispheres</p>
+</li>
+<li><p>Hemispheres comprise frontal lobe, insular cortex, limbic lobe, temporal lobe, parietal lobe, occipital lobe, subcortical structures, and cerebellum</p>
+</li>
+<li><p>Brain stem is represented between the two hemispheres at the bottom.</p>
+</li>
+</ul>
+<p>Inside the cortical ring represented such as:</p>
+<ul>
+<li><p>Grey matter volume</p>
+</li>
+<li><p>Surface area</p>
+</li>
+<li><p>Cortical thickness</p>
+</li>
+<li><p>Curvature</p>
+</li>
+<li><p>Degree of connectivity</p>
+</li>
+</ul>
+<p>Inside the circles:</p>
+<ul>
+<li><p>Lines connecting regions that are found to be structurally connected.</p>
+</li>
+</ul>
+<p>The opacity of the lines represent number of connections. Fiber color gives fractional anisotropy. &#91;1&#93;</p>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<p>&#91;1&#93; A. Irimia, M. C. Chambers, C. M. Torgerson, and J. D. Van Horn, “Circular representation of human cortical networks for subject and population-level connectomic visualization,” Neuroimage, vol. 60, no. 2, pp. 1340–1351, 2012.</p>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+  </body>
+</html>

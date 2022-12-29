@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Introduction To Streaming for Data Scientists  ]]>
+  </title>
+  <link> https://jacobzelko.com/09092022205654-streaming-data-scientists/index.html </link>
+  <guid> https://jacobzelko.com/09092022205654-streaming-data-scientists/index.html </guid>
+  <description>
+    <![CDATA[  What is streaming data and how it can be used in data science and other applications  ]]>
+  </description>  
+    
+  <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  RDF Data Storage Formats  ]]>
+  </title>
+  <link> https://jacobzelko.com/02182022172731-rdf-file-formats/index.html </link>
+  <guid> https://jacobzelko.com/02182022172731-rdf-file-formats/index.html </guid>
+  <description>
+    <![CDATA[  Types of data storage formats available for RDF  ]]>
+  </description>  
+    
+  <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Real-World Data and Real-World Evidence  ]]>
+  </title>
+  <link> https://jacobzelko.com/10282021140730-real-world-evidence/index.html </link>
+  <guid> https://jacobzelko.com/10282021140730-real-world-evidence/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what real-world data and evidence is according to the United States Food and Drug Administration  ]]>
+  </description>  
+    
+  <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Abstract Data Types  ]]>
+  </title>
+  <link> https://jacobzelko.com/10052021221736-abstract-data-types/index.html </link>
+  <guid> https://jacobzelko.com/10052021221736-abstract-data-types/index.html </guid>
+  <description>
+    <![CDATA[  An overview and summary on what are abstract data types and what kinds exist  ]]>
+  </description>  
+    
+  <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Data Structures  ]]>
+  </title>
+  <link> https://jacobzelko.com/10012021003603-data-structures/index.html </link>
+  <guid> https://jacobzelko.com/10012021003603-data-structures/index.html </guid>
+  <description>
+    <![CDATA[  An overview of asymptotic notation and time complexity  ]]>
+  </description>  
+    
+  <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  ‘The Data Is Gold, And We Are The gold-diggers&#39;: Whiteness, Race And Contemporary Academic Research In Eastern DRC  ]]>
+  </title>
+  <link> https://jacobzelko.com/01132021041501-gold-diggers/index.html </link>
+  <guid> https://jacobzelko.com/01132021041501-gold-diggers/index.html </guid>
+  <description>
+    <![CDATA[  How data mining in African countries is a type of neocolonialism  ]]>
+  </description>  
+    
+  <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  From Single-Trial EEG To Brain Area Dynamics  ]]>
+  </title>
+  <link> https://jacobzelko.com/12312020235220-single-trial-eeg/index.html </link>
+  <guid> https://jacobzelko.com/12312020235220-single-trial-eeg/index.html </guid>
+  <description>
+    <![CDATA[  Modeling brain EEG using EEGLAB on a Go/Nogo Dataset to model brain activity  ]]>
+  </description>  
+    
+  <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience/index.html </link>
+  <guid> https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience/index.html </guid>
+  <description>
+    <![CDATA[  How to approach the dilemma of visualizing complex data in neuroscience.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What are Voxels  ]]>
+  </title>
+  <link> https://jacobzelko.com/11302020054820-voxel/index.html </link>
+  <guid> https://jacobzelko.com/11302020054820-voxel/index.html </guid>
+  <description>
+    <![CDATA[  A summary on what voxels are and their applications  ]]>
+  </description>  
+    
+  <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Apache Arrow  ]]>
+  </title>
+  <link> https://jacobzelko.com/10262020041544-apache-arrow/index.html </link>
+  <guid> https://jacobzelko.com/10262020041544-apache-arrow/index.html </guid>
+  <description>
+    <![CDATA[  Language-agnostic in-memory columnar format for analytical query engines and data frames  ]]>
+  </description>  
+    
+  <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Definition of Data Fusion  ]]>
+  </title>
+  <link> https://jacobzelko.com/04222020154543-data-fusion/index.html </link>
+  <guid> https://jacobzelko.com/04222020154543-data-fusion/index.html </guid>
+  <description>
+    <![CDATA[  One of the best definitions I have found for data fusion  ]]>
+  </description>  
+    
+  <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

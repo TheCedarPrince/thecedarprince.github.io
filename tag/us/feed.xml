@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  A Systematic Review of the Health of Vulnerable Populations within US Rural Societies  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022131551-systematic-rural-review/index.html </link>
+  <guid> https://jacobzelko.com/09082022131551-systematic-rural-review/index.html </guid>
+  <description>
+    <![CDATA[  An overview and summary of vulnerable populations that are particular to rural US  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Are Claims?  ]]>
+  </title>
+  <link> https://jacobzelko.com/02142022220749-claims-summary/index.html </link>
+  <guid> https://jacobzelko.com/02142022220749-claims-summary/index.html </guid>
+  <description>
+    <![CDATA[  An overview on what are medical claims within the US  ]]>
+  </description>  
+    
+  <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Medical Claims Files  ]]>
+  </title>
+  <link> https://jacobzelko.com/12092021205237-medical-claims-files/index.html </link>
+  <guid> https://jacobzelko.com/12092021205237-medical-claims-files/index.html </guid>
+  <description>
+    <![CDATA[  A summary overview on what medical claims data are  ]]>
+  </description>  
+    
+  <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Pharmacy Claims Files  ]]>
+  </title>
+  <link> https://jacobzelko.com/12092021212535-dental-claims-files/index.html </link>
+  <guid> https://jacobzelko.com/12092021212535-dental-claims-files/index.html </guid>
+  <description>
+    <![CDATA[  A summary overview on what pharmacy claims data are  ]]>
+  </description>  
+    
+  <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Pharmacy Claims Files  ]]>
+  </title>
+  <link> https://jacobzelko.com/12092021211642-pharmacy-claims-files/index.html </link>
+  <guid> https://jacobzelko.com/12092021211642-pharmacy-claims-files/index.html </guid>
+  <description>
+    <![CDATA[  A summary overview on what pharmacy claims data are  ]]>
+  </description>  
+    
+  <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

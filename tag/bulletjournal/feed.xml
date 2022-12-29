@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Monthly Planning in a Bullet Journal  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020013347-bullet-journal-month/index.html </link>
+  <guid> https://jacobzelko.com/03192020013347-bullet-journal-month/index.html </guid>
+  <description>
+    <![CDATA[  How to create a monthly plan when using a bullet journal.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Bullet Journal  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020013253-bullet-journal/index.html </link>
+  <guid> https://jacobzelko.com/03192020013253-bullet-journal/index.html </guid>
+  <description>
+    <![CDATA[  An overview of how to use a bullet journal and how to make one.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Daily Planning in a Bullet Journal  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020035441-bullet-journal-daily/index.html </link>
+  <guid> https://jacobzelko.com/03192020035441-bullet-journal-daily/index.html </guid>
+  <description>
+    <![CDATA[  How to create a daily plan when using a bullet journal.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Weekly Planning in a Bullet Journal  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020035337-bullet-journal-weekly/index.html </link>
+  <guid> https://jacobzelko.com/03192020035337-bullet-journal-weekly/index.html </guid>
+  <description>
+    <![CDATA[  How to create a weekly plan when using a bullet journal.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

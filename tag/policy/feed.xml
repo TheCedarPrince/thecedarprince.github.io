@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Cuebiq Mobility Data Summary  ]]>
+  </title>
+  <link> https://jacobzelko.com/06082021203922-cuebiq-mobility-summary/index.html </link>
+  <guid> https://jacobzelko.com/06082021203922-cuebiq-mobility-summary/index.html </guid>
+  <description>
+    <![CDATA[  An overview of where Cuebiq mobility data comes from and a highlight of some of its key variables.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020  ]]>
+  </title>
+  <link> https://jacobzelko.com/06072021210734-mask-mandates-association/index.html </link>
+  <guid> https://jacobzelko.com/06072021210734-mask-mandates-association/index.html </guid>
+  <description>
+    <![CDATA[  How mask mandates could be correlated with on site dining and COVID death and growth rates  ]]>
+  </description>  
+    
+  <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020  ]]>
+  </title>
+  <link> https://jacobzelko.com/06072021214725-decline-hospitilizations-mask/index.html </link>
+  <guid> https://jacobzelko.com/06072021214725-decline-hospitilizations-mask/index.html </guid>
+  <description>
+    <![CDATA[  How mask mandates were associated with decreases in COVID hospitalization growth rates  ]]>
+  </description>  
+    
+  <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening  ]]>
+  </title>
+  <link> https://jacobzelko.com/01202021043643-mobility-network-models/index.html </link>
+  <guid> https://jacobzelko.com/01202021043643-mobility-network-models/index.html </guid>
+  <description>
+    <![CDATA[  How estimations of mobility patterns were used to estimate infections and identify disparities in Census Block Groups  ]]>
+  </description>  
+    
+  <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

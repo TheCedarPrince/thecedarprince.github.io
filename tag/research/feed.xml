@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Zettelkasten  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020031549-zettelkasten/index.html </link>
+  <guid> https://jacobzelko.com/03092020031549-zettelkasten/index.html </guid>
+  <description>
+    <![CDATA[  An overview on the Zettelkasten note taking system as made popular by sociologist Niklas Luhmann.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Aware Home: A Living Laboratory for Ubiquitous Computing Research  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020035135-kidd-aware-home/index.html </link>
+  <guid> https://jacobzelko.com/03092020035135-kidd-aware-home/index.html </guid>
+  <description>
+    <![CDATA[  Gives an overview of the Georgia Tech Aware Home.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Is Intersectionality and Intersectionality Theory?  ]]>
+  </title>
+  <link> https://jacobzelko.com/11042022141714-what-intersectionality-theory/index.html </link>
+  <guid> https://jacobzelko.com/11042022141714-what-intersectionality-theory/index.html </guid>
+  <description>
+    <![CDATA[  An overview and summary on what is intersectionality and  ]]>
+  </description>  
+    
+  <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Structural Intersectionality as a New Direction for Health Disparities Research  ]]>
+  </title>
+  <link> https://jacobzelko.com/11042022134535-structural-intersectionality/index.html </link>
+  <guid> https://jacobzelko.com/11042022134535-structural-intersectionality/index.html </guid>
+  <description>
+    <![CDATA[  An introduction to intersectionality theory and medical sociological ideas at play within health disparities research  ]]>
+  </description>  
+    
+  <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Assessing Phenotype Definitions for Algorithmic Fairness  ]]>
+  </title>
+  <link> https://jacobzelko.com/08122022205622-assessing-phenotype-fairness/index.html </link>
+  <guid> https://jacobzelko.com/08122022205622-assessing-phenotype-fairness/index.html </guid>
+  <description>
+    <![CDATA[  A possible workflow for assessing fairness in the context of observational health studies  ]]>
+  </description>  
+    
+  <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Book of OHDSI  ]]>
+  </title>
+  <link> https://jacobzelko.com/05172021000348-book-of-ohdsi/index.html </link>
+  <guid> https://jacobzelko.com/05172021000348-book-of-ohdsi/index.html </guid>
+  <description>
+    <![CDATA[  The bible of OHDSI detailing how to work with the OHDSI research network.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Raspberry Pi  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020061135-raspberry-pi/index.html </link>
+  <guid> https://jacobzelko.com/03102020061135-raspberry-pi/index.html </guid>
+  <description>
+    <![CDATA[  A summary of tools, information, and resources related to the Raspberry Pi microcomputer.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Open Wearables Initiative  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </link>
+  <guid> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </guid>
+  <description>
+    <![CDATA[  OWEAR is a collaboration designed to promote the effective use of sensor-generated measures of health in clinical research through the open sharing and benchmarking of algorithms and datasets.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

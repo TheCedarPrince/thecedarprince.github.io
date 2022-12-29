@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="WFDB Record">
+<meta name="description" content="Overview of the Waveform Database (WFDB) record format">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="WFDB Record">
+<meta property="og:description" content="Overview of the Waveform Database (WFDB) record format">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="WFDB Record">
+<meta property="twitter:description" content="Overview of the Waveform Database (WFDB) record format">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+  
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>WFDB Record</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>WFDB Record</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Overview of the Waveform Database &#40;WFDB&#41; record format</p>
+<p><strong>Keywords:</strong> ##summary #wfdb #dataformat #storage #healthcare #opensource #standard  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#overview">Overview</a></li><li><a href="#how_it_works">How It Works</a></li><li><a href="#example_application_-_ecg_data">Example Application - ECG Data</a></li><li><a href="#miscellaneous_notes">Miscellaneous Notes</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="overview"><a href="#overview" class="header-anchor">Overview</a></h3>
+<p>The Waveform Database &#40;WFDB&#41; Library is a record management system to handle already existing databases - it itself is not a database but a collection of tools to handle databases that follow the WFDB format. &#91;1&#93; Furthermore, WFDB can be used for viewing, analyzing, and creating recordings of physiological signals &#91;2&#93;.</p>
+<h3 id="how_it_works"><a href="#how_it_works" class="header-anchor">How It Works</a></h3>
+<p>The way that the WFDB record format works is that it utilizes &#91;pg 1, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> to specify the characteristics of a signal &#40;sampling frequency, etc.&#41;</p>
+</li>
+<li><p><strong>Annotation Files</strong> to record annotations corresponding to a signal &#40;generally kept in time with the rest of the signal&#41;</p>
+</li>
+</ul>
+<h3 id="example_application_-_ecg_data"><a href="#example_application_-_ecg_data" class="header-anchor">Example Application - ECG Data</a></h3>
+<p>For example, when working with ECG data, the format utilizes the header and annotation files as follows &#91;pg 2 - 3, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> - could contain information about lead count, calibration format, etc.</p>
+</li>
+<li><p><strong>Annotation Files</strong> - could contain other information such as beat positions.</p>
+</li>
+</ul>
+<h3 id="miscellaneous_notes"><a href="#miscellaneous_notes" class="header-anchor">Miscellaneous Notes</a></h3>
+<ul>
+<li><p>WFDB is considered a standard data format within the research world, and has found application in industry as well.</p>
+</li>
+<li><p>The WFDB format is generally used for ECG records - however, it can extend to other data formats.</p>
+</li>
+<li><p>A possible alternative to the WFDB record format is the European Data Format&#43; &#40;EDF&#43;&#41; &#91;see @garciamartinezLoadingPlottingFiltering2017 for more information&#93;.</p>
+</li>
+</ul>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
+<p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+  </body>
+</html>

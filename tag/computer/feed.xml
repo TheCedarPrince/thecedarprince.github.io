@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Functional Gestures  ]]>
+  </title>
+  <link> https://jacobzelko.com/02072021223949-functional-gestures/index.html </link>
+  <guid> https://jacobzelko.com/02072021223949-functional-gestures/index.html </guid>
+  <description>
+    <![CDATA[  Physical gestures that carry semantic meaning  ]]>
+  </description>  
+    
+  <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Divide and Conquer Algorithmic Design  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021062203-divide-conquer/index.html </link>
+  <guid> https://jacobzelko.com/01072021062203-divide-conquer/index.html </guid>
+  <description>
+    <![CDATA[  The divide and conquer design paradigm to break down a problem to smaller parts and rebuild it to a solution  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Loop Invariants  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021071650-loop-invariants/index.html </link>
+  <guid> https://jacobzelko.com/01072021071650-loop-invariants/index.html </guid>
+  <description>
+    <![CDATA[  Statements used to show the correctness of an algorithm  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Sorting Algorithms  ]]>
+  </title>
+  <link> https://jacobzelko.com/12192020180920-sorting-algorithms/index.html </link>
+  <guid> https://jacobzelko.com/12192020180920-sorting-algorithms/index.html </guid>
+  <description>
+    <![CDATA[  Sorting algorithms take in an array of unsorted data as input  ]]>
+  </description>  
+    
+  <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What are Voxels  ]]>
+  </title>
+  <link> https://jacobzelko.com/11302020054820-voxel/index.html </link>
+  <guid> https://jacobzelko.com/11302020054820-voxel/index.html </guid>
+  <description>
+    <![CDATA[  A summary on what voxels are and their applications  ]]>
+  </description>  
+    
+  <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity  ]]>
+  </title>
+  <link> https://jacobzelko.com/05032020155207-fabrication-serendipity/index.html </link>
+  <guid> https://jacobzelko.com/05032020155207-fabrication-serendipity/index.html </guid>
+  <description>
+    <![CDATA[  A more in-depth examination of the Zettelkasten method  ]]>
+  </description>  
+    
+  <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Raspberry Pi  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020061135-raspberry-pi/index.html </link>
+  <guid> https://jacobzelko.com/03102020061135-raspberry-pi/index.html </guid>
+  <description>
+    <![CDATA[  A summary of tools, information, and resources related to the Raspberry Pi microcomputer.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

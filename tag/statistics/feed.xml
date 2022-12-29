@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  Programming in R  ]]>
+  </title>
+  <link> https://jacobzelko.com/02082021203324-r-programming/index.html </link>
+  <guid> https://jacobzelko.com/02082021203324-r-programming/index.html </guid>
+  <description>
+    <![CDATA[  Tips and tricks I learn while writing R code  ]]>
+  </description>  
+    
+  <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  The Book of Why  ]]>
   </title>
   <link> https://jacobzelko.com/01072021082043-book-of-why/index.html </link>
@@ -32,6 +51,25 @@
   </description>  
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Multiscale Entropy  ]]>
+  </title>
+  <link> https://jacobzelko.com/10082020005615-multiscale-entropy/index.html </link>
+  <guid> https://jacobzelko.com/10082020005615-multiscale-entropy/index.html </guid>
+  <description>
+    <![CDATA[  Brief synopsis/explanation of what is Multiscale Entropy  ]]>
+  </description>  
+    
+  <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>  
   
   
   <atom:author>

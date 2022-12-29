@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Spaced Repetition Systems">
+<meta name="description" content="What are Spaced Repetition Systems and what is available?">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Spaced Repetition Systems">
+<meta property="og:description" content="What are Spaced Repetition Systems and what is available?">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Spaced Repetition Systems">
+<meta property="twitter:description" content="What are Spaced Repetition Systems and what is available?">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+  
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Spaced Repetition Systems</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>Spaced Repetition Systems</h1>
+<p><strong>Date:</strong> May 25 2020</p>
+<p><strong>Summary:</strong> What are Spaced Repetition Systems and what is available?</p>
+<p><strong>Keywords:</strong> ##zettel #spaced #repetition #system #spacing #effect ##learning #software  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#software_implementations">Software Implementations</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<p>There are multiple algorithms available used for effectively implementing the <a href="/05282020163507-spacing-effect.md">spacing effect</a>. The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm <a href="/05282020172154-replication-ebbinghaus.md">has been replicated</a> and scrutinized examined multiple times. &#91;1&#93;–&#91;3&#93; Spaced repetition systems are based around proper implementations of such algorithms.</p>
+<p>Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the <a href="/05102020220941-leitner-system.md">Leitner System which used paper note cards</a> to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.</p>
+<p>With computers, there have been several pieces of software made to automate and keep track of repetitions <em>for a learner</em>. A majority of these systems directly adapted the Leitner System from the analog to the digital world. Each software generally has proprietary algorithms that supposedly maximize the spacing effect but are directly inspired by the original work done by Ebbinghaus.</p>
+<p>Whether analog or digital, key features of these systems are as follows:</p>
+<ol>
+<li><p>Uses an algorithm implementation of the spacing effect for a user.</p>
+</li>
+<li><p>Each piece of information is spaced automatically per a user&#39;s perceived difficulty in either remembering or processing that piece of information on a repetition.</p>
+</li>
+<li><p>Pieces of information are generally presented in a &quot;flashcard&quot; format and are stored in &quot;decks&quot;.</p>
+</li>
+</ol>
+<h3 id="software_implementations"><a href="#software_implementations" class="header-anchor">Software Implementations</a></h3>
+<p>There are many pieces of software that utilize spaced repetition. Provided is a table listing some of the most popular ones:</p>
+<table><tr><th align="right">Software</th><th align="right">Description</th><th align="right">Reference</th></tr><tr><td align="right">Anki</td><td align="right">Open source flashcard based learning software.</td><td align="right">@AnkiPowerfulIntelligent</td></tr><tr><td align="right">Duolingo</td><td align="right">Popular language learning platform.</td><td align="right">@LearnLanguageFree</td></tr><tr><td align="right">Memrise</td><td align="right">Flashcard based language learning app.</td><td align="right">@zotero-1378</td></tr><tr><td align="right">Quizlet</td><td align="right">Multi-faceted learning platform.</td><td align="right">@Quizlet</td></tr><tr><td align="right">Supermemo</td><td align="right">Software for spacing and incremental reading.</td><td align="right">@LearnFastForget</td></tr></table>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<p>&#91;1&#93; J. M. J. Murre and J. Dros, “Replication and Analysis of Ebbinghaus’ Forgetting Curve,” PLoS ONE, vol. 10, no. 7, p. e0120644, Jul. 2015, doi: 10.1371/journal.pone.0120644.</p>
+<p>&#91;2&#93; H. Ebbinghaus, “Ueber das gedächtnis,” 1885.</p>
+<p>&#91;3&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+  </body>
+</html>

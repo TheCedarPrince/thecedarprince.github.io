@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Definitions Concerning Terrorism  ]]>
+  </title>
+  <link> https://jacobzelko.com/08282022133230-definitions-around-terrorism/index.html </link>
+  <guid> https://jacobzelko.com/08282022133230-definitions-around-terrorism/index.html </guid>
+  <description>
+    <![CDATA[  A summary note focused on definitions concerning terrorism and  ]]>
+  </description>  
+    
+  <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Social Determinants Surrounding Terrorism  ]]>
+  </title>
+  <link> https://jacobzelko.com/08282022134930-social-determinants-terrorism/index.html </link>
+  <guid> https://jacobzelko.com/08282022134930-social-determinants-terrorism/index.html </guid>
+  <description>
+    <![CDATA[  Working note on the social determinants of terrorist activity in a vein inspired by the notion of social determinants of health  ]]>
+  </description>  
+    
+  <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Features of Social Capital  ]]>
+  </title>
+  <link> https://jacobzelko.com/08282022135955-social-capital/index.html </link>
+  <guid> https://jacobzelko.com/08282022135955-social-capital/index.html </guid>
+  <description>
+    <![CDATA[  An overview on what social capital is and how it affects  ]]>
+  </description>  
+    
+  <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Why Do People Become Terrorists? A Prosecutor&#39;s Experiences  ]]>
+  </title>
+  <link> https://jacobzelko.com/08232022220130-people-become-terrorists/index.html </link>
+  <guid> https://jacobzelko.com/08232022220130-people-become-terrorists/index.html </guid>
+  <description>
+    <![CDATA[  A autobiographical sketch on why a person might become a terrorist  ]]>
+  </description>  
+    
+  <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

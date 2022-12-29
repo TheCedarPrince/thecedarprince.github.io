@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  What Are Bundles or Groups?  ]]>
+  </title>
+  <link> https://jacobzelko.com/08052021202559-bundles-grouping/index.html </link>
+  <guid> https://jacobzelko.com/08052021202559-bundles-grouping/index.html </guid>
+  <description>
+    <![CDATA[  Explaining what bundles or groups are in the context of All-Payer Claims Databases  ]]>
+  </description>  
+    
+  <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Census Groups  ]]>
+  </title>
+  <link> https://jacobzelko.com/01202021043013-census-groups/index.html </link>
+  <guid> https://jacobzelko.com/01202021043013-census-groups/index.html </guid>
+  <description>
+    <![CDATA[  Overview on what US Census block groups are  ]]>
+  </description>  
+    
+  <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Information about Common Coronaviruses  ]]>
+  </title>
+  <link> https://jacobzelko.com/07062020233904-common-coronavirus/index.html </link>
+  <guid> https://jacobzelko.com/07062020233904-common-coronavirus/index.html </guid>
+  <description>
+    <![CDATA[  Information about common coronavirae  ]]>
+  </description>  
+    
+  <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

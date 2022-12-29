@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Zettelkasten  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020031549-zettelkasten/index.html </link>
+  <guid> https://jacobzelko.com/03092020031549-zettelkasten/index.html </guid>
+  <description>
+    <![CDATA[  An overview on the Zettelkasten note taking system as made popular by sociologist Niklas Luhmann.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Flow  ]]>
+  </title>
+  <link> https://jacobzelko.com/12302020172825-flow/index.html </link>
+  <guid> https://jacobzelko.com/12302020172825-flow/index.html </guid>
+  <description>
+    <![CDATA[  What is the concept of flow and being in a flow state  ]]>
+  </description>  
+    
+  <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Against Method  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020043224-against-method/index.html </link>
+  <guid> https://jacobzelko.com/07122020043224-against-method/index.html </guid>
+  <description>
+    <![CDATA[  The use of anarchy as a philosophical approach to learning anything.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Make It Stick: the Science of Successful Learning  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020164149-make-it-stick/index.html </link>
+  <guid> https://jacobzelko.com/07122020164149-make-it-stick/index.html </guid>
+  <description>
+    <![CDATA[  How to not only remember things but to understand work  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Ultralearning  ]]>
+  </title>
+  <link> https://jacobzelko.com/07082020163004-ultralearning/index.html </link>
+  <guid> https://jacobzelko.com/07082020163004-ultralearning/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what the ultralearning framework is  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning  ]]>
+  </title>
+  <link> https://jacobzelko.com/05282020164557-desirable-difficulties/index.html </link>
+  <guid> https://jacobzelko.com/05282020164557-desirable-difficulties/index.html </guid>
+  <description>
+    <![CDATA[  Practical discussion about how to introduce desirable learning difficulties into your learning patterns.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning  ]]>
+  </title>
+  <link> https://jacobzelko.com/05252020211350-hard-on-self/index.html </link>
+  <guid> https://jacobzelko.com/05252020211350-hard-on-self/index.html </guid>
+  <description>
+    <![CDATA[  How increasing difficulties in learning can increase better long-term learning. Examples included.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Spaced Repetition Systems  ]]>
+  </title>
+  <link> https://jacobzelko.com/05252020183020-spaced-repetition-systems/index.html </link>
+  <guid> https://jacobzelko.com/05252020183020-spaced-repetition-systems/index.html </guid>
+  <description>
+    <![CDATA[  What are Spaced Repetition Systems and what is available?  ]]>
+  </description>  
+    
+  <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Leitner System  ]]>
+  </title>
+  <link> https://jacobzelko.com/05102020220941-leitner-system/index.html </link>
+  <guid> https://jacobzelko.com/05102020220941-leitner-system/index.html </guid>
+  <description>
+    <![CDATA[  A brief overview of how the Leitner system works  ]]>
+  </description>  
+    
+  <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

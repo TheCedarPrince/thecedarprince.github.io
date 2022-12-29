@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Overview of the Resource Description Framework (RDF)">
+<meta name="description" content="An overview of the RDF and how it works">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Overview of the Resource Description Framework (RDF)">
+<meta property="og:description" content="An overview of the RDF and how it works">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Overview of the Resource Description Framework (RDF)">
+<meta property="twitter:description" content="An overview of the RDF and how it works">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+  <link rel="stylesheet" href="/libs/katex/katex.min.css">
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+ 
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Overview of the Resource Description Framework (RDF)</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>Overview of the Resource Description Framework &#40;RDF&#41;</h1>
+<p><strong>Date:</strong> February 18 2022</p>
+<p><strong>Summary:</strong> An overview of the RDF and how it works</p>
+<p><strong>Keywords:</strong> #rdf #overview #triplet #graph #framework #archive</p>
+<h1>Bibliography</h1>
+<p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#what_are_rdf_triplets">What Are RDF Triplets?</a></li><li><a href="#what_are_examples_of_rdf_triplets">What Are Examples of RDF Triplets?</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<p>The Resource Description Framework &#40;RDF&#41; is a family of specifications created by the World Wide Web Consortium &#40;W3C&#41; and formally adopted by W3C in 1999. Data mapped into the RDF form into triplets called <em>RDF statements</em> &#40;also known as Semantic Triplets&#41;.</p>
+<h3 id="what_are_rdf_triplets"><a href="#what_are_rdf_triplets" class="header-anchor">What Are RDF Triplets?</a></h3>
+<p>These triplets, or statements, are comprised of three components called the <em>subject</em>, the <em>predicate</em>, and the <em>object</em>. In summary, these components are described as:</p>
+<ul>
+<li><p><strong>Subject</strong> - this denotes a resource where anything can be a resource.</p>
+</li>
+</ul>
+<p>It is synonymous with the idea of an entity in other data models.</p>
+<ul>
+<li><p><strong>Predicate</strong> - traits or aspects of a defined resource and expresses the relationship between a <strong>Subject</strong> or a given <strong>Object</strong>.</p>
+</li>
+<li><p><strong>Object</strong> - the target of the predicate and is similar to a resource in that anything can be an <strong>Object</strong>.</p>
+</li>
+</ul>
+<p>What the RDF statement compactly communicates is that there holds some relationship, indicated by the predicate, between the <strong>Subject</strong> and <strong>Object</strong>.</p>
+<h3 id="what_are_examples_of_rdf_triplets"><a href="#what_are_examples_of_rdf_triplets" class="header-anchor">What Are Examples of RDF Triplets?</a></h3>
+<p>Example RDF statements are:</p>
+<blockquote>
+<ul>
+<li><p>The sky is colored blue.</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>Grass is colored green.</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>The ocean is colored blue.</p>
+</li>
+</ul>
+</blockquote>
+<p>Taking the statement &quot;The sky is colored blue.&quot; the <strong>Subject</strong> is the phrase &quot;sky&quot;, the <strong>Predicate</strong> is the verb phrase &quot;is colored&quot;, and the <strong>Object</strong> is the final phrase, &quot;blue&quot;. Moving forward from this example, it may be useful to think of the RDF statement as a labeled directed multigraph where components of the statement are typically broken down and stored in Relational Database Management Systems or native RDF file storage formats. Here is a way of visualizing the triplet for the given statements above:</p>
+<pre><code class="language-mermaid">graph LR
+
+sky --is colored--&gt; blue
+ocean --is colored--&gt; blue
+grass --is colored--&gt; green</code></pre>
+<p>The RDF triples &quot;The sky is colored blue.&quot;, &quot;Grass is colored green.&quot;, and &quot;The ocean is colored blue&quot; can all be represented as a Directed Multigraph \(G\). The nodes \(sky\), \(ocean\), and \(grass\) are <strong>Subjects</strong>, the nodes \(blue\) and \(green\) are <strong>Objects</strong>, and the edge \(is colored\) is the <strong>Predicate</strong> in these RDF triple.</p>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
+    
+    
+        <script src="/libs/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
+
+    
+  </body>
+</html>

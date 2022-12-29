@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  History of the RDF  ]]>
+  </title>
+  <link> https://jacobzelko.com/02182022164256-rdf-history/index.html </link>
+  <guid> https://jacobzelko.com/02182022164256-rdf-history/index.html </guid>
+  <description>
+    <![CDATA[  Very brief history of the RDF  ]]>
+  </description>  
+    
+  <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Resource Description Framework &#40;RDF&#41; Explained  ]]>
+  </title>
+  <link> https://jacobzelko.com/01282022220116-resource-description-framework/index.html </link>
+  <guid> https://jacobzelko.com/01282022220116-resource-description-framework/index.html </guid>
+  <description>
+    <![CDATA[  An explanation on what the Resource Description Framework is  ]]>
+  </description>  
+    
+  <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

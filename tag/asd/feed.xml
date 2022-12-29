@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Could Autism Spectrum Disorders Be A Risk Factor For covid-19?  ]]>
+  </title>
+  <link> https://jacobzelko.com/07192020034934-asd-risk-factor/index.html </link>
+  <guid> https://jacobzelko.com/07192020034934-asd-risk-factor/index.html </guid>
+  <description>
+    <![CDATA[  Autism Spectrum Disorders as a potential risk factor in COVID-19 outcomes  ]]>
+  </description>  
+    
+  <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Hypothesis on Cytokine Dysregulation Worsened by COVID19 for People with ASD  ]]>
+  </title>
+  <link> https://jacobzelko.com/07102020174816-cytokine-asd-covid19/index.html </link>
+  <guid> https://jacobzelko.com/07102020174816-cytokine-asd-covid19/index.html </guid>
+  <description>
+    <![CDATA[  Loose hypothesis on worsening of cytokine regulation via ASD and COVID19  ]]>
+  </description>  
+    
+  <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

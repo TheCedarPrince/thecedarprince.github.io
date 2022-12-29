@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  COVID-19 and the other pandemic: populations made vulnerable by systemic inequity  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022132448-covid-systemic-inequity/index.html </link>
+  <guid> https://jacobzelko.com/09082022132448-covid-systemic-inequity/index.html </guid>
+  <description>
+    <![CDATA[  How the COVID pandemic lead to highlighting vulnerable populations introduced by systemic inequity for healthcare  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable/index.html </link>
+  <guid> https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable/index.html </guid>
+  <description>
+    <![CDATA[  A brief report on the risks encountered by LGBTQ communities as a result of the COVID-19 pandemic  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  A Systematic Review of the Health of Vulnerable Populations within US Rural Societies  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022131551-systematic-rural-review/index.html </link>
+  <guid> https://jacobzelko.com/09082022131551-systematic-rural-review/index.html </guid>
+  <description>
+    <![CDATA[  An overview and summary of vulnerable populations that are particular to rural US  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

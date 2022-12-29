@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Context-Aware Applications  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020071146-context-aware/index.html </link>
+  <guid> https://jacobzelko.com/03092020071146-context-aware/index.html </guid>
+  <description>
+    <![CDATA[  Explains what is a context-aware application.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Aware Homes  ]]>
+  </title>
+  <link> https://jacobzelko.com/03092020033420-aware-homes/index.html </link>
+  <guid> https://jacobzelko.com/03092020033420-aware-homes/index.html </guid>
+  <description>
+    <![CDATA[  A summary on what is an aware home, its history, and its applications  ]]>
+  </description>  
+    
+  <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Understanding Media: The Extensions of Man  ]]>
+  </title>
+  <link> https://jacobzelko.com/05222022225241-understanding-media-extensions/index.html </link>
+  <guid> https://jacobzelko.com/05222022225241-understanding-media-extensions/index.html </guid>
+  <description>
+    <![CDATA[  An overview on this excellent book on media philosophy and media&#39;s intersection with society and its affects on people and community as well as eerie premonitions for the future of a technological age.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Raspberry Pi  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020061135-raspberry-pi/index.html </link>
+  <guid> https://jacobzelko.com/03102020061135-raspberry-pi/index.html </guid>
+  <description>
+    <![CDATA[  A summary of tools, information, and resources related to the Raspberry Pi microcomputer.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Open Wearables Initiative  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </link>
+  <guid> https://jacobzelko.com/03102020004043-open-wearables-initiative/index.html </guid>
+  <description>
+    <![CDATA[  OWEAR is a collaboration designed to promote the effective use of sensor-generated measures of health in clinical research through the open sharing and benchmarking of algorithms and datasets.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

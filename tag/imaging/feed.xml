@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Functional Magnetic Resonance Imaging  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020003750-functional-mri/index.html </link>
+  <guid> https://jacobzelko.com/12282020003750-functional-mri/index.html </guid>
+  <description>
+    <![CDATA[  What is an fMRI or Functional Magnetic Resonance Imaging  ]]>
+  </description>  
+    
+  <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Brain Imaging Data Structure &#40;BIDS&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/11052020174635-brain-imaging-structure/index.html </link>
+  <guid> https://jacobzelko.com/11052020174635-brain-imaging-structure/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the BIDS style for Brain Imaging Data.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

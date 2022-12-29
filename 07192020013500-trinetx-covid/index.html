@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="TriNet">
+<meta name="description" content="An overview of what the TriNetX COVID-19 research platform is and how it works">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="TriNet">
+<meta property="og:description" content="An overview of what the TriNetX COVID-19 research platform is and how it works">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="TriNet">
+<meta property="twitter:description" content="An overview of what the TriNetX COVID-19 research platform is and how it works">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+  
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>TriNet</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content"><h1>TriNet</h1>
+<p><strong>Date:</strong> July 18 2020</p>
+<p><strong>Summary:</strong> An overview of what the TriNetX COVID-19 research platform is and how it works</p>
+<p><strong>Keywords:</strong> ##zettel #covid19 ##pandemic #health #dataset #EMR #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#icd10_codes_for_covid19_from_trinetx">ICD10 Codes for COVID19 from TriNetX</a></li><li><a href="#loinc_covid19_codes">LOINC COVID19 Codes</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<p>The TriNetX COVID-19 Research Network Platform is a network of EMR data from 42 health care organizations designed to facilitate research related to COVID-19. &#91;1&#93;, &#91;2&#93;</p>
+<p>TriNetX provides access to de-identified aggregate EMR data including information such as &#91;1&#93;, &#91;2&#93;:</p>
+<ul>
+<li><p>Demographics</p>
+</li>
+<li><p>Diagnoses</p>
+</li>
+<li><p>Procedures</p>
+</li>
+<li><p>Medications</p>
+</li>
+<li><p>Laboratory values</p>
+</li>
+<li><p>Genomics</p>
+</li>
+</ul>
+<h3 id="icd10_codes_for_covid19_from_trinetx"><a href="#icd10_codes_for_covid19_from_trinetx" class="header-anchor">ICD10 Codes for COVID19 from TriNetX</a></h3>
+<ul>
+<li><p>B34.2</p>
+</li>
+<li><p>B97.29</p>
+</li>
+<li><p>J12.81</p>
+</li>
+<li><p>U07.1</p>
+</li>
+<li><p>U07.2</p>
+</li>
+</ul>
+<h3 id="loinc_covid19_codes"><a href="#loinc_covid19_codes" class="header-anchor">LOINC COVID19 Codes</a></h3>
+<ul>
+<li><p>94500-6</p>
+</li>
+<li><p>94315-9</p>
+</li>
+<li><p>94309-2</p>
+</li>
+<li><p>94533-7</p>
+</li>
+<li><p>94534-5</p>
+</li>
+<li><p>94559-2</p>
+</li>
+</ul>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<p>&#91;1&#93; J. Stacey and M. Mehta, “Using EHR data extraction to streamline the clinical trial process,” Clin. Res., vol. 4, pp. 2–7, 2017.</p>
+<p>&#91;2&#93; M. Stapff, “Use of electronic health data in clinical development,” Pharm. Ind, vol. 79, no. 2, pp. 204–210, 2017.</p>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: December 29, 2022.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+  </body>
+</html>

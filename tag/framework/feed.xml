@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  What Is Telehealth?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05022022181455-telehealth-explained/index.html </link>
+  <guid> https://jacobzelko.com/05022022181455-telehealth-explained/index.html </guid>
+  <description>
+    <![CDATA[  An outline addressing what is telehealth and core components  ]]>
+  </description>  
+    
+  <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Overview of the Resource Description Framework &#40;RDF&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/02182022165447-rdf-overview/index.html </link>
+  <guid> https://jacobzelko.com/02182022165447-rdf-overview/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the RDF and how it works  ]]>
+  </description>  
+    
+  <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  The Resource Description Framework &#40;RDF&#41; Explained  ]]>
+  </title>
+  <link> https://jacobzelko.com/01282022220116-resource-description-framework/index.html </link>
+  <guid> https://jacobzelko.com/01282022220116-resource-description-framework/index.html </guid>
+  <description>
+    <![CDATA[  An explanation on what the Resource Description Framework is  ]]>
+  </description>  
+    
+  <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Ultralearning  ]]>
+  </title>
+  <link> https://jacobzelko.com/07082020163004-ultralearning/index.html </link>
+  <guid> https://jacobzelko.com/07082020163004-ultralearning/index.html </guid>
+  <description>
+    <![CDATA[  A summary of what the ultralearning framework is  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  GTD Definition  ]]>
+  </title>
+  <link> https://jacobzelko.com/03192020050130-gtd-definition/index.html </link>
+  <guid> https://jacobzelko.com/03192020050130-gtd-definition/index.html </guid>
+  <description>
+    <![CDATA[  A concise definition of what the GTD framework is.  ]]>
+  </description>  
+    
+  <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

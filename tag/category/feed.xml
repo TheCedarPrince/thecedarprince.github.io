@@ -23,6 +23,63 @@
 
 <item>
   <title>
+    <![CDATA[  Fiber Products &#40;Pullbacks&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/10312022005339-fiber-product-pullback/index.html </link>
+  <guid> https://jacobzelko.com/10312022005339-fiber-product-pullback/index.html </guid>
+  <description>
+    <![CDATA[  An overview on fiber products &#40;aka pullbacks&#41; and their features within category theory  ]]>
+  </description>  
+    
+  <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Clarifying Understanding of Coproducts  ]]>
+  </title>
+  <link> https://jacobzelko.com/10022022214249-understanding-coproducts/index.html </link>
+  <guid> https://jacobzelko.com/10022022214249-understanding-coproducts/index.html </guid>
+  <description>
+    <![CDATA[  A line of questioning to ensure I understand what coproducts and disjoint unions are  ]]>
+  </description>  
+    
+  <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Coproducts &#40;Disjoint Unions&#41;  ]]>
+  </title>
+  <link> https://jacobzelko.com/09162022162129-coproducts-disjoints/index.html </link>
+  <guid> https://jacobzelko.com/09162022162129-coproducts-disjoints/index.html </guid>
+  <description>
+    <![CDATA[  Exploration on the disjoint union of sets.  ]]>
+  </description>  
+    
+  <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender  ]]>
   </title>
   <link> https://jacobzelko.com/04162022002725-mathematician-gender-rethinking/index.html </link>
@@ -32,6 +89,25 @@
   </description>  
     
   <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Categorical Data Structures for Technical Computing  ]]>
+  </title>
+  <link> https://jacobzelko.com/10062021162335-ascets-paper/index.html </link>
+  <guid> https://jacobzelko.com/10062021162335-ascets-paper/index.html </guid>
+  <description>
+    <![CDATA[  An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.  ]]>
+  </description>  
+    
+  <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>

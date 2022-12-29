@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes/index.html </link>
+  <guid> https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes/index.html </guid>
+  <description>
+    <![CDATA[  A small article on how the CDC&#39;s social vulnerability index was associated with heat-related morbidities in Georgia  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Social Vulnerability Index  ]]>
+  </title>
+  <link> https://jacobzelko.com/09082022144933-social-vulnerability-index/index.html </link>
+  <guid> https://jacobzelko.com/09082022144933-social-vulnerability-index/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the metric, Social Vulnerability Index, created by the Centers for Disease Control  ]]>
+  </description>  
+    
+  <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020  ]]>
+  </title>
+  <link> https://jacobzelko.com/01072021062915-mobility-patterns-gtri/index.html </link>
+  <guid> https://jacobzelko.com/01072021062915-mobility-patterns-gtri/index.html </guid>
+  <description>
+    <![CDATA[  How population mobility was affected by US mandates for stay-at-home orders  ]]>
+  </description>  
+    
+  <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Contact Tracing  ]]>
+  </title>
+  <link> https://jacobzelko.com/12282020023843-contact-tracing/index.html </link>
+  <guid> https://jacobzelko.com/12282020023843-contact-tracing/index.html </guid>
+  <description>
+    <![CDATA[  Tracking contact between individuals of interest.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  CDC Respiratory Disease Prevention  ]]>
+  </title>
+  <link> https://jacobzelko.com/03102020053006-cdc-respiratory-preventions/index.html </link>
+  <guid> https://jacobzelko.com/03102020053006-cdc-respiratory-preventions/index.html </guid>
+  <description>
+    <![CDATA[  Note on generic methods on preventing respiratory infection approved by the CDC.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>
