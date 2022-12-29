@@ -17,6 +17,7 @@ tags = ["home", "about"]
 
 <!--TODO: Update my CV - convert to Markdown with pandoc filter?-->
 <!--TODO: Add CV page-->
+<!--TODO: Fix links between pages in archive-->
 Visit this [link to see my CV :page_facing_up:](https://drive.google.com/file/d/1ypAm8i6eYd7cZfFolItf4Q6B08459VwP/view?usp=sharing)
 
 My name is Jacob S. Zelko!
