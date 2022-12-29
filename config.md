@@ -17,7 +17,7 @@ website_title = "the cedar ledge"
 website_description = "Jacob S. Zelko's personal website"
 website_url = "https://jacobzelko.com"
 
-generate_rss = true
+generate_rss = false
 rss_full_content = false
 +++
 
