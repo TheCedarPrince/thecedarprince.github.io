@@ -1,0 +1,39 @@
+@def title = "Magnetic Resonance Imaging"
+@def slug = "12302020173322-magnetic-resonance-imaging"
+@def tags = ["zettel", "imaging", "mri", "archive"]
+@def description = ""
+
+@def rss_title = "Magnetic Resonance Imaging"
+@def rss_description = ""
+@def rss_pubdate = Date(2020, 12, 30)
+
+
+Magnetic Resonance Imaging
+=========
+
+**Date:** December 30 2020
+
+**Summary:** 
+
+**Keywords:** ##zettel #imaging #mri #archive
+
+Bibliography
+==========
+
+Not Available
+
+Table of Contents
+=========
+
+\toc
+
+Magnetic resonance imaging (MRI) uses a magnetic field to realign hydrogen atoms in the body. The realignment generates a magnetic field which is detected and rendered into a 3D image. Yields clearer contrasts between tissues compared to [CT scans](/12302020173101-computed-tomography.md). [1]
+
+## References
+
+## References
+
+[1] R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.
+## Discussion: 
+
+{{ addcomments }}
