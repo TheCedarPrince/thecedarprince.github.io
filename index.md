@@ -28,6 +28,7 @@ This focus has led me to studying about the social determinants of health, neuro
 Additionally, I have vested interests in observational health research and am an [active member of OHDSI](https://www.ohdsi.org), open and reproducible science, knowledge management, science education, and as a [practicing Christian](05072022162026-personal-faith-perspectives), the intersection of faith communities and science.
 
 <!--TODO: Add email subscription link-->
+{{addnewsletter}}
 
 ### What about Fun Stuff Like Hobbies? :guitar:
 
