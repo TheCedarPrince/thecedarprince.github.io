@@ -4,83 +4,6 @@ using Dates
 using pandoc_jll
 
 """
-Struct representing a note in the knowledge base
-"""
-struct ArchiveNote
-    title::Any
-    date::Any
-    summary::Any
-    keywords::Any
-    filename::Any
-    filepath::Any
-end
-
-"""
-Converts Pandoc Markdown links to valid Franklin links
-"""
-function pandoc_markdown_delinker(fpath)
-    f = readlines(fpath)
-    for (idx, line) in enumerate(f)
-        if occursin(r"(?:__|[*#])|\[(.+?)]\((.+?)\)", line)
-            matches = eachmatch(r"(?:__|[*#])|\[(.+?)]\((.+?)\)", line) |> collect
-            if !isempty(matches)
-                for m in matches
-                    if !isnothing(m.captures[2])
-                        link = splitext(m.captures[2])
-                        if link[2] == ".md"
-                            line =
-                                replace(line, m.match => "[$(m.captures[1])](/$(link[1]))")
-                        end
-                    end
-                end
-            end
-        end
-        f[idx] = line
-    end
-
-    tpath = tempname()
-    open(tpath, "w") do x
-        for line in f
-            write(x, line * "\n")
-        end
-    end
-    return tpath
-end
-
-"""
-Converts Markdown links to valid Franklin links
-"""
-function markdown_delinker(f)
-    for (idx, line) in enumerate(f)
-        if occursin(r"(?:__|[*#])|\[(.+?)]\((.+?)\)", line)
-            matches = eachmatch(r"(?:__|[*#])|\[(.+?)]\((.+?)\)", line) |> collect
-            if !isempty(matches)
-                for m in matches
-                    if !isnothing(m.captures[2])
-                        link = splitext(m.captures[2])
-                        if link[2] == ".md"
-                            line =
-                                replace(line, m.match => "[$(m.captures[1])](/$(link[1]))")
-                        end
-                    end
-                end
-            end
-        end
-        f[idx] = line
-    end
-
-    return f
-end
-
-"""
-TODO: CREATE IMG SRC DELINKER
-"""
-# function ()
-
-# end
-
-
-"""
 Insert a note after rendering with pandoc
 """
 function hfun_insert_note(params)
@@ -352,3 +275,17 @@ function hfun_addsearchbar()
 
     return html_string
 end
+
+"""
+
+"""
+function hfun_addnewsletter()
+	html_string = """
+	<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://buttondown.email/thecedarprince?as_embed=true"
+></iframe><br /><br />
+	"""
+end
+
