@@ -1334,6 +1334,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://jacobzelko.com/blog/index.html</loc>
+    <lastmod>2022-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://jacobzelko.com/notes/10022022212655-category-zulip-questions/index.html</loc>
     <lastmod>2022-12-30</lastmod>
     <changefreq>monthly</changefreq>
