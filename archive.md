@@ -946,6 +946,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = the-open-knowledge-model>
+             		<a href = http://jacobzelko.com/04172022033744-open-knowledge-standard/>
+                      			<strong>
+                               				The Open Knowledge Model
+                      			</strong>
+                      			[Apr 16 2022]
+             		</a>
+             		<br>
+                      			A working proposal on a standard knowledge format for taking notes
+             		<br>
+                      			#open #knowledge #standard ##summary #format #blog #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = x-+-y-:-a-mathematician’s-manifesto-for-rethinking-gender>
              		<a href = http://jacobzelko.com/04162022002725-mathematician-gender-rethinking/>
                       			<strong>
@@ -1630,24 +1648,6 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
-    	<span class = post-item id = my-note-templates>
-             		<a href = http://jacobzelko.com/08032021134232-notes-template/>
-                      			<strong>
-                               				My Note Templates
-                      			</strong>
-                      			[Aug 3 2021]
-             		</a>
-             		<br>
-                      			The template I use for taking notes
-             		<br>
-                      			#notes #template #archive #blog
-             		<br>
-    	</span>
-
-    	<br>
-
-    	<br>
-
     	<span class = post-item id = tools-for-improving-health-care-value-part-1:-how-states-establish-an-apcd-and-make-it-functional>
              		<a href = http://jacobzelko.com/08032021205910-establish-apcd/>
                       			<strong>
@@ -1695,6 +1695,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			An overview of the Virginia All-Payers Claim Database
              		<br>
                       			#apcd #virginia ##summary #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = my-note-templates>
+             		<a href = http://jacobzelko.com/08032021134232-notes-template/>
+                      			<strong>
+                               				My Note Templates
+                      			</strong>
+                      			[Aug 3 2021]
+             		</a>
+             		<br>
+                      			The template I use for taking notes
+             		<br>
+                      			#notes #template #archive #blog
              		<br>
     	</span>
 
