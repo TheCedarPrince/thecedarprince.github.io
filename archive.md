@@ -10,6 +10,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = achieving-an-undergraduate-level-understanding-of-graph-theory->
+             		<a href = http://jacobzelko.com/01012023000122-graph-theory-learning/>
+                      			<strong>
+                               				Achieving an Undergraduate Level Understanding of Graph Theory 
+                      			</strong>
+                      			[Dec 31 2022]
+             		</a>
+             		<br>
+                      			Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory.
+             		<br>
+                      			#zettel #ultralearning #graph #theory #project #archive #blog
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = the-analogy-between-the-relativity-of-simultaneity-and-information-dissemination>
              		<a href = http://jacobzelko.com/12242022202340-relativity-information-gaps/>
                       			<strong>
@@ -3314,7 +3332,7 @@ The titles, creation dates, summaries, and key words of a note are provided per 
              		<br>
                       			A summary of what the ultralearning framework is
              		<br>
-                      			##bibliography #learning #framework #education #self #archive
+                      			##bibliography #ultralearning #learning #framework #education #self #archive
              		<br>
     	</span>
 

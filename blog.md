@@ -11,6 +11,24 @@ The titles, date, summaries, and key words of a blog are provided per entry
 
     	<br>
 
+    	<span class = post-item id = achieving-an-undergraduate-level-understanding-of-graph-theory->
+             		<a href = http://jacobzelko.com/01012023000122-graph-theory-learning/>
+                      			<strong>
+                               				Achieving an Undergraduate Level Understanding of Graph Theory 
+                      			</strong>
+                      			[Dec 31 2022]
+             		</a>
+             		<br>
+                      			Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory.
+             		<br>
+                      			#zettel #ultralearning #graph #theory #project #archive #blog
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = the-structure-of-scientific-revolutions>
              		<a href = http://jacobzelko.com/05152022174848-structure-revolutions/>
                       			<strong>
