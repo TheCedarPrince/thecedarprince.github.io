@@ -1,11 +1,13 @@
-@def title = "GTD Implementation"
-@def slug = "03192020050207-gtd-implementation"
-@def tags = ["zettel", "gtd", "productivity", "lists", "projectmanagement", "projects", "archive"]
-@def description = "A guide on how GTD is implemented."
++++
+title = "GTD Implementation"
+slug = "03192020050207-gtd-implementation"
+tags = ["zettel", "gtd", "productivity", "lists", "projectmanagement", "projects", "archive"]
+description = "A guide on how GTD is implemented."
+rss_title = "GTD Implementation"
+rss_description = "A guide on how GTD is implemented."
+rss_pubdate = Date(2020, 3, 19)
++++
 
-@def rss_title = "GTD Implementation"
-@def rss_description = "A guide on how GTD is implemented."
-@def rss_pubdate = Date(2020, 3, 19)
 
 
 GTD Implementation

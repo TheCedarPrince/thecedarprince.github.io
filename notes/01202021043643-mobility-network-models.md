@@ -1,11 +1,13 @@
-@def title = "Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening"
-@def slug = "01202021043643-mobility-network-models"
-@def tags = ["bibliography", "places", "interest", "policy", "bipartite", "graphs", "counterfactual", "mobility", "models", "archive"]
-@def description = "How estimations of mobility patterns were used to estimate infections and identify disparities in Census Block Groups"
++++
+title = "Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening"
+slug = "01202021043643-mobility-network-models"
+tags = ["bibliography", "places", "interest", "policy", "bipartite", "graphs", "counterfactual", "mobility", "models", "archive"]
+description = "How estimations of mobility patterns were used to estimate infections and identify disparities in Census Block Groups"
+rss_title = "Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening"
+rss_description = "How estimations of mobility patterns were used to estimate infections and identify disparities in Census Block Groups"
+rss_pubdate = Date(2021, 1, 19)
++++
 
-@def rss_title = "Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening"
-@def rss_description = "How estimations of mobility patterns were used to estimate infections and identify disparities in Census Block Groups"
-@def rss_pubdate = Date(2021, 1, 19)
 
 
 Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening

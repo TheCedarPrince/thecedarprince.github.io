@@ -1,11 +1,13 @@
-@def title = "Incremental Reading"
-@def slug = "05092020053727-incremental-reading"
-@def tags = ["zettel", "incremental", "reading", "knowledge", "technique", "generation", "interleaving", "breaks", "brief", "attention", "archive"]
-@def description = "An overview of the process of incremental reading"
++++
+title = "Incremental Reading"
+slug = "05092020053727-incremental-reading"
+tags = ["zettel", "incremental", "reading", "knowledge", "technique", "generation", "interleaving", "breaks", "brief", "attention", "archive"]
+description = "An overview of the process of incremental reading"
+rss_title = "Incremental Reading"
+rss_description = "An overview of the process of incremental reading"
+rss_pubdate = Date(2020, 5, 9)
++++
 
-@def rss_title = "Incremental Reading"
-@def rss_description = "An overview of the process of incremental reading"
-@def rss_pubdate = Date(2020, 5, 9)
 
 
 Incremental Reading

@@ -1,11 +1,13 @@
-@def title = "Dynamic Functional Connectivity"
-@def slug = "12282020003106-dynamic-functional-connectivity"
-@def tags = ["zettel", "brain", "dynamic", "functional", "connectivity", "time", "dfc", "archive"]
-@def description = "The brain exhibiting changes to functional activity over time."
++++
+title = "Dynamic Functional Connectivity"
+slug = "12282020003106-dynamic-functional-connectivity"
+tags = ["zettel", "brain", "dynamic", "functional", "connectivity", "time", "dfc", "archive"]
+description = "The brain exhibiting changes to functional activity over time."
+rss_title = "Dynamic Functional Connectivity"
+rss_description = "The brain exhibiting changes to functional activity over time."
+rss_pubdate = Date(2020, 12, 27)
++++
 
-@def rss_title = "Dynamic Functional Connectivity"
-@def rss_description = "The brain exhibiting changes to functional activity over time."
-@def rss_pubdate = Date(2020, 12, 27)
 
 
 Dynamic Functional Connectivity

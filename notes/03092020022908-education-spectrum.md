@@ -1,11 +1,13 @@
-@def title = "Education as a Spectrum"
-@def slug = "03092020022908-education-spectrum"
-@def tags = ["zettel", "education", "knowledge", "science", "archive"]
-@def description = "The idea that there is no clear delineation of knowledge in reality."
++++
+title = "Education as a Spectrum"
+slug = "03092020022908-education-spectrum"
+tags = ["zettel", "education", "knowledge", "science", "archive"]
+description = "The idea that there is no clear delineation of knowledge in reality."
+rss_title = "Education as a Spectrum"
+rss_description = "The idea that there is no clear delineation of knowledge in reality."
+rss_pubdate = Date(2020, 3, 9)
++++
 
-@def rss_title = "Education as a Spectrum"
-@def rss_description = "The idea that there is no clear delineation of knowledge in reality."
-@def rss_pubdate = Date(2020, 3, 9)
 
 
 Education as a Spectrum

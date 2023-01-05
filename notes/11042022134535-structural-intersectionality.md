@@ -1,11 +1,13 @@
-@def title = "Structural Intersectionality as a New Direction for Health Disparities Research"
-@def slug = "11042022134535-structural-intersectionality"
-@def tags = ["bibiliography", "intersectionality", "sociology", "medical", "equity", "disparity", "research", "archive"]
-@def description = "An introduction to intersectionality theory and medical sociological ideas at play within health disparities research"
++++
+title = "Structural Intersectionality as a New Direction for Health Disparities Research"
+slug = "11042022134535-structural-intersectionality"
+tags = ["bibiliography", "intersectionality", "sociology", "medical", "equity", "disparity", "research", "archive"]
+description = "An introduction to intersectionality theory and medical sociological ideas at play within health disparities research"
+rss_title = "Structural Intersectionality as a New Direction for Health Disparities Research"
+rss_description = "An introduction to intersectionality theory and medical sociological ideas at play within health disparities research"
+rss_pubdate = Date(2022, 11, 4)
++++
 
-@def rss_title = "Structural Intersectionality as a New Direction for Health Disparities Research"
-@def rss_description = "An introduction to intersectionality theory and medical sociological ideas at play within health disparities research"
-@def rss_pubdate = Date(2022, 11, 4)
 
 
 Structural Intersectionality as a New Direction for Health Disparities Research

@@ -1,11 +1,13 @@
-@def title = "Abstract Data Types"
-@def slug = "10052021221736-abstract-data-types"
-@def tags = ["summary", "data", "data", "abstract", "types", "archive"]
-@def description = "An overview and summary on what are abstract data types and what kinds exist"
++++
+title = "Abstract Data Types"
+slug = "10052021221736-abstract-data-types"
+tags = ["summary", "data", "data", "abstract", "types", "archive"]
+description = "An overview and summary on what are abstract data types and what kinds exist"
+rss_title = "Abstract Data Types"
+rss_description = "An overview and summary on what are abstract data types and what kinds exist"
+rss_pubdate = Date(2021, 10, 5)
++++
 
-@def rss_title = "Abstract Data Types"
-@def rss_description = "An overview and summary on what are abstract data types and what kinds exist"
-@def rss_pubdate = Date(2021, 10, 5)
 
 
 Abstract Data Types

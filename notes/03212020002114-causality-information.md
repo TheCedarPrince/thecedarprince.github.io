@@ -1,11 +1,13 @@
-@def title = "Causality and Information Retrieval"
-@def slug = "03212020002114-causality-information"
-@def tags = ["zettel", "justintime", "informationretrieval", "jitrs", "causality", "reasoning", "ai", "agi", "archive"]
-@def description = "Thoughts on why I think JITRs are inferior to causal models."
++++
+title = "Causality and Information Retrieval"
+slug = "03212020002114-causality-information"
+tags = ["zettel", "justintime", "informationretrieval", "jitrs", "causality", "reasoning", "ai", "agi", "archive"]
+description = "Thoughts on why I think JITRs are inferior to causal models."
+rss_title = "Causality and Information Retrieval"
+rss_description = "Thoughts on why I think JITRs are inferior to causal models."
+rss_pubdate = Date(2020, 3, 21)
++++
 
-@def rss_title = "Causality and Information Retrieval"
-@def rss_description = "Thoughts on why I think JITRs are inferior to causal models."
-@def rss_pubdate = Date(2020, 3, 21)
 
 
 Causality and Information Retrieval

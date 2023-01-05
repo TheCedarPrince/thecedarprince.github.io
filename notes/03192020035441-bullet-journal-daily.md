@@ -1,11 +1,13 @@
-@def title = "Daily Planning in a Bullet Journal"
-@def slug = "03192020035441-bullet-journal-daily"
-@def tags = ["zettel", "bulletjournal", "productivity", "journaling", "writing", "daily", "key", "archive"]
-@def description = "How to create a daily plan when using a bullet journal."
++++
+title = "Daily Planning in a Bullet Journal"
+slug = "03192020035441-bullet-journal-daily"
+tags = ["zettel", "bulletjournal", "productivity", "journaling", "writing", "daily", "key", "archive"]
+description = "How to create a daily plan when using a bullet journal."
+rss_title = "Daily Planning in a Bullet Journal"
+rss_description = "How to create a daily plan when using a bullet journal."
+rss_pubdate = Date(2020, 3, 19)
++++
 
-@def rss_title = "Daily Planning in a Bullet Journal"
-@def rss_description = "How to create a daily plan when using a bullet journal."
-@def rss_pubdate = Date(2020, 3, 19)
 
 
 Daily Planning in a Bullet Journal

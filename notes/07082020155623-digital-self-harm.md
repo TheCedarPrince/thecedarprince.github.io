@@ -1,11 +1,13 @@
-@def title = "What is Digital Self-Harm"
-@def slug = "07082020155623-digital-self-harm"
-@def tags = ["zettel", "harm", "digital", "non-suicidal", "self", "mentalhealth", "illness", "archive"]
-@def description = "Exploration of the idea of Digital Self-Harm"
++++
+title = "What is Digital Self-Harm"
+slug = "07082020155623-digital-self-harm"
+tags = ["zettel", "harm", "digital", "non-suicidal", "self", "mentalhealth", "illness", "archive"]
+description = "Exploration of the idea of Digital Self-Harm"
+rss_title = "What is Digital Self-Harm"
+rss_description = "Exploration of the idea of Digital Self-Harm"
+rss_pubdate = Date(2020, 7, 8)
++++
 
-@def rss_title = "What is Digital Self-Harm"
-@def rss_description = "Exploration of the idea of Digital Self-Harm"
-@def rss_pubdate = Date(2020, 7, 8)
 
 
 What is Digital Self-Harm

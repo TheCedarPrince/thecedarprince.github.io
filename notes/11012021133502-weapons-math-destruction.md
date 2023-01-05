@@ -1,11 +1,13 @@
-@def title = "Weapons of Math Destruction"
-@def slug = "11012021133502-weapons-math-destruction"
-@def tags = ["archive", "book", "weapon", "math", "destruction"]
-@def description = "How algorithms and mathematics can be used to construct active harm across populations"
++++
+title = "Weapons of Math Destruction"
+slug = "11012021133502-weapons-math-destruction"
+tags = ["archive", "book", "weapon", "math", "destruction"]
+description = "How algorithms and mathematics can be used to construct active harm across populations"
+rss_title = "Weapons of Math Destruction"
+rss_description = "How algorithms and mathematics can be used to construct active harm across populations"
+rss_pubdate = Date(2021, 11, 1)
++++
 
-@def rss_title = "Weapons of Math Destruction"
-@def rss_description = "How algorithms and mathematics can be used to construct active harm across populations"
-@def rss_pubdate = Date(2021, 11, 1)
 
 
 Weapons of Math Destruction

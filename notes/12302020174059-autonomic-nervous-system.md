@@ -1,11 +1,11 @@
-@def title = "Autonomic Nervous System"
-@def slug = "12302020174059-autonomic-nervous-system"
-@def tags = ["zettel", "ans", "nervous", "brain", "nerves", "archive"]
-@def description = ""
++++
+title = "Autonomic Nervous System"
+slug = "12302020174059-autonomic-nervous-system"
+tags = ["zettel", "ans", "nervous", "brain", "nerves", "archive"]
+rss_title = "Autonomic Nervous System"
+rss_pubdate = Date(2020, 12, 30)
++++
 
-@def rss_title = "Autonomic Nervous System"
-@def rss_description = ""
-@def rss_pubdate = Date(2020, 12, 30)
 
 
 Autonomic Nervous System

@@ -1,11 +1,13 @@
-@def title = "Eight-Year Follow-Up Of A Community-Based Large Group Behavioral Smoking Cessation Intervention"
-@def slug = "05172020232612-smoking-cessation"
-@def tags = ["bibliography", "smoking", "cessation", "jar", "addiction", "health", "cognitive", "behavioral", "support", "group", "large", "archive"]
-@def description = "Study involving effective cognitive behavioral-based interventions for increasing smoking cessation in large group settings."
++++
+title = "Eight-Year Follow-Up Of A Community-Based Large Group Behavioral Smoking Cessation Intervention"
+slug = "05172020232612-smoking-cessation"
+tags = ["bibliography", "smoking", "cessation", "jar", "addiction", "health", "cognitive", "behavioral", "support", "group", "large", "archive"]
+description = "Study involving effective cognitive behavioral-based interventions for increasing smoking cessation in large group settings."
+rss_title = "Eight-Year Follow-Up Of A Community-Based Large Group Behavioral Smoking Cessation Intervention"
+rss_description = "Study involving effective cognitive behavioral-based interventions for increasing smoking cessation in large group settings."
+rss_pubdate = Date(2020, 5, 17)
++++
 
-@def rss_title = "Eight-Year Follow-Up Of A Community-Based Large Group Behavioral Smoking Cessation Intervention"
-@def rss_description = "Study involving effective cognitive behavioral-based interventions for increasing smoking cessation in large group settings."
-@def rss_pubdate = Date(2020, 5, 17)
 
 
 Eight-Year Follow-Up Of A Community-Based Large Group Behavioral Smoking Cessation Intervention

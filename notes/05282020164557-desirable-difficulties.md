@@ -1,11 +1,13 @@
-@def title = "Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning"
-@def slug = "05282020164557-desirable-difficulties"
-@def tags = ["bibliography", "finish", "performance", "storage", "strength", "difficulty", "desirable", "learning", "archive"]
-@def description = "Practical discussion about how to introduce desirable learning difficulties into your learning patterns."
++++
+title = "Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning"
+slug = "05282020164557-desirable-difficulties"
+tags = ["bibliography", "finish", "performance", "storage", "strength", "difficulty", "desirable", "learning", "archive"]
+description = "Practical discussion about how to introduce desirable learning difficulties into your learning patterns."
+rss_title = "Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning"
+rss_description = "Practical discussion about how to introduce desirable learning difficulties into your learning patterns."
+rss_pubdate = Date(2020, 5, 28)
++++
 
-@def rss_title = "Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning"
-@def rss_description = "Practical discussion about how to introduce desirable learning difficulties into your learning patterns."
-@def rss_pubdate = Date(2020, 5, 28)
 
 
 Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning

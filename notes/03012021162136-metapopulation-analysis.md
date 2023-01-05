@@ -1,11 +1,13 @@
-@def title = "Metapopulation Analysis"
-@def slug = "03012021162136-metapopulation-analysis"
-@def tags = ["zettel", "biology", "sociology", "population", "analysis", "mobility", "extinction", "archive"]
-@def description = "An overview of metapopulation analysis and how it could be"
++++
+title = "Metapopulation Analysis"
+slug = "03012021162136-metapopulation-analysis"
+tags = ["zettel", "biology", "sociology", "population", "analysis", "mobility", "extinction", "archive"]
+description = "An overview of metapopulation analysis and how it could be"
+rss_title = "Metapopulation Analysis"
+rss_description = "An overview of metapopulation analysis and how it could be"
+rss_pubdate = Date(2021, 3, 1)
++++
 
-@def rss_title = "Metapopulation Analysis"
-@def rss_description = "An overview of metapopulation analysis and how it could be"
-@def rss_pubdate = Date(2021, 3, 1)
 
 
 Metapopulation Analysis

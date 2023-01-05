@@ -1,11 +1,11 @@
-@def title = "Making Fair Choices on the Path to Universal Health Coverage"
-@def slug = "01132021044141-universal-health-proposal"
-@def tags = ["bibliography", "universal", "health", "coverage", "archive"]
-@def description = ""
++++
+title = "Making Fair Choices on the Path to Universal Health Coverage"
+slug = "01132021044141-universal-health-proposal"
+tags = ["bibliography", "universal", "health", "coverage", "archive"]
+rss_title = "Making Fair Choices on the Path to Universal Health Coverage"
+rss_pubdate = Date(2021, 1, 12)
++++
 
-@def rss_title = "Making Fair Choices on the Path to Universal Health Coverage"
-@def rss_description = ""
-@def rss_pubdate = Date(2021, 1, 12)
 
 
 Making Fair Choices on the Path to Universal Health Coverage

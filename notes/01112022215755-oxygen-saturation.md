@@ -1,11 +1,13 @@
-@def title = "Peripheral Capillary Oxygen Saturation (SpO2)"
-@def slug = "01112022215755-oxygen-saturation"
-@def tags = ["summary", "healthcare", "informatics", "health", "signal", "biomarker", "archive"]
-@def description = "A summary of what Peripheral Capillary Oxygen Saturation (SpO2) is and its use as a biomarker and use in signal processing."
++++
+title = "Peripheral Capillary Oxygen Saturation (SpO2)"
+slug = "01112022215755-oxygen-saturation"
+tags = ["summary", "healthcare", "informatics", "health", "signal", "biomarker", "archive"]
+description = "A summary of what Peripheral Capillary Oxygen Saturation (SpO2) is and its use as a biomarker and use in signal processing."
+rss_title = "Peripheral Capillary Oxygen Saturation (SpO2)"
+rss_description = "A summary of what Peripheral Capillary Oxygen Saturation (SpO2) is and its use as a biomarker and use in signal processing."
+rss_pubdate = Date(2022, 1, 11)
++++
 
-@def rss_title = "Peripheral Capillary Oxygen Saturation (SpO2)"
-@def rss_description = "A summary of what Peripheral Capillary Oxygen Saturation (SpO2) is and its use as a biomarker and use in signal processing."
-@def rss_pubdate = Date(2022, 1, 11)
 
 
 Peripheral Capillary Oxygen Saturation (SpO2)

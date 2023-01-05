@@ -1,11 +1,13 @@
-@def title = "State of Telehealth"
-@def slug = "05022022144808-state-of-telehealth"
-@def tags = ["bibliography", "telehealth", "care", "digital", "chronic", "acute", "conditions", "wait", "time", "archive"]
-@def description = "An overall summary and review of the state of telehealth based off literature"
++++
+title = "State of Telehealth"
+slug = "05022022144808-state-of-telehealth"
+tags = ["bibliography", "telehealth", "care", "digital", "chronic", "acute", "conditions", "wait", "time", "archive"]
+description = "An overall summary and review of the state of telehealth based off literature"
+rss_title = "State of Telehealth"
+rss_description = "An overall summary and review of the state of telehealth based off literature"
+rss_pubdate = Date(2022, 5, 2)
++++
 
-@def rss_title = "State of Telehealth"
-@def rss_description = "An overall summary and review of the state of telehealth based off literature"
-@def rss_pubdate = Date(2022, 5, 2)
 
 
 State of Telehealth

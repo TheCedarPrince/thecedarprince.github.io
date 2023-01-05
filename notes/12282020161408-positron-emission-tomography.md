@@ -1,11 +1,13 @@
-@def title = "Positron Emission Tomography (PET)"
-@def slug = "12282020161408-positron-emission-tomography"
-@def tags = ["zettel", "archive"]
-@def description = "What is Positron Emission Tomography (PET) scans"
++++
+title = "Positron Emission Tomography (PET)"
+slug = "12282020161408-positron-emission-tomography"
+tags = ["zettel", "archive"]
+description = "What is Positron Emission Tomography (PET) scans"
+rss_title = "Positron Emission Tomography (PET)"
+rss_description = "What is Positron Emission Tomography (PET) scans"
+rss_pubdate = Date(2020, 12, 28)
++++
 
-@def rss_title = "Positron Emission Tomography (PET)"
-@def rss_description = "What is Positron Emission Tomography (PET) scans"
-@def rss_pubdate = Date(2020, 12, 28)
 
 
 Positron Emission Tomography (PET)

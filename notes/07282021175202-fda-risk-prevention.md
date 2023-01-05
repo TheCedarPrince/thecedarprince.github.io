@@ -1,11 +1,13 @@
-@def title = "FDA Amendment Act"
-@def slug = "07282021175202-fda-risk-prevention"
-@def tags = ["food", "drug", "administration", "omop", "act", "congress", "sentinel", "initiative", "archive"]
-@def description = "How the FDA addressed concerns about drug recalls"
++++
+title = "FDA Amendment Act"
+slug = "07282021175202-fda-risk-prevention"
+tags = ["food", "drug", "administration", "omop", "act", "congress", "sentinel", "initiative", "archive"]
+description = "How the FDA addressed concerns about drug recalls"
+rss_title = "FDA Amendment Act"
+rss_description = "How the FDA addressed concerns about drug recalls"
+rss_pubdate = Date(2021, 7, 28)
++++
 
-@def rss_title = "FDA Amendment Act"
-@def rss_description = "How the FDA addressed concerns about drug recalls"
-@def rss_pubdate = Date(2021, 7, 28)
 
 
 FDA Amendment Act

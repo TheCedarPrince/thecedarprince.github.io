@@ -1,11 +1,11 @@
-@def title = "Timing of Community Mitigation and Changes in Reported COVID-19 and Community Mobility - Four U.S. Metropolitan Areas, February 26 - April 1, 2020"
-@def slug = "06082021141248-timing-community-mitigation"
-@def tags = ["policy", "mandate", "community", "mitigation", "nonpharmaceutical", "intervention", "archive"]
-@def description = ""
++++
+title = "Timing of Community Mitigation and Changes in Reported COVID-19 and Community Mobility - Four U.S. Metropolitan Areas, February 26 - April 1, 2020"
+slug = "06082021141248-timing-community-mitigation"
+tags = ["policy", "mandate", "community", "mitigation", "nonpharmaceutical", "intervention", "archive"]
+rss_title = "Timing of Community Mitigation and Changes in Reported COVID-19 and Community Mobility - Four U.S. Metropolitan Areas, February 26 - April 1, 2020"
+rss_pubdate = Date(2021, 6, 8)
++++
 
-@def rss_title = "Timing of Community Mitigation and Changes in Reported COVID-19 and Community Mobility - Four U.S. Metropolitan Areas, February 26 - April 1, 2020"
-@def rss_description = ""
-@def rss_pubdate = Date(2021, 6, 8)
 
 
 Timing of Community Mitigation and Changes in Reported COVID-19 and Community Mobility - Four U.S. Metropolitan Areas, February 26 - April 1, 2020

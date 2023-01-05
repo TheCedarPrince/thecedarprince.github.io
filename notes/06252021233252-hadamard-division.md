@@ -1,11 +1,11 @@
-@def title = "Hadamard Division (Elementwise Division)"
-@def slug = "06252021233252-hadamard-division"
-@def tags = ["archive"]
-@def description = ""
++++
+title = "Hadamard Division (Elementwise Division)"
+slug = "06252021233252-hadamard-division"
+tags = ["archive"]
+rss_title = "Hadamard Division (Elementwise Division)"
+rss_pubdate = Date(2021, 6, 25)
++++
 
-@def rss_title = "Hadamard Division (Elementwise Division)"
-@def rss_description = ""
-@def rss_pubdate = Date(2021, 6, 25)
 
 
 Hadamard Division (Elementwise Division)

@@ -1,11 +1,13 @@
-@def title = "Coproducts (Disjoint Unions)"
-@def slug = "09162022162129-coproducts-disjoints"
-@def tags = ["summary", "category", "theory", "sets", "union", "archive"]
-@def description = "Exploration on the disjoint union of sets."
++++
+title = "Coproducts (Disjoint Unions)"
+slug = "09162022162129-coproducts-disjoints"
+tags = ["summary", "category", "theory", "sets", "union", "archive"]
+description = "Exploration on the disjoint union of sets."
+rss_title = "Coproducts (Disjoint Unions)"
+rss_description = "Exploration on the disjoint union of sets."
+rss_pubdate = Date(2022, 9, 16)
++++
 
-@def rss_title = "Coproducts (Disjoint Unions)"
-@def rss_description = "Exploration on the disjoint union of sets."
-@def rss_pubdate = Date(2022, 9, 16)
 
 
 Coproducts (Disjoint Unions)

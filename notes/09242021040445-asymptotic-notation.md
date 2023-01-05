@@ -1,11 +1,13 @@
-@def title = "Asymptotic Notation"
-@def slug = "09242021040445-asymptotic-notation"
-@def tags = ["asymptotic", "notation", "complexity", "bigo", "masters", "archive"]
-@def description = "An overview of asymptotic notation and time complexity"
++++
+title = "Asymptotic Notation"
+slug = "09242021040445-asymptotic-notation"
+tags = ["asymptotic", "notation", "complexity", "bigo", "masters", "archive"]
+description = "An overview of asymptotic notation and time complexity"
+rss_title = "Asymptotic Notation"
+rss_description = "An overview of asymptotic notation and time complexity"
+rss_pubdate = Date(2021, 9, 28)
++++
 
-@def rss_title = "Asymptotic Notation"
-@def rss_description = "An overview of asymptotic notation and time complexity"
-@def rss_pubdate = Date(2021, 9, 28)
 
 
 Asymptotic Notation

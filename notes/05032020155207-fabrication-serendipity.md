@@ -1,11 +1,13 @@
-@def title = "Niklas Luhmann's Card Index: The Fabrication of Serendipity"
-@def slug = "05032020155207-fabrication-serendipity"
-@def tags = ["zettel", "database", "computer", "niklasluhmann", "zettelkasten", "archive"]
-@def description = "A more in-depth examination of the Zettelkasten method"
++++
+title = "Niklas Luhmann's Card Index: The Fabrication of Serendipity"
+slug = "05032020155207-fabrication-serendipity"
+tags = ["zettel", "database", "computer", "niklasluhmann", "zettelkasten", "archive"]
+description = "A more in-depth examination of the Zettelkasten method"
+rss_title = "Niklas Luhmann's Card Index: The Fabrication of Serendipity"
+rss_description = "A more in-depth examination of the Zettelkasten method"
+rss_pubdate = Date(2020, 5, 3)
++++
 
-@def rss_title = "Niklas Luhmann's Card Index: The Fabrication of Serendipity"
-@def rss_description = "A more in-depth examination of the Zettelkasten method"
-@def rss_pubdate = Date(2020, 5, 3)
 
 
 Niklas Luhmann's Card Index: The Fabrication of Serendipity

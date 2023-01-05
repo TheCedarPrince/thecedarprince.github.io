@@ -1,11 +1,13 @@
-@def title = "Learning MySQL"
-@def slug = "03152021204433-mysql-programming"
-@def tags = ["zettel", "mysql", "sql", "query", "language", "databases", "archive"]
-@def description = "Notes on my adventures in learning MySQL syntax and concepts"
++++
+title = "Learning MySQL"
+slug = "03152021204433-mysql-programming"
+tags = ["zettel", "mysql", "sql", "query", "language", "databases", "archive"]
+description = "Notes on my adventures in learning MySQL syntax and concepts"
+rss_title = "Learning MySQL"
+rss_description = "Notes on my adventures in learning MySQL syntax and concepts"
+rss_pubdate = Date(2021, 3, 15)
++++
 
-@def rss_title = "Learning MySQL"
-@def rss_description = "Notes on my adventures in learning MySQL syntax and concepts"
-@def rss_pubdate = Date(2021, 3, 15)
 
 
 Learning MySQL

@@ -1,11 +1,11 @@
-@def title = "Common Biomarkers for the Brain"
-@def slug = "12282020020156-brain-biomarkers"
-@def tags = ["zettel", "biomarkers", "brain", "archive"]
-@def description = ""
++++
+title = "Common Biomarkers for the Brain"
+slug = "12282020020156-brain-biomarkers"
+tags = ["zettel", "biomarkers", "brain", "archive"]
+rss_title = "Common Biomarkers for the Brain"
+rss_pubdate = Date(2020, 12, 27)
++++
 
-@def rss_title = "Common Biomarkers for the Brain"
-@def rss_description = ""
-@def rss_pubdate = Date(2020, 12, 27)
 
 
 Common Biomarkers for the Brain

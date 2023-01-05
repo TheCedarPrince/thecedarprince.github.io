@@ -1,11 +1,13 @@
-@def title = "Multiscale Entropy"
-@def slug = "10082020005615-multiscale-entropy"
-@def tags = ["zettel", "statistics", "entropy", "archive"]
-@def description = "Brief synopsis/explanation of what is Multiscale Entropy"
++++
+title = "Multiscale Entropy"
+slug = "10082020005615-multiscale-entropy"
+tags = ["zettel", "statistics", "entropy", "archive"]
+description = "Brief synopsis/explanation of what is Multiscale Entropy"
+rss_title = "Multiscale Entropy"
+rss_description = "Brief synopsis/explanation of what is Multiscale Entropy"
+rss_pubdate = Date(2020, 10, 7)
++++
 
-@def rss_title = "Multiscale Entropy"
-@def rss_description = "Brief synopsis/explanation of what is Multiscale Entropy"
-@def rss_pubdate = Date(2020, 10, 7)
 
 
 Multiscale Entropy

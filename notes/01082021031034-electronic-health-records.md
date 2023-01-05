@@ -1,11 +1,13 @@
-@def title = "Electronic Health Records"
-@def slug = "01082021031034-electronic-health-records"
-@def tags = ["zettel", "ehr", "healthcare", "archive"]
-@def description = "An overview of Electronic Health Records"
++++
+title = "Electronic Health Records"
+slug = "01082021031034-electronic-health-records"
+tags = ["zettel", "ehr", "healthcare", "archive"]
+description = "An overview of Electronic Health Records"
+rss_title = "Electronic Health Records"
+rss_description = "An overview of Electronic Health Records"
+rss_pubdate = Date(2021, 1, 7)
++++
 
-@def rss_title = "Electronic Health Records"
-@def rss_description = "An overview of Electronic Health Records"
-@def rss_pubdate = Date(2021, 1, 7)
 
 
 Electronic Health Records

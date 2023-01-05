@@ -1,11 +1,13 @@
-@def title = "Magnetoencephalography (MEG)"
-@def slug = "12282020161201-magnetoencephalography"
-@def tags = ["zettel", "meg", "brain", "activity", "archive"]
-@def description = "What Magnetoencephalography is"
++++
+title = "Magnetoencephalography (MEG)"
+slug = "12282020161201-magnetoencephalography"
+tags = ["zettel", "meg", "brain", "activity", "archive"]
+description = "What Magnetoencephalography is"
+rss_title = "Magnetoencephalography (MEG)"
+rss_description = "What Magnetoencephalography is"
+rss_pubdate = Date(2020, 12, 28)
++++
 
-@def rss_title = "Magnetoencephalography (MEG)"
-@def rss_description = "What Magnetoencephalography is"
-@def rss_pubdate = Date(2020, 12, 28)
 
 
 Magnetoencephalography (MEG)

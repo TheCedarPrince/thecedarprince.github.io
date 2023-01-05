@@ -1,11 +1,13 @@
-@def title = "Exploring Ancestors and Descendants of a Concept"
-@def slug = "07282021202459-exploring-ancestors-concept"
-@def tags = ["ohdsi", "sql", "ancestor", "descendant", "r", "archive"]
-@def description = "How to explore ancestors and descendants of OHDSI concepts"
++++
+title = "Exploring Ancestors and Descendants of a Concept"
+slug = "07282021202459-exploring-ancestors-concept"
+tags = ["ohdsi", "sql", "ancestor", "descendant", "r", "archive"]
+description = "How to explore ancestors and descendants of OHDSI concepts"
+rss_title = "Exploring Ancestors and Descendants of a Concept"
+rss_description = "How to explore ancestors and descendants of OHDSI concepts"
+rss_pubdate = Date(2021, 7, 28)
++++
 
-@def rss_title = "Exploring Ancestors and Descendants of a Concept"
-@def rss_description = "How to explore ancestors and descendants of OHDSI concepts"
-@def rss_pubdate = Date(2021, 7, 28)
 
 
 Exploring Ancestors and Descendants of a Concept

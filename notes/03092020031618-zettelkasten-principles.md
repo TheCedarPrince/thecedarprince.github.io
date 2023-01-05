@@ -1,11 +1,13 @@
-@def title = "Principles of the Zettelkasten"
-@def slug = "03092020031618-zettelkasten-principles"
-@def tags = ["zettel", "zettelkasten", "principles", "atomicity", "archive"]
-@def description = "General principles on how to create and use a Zettelkasten."
++++
+title = "Principles of the Zettelkasten"
+slug = "03092020031618-zettelkasten-principles"
+tags = ["zettel", "zettelkasten", "principles", "atomicity", "archive"]
+description = "General principles on how to create and use a Zettelkasten."
+rss_title = "Principles of the Zettelkasten"
+rss_description = "General principles on how to create and use a Zettelkasten."
+rss_pubdate = Date(2022, 12, 2)
++++
 
-@def rss_title = "Principles of the Zettelkasten"
-@def rss_description = "General principles on how to create and use a Zettelkasten."
-@def rss_pubdate = Date(2022, 12, 2)
 
 
 Principles of the Zettelkasten

@@ -1,11 +1,13 @@
-@def title = "Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective"
-@def slug = "08192022115354-health-terrorism-factors"
-@def tags = ["bibliography", "terrorism", "social", "determinants", "health", "cohesion", "social", "isolation", "archive"]
-@def description = "A review on how terrorism intersects with the social determinants of health"
++++
+title = "Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective"
+slug = "08192022115354-health-terrorism-factors"
+tags = ["bibliography", "terrorism", "social", "determinants", "health", "cohesion", "social", "isolation", "archive"]
+description = "A review on how terrorism intersects with the social determinants of health"
+rss_title = "Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective"
+rss_description = "A review on how terrorism intersects with the social determinants of health"
+rss_pubdate = Date(2022, 8, 19)
++++
 
-@def rss_title = "Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective"
-@def rss_description = "A review on how terrorism intersects with the social determinants of health"
-@def rss_pubdate = Date(2022, 8, 19)
 
 
 Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective

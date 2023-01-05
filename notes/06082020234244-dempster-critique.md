@@ -1,11 +1,13 @@
-@def title = "A Case Study in the Failure to Apply the Results of Psychological Research"
-@def slug = "06082020234244-dempster-critique"
-@def tags = ["bibliography", "spacing", "effect", "critique", "education", "system", "archive"]
-@def description = "A critique of possible reasons for why the Spacing Effect is not applied in American educational settings."
++++
+title = "A Case Study in the Failure to Apply the Results of Psychological Research"
+slug = "06082020234244-dempster-critique"
+tags = ["bibliography", "spacing", "effect", "critique", "education", "system", "archive"]
+description = "A critique of possible reasons for why the Spacing Effect is not applied in American educational settings."
+rss_title = "A Case Study in the Failure to Apply the Results of Psychological Research"
+rss_description = "A critique of possible reasons for why the Spacing Effect is not applied in American educational settings."
+rss_pubdate = Date(2020, 6, 8)
++++
 
-@def rss_title = "A Case Study in the Failure to Apply the Results of Psychological Research"
-@def rss_description = "A critique of possible reasons for why the Spacing Effect is not applied in American educational settings."
-@def rss_pubdate = Date(2020, 6, 8)
 
 
 A Case Study in the Failure to Apply the Results of Psychological Research

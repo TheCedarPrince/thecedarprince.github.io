@@ -1,11 +1,13 @@
-@def title = "Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State"
-@def slug = "07192020031136-covid-outcomes-disabilities"
-@def tags = ["bibliography", "archive"]
-@def description = "Outcomes for individuals living with intellectual and developmental disabilities during the COVID-19 pandemic"
++++
+title = "Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State"
+slug = "07192020031136-covid-outcomes-disabilities"
+tags = ["bibliography", "archive"]
+description = "Outcomes for individuals living with intellectual and developmental disabilities during the COVID-19 pandemic"
+rss_title = "Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State"
+rss_description = "Outcomes for individuals living with intellectual and developmental disabilities during the COVID-19 pandemic"
+rss_pubdate = Date(2020, 7, 18)
++++
 
-@def rss_title = "Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State"
-@def rss_description = "Outcomes for individuals living with intellectual and developmental disabilities during the COVID-19 pandemic"
-@def rss_pubdate = Date(2020, 7, 18)
 
 
 Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State

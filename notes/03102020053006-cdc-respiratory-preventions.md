@@ -1,11 +1,13 @@
-@def title = "CDC Respiratory Disease Prevention"
-@def slug = "03102020053006-cdc-respiratory-preventions"
-@def tags = ["zettel", "cdc", "health", "publichealth", "disease", "archive"]
-@def description = "Note on generic methods on preventing respiratory infection approved by the CDC."
++++
+title = "CDC Respiratory Disease Prevention"
+slug = "03102020053006-cdc-respiratory-preventions"
+tags = ["zettel", "cdc", "health", "publichealth", "disease", "archive"]
+description = "Note on generic methods on preventing respiratory infection approved by the CDC."
+rss_title = "CDC Respiratory Disease Prevention"
+rss_description = "Note on generic methods on preventing respiratory infection approved by the CDC."
+rss_pubdate = Date(2020, 3, 10)
++++
 
-@def rss_title = "CDC Respiratory Disease Prevention"
-@def rss_description = "Note on generic methods on preventing respiratory infection approved by the CDC."
-@def rss_pubdate = Date(2020, 3, 10)
 
 
 CDC Respiratory Disease Prevention

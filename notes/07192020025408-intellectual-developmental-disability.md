@@ -1,11 +1,13 @@
-@def title = "Intellectual and Developmental Disability"
-@def slug = "07192020025408-intellectual-developmental-disability"
-@def tags = ["zettel", "intellectual", "developmental", "disability", "disability", "health", "archive"]
-@def description = "What is Intellectual and Developmental Disability"
++++
+title = "Intellectual and Developmental Disability"
+slug = "07192020025408-intellectual-developmental-disability"
+tags = ["zettel", "intellectual", "developmental", "disability", "disability", "health", "archive"]
+description = "What is Intellectual and Developmental Disability"
+rss_title = "Intellectual and Developmental Disability"
+rss_description = "What is Intellectual and Developmental Disability"
+rss_pubdate = Date(2020, 7, 18)
++++
 
-@def rss_title = "Intellectual and Developmental Disability"
-@def rss_description = "What is Intellectual and Developmental Disability"
-@def rss_pubdate = Date(2020, 7, 18)
 
 
 Intellectual and Developmental Disability

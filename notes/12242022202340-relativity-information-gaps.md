@@ -1,11 +1,13 @@
-@def title = "The Analogy between the Relativity of Simultaneity and Information Dissemination"
-@def slug = "12242022202340-relativity-information-gaps"
-@def tags = ["action", "reaction", "analogy", "relativity", "simultaneity", "information", "archive"]
-@def description = "A thought on the analogy between the relativity of simultaneity and information dissemination in consideration of Marshall MacLuhan's concept of the 'action and reaction'"
++++
+title = "The Analogy between the Relativity of Simultaneity and Information Dissemination"
+slug = "12242022202340-relativity-information-gaps"
+tags = ["action", "reaction", "analogy", "relativity", "simultaneity", "information", "archive"]
+description = "A thought on the analogy between the relativity of simultaneity and information dissemination in consideration of Marshall MacLuhan's concept of the 'action and reaction'"
+rss_title = "The Analogy between the Relativity of Simultaneity and Information Dissemination"
+rss_description = "A thought on the analogy between the relativity of simultaneity and information dissemination in consideration of Marshall MacLuhan's concept of the 'action and reaction'"
+rss_pubdate = Date(2022, 12, 24)
++++
 
-@def rss_title = "The Analogy between the Relativity of Simultaneity and Information Dissemination"
-@def rss_description = "A thought on the analogy between the relativity of simultaneity and information dissemination in consideration of Marshall MacLuhan's concept of the 'action and reaction'"
-@def rss_pubdate = Date(2022, 12, 24)
 
 
 The Analogy between the Relativity of Simultaneity and Information Dissemination

@@ -1,11 +1,13 @@
-@def title = "Telehealth for global emergencies: Implications for coronavirus disease 2019 (COVID-19)"
-@def slug = "05022022171845-telehealth-global-emergencies"
-@def tags = ["bibliography", "covid", "telehealth", "clinician", "unwillingness", "remittance", "archive"]
-@def description = "A great summary of how telehealth interventions can be used both in the COVID-19 pandemic and in general"
++++
+title = "Telehealth for global emergencies: Implications for coronavirus disease 2019 (COVID-19)"
+slug = "05022022171845-telehealth-global-emergencies"
+tags = ["bibliography", "covid", "telehealth", "clinician", "unwillingness", "remittance", "archive"]
+description = "A great summary of how telehealth interventions can be used both in the COVID-19 pandemic and in general"
+rss_title = "Telehealth for global emergencies: Implications for coronavirus disease 2019 (COVID-19)"
+rss_description = "A great summary of how telehealth interventions can be used both in the COVID-19 pandemic and in general"
+rss_pubdate = Date(2022, 5, 2)
++++
 
-@def rss_title = "Telehealth for global emergencies: Implications for coronavirus disease 2019 (COVID-19)"
-@def rss_description = "A great summary of how telehealth interventions can be used both in the COVID-19 pandemic and in general"
-@def rss_pubdate = Date(2022, 5, 2)
 
 
 Telehealth for global emergencies: Implications for coronavirus disease 2019 (COVID-19)

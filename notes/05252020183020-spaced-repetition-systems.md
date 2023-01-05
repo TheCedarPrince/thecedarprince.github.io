@@ -1,11 +1,13 @@
-@def title = "Spaced Repetition Systems"
-@def slug = "05252020183020-spaced-repetition-systems"
-@def tags = ["zettel", "spaced", "repetition", "system", "spacing", "effect", "learning", "software", "archive"]
-@def description = "What are Spaced Repetition Systems and what is available?"
++++
+title = "Spaced Repetition Systems"
+slug = "05252020183020-spaced-repetition-systems"
+tags = ["zettel", "spaced", "repetition", "system", "spacing", "effect", "learning", "software", "archive"]
+description = "What are Spaced Repetition Systems and what is available?"
+rss_title = "Spaced Repetition Systems"
+rss_description = "What are Spaced Repetition Systems and what is available?"
+rss_pubdate = Date(2020, 5, 25)
++++
 
-@def rss_title = "Spaced Repetition Systems"
-@def rss_description = "What are Spaced Repetition Systems and what is available?"
-@def rss_pubdate = Date(2020, 5, 25)
 
 
 Spaced Repetition Systems

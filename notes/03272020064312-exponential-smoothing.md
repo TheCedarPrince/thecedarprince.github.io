@@ -1,11 +1,13 @@
-@def title = "Exponential Smoothing"
-@def slug = "03272020064312-exponential-smoothing"
-@def tags = ["zettel", "signalprocessing", "noise", "artifact", "smoothing", "window", "julialang", "archive"]
-@def description = "An overview on how to use the exponential smoothing algorithm"
++++
+title = "Exponential Smoothing"
+slug = "03272020064312-exponential-smoothing"
+tags = ["zettel", "signalprocessing", "noise", "artifact", "smoothing", "window", "julialang", "archive"]
+description = "An overview on how to use the exponential smoothing algorithm"
+rss_title = "Exponential Smoothing"
+rss_description = "An overview on how to use the exponential smoothing algorithm"
+rss_pubdate = Date(2020, 3, 27)
++++
 
-@def rss_title = "Exponential Smoothing"
-@def rss_description = "An overview on how to use the exponential smoothing algorithm"
-@def rss_pubdate = Date(2020, 3, 27)
 
 
 Exponential Smoothing

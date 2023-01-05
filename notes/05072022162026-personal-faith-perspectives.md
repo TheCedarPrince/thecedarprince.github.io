@@ -1,11 +1,13 @@
-@def title = "Personal Perspectives on Faith"
-@def slug = "05072022162026-personal-faith-perspectives"
-@def tags = ["blog", "faith", "christianity", "nicean", "creed", "archive"]
-@def description = "An evolving note on my perspectives on faith as a practicing"
++++
+title = "Personal Perspectives on Faith"
+slug = "05072022162026-personal-faith-perspectives"
+tags = ["blog", "faith", "christianity", "nicean", "creed", "archive"]
+description = "An evolving note on my perspectives on faith as a practicing"
+rss_title = "Personal Perspectives on Faith"
+rss_description = "An evolving note on my perspectives on faith as a practicing"
+rss_pubdate = Date(2022, 5, 7)
++++
 
-@def rss_title = "Personal Perspectives on Faith"
-@def rss_description = "An evolving note on my perspectives on faith as a practicing"
-@def rss_pubdate = Date(2022, 5, 7)
 
 
 Personal Perspectives on Faith

@@ -1,11 +1,11 @@
-@def title = "Nursing Home Staff Networks and COVID-19"
-@def slug = "01072021061204-nursing-home-staff"
-@def tags = ["zettel", "pandemic", "covid", "nursing", "homes", "archive"]
-@def description = ""
++++
+title = "Nursing Home Staff Networks and COVID-19"
+slug = "01072021061204-nursing-home-staff"
+tags = ["zettel", "pandemic", "covid", "nursing", "homes", "archive"]
+rss_title = "Nursing Home Staff Networks and COVID-19"
+rss_pubdate = Date(2021, 1, 7)
++++
 
-@def rss_title = "Nursing Home Staff Networks and COVID-19"
-@def rss_description = ""
-@def rss_pubdate = Date(2021, 1, 7)
 
 
 Nursing Home Staff Networks and COVID-19

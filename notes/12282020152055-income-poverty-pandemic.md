@@ -1,11 +1,13 @@
-@def title = "Income and Poverty in the COVID-19 Pandemic"
-@def slug = "12282020152055-income-poverty-pandemic"
-@def tags = ["bibliography", "pandemic", "covid", "economics", "poverty", "population", "survey", "archive"]
-@def description = "Emerging insights into income and poverty during the COVID-19 pandemic"
++++
+title = "Income and Poverty in the COVID-19 Pandemic"
+slug = "12282020152055-income-poverty-pandemic"
+tags = ["bibliography", "pandemic", "covid", "economics", "poverty", "population", "survey", "archive"]
+description = "Emerging insights into income and poverty during the COVID-19 pandemic"
+rss_title = "Income and Poverty in the COVID-19 Pandemic"
+rss_description = "Emerging insights into income and poverty during the COVID-19 pandemic"
+rss_pubdate = Date(2020, 12, 28)
++++
 
-@def rss_title = "Income and Poverty in the COVID-19 Pandemic"
-@def rss_description = "Emerging insights into income and poverty during the COVID-19 pandemic"
-@def rss_pubdate = Date(2020, 12, 28)
 
 
 Income and Poverty in the COVID-19 Pandemic

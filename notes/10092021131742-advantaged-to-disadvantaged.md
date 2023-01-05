@@ -1,11 +1,13 @@
-@def title = "Advantage to Disadvantage - Working Thoughts"
-@def slug = "10092021131742-advantaged-to-disadvantaged"
-@def tags = ["advantage", "disadvantage", "equity", "thought", "race", "class", "archive"]
-@def description = "An overview on my current thinking about equity and those who"
++++
+title = "Advantage to Disadvantage - Working Thoughts"
+slug = "10092021131742-advantaged-to-disadvantaged"
+tags = ["advantage", "disadvantage", "equity", "thought", "race", "class", "archive"]
+description = "An overview on my current thinking about equity and those who"
+rss_title = "Advantage to Disadvantage - Working Thoughts"
+rss_description = "An overview on my current thinking about equity and those who"
+rss_pubdate = Date(2021, 10, 9)
++++
 
-@def rss_title = "Advantage to Disadvantage - Working Thoughts"
-@def rss_description = "An overview on my current thinking about equity and those who"
-@def rss_pubdate = Date(2021, 10, 9)
 
 
 Advantage to Disadvantage - Working Thoughts

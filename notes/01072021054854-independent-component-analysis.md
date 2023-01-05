@@ -1,11 +1,13 @@
-@def title = "Independent Component Analysis"
-@def slug = "01072021054854-independent-component-analysis"
-@def tags = ["zettel", "mathematics", "analysis", "independent", "component", "analysis", "speech", "fmri", "noise", "separation", "archive"]
-@def description = "What independent component analysis is"
++++
+title = "Independent Component Analysis"
+slug = "01072021054854-independent-component-analysis"
+tags = ["zettel", "mathematics", "analysis", "independent", "component", "analysis", "speech", "fmri", "noise", "separation", "archive"]
+description = "What independent component analysis is"
+rss_title = "Independent Component Analysis"
+rss_description = "What independent component analysis is"
+rss_pubdate = Date(2021, 1, 7)
++++
 
-@def rss_title = "Independent Component Analysis"
-@def rss_description = "What independent component analysis is"
-@def rss_pubdate = Date(2021, 1, 7)
 
 
 Independent Component Analysis

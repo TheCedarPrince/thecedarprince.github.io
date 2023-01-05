@@ -1,11 +1,13 @@
-@def title = "Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020"
-@def slug = "01072021062915-mobility-patterns-gtri"
-@def tags = ["bibliography", "covid", "population", "dynamics", "gtri", "cdc", "mmwr", "dataset", "agriculture", "rural", "urban", "archive"]
-@def description = "How population mobility was affected by US mandates for stay-at-home orders"
++++
+title = "Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020"
+slug = "01072021062915-mobility-patterns-gtri"
+tags = ["bibliography", "covid", "population", "dynamics", "gtri", "cdc", "mmwr", "dataset", "agriculture", "rural", "urban", "archive"]
+description = "How population mobility was affected by US mandates for stay-at-home orders"
+rss_title = "Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020"
+rss_description = "How population mobility was affected by US mandates for stay-at-home orders"
+rss_pubdate = Date(2021, 1, 7)
++++
 
-@def rss_title = "Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020"
-@def rss_description = "How population mobility was affected by US mandates for stay-at-home orders"
-@def rss_pubdate = Date(2021, 1, 7)
 
 
 Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020

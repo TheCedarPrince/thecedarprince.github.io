@@ -1,11 +1,13 @@
-@def title = "Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex"
-@def slug = "01062021042121-anticipatory-biasing"
-@def tags = ["bibliography", "archive"]
-@def description = "How EEGs were used to measure brain activity in this study"
++++
+title = "Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex"
+slug = "01062021042121-anticipatory-biasing"
+tags = ["bibliography", "archive"]
+description = "How EEGs were used to measure brain activity in this study"
+rss_title = "Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex"
+rss_description = "How EEGs were used to measure brain activity in this study"
+rss_pubdate = Date(2021, 1, 6)
++++
 
-@def rss_title = "Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex"
-@def rss_description = "How EEGs were used to measure brain activity in this study"
-@def rss_pubdate = Date(2021, 1, 6)
 
 
 Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex

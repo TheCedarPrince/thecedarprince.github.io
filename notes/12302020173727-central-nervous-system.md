@@ -1,11 +1,11 @@
-@def title = "Central Nervous System"
-@def slug = "12302020173727-central-nervous-system"
-@def tags = ["zettel", "cns", "anatomy", "brain", "archive"]
-@def description = ""
++++
+title = "Central Nervous System"
+slug = "12302020173727-central-nervous-system"
+tags = ["zettel", "cns", "anatomy", "brain", "archive"]
+rss_title = "Central Nervous System"
+rss_pubdate = Date(2020, 12, 30)
++++
 
-@def rss_title = "Central Nervous System"
-@def rss_description = ""
-@def rss_pubdate = Date(2020, 12, 30)
 
 
 Central Nervous System

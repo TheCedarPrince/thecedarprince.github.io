@@ -1,11 +1,13 @@
-@def title = "Scientific Revolutions"
-@def slug = "05222022045723-scientific-revolutions"
-@def tags = ["outline", "revolution", "scientific", "shift", "paradigm", "archive"]
-@def description = "The careful nuance that Kuhn used when he created the phrase 'Scientific Revolution'"
++++
+title = "Scientific Revolutions"
+slug = "05222022045723-scientific-revolutions"
+tags = ["outline", "revolution", "scientific", "shift", "paradigm", "archive"]
+description = "The careful nuance that Kuhn used when he created the phrase 'Scientific Revolution'"
+rss_title = "Scientific Revolutions"
+rss_description = "The careful nuance that Kuhn used when he created the phrase 'Scientific Revolution'"
+rss_pubdate = Date(2022, 5, 22)
++++
 
-@def rss_title = "Scientific Revolutions"
-@def rss_description = "The careful nuance that Kuhn used when he created the phrase 'Scientific Revolution'"
-@def rss_pubdate = Date(2022, 5, 22)
 
 
 Scientific Revolutions

@@ -1,11 +1,13 @@
-@def title = "Amortized Analysis"
-@def slug = "10052021235121-amortized-analysis"
-@def tags = ["summary", "complexity", "amortized", "analysis", "archive"]
-@def description = "An overview of amortized analysis when addressing complexity"
++++
+title = "Amortized Analysis"
+slug = "10052021235121-amortized-analysis"
+tags = ["summary", "complexity", "amortized", "analysis", "archive"]
+description = "An overview of amortized analysis when addressing complexity"
+rss_title = "Amortized Analysis"
+rss_description = "An overview of amortized analysis when addressing complexity"
+rss_pubdate = Date(2021, 10, 5)
++++
 
-@def rss_title = "Amortized Analysis"
-@def rss_description = "An overview of amortized analysis when addressing complexity"
-@def rss_pubdate = Date(2021, 10, 5)
 
 
 Amortized Analysis

@@ -1,11 +1,13 @@
-@def title = "Predictors and Factors Affecting Smoking Cessation"
-@def slug = "05182020005014-smoking-recovery-indicators"
-@def tags = ["zettel", "predictors", "factors", "positive", "negative", "drinking", "support", "stress", "archive"]
-@def description = "Common positive and negative factors facilitating smoking cessation."
++++
+title = "Predictors and Factors Affecting Smoking Cessation"
+slug = "05182020005014-smoking-recovery-indicators"
+tags = ["zettel", "predictors", "factors", "positive", "negative", "drinking", "support", "stress", "archive"]
+description = "Common positive and negative factors facilitating smoking cessation."
+rss_title = "Predictors and Factors Affecting Smoking Cessation"
+rss_description = "Common positive and negative factors facilitating smoking cessation."
+rss_pubdate = Date(2020, 5, 18)
++++
 
-@def rss_title = "Predictors and Factors Affecting Smoking Cessation"
-@def rss_description = "Common positive and negative factors facilitating smoking cessation."
-@def rss_pubdate = Date(2020, 5, 18)
 
 
 Predictors and Factors Affecting Smoking Cessation

@@ -1,11 +1,13 @@
-@def title = "What Is Intersectionality and Intersectionality Theory?"
-@def slug = "11042022141714-what-intersectionality-theory"
-@def tags = ["summary", "intersectionality", "theory", "health", "research", "equity", "archive"]
-@def description = "An overview and summary on what is intersectionality and"
++++
+title = "What Is Intersectionality and Intersectionality Theory?"
+slug = "11042022141714-what-intersectionality-theory"
+tags = ["summary", "intersectionality", "theory", "health", "research", "equity", "archive"]
+description = "An overview and summary on what is intersectionality and"
+rss_title = "What Is Intersectionality and Intersectionality Theory?"
+rss_description = "An overview and summary on what is intersectionality and"
+rss_pubdate = Date(2022, 11, 4)
++++
 
-@def rss_title = "What Is Intersectionality and Intersectionality Theory?"
-@def rss_description = "An overview and summary on what is intersectionality and"
-@def rss_pubdate = Date(2022, 11, 4)
 
 
 What Is Intersectionality and Intersectionality Theory?

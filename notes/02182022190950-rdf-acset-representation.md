@@ -1,11 +1,13 @@
-@def title = "How To Imagine an RDF as an ACSet"
-@def slug = "02182022190950-rdf-acset-representation"
-@def tags = ["rdf", "acset", "graph", "triple", "archive"]
-@def description = "How RDFs can be conceptualized as an ACSet"
++++
+title = "How To Imagine an RDF as an ACSet"
+slug = "02182022190950-rdf-acset-representation"
+tags = ["rdf", "acset", "graph", "triple", "archive"]
+description = "How RDFs can be conceptualized as an ACSet"
+rss_title = "How To Imagine an RDF as an ACSet"
+rss_description = "How RDFs can be conceptualized as an ACSet"
+rss_pubdate = Date(2022, 2, 18)
++++
 
-@def rss_title = "How To Imagine an RDF as an ACSet"
-@def rss_description = "How RDFs can be conceptualized as an ACSet"
-@def rss_pubdate = Date(2022, 2, 18)
 
 
 How To Imagine an RDF as an ACSet

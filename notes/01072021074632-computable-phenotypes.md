@@ -1,11 +1,13 @@
-@def title = "What Are Computable Phenotypes?"
-@def slug = "01072021074632-computable-phenotypes"
-@def tags = ["zettel", "ehr", "electronic", "health", "records", "computable", "phenotypes", "codes", "icd-9", "icd-10", "snomed-ct", "archive"]
-@def description = "An overview into what computable phenotypes are and how they are used."
++++
+title = "What Are Computable Phenotypes?"
+slug = "01072021074632-computable-phenotypes"
+tags = ["zettel", "ehr", "electronic", "health", "records", "computable", "phenotypes", "codes", "icd-9", "icd-10", "snomed-ct", "archive"]
+description = "An overview into what computable phenotypes are and how they are used."
+rss_title = "What Are Computable Phenotypes?"
+rss_description = "An overview into what computable phenotypes are and how they are used."
+rss_pubdate = Date(2021, 1, 7)
++++
 
-@def rss_title = "What Are Computable Phenotypes?"
-@def rss_description = "An overview into what computable phenotypes are and how they are used."
-@def rss_pubdate = Date(2021, 1, 7)
 
 
 What Are Computable Phenotypes?

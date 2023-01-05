@@ -1,11 +1,11 @@
-@def title = "Event Related Potential"
-@def slug = "12312020233931-event-related-potential"
-@def tags = ["zettel", "event", "related", "potential", "erp", "archive"]
-@def description = ""
++++
+title = "Event Related Potential"
+slug = "12312020233931-event-related-potential"
+tags = ["zettel", "event", "related", "potential", "erp", "archive"]
+rss_title = "Event Related Potential"
+rss_pubdate = Date(2020, 12, 31)
++++
 
-@def rss_title = "Event Related Potential"
-@def rss_description = ""
-@def rss_pubdate = Date(2020, 12, 31)
 
 
 Event Related Potential

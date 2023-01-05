@@ -1,11 +1,13 @@
-@def title = "Median Filtering"
-@def slug = "04252020024813-median-filtering"
-@def tags = ["zettel", "signalprocessing", "noise", "artifact", "filtering", "window", "julialang", "median", "movingaverage", "downsampling", "archive"]
-@def description = "An overview on how to use and implement a median filter"
++++
+title = "Median Filtering"
+slug = "04252020024813-median-filtering"
+tags = ["zettel", "signalprocessing", "noise", "artifact", "filtering", "window", "julialang", "median", "movingaverage", "downsampling", "archive"]
+description = "An overview on how to use and implement a median filter"
+rss_title = "Median Filtering"
+rss_description = "An overview on how to use and implement a median filter"
+rss_pubdate = Date(2020, 4, 25)
++++
 
-@def rss_title = "Median Filtering"
-@def rss_description = "An overview on how to use and implement a median filter"
-@def rss_pubdate = Date(2020, 4, 25)
 
 
 Median Filtering

@@ -1,11 +1,13 @@
-@def title = "What Are Kuhnian Paradigms?"
-@def slug = "05222022044626-kuhnian-paradigm"
-@def tags = ["outline", "science", "normal", "exemplar", "paradigm", "characteristics", "archive"]
-@def description = "An overview on what Thomas Kuhn meant by paradigm and how that applies to science."
++++
+title = "What Are Kuhnian Paradigms?"
+slug = "05222022044626-kuhnian-paradigm"
+tags = ["outline", "science", "normal", "exemplar", "paradigm", "characteristics", "archive"]
+description = "An overview on what Thomas Kuhn meant by paradigm and how that applies to science."
+rss_title = "What Are Kuhnian Paradigms?"
+rss_description = "An overview on what Thomas Kuhn meant by paradigm and how that applies to science."
+rss_pubdate = Date(2022, 5, 22)
++++
 
-@def rss_title = "What Are Kuhnian Paradigms?"
-@def rss_description = "An overview on what Thomas Kuhn meant by paradigm and how that applies to science."
-@def rss_pubdate = Date(2022, 5, 22)
 
 
 What Are Kuhnian Paradigms?

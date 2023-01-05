@@ -1,11 +1,13 @@
-@def title = "Real-World Data and Real-World Evidence"
-@def slug = "10282021140730-real-world-evidence"
-@def tags = ["summary", "real", "world", "data", "evidence", "fda", "archive"]
-@def description = "A summary of what real-world data and evidence is according to the United States Food and Drug Administration"
++++
+title = "Real-World Data and Real-World Evidence"
+slug = "10282021140730-real-world-evidence"
+tags = ["summary", "real", "world", "data", "evidence", "fda", "archive"]
+description = "A summary of what real-world data and evidence is according to the United States Food and Drug Administration"
+rss_title = "Real-World Data and Real-World Evidence"
+rss_description = "A summary of what real-world data and evidence is according to the United States Food and Drug Administration"
+rss_pubdate = Date(2021, 10, 28)
++++
 
-@def rss_title = "Real-World Data and Real-World Evidence"
-@def rss_description = "A summary of what real-world data and evidence is according to the United States Food and Drug Administration"
-@def rss_pubdate = Date(2021, 10, 28)
 
 
 Real-World Data and Real-World Evidence

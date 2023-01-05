@@ -1,11 +1,13 @@
-@def title = "What are Mental Models?"
-@def slug = "03292020221326-what-mental-models"
-@def tags = ["zettel", "mentalmodels", "structure", "thinking", "knowledge", "archive"]
-@def description = "A brief synopsis on what mental models are"
++++
+title = "What are Mental Models?"
+slug = "03292020221326-what-mental-models"
+tags = ["zettel", "mentalmodels", "structure", "thinking", "knowledge", "archive"]
+description = "A brief synopsis on what mental models are"
+rss_title = "What are Mental Models?"
+rss_description = "A brief synopsis on what mental models are"
+rss_pubdate = Date(2020, 3, 29)
++++
 
-@def rss_title = "What are Mental Models?"
-@def rss_description = "A brief synopsis on what mental models are"
-@def rss_pubdate = Date(2020, 3, 29)
 
 
 What are Mental Models?

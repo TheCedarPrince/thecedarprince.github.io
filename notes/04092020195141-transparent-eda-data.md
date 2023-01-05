@@ -1,11 +1,13 @@
-@def title = "Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity"
-@def slug = "04092020195141-transparent-eda-data"
-@def tags = ["bibliography", "eda", "rochester", "eda", "rules", "simple", "transparent", "autism", "children", "pediatrics", "archive"]
-@def description = "A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data"
++++
+title = "Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity"
+slug = "04092020195141-transparent-eda-data"
+tags = ["bibliography", "eda", "rochester", "eda", "rules", "simple", "transparent", "autism", "children", "pediatrics", "archive"]
+description = "A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data"
+rss_title = "Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity"
+rss_description = "A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data"
+rss_pubdate = Date(2020, 4, 9)
++++
 
-@def rss_title = "Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity"
-@def rss_description = "A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data"
-@def rss_pubdate = Date(2020, 4, 9)
 
 
 Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity

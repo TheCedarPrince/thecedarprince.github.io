@@ -1,11 +1,13 @@
-@def title = "Functional Gestures"
-@def slug = "02072021223949-functional-gestures"
-@def tags = ["zettel", "gestures", "computer", "vision", "archive"]
-@def description = "Physical gestures that carry semantic meaning"
++++
+title = "Functional Gestures"
+slug = "02072021223949-functional-gestures"
+tags = ["zettel", "gestures", "computer", "vision", "archive"]
+description = "Physical gestures that carry semantic meaning"
+rss_title = "Functional Gestures"
+rss_description = "Physical gestures that carry semantic meaning"
+rss_pubdate = Date(2021, 2, 7)
++++
 
-@def rss_title = "Functional Gestures"
-@def rss_description = "Physical gestures that carry semantic meaning"
-@def rss_pubdate = Date(2021, 2, 7)
 
 
 Functional Gestures

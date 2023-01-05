@@ -1,11 +1,13 @@
-@def title = "Social Determinants Surrounding Terrorism"
-@def slug = "08282022134930-social-determinants-terrorism"
-@def tags = ["social", "determinants", "terrorism", "health", "violence", "archive"]
-@def description = "Working note on the social determinants of terrorist activity in a vein inspired by the notion of social determinants of health"
++++
+title = "Social Determinants Surrounding Terrorism"
+slug = "08282022134930-social-determinants-terrorism"
+tags = ["social", "determinants", "terrorism", "health", "violence", "archive"]
+description = "Working note on the social determinants of terrorist activity in a vein inspired by the notion of social determinants of health"
+rss_title = "Social Determinants Surrounding Terrorism"
+rss_description = "Working note on the social determinants of terrorist activity in a vein inspired by the notion of social determinants of health"
+rss_pubdate = Date(2022, 8, 28)
++++
 
-@def rss_title = "Social Determinants Surrounding Terrorism"
-@def rss_description = "Working note on the social determinants of terrorist activity in a vein inspired by the notion of social determinants of health"
-@def rss_pubdate = Date(2022, 8, 28)
 
 
 Social Determinants Surrounding Terrorism

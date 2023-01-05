@@ -1,11 +1,13 @@
-@def title = "Recommendations for Creating a New All-Payers Claim Database"
-@def slug = "08032021211415-apcd-recommendations"
-@def tags = ["apcd", "recommendation", "archive"]
-@def description = "Recommendations for Creating a New All-Payers Claim Database"
++++
+title = "Recommendations for Creating a New All-Payers Claim Database"
+slug = "08032021211415-apcd-recommendations"
+tags = ["apcd", "recommendation", "archive"]
+description = "Recommendations for Creating a New All-Payers Claim Database"
+rss_title = "Recommendations for Creating a New All-Payers Claim Database"
+rss_description = "Recommendations for Creating a New All-Payers Claim Database"
+rss_pubdate = Date(2021, 8, 3)
++++
 
-@def rss_title = "Recommendations for Creating a New All-Payers Claim Database"
-@def rss_description = "Recommendations for Creating a New All-Payers Claim Database"
-@def rss_pubdate = Date(2021, 8, 3)
 
 
 Recommendations for Creating a New All-Payers Claim Database

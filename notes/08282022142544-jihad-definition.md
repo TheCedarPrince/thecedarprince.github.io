@@ -1,11 +1,13 @@
-@def title = "Overview of What Is Jihad"
-@def slug = "08282022142544-jihad-definition"
-@def tags = ["summary", "jihad", "islam", "holy", "struggle", "archive"]
-@def description = "Short summary on what is jihad and its various understandings"
++++
+title = "Overview of What Is Jihad"
+slug = "08282022142544-jihad-definition"
+tags = ["summary", "jihad", "islam", "holy", "struggle", "archive"]
+description = "Short summary on what is jihad and its various understandings"
+rss_title = "Overview of What Is Jihad"
+rss_description = "Short summary on what is jihad and its various understandings"
+rss_pubdate = Date(2022, 8, 28)
++++
 
-@def rss_title = "Overview of What Is Jihad"
-@def rss_description = "Short summary on what is jihad and its various understandings"
-@def rss_pubdate = Date(2022, 8, 28)
 
 
 Overview of What Is Jihad

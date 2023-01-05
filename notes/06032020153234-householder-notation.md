@@ -1,11 +1,13 @@
-@def title = "Householder Notation"
-@def slug = "06032020153234-householder-notation"
-@def tags = ["zettel", "linear", "algebra", "matrix", "vector", "scalar", "greek", "householder", "notation", "archive"]
-@def description = "Summary of how Householder notation works"
++++
+title = "Householder Notation"
+slug = "06032020153234-householder-notation"
+tags = ["zettel", "linear", "algebra", "matrix", "vector", "scalar", "greek", "householder", "notation", "archive"]
+description = "Summary of how Householder notation works"
+rss_title = "Householder Notation"
+rss_description = "Summary of how Householder notation works"
+rss_pubdate = Date(2020, 6, 3)
++++
 
-@def rss_title = "Householder Notation"
-@def rss_description = "Summary of how Householder notation works"
-@def rss_pubdate = Date(2020, 6, 3)
 
 
 Householder Notation

@@ -1,11 +1,13 @@
-@def title = "Observational Health Data Sciences and Informatics (OHDSI) Origins"
-@def slug = "07282021184510-ohdsi-background"
-@def tags = ["ohdsi", "origins", "archive"]
-@def description = "Origins of OHDSI initiative"
++++
+title = "Observational Health Data Sciences and Informatics (OHDSI) Origins"
+slug = "07282021184510-ohdsi-background"
+tags = ["ohdsi", "origins", "archive"]
+description = "Origins of OHDSI initiative"
+rss_title = "Observational Health Data Sciences and Informatics (OHDSI) Origins"
+rss_description = "Origins of OHDSI initiative"
+rss_pubdate = Date(2021, 7, 28)
++++
 
-@def rss_title = "Observational Health Data Sciences and Informatics (OHDSI) Origins"
-@def rss_description = "Origins of OHDSI initiative"
-@def rss_pubdate = Date(2021, 7, 28)
 
 
 Observational Health Data Sciences and Informatics (OHDSI) Origins

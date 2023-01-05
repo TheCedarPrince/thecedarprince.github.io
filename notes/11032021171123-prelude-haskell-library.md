@@ -1,11 +1,13 @@
-@def title = "Prelude - Haskell's Standard Library"
-@def slug = "11032021171123-prelude-haskell-library"
-@def tags = ["library", "package", "standard", "prelude", "haskell", "programming", "archive"]
-@def description = "An overview of important components from Haskell's standard"
++++
+title = "Prelude - Haskell's Standard Library"
+slug = "11032021171123-prelude-haskell-library"
+tags = ["library", "package", "standard", "prelude", "haskell", "programming", "archive"]
+description = "An overview of important components from Haskell's standard"
+rss_title = "Prelude - Haskell's Standard Library"
+rss_description = "An overview of important components from Haskell's standard"
+rss_pubdate = Date(2021, 11, 3)
++++
 
-@def rss_title = "Prelude - Haskell's Standard Library"
-@def rss_description = "An overview of important components from Haskell's standard"
-@def rss_pubdate = Date(2021, 11, 3)
 
 
 Prelude - Haskell's Standard Library

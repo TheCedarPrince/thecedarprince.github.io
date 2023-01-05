@@ -1,11 +1,13 @@
-@def title = "Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex"
-@def slug = "01022021030923-retinotopically-alpha-band"
-@def tags = ["bibliography", "attention", "erp", "archive"]
-@def description = "Quick review of this paper to understand how covert attention works and how the study was used to assess this"
++++
+title = "Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex"
+slug = "01022021030923-retinotopically-alpha-band"
+tags = ["bibliography", "attention", "erp", "archive"]
+description = "Quick review of this paper to understand how covert attention works and how the study was used to assess this"
+rss_title = "Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex"
+rss_description = "Quick review of this paper to understand how covert attention works and how the study was used to assess this"
+rss_pubdate = Date(2021, 1, 1)
++++
 
-@def rss_title = "Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex"
-@def rss_description = "Quick review of this paper to understand how covert attention works and how the study was used to assess this"
-@def rss_pubdate = Date(2021, 1, 1)
 
 
 Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex

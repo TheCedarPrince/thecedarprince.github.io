@@ -1,11 +1,13 @@
-@def title = "Overview of Database Schemas"
-@def slug = "02192022220548-database-schemas"
-@def tags = ["archive", "database", "schema"]
-@def description = "A brief overview on what database schemas are"
++++
+title = "Overview of Database Schemas"
+slug = "02192022220548-database-schemas"
+tags = ["archive", "database", "schema"]
+description = "A brief overview on what database schemas are"
+rss_title = "Overview of Database Schemas"
+rss_description = "A brief overview on what database schemas are"
+rss_pubdate = Date(2022, 2, 19)
++++
 
-@def rss_title = "Overview of Database Schemas"
-@def rss_description = "A brief overview on what database schemas are"
-@def rss_pubdate = Date(2022, 2, 19)
 
 
 Overview of Database Schemas

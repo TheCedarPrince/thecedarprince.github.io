@@ -1,11 +1,13 @@
-@def title = "The Open Knowledge Model"
-@def slug = "04172022033744-open-knowledge-standard"
-@def tags = ["open", "knowledge", "standard", "summary", "format", "blog", "archive"]
-@def description = "A working proposal on a standard knowledge format for taking notes"
++++
+title = "The Open Knowledge Model"
+slug = "04172022033744-open-knowledge-standard"
+tags = ["open", "knowledge", "standard", "summary", "format", "blog", "archive"]
+description = "A working proposal on a standard knowledge format for taking notes"
+rss_title = "The Open Knowledge Model"
+rss_description = "A working proposal on a standard knowledge format for taking notes"
+rss_pubdate = Date(2022, 4, 16)
++++
 
-@def rss_title = "The Open Knowledge Model"
-@def rss_description = "A working proposal on a standard knowledge format for taking notes"
-@def rss_pubdate = Date(2022, 4, 16)
 
 
 The Open Knowledge Model

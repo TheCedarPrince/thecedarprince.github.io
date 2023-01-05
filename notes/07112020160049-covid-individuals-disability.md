@@ -1,11 +1,11 @@
-@def title = "COVID-19 and Pneumonia: Increased Risk for Individuals with Intellectual and Developmental Disabilities during the Pandemic"
-@def slug = "07112020160049-covid-individuals-disability"
-@def tags = ["bibliography", "idd", "intellectual", "disability", "developmental", "pandemic", "risk", "covid19", "archive"]
-@def description = ""
++++
+title = "COVID-19 and Pneumonia: Increased Risk for Individuals with Intellectual and Developmental Disabilities during the Pandemic"
+slug = "07112020160049-covid-individuals-disability"
+tags = ["bibliography", "idd", "intellectual", "disability", "developmental", "pandemic", "risk", "covid19", "archive"]
+rss_title = "COVID-19 and Pneumonia: Increased Risk for Individuals with Intellectual and Developmental Disabilities during the Pandemic"
+rss_pubdate = Date(2020, 7, 11)
++++
 
-@def rss_title = "COVID-19 and Pneumonia: Increased Risk for Individuals with Intellectual and Developmental Disabilities during the Pandemic"
-@def rss_description = ""
-@def rss_pubdate = Date(2020, 7, 11)
 
 
 COVID-19 and Pneumonia: Increased Risk for Individuals with Intellectual and Developmental Disabilities during the Pandemic

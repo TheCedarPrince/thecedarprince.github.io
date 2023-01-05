@@ -1,11 +1,11 @@
-@def title = "Automated And Partly Automated Contact Tracing: A Systematic Review To Inform The Control Of COVID-19"
-@def slug = "01022021034134-automated-contact-tracing"
-@def tags = ["bibliography", "contact", "tracing", "review", "automated", "ethics", "archive"]
-@def description = ""
++++
+title = "Automated And Partly Automated Contact Tracing: A Systematic Review To Inform The Control Of COVID-19"
+slug = "01022021034134-automated-contact-tracing"
+tags = ["bibliography", "contact", "tracing", "review", "automated", "ethics", "archive"]
+rss_title = "Automated And Partly Automated Contact Tracing: A Systematic Review To Inform The Control Of COVID-19"
+rss_pubdate = Date(2021, 1, 1)
++++
 
-@def rss_title = "Automated And Partly Automated Contact Tracing: A Systematic Review To Inform The Control Of COVID-19"
-@def rss_description = ""
-@def rss_pubdate = Date(2021, 1, 1)
 
 
 Automated And Partly Automated Contact Tracing: A Systematic Review To Inform The Control Of COVID-19

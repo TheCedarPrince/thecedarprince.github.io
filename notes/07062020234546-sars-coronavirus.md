@@ -1,11 +1,13 @@
-@def title = "SARS Coronavirae"
-@def slug = "07062020234546-sars-coronavirus"
-@def tags = ["zettel", "sars", "coronavirus", "different", "archive"]
-@def description = "Unique characteristics of the SARS Coronvirae family"
++++
+title = "SARS Coronavirae"
+slug = "07062020234546-sars-coronavirus"
+tags = ["zettel", "sars", "coronavirus", "different", "archive"]
+description = "Unique characteristics of the SARS Coronvirae family"
+rss_title = "SARS Coronavirae"
+rss_description = "Unique characteristics of the SARS Coronvirae family"
+rss_pubdate = Date(2020, 7, 6)
++++
 
-@def rss_title = "SARS Coronavirae"
-@def rss_description = "Unique characteristics of the SARS Coronvirae family"
-@def rss_pubdate = Date(2020, 7, 6)
 
 
 SARS Coronavirae

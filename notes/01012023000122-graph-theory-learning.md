@@ -1,11 +1,13 @@
-@def title = "Achieving an Undergraduate Level Understanding of Graph Theory "
-@def slug = "01012023000122-graph-theory-learning"
-@def tags = ["zettel", "ultralearning", "graph", "theory", "project", "archive", "blog"]
-@def description = "Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory."
++++
+title = "Achieving an Undergraduate Level Understanding of Graph Theory "
+slug = "01012023000122-graph-theory-learning"
+tags = ["zettel", "ultralearning", "graph", "theory", "project", "archive", "blog"]
+description = "Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory."
+rss_title = "Achieving an Undergraduate Level Understanding of Graph Theory "
+rss_description = "Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory."
+rss_pubdate = Date(2022, 12, 31)
++++
 
-@def rss_title = "Achieving an Undergraduate Level Understanding of Graph Theory "
-@def rss_description = "Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory."
-@def rss_pubdate = Date(2022, 12, 31)
 
 
 Achieving an Undergraduate Level Understanding of Graph Theory 

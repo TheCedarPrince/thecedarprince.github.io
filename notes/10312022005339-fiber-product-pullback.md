@@ -1,11 +1,13 @@
-@def title = "Fiber Products (Pullbacks)"
-@def slug = "10312022005339-fiber-product-pullback"
-@def tags = ["summary", "fiber", "product", "pullback", "category", "theory", "archive"]
-@def description = "An overview on fiber products (aka pullbacks) and their features within category theory"
++++
+title = "Fiber Products (Pullbacks)"
+slug = "10312022005339-fiber-product-pullback"
+tags = ["summary", "fiber", "product", "pullback", "category", "theory", "archive"]
+description = "An overview on fiber products (aka pullbacks) and their features within category theory"
+rss_title = "Fiber Products (Pullbacks)"
+rss_description = "An overview on fiber products (aka pullbacks) and their features within category theory"
+rss_pubdate = Date(2022, 10, 30)
++++
 
-@def rss_title = "Fiber Products (Pullbacks)"
-@def rss_description = "An overview on fiber products (aka pullbacks) and their features within category theory"
-@def rss_pubdate = Date(2022, 10, 30)
 
 
 Fiber Products (Pullbacks)

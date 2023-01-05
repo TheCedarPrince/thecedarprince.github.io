@@ -1,11 +1,13 @@
-@def title = "Monthly Planning in a Bullet Journal"
-@def slug = "03192020013347-bullet-journal-month"
-@def tags = ["zettel", "bulletjournal", "productivity", "monthly", "archive"]
-@def description = "How to create a monthly plan when using a bullet journal."
++++
+title = "Monthly Planning in a Bullet Journal"
+slug = "03192020013347-bullet-journal-month"
+tags = ["zettel", "bulletjournal", "productivity", "monthly", "archive"]
+description = "How to create a monthly plan when using a bullet journal."
+rss_title = "Monthly Planning in a Bullet Journal"
+rss_description = "How to create a monthly plan when using a bullet journal."
+rss_pubdate = Date(2020, 3, 19)
++++
 
-@def rss_title = "Monthly Planning in a Bullet Journal"
-@def rss_description = "How to create a monthly plan when using a bullet journal."
-@def rss_pubdate = Date(2020, 3, 19)
 
 
 Monthly Planning in a Bullet Journal

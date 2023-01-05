@@ -1,11 +1,11 @@
-@def title = "Scrcpy Screen Copy"
-@def slug = "05232022035841-scrcpy-screen-copy"
-@def tags = ["howto", "screen", "share", "foss", "android", "archive"]
-@def description = ""
++++
+title = "Scrcpy Screen Copy"
+slug = "05232022035841-scrcpy-screen-copy"
+tags = ["howto", "screen", "share", "foss", "android", "archive"]
+rss_title = "Scrcpy Screen Copy"
+rss_pubdate = Date(2022, 5, 22)
++++
 
-@def rss_title = "Scrcpy Screen Copy"
-@def rss_description = ""
-@def rss_pubdate = Date(2022, 5, 22)
 
 
 Scrcpy Screen Copy

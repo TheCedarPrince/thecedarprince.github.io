@@ -1,11 +1,13 @@
-@def title = "Global Programming Paradigm"
-@def slug = "04182020162028-global-programming"
-@def tags = ["zettel", "paradigms", "models", "writing", "programming", "metascience", "smart", "blank", "page", "poet", "archive"]
-@def description = "A thought on a global overlapping paradigm for developing useful and just-in-time software"
++++
+title = "Global Programming Paradigm"
+slug = "04182020162028-global-programming"
+tags = ["zettel", "paradigms", "models", "writing", "programming", "metascience", "smart", "blank", "page", "poet", "archive"]
+description = "A thought on a global overlapping paradigm for developing useful and just-in-time software"
+rss_title = "Global Programming Paradigm"
+rss_description = "A thought on a global overlapping paradigm for developing useful and just-in-time software"
+rss_pubdate = Date(2020, 4, 18)
++++
 
-@def rss_title = "Global Programming Paradigm"
-@def rss_description = "A thought on a global overlapping paradigm for developing useful and just-in-time software"
-@def rss_pubdate = Date(2020, 4, 18)
 
 
 Global Programming Paradigm

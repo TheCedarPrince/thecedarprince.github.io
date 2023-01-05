@@ -1,11 +1,13 @@
-@def title = "Introduction To Streaming for Data Scientists"
-@def slug = "09092022205654-streaming-data-scientists"
-@def tags = ["archive", "data", "streaming"]
-@def description = "What is streaming data and how it can be used in data science and other applications"
++++
+title = "Introduction To Streaming for Data Scientists"
+slug = "09092022205654-streaming-data-scientists"
+tags = ["archive", "data", "streaming"]
+description = "What is streaming data and how it can be used in data science and other applications"
+rss_title = "Introduction To Streaming for Data Scientists"
+rss_description = "What is streaming data and how it can be used in data science and other applications"
+rss_pubdate = Date(2022, 9, 9)
++++
 
-@def rss_title = "Introduction To Streaming for Data Scientists"
-@def rss_description = "What is streaming data and how it can be used in data science and other applications"
-@def rss_pubdate = Date(2022, 9, 9)
 
 
 Introduction To Streaming for Data Scientists

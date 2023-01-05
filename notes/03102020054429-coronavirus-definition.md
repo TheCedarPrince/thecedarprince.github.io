@@ -1,11 +1,13 @@
-@def title = "Coronavirus Definition"
-@def slug = "03102020054429-coronavirus-definition"
-@def tags = ["zettel", "health", "coronavirus", "disease", "epidemiology", "archive"]
-@def description = "Note on what coronavirus is."
++++
+title = "Coronavirus Definition"
+slug = "03102020054429-coronavirus-definition"
+tags = ["zettel", "health", "coronavirus", "disease", "epidemiology", "archive"]
+description = "Note on what coronavirus is."
+rss_title = "Coronavirus Definition"
+rss_description = "Note on what coronavirus is."
+rss_pubdate = Date(2020, 3, 10)
++++
 
-@def rss_title = "Coronavirus Definition"
-@def rss_description = "Note on what coronavirus is."
-@def rss_pubdate = Date(2020, 3, 10)
 
 
 Coronavirus Definition

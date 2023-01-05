@@ -1,11 +1,13 @@
-@def title = "Understanding Media: The Extensions of Man"
-@def slug = "05222022225241-understanding-media-extensions"
-@def tags = ["book", "review", "media", "extensions", "anxiety", "society", "medium", "global", "village", "technology", "archive"]
-@def description = "An overview on this excellent book on media philosophy and media's intersection with society and its affects on people and community as well as eerie premonitions for the future of a technological age."
++++
+title = "Understanding Media: The Extensions of Man"
+slug = "05222022225241-understanding-media-extensions"
+tags = ["book", "review", "media", "extensions", "anxiety", "society", "medium", "global", "village", "technology", "archive"]
+description = "An overview on this excellent book on media philosophy and media's intersection with society and its affects on people and community as well as eerie premonitions for the future of a technological age."
+rss_title = "Understanding Media: The Extensions of Man"
+rss_description = "An overview on this excellent book on media philosophy and media's intersection with society and its affects on people and community as well as eerie premonitions for the future of a technological age."
+rss_pubdate = Date(2022, 5, 22)
++++
 
-@def rss_title = "Understanding Media: The Extensions of Man"
-@def rss_description = "An overview on this excellent book on media philosophy and media's intersection with society and its affects on people and community as well as eerie premonitions for the future of a technological age."
-@def rss_pubdate = Date(2022, 5, 22)
 
 
 Understanding Media: The Extensions of Man

@@ -1,11 +1,13 @@
-@def title = "Electrodermal Activity"
-@def slug = "03232020235136-electrodermal-activity"
-@def tags = ["summary", "signalprocessing", "healthcare", "informatics", "health", "signalprocessing", "signal", "biomarker", "archive"]
-@def description = "A summary of what electrodermal activity is and its use as a biomarker and use in signal processing."
++++
+title = "Electrodermal Activity"
+slug = "03232020235136-electrodermal-activity"
+tags = ["summary", "signalprocessing", "healthcare", "informatics", "health", "signalprocessing", "signal", "biomarker", "archive"]
+description = "A summary of what electrodermal activity is and its use as a biomarker and use in signal processing."
+rss_title = "Electrodermal Activity"
+rss_description = "A summary of what electrodermal activity is and its use as a biomarker and use in signal processing."
+rss_pubdate = Date(2020, 3, 23)
++++
 
-@def rss_title = "Electrodermal Activity"
-@def rss_description = "A summary of what electrodermal activity is and its use as a biomarker and use in signal processing."
-@def rss_pubdate = Date(2020, 3, 23)
 
 
 Electrodermal Activity

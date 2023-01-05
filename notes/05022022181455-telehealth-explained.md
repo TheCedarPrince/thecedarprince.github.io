@@ -1,11 +1,13 @@
-@def title = "What Is Telehealth?"
-@def slug = "05022022181455-telehealth-explained"
-@def tags = ["outline", "telehealth", "background", "emergency", "framework", "quality", "care", "acute", "chronic", "archive"]
-@def description = "An outline addressing what is telehealth and core components"
++++
+title = "What Is Telehealth?"
+slug = "05022022181455-telehealth-explained"
+tags = ["outline", "telehealth", "background", "emergency", "framework", "quality", "care", "acute", "chronic", "archive"]
+description = "An outline addressing what is telehealth and core components"
+rss_title = "What Is Telehealth?"
+rss_description = "An outline addressing what is telehealth and core components"
+rss_pubdate = Date(2022, 5, 2)
++++
 
-@def rss_title = "What Is Telehealth?"
-@def rss_description = "An outline addressing what is telehealth and core components"
-@def rss_pubdate = Date(2022, 5, 2)
 
 
 What Is Telehealth?

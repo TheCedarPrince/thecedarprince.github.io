@@ -1,11 +1,13 @@
-@def title = "GTD Weekly Review"
-@def slug = "03192020050249-gtd-weekly-review"
-@def tags = ["zettel", "review", "weekly", "model", "productivity", "archive"]
-@def description = "How to conduct weekly reviews using GTD."
++++
+title = "GTD Weekly Review"
+slug = "03192020050249-gtd-weekly-review"
+tags = ["zettel", "review", "weekly", "model", "productivity", "archive"]
+description = "How to conduct weekly reviews using GTD."
+rss_title = "GTD Weekly Review"
+rss_description = "How to conduct weekly reviews using GTD."
+rss_pubdate = Date(2020, 3, 19)
++++
 
-@def rss_title = "GTD Weekly Review"
-@def rss_description = "How to conduct weekly reviews using GTD."
-@def rss_pubdate = Date(2020, 3, 19)
 
 
 GTD Weekly Review

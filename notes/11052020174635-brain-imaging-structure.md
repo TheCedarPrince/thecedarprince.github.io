@@ -1,11 +1,13 @@
-@def title = "Brain Imaging Data Structure (BIDS)"
-@def slug = "11052020174635-brain-imaging-structure"
-@def tags = ["zettel", "bids", "neuroscience", "brain", "imaging", "archive"]
-@def description = "An overview of the BIDS style for Brain Imaging Data."
++++
+title = "Brain Imaging Data Structure (BIDS)"
+slug = "11052020174635-brain-imaging-structure"
+tags = ["zettel", "bids", "neuroscience", "brain", "imaging", "archive"]
+description = "An overview of the BIDS style for Brain Imaging Data."
+rss_title = "Brain Imaging Data Structure (BIDS)"
+rss_description = "An overview of the BIDS style for Brain Imaging Data."
+rss_pubdate = Date(2020, 11, 5)
++++
 
-@def rss_title = "Brain Imaging Data Structure (BIDS)"
-@def rss_description = "An overview of the BIDS style for Brain Imaging Data."
-@def rss_pubdate = Date(2020, 11, 5)
 
 
 Brain Imaging Data Structure (BIDS)

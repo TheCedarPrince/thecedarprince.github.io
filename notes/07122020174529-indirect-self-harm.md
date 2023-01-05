@@ -1,11 +1,13 @@
-@def title = "Indirect Self Harm"
-@def slug = "07122020174529-indirect-self-harm"
-@def tags = ["zettel", "self", "harm", "indirect", "archive"]
-@def description = "Indirect self harm definition and associated examples"
++++
+title = "Indirect Self Harm"
+slug = "07122020174529-indirect-self-harm"
+tags = ["zettel", "self", "harm", "indirect", "archive"]
+description = "Indirect self harm definition and associated examples"
+rss_title = "Indirect Self Harm"
+rss_description = "Indirect self harm definition and associated examples"
+rss_pubdate = Date(2020, 7, 12)
++++
 
-@def rss_title = "Indirect Self Harm"
-@def rss_description = "Indirect self harm definition and associated examples"
-@def rss_pubdate = Date(2020, 7, 12)
 
 
 Indirect Self Harm

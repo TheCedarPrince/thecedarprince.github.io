@@ -1,11 +1,13 @@
-@def title = "CDM Standardized Tables"
-@def slug = "02082021170353-cdm-standardized-tables"
-@def tags = ["zettel", "omop", "cdm", "table", "standardized", "archive"]
-@def description = "Standardized tables used in the OMOP Common Data Model"
++++
+title = "CDM Standardized Tables"
+slug = "02082021170353-cdm-standardized-tables"
+tags = ["zettel", "omop", "cdm", "table", "standardized", "archive"]
+description = "Standardized tables used in the OMOP Common Data Model"
+rss_title = "CDM Standardized Tables"
+rss_description = "Standardized tables used in the OMOP Common Data Model"
+rss_pubdate = Date(2021, 2, 8)
++++
 
-@def rss_title = "CDM Standardized Tables"
-@def rss_description = "Standardized tables used in the OMOP Common Data Model"
-@def rss_pubdate = Date(2021, 2, 8)
 
 
 CDM Standardized Tables

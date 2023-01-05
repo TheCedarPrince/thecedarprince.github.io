@@ -1,11 +1,13 @@
-@def title = "Notes on Programming in Haskell"
-@def slug = "11032021155827-haskell-programming"
-@def tags = ["syntax", "summary", "haskell", "programming", "languages", "archive"]
-@def description = "My notes on an overview and summary on how to use Haskell"
++++
+title = "Notes on Programming in Haskell"
+slug = "11032021155827-haskell-programming"
+tags = ["syntax", "summary", "haskell", "programming", "languages", "archive"]
+description = "My notes on an overview and summary on how to use Haskell"
+rss_title = "Notes on Programming in Haskell"
+rss_description = "My notes on an overview and summary on how to use Haskell"
+rss_pubdate = Date(2021, 11, 3)
++++
 
-@def rss_title = "Notes on Programming in Haskell"
-@def rss_description = "My notes on an overview and summary on how to use Haskell"
-@def rss_pubdate = Date(2021, 11, 3)
 
 
 Notes on Programming in Haskell

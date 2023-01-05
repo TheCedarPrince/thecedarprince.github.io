@@ -1,11 +1,13 @@
-@def title = "Information about Common Coronaviruses"
-@def slug = "07062020233904-common-coronavirus"
-@def tags = ["zettel", "coronavirus", "groups", "common", "archive"]
-@def description = "Information about common coronavirae"
++++
+title = "Information about Common Coronaviruses"
+slug = "07062020233904-common-coronavirus"
+tags = ["zettel", "coronavirus", "groups", "common", "archive"]
+description = "Information about common coronavirae"
+rss_title = "Information about Common Coronaviruses"
+rss_description = "Information about common coronavirae"
+rss_pubdate = Date(2020, 7, 6)
++++
 
-@def rss_title = "Information about Common Coronaviruses"
-@def rss_description = "Information about common coronavirae"
-@def rss_pubdate = Date(2020, 7, 6)
 
 
 Information about Common Coronaviruses

@@ -1,11 +1,13 @@
-@def title = "Artificial Intelligence Timeline"
-@def slug = "02152021024738-artificial-intelligence-timeline"
-@def tags = ["timeline", "artificial", "intelligence", "history", "archive"]
-@def description = "A timeline summary of the history of Artificial Intelligence"
++++
+title = "Artificial Intelligence Timeline"
+slug = "02152021024738-artificial-intelligence-timeline"
+tags = ["timeline", "artificial", "intelligence", "history", "archive"]
+description = "A timeline summary of the history of Artificial Intelligence"
+rss_title = "Artificial Intelligence Timeline"
+rss_description = "A timeline summary of the history of Artificial Intelligence"
+rss_pubdate = Date(2021, 2, 14)
++++
 
-@def rss_title = "Artificial Intelligence Timeline"
-@def rss_description = "A timeline summary of the history of Artificial Intelligence"
-@def rss_pubdate = Date(2021, 2, 14)
 
 
 Artificial Intelligence Timeline

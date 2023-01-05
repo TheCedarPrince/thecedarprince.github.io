@@ -1,11 +1,13 @@
-@def title = "Clarifying Understanding of Coproducts"
-@def slug = "10022022214249-understanding-coproducts"
-@def tags = ["question", "zulip", "category", "theory", "coproducts", "disjoint", "union", "set", "archive"]
-@def description = "A line of questioning to ensure I understand what coproducts and disjoint unions are"
++++
+title = "Clarifying Understanding of Coproducts"
+slug = "10022022214249-understanding-coproducts"
+tags = ["question", "zulip", "category", "theory", "coproducts", "disjoint", "union", "set", "archive"]
+description = "A line of questioning to ensure I understand what coproducts and disjoint unions are"
+rss_title = "Clarifying Understanding of Coproducts"
+rss_description = "A line of questioning to ensure I understand what coproducts and disjoint unions are"
+rss_pubdate = Date(2022, 10, 2)
++++
 
-@def rss_title = "Clarifying Understanding of Coproducts"
-@def rss_description = "A line of questioning to ensure I understand what coproducts and disjoint unions are"
-@def rss_pubdate = Date(2022, 10, 2)
 
 
 Clarifying Understanding of Coproducts

@@ -1,11 +1,13 @@
-@def title = "The Resource Description Framework (RDF) Explained"
-@def slug = "01282022220116-resource-description-framework"
-@def tags = ["outline", "rdf", "resource", "description", "framework", "metadata", "semantic", "web", "archive"]
-@def description = "An explanation on what the Resource Description Framework is"
++++
+title = "The Resource Description Framework (RDF) Explained"
+slug = "01282022220116-resource-description-framework"
+tags = ["outline", "rdf", "resource", "description", "framework", "metadata", "semantic", "web", "archive"]
+description = "An explanation on what the Resource Description Framework is"
+rss_title = "The Resource Description Framework (RDF) Explained"
+rss_description = "An explanation on what the Resource Description Framework is"
+rss_pubdate = Date(2022, 1, 28)
++++
 
-@def rss_title = "The Resource Description Framework (RDF) Explained"
-@def rss_description = "An explanation on what the Resource Description Framework is"
-@def rss_pubdate = Date(2022, 1, 28)
 
 
 The Resource Description Framework (RDF) Explained

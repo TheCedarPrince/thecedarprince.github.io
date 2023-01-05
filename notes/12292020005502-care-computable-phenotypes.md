@@ -1,11 +1,13 @@
-@def title = "Why everyone should care about 'Computable Phenotypes'"
-@def slug = "12292020005502-care-computable-phenotypes"
-@def tags = ["bibliography", "computable", "phenotypes", "sepsis", "lung", "informatics", "archive"]
-@def description = "A brief summary on why this paper was not very useful in discussing computable phenotypes."
++++
+title = "Why everyone should care about 'Computable Phenotypes'"
+slug = "12292020005502-care-computable-phenotypes"
+tags = ["bibliography", "computable", "phenotypes", "sepsis", "lung", "informatics", "archive"]
+description = "A brief summary on why this paper was not very useful in discussing computable phenotypes."
+rss_title = "Why everyone should care about 'Computable Phenotypes'"
+rss_description = "A brief summary on why this paper was not very useful in discussing computable phenotypes."
+rss_pubdate = Date(2020, 12, 28)
++++
 
-@def rss_title = "Why everyone should care about 'Computable Phenotypes'"
-@def rss_description = "A brief summary on why this paper was not very useful in discussing computable phenotypes."
-@def rss_pubdate = Date(2020, 12, 28)
 
 
 Why everyone should care about 'Computable Phenotypes'

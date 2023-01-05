@@ -1,11 +1,13 @@
-@def title = "What Are Bundles or Groups?"
-@def slug = "08052021202559-bundles-grouping"
-@def tags = ["apcd", "bundles", "groups", "groupers", "definition", "archive"]
-@def description = "Explaining what bundles or groups are in the context of All-Payer Claims Databases"
++++
+title = "What Are Bundles or Groups?"
+slug = "08052021202559-bundles-grouping"
+tags = ["apcd", "bundles", "groups", "groupers", "definition", "archive"]
+description = "Explaining what bundles or groups are in the context of All-Payer Claims Databases"
+rss_title = "What Are Bundles or Groups?"
+rss_description = "Explaining what bundles or groups are in the context of All-Payer Claims Databases"
+rss_pubdate = Date(2021, 8, 5)
++++
 
-@def rss_title = "What Are Bundles or Groups?"
-@def rss_description = "Explaining what bundles or groups are in the context of All-Payer Claims Databases"
-@def rss_pubdate = Date(2021, 8, 5)
 
 
 What Are Bundles or Groups?

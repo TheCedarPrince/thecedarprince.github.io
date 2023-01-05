@@ -1,11 +1,13 @@
-@def title = "Cuebiq Mobility Data Summary"
-@def slug = "06082021203922-cuebiq-mobility-summary"
-@def tags = ["cuebiq", "mobility", "dataset", "policy", "index", "cci", "cmi", "archive"]
-@def description = "An overview of where Cuebiq mobility data comes from and a highlight of some of its key variables."
++++
+title = "Cuebiq Mobility Data Summary"
+slug = "06082021203922-cuebiq-mobility-summary"
+tags = ["cuebiq", "mobility", "dataset", "policy", "index", "cci", "cmi", "archive"]
+description = "An overview of where Cuebiq mobility data comes from and a highlight of some of its key variables."
+rss_title = "Cuebiq Mobility Data Summary"
+rss_description = "An overview of where Cuebiq mobility data comes from and a highlight of some of its key variables."
+rss_pubdate = Date(2021, 6, 8)
++++
 
-@def rss_title = "Cuebiq Mobility Data Summary"
-@def rss_description = "An overview of where Cuebiq mobility data comes from and a highlight of some of its key variables."
-@def rss_pubdate = Date(2021, 6, 8)
 
 
 Cuebiq Mobility Data Summary

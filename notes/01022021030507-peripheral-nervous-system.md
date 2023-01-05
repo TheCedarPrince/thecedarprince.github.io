@@ -1,11 +1,13 @@
-@def title = "Peripheral Nervous System"
-@def slug = "01022021030507-peripheral-nervous-system"
-@def tags = ["zettel", "pns", "nervous", "system", "brain", "archive"]
-@def description = "Notes on the peripheral nervous system"
++++
+title = "Peripheral Nervous System"
+slug = "01022021030507-peripheral-nervous-system"
+tags = ["zettel", "pns", "nervous", "system", "brain", "archive"]
+description = "Notes on the peripheral nervous system"
+rss_title = "Peripheral Nervous System"
+rss_description = "Notes on the peripheral nervous system"
+rss_pubdate = Date(2021, 1, 1)
++++
 
-@def rss_title = "Peripheral Nervous System"
-@def rss_description = "Notes on the peripheral nervous system"
-@def rss_pubdate = Date(2021, 1, 1)
 
 
 Peripheral Nervous System

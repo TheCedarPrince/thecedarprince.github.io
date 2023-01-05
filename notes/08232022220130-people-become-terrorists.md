@@ -1,11 +1,13 @@
-@def title = "Why Do People Become Terrorists? A Prosecutor's Experiences"
-@def slug = "08232022220130-people-become-terrorists"
-@def tags = ["archive", "terrorist", "motivation", "violence"]
-@def description = "A autobiographical sketch on why a person might become a terrorist"
++++
+title = "Why Do People Become Terrorists? A Prosecutor's Experiences"
+slug = "08232022220130-people-become-terrorists"
+tags = ["archive", "terrorist", "motivation", "violence"]
+description = "A autobiographical sketch on why a person might become a terrorist"
+rss_title = "Why Do People Become Terrorists? A Prosecutor's Experiences"
+rss_description = "A autobiographical sketch on why a person might become a terrorist"
+rss_pubdate = Date(2022, 8, 23)
++++
 
-@def rss_title = "Why Do People Become Terrorists? A Prosecutor's Experiences"
-@def rss_description = "A autobiographical sketch on why a person might become a terrorist"
-@def rss_pubdate = Date(2022, 8, 23)
 
 
 Why Do People Become Terrorists? A Prosecutor's Experiences

@@ -1,11 +1,13 @@
-@def title = "The Origins Of Terrorism: Cross-country Estimates Of Socio-economic Determinants Of Terrorism"
-@def slug = "08232022220628-origins-terrorism"
-@def tags = ["bibliography", "terrorism", "socioeconomics", "determinants", "archive"]
-@def description = "Brief summary of paper examining socioeconomic impacts or determinants of terroristic ideology"
++++
+title = "The Origins Of Terrorism: Cross-country Estimates Of Socio-economic Determinants Of Terrorism"
+slug = "08232022220628-origins-terrorism"
+tags = ["bibliography", "terrorism", "socioeconomics", "determinants", "archive"]
+description = "Brief summary of paper examining socioeconomic impacts or determinants of terroristic ideology"
+rss_title = "The Origins Of Terrorism: Cross-country Estimates Of Socio-economic Determinants Of Terrorism"
+rss_description = "Brief summary of paper examining socioeconomic impacts or determinants of terroristic ideology"
+rss_pubdate = Date(2022, 8, 28)
++++
 
-@def rss_title = "The Origins Of Terrorism: Cross-country Estimates Of Socio-economic Determinants Of Terrorism"
-@def rss_description = "Brief summary of paper examining socioeconomic impacts or determinants of terroristic ideology"
-@def rss_pubdate = Date(2022, 8, 28)
 
 
 The Origins Of Terrorism: Cross-country Estimates Of Socio-economic Determinants Of Terrorism

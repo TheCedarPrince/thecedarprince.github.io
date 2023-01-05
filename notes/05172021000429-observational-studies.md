@@ -1,11 +1,11 @@
-@def title = "Observational Research Studies"
-@def slug = "05172021000429-observational-studies"
-@def tags = ["zettel", "observational", "research", "study", "ohdsi", "archive"]
-@def description = ""
++++
+title = "Observational Research Studies"
+slug = "05172021000429-observational-studies"
+tags = ["zettel", "observational", "research", "study", "ohdsi", "archive"]
+rss_title = "Observational Research Studies"
+rss_pubdate = Date(2021, 5, 16)
++++
 
-@def rss_title = "Observational Research Studies"
-@def rss_description = ""
-@def rss_pubdate = Date(2021, 5, 16)
 
 
 Observational Research Studies

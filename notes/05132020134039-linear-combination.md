@@ -1,11 +1,13 @@
-@def title = "Linear Combination"
-@def slug = "05132020134039-linear-combination"
-@def tags = ["zettel", "linearalgebra", "vectors", "mathematics", "geometry", "archive"]
-@def description = "A loose overview on linear combination and it geometric relationship"
++++
+title = "Linear Combination"
+slug = "05132020134039-linear-combination"
+tags = ["zettel", "linearalgebra", "vectors", "mathematics", "geometry", "archive"]
+description = "A loose overview on linear combination and it geometric relationship"
+rss_title = "Linear Combination"
+rss_description = "A loose overview on linear combination and it geometric relationship"
+rss_pubdate = Date(2020, 5, 13)
++++
 
-@def rss_title = "Linear Combination"
-@def rss_description = "A loose overview on linear combination and it geometric relationship"
-@def rss_pubdate = Date(2020, 5, 13)
 
 
 Linear Combination

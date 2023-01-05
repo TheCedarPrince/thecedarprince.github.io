@@ -1,11 +1,13 @@
-@def title = "Arithmetic Sums & Series"
-@def slug = "01052021044121-arithmetic-series"
-@def tags = ["zettel", "arithmetic", "sums", "series", "proof", "archive"]
-@def description = "A brief overview on what arithmetic series are and some of its underlying math."
++++
+title = "Arithmetic Sums & Series"
+slug = "01052021044121-arithmetic-series"
+tags = ["zettel", "arithmetic", "sums", "series", "proof", "archive"]
+description = "A brief overview on what arithmetic series are and some of its underlying math."
+rss_title = "Arithmetic Sums & Series"
+rss_description = "A brief overview on what arithmetic series are and some of its underlying math."
+rss_pubdate = Date(2021, 1, 4)
++++
 
-@def rss_title = "Arithmetic Sums & Series"
-@def rss_description = "A brief overview on what arithmetic series are and some of its underlying math."
-@def rss_pubdate = Date(2021, 1, 4)
 
 
 Arithmetic Sums & Series

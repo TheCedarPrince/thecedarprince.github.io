@@ -1,11 +1,13 @@
-@def title = "Manipulating Files in R"
-@def slug = "02082021203741-R-file-manipulation"
-@def tags = ["zettel", "r", "programming", "tips", "tricks", "archive"]
-@def description = "Tips and tricks on how to manipulate files in R"
++++
+title = "Manipulating Files in R"
+slug = "02082021203741-R-file-manipulation"
+tags = ["zettel", "r", "programming", "tips", "tricks", "archive"]
+description = "Tips and tricks on how to manipulate files in R"
+rss_title = "Manipulating Files in R"
+rss_description = "Tips and tricks on how to manipulate files in R"
+rss_pubdate = Date(2021, 2, 8)
++++
 
-@def rss_title = "Manipulating Files in R"
-@def rss_description = "Tips and tricks on how to manipulate files in R"
-@def rss_pubdate = Date(2021, 2, 8)
 
 
 Manipulating Files in R

@@ -1,11 +1,13 @@
-@def title = "Sliding Window Analysis"
-@def slug = "11302020054836-sliding-window-analysis"
-@def tags = ["zettel", "window", "analysis", "signal", "processing", "computerscience", "algorithm", "archive"]
-@def description = "How sliding window analysis works and is implemented"
++++
+title = "Sliding Window Analysis"
+slug = "11302020054836-sliding-window-analysis"
+tags = ["zettel", "window", "analysis", "signal", "processing", "computerscience", "algorithm", "archive"]
+description = "How sliding window analysis works and is implemented"
+rss_title = "Sliding Window Analysis"
+rss_description = "How sliding window analysis works and is implemented"
+rss_pubdate = Date(2020, 11, 30)
++++
 
-@def rss_title = "Sliding Window Analysis"
-@def rss_description = "How sliding window analysis works and is implemented"
-@def rss_pubdate = Date(2020, 11, 30)
 
 
 Sliding Window Analysis

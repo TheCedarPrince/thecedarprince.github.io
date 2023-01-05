@@ -1,11 +1,13 @@
-@def title = "LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic"
-@def slug = "09082022132720-lgbtq-psychologically-vulnerable"
-@def tags = ["bibliography", "lgbtq", "pandemic", "covid19", "mental", "health", "vulnerable", "archive"]
-@def description = "A brief report on the risks encountered by LGBTQ communities as a result of the COVID-19 pandemic"
++++
+title = "LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic"
+slug = "09082022132720-lgbtq-psychologically-vulnerable"
+tags = ["bibliography", "lgbtq", "pandemic", "covid19", "mental", "health", "vulnerable", "archive"]
+description = "A brief report on the risks encountered by LGBTQ communities as a result of the COVID-19 pandemic"
+rss_title = "LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic"
+rss_description = "A brief report on the risks encountered by LGBTQ communities as a result of the COVID-19 pandemic"
+rss_pubdate = Date(2022, 9, 8)
++++
 
-@def rss_title = "LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic"
-@def rss_description = "A brief report on the risks encountered by LGBTQ communities as a result of the COVID-19 pandemic"
-@def rss_pubdate = Date(2022, 9, 8)
 
 
 LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic

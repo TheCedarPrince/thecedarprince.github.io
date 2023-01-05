@@ -1,11 +1,13 @@
-@def title = "Organized Denialism"
-@def slug = "02092021024221-organized-denialism"
-@def tags = ["zettel", "denialism", "organized", "archive"]
-@def description = "Organized ignorance and invalidation of legitimate information"
++++
+title = "Organized Denialism"
+slug = "02092021024221-organized-denialism"
+tags = ["zettel", "denialism", "organized", "archive"]
+description = "Organized ignorance and invalidation of legitimate information"
+rss_title = "Organized Denialism"
+rss_description = "Organized ignorance and invalidation of legitimate information"
+rss_pubdate = Date(2021, 2, 8)
++++
 
-@def rss_title = "Organized Denialism"
-@def rss_description = "Organized ignorance and invalidation of legitimate information"
-@def rss_pubdate = Date(2021, 2, 8)
 
 
 Organized Denialism

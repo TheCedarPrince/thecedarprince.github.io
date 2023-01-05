@@ -1,11 +1,13 @@
-@def title = "Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020"
-@def slug = "06072021214725-decline-hospitilizations-mask"
-@def tags = ["hospitalization", "covid", "policy", "mask", "mandates", "decrease", "archive"]
-@def description = "How mask mandates were associated with decreases in COVID hospitalization growth rates"
++++
+title = "Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020"
+slug = "06072021214725-decline-hospitilizations-mask"
+tags = ["hospitalization", "covid", "policy", "mask", "mandates", "decrease", "archive"]
+description = "How mask mandates were associated with decreases in COVID hospitalization growth rates"
+rss_title = "Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020"
+rss_description = "How mask mandates were associated with decreases in COVID hospitalization growth rates"
+rss_pubdate = Date(2021, 6, 7)
++++
 
-@def rss_title = "Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020"
-@def rss_description = "How mask mandates were associated with decreases in COVID hospitalization growth rates"
-@def rss_pubdate = Date(2021, 6, 7)
 
 
 Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020

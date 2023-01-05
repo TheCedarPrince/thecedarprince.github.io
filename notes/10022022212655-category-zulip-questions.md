@@ -1,11 +1,11 @@
-@def title = "Questions for the Category Theory Zulip"
-@def slug = "10022022212655-category-zulip-questions"
-@def tags = ["outline", "archive"]
-@def description = ""
++++
+title = "Questions for the Category Theory Zulip"
+slug = "10022022212655-category-zulip-questions"
+tags = ["outline", "archive"]
+rss_title = "Questions for the Category Theory Zulip"
+rss_pubdate = Date(2022, 10, 2)
++++
 
-@def rss_title = "Questions for the Category Theory Zulip"
-@def rss_description = ""
-@def rss_pubdate = Date(2022, 10, 2)
 
 
 Questions for the Category Theory Zulip

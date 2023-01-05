@@ -1,11 +1,11 @@
-@def title = "Magnetic Resonance Imaging"
-@def slug = "12302020173322-magnetic-resonance-imaging"
-@def tags = ["zettel", "imaging", "mri", "archive"]
-@def description = ""
++++
+title = "Magnetic Resonance Imaging"
+slug = "12302020173322-magnetic-resonance-imaging"
+tags = ["zettel", "imaging", "mri", "archive"]
+rss_title = "Magnetic Resonance Imaging"
+rss_pubdate = Date(2020, 12, 30)
++++
 
-@def rss_title = "Magnetic Resonance Imaging"
-@def rss_description = ""
-@def rss_pubdate = Date(2020, 12, 30)
 
 
 Magnetic Resonance Imaging

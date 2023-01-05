@@ -1,11 +1,13 @@
-@def title = "COVID-19 and the other pandemic: populations made vulnerable by systemic inequity"
-@def slug = "09082022132448-covid-systemic-inequity"
-@def tags = ["bibliography", "inequity", "minorities", "covid19", "pandemic", "vulnerable", "archive"]
-@def description = "How the COVID pandemic lead to highlighting vulnerable populations introduced by systemic inequity for healthcare"
++++
+title = "COVID-19 and the other pandemic: populations made vulnerable by systemic inequity"
+slug = "09082022132448-covid-systemic-inequity"
+tags = ["bibliography", "inequity", "minorities", "covid19", "pandemic", "vulnerable", "archive"]
+description = "How the COVID pandemic lead to highlighting vulnerable populations introduced by systemic inequity for healthcare"
+rss_title = "COVID-19 and the other pandemic: populations made vulnerable by systemic inequity"
+rss_description = "How the COVID pandemic lead to highlighting vulnerable populations introduced by systemic inequity for healthcare"
+rss_pubdate = Date(2022, 9, 8)
++++
 
-@def rss_title = "COVID-19 and the other pandemic: populations made vulnerable by systemic inequity"
-@def rss_description = "How the COVID pandemic lead to highlighting vulnerable populations introduced by systemic inequity for healthcare"
-@def rss_pubdate = Date(2022, 9, 8)
 
 
 COVID-19 and the other pandemic: populations made vulnerable by systemic inequity

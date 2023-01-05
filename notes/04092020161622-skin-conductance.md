@@ -1,11 +1,13 @@
-@def title = "What Is Skin Conductance Level?"
-@def slug = "04092020161622-skin-conductance"
-@def tags = ["zettel", "eda", "scl", "skin", "response", "archive"]
-@def description = "Summary of what is skin conductance level."
++++
+title = "What Is Skin Conductance Level?"
+slug = "04092020161622-skin-conductance"
+tags = ["zettel", "eda", "scl", "skin", "response", "archive"]
+description = "Summary of what is skin conductance level."
+rss_title = "What Is Skin Conductance Level?"
+rss_description = "Summary of what is skin conductance level."
+rss_pubdate = Date(2020, 4, 9)
++++
 
-@def rss_title = "What Is Skin Conductance Level?"
-@def rss_description = "Summary of what is skin conductance level."
-@def rss_pubdate = Date(2020, 4, 9)
 
 
 What Is Skin Conductance Level?

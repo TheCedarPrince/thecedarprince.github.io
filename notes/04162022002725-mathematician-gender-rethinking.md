@@ -1,11 +1,13 @@
-@def title = "X + Y : A Mathematician’s Manifesto for Rethinking Gender"
-@def slug = "04162022002725-mathematician-gender-rethinking"
-@def tags = ["summary", "blog", "review", "book", "gender", "ingressive", "congressive", "category", "theory", "archive"]
-@def description = "Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read!"
++++
+title = "X + Y : A Mathematician’s Manifesto for Rethinking Gender"
+slug = "04162022002725-mathematician-gender-rethinking"
+tags = ["summary", "blog", "review", "book", "gender", "ingressive", "congressive", "category", "theory", "archive"]
+description = "Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read!"
+rss_title = "X + Y : A Mathematician’s Manifesto for Rethinking Gender"
+rss_description = "Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read!"
+rss_pubdate = Date(2022, 4, 15)
++++
 
-@def rss_title = "X + Y : A Mathematician’s Manifesto for Rethinking Gender"
-@def rss_description = "Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read!"
-@def rss_pubdate = Date(2022, 4, 15)
 
 
 X + Y : A Mathematician’s Manifesto for Rethinking Gender

@@ -1,11 +1,13 @@
-@def title = "Assessing Phenotype Definitions for Algorithmic Fairness"
-@def slug = "08122022205622-assessing-phenotype-fairness"
-@def tags = ["bibliography", "phenotype", "fairness", "metrics", "observational", "health", "research", "archive"]
-@def description = "A possible workflow for assessing fairness in the context of observational health studies"
++++
+title = "Assessing Phenotype Definitions for Algorithmic Fairness"
+slug = "08122022205622-assessing-phenotype-fairness"
+tags = ["bibliography", "phenotype", "fairness", "metrics", "observational", "health", "research", "archive"]
+description = "A possible workflow for assessing fairness in the context of observational health studies"
+rss_title = "Assessing Phenotype Definitions for Algorithmic Fairness"
+rss_description = "A possible workflow for assessing fairness in the context of observational health studies"
+rss_pubdate = Date(2022, 8, 12)
++++
 
-@def rss_title = "Assessing Phenotype Definitions for Algorithmic Fairness"
-@def rss_description = "A possible workflow for assessing fairness in the context of observational health studies"
-@def rss_pubdate = Date(2022, 8, 12)
 
 
 Assessing Phenotype Definitions for Algorithmic Fairness

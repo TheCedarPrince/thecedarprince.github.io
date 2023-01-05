@@ -1,11 +1,13 @@
-@def title = "A Systematic Review of the Health of Vulnerable Populations within US Rural Societies"
-@def slug = "09082022131551-systematic-rural-review"
-@def tags = ["bibliography", "review", "vulnerable", "populations", "rural", "us", "archive"]
-@def description = "An overview and summary of vulnerable populations that are particular to rural US"
++++
+title = "A Systematic Review of the Health of Vulnerable Populations within US Rural Societies"
+slug = "09082022131551-systematic-rural-review"
+tags = ["bibliography", "review", "vulnerable", "populations", "rural", "us", "archive"]
+description = "An overview and summary of vulnerable populations that are particular to rural US"
+rss_title = "A Systematic Review of the Health of Vulnerable Populations within US Rural Societies"
+rss_description = "An overview and summary of vulnerable populations that are particular to rural US"
+rss_pubdate = Date(2022, 9, 8)
++++
 
-@def rss_title = "A Systematic Review of the Health of Vulnerable Populations within US Rural Societies"
-@def rss_description = "An overview and summary of vulnerable populations that are particular to rural US"
-@def rss_pubdate = Date(2022, 9, 8)
 
 
 A Systematic Review of the Health of Vulnerable Populations within US Rural Societies

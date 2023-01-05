@@ -1,11 +1,13 @@
-@def title = "Definitions Concerning Terrorism"
-@def slug = "08282022133230-definitions-around-terrorism"
-@def tags = ["summary", "definition", "terrorism", "radicalization", "fear", "violence", "archive"]
-@def description = "A summary note focused on definitions concerning terrorism and"
++++
+title = "Definitions Concerning Terrorism"
+slug = "08282022133230-definitions-around-terrorism"
+tags = ["summary", "definition", "terrorism", "radicalization", "fear", "violence", "archive"]
+description = "A summary note focused on definitions concerning terrorism and"
+rss_title = "Definitions Concerning Terrorism"
+rss_description = "A summary note focused on definitions concerning terrorism and"
+rss_pubdate = Date(2022, 8, 28)
++++
 
-@def rss_title = "Definitions Concerning Terrorism"
-@def rss_description = "A summary note focused on definitions concerning terrorism and"
-@def rss_pubdate = Date(2022, 8, 28)
 
 
 Definitions Concerning Terrorism

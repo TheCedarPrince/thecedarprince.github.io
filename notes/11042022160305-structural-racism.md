@@ -1,11 +1,13 @@
-@def title = "Structural Racism"
-@def slug = "11042022160305-structural-racism"
-@def tags = ["archive"]
-@def description = "What is structural racism and how it emerges in societies"
++++
+title = "Structural Racism"
+slug = "11042022160305-structural-racism"
+tags = ["archive"]
+description = "What is structural racism and how it emerges in societies"
+rss_title = "Structural Racism"
+rss_description = "What is structural racism and how it emerges in societies"
+rss_pubdate = Date(2022, 11, 4)
++++
 
-@def rss_title = "Structural Racism"
-@def rss_description = "What is structural racism and how it emerges in societies"
-@def rss_pubdate = Date(2022, 11, 4)
 
 
 Structural Racism

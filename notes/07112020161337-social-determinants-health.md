@@ -1,11 +1,13 @@
-@def title = "Social Determinants of Health"
-@def slug = "07112020161337-social-determinants-health"
-@def tags = ["bibliography", "publichealth", "anthropology", "health", "social", "determinants", "society", "archive"]
-@def description = "The comprehensive inception of social determinants in healthcare and society"
++++
+title = "Social Determinants of Health"
+slug = "07112020161337-social-determinants-health"
+tags = ["bibliography", "publichealth", "anthropology", "health", "social", "determinants", "society", "archive"]
+description = "The comprehensive inception of social determinants in healthcare and society"
+rss_title = "Social Determinants of Health"
+rss_description = "The comprehensive inception of social determinants in healthcare and society"
+rss_pubdate = Date(2020, 7, 11)
++++
 
-@def rss_title = "Social Determinants of Health"
-@def rss_description = "The comprehensive inception of social determinants in healthcare and society"
-@def rss_pubdate = Date(2020, 7, 11)
 
 
 Social Determinants of Health

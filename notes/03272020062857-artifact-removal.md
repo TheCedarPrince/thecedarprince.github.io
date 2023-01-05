@@ -1,11 +1,13 @@
-@def title = "Artifact Removal Methods"
-@def slug = "03272020062857-artifact-removal"
-@def tags = ["summary", "digital", "signal", "processing", "artifact", "removal", "smoothing", "archive"]
-@def description = "An overview on commonly used signal processing methods to remove artifacts from signals."
++++
+title = "Artifact Removal Methods"
+slug = "03272020062857-artifact-removal"
+tags = ["summary", "digital", "signal", "processing", "artifact", "removal", "smoothing", "archive"]
+description = "An overview on commonly used signal processing methods to remove artifacts from signals."
+rss_title = "Artifact Removal Methods"
+rss_description = "An overview on commonly used signal processing methods to remove artifacts from signals."
+rss_pubdate = Date(2020, 3, 27)
++++
 
-@def rss_title = "Artifact Removal Methods"
-@def rss_description = "An overview on commonly used signal processing methods to remove artifacts from signals."
-@def rss_pubdate = Date(2020, 3, 27)
 
 
 Artifact Removal Methods

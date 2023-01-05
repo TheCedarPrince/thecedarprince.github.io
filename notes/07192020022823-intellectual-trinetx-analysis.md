@@ -1,11 +1,13 @@
-@def title = "Intellectual and Developmental Disability and COVID-19 Case-fatality Trends: TriNetX Analysis"
-@def slug = "07192020022823-intellectual-trinetx-analysis"
-@def tags = ["bibliography", "covid19", "pandemic", "idd", "intellectual", "disability", "archive"]
-@def description = "Intellectual and developmental disability and association with COVID-19 fatalities"
++++
+title = "Intellectual and Developmental Disability and COVID-19 Case-fatality Trends: TriNetX Analysis"
+slug = "07192020022823-intellectual-trinetx-analysis"
+tags = ["bibliography", "covid19", "pandemic", "idd", "intellectual", "disability", "archive"]
+description = "Intellectual and developmental disability and association with COVID-19 fatalities"
+rss_title = "Intellectual and Developmental Disability and COVID-19 Case-fatality Trends: TriNetX Analysis"
+rss_description = "Intellectual and developmental disability and association with COVID-19 fatalities"
+rss_pubdate = Date(2020, 7, 19)
++++
 
-@def rss_title = "Intellectual and Developmental Disability and COVID-19 Case-fatality Trends: TriNetX Analysis"
-@def rss_description = "Intellectual and developmental disability and association with COVID-19 fatalities"
-@def rss_pubdate = Date(2020, 7, 19)
 
 
 Intellectual and Developmental Disability and COVID-19 Case-fatality Trends: TriNetX Analysis

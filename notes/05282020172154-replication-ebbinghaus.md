@@ -1,11 +1,13 @@
-@def title = "Replication and Analysis of Ebbinghaus’ Forgetting Curve"
-@def slug = "05282020172154-replication-ebbinghaus"
-@def tags = ["bibliography", "archive"]
-@def description = "This is a replication study on the discovery of the forgetting curve as reported by Hermann Ebbinghaus in 1880."
++++
+title = "Replication and Analysis of Ebbinghaus’ Forgetting Curve"
+slug = "05282020172154-replication-ebbinghaus"
+tags = ["bibliography", "archive"]
+description = "This is a replication study on the discovery of the forgetting curve as reported by Hermann Ebbinghaus in 1880."
+rss_title = "Replication and Analysis of Ebbinghaus’ Forgetting Curve"
+rss_description = "This is a replication study on the discovery of the forgetting curve as reported by Hermann Ebbinghaus in 1880."
+rss_pubdate = Date(2020, 5, 28)
++++
 
-@def rss_title = "Replication and Analysis of Ebbinghaus’ Forgetting Curve"
-@def rss_description = "This is a replication study on the discovery of the forgetting curve as reported by Hermann Ebbinghaus in 1880."
-@def rss_pubdate = Date(2020, 5, 28)
 
 
 Replication and Analysis of Ebbinghaus’ Forgetting Curve

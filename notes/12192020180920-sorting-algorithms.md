@@ -1,11 +1,13 @@
-@def title = "Sorting Algorithms"
-@def slug = "12192020180920-sorting-algorithms"
-@def tags = ["summary", "sorting", "algorithms", "recursion", "computer", "science", "archive"]
-@def description = "Sorting algorithms take in an array of unsorted data as input"
++++
+title = "Sorting Algorithms"
+slug = "12192020180920-sorting-algorithms"
+tags = ["summary", "sorting", "algorithms", "recursion", "computer", "science", "archive"]
+description = "Sorting algorithms take in an array of unsorted data as input"
+rss_title = "Sorting Algorithms"
+rss_description = "Sorting algorithms take in an array of unsorted data as input"
+rss_pubdate = Date(2020, 12, 19)
++++
 
-@def rss_title = "Sorting Algorithms"
-@def rss_description = "Sorting algorithms take in an array of unsorted data as input"
-@def rss_pubdate = Date(2020, 12, 19)
 
 
 Sorting Algorithms

@@ -1,11 +1,13 @@
-@def title = "Medical Claims Files"
-@def slug = "12092021205237-medical-claims-files"
-@def tags = ["medical", "claims", "summary", "us", "archive"]
-@def description = "A summary overview on what medical claims data are"
++++
+title = "Medical Claims Files"
+slug = "12092021205237-medical-claims-files"
+tags = ["medical", "claims", "summary", "us", "archive"]
+description = "A summary overview on what medical claims data are"
+rss_title = "Medical Claims Files"
+rss_description = "A summary overview on what medical claims data are"
+rss_pubdate = Date(2021, 12, 9)
++++
 
-@def rss_title = "Medical Claims Files"
-@def rss_description = "A summary overview on what medical claims data are"
-@def rss_pubdate = Date(2021, 12, 9)
 
 
 Medical Claims Files

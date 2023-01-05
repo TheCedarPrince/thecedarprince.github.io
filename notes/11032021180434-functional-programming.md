@@ -1,11 +1,13 @@
-@def title = "Functional Programming"
-@def slug = "11032021180434-functional-programming"
-@def tags = ["functional", "programming", "paradigm", "archive"]
-@def description = "An overview on what functional programming is and the"
++++
+title = "Functional Programming"
+slug = "11032021180434-functional-programming"
+tags = ["functional", "programming", "paradigm", "archive"]
+description = "An overview on what functional programming is and the"
+rss_title = "Functional Programming"
+rss_description = "An overview on what functional programming is and the"
+rss_pubdate = Date(2021, 11, 3)
++++
 
-@def rss_title = "Functional Programming"
-@def rss_description = "An overview on what functional programming is and the"
-@def rss_pubdate = Date(2021, 11, 3)
 
 
 Functional Programming

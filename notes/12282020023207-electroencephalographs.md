@@ -1,11 +1,13 @@
-@def title = "Electroencephalography"
-@def slug = "12282020023207-electroencephalographs"
-@def tags = ["zettel", "archive"]
-@def description = "What is Electroencephalography?"
++++
+title = "Electroencephalography"
+slug = "12282020023207-electroencephalographs"
+tags = ["zettel", "archive"]
+description = "What is Electroencephalography?"
+rss_title = "Electroencephalography"
+rss_description = "What is Electroencephalography?"
+rss_pubdate = Date(2020, 12, 28)
++++
 
-@def rss_title = "Electroencephalography"
-@def rss_description = "What is Electroencephalography?"
-@def rss_pubdate = Date(2020, 12, 28)
 
 
 Electroencephalography

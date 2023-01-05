@@ -1,11 +1,13 @@
-@def title = "Relativity of Simultaneity"
-@def slug = "12242022211924-simultaneity-relativity"
-@def tags = ["physics", "relativity", "einstein", "simultaneity", "todo", "archive"]
-@def description = "An overview of Einstein's concept of Relativity of Simultaneity"
++++
+title = "Relativity of Simultaneity"
+slug = "12242022211924-simultaneity-relativity"
+tags = ["physics", "relativity", "einstein", "simultaneity", "todo", "archive"]
+description = "An overview of Einstein's concept of Relativity of Simultaneity"
+rss_title = "Relativity of Simultaneity"
+rss_description = "An overview of Einstein's concept of Relativity of Simultaneity"
+rss_pubdate = Date(2022, 12, 24)
++++
 
-@def rss_title = "Relativity of Simultaneity"
-@def rss_description = "An overview of Einstein's concept of Relativity of Simultaneity"
-@def rss_pubdate = Date(2022, 12, 24)
 
 
 Relativity of Simultaneity

@@ -1,11 +1,13 @@
-@def title = "Treatments for SARS-CoV"
-@def slug = "07122020195122-sars-cov-treatments"
-@def tags = ["zettel", "treatment", "SARS-CoV", "health", "coronavirus", "archive"]
-@def description = "Known treatment methods for SARS-CoV"
++++
+title = "Treatments for SARS-CoV"
+slug = "07122020195122-sars-cov-treatments"
+tags = ["zettel", "treatment", "SARS-CoV", "health", "coronavirus", "archive"]
+description = "Known treatment methods for SARS-CoV"
+rss_title = "Treatments for SARS-CoV"
+rss_description = "Known treatment methods for SARS-CoV"
+rss_pubdate = Date(2020, 7, 12)
++++
 
-@def rss_title = "Treatments for SARS-CoV"
-@def rss_description = "Known treatment methods for SARS-CoV"
-@def rss_pubdate = Date(2020, 7, 12)
 
 
 Treatments for SARS-CoV

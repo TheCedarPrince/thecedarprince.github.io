@@ -1,11 +1,13 @@
-@def title = "Random Access Machine (RAM) Model"
-@def slug = "01072021072613-random-access-model"
-@def tags = ["zettel", "random", "access", "machine", "model", "archive"]
-@def description = "Modeling computational actions as single step actions"
++++
+title = "Random Access Machine (RAM) Model"
+slug = "01072021072613-random-access-model"
+tags = ["zettel", "random", "access", "machine", "model", "archive"]
+description = "Modeling computational actions as single step actions"
+rss_title = "Random Access Machine (RAM) Model"
+rss_description = "Modeling computational actions as single step actions"
+rss_pubdate = Date(2021, 1, 7)
++++
 
-@def rss_title = "Random Access Machine (RAM) Model"
-@def rss_description = "Modeling computational actions as single step actions"
-@def rss_pubdate = Date(2021, 1, 7)
 
 
 Random Access Machine (RAM) Model

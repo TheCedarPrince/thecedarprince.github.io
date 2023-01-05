@@ -1,11 +1,13 @@
-@def title = "Scoring systems in the intensive care unit: A compendium"
-@def slug = "10152021023937-icu-rating-systems"
-@def tags = ["overview", "intensive", "care", "unit", "rating", "scoring", "prediction", "quality", "care", "archive"]
-@def description = "A note that provides an overview to intensive care unit scoring systems"
++++
+title = "Scoring systems in the intensive care unit: A compendium"
+slug = "10152021023937-icu-rating-systems"
+tags = ["overview", "intensive", "care", "unit", "rating", "scoring", "prediction", "quality", "care", "archive"]
+description = "A note that provides an overview to intensive care unit scoring systems"
+rss_title = "Scoring systems in the intensive care unit: A compendium"
+rss_description = "A note that provides an overview to intensive care unit scoring systems"
+rss_pubdate = Date(2021, 10, 14)
++++
 
-@def rss_title = "Scoring systems in the intensive care unit: A compendium"
-@def rss_description = "A note that provides an overview to intensive care unit scoring systems"
-@def rss_pubdate = Date(2021, 10, 14)
 
 
 Scoring systems in the intensive care unit: A compendium

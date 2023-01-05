@@ -1,11 +1,13 @@
-@def title = "Stereographic Projection"
-@def slug = "11132020052431-stereographic-projection"
-@def tags = ["zettel", "stereographic", "projection", "linearalgebra", "math", "archive"]
-@def description = "A small note on the stereographic projection method"
++++
+title = "Stereographic Projection"
+slug = "11132020052431-stereographic-projection"
+tags = ["zettel", "stereographic", "projection", "linearalgebra", "math", "archive"]
+description = "A small note on the stereographic projection method"
+rss_title = "Stereographic Projection"
+rss_description = "A small note on the stereographic projection method"
+rss_pubdate = Date(2020, 11, 12)
++++
 
-@def rss_title = "Stereographic Projection"
-@def rss_description = "A small note on the stereographic projection method"
-@def rss_pubdate = Date(2020, 11, 12)
 
 
 Stereographic Projection

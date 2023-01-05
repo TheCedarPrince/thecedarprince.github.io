@@ -1,11 +1,13 @@
-@def title = "Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020"
-@def slug = "06072021210734-mask-mandates-association"
-@def tags = ["covid", "growth", "death", "mask", "mandates", "policy", "restaurants", "archive"]
-@def description = "How mask mandates could be correlated with on site dining and COVID death and growth rates"
++++
+title = "Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020"
+slug = "06072021210734-mask-mandates-association"
+tags = ["covid", "growth", "death", "mask", "mandates", "policy", "restaurants", "archive"]
+description = "How mask mandates could be correlated with on site dining and COVID death and growth rates"
+rss_title = "Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020"
+rss_description = "How mask mandates could be correlated with on site dining and COVID death and growth rates"
+rss_pubdate = Date(2021, 6, 7)
++++
 
-@def rss_title = "Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020"
-@def rss_description = "How mask mandates could be correlated with on site dining and COVID death and growth rates"
-@def rss_pubdate = Date(2021, 6, 7)
 
 
 Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020

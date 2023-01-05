@@ -1,11 +1,13 @@
-@def title = "Pharmacy Claims Files"
-@def slug = "12092021211642-pharmacy-claims-files"
-@def tags = ["pharmacy", "claims", "summary", "us", "archive"]
-@def description = "A summary overview on what pharmacy claims data are"
++++
+title = "Pharmacy Claims Files"
+slug = "12092021211642-pharmacy-claims-files"
+tags = ["pharmacy", "claims", "summary", "us", "archive"]
+description = "A summary overview on what pharmacy claims data are"
+rss_title = "Pharmacy Claims Files"
+rss_description = "A summary overview on what pharmacy claims data are"
+rss_pubdate = Date(2021, 12, 9)
++++
 
-@def rss_title = "Pharmacy Claims Files"
-@def rss_description = "A summary overview on what pharmacy claims data are"
-@def rss_pubdate = Date(2021, 12, 9)
 
 
 Pharmacy Claims Files

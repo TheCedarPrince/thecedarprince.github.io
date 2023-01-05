@@ -1,11 +1,13 @@
-@def title = "Strategies for Evaluating Telehealth"
-@def slug = "05022022153220-evaluating-telehealth"
-@def tags = ["bibliography", "telehealth", "sprout", "quality", "ahrq", "who", "care", "delivery", "archive"]
-@def description = "Short summary of the SPROUT Telehealth Evaluation and Measurement profile and how it is used"
++++
+title = "Strategies for Evaluating Telehealth"
+slug = "05022022153220-evaluating-telehealth"
+tags = ["bibliography", "telehealth", "sprout", "quality", "ahrq", "who", "care", "delivery", "archive"]
+description = "Short summary of the SPROUT Telehealth Evaluation and Measurement profile and how it is used"
+rss_title = "Strategies for Evaluating Telehealth"
+rss_description = "Short summary of the SPROUT Telehealth Evaluation and Measurement profile and how it is used"
+rss_pubdate = Date(2022, 5, 2)
++++
 
-@def rss_title = "Strategies for Evaluating Telehealth"
-@def rss_description = "Short summary of the SPROUT Telehealth Evaluation and Measurement profile and how it is used"
-@def rss_pubdate = Date(2022, 5, 2)
 
 
 Strategies for Evaluating Telehealth

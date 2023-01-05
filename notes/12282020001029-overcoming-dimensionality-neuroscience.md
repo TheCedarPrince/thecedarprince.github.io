@@ -1,11 +1,13 @@
-@def title = "Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality"
-@def slug = "12282020001029-overcoming-dimensionality-neuroscience"
-@def tags = ["bibliography", "neuroscience", "dataviz", "curse", "dimensionality", "visualization", "data", "science", "archive"]
-@def description = "How to approach the dilemma of visualizing complex data in neuroscience."
++++
+title = "Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality"
+slug = "12282020001029-overcoming-dimensionality-neuroscience"
+tags = ["bibliography", "neuroscience", "dataviz", "curse", "dimensionality", "visualization", "data", "science", "archive"]
+description = "How to approach the dilemma of visualizing complex data in neuroscience."
+rss_title = "Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality"
+rss_description = "How to approach the dilemma of visualizing complex data in neuroscience."
+rss_pubdate = Date(2020, 12, 27)
++++
 
-@def rss_title = "Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality"
-@def rss_description = "How to approach the dilemma of visualizing complex data in neuroscience."
-@def rss_pubdate = Date(2020, 12, 27)
 
 
 Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality

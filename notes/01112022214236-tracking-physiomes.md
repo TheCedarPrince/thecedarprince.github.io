@@ -1,11 +1,13 @@
-@def title = "Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information"
-@def slug = "01112022214236-tracking-physiomes"
-@def tags = ["mhealth", "spo2", "heart", "rate", "skin", "temperature", "lyme", "disease", "bibliography", "archive"]
-@def description = "Utilizing wearables to detect and find abnormalities in patient conditions"
++++
+title = "Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information"
+slug = "01112022214236-tracking-physiomes"
+tags = ["mhealth", "spo2", "heart", "rate", "skin", "temperature", "lyme", "disease", "bibliography", "archive"]
+description = "Utilizing wearables to detect and find abnormalities in patient conditions"
+rss_title = "Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information"
+rss_description = "Utilizing wearables to detect and find abnormalities in patient conditions"
+rss_pubdate = Date(2022, 1, 11)
++++
 
-@def rss_title = "Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information"
-@def rss_description = "Utilizing wearables to detect and find abnormalities in patient conditions"
-@def rss_pubdate = Date(2022, 1, 11)
 
 
 Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information

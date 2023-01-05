@@ -1,11 +1,13 @@
-@def title = "On the Non-Linearity of Science"
-@def slug = "05222022050357-non-linearity-science"
-@def tags = ["view", "paradigm", "progress", "science", "history", "textbooks", "nonlinear", "archive"]
-@def description = "The radical view that Thomas Kuhn introduced that science itself is not moving to any specific truth but rather that the scientific organ continues to move forward in a very heap-like fashion."
++++
+title = "On the Non-Linearity of Science"
+slug = "05222022050357-non-linearity-science"
+tags = ["view", "paradigm", "progress", "science", "history", "textbooks", "nonlinear", "archive"]
+description = "The radical view that Thomas Kuhn introduced that science itself is not moving to any specific truth but rather that the scientific organ continues to move forward in a very heap-like fashion."
+rss_title = "On the Non-Linearity of Science"
+rss_description = "The radical view that Thomas Kuhn introduced that science itself is not moving to any specific truth but rather that the scientific organ continues to move forward in a very heap-like fashion."
+rss_pubdate = Date(2022, 5, 22)
++++
 
-@def rss_title = "On the Non-Linearity of Science"
-@def rss_description = "The radical view that Thomas Kuhn introduced that science itself is not moving to any specific truth but rather that the scientific organ continues to move forward in a very heap-like fashion."
-@def rss_pubdate = Date(2022, 5, 22)
 
 
 On the Non-Linearity of Science

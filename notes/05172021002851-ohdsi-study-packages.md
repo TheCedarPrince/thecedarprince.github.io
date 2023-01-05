@@ -1,11 +1,11 @@
-@def title = "OHDSI Study Packages"
-@def slug = "05172021002851-ohdsi-study-packages"
-@def tags = ["zettel", "reproducible", "science", "ohdsi", "research", "study", "package", "archive"]
-@def description = ""
++++
+title = "OHDSI Study Packages"
+slug = "05172021002851-ohdsi-study-packages"
+tags = ["zettel", "reproducible", "science", "ohdsi", "research", "study", "package", "archive"]
+rss_title = "OHDSI Study Packages"
+rss_pubdate = Date(2021, 5, 16)
++++
 
-@def rss_title = "OHDSI Study Packages"
-@def rss_description = ""
-@def rss_pubdate = Date(2021, 5, 16)
 
 
 OHDSI Study Packages

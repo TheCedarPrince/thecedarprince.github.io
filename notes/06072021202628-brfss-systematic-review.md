@@ -1,11 +1,13 @@
-@def title = "A Systematic Review of Publications Assessing Reliability and Validity of the Behavioral Risk Factor Surveillance System (BRFSS)"
-@def slug = "06072021202628-brfss-systematic-review"
-@def tags = ["brfss", "survey", "reliability", "validity", "reports", "archive"]
-@def description = "A systematic review to determine the reliability and validity of the BRFSS"
++++
+title = "A Systematic Review of Publications Assessing Reliability and Validity of the Behavioral Risk Factor Surveillance System (BRFSS)"
+slug = "06072021202628-brfss-systematic-review"
+tags = ["brfss", "survey", "reliability", "validity", "reports", "archive"]
+description = "A systematic review to determine the reliability and validity of the BRFSS"
+rss_title = "A Systematic Review of Publications Assessing Reliability and Validity of the Behavioral Risk Factor Surveillance System (BRFSS)"
+rss_description = "A systematic review to determine the reliability and validity of the BRFSS"
+rss_pubdate = Date(2021, 6, 7)
++++
 
-@def rss_title = "A Systematic Review of Publications Assessing Reliability and Validity of the Behavioral Risk Factor Surveillance System (BRFSS)"
-@def rss_description = "A systematic review to determine the reliability and validity of the BRFSS"
-@def rss_pubdate = Date(2021, 6, 7)
 
 
 A Systematic Review of Publications Assessing Reliability and Validity of the Behavioral Risk Factor Surveillance System (BRFSS)

@@ -1,11 +1,13 @@
-@def title = "Functional Connectivity"
-@def slug = "12282020004327-functional-connectivity"
-@def tags = ["zettel", "brain", "activity", "functional", "archive"]
-@def description = "Brain activity which occurs between spatially separated"
++++
+title = "Functional Connectivity"
+slug = "12282020004327-functional-connectivity"
+tags = ["zettel", "brain", "activity", "functional", "archive"]
+description = "Brain activity which occurs between spatially separated"
+rss_title = "Functional Connectivity"
+rss_description = "Brain activity which occurs between spatially separated"
+rss_pubdate = Date(2020, 12, 27)
++++
 
-@def rss_title = "Functional Connectivity"
-@def rss_description = "Brain activity which occurs between spatially separated"
-@def rss_pubdate = Date(2020, 12, 27)
 
 
 Functional Connectivity
