@@ -86,7 +86,9 @@ for zettel in notes
                 franklin_note = create_franklin_note(note)
 
                 page = ""
-                page = page * generate_franklin_template(franklin_note)
+                page = page * generate_franklin_template(title=franklin_note.title, slug=franklin_note.slug, tags=franklin_note.tags, description=franklin_note.description, rss_title=franklin_note.rss_title, rss_description=franklin_note.rss_description, rss_pubdate=franklin_note.rss_pubdate)
+
+
                 page = page * generate_note_summary(franklin_note)
                 page = page * generate_bibliography(franklin_note)
                 page = page * generate_table_of_contents()
@@ -114,6 +116,6 @@ for zettel in notes
     end
 end
 
-# d_f = dateformat"U d Y"
-# records.creation_date = DateTime.(records.creation_date, d_f)
+d_f = dateformat"U d Y"
+records.creation_date = DateTime.(records.creation_date, d_f)
 CSV.write("/home/src/Projects/NewWebSite/scripts/note_records.csv", records)
