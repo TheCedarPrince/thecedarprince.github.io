@@ -41,7 +41,7 @@ This process is adapted from the [Ultralearning framework posited by Scott Young
 
 Gain an undergraduate level of understanding of graph theory on par with maths and computer science students.
 
-##### Core Concepts
+##### Concepts
 
   * Basic concepts:
 
@@ -213,43 +213,82 @@ This is based on the Meta Learning step Young described as well as some addition
 
 | Done |                                    Topic | Resources |                                                              Outcomes |
 | ----:| ----------------------------------------:| ---------:| ---------------------------------------------------------------------:|
-|      | Definition of a graph and its components |    [1, 2] |  Graph components; differences between directed and undirected graphs |
-|      |                Subgraphs and isomorphism |    [1, 2] |             Subgraphs; isomorphism; identify and compare given graphs |
+|      | Definition of a graph and its components |  [1], [2] |  Graph components; differences between directed and undirected graphs |
+|      |                Subgraphs and isomorphism |  [1], [2] |             Subgraphs; isomorphism; identify and compare given graphs |
 |      |                          Directed graphs |       [1] | Directed graph; representation using adjacency and incidence matrices |
-|      |              Graphs and their properties |    [1, 2] |     Properties of graphs; analyze; classify different types of graphs |
-|      |                       Paths and circuits |    [1, 2] |                Paths and circuits; identify and construct given graph |
+|      |              Graphs and their properties |  [1], [2] |     Properties of graphs; analyze; classify different types of graphs |
+|      |                       Paths and circuits |  [1], [2] |                Paths and circuits; identify and construct given graph |
 |      |             Connectedness and components |       [1] |            Determine if graph is connected; identify graph components |
-|      |                       Distance in graphs |    [1, 2] |                            Vertex distances; compute vertex distances |
-|      |               Trees and their properties |    [1, 2] |                   Tree definitions; identify trees; distinguish trees |
-|      |            Rooted trees and binary trees |    [1, 2] |                   Rooted trees; construct and manipulate rooted trees |
+|      |                       Distance in graphs |  [1], [2] |                            Vertex distances; compute vertex distances |
+|      |               Trees and their properties |  [1], [2] |                   Tree definitions; identify trees; distinguish trees |
+|      |            Rooted trees and binary trees |  [1], [2] |                   Rooted trees; construct and manipulate rooted trees |
 |      |                       Adjacency matrices |       [1] |          Adjacency matrix concept; representation of adjacency matrix |
 |      |                       Incidence matrices |       [1] |          Incidence matrix concept; representation of incidence graphs |
-|      |                     Breadth-first search |    [1, 2] |                         Breadth-first search concept; graph traversal |
-|      |                       Depth-first search |    [1, 2] |                           Depth-first search concept; graph traversal |
+|      |                     Breadth-first search |  [1], [2] |                         Breadth-first search concept; graph traversal |
+|      |                       Depth-first search |  [1], [2] |                           Depth-first search concept; graph traversal |
 |      |       Planar graphs and their properties |       [1] |                                   Planar graph definition; properties |
-|      |                          Euler's formula |    [1, 2] |                           Euler's formula; structure of planar graphs |
+|      |                          Euler's formula |  [1], [2] |                           Euler's formula; structure of planar graphs |
 |      |                              Dual graphs |       [1] |                        Dual graph concept; construction of dual graph |
-|      |                          Vertex coloring |    [1, 2] |                   Vertex coloring concept; coloring of graph vertices |
-|      |                            Edge coloring |    [1, 2] |                        Edge coloring concept; coloring of graph edges |
-|      |                                Matchings |    [1, 2] |                     Matching concept; identification and construction |
+|      |                          Vertex coloring |  [1], [2] |                   Vertex coloring concept; coloring of graph vertices |
+|      |                            Edge coloring |  [1], [2] |                        Edge coloring concept; coloring of graph edges |
+|      |                                Matchings |  [1], [2] |                     Matching concept; identification and construction |
 |      |                                  Factors |       [1] |                       Factor concept; identification and construction |
-|      |                       Hamiltonian cycles |    [1, 2] |            Hamiltonian cycle concept; identification and construction |
+|      |                       Hamiltonian cycles |  [1], [2] |            Hamiltonian cycle concept; identification and construction |
 |      |                            Network flows |       [1] |                           Network flow concept; modeling and analysis |
 |      |                        Graphs and groups |       [2] |                           Graph and group theory connection; analysis |
 |      |                         Graphs and logic |       [2] |                                  Graph and logic connection; analysis |
 |      |                      Graphs and geometry |       [2] |                               Graph and geometry connection; analysis |
 
-#### Explanations
+This table describes the very broad topics, resources I'll use, and the expected learning outcomes for each topic.  As I progress through this table, I will add an "X" to each row I have studied. Furthermore, the table is ordered by level of difficulty with "Definition of a graph and its components" being the first topic I should learn and "Graphs and geometry" being the more advanced topics I should study. The topics and resources here are based on [1] and [2] with potentially more resources to add in the future.
 
-These are the explanations and information about each column in this roadmap:
+| Done |  Skill Level |                                   Topic |                                 Concept |
+| ----:| ------------:| ---------------------------------------:| ---------------------------------------:|
+|      |     Beginner |                    Fundamental concepts |                                   Paths |
+|      |     Beginner |                    Fundamental concepts |                                  Cycles |
+|      |     Beginner |                    Fundamental concepts |                               Subgraphs |
+|      |     Beginner |                    Fundamental concepts |                             Isomorphism |
+|      |     Beginner |                                   Trees |                          Spanning trees |
+|      |     Beginner |                            Connectivity |                Max-flow Min-cut theorem |
+|      |     Beginner |                            Connectivity |                        Menger's theorem |
+|      |     Beginner |         Eulerian and Hamiltonian graphs |         Eulerian and Hamiltonian graphs |
+|      |     Beginner |                               Matchings |                          Hall's theorem |
+|      |     Beginner |                               Matchings |                Tutte's 1-factor theorem |
+|      |     Beginner |                               Colorings |                         Greedy coloring |
+|      |     Beginner |                               Colorings |                    Chromatic polynomial |
+|      |     Beginner |                           Planar graphs |                         Euler's formula |
+|      |     Beginner |                           Planar graphs |                    Kuratowski's theorem |
+|      |     Beginner |                           Planar graphs |      Equivalents of the 4-color theorem |
+|      |     Beginner |                           Ramsey theory |                        Ramsey's theorem |
+|      | Intermediate | Structure of 1-, 2-, 3-connected graphs |                                  Blocks |
+|      | Intermediate | Structure of 1-, 2-, 3-connected graphs |                       Ear-decomposition |
+|      | Intermediate | Structure of 1-, 2-, 3-connected graphs |                      Contractible edges |
+|      | Intermediate |                          Perfect graphs |                        Bipartite graphs |
+|      | Intermediate |                          Perfect graphs |                    Comparability graphs |
+|      | Intermediate | Tutte's synthesis of 3-connected graphs | Tutte's synthesis of 3-connected graphs |
+|      | Intermediate |     Systems of distinct representatives |     Systems of distinct representatives |
+|      | Intermediate |                       Matching polytope |                       Matching polytope |
+|      | Intermediate |                 Chinese postman problem |                 Chinese postman problem |
+|      | Intermediate |                             Dual graphs |                             Dual graphs |
+|      | Intermediate |                      Graphs on surfaces |                      Graphs on surfaces |
+|      | Intermediate |  Highly chromatic graphs of large girth |  Highly chromatic graphs of large girth |
+|      | Intermediate |                        Vizing's theorem |                        Vizing's theorem |
+|      | Intermediate |     Erdos-de Bruijn compactness theorem |     Erdos-de Bruijn compactness theorem |
+|      |     Advanced |         Line graphs of bipartite graphs |         Line graphs of bipartite graphs |
+|      |     Advanced |                          Chordal graphs |                          Chordal graphs |
+|      |     Advanced |                Complements of the above |                Complements of the above |
+|      |     Advanced |                   Perfect Graph Theorem |                   Perfect Graph Theorem |
+|      |     Advanced |                      Dilworth's theorem |                      Dilworth's theorem |
+|      |     Advanced |        Applications of Ramsey's theorem |        Applications of Ramsey's theorem |
+|      |     Advanced |          Lower bound for Ramsey numbers |          Lower bound for Ramsey numbers |
+|      |     Advanced |             Properties of random graphs |             Properties of random graphs |
+|      |     Advanced |                     Threshold functions |                     Threshold functions |
+|      |     Advanced |                                 0-1 law |                                 0-1 law |
 
-  * **Outcomes:** The knowledge and abilities I’ll acquire for success.
-  * **Rationale:** The rationale is the same across every topic: to gain a basic and fundamental understanding of graph theory
-  * **Resources:** The resources I'll use are as follows:
+This table gets more into exact topics and concepts to master. They have an associated difficult level and overall topic.  Moreover, this a synthesis of concepts and topics to be covered based on class outlines from:
 
-      * [1] R. Trudeau, Introduction to Graph Theory, Dover. DOVER PUBLICATIONS, INC., 1994.
-      * [2] N. Hartsfield and Ringel, Pearls in Graph Theory A Comprehensive Introduction. DOVER PUBLICATIONS, INC., 1994.
-  * **Done:** If this task has been completed (X) or not yet (cell is empty)
+  * COMS W4203: Introduction to Graph Theory (taught by Timothy Sun at Columbia University)
+  * MATH 6014: Graph Theory (taught at Georgia Institute of Technology)
+  * MATH 4022: Introduction to Graph Theory (taught at Georgia Institute of Technology)
 
 ## References
 
