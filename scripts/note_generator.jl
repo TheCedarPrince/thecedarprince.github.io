@@ -117,5 +117,12 @@ for zettel in notes
 end
 
 d_f = dateformat"U d Y"
-records.creation_date = DateTime.(records.creation_date, d_f)
+
+undated = filter(row -> !isa(row.creation_date, DateTime), records)
+dated = filter(row -> isa(row.creation_date, DateTime), records)
+undated.creation_date = DateTime.(undated.creation_date, d_f)
+
+records = vcat(dated, undated)
+records.creation_date = DateTime.(records.creation_date)
+
 CSV.write("/home/src/Projects/NewWebSite/scripts/note_records.csv", records)
