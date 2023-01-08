@@ -11,6 +11,24 @@ The titles, date, summaries, and key words of a blog are provided per entry
 
     	<br>
 
+    	<span class = post-item id = asynchronous-workflow-using-julia-tutorial>
+             		<a href = http://jacobzelko.com/01082023043553-julia-async-workflow/>
+                      			<strong>
+                               				Asynchronous Workflow Using Julia Tutorial
+                      			</strong>
+                      			[Jan 7 2023]
+             		</a>
+             		<br>
+                      			A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once!
+             		<br>
+                      			#blog #archive #julia #programming #literate #workflow #asynchronous #weave #browser #sync #node
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = achieving-an-undergraduate-level-understanding-of-graph-theory->
              		<a href = http://jacobzelko.com/01012023000122-graph-theory-learning/>
                       			<strong>
