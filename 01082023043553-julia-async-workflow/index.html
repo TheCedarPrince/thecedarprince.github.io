@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Asynchronous Workflow Using Julia Tutorial">
+<meta name="description" content="A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once!">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Asynchronous Workflow Using Julia Tutorial">
+<meta property="og:description" content="A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once!">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Asynchronous Workflow Using Julia Tutorial">
+<meta property="twitter:description" content="A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once!">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+ 
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Asynchronous Workflow Using Julia Tutorial</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content">
+<h1>Asynchronous Workflow Using Julia Tutorial</h1>
+<p><strong>Date:</strong> January 7 2023</p>
+<p><strong>Summary:</strong> A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once&#33;</p>
+<p><strong>Keywords:</strong> #blog #archive #julia #programming #literate #workflow #asynchronous #weave #browser #sync #node</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#motivation">Motivation</a></li><li><a href="#set-up">Set-Up</a></li><li><a href="#simple_workflow_process">Simple Workflow Process</a><ol><li><a href="#blocking_workflow">Blocking Workflow</a></li><li><a href="#asynchronous_workflow">Asynchronous Workflow</a></li></ol></li><li><a href="#asynchronous_workflow_for_literate_programming">Asynchronous Workflow for Literate Programming</a></li><li><a href="#conclusion">Conclusion</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="motivation"><a href="#motivation" class="header-anchor">Motivation</a></h3>
+<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="/https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="/https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
+<h3 id="set-up"><a href="#set-up" class="header-anchor">Set-Up</a></h3>
+<p>Here is how I recommend setting up your Julia environment to follow this tutorial &#40;I assume you have Julia installed correctly&#41;:</p>
+<ol>
+<li><p>Create an empty directory &#40;folder&#41; somewhere on your computer. &#40;NOTE: For sake of this tutorial, I will refer to it as the &quot;test&quot; folder&#41;.</p>
+</li>
+<li><p>Within your favorite text editor &#40;like Notepad, Vim, VSCode, etc.&#41;, open this directory.</p>
+</li>
+<li><p>Open and create a file called &quot;tmp.jmd&quot; &#40;NOTE: Keep the file and your editor open as we will be coming back to this file quite a lot&#41;.</p>
+</li>
+<li><p>Open your Julia REPL within the directory and activate a temporary environment within package mode:</p>
+</li>
+</ol>
+<pre><code class="julia-repl hljs">pkg&gt; activate --temp</code></pre>
+<ol start="5">
+<li><p>Add into this temporary environment the following packages:</p>
+</li>
+</ol>
+<pre><code class="julia-repl hljs">pkg&gt; add FileWatching, Weave</code></pre>
+<ol start="6">
+<li><p>Install node onto your machine.</p>
+</li>
+</ol>
+<p>I suggest using the great tool, <a href="/https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
+<ol start="7">
+<li><p>Install the node package, <a href="/https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
+</li>
+</ol>
+<p>Here is the command you can use in your command line: </p>
+<pre><code class="sh hljs">npm i -g browser-sync</code></pre>
+<blockquote>
+<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the <a href="/#asynchronous-workflow-for-literate-programming">section on literate programming</a></p>
+</blockquote>
+<h3 id="simple_workflow_process"><a href="#simple_workflow_process" class="header-anchor">Simple Workflow Process</a></h3>
+<p>There are two ways to start this workflow.  One blocking &#40;i.e. you cannot use the Julia REPL while working&#41; and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:</p>
+<p><img src="assets/01082023043553-watching-example.gif" alt="" /></p>
+<h4 id="blocking_workflow"><a href="#blocking_workflow" class="header-anchor">Blocking Workflow</a></h4>
+<p>This creates a synchronous task in your Julia REPL that can then run whatever command you want while you monitor a specific file &#40;or folder&#41;. In this case, I am making the task print a statement that says “Change Detected&#33;” to my REPL whenever there is a change in the file called “tmp.jmd”.</p>
+<pre><code class="julia hljs"><span class="hljs-keyword">using</span> FileWatching
+
+<span class="hljs-keyword">while</span> <span class="hljs-literal">true</span> 
+    watch_file(<span class="hljs-string">&quot;./tmp.jmd&quot;</span>)
+    println(<span class="hljs-string">&quot;Change Detected!&quot;</span>)
+<span class="hljs-keyword">end</span></code></pre>
+<p>This workflow is not optimal as this loop continues and locks your REPL from doing anything else. </p>
+<h4 id="asynchronous_workflow"><a href="#asynchronous_workflow" class="header-anchor">Asynchronous Workflow</a></h4>
+<p>This creates an asynchronous task in the background of your Julia REPL that can then run whatever command you want while you monitor a specific file &#40;or folder&#41;. In this case, I am making the task print a statement that says “Change Detected&#33;” to my REPL whenever there is a change in the file called “tmp.jmd”.</p>
+<pre><code class="julia hljs"><span class="hljs-keyword">using</span> FileWatching
+
+<span class="hljs-meta">@async</span> <span class="hljs-keyword">while</span> <span class="hljs-literal">true</span> 
+    watch_file(<span class="hljs-string">&quot;./tmp.jmd&quot;</span>)
+    println(<span class="hljs-string">&quot;Change Detected!&quot;</span>)
+<span class="hljs-keyword">end</span></code></pre>
+<p>From here, you could then still interact with this REPL while this task is running in the background. Furthermore, you can change the line that says <code>println&#40;&quot;Change Detected&#33;&quot;&#41;</code> to whatever command &#40;or commands&#41; you want to trigger.</p>
+<h3 id="asynchronous_workflow_for_literate_programming"><a href="#asynchronous_workflow_for_literate_programming" class="header-anchor">Asynchronous Workflow for Literate Programming</a></h3>
+<p>This workflow allows one to work with a Julia Markdown document with <code>Weave.jl</code> to preview your work in real time.  There a few steps to start the workflow but here is how it looks when in operation:</p>
+<p><img src="assets/01082023043553-weave-example.gif" alt="" /></p>
+<p>First, execute the following snippet in your Julia REPL to start the asynchronous process to watch for changes and tell Julia to weave the file we will modify:</p>
+<pre><code class="julia hljs"><span class="hljs-keyword">using</span> FileWatching
+<span class="hljs-keyword">using</span> Weave
+
+<span class="hljs-meta">@async</span> <span class="hljs-keyword">while</span> <span class="hljs-literal">true</span> 
+    watch_file(<span class="hljs-string">&quot;./tmp.jmd&quot;</span>)
+    weave(<span class="hljs-string">&quot;./tmp.jmd&quot;</span>)
+<span class="hljs-keyword">end</span></code></pre>
+<p>Next, run this in a separate terminal:</p>
+<pre><code class="sh hljs">browser-sync start --server --start --file <span class="hljs-string">&quot;./*.html&quot;</span></code></pre>
+<p>or this command within your Julia REPL &#40;NOTE: This will make your REPL session very cluttered but you can still use your REPL&#41;:</p>
+<pre><code class="julia hljs"><span class="hljs-meta">@async</span> run(<span class="hljs-string">`browser-sync start --server --start --file &quot;./*.html&quot;`</span>)</code></pre>
+<p>At this point, you should see <code>browser-sync</code> spit out a lot of information that looks something like this:</p>
+<pre><code class="sh hljs">[Browsersync] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.1.186:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ --------------------------------------
+[Browsersync] Serving files from: ./</code></pre>
+<p>You&#39;ll want to grab that URL that looks like <code>http://localhost:3000</code> in the <code>Local</code> spot and then open that in your web browser.  With the URL that you get &#40;it could be on a different port&#41;, navigate to <code>http://localhost:3000/tmp.html</code>.</p>
+<p>Finally, when you have this all in place, go ahead and add this code block into the <code>tmp.jmd</code> file that was created:</p>
+<pre><code class="markdown hljs"><span class="hljs-section"># Hello World </span>
+
+This is a Julia Markdown file. 
+
+<span class="hljs-code">```julia 
+2 + 2
+```</span></code></pre>
+<p>You should see a few things happen.  You&#39;ll see a few messages from the Julia REPL stating that <code>Weave.jl</code> is weaving your document to your desired output. Then, you&#39;ll see <code>browser-sync</code> say something about updating or syncing.  Finally, you will see your browser update to the latest version of your weaved document. </p>
+<p>Feel free to play around with this more and see the dynamism of the workflow&#33; I tend to do this when I am iteratively developing reports within Julia and want to tinker within the REPL at the same time I am creating documents. Having to wait for rendering <code>Weave.jl</code> documents and the like was a pain and this took the pain away.</p>
+<h3 id="conclusion"><a href="#conclusion" class="header-anchor">Conclusion</a></h3>
+<p>I hope you appreciated this post&#33; If you have any suggestions, comments, or additional workflows this could be used for, please comment below.  May your Julia sessions now be even more supercharged&#33;</p>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
+<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: January 08, 2023.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+        
+
+
+    
+  </body>
+</html>

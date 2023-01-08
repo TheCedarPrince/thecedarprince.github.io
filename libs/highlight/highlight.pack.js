@@ -669,3 +669,5 @@ contains:[{begin:"^( {4}|\\t)",end:"(\\n)$"}],relevance:0}]},{
 begin:"^[-\\*]{3,}",end:"$"},i,{begin:/^\[[^\n]+\]:/,returnBegin:!0,contains:[{
 className:"symbol",begin:/\[/,end:/\]/,excludeBegin:!0,excludeEnd:!0},{
 className:"link",begin:/:\s*/,end:/$/,excludeBegin:!0}]}]}}})());
+hljs.registerLanguage("julia-repl",function(a){return{c:[{cN:"meta",b:/^julia>/,r:10,starts:{e:/^(?![ ]{6})/,sL:"julia"}},{cN:"metas",b:/^shell>/,r:10,starts:{e:/^(?![ ]{6})/,sL:"bash"}},{cN:"metap",b:/^\(.*\)\spkg>/,r:10,starts:{e:/^(?![ ]{6})/,sL:"julia"}}]}});
+

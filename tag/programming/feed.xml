@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  Asynchronous Workflow Using Julia Tutorial  ]]>
+  </title>
+  <link> https://jacobzelko.com/01082023043553-julia-async-workflow/index.html </link>
+  <guid> https://jacobzelko.com/01082023043553-julia-async-workflow/index.html </guid>
+  <description>
+    <![CDATA[  A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once&#33;  ]]>
+  </description>  
+    
+  <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  A Beginner&#39;s to Master&#39;s Guide in Learning Lua  ]]>
   </title>
   <link> https://jacobzelko.com/10012022184345-learning-lua/index.html </link>
