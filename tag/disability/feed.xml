@@ -30,6 +30,50 @@
   <description>
     <![CDATA[  Intellectual and developmental disability and association with COVID-19 fatalities  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Intellectual and Developmental Disability and COVID-19 Case-fatality Trends: TriNetX Analysis</h1>
+<p><strong>Date:</strong> July 19 2020</p>
+<p><strong>Summary:</strong> Intellectual and developmental disability and association with COVID-19 fatalities</p>
+<p><strong>Keywords:</strong> ##bibliography #covid19 ##pandemic #idd #intellectual #disability #archive</p>
+<h1>Bibliography</h1>
+<p>M. A. Turk, S. D. Landes, M. K. Formica, and K. D. Goss, &quot;Intellectual and developmental disability and COVID-19 case-fatality trends: TriNetX analysis,&quot; Disability and Health Journal, p. 100942, May 2020, doi: 10.1016/j.dhjo.2020.100942.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Data Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The central hypotheses of this paper are:</p>
+<ol>
+<li><p>IDD persons have higher prevalence of conditions associated with higher COVID-19 morbidity and mortality outcomes</p>
+</li>
+<li><p>Case-fatality rate would be higher for COVID19 individuals with IDD than without IDD.</p>
+</li>
+</ol>
+<h3 id="data_methods">Data Methods</h3>
+<p>COVID-19 patients were defined as those with either a COVID-19 diagnosis code or a positive SARS-CoV-2 laboratory test result since January 20, 2020. Patients were categorized as those with and without diagnosed developmental disability, including intellectual disability &#40;F70-79&#41;, cerebral palsy &#40;G80&#41;, Down syndrome &#40;Q90&#41;, and other developmental disabilities &#40;F80-89, Q91-99&#41;.</p>
+<p>Documentation was provided for comorbidities related to risk for severe outcomes with COVID-19 up to the date of the first COVID-19 documentation. Trends in number of cases, number of deaths, and case-fatality rates were compared between COVID19 patients with IDD and without IDD. Age distributions for number of cases and number of deaths were computed for both patient groups. Deaths occurring within 30 days of the date of first COVID-19 documentation in the EMR were identified and used to calculate case-fatality rates and 95&#37; confidence intervals. Age groups were selected based upon the knowledge that COVID-19 rates are substantially lower among children, &#91;1&#93; and that a disproportionately lower percent of adults with IDD live into older age. &#91;2&#93;</p>
+<p>We excluded patients with diagnosis codes of other specified viral infection &#40;ICD-9 code: 097.89&#41; or suspected exposure to other biologic agents &#40;ICD-10 code: Z03.818&#41; during the same timeframe</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; CDC, “Severe outcomes among patients with coronavirus disease 2019 &#40;COVID-19&#41;—United States, February 12–March 16, 2020,” MMWR Morb Mortal Wkly Rep, vol. 69, no. 12, pp. 343–346, 2020.</p>
+<p>&#91;2&#93; S. Landes, J. Stevens, and M. Turk, “Heterogeneity in age at death for adults with developmental disability,” J. Intellect. Disabil. Res., vol. 63, no. 12, pp. 1482–1487, 2019.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>  
   
@@ -49,6 +93,42 @@
   <description>
     <![CDATA[  What is Intellectual and Developmental Disability  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Intellectual and Developmental Disability</h1>
+<p><strong>Date:</strong> July 18 2020</p>
+<p><strong>Summary:</strong> What is Intellectual and Developmental Disability</p>
+<p><strong>Keywords:</strong> ##zettel #intellectual #developmental #disability #disability ##health #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Intellectual and Developmental Disability &#40;IDD&#41; is a lifelong disability that manifests before age 18. It imposes limits on areas of learning, language, and behavior. &#91;1&#93;</p>
+<p>An estimated 2.6 - 4 million people with intellectual and developmental disabilities reside in US community settings. &#91;2&#93;, &#91;3&#93; <em>RQ: I wonder if this includes autistic individuals</em></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; CDC, “Developmental Disabilities | CDC,” 26-Sep-2019. &#91;Online&#93;. Available: https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html. &#91;Accessed: 14-Jul-2020&#93;.</p>
+<p>&#91;2&#93; S. A. Larson, K. C. Lakin, L. Anderson, N. Kwak Lee, J. H. Lee, and D. Anderson, “Prevalence of mental retardation and developmental disabilities: Estimates from the 1994/1995 National Health Interview Survey Disability Supplements,” Am. J. Ment. Retard., vol. 106, no. 3, pp. 231–252, 2001.</p>
+<p>&#91;3&#93; G. T. Fujiura, “Continuum of intellectual disability: Demographic evidence for the ‘forgotten generation’,” Ment. Retard., vol. 41, no. 6, pp. 420–429, 2003.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
   

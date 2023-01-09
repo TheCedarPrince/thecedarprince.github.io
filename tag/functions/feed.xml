@@ -30,6 +30,92 @@
   <description>
     <![CDATA[  How the preimage appears in elements, sets, and functions  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>The Preimage of Elements, Sets, and Functions</h1>
+<p><strong>Date:</strong> October 28 2022</p>
+<p><strong>Summary:</strong> How the preimage appears in elements, sets, and functions</p>
+<p><strong>Keywords:</strong> #archive #sets #preimage #elements #functions</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics on the Preimage of a Subset<ol><li>Example</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>As I have learned and understood what <a href="https://jacobzelko.com//10152022173643-image-of-sets.md">images</a> are, I am now on my quest to learn what preimages so that I can understand the concept of bundles&#33;</p>
+<h3 id="basics_on_the_preimage_of_a_subset">Basics on the Preimage of a Subset</h3>
+<p>Given some function \(f : A \rightarrow B\) and the subsets \(C \subseteq A\) and \(D \subseteq B\), then the preimage &#40;or inverse image of a set&#41; is:</p>
+\[
+f^{-1}(D) = \{x \in A : f(x) \in D\}
+\]
+<p>Which has the interesting property that the image of each element in \(D\) is in \(C\).</p>
+<p>For some reason, admittedly, this was more challenging for me to understand than the image of a subset.  Why that is, I do not know; maybe my brain has a bit of a challenge thinking in reverse?  Personally, I find imagining the notation of the definition more easily followed when it is written like this: </p>
+\[
+f^{-1}(D) = \{x \in A : f(x) = D\}
+\]
+<p>Notice the subtle notation change I introduced where I said \(=\) instead of \(\in\) which, although interchangeable here, reads more clearly in my mind. Essentially, you say the condition for this set to be any element, \(x\), that satisfies the equation, \(f(x) = D\). To me, my brain translates that condition into a fun challenge rather than an abstract \(\in D\) which reads less concretely.</p>
+<h4 id="example">Example</h4>
+<p>Let \(X = \mathbb R\), \(Y = \mathbb R\), \(V = \{1, 4, 9, 16, 25\}\) which we know the fact that \(V \subseteq Y\), and \(f : x \rightarrow x^{2}\).</p>
+<p>Using the definition:</p>
+\[
+f^{-1}(V) = \{x \in X : f(x) \in V\}
+\]
+<p>We can create a few equations that can help us generating the set:</p>
+\[
+x^{2} = 1
+\]
+\[
+x^{2} = 4
+\]
+\[
+x^{2} = 9
+\]
+\[
+x^{2} = 16
+\]
+\[
+x^{2} = 25
+\]
+<p>And solving these equations gives the following solutions:</p>
+\[
+x^{2} = 1; x = \pm 1
+\]
+\[
+x^{2} = 4; x = \pm 2
+\]
+\[
+x^{2} = 9; x = \pm 3
+\]
+\[
+x^{2} = 16; x = \pm 4
+\]
+\[
+x^{2} = 25; x = \pm 5
+\]
+<p>And we can write our solution to the inverse image of the set \(V\) being the following:</p>
+\[
+\{-5, -4, -3, -2, -1, +1, +2, +3, +4, +5\}
+\]
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +135,41 @@
   <description>
     <![CDATA[  An attempted overview on what is meant by pure functions  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Pure Functions in Programming</h1>
+<p><strong>Date:</strong> November 8 2021</p>
+<p><strong>Summary:</strong> An attempted overview on what is meant by pure functions</p>
+<p><strong>Keywords:</strong> #pure #functions #functional #programming  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The definition of pure is somewhat of a moving target. Pure can mean many things and when applied to programming functions - even more so. Based on querying the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/can-programming-in-julia-be-pure/71165">Julia community</a>, here was what I understood pure functions to be.</p>
+<p>Based on Milewski&#39;s definition, &quot;A pure function is one in which the same result is always produced with no side effects given the same input.&quot; &#91;1&#93; <a href="https://jacobzelko.com/https://github.com/CameronBieganek">Cameron Bieganek</a> explained how, in Julia specifically, you can write functions that are &quot;probably&quot; pure. However, there is no real guarantee that a function is actually pure, because it depends on the various methods that have been implemented. I like the notion of &quot;probably&quot; pure as it encapsulates a more pragmatic approach to the internals of a given language. It lets one get away without having to necessarily be completely aware of all the internals when discussing purity.</p>
+<p>Finally, pure functions are different from mathematical functions for the reason that mathematical functions map a value to another value. Pure functions written in a programming language involve more than just a mapping. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; B. Milewski, Category Theory for Programmers, Version v1.3.0-0-g6bb0bc0. 2019.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>  
   

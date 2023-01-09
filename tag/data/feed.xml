@@ -30,6 +30,62 @@
   <description>
     <![CDATA[  What is streaming data and how it can be used in data science and other applications  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Introduction To Streaming for Data Scientists</h1>
+<p><strong>Date:</strong> September 9 2022</p>
+<p><strong>Summary:</strong> What is streaming data and how it can be used in data science and other applications</p>
+<p><strong>Keywords:</strong> #archive #data #streaming</p>
+<h1>Bibliography</h1>
+<p>C. Huyen, “Introduction to streaming for data scientists,” Aug. 03, 2022. https://huyenchip.com//2022/08/03/stream-processing-for-data-scientists.html &#40;accessed Sep. 02, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>Streaming is an immensely important concept I have consistently found. I came to appreciate the concept more deeply by interacting with <a href="https://jacobzelko.com/https://juliaio.github.io/TranscodingStreams.jl/stable/">TranscodingStreams.jl</a> to parse terabytes worth of data out of memory in a JSON format &#40;shudders at the thought of this&#41;.</p>
+<p>Once your data is stored in files, data lakes, or data warehouses, it becomes historical data.</p>
+<p>Streaming data refers to data that is still flowing through a system, e.g. moving from one microservice to another.</p>
+<p>Historical data is often processed in batch jobs — jobs that are kicked off periodically. For example, once a day, you might want to kick off a batch job to generate recommendations for all users. When data is processed in batch jobs, we refer to it as batch processing.</p>
+<p>Stream processing refers to doing computation on streaming data.</p>
+<p>Batch prediction means periodically generating predictions offline, before prediction requests arise.</p>
+<p>Online prediction means generating predictions on-demand, after prediction requests arise.</p>
+<p>One of the features you might use is the average price of all the items this user has looked at in the last 30 minutes. This is an online feature – it needs to be computed on online data &#40;as opposed to being pre-computed on historical data&#41;</p>
+<p>This “easy” way is stateless, which means that each computation is independent from the previous one.</p>
+<p>Stateful stream processing can avoid redundancy, hence faster and cheaper.</p>
+<p>Batch monitoring means running a script to compute the metrics you care about periodically &#40;like once a day&#41;, usually on data in warehouses like S3, BigQuery, Snowflake, etc. Batch monitoring is slow. You first have to wait for data to arrive at warehouses, then wait for the script to run.</p>
+<p>Real-time monitoring means computing metrics on data as it arrives, allowing you to get insights into your systems in &#40;near&#41; real-time.</p>
+<p>Continual learning refers to the ability to update your models whenever needed and to deploy this update quickly.</p>
+<p>Overtime, we’ll have a series of ordered updates, which is called a log. Each update is an example of an event. Logs are append-only. You can only append the new events to your existing log. You can’t overwrite previous events.</p>
+<p>There are two components of a streaming system: the realtime transport and the computation engine. The real-time transport, which are basically distributed logs.</p>
+<p>The computation engine performs computation &#40;e.g. joining, aggregation, filtering, etc.&#41; on the data being transported.</p>
+<p>The total price and the count constitute the internal state of the stream processing job.</p>
+<p>The saved internal state is called a checkpoint &#40;or savepoint&#41;, and this job can resume from any checkpoint.</p>
+<p>The computed average price value, if saved, will become a materialized view of the feature average price.</p>
+<p>Or you can update it using only the new information &#40;e.g. using the latest materialized average price &#43; the prices of updated items&#41;. The latter is called incremental materialized.</p>
+<p>Point-in-time correctness refers to a system’s ability to accurately perform a computation as it would’ve happened at any time in the past. Point-in-time correctness means no data leakage.</p>
+<p>Retroactively processing historical data using a different logic is also called backfilling.</p>
+<p>With batch backfilling, you can apply the new logic &#40;e.g. new feature definition&#41; to a table in the past.</p>
+<p>With stream backfilling, you can apply the new logic to the log in a given period of time in the past, e.g. apply it to the log on June 10, 2022.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +105,63 @@
   <description>
     <![CDATA[  Types of data storage formats available for RDF  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>RDF Data Storage Formats</h1>
+<p><strong>Date:</strong> February 18 2022</p>
+<p><strong>Summary:</strong> Types of data storage formats available for RDF</p>
+<p><strong>Keywords:</strong> #rdf #formats #data #turtle #xml #storage #archive</p>
+<h1>Bibliography</h1>
+<p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What Is the Turtle Format?<ol><li>What Is an Example of the Turtle Format?</li></ol></li><li>What Is the XML Format?<ol><li>What Is an Example of the XML Format?</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>There are many different file storage formats for RDF reified data.</p>
+<h3 id="what_is_the_turtle_format">What Is the Turtle Format?</h3>
+<p>The Turtle format &#40;file extension <code>.ttl</code>&#41; is one example of a storage format. It takes the following form:</p>
+<pre><code class="language-julia">&lt;Subject&gt; &lt;Predicate&gt; &lt;Resource&gt; .</code></pre>
+<h4 id="what_is_an_example_of_the_turtle_format">What Is an Example of the Turtle Format?</h4>
+<p>If I have the statement:</p>
+<blockquote>
+<p>The sky is colored blue.</p>
+</blockquote>
+<p>That can be written in the form:</p>
+<pre><code class="language-julia">&lt;sky&gt; &lt;is colored&gt; &lt;blue&gt; .</code></pre>
+<h3 id="what_is_the_xml_format">What Is the XML Format?</h3>
+<p>Another example is utilizing the popular XML format for representing RDF data.</p>
+<h4 id="what_is_an_example_of_the_xml_format">What Is an Example of the XML Format?</h4>
+<p>If I have the statement:</p>
+<blockquote>
+<p>The sky is colored blue.</p>
+</blockquote>
+<p>That can be written in the form:</p>
+<pre><code class="language-xml">&lt;rdf:RDF
+    xmlns:rdf&#61;&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+    xmlns:j.0&#61;&quot;http://some.fakeurl.com/fake/is &quot; &gt; 
+  &lt;rdf:Description rdf:about&#61;&quot;sky&quot;&gt;
+    &lt;j.0:colored rdf:resource&#61;&quot;blue&quot;/&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
   
@@ -68,6 +181,60 @@
   <description>
     <![CDATA[  A summary of what real-world data and evidence is according to the United States Food and Drug Administration  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Real-World Data and Real-World Evidence</h1>
+<p><strong>Date:</strong> October 28 2021</p>
+<p><strong>Summary:</strong> A summary of what real-world data and evidence is according to the United States Food and Drug Administration</p>
+<p><strong>Keywords:</strong> ##summary #real #world #data #evidence #fda  #archive</p>
+<h1>Bibliography</h1>
+<p>U.S. Food and Drug Administration, &quot;Real-World Evidence.&quot; Sep. 30, 2021. Accessed: Oct. 27, 2021. &#91;Online&#93;. Available: https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Background</li><li>United States Food and Drug Administration Definitions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="background">Background</h3>
+<p>Real-World Evidence, according to Congress, is any data that concerns the use, benefits, or risks of a drug from nontraditional sources &#40;i.e. clinical trials&#41;</p>
+<h3 id="united_states_food_and_drug_administration_definitions">United States Food and Drug Administration Definitions</h3>
+<p>The United States Food and Drug Administration found this definition from Congress to be too expansive and vague. For their purposes, they limited the language further to make the definitions less vague. Here they are:</p>
+<ul>
+<li><p><strong>Real-world data</strong> &quot;relates to patient health status and/or the delivery of health care routinely collected from a variety of sources.&quot;</p>
+</li>
+</ul>
+<p>Some examples include:</p>
+<pre><code class="language-julia">- Electronic health records
+- Claims and billing activities
+- Product and disease registries 
+- Patient-generated data including in home-use settings 
+- Mobile device data</code></pre>
+<ul>
+<li><p><strong>Real-world evidence</strong> is &quot;clinical evidence regarding the usage and potential benefits or risks of a medical product derived from analysis of real-world evidence.&quot;</p>
+</li>
+</ul>
+<p>Some examples include:</p>
+<pre><code class="language-julia">- Randomized trials 
+	- Large simple trials
+	- Pragmatic trials
+	- Observational studies &#40;prospective and/or retrospective&#41;.</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>  
   
@@ -87,6 +254,76 @@
   <description>
     <![CDATA[  An overview and summary on what are abstract data types and what kinds exist  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Abstract Data Types</h1>
+<p><strong>Date:</strong> October 5 2021</p>
+<p><strong>Summary:</strong> An overview and summary on what are abstract data types and what kinds exist</p>
+<p><strong>Keywords:</strong> ##summary #data #data #abstract #types #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Characteristics</li><li>Abstract Data Types<ol><li>List Abstract Data Type<ol><li>Minimum Required Operations</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="definitions">Definitions</h3>
+<ul>
+<li><p><strong>Abstract Data Types</strong> - the description of a data type based on its associated behaviors and operations.</p>
+</li>
+</ul>
+<p>The details of Abstract Data Types are left vague &#40;i.e. abstract&#41; so that various languages can make their own implementations.</p>
+<ul>
+<li><p><strong>Data Structures</strong> - the concrete implementation details of a given data type.</p>
+</li>
+</ul>
+<h3 id="characteristics">Characteristics</h3>
+<ul>
+<li><p>Allows an implementer to focus on the functionality requirements as opposed to the logistics in the language of implementation</p>
+</li>
+</ul>
+<h3 id="abstract_data_types">Abstract Data Types</h3>
+<h4 id="list_abstract_data_type">List Abstract Data Type</h4>
+<p><strong>List Abstract Data Type</strong> - is a sequence of data values accessible via indexing.</p>
+<h5 id="minimum_required_operations">Minimum Required Operations</h5>
+<ul>
+<li><p><code>addAtIndex&#40;int index, T data&#41;</code> - adds <code>data</code> of generic type <code>T</code> to a list at a specified <code>index</code> of type <code>int</code>.</p>
+</li>
+</ul>
+<p>Any data at an index of <code>i</code> where it is \(\geq\) the value of <code>index</code>, has a new value of <code>i &#43; 1</code> to make space for the inserted <code>data</code>.</p>
+<ul>
+<li><p><code>removeAtIndex&#40;int index&#41;</code> - removes <code>data</code> at a specified <code>index</code> in a list.</p>
+</li>
+</ul>
+<p>Any data with an index <code>i</code> where <code>i</code> is \(>\) <code>index</code> has a new index of <code>i - 1</code> to &quot;shrink&quot; the list of objects.</p>
+<ul>
+<li><p><code>get&#40;int index&#41;</code> - returns <code>data</code> at a specific <code>index</code>.</p>
+</li>
+<li><p><code>isEmpty&#40;&#41;</code> - returns if the list is empty or not.</p>
+</li>
+<li><p><code>clear&#40;&#41;</code> - empties list; resets list back to when it had no data.</p>
+</li>
+<li><p><code>size&#40;&#41;</code> - returns the number of <code>data</code> stored in list.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>  
   
@@ -106,6 +343,89 @@
   <description>
     <![CDATA[  An overview of asymptotic notation and time complexity  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Data Structures</h1>
+<p><strong>Date:</strong> September 28 2021</p>
+<p><strong>Summary:</strong> An overview of asymptotic notation and time complexity</p>
+<p><strong>Keywords:</strong> ##summary #data #structures #abstract #types #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Arrays</li><li>ArrayList<ol><li>Characteristics</li><li>Definitions</li><li>Requirements</li><li><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="arrays">Arrays</h3>
+<p>Arrays are: 	- Statically allocated &#40;they are stored in memory and do not change; values can tho&#41; 	- Contiguous blocks of memory &#40;meaning that they are stored end to end in memory&#41;</p>
+<p>They provide <a href="https://jacobzelko.com/09242021040445-asymptotic-notation.md">constant complexity</a> of \(\mathcal{O}(1)\) when accessing data at a specific index in memory.</p>
+<p>They are of particular use in storing sequences of related items. However, they are not very efficient when dealing with dynamically changing sizes for elements. If you try to fit \(10\) objects into an array of size \(5\), the array will need to be expanded.</p>
+<h3 id="arraylist">ArrayList</h3>
+<h4 id="characteristics">Characteristics</h4>
+<ul>
+<li><p>A type of <a href="https://jacobzelko.com/10052021221736-abstract-data-types.md">List Abstract Data Type</a> backed by an array.</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Really just a wrapper around arrays</code></pre>
+<ul>
+<li><p>ArrayLists are expanded when reaching capacity</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Handled automatically by implementation
+- Dynamically allocated via moving data to be copied when more space for the data is needed
+	- This takes &#36;\mathcal&#123;O&#125;&#40;n&#41;&#36; time to do</code></pre>
+<h4 id="definitions">Definitions</h4>
+<ul>
+<li><p><code>size</code> - the number of data &#40;non-null&#41; stored in an ArrayList.</p>
+</li>
+<li><p><code>capacity</code> - number of data that can be stored in an ArrayList without resize</p>
+</li>
+<li><p><strong>Amortized Analysis</strong> - looks at the cost over time rather than cost per add operation</p>
+</li>
+</ul>
+<h4 id="requirements">Requirements</h4>
+<ol>
+<li><p>Data must be contiguous &#40;no gaps between data&#41;.</p>
+</li>
+<li><p>Data must be zero-aligned &#40;meaning that all values from zero to the end of the list, must be filled with data&#41;.</p>
+</li>
+<li><p>Size should be stored for efficiency.</p>
+</li>
+</ol>
+<p><img src="10052021232522-array-list-requirements.png" alt="" /></p>
+<blockquote>
+<p><strong>NOTE:</strong> The empty blocks in the ArrayList sketch contain NULLs</p>
+</blockquote>
+<h4 id="a_href10052021235121-amortized-analysismdamortized_analysis"><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></h4>
+<ul>
+<li><p>Examples:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Insertion:
+	- Adding to the back of an ArrayList is &#36;\mathcal&#123;O&#125;&#40;1&#41;&#36;
+	- Adding at an arbitrary position in the ArrayList is &#36;\mathcal&#123;O&#125;&#40;n&#41;&#36;
+		- This is because when an element is inserted, the rest of the data in the list must be shifted to accommodate for the new data
+- Removing examples:
+	- Removing from back of ArrayList is &#36;\mathcal&#123;O&#125;&#40;1&#41;&#36;
+	- Removing at arbitrary position in ArrayList is &#36;\mathcal&#123;O&#125;&#40;n&#41;&#36;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>  
   
@@ -125,6 +445,75 @@
   <description>
     <![CDATA[  How data mining in African countries is a type of neocolonialism  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>‘The Data Is Gold, And We Are The gold-diggers&#39;: Whiteness, Race And Contemporary Academic Research In Eastern DRC</h1>
+<p><strong>Date:</strong> January 12 2021</p>
+<p><strong>Summary:</strong> How data mining in African countries is a type of neocolonialism</p>
+<p><strong>Keywords:</strong> ##bibliography #race #whiteness #africa #data #gold  #archive</p>
+<h1>Bibliography</h1>
+<p>G. Marchais, P. Bazuzi, and A. Amani Lameke, &quot;‘The Data Is Gold, And We Are The gold-diggers&#39;: Whiteness, Race And Contemporary Academic Research In Eastern DRC,&quot; Critical African Studies, vol. 12, no. 3, pp. 372–394, Sep. 2020, doi: 10.1080/21681392.2020.1724806.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Background<ol><li>Review Process</li><li>Research Projects Are a Lucrative Business</li><li>Accidental Whiteness</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="background">Background</h3>
+<h4 id="review_process">Review Process</h4>
+<p>First stage, a white European male&#39;s reflection on academic research in DRC and setting up Marakuja Kive Research group.  Second stage, two Congolese researchers and Marakuja Kive Research founders review ideas in initial draft.</p>
+<p>Retreating to safety founded on racial inequality creates a resource for researchers to access - consciously or not. This is often hard to identify due to delicacy of research endeavors. In Africa, is race colonial legacy or a resource for projects actively relied on, or both?</p>
+<h4 id="research_projects_are_a_lucrative_business">Research Projects Are a Lucrative Business</h4>
+<p>International research projects are beginning to much more resemble supply chains &#91;1&#93;</p>
+<p>Increased demands for data in research enabled businesses based on multi-actor business models and knowledge value chains to exist &#91;2&#93; Quantitative research is closer to the big data sector. &#91;3&#93;</p>
+<p>Three main groups of people enable the collection of data. </p>
+<ol>
+<li><p>Western, generally white researchers control project resources; namely funding.</p>
+</li>
+<li><p>Non-Western associates: their work is usually hidden from outputs &#91;4&#93;, &#91;5&#93;</p>
+</li>
+<li><p>Subjects who are generally from lower socio-economic positioning.</p>
+</li>
+</ol>
+<p><em>THOUGHTS: Point 1 reminds me of the Communist Manifesto by Marx on those that control the means of production.</em></p>
+<p>Data derives its value from its rawness at extraction and via processing.  International academic pipeline construction is analogous to generic resource mining: </p>
+<ol>
+<li><p>African data is collected</p>
+</li>
+<li><p>Exported</p>
+</li>
+<li><p>Processed</p>
+</li>
+<li><p>Converted to high value goods &#40;papers, reports, etc.&#41;</p>
+</li>
+</ol>
+<p>This mirrors very closely how international academic endeavors can look like a supply chain.</p>
+<h4 id="accidental_whiteness">Accidental Whiteness</h4>
+<p>White academics incidentally separate to give themselves a sense of racial inapplicability &#91;6&#93;, &#91;7&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; D. Desai and R. Tapscott, “Tomayto tomahto: The research supply chain and the ethics of knowledge production,” Humanity J. Online, 2004.</p>
+<p>&#91;2&#93; F. Bédécarrats, I. Guérin, and F. Roubaud, “All that glitters is not gold. The political economy of randomized evaluations in development,” Dev. Change, vol. 50, no. 3, pp. 735–762, 2019.</p>
+<p>&#91;3&#93; L. Mann, “Left to other peoples’ devices? A political economy perspective on the big data revolution in development,” Dev. Change, vol. 49, no. 1, pp. 3–36, 2018.</p>
+<p>&#91;4&#93; T. Middleton and E. Pradhan, “Dynamic duos: On partnership and the possibilities of postcolonial ethnography,” Ethnography, vol. 15, no. 3, pp. 355–374, 2014.</p>
+<p>&#91;5&#93; S. A. Jenkins, “Assistants, guides, collaborators, friends: The concealed figures of conflict research,” J. Contemp. Ethnogr., vol. 47, no. 2, pp. 143–170, 2018.</p>
+<p>&#91;6&#93; S. Sullivan, Revealing whiteness: The unconscious habits of racial privilege. Indiana University Press, 2006.</p>
+<p>&#91;7&#93; C. Mills, “White ignorance,” Race Epistemol. Ignorance, vol. 247, pp. 26–31, 2007.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -144,6 +533,44 @@
   <description>
     <![CDATA[  Modeling brain EEG using EEGLAB on a Go/Nogo Dataset to model brain activity  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>From Single-Trial EEG To Brain Area Dynamics</h1>
+<p><strong>Date:</strong> December 31 2020</p>
+<p><strong>Summary:</strong> Modeling brain EEG using EEGLAB on a Go/Nogo Dataset to model brain activity</p>
+<p><strong>Keywords:</strong> ##bibliography #eeg #brain #data #ica #archive</p>
+<h1>Bibliography</h1>
+<p>A. Delorme, S. Makeig, M. Fabre-Thorpe, and T. Sejnowski, &quot;From single-trial EEG to brain area dynamics,&quot; Neurocomputing, vol. 44–46, pp. 1057–1064, Jun. 2002, doi: 10.1016/S0925-2312&#40;02&#41;00415-0.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="materials_and_methods">Materials and Methods</h3>
+<p>EEG data from rapid go/nogo visual categorization via natural photographs &#91;1&#93; Though the task involved complicated visual processing, averaged EEG epochs for target and non-target stimuli differed greatly as early as 150 ms after stimulus onset. It appeared to involve automated processing in the visual system.&#91;2&#93; <em>QUESTION: What is a go/nogo visual categorization task?</em></p>
+<p><strong>EEG inverse problem:</strong> reconstructing intracranial brain sources from collected signals.Disparate EEG processes generally overlap in time and space. They become intertwined in scalp electrode recordings. &#91;3&#93;</p>
+<p>Subjects were presented pictures for 20 ms at random intervals between 1.8–2.2s. Half of the pictures were animals. Subjects released a held button when an animal was observed. Subject accuracy was 94&#37; for correct responses. Median reaction time was 440 ms</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; M. Fabre-Thorpe, A. Delorme, C. Marlot, and S. Thorpe, “A limit to the speed of processing in ultra-rapid visual categorization of novel natural scenes,” J. Cogn. Neurosci., vol. 13, no. 2, pp. 171–180, 2001.</p>
+<p>&#91;2&#93; S. J. Thorpe and M. Fabre-Thorpe, “Seeking categories in the brain,” Science, vol. 291, no. 5502, pp. 260–263, 2001.</p>
+<p>&#91;3&#93; S. Thorpe, D. Fize, and C. Marlot, “Speed of processing in the human visual system,” nature, vol. 381, no. 6582, pp. 520–522, 1996.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>  
   
@@ -163,6 +590,103 @@
   <description>
     <![CDATA[  How to approach the dilemma of visualizing complex data in neuroscience.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality</h1>
+<p><strong>Date:</strong> December 27 2020</p>
+<p><strong>Summary:</strong> How to approach the dilemma of visualizing complex data in neuroscience.</p>
+<p><strong>Keywords:</strong> ##bibliography #neuroscience #dataviz #curse #dimensionality #visualization #data #science #archive</p>
+<h1>Bibliography</h1>
+<p>E. A. Allen, E. B. Erhardt, and V. D. Calhoun, &quot;Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality,&quot; Neuron, vol. 74, no. 4, pp. 603–608, May 2012, doi: 10.1016/j.neuron.2012.05.001.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Methods</li><li>Purpose</li><li>Ways to Reduce Complexity</li><li>Common Perceptions of Neuroscience Visualizations<ol><li>Bar Plots</li></ol></li><li>Key Takeaways</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="methods">Methods</h3>
+<p>1,451 figures were examined from 288 neuroscience papers in 2010.</p>
+<h3 id="purpose">Purpose</h3>
+<p>They investigated current practices in data visualization in the realm of neuroscience and offered potential improvements to better reveal data than hide it.</p>
+<p>Using work by Howard Wainer, Allen and co developed questions that were used to determine the effectiveness of particular visualizations.  These were the questions they came up with:</p>
+<ol>
+<li><p>Quantity of interest labeled?</p>
+</li>
+<li><p>Scale of the dependent variable indicated?</p>
+</li>
+<li><p>Measure of uncertainty displayed &#40;as needed&#41;?</p>
+</li>
+<li><p>Is the type of uncertainty &#40;e.g., standard error bars or confidence intervals&#41; defined in the figure or accompanying legend?</p>
+</li>
+</ol>
+<blockquote>
+<p><em>Interesting how they based it off of Wainer.  That paper on depicting error may be worth a read.</em></p>
+</blockquote>
+<h3 id="ways_to_reduce_complexity">Ways to Reduce Complexity</h3>
+<p>Efficient method introduced to analyze rapidly changing functional patterns is by transforming fMRI <a href="https://jacobzelko.com/12282020020156-brain-biomarkers.md">BOLD</a> data to point processes. &#91;1&#93;, &#91;2&#93; Achieved by selecting peaks of the BOLD signal in each <a href="https://jacobzelko.com/11302020054820-voxel.md">voxel</a>. This reduction of data by &gt; 95&#37;, has been found very similar to inferences of functional connectivity from full signal analysis. &#91;3&#93;, &#91;4&#93;</p>
+<p><em>QUESTION: What is a point process? Why is BOLD important?</em></p>
+<h3 id="common_perceptions_of_neuroscience_visualizations">Common Perceptions of Neuroscience Visualizations</h3>
+<p>Researchers may choose values for great visual appeal and easier interpretation. However, it reduces the analysis to a binary representation that suffers from the limitations of all-or-none hypothesis testing. &#91;5&#93;</p>
+<p>Aesthetically pleasing brain image results are viewed more persuasive and credible than identical information presented in less appealing formats. &#91;6&#93;, &#91;7&#93;</p>
+<p>Effective data visualization communicates that the data displayed does contain some uncertainty and that it quantifies that uncertainty as it pertains to conclusions one would make off the visualization. &#91;8&#93; - <em>Thoughts by Howard Wainer</em></p>
+<h4 id="bar_plots">Bar Plots</h4>
+<p>The usage of Bar Plots in neuroscience can certainly be beneficial but are not without their drawbacks:</p>
+<p><strong>Pros of bar plots</strong></p>
+<ul>
+<li><p>Easy to generate</p>
+</li>
+<li><p>Straightforward to comprehend</p>
+</li>
+<li><p>Efficiently contrast a large number of conditions in a small space.</p>
+</li>
+<li><p>Great for binary data samples that reflect successes</p>
+</li>
+</ul>
+<p><strong>Cons of bar plots</strong></p>
+<ul>
+<li><p>Commonly used in scenarios where distance from zero is not meaningful</p>
+</li>
+<li><p>Doesn&#39;t show distributional information</p>
+</li>
+</ul>
+<h3 id="key_takeaways">Key Takeaways</h3>
+<p>To better improve understanding of figures, integrating descriptions into the figure itself can:</p>
+<ul>
+<li><p>Discourages misinterpretation</p>
+</li>
+<li><p>Lead to quicker understanding of figure</p>
+</li>
+<li><p>Additional annotation should not detract from figure</p>
+</li>
+</ul>
+<p>Dependent variables are more difficult to label when they represent abstract parameter estimates rather than directly measured quantities. Uncertainty is more challenging to render when data sets require error surfaces rather than error bars.  Displays should become increasingly informative regarding complex data in illustrating relationships that would not be well defined in tables or values alone.</p>
+<p>Link to code in this paper: http://mialab.mrn.org/datavis</p>
+<p><em>QUESTION: One thing that I realize and think a lot about from this paper is the question of: how easy is it to represent this sort of additional information that tells more the story of the neuroscientific data? Obviously, the authors have expertise with making their own tools.  But what about for those who do not have them?</em></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; E. Tagliazucchi, M. Siniatchkin, H. Laufs, and D. R. Chialvo, “The voxel-wise functional connectome can be efficiently derived from co-activations in a sparse spatio-temporal point-process,” Front. Neurosci., vol. 10, p. 381, 2016.</p>
+<p>&#91;2&#93; E. Tagliazucchi, R. Carhart-Harris, R. Leech, D. Nutt, and D. R. Chialvo, “Enhanced repertoire of brain dynamical states during the psychedelic experience,” Hum. Brain Mapp., vol. 35, no. 11, pp. 5442–5456, 2014.</p>
+<p>&#91;3&#93; E. Tagliazucchi, P. Balenzuela, D. Fraiman, and D. R. Chialvo, “Criticality in large-scale brain fMRI dynamics unveiled by a novel point process analysis,” Front. Physiol., vol. 3, p. 15, 2012.</p>
+<p>&#91;4&#93; E. Tagliazucchi, P. Balenzuela, D. Fraiman, P. Montoya, and D. R. Chialvo, “Spontaneous BOLD event triggered averages for estimating functional connectivity at resting state,” Neurosci. Lett., vol. 488, no. 2, pp. 158–163, 2011.</p>
+<p>&#91;5&#93; L. L. Harlow, S. A. Mulaik, and J. H. Steiger, “What if there were no significance tests,” 1998.</p>
+<p>&#91;6&#93; M. Keehner, L. Mayberry, and M. H. Fischer, “Different clues from different views: The role of image format in public perceptions of neuroimaging results,” Psychon. Bull. Rev., vol. 18, no. 2, pp. 422–428, 2011.</p>
+<p>&#91;7&#93; D. P. McCabe and A. D. Castel, “Seeing is believing: The effect of brain images on judgments of scientific reasoning,” Cognition, vol. 107, no. 1, pp. 343–352, 2008.</p>
+<p>&#91;8&#93; H. Wainer, “Depicting error,” Am. Stat., vol. 50, no. 2, pp. 101–111, 1996.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
   
@@ -182,6 +706,39 @@
   <description>
     <![CDATA[  A summary on what voxels are and their applications  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What are Voxels</h1>
+<p><strong>Date:</strong> November 30 2020</p>
+<p><strong>Summary:</strong> A summary on what voxels are and their applications</p>
+<p><strong>Keywords:</strong> ##summary #voxel #graphics #data #computer #science #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Voxels are 3D volumetric constructs that take as parameters three axes which serve as indices for the value stored in the 3D block at the indexed location.</p>
+<p><img src="11302020060802.png" alt="" /></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>  
   
@@ -201,6 +758,72 @@
   <description>
     <![CDATA[  Language-agnostic in-memory columnar format for analytical query engines and data frames  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Apache Arrow</h1>
+<p><strong>Date:</strong> October 26 2020</p>
+<p><strong>Summary:</strong> Language-agnostic in-memory columnar format for analytical query engines and data frames</p>
+<p><strong>Keywords:</strong> ##zettel #apache #arrow #dataframe #data #storage #format  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p>Launched in 2016</p>
+</li>
+<li><p>Purpose: Language-independent open standards and libraries to accelerate and simplify in-memory computing</p>
+</li>
+<li><p>Columnar Memory Format</p>
+<ul>
+<li><p>Ideal for Columnar Storage &#40;small size&#41;</p>
+</li>
+<li><p>Supports flat and nested schemas</p>
+</li>
+<li><p>Organized for cache-efficient access on CPUs and GPUs and takes advantage of parallel processing</p>
+</li>
+<li><p>Optimized for scan and random access</p>
+</li>
+</ul>
+</li>
+<li><p>Binary Messaging Protocol</p>
+<ul>
+<li><p>Record batch is a part of a table</p>
+</li>
+<li><p>Can be streamed</p>
+</li>
+</ul>
+</li>
+<li><p>Encapsulated Protocol Messages &#40;IPC&#41;</p>
+<ul>
+<li><p>Specifies the memory location of each column in the table</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>&#91;1&#93;</p>
+<p>The arrow format allows for larger-than-memory datasets. When writing a dataset to arrow format, the data and metadata is laid in a descriptive layout. The data is written in pre-determined, binary formats by supported type. When reading, Arrow memory maps data from arrow memory. This means the OS gives access to memory which is swapped into RAM upon requests. &#40;Jacob Quinn – correspondence on Apache Arrow mailing list&#41;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Apache Arrow and the Future of Data Frames. 2020.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>  
   
@@ -220,6 +843,41 @@
   <description>
     <![CDATA[  One of the best definitions I have found for data fusion  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Definition of Data Fusion</h1>
+<p><strong>Date:</strong> April 22 2020</p>
+<p><strong>Summary:</strong> One of the best definitions I have found for data fusion</p>
+<p><strong>Keywords:</strong> ##zettel #data #fusion #definition #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Defined as the use of multiple technologies or location systems simultaneously to form hierarchical and overlapping levels of sensing, sensor fusion can provide aggregate properties unavailable when using location systems individually</p>
+<p>This definition of data fusion comes from <em>Hightower &amp; Borriello</em> &#91;1&#93; and I think it provides a very good explanation of what data fusion actually is. I decided to generalize it as their definition only concerns with location systems – here is my paraphrase:</p>
+<p>When one utilizes differing technologies to form tiers of improving sensor accuracy; this methodology can compensate for the loss or absence of signal from other sensors by providing multiple overlaps for the same defining properties of a system.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; J. Hightower and G. Borriello, “Location systems for ubiquitous computing,” Computer, vol. 34, no. 8, pp. 57–66, 2001.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>  
   

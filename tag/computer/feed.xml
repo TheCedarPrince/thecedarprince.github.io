@@ -30,6 +30,40 @@
   <description>
     <![CDATA[  Physical gestures that carry semantic meaning  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Functional Gestures</h1>
+<p><strong>Date:</strong> February 7 2021</p>
+<p><strong>Summary:</strong> Physical gestures that carry semantic meaning</p>
+<p><strong>Keywords:</strong> ##zettel #gestures #computer #vision #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>A functional gesture is defined as the semantic meaning of an event that triggers a state transition and not as the movement to be performed.  &#91;1&#93; &#91;Twitch Stream User: gwd999&#93;</p>
+<p>its basically computer vision project to recognise hand gestures that carries some meaning &#91;Twitch Stream User: quantum_booty&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; S. Carrino, M. Caon, O. Abou Khaled, R. Ingold, and E. Mugellini, “Functional Gestures for Human-Environment Interaction,” in Human-Computer Interaction. Interaction Modalities and Techniques, vol. 8007, M. Kurosu, Ed. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 167–176.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +83,48 @@
   <description>
     <![CDATA[  The divide and conquer design paradigm to break down a problem to smaller parts and rebuild it to a solution  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Divide and Conquer Algorithmic Design</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> The divide and conquer design paradigm to break down a problem to smaller parts and rebuild it to a solution</p>
+<p><strong>Keywords:</strong> ##zettel #computer #science #algorithm #design #divide #conquer #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>&quot;Divide-and-Conquer&quot;: an algorithm design paradigm comprised of three steps </p>
+<ol>
+<li><p>Break a problem into smaller subproblems</p>
+</li>
+<li><p>Recursively evaluate subproblems</p>
+</li>
+<li><p>Combine subproblem solutions to one solution for the original problem.</p>
+</li>
+</ol>
+<p>One example of this paradigm is <a href="https://jacobzelko.com/12192020184204-merge-sort.md">Merge Sort</a>.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; T. Roughgarden, Algorithms illuminated. Part 1: The Basics. San Francisco, CA: Soundlikeyourself Publishing, 2017.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -68,6 +144,40 @@
   <description>
     <![CDATA[  Statements used to show the correctness of an algorithm  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Loop Invariants</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> Statements used to show the correctness of an algorithm</p>
+<p><strong>Keywords:</strong> ##zettel #computer #science  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p><strong>Loop Invariant:</strong> a statement which explains why an algorithm is correct. &#91;1&#93;</p>
+<p>It is comprised of three steps: Initialization: The statement is valid before the first iteration of the loop. Maintenance: If it is true before a loop iteration, it remains true throughout the loop. Termination: At the loop&#39;s end, the invariant yields a property to aid in showing the algorithm works expectedly.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; T. H. Cormen, Ed., Introduction to algorithms, 3rd ed. Cambridge, Mass: MIT Press, 2009.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -87,6 +197,48 @@
   <description>
     <![CDATA[  Sorting algorithms take in an array of unsorted data as input  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Sorting Algorithms</h1>
+<p><strong>Date:</strong> December 19 2020</p>
+<p><strong>Summary:</strong> Sorting algorithms take in an array of unsorted data as input</p>
+<p><strong>Keywords:</strong> ##summary #sorting #algorithms #recursion #computer #science #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Common Sorting Algorithms</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="common_sorting_algorithms">Common Sorting Algorithms</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/12192020184137-insertion-sort.md">Insertion Sort</a> -</p>
+</li>
+<li><p><a href="https://jacobzelko.com/12192020184204-merge-sort.md">Merge Sort</a> -</p>
+</li>
+<li><p><a href="https://jacobzelko.com/12212020214025-bubble-sort.md">Bubble Sort</a> -</p>
+</li>
+<li><p><a href="https://jacobzelko.com/12212020214012-selection-sort.md">Selection Sort</a> - Selection sort utilizes repeated usages of linear searches to sort an input.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>  
   
@@ -106,6 +258,39 @@
   <description>
     <![CDATA[  A summary on what voxels are and their applications  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What are Voxels</h1>
+<p><strong>Date:</strong> November 30 2020</p>
+<p><strong>Summary:</strong> A summary on what voxels are and their applications</p>
+<p><strong>Keywords:</strong> ##summary #voxel #graphics #data #computer #science #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Voxels are 3D volumetric constructs that take as parameters three axes which serve as indices for the value stored in the 3D block at the indexed location.</p>
+<p><img src="11302020060802.png" alt="" /></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>  
   
@@ -125,6 +310,46 @@
   <description>
     <![CDATA[  A more in-depth examination of the Zettelkasten method  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity</h1>
+<p><strong>Date:</strong> May 3 2020</p>
+<p><strong>Summary:</strong> A more in-depth examination of the Zettelkasten method</p>
+<p><strong>Keywords:</strong> ##zettel #database #computer #niklasluhmann #zettelkasten  #archive</p>
+<h1>Bibliography</h1>
+<p>J. F. K. Schmidt, Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity, Sociologica, vol. Vol 12, pp. 53-60 Pages, Jul. 2018, doi: 10.6092/ISSN.1971-8853/8350.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<blockquote>
+<p>&quot;As early as in the 1950s to 1960s, Luhmann simulated a modern computer-based database system &#91;...&#93;.&quot; &#40;pg. 59&#41;</p>
+</blockquote>
+<p>I actually think that the Zettelkasten method by Luhmann is distinctly different from a computer database. The reason being, is that this is far more overlapping and far reaching than a discrete system like a simple computer database. One could argue that relations could be made analogous to relational databases but here, the relations are far more abstract than they are in the traditional relational database. If anything, Luhmann&#39;s Zettelkasten is more similar to a graph-type system - such as a knowledge graph - than a database </p>
+<blockquote>
+<p>&quot;Luhmann&#39;s card index allows the production of new and often unexpected knowledge by relating concepts and thoughts that do not have much in common at first sight &#91;...&#93; &#91;I&#93;t makes &#91;...&#93; serendipity possible in a systemically and theoretically informed way.&quot; &#40;pg. 54&#41;</p>
+</blockquote>
+<p>The power of the Zettelkasten comes from these accidental connections. Very similar to how one may spread out pieces of paper on a table and make a new connection, so does this method simulate it in very much the same way.</p>
+<p>Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as <a href="https://jacobzelko.com/03092020022908-education-spectrum.md">knowledge falls across a spectrum.</a> &#40;pg. 56&#41;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>  
   
@@ -144,6 +369,41 @@
   <description>
     <![CDATA[  A summary of tools, information, and resources related to the Raspberry Pi microcomputer.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Raspberry Pi</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> A summary of tools, information, and resources related to the Raspberry Pi microcomputer.</p>
+<p><strong>Keywords:</strong> ##summary ##computer ##raspberrypi ##technology #research #cheap #debian #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p>MAC address is unique to the pi and not the SD card. One can find this information via the file located at <code>/sys/class/net/eth0/address</code>. Instead of eth0, if one uses wlan0 – we get MAC address for wireless connection. &#40;Chaitra Hegde&#41;</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   

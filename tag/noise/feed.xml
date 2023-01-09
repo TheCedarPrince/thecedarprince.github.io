@@ -30,6 +30,52 @@
   <description>
     <![CDATA[  What independent component analysis is  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Independent Component Analysis</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> What independent component analysis is</p>
+<p><strong>Keywords:</strong> ##zettel #mathematics #analysis #independent #component #analysis #speech #fmri #noise #separation #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>ICA seeks to minimize mutual information between projections.Independent component analysis finds a coordinate frame onto which the projection of the data has minimal temporal overlap. &#91;1&#93;</p>
+<p>ICA is considered a linear decomposition alternative to principal component analysis &#40;PCA&#41;. In PCA, the data is represented using perpendicular axes. ICA is not limited by this constraint &#91;2&#93;</p>
+<p>ICA has been applied to domains such as:</p>
+<ul>
+<li><p>fMRI</p>
+</li>
+<li><p>performing speech</p>
+</li>
+<li><p>noise separation &#91;3&#93;</p>
+</li>
+</ul>
+<p>ICA decompositions are best for sources linearly mixed in a recorded signal.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; A. Delorme, S. Makeig, M. Fabre-Thorpe, and T. Sejnowski, “From single-trial EEG to brain area dynamics,” Neurocomputing, vol. 44–46, pp. 1057–1064, Jun. 2002, doi: 10.1016/S0925-2312&#40;02&#41;00415-0.</p>
+<p>&#91;2&#93; S. Makeig et al., “Functionally independent components of the late positive event-related potential during visual spatial attention,” J. Neurosci., vol. 19, no. 7, pp. 2665–2680, 1999.</p>
+<p>&#91;3&#93; H.-M. Park, H.-Y. Jung, T.-W. Lee, and S.-Y. Lee, “Subband-based blind signal separation for noisy speech recognition,” Electron. Lett., vol. 35, no. 23, pp. 2011–2012, 1999.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +95,107 @@
   <description>
     <![CDATA[  An overview on how to use and implement a median filter  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Median Filtering</h1>
+<p><strong>Date:</strong> April 25 2020</p>
+<p><strong>Summary:</strong> An overview on how to use and implement a median filter</p>
+<p><strong>Keywords:</strong> ##zettel #signalprocessing #noise #artifact #filtering #window #julialang #median #movingaverage #downsampling #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Consideration</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>It is a non-linear digital filtering technique, used to remove noise from an image or signal. The main idea of the median filter is to run through the signal value by value, replacing each value with the median of neighboring values. The pattern of neighbors is called the &quot;window&quot;, which slides, entry by entry, over the entire signal.</p>
+<h3 id="algorithm">Algorithm</h3>
+<p>An explanation of implementing the algorithm is given in example form:</p>
+<p>Given the original signal, \(x = (2, 3, 80, 6)\), a 1D Median Filter is applied as follows:</p>
+\[
+y1 = med(2, 3, 80) = 3
+\]
+\[
+y2 = med(3, 80, 6) = med(3, 6, 80) = 6
+\]
+\[
+y3 = med(80, 6, 2) = med(2, 6, 80) = 6
+\]
+\[
+y4 = med(6, 2, 3) = med(2, 3, 6) = 3
+\]
+<p>Which yields the final filtered signal, \(y = (3, 6, 6, 3)\).</p>
+<h4 id="additional_consideration">Additional Consideration</h4>
+<p>In the example implementation, there is no value preceding the first value, thus the window &quot;wraps&quot; around the original to fulfill its window size.</p>
+<p>There are other ways to handle filling the window other than wrapping such as:</p>
+<ul>
+<li><p>Avoiding selecting values directly located at either boundary of the signal.</p>
+</li>
+<li><p>Use other values from within the signal.</p>
+</li>
+<li><p>Shrink the window near the edges of the signal so that the window is always full.</p>
+</li>
+</ul>
+<p>Furthermore, it is very good for salt-and-pepper noise/impulse noise &#40;e.g. noise that is caused by sharp and sudden disturbances in the image signal&#41;</p>
+<h3 id="example_implementation">Example Implementation</h3>
+<pre><code class="language-julia">using Plots # IMPORT FOR PLOTTING
+using Statistics # IMPORT FOR &#96;median&#96; FUNCTION
+using LaTeXStrings # IMPORT TO ENABLE LaTeX FORMATTING
+gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
+    input &#61; 0:0.001:1
+    window &#61; 30
+    sampling_rate &#61; 15    # GENERATE GENERIC SIGNAL - IN THIS CASE sin&#40;2Π&#41;
+    signal &#61; &#91;sin&#40;2 * pi * i&#41; for i in input&#93;    # ADDING RANDOM NOISE TO FUNCTION
+    noisy_signal &#61; &#91;sin&#40;2 * pi * i&#41; &#43; rand&#40;&#91;-1, 1&#93;&#41; * round&#40;rand&#40;&#41;, digits &#61; 2&#41;
+                    for i in input&#93;    # FILTER THE SIGNAL USING A MEDIAN FILTER &amp; DOWNFILTERING USING A MEDIAN FILTER
+    downsampled_signal::Array&#123;Float32&#125; &#61; &#91;noisy_signal&#91;1&#93;&#93;
+    downsampled_input::Array&#123;Float16&#125; &#61; &#91;0&#93;
+    median_signal::Array&#123;Float32&#125; &#61; &#91;&#93;
+    for i in 1:length&#40;signal&#41;
+        if length&#40;noisy_signal&#41; - &#40;window &#43; i - 1&#41; &lt; 0
+            forward &#61; noisy_signal&#91;i:end&#93;
+            wrap &#61; noisy_signal&#91;1:abs&#40;length&#40;noisy_signal&#41; - &#40;window &#43; i - 1&#41;&#41;&#93;
+            append&#33;&#40;median_signal, median&#40;vcat&#40;forward, wrap&#41;&#41;&#41;            # SETTING SAMPLING RATE AND CREATING DOWNSAMPLED OUTPUT
+            if i &#37; sampling_rate &#61;&#61; 0
+                append&#33;&#40;downsampled_input, input&#91;i&#93;&#41;
+                append&#33;&#40;downsampled_signal, median&#40;vcat&#40;forward, wrap&#41;&#41;&#41;
+            end
+        else
+            forward &#61; noisy_signal&#91;i:&#40;window &#43; i - 1&#41;&#93;
+            append&#33;&#40;median_signal, median&#40;forward&#41;&#41;            # SETTING SAMPLING RATE AND CREATING DOWNSAMPLED OUTPUT
+            if i &#37; sampling_rate &#61;&#61; 0
+                append&#33;&#40;downsampled_input, input&#91;i&#93;&#41;
+                append&#33;&#40;downsampled_signal, median&#40;forward&#41;&#41;
+            end
+        end
+    end    # PLOT SIGNALS
+    append&#33;&#40;downsampled_input, input&#91;end&#93;&#41;
+    append&#33;&#40;downsampled_signal, noisy_signal&#91;end&#93;&#41;
+    plot&#40;input, noisy_signal, label &#61; &quot;Noisy Signal&quot;, title &#61; &quot;Example of Median Filter&quot;&#41;
+    plot&#33;&#40;input, median_signal, label &#61; &quot;Median Filtered Signal&quot;, linewidth &#61; 3&#41;
+    plot&#33;&#40;input, signal, label &#61; L&quot;2\pi&quot;, linewidth &#61; 5&#41;
+    plot&#33;&#40;downsampled_input, downsampled_signal, linewidth &#61; 3, color &#61; :black,
+          label &#61; &quot;Downsampled Median Signal&quot;&#41;end</code></pre>
+<h4 id="output">Output</h4>
+<p><img src="https://jacobzelko.com/04252020025710.png" alt="median_filter" /></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>  
   
@@ -68,6 +215,129 @@
   <description>
     <![CDATA[  An overview on how to use the exponential smoothing algorithm  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Exponential Smoothing</h1>
+<p><strong>Date:</strong> March 27 2020</p>
+<p><strong>Summary:</strong> An overview on how to use the exponential smoothing algorithm</p>
+<p><strong>Keywords:</strong> ##zettel #signalprocessing #noise #artifact #smoothing #window #julialang #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Considerations</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The exponential smoothing algorithm is a recursive algorithm and is one of the more simple smoothing methods commonly used to remove small noise and motion artifacts from a discrete time series signal. However, it can be considered a &quot;manual&quot; algorithm due to having to manually determine a smoothing factor for it to work properly.</p>
+<p>Per conversation with Post-Doc Researcher, Fredrik Bagge Carlson, another definition for the smoothing factor is the &quot;forgetting factor&quot;. A bigger value for the forgetting factor results in forgetting the memory built into the algorithm faster and focusing more on recent inputs.</p>
+<p>Also, this method is classified as a moving average filter&#33;</p>
+<h3 id="algorithm">Algorithm</h3>
+<p>The algorithm is very simple in which it is described as:</p>
+\[
+s_1 = x_1
+\]
+\[
+s_t = ax_t + (1 - \alpha)s_{t - 1} \space | \space t > 0
+\]
+<p>The variables are defined as follows:</p>
+<ul>
+<li></li>
+</ul>
+\[
+    \{x_t\}
+    \]
+<p>  * The raw signal sequence</p>
+<ul>
+<li></li>
+</ul>
+\[
+    \{s_t\}
+    \]
+<p>  * The smoothed output signal sequence</p>
+<ul>
+<li></li>
+</ul>
+\[
+    t
+    \]
+<p>  * Time &#40;where &#36;t &gt; 0&#36;&#41;</p>
+<ul>
+<li></li>
+</ul>
+\[
+    \alpha
+    \]
+<p>  * Smoothing factor &#40;must be chosen such that &#36;0 &lt; \alpha &lt;1&#36;&#41;</p>
+<p>The weighted average in this case works when you take a portion of the current value x&#40;t&#41; from the original signal and a portion of the s&#40;t -1&#41; is summed together after being scaled by the forgetting factor. &#91;Explanation thanks to Fredrik Bagge Carlson&#93;</p>
+<h4 id="additional_considerations">Additional Considerations</h4>
+<ul>
+<li><p>Each term in the sequence, \(\{s_t\}\), is counted as the weighted average of the current data point from the sequence \(\{x_t\}\) and the prior smoothed statistic, \(s_t\).</p>
+</li>
+<li><p>There is no clear method for choosing the value of the smoothing factor</p>
+<ul>
+<li>&#36;0 &lt;&lt;\alpha &lt; 1&#36;
+<p>yields a smaller smoothing effect and &quot;value&quot; updating values more highly</p>
+</li>
+<li>&#36;0 &lt; \alpha &lt;&lt; 1&#36;
+<p>yields a greater smoothing effect but does not respond greatly to recent updates</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="example_implementation">Example Implementation</h3>
+<pre><code class="language-julia">using Plots # IMPORT FOR PLOTTING
+using LaTeXStrings # IMPORT TO ENABLE LaTeX FORMATTING
+gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To Calculate
+    # Choose α: 0 &lt; α &lt; 1
+    input &#61; 0:0.001:1
+    α &#61; 0.05    # Generate Generic Signal - In This Case Sin&#40;2π&#41;
+    signal &#61; &#91;sin&#40;2 * pi * i&#41; for i in input&#93;    # Adding Random Noise To Function
+    noisy_signal &#61;
+        &#91;sin&#40;2 * pi * i&#41; &#43; rand&#40;&#91;-1, 1&#93;&#41; * round&#40;rand&#40;&#41;, digits &#61; 2&#41; for i in input&#93;    # Filter The Signal Using An Exponential Smoothing Filter
+    exponential_signal::Array&#123;Float32&#125; &#61; &#91;noisy_signal&#91;1&#93;&#93;
+    for i in 2:length&#40;signal&#41;
+        smooth_term &#61; α * noisy_signal&#91;i&#93; &#43; &#40;1 - α&#41; * exponential_signal&#91;i-1&#93;
+        append&#33;&#40;exponential_signal, smooth_term&#41;
+    end
+    # Plot Signals
+    plot&#40;
+        input,
+        noisy_signal,
+        label &#61; &quot;Noisy Signal&quot;,
+        title &#61; &quot;Example of Exponential Smoothing&quot;,
+    &#41;
+    plot&#33;&#40;
+        input,
+        exponential_signal,
+        label &#61; &quot;Exponentially Smoothed Signal&quot;,
+        linewidth &#61; 3
+    &#41;
+    plot&#33;&#40;
+        input,
+        signal,
+        label &#61; L&quot;sin&#40;2\pi&#41;&quot;,
+        linewidth &#61; 5
+    &#41;end</code></pre>
+<h4 id="output">Output</h4>
+<p><img src="1585295721254.png" alt="" /></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +357,53 @@
   <description>
     <![CDATA[  An overview of common artifacts in EDA signals  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Common Causes of Artifact in EDA Signals</h1>
+<p><strong>Date:</strong> March 27 2020</p>
+<p><strong>Summary:</strong> An overview of common artifacts in EDA signals</p>
+<p><strong>Keywords:</strong> ##zettel #eda #signalprocessing #biomarker #artifact #noise #skin #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>EDA artifacts can come from the electrodes used to collect EDA data &#91;1&#93;–&#91;3&#93;; examples being:</p>
+<ul>
+<li><p>Inconsistent pressure of the electrode to the skin</p>
+</li>
+<li><p>Physical activity &#40;such as pressure or movement&#41;</p>
+</li>
+<li><p>Arbitrary changes made to securing the device</p>
+</li>
+<li><p>Contextual/ambient factors &#40;such as humidity, temperature, etc. Anything that can cause excessive EDA signals beyond a device&#39;s detection abilities&#41;</p>
+</li>
+</ul>
+<p>Overloading a device that records EDA signals is a special kind of artifact called &quot;bridging&quot; or &quot;saturation&quot;. &#91;4&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; C. Tronstad, G. K. Johnsen, S. Grimnes, and Ø. G. Martinsen, “A study on electrode gels for skin conductance measurements,” Physiol. Meas., vol. 31, no. 10, p. 1395, 2010.</p>
+<p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, 2015, pp. 1934–1937, doi: 10.1109/EMBC.2015.7318762.</p>
+<p>&#91;3&#93; I. R. Kleckner et al., “Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,” IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
+<p>&#91;4&#93; S. for P. R. A. H. C. on E. Measures et al., “Publication recommendations for electrodermal measurements,” Psychophysiology, vol. 49, no. 8, pp. 1017–1034, 2012.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
   

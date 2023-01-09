@@ -30,6 +30,71 @@
   <description>
     <![CDATA[  Connectograms visuzalize the complicated data found in  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Is a Connectogram?</h1>
+<p><strong>Date:</strong> December 27 2020</p>
+<p><strong>Summary:</strong> Connectograms visuzalize the complicated data found in</p>
+<p><strong>Keywords:</strong> ##zettel #connectogram #brain #neuroscience #dataviz #visualizations #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Usage</li><li>Characteristics of a Connectogram</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="usage">Usage</h3>
+<p>Connectograms based on diffusion MRI data employ graphs to demonstrate white matter connections and cortical characteristics. Connectograms can inform treatment of patients with neuroanatomical abnormalities. They can also be used for average cortical metrics and tractography data, across populations of any size.</p>
+<h3 id="characteristics_of_a_connectogram">Characteristics of a Connectogram</h3>
+<p>The outermost cortical surface ring:</p>
+<ul>
+<li><p>Circular</p>
+</li>
+<li><p>Left and right depicts respective hemispheres</p>
+</li>
+<li><p>Hemispheres comprise frontal lobe, insular cortex, limbic lobe, temporal lobe, parietal lobe, occipital lobe, subcortical structures, and cerebellum</p>
+</li>
+<li><p>Brain stem is represented between the two hemispheres at the bottom.</p>
+</li>
+</ul>
+<p>Inside the cortical ring represented such as:</p>
+<ul>
+<li><p>Grey matter volume</p>
+</li>
+<li><p>Surface area</p>
+</li>
+<li><p>Cortical thickness</p>
+</li>
+<li><p>Curvature</p>
+</li>
+<li><p>Degree of connectivity</p>
+</li>
+</ul>
+<p>Inside the circles:</p>
+<ul>
+<li><p>Lines connecting regions that are found to be structurally connected.</p>
+</li>
+</ul>
+<p>The opacity of the lines represent number of connections. Fiber color gives fractional anisotropy. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; A. Irimia, M. C. Chambers, C. M. Torgerson, and J. D. Van Horn, “Circular representation of human cortical networks for subject and population-level connectomic visualization,” Neuroimage, vol. 60, no. 2, pp. 1340–1351, 2012.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
   

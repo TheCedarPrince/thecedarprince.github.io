@@ -30,6 +30,43 @@
   <description>
     <![CDATA[  Explains what is a context-aware application.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Context-Aware Applications</h1>
+<p><strong>Date:</strong> December 2 2022</p>
+<p><strong>Summary:</strong> Explains what is a context-aware application.</p>
+<p><strong>Keywords:</strong> ##zettel #ubicomp #computerscience #technology #awarehome #georgiatech #archive</p>
+<h1>Bibliography</h1>
+<p>Not available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p><strong>Context-aware applications</strong> are technologies that leverage data collected from real-time environments and contexts and act upon this information to create timely actions. This idea was coined by &#91;1&#93; in his paper <a href="https://jacobzelko.com/03092020035135-kidd-aware-home">The Aware Home: A Living Laboratory for Ubiquitous Computing Research</a></p>
+<p>Here is the original quote from @kiddAwareHomeLiving1999:</p>
+<blockquote>
+<p><em>However, progress in the sensing technologies needs to be matched by progress in supporting the rapid development of applications that use sensed information. These applications are what &#91;are&#93; called <strong>context-aware applications</strong>.</em></p>
+</blockquote>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +86,50 @@
   <description>
     <![CDATA[  Gives an overview of the Georgia Tech Aware Home.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>The Aware Home: A Living Laboratory for Ubiquitous Computing Research</h1>
+<p><strong>Date:</strong> December 2 2022</p>
+<p><strong>Summary:</strong> Gives an overview of the Georgia Tech Aware Home.</p>
+<p><strong>Keywords:</strong> ##zettel #awarehome #georgiatech #computerscience #research  #archive</p>
+<h1>Bibliography</h1>
+<p>Not available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What Is an Aware Home?</li><li>Applications</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="what_is_an_aware_home">What Is an Aware Home?</h3>
+<p>In short, an Aware Home is &quot;a living laboratory for research in ubiquitous computing for everyday activities.&quot; The home at Georgia Institute of Technology was built to enable researchers ready access to explore the home and implement technologies to monitor individuals going throughout the home – these same technologies, the hope is, would be implement in actual people&#39;s homes across the world.</p>
+<h3 id="applications">Applications</h3>
+<p>Some of the ideas for potential use from the home was to:</p>
+<ul>
+<li><p>Support the elderly</p>
+</li>
+<li><p>Find lost objects</p>
+</li>
+<li><p>Monitor specific parts of the house &#40;front door, kitchen, etc.&#41;</p>
+</li>
+</ul>
+<p>This would be using a technology known as <a href="https://jacobzelko.com/03092020071146-context-aware"><em>Context-Aware Applications</em></a> &#40;click for more information&#41;.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,51 @@
   <description>
     <![CDATA[  A brief overview of how the Leitner system works  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Leitner System</h1>
+<p><strong>Date:</strong> May 10 2020</p>
+<p><strong>Summary:</strong> A brief overview of how the Leitner system works</p>
+<p><strong>Keywords:</strong> ##zettel #learning #repetition #flashcards #spaced  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The Leitner system uses flashcards to implement a spaced repetition learning system. It was created by German science journalist Sebastian Leitner in the 1970s.</p>
+<p><img src="1589148887796.png" alt="" /></p>
+<blockquote>
+<p>Successfully recalled cards are moved to the next group. Unsuccessfully recalled cards go back to the first box.</p>
+</blockquote>
+<p>Using the Leitner system, learners create flashcards with discrete facts on them. These cards are grouped based on how well a learner knows the information on the card. They are arranged via the following method:</p>
+<ul>
+<li><p>If a card is successfully recalled, the card is put into the next group.</p>
+</li>
+<li><p>If a card is not successfully recalled it is sent to the first group.</p>
+</li>
+</ul>
+<p>The cards are kept in a box and are partitioned by spacings in the box. The size of each participation determined when cards were to be reviewed. For Leitner&#39;s implementation, this consisted of 1, 2, 5, 8, and 14cm partition sizes. Reviews only took place when a partition is filled to proper sizing.</p>
+<p>In Leitner&#39;s original method, published in his book So lernt man Lerne &#40;How to learn to learn&#41;, the schedule of repetition was governed by the size of the partitions in the learning box.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>  
   

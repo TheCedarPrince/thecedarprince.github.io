@@ -30,6 +30,38 @@
   <description>
     <![CDATA[  Explaining what bundles or groups are in the context of All-Payer Claims Databases  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Bundles or Groups?</h1>
+<p><strong>Date:</strong> August 5 2021</p>
+<p><strong>Summary:</strong> Explaining what bundles or groups are in the context of All-Payer Claims Databases</p>
+<p><strong>Keywords:</strong> #apcd #bundles #groups #groupers #definition #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Bundles are when you group together medical services to a single price. Often, these bundles proprietary to vendors. To patients, the advantage to this is knowing where costs break down and to find who is charging the least. - Megan Denham</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +81,44 @@
   <description>
     <![CDATA[  Recommendations for Creating a New All-Payers Claim Database  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Recommendations for Creating a New All-Payers Claim Database</h1>
+<p><strong>Date:</strong> August 3 2021</p>
+<p><strong>Summary:</strong> Recommendations for Creating a New All-Payers Claim Database</p>
+<p><strong>Keywords:</strong> #apcd #recommendation #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>General Recommendations</li><li>State Specific Recommendations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="general_recommendations">General Recommendations</h3>
+<p><a href="https://jacobzelko.com/08032021205910-establish-apcd.md">Organizers should appeal to policymakers and primary users by showing data-driven decision making on key issues</a></p>
+<h3 id="state_specific_recommendations">State Specific Recommendations</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/08032021211753-virginia-apcd.md">Virginia</a></p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>  
   
@@ -68,6 +138,68 @@
   <description>
     <![CDATA[  An overview of the Virginia All-Payers Claim Database  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Virginia All-Payers Claim Database</h1>
+<p><strong>Date:</strong> August 3 2021</p>
+<p><strong>Summary:</strong> An overview of the Virginia All-Payers Claim Database</p>
+<p><strong>Keywords:</strong> #apcd #virginia ##summary #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Recommendations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="recommendations">Recommendations</h3>
+<ul>
+<li><p>Using standards made with stakeholders significantly increased use of the All Payer Claims Database</p>
+</li>
+<li><p>Promote ability to analyze big claims data at population level.</p>
+</li>
+</ul>
+<blockquote>
+<p>IDEA: This really seems like we could off load a lot of processing to other tools.</p>
+</blockquote>
+<p>No need to reinvent the wheel when I think we have a lot of the tools here like in OHDSI.</p>
+<ul>
+<li><p>Actively review data quality impacts.</p>
+</li>
+</ul>
+<blockquote>
+<p>QUESTION: I wonder what they mean by data quality metrics?</p>
+</blockquote>
+<ul>
+<li><p>Develop and adhere to a regular data update schedule</p>
+</li>
+<li><p>Consider using the Common Data Layout</p>
+</li>
+<li><p>Know about ERISA limitations on private self-insured employer plans</p>
+</li>
+<li><p>Get federal matching funds to support operation.</p>
+</li>
+<li><p>Know what All-Payers Claim Database data can do well and what it cannot.</p>
+</li>
+</ul>
+<p>&#40;The Commonwealth Fund&#41;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>  
   
@@ -87,6 +219,87 @@
   <description>
     <![CDATA[  A summary paper detailing how to establish an All-Payers Claim Database with recommendations  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Tools for Improving Health Care Value Part 1: How States Establish an APCD and Make it Functional</h1>
+<p><strong>Date:</strong> August 3 2021</p>
+<p><strong>Summary:</strong> A summary paper detailing how to establish an All-Payers Claim Database with recommendations</p>
+<p><strong>Keywords:</strong> #apcd #commonwealth #fund #transparency #recommendations  #archive</p>
+<h1>Bibliography</h1>
+<p>The Commonwealth Fund. 2020. State All-Payer Claims Databases: Tools for Improving Health Care Value, Part 1 — How States Establish an APCD and Make It Functional.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Summary</li><li>Intended Uses of All-Payers Claim Databases</li><li>Recommendations for States in Creating All-Payers Claim Databases</li><li>Potential Ways an All-Payers Claim Database Can Be Used</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="summary">Summary</h3>
+<p>This was a summary paper detailing how to establish an All-Payers Claim Database with recommendations from 8 states across the US with All-Payer Claims Databases. It was a high value paper&#33; Lots of great insights in this document with good summary insights from across the states interviewed which were:</p>
+<ul>
+<li><p>Arkansas</p>
+</li>
+<li><p>Colorado</p>
+</li>
+<li><p>Maine</p>
+</li>
+<li><p>Minnesota</p>
+</li>
+<li><p>New Hampshire</p>
+</li>
+<li><p>Utah</p>
+</li>
+<li><p>Virginia</p>
+</li>
+<li><p>Wisconsin</p>
+</li>
+</ul>
+<p>However, the general insights were rather vague about what states actually <em>did</em> with their APCD. This paper gains even more benefit when read in conjunction with <a href="https://jacobzelko.com/08062021145920-benefits-state-apcds.md">Part 2 of this series</a>.</p>
+<h3 id="intended_uses_of_all-payers_claim_databases">Intended Uses of All-Payers Claim Databases</h3>
+<p><strong>Information transparency</strong> is disclosing and highlighting variation in:</p>
+<ul>
+<li><p>utilization</p>
+</li>
+<li><p>cost</p>
+</li>
+<li><p>service quality</p>
+</li>
+</ul>
+<p>Enables employers to choose value-based care. Consumers will know what options they have.</p>
+<h3 id="recommendations_for_states_in_creating_all-payers_claim_databases">Recommendations for States in Creating All-Payers Claim Databases</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/08032021211415-apcd-recommendations.md">General Recommendations</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/08032021211753-virginia-apcd.md">Virginia All-Payers Claim Database</a></p>
+</li>
+</ul>
+<h3 id="potential_ways_an_all-payers_claim_database_can_be_used">Potential Ways an All-Payers Claim Database Can Be Used</h3>
+<p>An All-Payers Claim Database can be used as a state oversight tool for:</p>
+<ol>
+<li><p>Insurance markets</p>
+</li>
+<li><p>Public coverage programs</p>
+</li>
+<li><p>Public health.</p>
+</li>
+</ol>
+<p>It can also be used as a research tool for health care research and system improvement</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>  
   
@@ -106,6 +319,56 @@
   <description>
     <![CDATA[  An overview on what all payer claims databases are  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>All-Payer Claims Database</h1>
+<p><strong>Date:</strong> January 1 2021</p>
+<p><strong>Summary:</strong> An overview on what all payer claims databases are</p>
+<p><strong>Keywords:</strong> ##zettel #apcd #claims #database  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>Advantages of APCDs over other federal health datasets</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<p>The goal of APCDs is to improve affordability of healthcare, its efficiency, and cost transparency. &#91;1&#93;</p>
+<p>All-payer claims databases: State databases which contain the following information on private and public payers:</p>
+<ul>
+<li><p>Medical claims</p>
+</li>
+<li><p>Pharmacy claims</p>
+</li>
+<li><p>Dental claims</p>
+</li>
+<li><p>Eligibility and provider files</p>
+</li>
+</ul>
+<p>Insurers are usually mandated by the state to provide APCD data to States.</p>
+<h3 id="advantages_of_apcds_over_other_federal_health_datasets">Advantages of APCDs over other federal health datasets</h3>
+<p>APCDs contain private insurance. This is not common for other datasets.</p>
+<p>APCDs contain data from most or all insurance companies in a State. Other datasets do not have them.</p>
+<p>APCDs include info on care for patients across care sites rather than only from discharge data systems. APCDs include large sample sizes, geographic representation, and capture of longitudinal information on a wide range of individual patients.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Agency for Healthcare Research and Quality, “All-Payer Claims Databases,” Feb-2018. &#91;Online&#93;. Available: https://www.ahrq.gov/data/apcd/index.html.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>  
   

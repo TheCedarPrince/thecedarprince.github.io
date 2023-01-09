@@ -30,6 +30,60 @@
   <description>
     <![CDATA[  A summary of what real-world data and evidence is according to the United States Food and Drug Administration  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Real-World Data and Real-World Evidence</h1>
+<p><strong>Date:</strong> October 28 2021</p>
+<p><strong>Summary:</strong> A summary of what real-world data and evidence is according to the United States Food and Drug Administration</p>
+<p><strong>Keywords:</strong> ##summary #real #world #data #evidence #fda  #archive</p>
+<h1>Bibliography</h1>
+<p>U.S. Food and Drug Administration, &quot;Real-World Evidence.&quot; Sep. 30, 2021. Accessed: Oct. 27, 2021. &#91;Online&#93;. Available: https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Background</li><li>United States Food and Drug Administration Definitions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="background">Background</h3>
+<p>Real-World Evidence, according to Congress, is any data that concerns the use, benefits, or risks of a drug from nontraditional sources &#40;i.e. clinical trials&#41;</p>
+<h3 id="united_states_food_and_drug_administration_definitions">United States Food and Drug Administration Definitions</h3>
+<p>The United States Food and Drug Administration found this definition from Congress to be too expansive and vague. For their purposes, they limited the language further to make the definitions less vague. Here they are:</p>
+<ul>
+<li><p><strong>Real-world data</strong> &quot;relates to patient health status and/or the delivery of health care routinely collected from a variety of sources.&quot;</p>
+</li>
+</ul>
+<p>Some examples include:</p>
+<pre><code class="language-julia">- Electronic health records
+- Claims and billing activities
+- Product and disease registries 
+- Patient-generated data including in home-use settings 
+- Mobile device data</code></pre>
+<ul>
+<li><p><strong>Real-world evidence</strong> is &quot;clinical evidence regarding the usage and potential benefits or risks of a medical product derived from analysis of real-world evidence.&quot;</p>
+</li>
+</ul>
+<p>Some examples include:</p>
+<pre><code class="language-julia">- Randomized trials 
+	- Large simple trials
+	- Pragmatic trials
+	- Observational studies &#40;prospective and/or retrospective&#41;.</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +103,50 @@
   <description>
     <![CDATA[  How novel drugs are approved in the United States  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>United States Drug Approval Process</h1>
+<p><strong>Date:</strong> July 28 2021</p>
+<p><strong>Summary:</strong> How novel drugs are approved in the United States</p>
+<p><strong>Keywords:</strong> #drug #approval #fda #food #drug #administration  #archive</p>
+<h1>Bibliography</h1>
+<p>EHDEN Academy</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ol>
+<li><p>Pharmaceutical company develops drug</p>
+</li>
+<li><p>Gets tested in clinical trials</p>
+</li>
+<li><p>Results are submitted to the US Food and Drug Administration</p>
+</li>
+<li><p>After US Food and Drug Administration approval, drug can be sold</p>
+</li>
+<li><p>If <a href="https://jacobzelko.com/07282021175202-fda-risk-prevention.md">negative side effects discovered</a>, FDA takes action</p>
+</li>
+</ol>
+<pre><code class="language-julia">1. Apply warning label to drug2. Possibly withdraws product</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
   

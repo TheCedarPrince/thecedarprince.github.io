@@ -30,6 +30,44 @@
   <description>
     <![CDATA[  Modeling brain EEG using EEGLAB on a Go/Nogo Dataset to model brain activity  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>From Single-Trial EEG To Brain Area Dynamics</h1>
+<p><strong>Date:</strong> December 31 2020</p>
+<p><strong>Summary:</strong> Modeling brain EEG using EEGLAB on a Go/Nogo Dataset to model brain activity</p>
+<p><strong>Keywords:</strong> ##bibliography #eeg #brain #data #ica #archive</p>
+<h1>Bibliography</h1>
+<p>A. Delorme, S. Makeig, M. Fabre-Thorpe, and T. Sejnowski, &quot;From single-trial EEG to brain area dynamics,&quot; Neurocomputing, vol. 44–46, pp. 1057–1064, Jun. 2002, doi: 10.1016/S0925-2312&#40;02&#41;00415-0.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="materials_and_methods">Materials and Methods</h3>
+<p>EEG data from rapid go/nogo visual categorization via natural photographs &#91;1&#93; Though the task involved complicated visual processing, averaged EEG epochs for target and non-target stimuli differed greatly as early as 150 ms after stimulus onset. It appeared to involve automated processing in the visual system.&#91;2&#93; <em>QUESTION: What is a go/nogo visual categorization task?</em></p>
+<p><strong>EEG inverse problem:</strong> reconstructing intracranial brain sources from collected signals.Disparate EEG processes generally overlap in time and space. They become intertwined in scalp electrode recordings. &#91;3&#93;</p>
+<p>Subjects were presented pictures for 20 ms at random intervals between 1.8–2.2s. Half of the pictures were animals. Subjects released a held button when an animal was observed. Subject accuracy was 94&#37; for correct responses. Median reaction time was 440 ms</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; M. Fabre-Thorpe, A. Delorme, C. Marlot, and S. Thorpe, “A limit to the speed of processing in ultra-rapid visual categorization of novel natural scenes,” J. Cogn. Neurosci., vol. 13, no. 2, pp. 171–180, 2001.</p>
+<p>&#91;2&#93; S. J. Thorpe and M. Fabre-Thorpe, “Seeking categories in the brain,” Science, vol. 291, no. 5502, pp. 260–263, 2001.</p>
+<p>&#91;3&#93; S. Thorpe, D. Fize, and C. Marlot, “Speed of processing in the human visual system,” nature, vol. 381, no. 6582, pp. 520–522, 1996.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>  
   

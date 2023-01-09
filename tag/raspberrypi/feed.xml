@@ -30,6 +30,41 @@
   <description>
     <![CDATA[  A summary of tools, information, and resources related to the Raspberry Pi microcomputer.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Raspberry Pi</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> A summary of tools, information, and resources related to the Raspberry Pi microcomputer.</p>
+<p><strong>Keywords:</strong> ##summary ##computer ##raspberrypi ##technology #research #cheap #debian #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p>MAC address is unique to the pi and not the SD card. One can find this information via the file located at <code>/sys/class/net/eth0/address</code>. Instead of eth0, if one uses wlan0 – we get MAC address for wireless connection. &#40;Chaitra Hegde&#41;</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   

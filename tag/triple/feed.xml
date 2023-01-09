@@ -30,6 +30,49 @@
   <description>
     <![CDATA[  How RDFs can be conceptualized as an ACSet  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>How To Imagine an RDF as an ACSet</h1>
+<p><strong>Date:</strong> February 18 2022</p>
+<p><strong>Summary:</strong> How RDFs can be conceptualized as an ACSet</p>
+<p><strong>Keywords:</strong> #rdf #acset #graph #triple #archive</p>
+<h1>Bibliography</h1>
+<p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>RDFs can be also formulated as ACSets. To show how this is possible, let&#39;s walk through an example on how this happens:</p>
+<p>The RDF triples &quot;The sky is colored blue.&quot;, &quot;Grass is colored green.&quot;, and &quot;The ocean is colored blue&quot; can all be represented as a Directed Multigraph \(G\).</p>
+<pre><code class="language-mermaid">graph LRsky --is colored--&gt; blue
+ocean --is colored--&gt; blue
+grass --is colored--&gt; green</code></pre>
+\[
+G
+\]
+<p>can be thought of as an instance implementation of an ACSet representation of the RDF format. The ACSet schema defined for this family of RDFs can be defined at a higher level abstraction as follows:</p>
+<pre><code class="language-mermaid">Thing --is colored--&gt; Color</code></pre>
+<p><em>Thing</em> represents a generalized Subject Object, <em>Color</em> represents a generalized Resource Object, and <em>is colored</em> defines the Predicate morphism for this Category of RDFs.</p>
+<p>TODO: Add connection to acsets note</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
   

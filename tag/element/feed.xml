@@ -30,6 +30,98 @@
   <description>
     <![CDATA[  An overview on determining the image of elements, sets, and functions  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Images of Elements, Sets, and Functions</h1>
+<p><strong>Date:</strong> October 15 2022</p>
+<p><strong>Summary:</strong> An overview on determining the image of elements, sets, and functions</p>
+<p><strong>Keywords:</strong> ##summary #image #set #function #element #subset #domain #range #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>The Basics on the Images of Elements<ol><li>Example</li></ol></li><li>The Basics on the Images of Subsets<ol><li>Example</li></ol></li><li>The Basics on the Images of Functions<ol><li>Example</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I wanted to understand more about the ideas of images as an avenue to understand bundles.</p>
+<h3 id="the_basics_on_the_images_of_elements">The Basics on the Images of Elements</h3>
+<p>If there is some element \(x \in X\), and some function \(f\), the image of \(x\) under \(f\) &#40;i.e. the image of the element&#41;, is the value of \(f\) applied to \(x\): </p>
+\[
+im(x) = f(x)
+\]
+<p>In other words, I would read this as</p>
+<blockquote>
+<p>Given some element \(x\), its image is whatever \(f\) maps \(x\) to – the function&#39;s output for \(x\).</p>
+</blockquote>
+<h4 id="example">Example</h4>
+<p>Let \(x = 4\) and \(f : x \rightarrow \sqrt{x}\). What is the image of \(x\)?</p>
+<p>Using the definition:</p>
+\[
+im(x) = f(x)
+\]
+<p>We can then know: </p>
+\[
+im(x) = f(4) = 2
+\]
+<h3 id="the_basics_on_the_images_of_subsets">The Basics on the Images of Subsets</h3>
+<p>Given \(f : X \rightarrow Y\) and \(W \subseteq X\), the image of \(W\) under \(f\) is:</p>
+\[
+im(f(W)) = f(W) = \{f(x) | x \in W \}
+\]
+<p>How I might read this is:</p>
+<blockquote>
+<p>If we have two sets, \(X\) and \(Y\), and a subset \(W \subseteq X\) &#40;a subset of \(X\)&#41; while also having a function that maps values of \(X\) to \(Y\) and we want to know the image of the subset, \(W\), we can have \(f\) operate on each element \(x \in W\). This generates the image of \(W\)&#33;</p>
+</blockquote>
+<h4 id="example__2">Example</h4>
+<p>Let \(X = \mathbb R\), \(Y = +\mathbb R\), \(W = \{1, 2, 3, 4, 5\}\) and \(f : x \rightarrow x^{2}\). What is the image of \(W\) under \(f\)?</p>
+<p>Using the generic definition:</p>
+\[
+im(f(W)) = f(W) = \{f(x) | x \in W \}
+\]
+<p>We can then write the set as follows:</p>
+\[
+im(f(W)) = \{1, 4, 9, 16, 25\}
+\]
+<h3 id="the_basics_on_the_images_of_functions">The Basics on the Images of Functions</h3>
+<p>If we have two sets, \(X\) and \(Y\), and a function \(f : X \rightarrow Y\) which sends \(x \in X\) to \(Y\), the image of this function &#40;denoted \(im(f)\)&#41;, is:</p>
+\[
+im(f) = \{f(x) | x \in X\} \subseteq Y
+\]
+<p>So, what does that mean or how do we read this? In short, I would read this as: </p>
+<blockquote>
+<p>Given \(x\) as an element in \(X\), the image of the function \(f\) are the values that \(x\) is mapped to in \(Y\) via \(f\). Because each value is mapped to the domain \(Y\), those values form a subset of \(Y\).</p>
+</blockquote>
+<p>This explanation may look familiar as the image of a function is actually synonymous to a function&#39;s range&#33; 😱 Typically though, to be a bit more rigorous, the word <em>range</em> is not used in this setting but rather <em>image</em>.</p>
+<h4 id="example__3">Example</h4>
+<p>Let \(X = \mathbb R\), \(Y = +\mathbb R\), and \(f : x \rightarrow x^{2}\). What is the image of \(f\)?</p>
+<p>Using the generic definition:</p>
+\[
+im(f) = \{f(x) | x \in X\} \subseteq Y
+\]
+<p>We can then write the set as follows:</p>
+\[
+im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
+\]
+<p>In this example, based on the definition we have for an \(im(f)\), the \(im(f)\) is all possible outputs that \(f\) can generate which is the <em>range</em> \(+\mathbb R\).</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>  
   

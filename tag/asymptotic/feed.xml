@@ -30,6 +30,235 @@
   <description>
     <![CDATA[  An overview of asymptotic notation and time complexity  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Asymptotic Notation</h1>
+<p><strong>Date:</strong> September 28 2021</p>
+<p><strong>Summary:</strong> An overview of asymptotic notation and time complexity</p>
+<p><strong>Keywords:</strong> #asymptotic #notation #complexity #bigo #masters #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Big-O Notation<ol><li>Overview</li><li>Conventions</li><li>Constant Complexity: \(\mathcal{O}(1)\)</li><li>Linear Complexity: \(\mathcal{O}(n)\)</li><li>Logarithmic Complexity: \(\mathcal{O}(log(n))\)</li><li>Exercises</li></ol></li><li>Amortized Analysis</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p>Complexity of an algorithm is often calculated by counting primitive operations</p>
+</li>
+<li><p>Primitive operations:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Basic memory and reference management
+- Simple comparisons
+- Basic arithmetic
+	- Addition
+	- Subtraction
+	- Multiplication
+	- Division
+	- Modulo</code></pre>
+<h3 id="big-o_notation">Big-O Notation</h3>
+<h4 id="overview">Overview</h4>
+<ul>
+<li><p>Big-O &#40;denoted as \(\mathcal{O}\)&#41; refers to the most accurate worst case analysis with regards to either</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Execution time
+- Space used &#40;in memory or disk&#41;</code></pre>
+<ul>
+<li><p>It always assumes the maximum number of iterations</p>
+</li>
+</ul>
+<h4 id="conventions">Conventions</h4>
+<ul>
+<li><p>Constants get dropped from \(\mathcal{O}\) notation as it is small compared to infinity</p>
+</li>
+</ul>
+<p>Example: </p>
+\[
+\mathcal{O}(5n) \rightarrow \mathcal{O}(n)
+\]
+<ul>
+<li><p>Lower order terms get dropped in \(\mathcal{O}\) notation for the reason as before</p>
+</li>
+</ul>
+<p>Example:</p>
+\[
+\mathcal{O}(n^{2} + 1000n - 3) \rightarrow \mathcal{O}(n^{2})
+\]
+<ul>
+<li><p>Dropping constants theoretically is possible because constants do not grow towards infinity</p>
+</li>
+<li><p>In practice however, these constants can affect practical outcomes of algorithms</p>
+</li>
+</ul>
+<h4 id="constant_complexity_mathcalo1">Constant Complexity: \(\mathcal{O}(1)\)</h4>
+<ul>
+<li><p>Performance does not scale with input size</p>
+</li>
+<li><p>Example is having a list and returning the first item in the list:</p>
+</li>
+</ul>
+<pre><code class="language-julia">mylist &#61; &#91;1:5...&#93;
+first&#40;mylist&#41;</code></pre>
+<h4 id="linear_complexity_mathcalon">Linear Complexity: \(\mathcal{O}(n)\)</h4>
+<ul>
+<li><p>Performance does scale with size</p>
+</li>
+<li><p>Example is summing all elements in an array:</p>
+</li>
+</ul>
+<pre><code class="language-julia">mylist &#61; &#91;1:5...&#93;
+summed_values &#61; sum&#40;mylist&#41;</code></pre>
+<h4 id="logarithmic_complexity_mathcalologn">Logarithmic Complexity: \(\mathcal{O}(log(n))\)</h4>
+<ul>
+<li><p>Performance scales logarithmically with input size</p>
+</li>
+<li><p>Base doesn&#39;t matter due to change of base:</p>
+</li>
+</ul>
+\[
+log_{m}(n) = \frac{log_{2}(n)}{log_{2}(m)} = Clog_{2}(n) \rightarrow \mathcal{O}(log_{m}(n)) \rightarrow \mathcal{O}(log(n))
+\]
+<ul>
+<li><p>It can intuitively be thought of the running time is proportional to the \(n\) <a href="https://jacobzelko.com/https://stackoverflow.com/a/2307307">Stack Overflow Explanation</a></p>
+</li>
+<li><p>Another way to think about it is that the time goes up linearly while \(n\) increases exponentially <a href="https://jacobzelko.com/https://stackoverflow.com/a/2307330">Stack Overflow Explanation</a></p>
+</li>
+</ul>
+<p>An example of this behavior is here:</p>
+<table><tr><th align="right">Time &#40;\(t\)&#41;</th><th align="right">\(n\)</th></tr><tr><td align="right">0</td><td align="right">1</td></tr><tr><td align="right">1</td><td align="right">10</td></tr><tr><td align="right">2</td><td align="right">100</td></tr><tr><td align="right">3</td><td align="right">1000</td></tr><tr><td align="right">4</td><td align="right">10000</td></tr><tr><td align="right">5</td><td align="right">100000</td></tr></table>
+<p>Where the proportion can be stated as:</p>
+\[
+f(n) = log_{10}(n^{t})
+\]
+<h4 id="exercises">Exercises</h4>
+<p><em>The following exercises can be found <a href="https://jacobzelko.com/https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/">here</a></em></p>
+<ol>
+<li><p>What is the time and space complexity of:</p>
+</li>
+</ol>
+<pre><code class="language-julia">a &#61; 0
+i &#61; 0while i &lt; N
+	a &#61; a &#43; rand&#40;1&#41;
+	i &#43;&#61; 1
+end
+b &#61; 0
+j &#61; 0while j &lt; M
+	b &#61; b &#43; rand&#40;1&#41;
+	j &#43;&#61; 1
+end</code></pre>
+<p>Answer: \(\mathcal{O}(N + M), \mathcal{O}(1)\)</p>
+<p>Explanation: Since we measure complexity by worse case scenario of primitive operations ran, there could be \(N\) and \(M\) operations executed in this code. As no additional space is being utilized, space complexity is constant as no new variables are being defined.</p>
+<ol start="2">
+<li><p>What is the time complexity of:</p>
+</li>
+</ol>
+<pre><code class="language-julia">a &#61; 0
+i &#61; 0
+j &#61; Nwhile i &lt; N
+	while j &gt; i
+		a &#61; a &#43; i &#43; j
+		j -&#61; 1
+	end
+	i &#43;&#61; 1
+end</code></pre>
+<p>Answer: \(\mathcal{O}(N \cdot N)\)</p>
+<p>Explanation: Both loops are dependent on \(N\) so both loops, iterate \(N\) times, therefore resulting in a time complexity of \(\mathcal{O}(N \cdot N)\)</p>
+<ol start="3">
+<li><p>What is the time complexity of the following code:</p>
+</li>
+</ol>
+<pre><code class="language-julia">i &#61; N / 2
+k &#61; 0while i &lt;&#61; N
+	j &#61; 2
+	while j &lt;&#61; N
+		k &#61; k &#43; N / 2
+		j *&#61; 2
+	end
+	i &#43;&#61; 1
+end</code></pre>
+<p>Answer: \(\mathcal{O}(n \cdot \log(n))\)</p>
+<p>Explanation: As \(n\) continues to increase, the variable, \(k\) continues to loosely grow more than exponential. Furthermore, there are, \(\frac{n}{2}\) primitive steps in the outer loop such that the total time complexity would be \(\mathcal{O}(\frac{n}{2} \cdot \log{n})\) which is then simplified to \(\mathcal{O}(n \cdot \log(n))\) I got this wrong initially because I did not account for the outer loop contributing a time complexity of \(\frac{n}{2}\).</p>
+<ol start="4">
+<li><p>What does it mean when we say that algorithm X is asymptotically more efficient than Y?</p>
+</li>
+</ol>
+<p>Answer: Algorithm X will always be better for large inputs</p>
+<p>Explanation: When we consider an asymptote in terms of an algorithm, we also consider that algorithms &quot;growth&quot; over time. Meaning, that if you have some algorithm that is efficient at an asymptote, by nature of asymptotic analysis, that means it is &quot;good&quot; in the worst case scenario of that algorithm.</p>
+<p>Addendum: I got this wrong when thinking about asymptotic notation as I failed to consider growth. I thought X would be better for all inputs to that algorithm but that would not be so in the case of possibly a smaller input to X.</p>
+<ol start="5">
+<li><p>What is the time complexity of the following code:</p>
+</li>
+</ol>
+<pre><code class="language-julia">a &#61; 0
+i &#61; Nwhile i &gt; 0
+	a &#43;&#61; i
+	i /&#61; 2
+end</code></pre>
+<p>Answer: \(\mathcal{O}(\log{n})\)</p>
+<p>Explanation: There is a direct proportional relationship between \(n\) and the final output.</p>
+<ol start="6">
+<li><p>What best describes the useful criterion for comparing the efficiency of algorithms?</p>
+</li>
+</ol>
+<p>Answer: Time and Memory</p>
+<p>Explanation: Time dictates how long a program will evaluate for and memory dictates how much a program can evaluate</p>
+<ol start="7">
+<li><p>How is time complexity measured?</p>
+</li>
+</ol>
+<p>Answer: By counting the number of primitive operations in an algorithm on a given input size.</p>
+<p>Explanation: Each primitive operation is generally assumed to evaluate at the cost of &quot;one&quot; for each operation.</p>
+<ol start="8">
+<li><p>What will be the time complexity of the following code?</p>
+</li>
+</ol>
+<p>&lt;&#33;–NOTE: SKIPPING FOR NOW–&gt;</p>
+<pre><code class="language-julia">i &#61; 0 
+while i &lt; N
+	i *&#61; k
+end</code></pre>
+<ol start="9">
+<li><p>What will be the time complexity of the following code?</p>
+</li>
+</ol>
+<p>&lt;&#33;–NOTE: SKIPPING FOR NOW–&gt;</p>
+<pre><code class="language-julia">value &#61; 0
+i &#61; 0
+j &#61; 0while i &lt; n
+	while j &lt; i
+		value &#43;&#61; 1
+		j &#43;&#61; 1
+	end
+	i &#43;&#61; 1
+end</code></pre>
+<ol start="10">
+<li><p>Algorithm A and B have a worst-case running time of \(\mathcal{O}(n)\) and \(\mathcal{O}(logn)\), respectively. Therefore, algorithm B always runs faster than algorithm A.</p>
+</li>
+</ol>
+<p>Answer: False</p>
+<p>Explanation: Algorithm A could be faster on smaller inputs as compared to algorithm B</p>
+<h3 id="amortized_analysis">Amortized Analysis</h3>
+<p>See <a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">note here for details</a></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>  
   

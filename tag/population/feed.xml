@@ -30,6 +30,43 @@
   <description>
     <![CDATA[  An overview of metapopulation analysis and how it could be  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Metapopulation Analysis</h1>
+<p><strong>Date:</strong> March 1 2021</p>
+<p><strong>Summary:</strong> An overview of metapopulation analysis and how it could be</p>
+<p><strong>Keywords:</strong> ##zettel #biology #sociology #population #analysis #mobility #extinction  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Conversation with Jakob Nissen</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="conversation_with_jakob_nissen">Conversation with Jakob Nissen</h3>
+<p>I was explained by Jakob Nissen, a Danish Bioinformatics PhD, that one can think of metapopulation analysis as follows:</p>
+<p>The analysis has its foundation in ecology where the goal was to explore a specific species as a &quot;population of populations&quot;. For example, if you have a large area where there are many smaller habitats, a species can go extinct without causing a large problem for or impact on the overall area. This is because other species from nearby habitats will eventually move in to the old habitat of that species. Therefore, to ascertain the status of that species, the larger area needs to be considered</p>
+<p>When I asked about how one could map these approach to humans, Jakob had the following idea:</p>
+<p>One could model society as a large group of social bubbles where people see other people inside the bubble in the context of epidemics. So perhaps here, the virus is going extinct in social bubbles and migrating from bubble to bubble.</p>
+<p>This gave some good thoughts on approaches for metapopulation-based analysis to epidemics/pandemics.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +86,93 @@
   <description>
     <![CDATA[  How population mobility was affected by US mandates for stay-at-home orders  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> How population mobility was affected by US mandates for stay-at-home orders</p>
+<p><strong>Keywords:</strong> ##bibliography #covid #population #dynamics #gtri #cdc #mmwr #dataset #agriculture #rural #urban #archive</p>
+<h1>Bibliography</h1>
+<p>A. Moreland et al., &quot;Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020,&quot; MMWR Morb. Mortal. Wkly. Rep., vol. 69, no. 35, pp. 1198–1203, Sep. 2020, doi: 10.15585/mmwr.mm6935a2.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Methods and Materials<ol><li>Classifying Stay-at-Home Orders</li><li>Determining Time Windows</li><li>Analyzing for Changes in Population Movement Patterns</li></ol></li><li>Discussion<ol><li>General Insights</li><li>Limitations of this analysis</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion</li></ol></div>
+<h3 id="methods_and_materials">Methods and Materials</h3>
+<p>Changes in population movement based on stay-at-home orders between March 1–May 31, 2020 given by all 50 states, the District of Columbia, and five U.S. territories were examined.</p>
+<h4 id="classifying_stay-at-home_orders">Classifying Stay-at-Home Orders</h4>
+<p>Coding of orders was based solely on the legal language in each state or territorial order. Stay-at-home orders were assigned a mutually exclusive category based on this language:</p>
+<ol>
+<li><p>All required &#40;language examples: persons &quot;shall,&quot; &quot;must,&quot; or &quot;are directed to&quot;&#41;</p>
+</li>
+<li><p>Applied to persons in specific jurisdictions&#39; locations &#40;language examples: persons &quot;shall,&quot; &quot;must,&quot; or &quot;are directed to&quot;&#41;</p>
+</li>
+<li><p>Required for individuals &gt; 65 years or with underlying conditions</p>
+</li>
+<li><p>Mandatory for individuals &gt; 65 years or with underlying conditions in specific jurisdictions&#39; locations</p>
+</li>
+<li><p>Not required but advised to stay home &#40;language examples: persons &quot;should,&quot; &quot;are encouraged to,&quot; or &quot;are urged to&quot;&#41;</p>
+</li>
+<li><p>Jurisdictions that did not issue an order were coded as having no state- or territory-issued order</p>
+</li>
+</ol>
+<h4 id="determining_time_windows">Determining Time Windows</h4>
+<p>Given a state &quot;s&quot; that issues a stay-at-home order at date &quot;t&quot;, pre- and post-order windows for each county, &quot;c&quot;, in a state can be defined. c&#39;s preorder window contains movement values, m, during the time period before, t. The postorder window contains m values during the time period after t. Each county&#39;s preorder window serves as a county- and COVID-specific baseline. Small time values observed during these periods reflect county-specific invariants and impacts of the pandemic on behavior in the absence of state- or territory-issued community mitigation policies. ***QUESTION:** What is a sufficiently small value of n-days &#40;or time period before and after t&#41;?* ***QUESTION:** What is a county-specific invariant?*</p>
+<p>Order index date types:</p>
+<ol>
+<li><p>Start of each state or territorial stay-at-home order for each jurisdiction&#39;s counties</p>
+</li>
+<li><p>Waning or end of each state or territorial stay-at-home order for each jurisdiction&#39;s counties</p>
+</li>
+<li><p>Date of the first state stay-at-home order</p>
+</li>
+<li><p>Date of the first termination of a state stay-at-home order</p>
+</li>
+</ol>
+<h4 id="analyzing_for_changes_in_population_movement_patterns">Analyzing for Changes in Population Movement Patterns</h4>
+<p>Counties were broken into rural-urban categories to ensure groupings of counties with similar population sizes. Box plots were constructed for each category to examine the distribution of county mean percentages of devices at home during the pre- and postorder periods associated with each index date. Movement values following a normal distribution was not assumed for all counties and periods.  A clustered Wilcoxon signed rank test was then performed, with counties as clusters, on the constituent counties&#39; median pre- and post-order values associated with each index date. A lower-tailed test was used for dates regarding the start of regional mandates. An upper-tailed test was used for dates recording the end of regional mandates. Strata-level statistical significance was assessed at the 99&#37; confidence level &#40;alpha &#61; 0.01&#41;. <em>Dataset used: <a href="https://jacobzelko.com/https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/documentation/">The U.S. Department of Agriculture&#39;s Rural-Urban Continuum Codes</a> are used to stratify counties in this analysis</em> <strong>QUESTION:</strong> What is a &quot;clustered Wilcoxon signed rank test&quot;?_</p>
+<p>Population movement was inferred via the percentage of individual devices reported each day that were home for each county. A 7-day rolling average was used to smooth each county&#39;s pre- and postorder time series values ***QUESTION:** I wonder how good a metric this observation serves as a proxy of measuring population movement?*</p>
+<h3 id="discussion">Discussion</h3>
+<h4 id="general_insights">General Insights</h4>
+<p>Regions which issued stay-at-home mandates saw general declines in population movement. At the same time as the first state relaxed their mandate, regions that had not relaxed their mandates saw increased population movement. Stay-at-home orders can reduce activities associated with community spread of COVID-19. This includes population movement and external person-to-person contact.</p>
+<h4 id="limitations_of_this_analysis">Limitations of this analysis</h4>
+<ol>
+<li><p>Device coverage correlates with US pop density.</p>
+</li>
+</ol>
+<p>However, certain regions or groups might be inequitably represented. ***QUESTION:** How does relative device coverage largely correlate with US pop density?*</p>
+<ol start="2">
+<li><p>People may have multiple mobile devices and might take any number of them when they leave home.</p>
+</li>
+<li><p>The clustered Wilcoxon signed rank test is used with counties as clusters.</p>
+</li>
+</ol>
+<p>This is because a county&#39;s median pre- and postorder values are paired comparisons. Possible spatial dependence between counties wasn&#39;t addressed.</p>
+<ol start="4">
+<li><p>The report does not account for nationwide protests affects on mobility patterns.</p>
+</li>
+<li><p>The only relationship analyzed was between stay-at-home orders and population movement.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion__2">Discussion</h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -68,6 +192,73 @@
   <description>
     <![CDATA[  Emerging insights into income and poverty during the COVID-19 pandemic  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Income and Poverty in the COVID-19 Pandemic</h1>
+<p><strong>Date:</strong> December 28 2020</p>
+<p><strong>Summary:</strong> Emerging insights into income and poverty during the COVID-19 pandemic</p>
+<p><strong>Keywords:</strong> ##bibliography #pandemic #covid #economics #poverty #population #survey  #archive</p>
+<h1>Bibliography</h1>
+<p>J. Han, B. Meyer, and J. Sullivan, &quot;Income and Poverty in the COVID-19 Pandemic,&quot; National Bureau of Economic Research, Cambridge, MA, w27729, Aug. 2020. doi: 10.3386/w27729.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>General Insights</li><li>Methods of Research</li><li>Key Conclusions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="general_insights">General Insights</h3>
+<p>This study provides a template for understanding large economic shocks as they happen to counter the problem of data availability during major economic shocks. The start of the pandemic saw an unprecedented decline in economic activity in the US. The largest single month decline in US unemployment was 14 percent in April 2020.</p>
+<p>The federal government&#39;s response totalled to nearly three trillion dollars spent to counter pandemic effects. Their response comprised of:</p>
+<ul>
+<li><p>Economic Impact Payments &#40;tax rebates&#41;</p>
+</li>
+<li><p>Small business loans</p>
+</li>
+<li><p>Massive increase in unemployment insurance as part of the CARES Act</p>
+</li>
+</ul>
+<h3 id="methods_of_research">Methods of Research</h3>
+<p>Basic Monthly Current Population Survey &#40;Monthly CPS&#41;, was used due to its quick release to understand the impact of macroeconomic conditions and government policies on US families&#39; incomes.</p>
+<p>Family income from respondents in their first or fifth month in the survey were observed for a monthly sample ranging from 8,999 households and 20,822 individuals in February 2020 to 6,149 households and 14,383 individuals in April 2020.  Monthly CPS data from IPUMS-CPS &#91;1&#93; Generally, 90&#37; of earnings are reported in CPS, as opposed to ~60&#37; of unemployment insurance. &#91;2&#93;</p>
+<h3 id="key_conclusions">Key Conclusions</h3>
+<p>Without US government intervention, poverty would have risen by 2.7 percentage points between January and June.</p>
+<p>The COVID Impact survey &#91;3&#93; finds an increase in food insecurity when compared to a different earlier survey while the Census Bureau&#39;s Household Pulse survey &#91;4&#93; finds high rates of inability to pay rent.  These sources suggest increased hardship after the pandemic. The increase in deprivation is not due to the overall income loss, but rather due to other disruptions of the pandemic, including possibly the unevenness of the income flows.</p>
+<p>Disruptions such as:</p>
+<ul>
+<li><p>Closures of schools</p>
+</li>
+<li><p>Stores</p>
+</li>
+<li><p>Churches and other facilities</p>
+</li>
+<li><p>The uncertainty about future income streams</p>
+</li>
+<li><p>Concerns about the health of family and friends</p>
+</li>
+<li><p>Other disruptions</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; S. Flood, M. King, R. Rodgers, S. Ruggles, and J. Warren, “Integrated public use microdata series, current population survey: Version 7.0 &#91;dataset&#93;. Minneapolis, MN: Integrated public use microdata; 2020.”</p>
+<p>&#91;2&#93; B. D. Meyer, W. K. Mok, and J. X. Sullivan, “Household surveys in crisis,” J. Econ. Perspect., vol. 29, no. 4, pp. 199–226, 2015.</p>
+<p>&#91;3&#93; L. Bauer, “The COVID-19 Crisis Has Already Left Too Many Children Hungry in America,” 06-May-2020. &#91;Online&#93;. Available: https://www.hamiltonproject.org/blog/the<em>covid</em>19<em>crisis</em>has<em>already</em>left<em>too</em>many<em>children</em>hungry<em>in</em>america. &#91;Accessed: 08-Nov-2020&#93;.</p>
+<p>&#91;4&#93; J. Fields et al., “Design and Operation of the 2020 Household Pulse Survey, 2020,” U.S. Census Bureau, 2020.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
   

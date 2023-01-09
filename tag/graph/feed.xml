@@ -30,6 +30,382 @@
   <description>
     <![CDATA[  Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Achieving an Undergraduate Level Understanding of Graph Theory</h1>
+<p><strong>Date:</strong> December 31 2022</p>
+<p><strong>Summary:</strong> Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory.</p>
+<p><strong>Keywords:</strong> #zettel #ultralearning #graph #theory #project #archive #blog</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><ol><li><ol><li>Procedures</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3>Motivation</h3>
+<p>I have always found graph theory interesting ever since I was exposed to it back in my undergraduate studies at Georgia Tech. I found out about it through SIR Modeling but personally found the structure of graphs far more fascinating than its application to SIR models. Furthermore, as I intend to be pursuing graduate studies in applied mathematics, why not get started with trying to understand it?</p>
+<h3>Project Goals</h3>
+<p>This process is adapted from the <a href="https://jacobzelko.com/07082020163004-ultralearning.md">Ultralearning framework posited by Scott Young</a>.</p>
+<h4>What Am I Doing?</h4>
+<p>Gain an undergraduate level of understanding of graph theory on par with maths and computer science students.</p>
+<h5>Concepts</h5>
+<ul>
+<li><p>Basic concepts:</p>
+<ul>
+<li><p>Definition of a graph and its components:</p>
+<ul>
+<li><p>Understand the components of a graph and the differences between directed and undirected graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Subgraphs and isomorphism:</p>
+<ul>
+<li><p>Understand the definitions of subgraphs and isomorphism and be able to identify and compare them in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Directed graphs:</p>
+<ul>
+<li><p>Understand the definition of a directed graph and be able to represent it using adjacency and incidence matrices.</p>
+</li>
+</ul>
+</li>
+<li><p>Graphs and their properties:</p>
+<ul>
+<li><p>Understand various properties of graphs and be able to apply them to analyze and classify different types of graphs.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Connectivity:</p>
+<ul>
+<li><p>Paths and circuits:</p>
+<ul>
+<li><p>Understand the definitions of paths and circuits and be able to identify and construct them in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Connectedness and components:</p>
+<ul>
+<li><p>Understand the concept of connectedness and be able to determine whether a graph is connected or disconnected.</p>
+</li>
+<li><p>Understand the concept of graph components and be able to identify them in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Distance in graphs:</p>
+<ul>
+<li><p>Understand the concept of distance between vertices and be able to compute it using various measures.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Trees:</p>
+<ul>
+<li><p>Trees and their properties:</p>
+<ul>
+<li><p>Understand the definition of a tree and be able to identify and distinguish trees from other types of graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Rooted trees and binary trees:</p>
+<ul>
+<li><p>Understand the concept of rooted trees and be able to construct and manipulate them.</p>
+</li>
+<li><p>Understand the concept of binary trees and be able to construct and manipulate them.</p>
+</li>
+</ul>
+</li>
+<li><p>Spanning trees</p>
+</li>
+</ul>
+</li>
+<li><p>Matrix representations of graphs:</p>
+<ul>
+<li><p>Adjacency matrices:</p>
+<ul>
+<li><p>Understand the concept of an adjacency matrix and be able to represent a graph using an adjacency matrix.</p>
+</li>
+</ul>
+</li>
+<li><p>Incidence matrices:</p>
+<ul>
+<li><p>Understand the concept of an incidence matrix and be able to represent a graph using an incidence matrix.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Graph algorithms:</p>
+<ul>
+<li><p>Breadth-first search:</p>
+<ul>
+<li><p>Understand the concept of breadth-first search and be able to implement it to traverse a graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Depth-first search:</p>
+<ul>
+<li><p>Understand the concept of depth-first search and be able to implement it to traverse a graph.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Planar graphs:</p>
+<ul>
+<li><p>Planar graphs and their properties:</p>
+<ul>
+<li><p>Understand the definition of a planar graph and the properties that distinguish planar graphs from other types of graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Euler&#39;s formula:</p>
+<ul>
+<li><p>Understand Euler&#39;s formula and be able to apply it to analyze the structure of planar graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Dual graphs:</p>
+<ul>
+<li><p>Understand the concept of a dual graph and be able to construct the dual of a given planar graph.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Coloring graphs:</p>
+<ul>
+<li><p>Vertex coloring:</p>
+<ul>
+<li><p>Understand the concept of vertex coloring and be able to color the vertices of a given graph according to various coloring schemes.</p>
+</li>
+</ul>
+</li>
+<li><p>Edge coloring:</p>
+<ul>
+<li><p>Understand the concept of edge coloring and be able to color the edges of a given graph according to various coloring schemes.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Matchings and factors:</p>
+<ul>
+<li><p>Matchings:</p>
+<ul>
+<li><p>Understand the concept of a matching in a graph and be able to identify and construct matchings in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Factors:</p>
+<ul>
+<li><p>Understand the concept of a factor in a graph and be able to identify and construct factors in a given graph.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>More advanced topics:</p>
+<ul>
+<li><p>Hamiltonian cycles:</p>
+<ul>
+<li><p>Understand the concept of a Hamiltonian cycle and be able to identify and construct Hamiltonian cycles in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Network flows:</p>
+<ul>
+<li><p>Understand the concept of network flows and be able to model and analyze flow problems in graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Graphs and groups:</p>
+<ul>
+<li><p>Understand the connection between graphs and group theory, and be able to apply group-theoretic techniques to analyze graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Graphs and logic:</p>
+<ul>
+<li><p>Understand the connection between graphs and logic, and be able to apply logical techniques to analyze graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Graphs and geometry:</p>
+<ul>
+<li><p>Understand the connection between graphs and geometry, and be able to apply geometric techniques to analyze graphs.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5>Facts</h5>
+<ul>
+<li><p>Definition of a graph and its components:</p>
+<ul>
+<li><p>Vertices &#40;also called nodes&#41;.</p>
+</li>
+<li><p>Edges.</p>
+</li>
+<li><p>Weights.</p>
+</li>
+<li><p>Labels.</p>
+</li>
+</ul>
+</li>
+<li><p>Subgraphs and isomorphism.</p>
+</li>
+<li><p>Directed graphs and their representations:</p>
+<ul>
+<li><p>Adjacency matrices.</p>
+</li>
+<li><p>Incidence matrices.</p>
+</li>
+</ul>
+</li>
+<li><p>Graph properties:</p>
+<ul>
+<li><p>Connected/disconnected.</p>
+</li>
+<li><p>Bipartite/not bipartite.</p>
+</li>
+<li><p>Cyclic/acyclic.</p>
+</li>
+</ul>
+</li>
+<li><p>Paths and circuits.</p>
+</li>
+<li><p>Connectedness and components.</p>
+</li>
+<li><p>Distance between vertices.</p>
+</li>
+<li><p>Trees:</p>
+<ul>
+<li><p>Definition.</p>
+</li>
+<li><p>Unique path between vertices.</p>
+</li>
+<li><p>Root vertex.</p>
+</li>
+<li><p>Branches.</p>
+</li>
+</ul>
+</li>
+<li><p>Additional topics:</p>
+<ul>
+<li><p>Matrix representations:</p>
+<ul>
+<li><p>Adjacency matrices.</p>
+</li>
+<li><p>Incidence matrices.</p>
+</li>
+</ul>
+</li>
+<li><p>Graph algorithms:</p>
+<ul>
+<li><p>Breadth-first search.</p>
+</li>
+<li><p>Depth-first search.</p>
+</li>
+</ul>
+</li>
+<li><p>Planar graphs and their properties:</p>
+<ul>
+<li><p>Definition of a planar graph.</p>
+</li>
+<li><p>Properties that distinguish planar graphs from other types of graphs.</p>
+</li>
+<li><p>Euler&#39;s formula.</p>
+</li>
+<li><p>Dual graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Tree properties:</p>
+<ul>
+<li><p>Rooted trees.</p>
+</li>
+<li><p>Binary trees.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="procedures">Procedures</h5>
+<ol>
+<li><p>Representing graphs using different notations &#40;e.g. adjacency lists, adjacency matrices, incidence matrices&#41;.</p>
+</li>
+<li><p>Traversing graphs using different algorithms &#40;e.g. breadth-first search, depth-first search&#41;.</p>
+</li>
+<li><p>Analyzing the properties of graphs &#40;e.g. connectedness, bipartiteness, acyclicity&#41;.</p>
+</li>
+<li><p>Finding paths and circuits in graphs.</p>
+</li>
+<li><p>Identifying and constructing different types of trees &#40;e.g. rooted trees, binary trees&#41;.</p>
+</li>
+<li><p>Coloring the vertices or edges of a graph according to various coloring schemes &#40;e.g. vertex coloring, edge coloring&#41;.</p>
+</li>
+<li><p>Finding matchings and factors in graphs.</p>
+</li>
+<li><p>Identifying and constructing Hamiltonian cycles in graphs.</p>
+</li>
+<li><p>Modeling and analyzing flow problems in graphs using network flows.</p>
+</li>
+<li><p>Applying group-theoretic and logical techniques to analyze graphs.</p>
+</li>
+<li><p>Applying geometric techniques to analyze graphs.</p>
+</li>
+</ol>
+<h3 id="roadmap">Roadmap</h3>
+<p>This is based on the Meta Learning step Young described as well as some additional tweaks of my own:</p>
+<ul>
+<li><p><strong>Outcomes:</strong> The knowledge and abilities you’ll need to acquire for success.</p>
+</li>
+<li><p><strong>Rationale:</strong> Know exactly why you want to learn a skill or subject.</p>
+</li>
+<li><p><strong>Resources:</strong> The resources you’ll use when learning.</p>
+</li>
+<li><p><strong>Done:</strong> If this task has been completed &#40;X&#41; or not yet &#40;cell is empty&#41;</p>
+</li>
+</ul>
+<table><tr><th align="right">Done</th><th align="right">Topic</th><th align="right">Resources</th><th align="right">Outcomes</th></tr><tr><td align="right"></td><td align="right">Definition of a graph and its components</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Graph components; differences between directed and undirected graphs</td></tr><tr><td align="right"></td><td align="right">Subgraphs and isomorphism</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Subgraphs; isomorphism; identify and compare given graphs</td></tr><tr><td align="right"></td><td align="right">Directed graphs</td><td align="right">&#91;1&#93;</td><td align="right">Directed graph; representation using adjacency and incidence matrices</td></tr><tr><td align="right"></td><td align="right">Graphs and their properties</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Properties of graphs; analyze; classify different types of graphs</td></tr><tr><td align="right"></td><td align="right">Paths and circuits</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Paths and circuits; identify and construct given graph</td></tr><tr><td align="right"></td><td align="right">Connectedness and components</td><td align="right">&#91;1&#93;</td><td align="right">Determine if graph is connected; identify graph components</td></tr><tr><td align="right"></td><td align="right">Distance in graphs</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Vertex distances; compute vertex distances</td></tr><tr><td align="right"></td><td align="right">Trees and their properties</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Tree definitions; identify trees; distinguish trees</td></tr><tr><td align="right"></td><td align="right">Rooted trees and binary trees</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Rooted trees; construct and manipulate rooted trees</td></tr><tr><td align="right"></td><td align="right">Adjacency matrices</td><td align="right">&#91;1&#93;</td><td align="right">Adjacency matrix concept; representation of adjacency matrix</td></tr><tr><td align="right"></td><td align="right">Incidence matrices</td><td align="right">&#91;1&#93;</td><td align="right">Incidence matrix concept; representation of incidence graphs</td></tr><tr><td align="right"></td><td align="right">Breadth-first search</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Breadth-first search concept; graph traversal</td></tr><tr><td align="right"></td><td align="right">Depth-first search</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Depth-first search concept; graph traversal</td></tr><tr><td align="right"></td><td align="right">Planar graphs and their properties</td><td align="right">&#91;1&#93;</td><td align="right">Planar graph definition; properties</td></tr><tr><td align="right"></td><td align="right">Euler&#39;s formula</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Euler&#39;s formula; structure of planar graphs</td></tr><tr><td align="right"></td><td align="right">Dual graphs</td><td align="right">&#91;1&#93;</td><td align="right">Dual graph concept; construction of dual graph</td></tr><tr><td align="right"></td><td align="right">Vertex coloring</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Vertex coloring concept; coloring of graph vertices</td></tr><tr><td align="right"></td><td align="right">Edge coloring</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Edge coloring concept; coloring of graph edges</td></tr><tr><td align="right"></td><td align="right">Matchings</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Matching concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Factors</td><td align="right">&#91;1&#93;</td><td align="right">Factor concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Hamiltonian cycles</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Hamiltonian cycle concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Network flows</td><td align="right">&#91;1&#93;</td><td align="right">Network flow concept; modeling and analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and groups</td><td align="right">&#91;2&#93;</td><td align="right">Graph and group theory connection; analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and logic</td><td align="right">&#91;2&#93;</td><td align="right">Graph and logic connection; analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and geometry</td><td align="right">&#91;2&#93;</td><td align="right">Graph and geometry connection; analysis</td></tr></table>
+<p>This table describes the very broad topics, resources I&#39;ll use, and the expected learning outcomes for each topic.  As I progress through this table, I will add an &quot;X&quot; to each row I have studied. Furthermore, the table is ordered by level of difficulty with &quot;Definition of a graph and its components&quot; being the first topic I should learn and &quot;Graphs and geometry&quot; being the more advanced topics I should study. The topics and resources here are based on &#91;1&#93; and &#91;2&#93; with potentially more resources to add in the future.</p>
+<table><tr><th align="right">Done</th><th align="right">Skill Level</th><th align="right">Topic</th><th align="right">Concept</th></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Paths</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Cycles</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Subgraphs</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Isomorphism</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Trees</td><td align="right">Spanning trees</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Connectivity</td><td align="right">Max-flow Min-cut theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Connectivity</td><td align="right">Menger&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Eulerian and Hamiltonian graphs</td><td align="right">Eulerian and Hamiltonian graphs</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Matchings</td><td align="right">Hall&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Matchings</td><td align="right">Tutte&#39;s 1-factor theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Colorings</td><td align="right">Greedy coloring</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Colorings</td><td align="right">Chromatic polynomial</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Planar graphs</td><td align="right">Euler&#39;s formula</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Planar graphs</td><td align="right">Kuratowski&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Planar graphs</td><td align="right">Equivalents of the 4-color theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Ramsey theory</td><td align="right">Ramsey&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Structure of 1-, 2-, 3-connected graphs</td><td align="right">Blocks</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Structure of 1-, 2-, 3-connected graphs</td><td align="right">Ear-decomposition</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Structure of 1-, 2-, 3-connected graphs</td><td align="right">Contractible edges</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Perfect graphs</td><td align="right">Bipartite graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Perfect graphs</td><td align="right">Comparability graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Tutte&#39;s synthesis of 3-connected graphs</td><td align="right">Tutte&#39;s synthesis of 3-connected graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Systems of distinct representatives</td><td align="right">Systems of distinct representatives</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Matching polytope</td><td align="right">Matching polytope</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Chinese postman problem</td><td align="right">Chinese postman problem</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Dual graphs</td><td align="right">Dual graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Graphs on surfaces</td><td align="right">Graphs on surfaces</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Highly chromatic graphs of large girth</td><td align="right">Highly chromatic graphs of large girth</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Vizing&#39;s theorem</td><td align="right">Vizing&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Erdos-de Bruijn compactness theorem</td><td align="right">Erdos-de Bruijn compactness theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Line graphs of bipartite graphs</td><td align="right">Line graphs of bipartite graphs</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Chordal graphs</td><td align="right">Chordal graphs</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Complements of the above</td><td align="right">Complements of the above</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Perfect Graph Theorem</td><td align="right">Perfect Graph Theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Dilworth&#39;s theorem</td><td align="right">Dilworth&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Applications of Ramsey&#39;s theorem</td><td align="right">Applications of Ramsey&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Lower bound for Ramsey numbers</td><td align="right">Lower bound for Ramsey numbers</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Properties of random graphs</td><td align="right">Properties of random graphs</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Threshold functions</td><td align="right">Threshold functions</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">0-1 law</td><td align="right">0-1 law</td></tr></table>
+<p>This table gets more into exact topics and concepts to master. They have an associated difficult level and overall topic.  Moreover, this a synthesis of concepts and topics to be covered based on class outlines from:</p>
+<ul>
+<li><p>COMS W4203: Introduction to Graph Theory &#40;taught by Timothy Sun at Columbia University&#41;</p>
+</li>
+<li><p>MATH 6014: Graph Theory &#40;taught at Georgia Institute of Technology&#41;</p>
+</li>
+<li><p>MATH 4022: Introduction to Graph Theory &#40;taught at Georgia Institute of Technology&#41;</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Trudeau, Introduction to Graph Theory, Dover. DOVER PUBLICATIONS, INC., 1994.</p>
+<p>&#91;2&#93; N. Hartsfield and Ringel, Pearls in Graph Theory A Comprehensive Introduction. DOVER PUBLICATIONS, INC., 1994.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +425,49 @@
   <description>
     <![CDATA[  How RDFs can be conceptualized as an ACSet  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>How To Imagine an RDF as an ACSet</h1>
+<p><strong>Date:</strong> February 18 2022</p>
+<p><strong>Summary:</strong> How RDFs can be conceptualized as an ACSet</p>
+<p><strong>Keywords:</strong> #rdf #acset #graph #triple #archive</p>
+<h1>Bibliography</h1>
+<p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>RDFs can be also formulated as ACSets. To show how this is possible, let&#39;s walk through an example on how this happens:</p>
+<p>The RDF triples &quot;The sky is colored blue.&quot;, &quot;Grass is colored green.&quot;, and &quot;The ocean is colored blue&quot; can all be represented as a Directed Multigraph \(G\).</p>
+<pre><code class="language-mermaid">graph LRsky --is colored--&gt; blue
+ocean --is colored--&gt; blue
+grass --is colored--&gt; green</code></pre>
+\[
+G
+\]
+<p>can be thought of as an instance implementation of an ACSet representation of the RDF format. The ACSet schema defined for this family of RDFs can be defined at a higher level abstraction as follows:</p>
+<pre><code class="language-mermaid">Thing --is colored--&gt; Color</code></pre>
+<p><em>Thing</em> represents a generalized Subject Object, <em>Color</em> represents a generalized Resource Object, and <em>is colored</em> defines the Predicate morphism for this Category of RDFs.</p>
+<p>TODO: Add connection to acsets note</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
   
@@ -68,6 +487,77 @@
   <description>
     <![CDATA[  An overview of the RDF and how it works  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Overview of the Resource Description Framework &#40;RDF&#41;</h1>
+<p><strong>Date:</strong> February 18 2022</p>
+<p><strong>Summary:</strong> An overview of the RDF and how it works</p>
+<p><strong>Keywords:</strong> #rdf #overview #triplet #graph #framework #archive</p>
+<h1>Bibliography</h1>
+<p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What Are RDF Triplets?</li><li>What Are Examples of RDF Triplets?</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The Resource Description Framework &#40;RDF&#41; is a family of specifications created by the World Wide Web Consortium &#40;W3C&#41; and formally adopted by W3C in 1999. Data mapped into the RDF form into triplets called <em>RDF statements</em> &#40;also known as Semantic Triplets&#41;.</p>
+<h3 id="what_are_rdf_triplets">What Are RDF Triplets?</h3>
+<p>These triplets, or statements, are comprised of three components called the <em>subject</em>, the <em>predicate</em>, and the <em>object</em>. In summary, these components are described as:</p>
+<ul>
+<li><p><strong>Subject</strong> - this denotes a resource where anything can be a resource.</p>
+</li>
+</ul>
+<p>It is synonymous with the idea of an entity in other data models.</p>
+<ul>
+<li><p><strong>Predicate</strong> - traits or aspects of a defined resource and expresses the relationship between a <strong>Subject</strong> or a given <strong>Object</strong>.</p>
+</li>
+<li><p><strong>Object</strong> - the target of the predicate and is similar to a resource in that anything can be an <strong>Object</strong>.</p>
+</li>
+</ul>
+<p>What the RDF statement compactly communicates is that there holds some relationship, indicated by the predicate, between the <strong>Subject</strong> and <strong>Object</strong>.</p>
+<h3 id="what_are_examples_of_rdf_triplets">What Are Examples of RDF Triplets?</h3>
+<p>Example RDF statements are:</p>
+<blockquote>
+<ul>
+<li><p>The sky is colored blue.</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>Grass is colored green.</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>The ocean is colored blue.</p>
+</li>
+</ul>
+</blockquote>
+<p>Taking the statement &quot;The sky is colored blue.&quot; the <strong>Subject</strong> is the phrase &quot;sky&quot;, the <strong>Predicate</strong> is the verb phrase &quot;is colored&quot;, and the <strong>Object</strong> is the final phrase, &quot;blue&quot;. Moving forward from this example, it may be useful to think of the RDF statement as a labeled directed multigraph where components of the statement are typically broken down and stored in Relational Database Management Systems or native RDF file storage formats. Here is a way of visualizing the triplet for the given statements above:</p>
+<pre><code class="language-mermaid">graph LRsky --is colored--&gt; blue
+ocean --is colored--&gt; blue
+grass --is colored--&gt; green</code></pre>
+<p>The RDF triples &quot;The sky is colored blue.&quot;, &quot;Grass is colored green.&quot;, and &quot;The ocean is colored blue&quot; can all be represented as a Directed Multigraph \(G\). The nodes \(sky\), \(ocean\), and \(grass\) are <strong>Subjects</strong>, the nodes \(blue\) and \(green\) are <strong>Objects</strong>, and the edge \(is colored\) is the <strong>Predicate</strong> in these RDF triple.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
   
@@ -87,6 +577,91 @@
   <description>
     <![CDATA[  An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Categorical Data Structures for Technical Computing</h1>
+<p><strong>Date:</strong> October 6 2021</p>
+<p><strong>Summary:</strong> An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.</p>
+<p><strong>Keywords:</strong> #bibliography #acsets #graph #theory #category  #archive</p>
+<h1>Bibliography</h1>
+<p>E. Patterson, O. Lynch, and J. Fairbanks, &quot;Categorical Data Structures for Technical Computing,&quot; arXiv:2106.04703 &#91;cs, math&#93;, Jun. 2021, Accessed: Sep. 27, 2021. &#91;Online&#93;. Available: http://arxiv.org/abs/2106.04703</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Limitations of the Data Frame</li><li>Conclusions<ol><li>Use Cases for Acsets</li><li>Category Theory</li></ol></li><li>Discussion with Brighton Ancelin - October 6, 2021</li><li>Questions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="definitions">Definitions</h3>
+<p><strong>Combinatorial Data</strong> - data stored in a graph</p>
+<p><strong>Attribute data</strong> - the data that would be put into a data frame</p>
+<h3 id="limitations_of_the_data_frame">Limitations of the Data Frame</h3>
+<ul>
+<li><p>Does not record relationships between entities</p>
+</li>
+<li><p>Analogous to the <code>FOREIGN KEY</code> concept in SQL</p>
+</li>
+</ul>
+<h3 id="conclusions">Conclusions</h3>
+<h4 id="use_cases_for_acsets">Use Cases for Acsets</h4>
+<ul>
+<li><p>Act as a unifying abstract data type</p>
+</li>
+<li><p>Particularly useful for graphs and data frames, data structures</p>
+</li>
+<li><p>Enables creation of novel data structures</p>
+</li>
+</ul>
+<h4 id="category_theory">Category Theory</h4>
+<ul>
+<li><p>The category theory for acsets is well understood</p>
+</li>
+<li><p>Opens possibility of implementation of</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Limits
+- Colimits
+- Functorial data migration</code></pre>
+<h3 id="discussion_with_brighton_ancelin_-_october_6_2021">Discussion with Brighton Ancelin - October 6, 2021</h3>
+<ul>
+<li><p>Combinatorial data could be thought of the data that:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Exists solely within a graph structure
+- Defines vertices in a graph structure
+- Defines edges in a graph structure
+- Set of all vertices and set of all edges are isomorphic
+	- As long as edge-vertex relationships are maintained</code></pre>
+<ul>
+<li><p>Attribute data has something concrete that describes it apart from a graph structure</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Encodes symmetries or relationships in data that are important to that data</code></pre>
+<h3 id="questions">Questions</h3>
+<ul>
+<li><p>What are the &quot;new data structures&quot; that could be developed with this implementation</p>
+</li>
+<li><p>Why are attribute data combined in the same structure housing combinatorial data?</p>
+</li>
+<li><p>With the snippet of <code>add_part&#33;</code>, what is a &quot;part&quot;?</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>  
   

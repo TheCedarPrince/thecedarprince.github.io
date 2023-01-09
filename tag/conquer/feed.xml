@@ -30,6 +30,48 @@
   <description>
     <![CDATA[  The divide and conquer design paradigm to break down a problem to smaller parts and rebuild it to a solution  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Divide and Conquer Algorithmic Design</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> The divide and conquer design paradigm to break down a problem to smaller parts and rebuild it to a solution</p>
+<p><strong>Keywords:</strong> ##zettel #computer #science #algorithm #design #divide #conquer #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>&quot;Divide-and-Conquer&quot;: an algorithm design paradigm comprised of three steps </p>
+<ol>
+<li><p>Break a problem into smaller subproblems</p>
+</li>
+<li><p>Recursively evaluate subproblems</p>
+</li>
+<li><p>Combine subproblem solutions to one solution for the original problem.</p>
+</li>
+</ol>
+<p>One example of this paradigm is <a href="https://jacobzelko.com/12192020184204-merge-sort.md">Merge Sort</a>.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; T. Roughgarden, Algorithms illuminated. Part 1: The Basics. San Francisco, CA: Soundlikeyourself Publishing, 2017.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   

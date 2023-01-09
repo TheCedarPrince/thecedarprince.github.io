@@ -30,6 +30,92 @@
   <description>
     <![CDATA[  A brief understanding of my knowledge on topological spaces  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Is a Topological Space?</h1>
+<p><strong>Date:</strong> September 17 2022</p>
+<p><strong>Summary:</strong> A brief understanding of my knowledge on topological spaces</p>
+<p><strong>Keywords:</strong> ##summary #algebraic #topology #space #topological #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Topological Spaces</li><li>Examples of Topologies on a Set \(X\)<ol><li>Trivial &#40;Indiscrete&#41; Topology on \(X\)</li><li>General Topology on \(X\)</li><li>The Discrete Topology of \(X\)</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I wanted to learn more about algebraic topology so as to further understand the notion of cross products. Cross products are albeit a simple mechanism but I was curious to see the notion of them pop up so much. Much more so seeing the idea propagate to topologies which sparked my interested about topologies.</p>
+<h3 id="topological_spaces">Topological Spaces</h3>
+<p>A topological space, to my understanding is a kind of embellished set.  Embellished in the sense that there exists an underlying set wherein a topology enriches the set. In short, a topology, \(\tau\), on a nonempty set \(X\) is a collection of subsets of \(X\) that also belong to \(\tau\). These subsets are referred to as &quot;open sets&quot; where:</p>
+<ol>
+<li></li>
+</ol>
+\[
+    \emptyset
+    \]
+<p>and &#36;X&#36; are open. Also can be defined as &#36;\emptyset, X \in \tau&#36;</p>
+<ol start="2">
+<li><p>Union of any number of open sets within \(\tau\) also belong to \(\tau\)</p>
+</li>
+<li><p>Intersection of a defined number of open sets in \(\tau\) also belong to \(\tau\)</p>
+</li>
+</ol>
+<p>If these conditions are met, then a topology \(\tau\) on \(X\) is often written as \((X, \tau)\). If \(\tau\) or the fact that we are working with topologies is obvious, then one can refer to \((X, \tau)\) as the &quot;topology on \(X\)&quot;. </p>
+<blockquote>
+<p>NOTE: If there are two sets, \(A = \{1, 2, 3\}\) and \(B = \{2, 3, 4\}\), the notation \(A \backslash B\) &#40;read as &quot;A drop B&quot;&#41; is equal to \(A \backslash B = \{1\}\). This notation is shorthand for \(A \cap B^{c}\). In this case, this set would be known as a closed set under \((X, \tau)\).</p>
+</blockquote>
+<h3 id="examples_of_topologies_on_a_set_x">Examples of Topologies on a Set \(X\)</h3>
+<h4 id="trivial_indiscrete_topology_on_x">Trivial &#40;Indiscrete&#41; Topology on \(X\)</h4>
+<p>If \(X = \{1, 2, 3, 4\}\) then the trivial topology is \(\tau = \{\{\}, \{1, 2, 3, 4\}\} = \{\emptyset, X\}\}\).</p>
+<blockquote>
+<p>NOTE: In this case, \(\tau = \{\emptyset, X\}\}\) is referred to as a &quot;family&quot;. A &quot;family&quot; is a set of subsets for a given set &#40;in this case, \(X\)&#41;.</p>
+</blockquote>
+<h4 id="general_topology_on_x">General Topology on \(X\)</h4>
+<p>If \(X = \{1, 2, 3, 4\}\) then the family \(\tau = \{\emptyset, \{2\}, \{1, 2\}, \{2, 3\}, \{1, 2, 3\}, X\}\) forms another topology.</p>
+<blockquote>
+<p>NOTE: &quot;General&quot; in the header for this section just refers to possible subsets that can be formed out of the set \(X\) to form another topology. Additional subsets could be \(\{1\}, \{1, 4\}\), etc.</p>
+</blockquote>
+<h4 id="the_discrete_topology_of_x">The Discrete Topology of \(X\)</h4>
+<p>If \(x = \{1, 2, 3, 4\}\), the discrete topology of \(X\) is the power set of \(X\) which is the family \(\tau = \wp(X)\). \(\wp(X)\) consists of all possible subsets of \(X\).</p>
+<p>A simple way of calculating the power set of this topology is with the Julia snippet: </p>
+<pre><code class="language-julia">using Combinatorics℘ &#61; powerset
+X &#61; &#91;1, 2, 3, 4&#93;
+℘&#40;X&#41; |&gt; collect</code></pre>
+<p>Which would give the following possible subsets of X:</p>
+<pre><code class="language-julia">&#91;&#93;,
+&#91;1&#93;,
+&#91;2&#93;,
+&#91;3&#93;,
+&#91;4&#93;,
+&#91;1, 2&#93;,
+&#91;1, 3&#93;,
+&#91;1, 4&#93;,
+&#91;2, 3&#93;,
+&#91;2, 4&#93;,
+&#91;3, 4&#93;,
+&#91;1, 2, 3&#93;,
+&#91;1, 2, 4&#93;,
+&#91;1, 3, 4&#93;,
+&#91;2, 3, 4&#93;,
+&#91;1, 2, 3, 4&#93;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>  
   

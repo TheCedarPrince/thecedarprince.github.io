@@ -30,6 +30,59 @@
   <description>
     <![CDATA[  Selection sort utilizes repeated usages of linear searches to  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Selection Sort</h1>
+<p><strong>Date:</strong> December 21 2020</p>
+<p><strong>Summary:</strong> Selection sort utilizes repeated usages of linear searches to</p>
+<p><strong>Keywords:</strong> ##zettel #selection #sort #algorithms #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Technical Definition</li><li>Discussion</li><li>Plain-Word Explanation</li><li>Code Implementation</li></ol></li><li>References</li><li>References</li><li>Discussion</li></ol></div>
+<h3 id="technical_definition">Technical Definition</h3>
+<h3 id="discussion">Discussion</h3>
+<h3 id="plain-word_explanation">Plain-Word Explanation</h3>
+<p>Imagine that I, your humble sorter, is seated in front of 10 cards each with a value between the numbers of 1 - 10. Every single card is face up and is in a line with each card next to the other. I know you want the cards sorted, so what I do, since I am somewhat slow, is look through every single card in that line and find the smallest valued card.</p>
+<p>I take the smallest card and start a new row of cards which are sorted from the smallest valued card to the largest valued card. I then repeat this process and take the next smallest value and put it next to the smallest card I found. I continue this back and forth process until all the cards are sorted. That is tiring, but this method of sorting is called selection sort&#33;</p>
+<h3 id="code_implementation">Code Implementation</h3>
+<pre><code class="language-julia">function selectionsort&#40;arr&#41;
+    sorted &#61; &#91;&#93; # 
+    while length&#40;arr&#41; &gt; 0
+        val &#61; arr&#91;1&#93;
+        ind &#61; 1
+        for curr &#61; 2:length&#40;arr&#41;
+            if arr&#91;curr&#93; &lt; val
+                val &#61; arr&#91;curr&#93;
+                ind &#61; curr
+            end
+        end
+        push&#33;&#40;sorted, val&#41;
+        deleteat&#33;&#40;arr, ind&#41;
+    end
+    return sorted
+end</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion__2">Discussion</h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>  
   
@@ -49,6 +102,48 @@
   <description>
     <![CDATA[  Sorting algorithms take in an array of unsorted data as input  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Sorting Algorithms</h1>
+<p><strong>Date:</strong> December 19 2020</p>
+<p><strong>Summary:</strong> Sorting algorithms take in an array of unsorted data as input</p>
+<p><strong>Keywords:</strong> ##summary #sorting #algorithms #recursion #computer #science #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Common Sorting Algorithms</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="common_sorting_algorithms">Common Sorting Algorithms</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/12192020184137-insertion-sort.md">Insertion Sort</a> -</p>
+</li>
+<li><p><a href="https://jacobzelko.com/12192020184204-merge-sort.md">Merge Sort</a> -</p>
+</li>
+<li><p><a href="https://jacobzelko.com/12212020214025-bubble-sort.md">Bubble Sort</a> -</p>
+</li>
+<li><p><a href="https://jacobzelko.com/12212020214012-selection-sort.md">Selection Sort</a> - Selection sort utilizes repeated usages of linear searches to sort an input.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>  
   

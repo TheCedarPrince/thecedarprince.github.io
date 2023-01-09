@@ -30,6 +30,66 @@
   <description>
     <![CDATA[  Overview of the Waveform Database &#40;WFDB&#41; record format  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>WFDB Record</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Overview of the Waveform Database &#40;WFDB&#41; record format</p>
+<p><strong>Keywords:</strong> ##summary #wfdb #dataformat #storage #healthcare #opensource #standard  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>How It Works</li><li>Example Application - ECG Data</li><li>Miscellaneous Notes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<p>The Waveform Database &#40;WFDB&#41; Library is a record management system to handle already existing databases - it itself is not a database but a collection of tools to handle databases that follow the WFDB format. &#91;1&#93; Furthermore, WFDB can be used for viewing, analyzing, and creating recordings of physiological signals &#91;2&#93;.</p>
+<h3 id="how_it_works">How It Works</h3>
+<p>The way that the WFDB record format works is that it utilizes &#91;pg 1, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> to specify the characteristics of a signal &#40;sampling frequency, etc.&#41;</p>
+</li>
+<li><p><strong>Annotation Files</strong> to record annotations corresponding to a signal &#40;generally kept in time with the rest of the signal&#41;</p>
+</li>
+</ul>
+<h3 id="example_application_-_ecg_data">Example Application - ECG Data</h3>
+<p>For example, when working with ECG data, the format utilizes the header and annotation files as follows &#91;pg 2 - 3, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> - could contain information about lead count, calibration format, etc.</p>
+</li>
+<li><p><strong>Annotation Files</strong> - could contain other information such as beat positions.</p>
+</li>
+</ul>
+<h3 id="miscellaneous_notes">Miscellaneous Notes</h3>
+<ul>
+<li><p>WFDB is considered a standard data format within the research world, and has found application in industry as well.</p>
+</li>
+<li><p>The WFDB format is generally used for ECG records - however, it can extend to other data formats.</p>
+</li>
+<li><p>A possible alternative to the WFDB record format is the European Data Format&#43; &#40;EDF&#43;&#41; &#91;see @garciamartinezLoadingPlottingFiltering2017 for more information&#93;.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
+<p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   

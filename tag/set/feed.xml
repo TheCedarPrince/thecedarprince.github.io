@@ -30,6 +30,98 @@
   <description>
     <![CDATA[  An overview on determining the image of elements, sets, and functions  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Images of Elements, Sets, and Functions</h1>
+<p><strong>Date:</strong> October 15 2022</p>
+<p><strong>Summary:</strong> An overview on determining the image of elements, sets, and functions</p>
+<p><strong>Keywords:</strong> ##summary #image #set #function #element #subset #domain #range #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>The Basics on the Images of Elements<ol><li>Example</li></ol></li><li>The Basics on the Images of Subsets<ol><li>Example</li></ol></li><li>The Basics on the Images of Functions<ol><li>Example</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I wanted to understand more about the ideas of images as an avenue to understand bundles.</p>
+<h3 id="the_basics_on_the_images_of_elements">The Basics on the Images of Elements</h3>
+<p>If there is some element \(x \in X\), and some function \(f\), the image of \(x\) under \(f\) &#40;i.e. the image of the element&#41;, is the value of \(f\) applied to \(x\): </p>
+\[
+im(x) = f(x)
+\]
+<p>In other words, I would read this as</p>
+<blockquote>
+<p>Given some element \(x\), its image is whatever \(f\) maps \(x\) to – the function&#39;s output for \(x\).</p>
+</blockquote>
+<h4 id="example">Example</h4>
+<p>Let \(x = 4\) and \(f : x \rightarrow \sqrt{x}\). What is the image of \(x\)?</p>
+<p>Using the definition:</p>
+\[
+im(x) = f(x)
+\]
+<p>We can then know: </p>
+\[
+im(x) = f(4) = 2
+\]
+<h3 id="the_basics_on_the_images_of_subsets">The Basics on the Images of Subsets</h3>
+<p>Given \(f : X \rightarrow Y\) and \(W \subseteq X\), the image of \(W\) under \(f\) is:</p>
+\[
+im(f(W)) = f(W) = \{f(x) | x \in W \}
+\]
+<p>How I might read this is:</p>
+<blockquote>
+<p>If we have two sets, \(X\) and \(Y\), and a subset \(W \subseteq X\) &#40;a subset of \(X\)&#41; while also having a function that maps values of \(X\) to \(Y\) and we want to know the image of the subset, \(W\), we can have \(f\) operate on each element \(x \in W\). This generates the image of \(W\)&#33;</p>
+</blockquote>
+<h4 id="example__2">Example</h4>
+<p>Let \(X = \mathbb R\), \(Y = +\mathbb R\), \(W = \{1, 2, 3, 4, 5\}\) and \(f : x \rightarrow x^{2}\). What is the image of \(W\) under \(f\)?</p>
+<p>Using the generic definition:</p>
+\[
+im(f(W)) = f(W) = \{f(x) | x \in W \}
+\]
+<p>We can then write the set as follows:</p>
+\[
+im(f(W)) = \{1, 4, 9, 16, 25\}
+\]
+<h3 id="the_basics_on_the_images_of_functions">The Basics on the Images of Functions</h3>
+<p>If we have two sets, \(X\) and \(Y\), and a function \(f : X \rightarrow Y\) which sends \(x \in X\) to \(Y\), the image of this function &#40;denoted \(im(f)\)&#41;, is:</p>
+\[
+im(f) = \{f(x) | x \in X\} \subseteq Y
+\]
+<p>So, what does that mean or how do we read this? In short, I would read this as: </p>
+<blockquote>
+<p>Given \(x\) as an element in \(X\), the image of the function \(f\) are the values that \(x\) is mapped to in \(Y\) via \(f\). Because each value is mapped to the domain \(Y\), those values form a subset of \(Y\).</p>
+</blockquote>
+<p>This explanation may look familiar as the image of a function is actually synonymous to a function&#39;s range&#33; 😱 Typically though, to be a bit more rigorous, the word <em>range</em> is not used in this setting but rather <em>image</em>.</p>
+<h4 id="example__3">Example</h4>
+<p>Let \(X = \mathbb R\), \(Y = +\mathbb R\), and \(f : x \rightarrow x^{2}\). What is the image of \(f\)?</p>
+<p>Using the generic definition:</p>
+\[
+im(f) = \{f(x) | x \in X\} \subseteq Y
+\]
+<p>We can then write the set as follows:</p>
+\[
+im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
+\]
+<p>In this example, based on the definition we have for an \(im(f)\), the \(im(f)\) is all possible outputs that \(f\) can generate which is the <em>range</em> \(+\mathbb R\).</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +141,74 @@
   <description>
     <![CDATA[  A line of questioning to ensure I understand what coproducts and disjoint unions are  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Clarifying Understanding of Coproducts</h1>
+<p><strong>Date:</strong> October 2 2022</p>
+<p><strong>Summary:</strong> A line of questioning to ensure I understand what coproducts and disjoint unions are</p>
+<p><strong>Keywords:</strong> #question #zulip #category #theory #coproducts #disjoint #union #set  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>This is a question to clarify my understand of coproducts as I have largely spent some time in understanding what they are and how to interpret them. </p>
+<h3 id="question">Question</h3>
+<p>Hi everyone,</p>
+<p>I was hoping I could get some clarification on my understanding of coproducts as I <em>believe</em> I have finally wrapped my head around them, but I want to be clear that I do.  To understand coproducts, I started with the set theory definition of a coproduct: </p>
+\[
+\bigcup_{i \in I} \{(x, i): x \in A_{i}\}
+\]
+<p>where \(i \in I\) denotes indexing from some <em>index set</em>, \(I\), using the index term, \(i\) and \(A_{i}\) represents some <em>family of sets</em> indexed by \(i\) and \(x\) is some element of the respective \(A_{i}\) set. Then, based on readings from Category Theory texts, I have gathered that the following is equivalent notation to the formal set theory definition: \(\bigsqcup_{i \in I} A_{i}\).  As an example to make sure I am on the right track, here is a small simple problem and its solution according to my understanding:</p>
+<blockquote>
+<p>Find \(\bigsqcup_{i \in I} A_{i}\) given the following:</p>
+</blockquote>
+<blockquote>
+</blockquote>
+\[
+> I = \{1, 2, 3\}
+> \]
+<blockquote>
+</blockquote>
+\[
+> A = \{\{1, 2, 3\}, \{2, 4, 6\}\}
+> \]
+<blockquote>
+<p>Solution: \(\bigsqcup_{i \in I} A_{i} = \{(1, 1), (2, 1), (3, 1), (2, 2), (4, 2), (6, 2)\}\)</p>
+</blockquote>
+<p>Where I am confused is the following: </p>
+<ol>
+<li><p>What is the difference between \(\bigsqcup_{i \in I} A_{i}\) and \(\coprod_{i \in I} A_{i}\) and \(X_{1} \coprod X_{2}\) syntax notation &#40;the latter notation concerns two specific sets&#41;?</p>
+</li>
+</ol>
+<p>I have seen all notations when referring to coproducts when viewed from both set theory and category theory perspectives. Is it a matter of aesthetic or is there a functional/semantic difference occurring?</p>
+<ol start="2">
+<li><p>I have read that coproducts are also known as disjoint unions.</p>
+</li>
+</ol>
+<p>I read about disjoint unions from a set theory perspective and also a category theory perspective but cannot really discern a functional &#40;i.e. practical&#41; difference from coproducts. Are coproducts and disjoint unions really effectively the same idea?</p>
+<p>Thanks all and let me know if I can clarify anywhere&#33; </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>  
   
@@ -68,6 +228,96 @@
   <description>
     <![CDATA[  An attempt at understanding what are indexed sets and the various forms index sets can take  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Indexed Sets &#40;Or How to Index Sets&#41;</h1>
+<p><strong>Date:</strong> September 30 2022</p>
+<p><strong>Summary:</strong> An attempt at understanding what are indexed sets and the various forms index sets can take</p>
+<p><strong>Keywords:</strong> #set #theory #index #infinite #finite #interval  #archive</p>
+<h1>Bibliography</h1>
+<p>Indexed Sets, &#40;Nov. 27, 2020&#41;. Accessed: Oct. 01, 2022. &#91;Online Video&#93;. Available: https://www.youtube.com/watch?v&#61;ZoR93jR9Ok0</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Building an Intuition for Index Sets<ol><li>Union Example Where \(I\) Is a Finite Set of Integers</li><li>Union Example Where \(I\) Is a Countably Infinite Set of Integers</li><li>Union Example Where \(I\) Is an Interval</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I was very confused about nomenclature concerning indexed sets and how to interpret them.</p>
+<h3 id="building_an_intuition_for_index_sets">Building an Intuition for Index Sets</h3>
+<p>An index set \(I\) can be nearly anything. The following examples build intuition to that statement:</p>
+<h4 id="union_example_where_i_is_a_finite_set_of_integers">Union Example Where \(I\) Is a Finite Set of Integers</h4>
+<p>For example, to build an initial intuition on what an index set actually is, we can imagine it as a set of integers. For the following problem, let&#39;s find the union of three different sets using the index set \(I\): </p>
+<p>Let the following hold:</p>
+\[
+I = \{1, 2, 3\}
+\]
+\[
+A_{1} = \{0, 1, 2, 3, 4, 5\}
+\]
+\[
+A_{2} = \{-3, -2, -1, 0, 1, 2\}
+\]
+\[
+A_{3} = \{-4, -2, 0, 2, 4\}
+\]
+<p>The intersection of these three sets can be denoted as follows: \(\bigcup_{i \in I} A_{i}\). This syntax is also synonymous with the following syntax that may be more easily read: \(\bigcup_{i=1}^{3} A_{i}\).  Either syntax means loosely, &quot;create the union between sets \(A_{1}\) through \(A_{n}\).&quot; The solution to this problem would be:</p>
+\[
+\bigcup_{i \in I} A_{i} = \bigcup_{i=1}^{3} A_{i} = \{-4, -3, -2, -1, 0, 1, 2,3, 4, 5\}
+\]
+<p>.</p>
+<blockquote>
+<p>NOTE: \(A_{1}, A_{2}, A_{3}\) are independent sets and do not form a family of sets.</p>
+</blockquote>
+<h4 id="union_example_where_i_is_a_countably_infinite_set_of_integers">Union Example Where \(I\) Is a Countably Infinite Set of Integers</h4>
+<p>For example, one can also have an index set be infinite&#33; 😱 For the following problem, let&#39;s find the union of three different sets using the index set \(I\): </p>
+<p>Let the following hold:</p>
+\[
+I = \N = \{1, 2, 3, \dots \}
+\]
+\[
+A_{i} = \{-i, 0, i\}
+\]
+<p>In this case, \(A_{i}\) is a condition that prescribes the formation of independent sets.  So from \(A_{i}\) we could get the following sets using the infinite index set, \(I\):</p>
+<p>:\(A*{i} = {-i, 0, i} =  \begin{cases} 	A*{1} = {-1, 0, 1}, i = 1 \
+	A*{2} = {-2, 0, 2}, i = 2 \
+	A*{3} = {-3, 0, 3}, i = 3 \
+	\phantom{––} \dots \end{cases} :\)</p>
+<p>The solution to this is as follows:</p>
+\[
+\bigcup_{i \in I} A_{i} = \bigcup_{i \in 1}^{\N} A_{i} = \Z
+\]
+<h4 id="union_example_where_i_is_an_interval">Union Example Where \(I\) Is an Interval</h4>
+<p>Another form of index sets can be that they emerge over a interval and not discretely defined values – which sounds a bit terrifying at first&#33; 🤯 So, to delve into this, let&#39;s consider:</p>
+<p>Let the following hold true:</p>
+\[
+I = [-1, 1]
+\]
+\[
+A_{i} = \{i\} \times [0, 1]
+\]
+<p>, where \(A_{i}\) is a subset of \(\mathbb R^{2}\) &#40;i.e. \(A_{i} \subseteq R^{2}\)&#41;.</p>
+<p>If we ask what is the union of \(A_{i}\), given that \(I\) is uncountably infinite, the answer would be: </p>
+\[
+\bigcup_{i \in I} A_{i} = [-1, 1] \times [0, 1]
+\]
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>  
   
@@ -87,6 +337,55 @@
   <description>
     <![CDATA[  A simple overview on what a family of sets actually is  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Family of Sets</h1>
+<p><strong>Date:</strong> September 29 2022</p>
+<p><strong>Summary:</strong> A simple overview on what a family of sets actually is</p>
+<p><strong>Keywords:</strong> ##summary #set #family #subset  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Family of Sets</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I am having trouble reading some set theoretic notation. Hoping by gaining better familiarity with family of sets, I can understand notation better. </p>
+<h3 id="family_of_sets">Family of Sets</h3>
+<p>In brief, a family of sets could be the following:</p>
+<p><strong>Definition 1:</strong> A family of sets, \(F\), could be a set of subsets over a set \(X\). An example of this would be the following scenario:</p>
+<p>Let \(X = {1, 2, 3, 4}\)</p>
+\[
+F = \{\{\emptyset\}, \{1, 2 \},\{3, 4\}\}
+\]
+\[
+F
+\]
+<p>is non-exhaustive as there could be more subsets derived from \(X\).</p>
+<p><strong>Definition 2:</strong> A family of sets, \(F\), could be a set of sets where each set is independent from the others. An example of this would be the following scenario:</p>
+<p>Let \(A = \{1, 2, 3\}\), \(B = \{4, 5, 6\}\), and \(C = \{2, 4, 6\}\)</p>
+\[
+F = \{A, B, C\} = \{\{1, 2, 3\}, \{4, 5, 6\}, \{2, 4, 6\}\}
+\]
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>  
   

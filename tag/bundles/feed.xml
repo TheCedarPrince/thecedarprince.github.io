@@ -30,6 +30,38 @@
   <description>
     <![CDATA[  Explaining what bundles or groups are in the context of All-Payer Claims Databases  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Bundles or Groups?</h1>
+<p><strong>Date:</strong> August 5 2021</p>
+<p><strong>Summary:</strong> Explaining what bundles or groups are in the context of All-Payer Claims Databases</p>
+<p><strong>Keywords:</strong> #apcd #bundles #groups #groupers #definition #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Bundles are when you group together medical services to a single price. Often, these bundles proprietary to vendors. To patients, the advantage to this is knowing where costs break down and to find who is charging the least. - Megan Denham</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>  
   

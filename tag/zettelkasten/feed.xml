@@ -30,6 +30,52 @@
   <description>
     <![CDATA[  An overview on the Zettelkasten note taking system as made popular by sociologist Niklas Luhmann.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Zettelkasten</h1>
+<p><strong>Date:</strong> December 2 2022</p>
+<p><strong>Summary:</strong> An overview on the Zettelkasten note taking system as made popular by sociologist Niklas Luhmann.</p>
+<p><strong>Keywords:</strong> ##summary ##zettelkasten #learning #research #tool #archive</p>
+<h1>Bibliography</h1>
+<p>Not available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="selecting_notes_for_a_zettelkasten">Selecting Notes for a Zettelkasten</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria.md">Criteria for Creating a Note in the Zettelkasten</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** Simple criteria for when and how to add notes to the Zettelkasten.
+- **Rationale:** Enumerates a robust system for how to add notes to the Zettelkasten</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03172020033742-antifragility">Antifragility</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** An overview on Nassim Taleb&#39;s thoughts on Antifragility
+- **Rationale:** Zettelkastens should be antifragile -- i.e. they thrive off of disorder and chaos and adapt to it meaningfully.</code></pre>
+<h3 id="a_href03092020031618-zettelkasten-principlesmdprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></h3>
+<pre><code class="language-julia">- **Summary:** General principles on how to create and use a Zettelkasten</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +95,57 @@
   <description>
     <![CDATA[  General principles on how to create and use a Zettelkasten.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Principles of the Zettelkasten</h1>
+<p><strong>Date:</strong> December 2 2022</p>
+<p><strong>Summary:</strong> General principles on how to create and use a Zettelkasten.</p>
+<p><strong>Keywords:</strong> ##zettel #zettelkasten #principles #atomicity #archive</p>
+<h1>Bibliography</h1>
+<p>Not available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ol>
+<li><p>&quot;Principle of Atomicity&quot; – each zettel should contain only one idea &#40;principle credited to Christian Tietze&#41;.</p>
+</li>
+<li><p>Each zettel should be self-contained and understandable as a standalone scrap of thought.</p>
+</li>
+<li><p>Link each zettel and explain why you are linking them together.</p>
+</li>
+<li><p>Reword gathered information in your own words &#40;unless if it is a verbatim quote or something&#41;.</p>
+</li>
+<li><p>Add references to each zettel.</p>
+</li>
+<li><p>Don&#39;t be afraid to add your own ideas to the Zettelkasten – embrace it.</p>
+</li>
+<li><p>Have no fear when it comes to organization – the order will arise organically in the Zettelkasten.</p>
+</li>
+<li><p>Never delete a zettel and don&#39;t worry too much about when you create zettels; the more information the better.</p>
+</li>
+<li><p>Don&#39;t overthink the Zettelkasten. Keep it simple and efficient.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
   
@@ -68,6 +165,46 @@
   <description>
     <![CDATA[  A more in-depth examination of the Zettelkasten method  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity</h1>
+<p><strong>Date:</strong> May 3 2020</p>
+<p><strong>Summary:</strong> A more in-depth examination of the Zettelkasten method</p>
+<p><strong>Keywords:</strong> ##zettel #database #computer #niklasluhmann #zettelkasten  #archive</p>
+<h1>Bibliography</h1>
+<p>J. F. K. Schmidt, Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity, Sociologica, vol. Vol 12, pp. 53-60 Pages, Jul. 2018, doi: 10.6092/ISSN.1971-8853/8350.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<blockquote>
+<p>&quot;As early as in the 1950s to 1960s, Luhmann simulated a modern computer-based database system &#91;...&#93;.&quot; &#40;pg. 59&#41;</p>
+</blockquote>
+<p>I actually think that the Zettelkasten method by Luhmann is distinctly different from a computer database. The reason being, is that this is far more overlapping and far reaching than a discrete system like a simple computer database. One could argue that relations could be made analogous to relational databases but here, the relations are far more abstract than they are in the traditional relational database. If anything, Luhmann&#39;s Zettelkasten is more similar to a graph-type system - such as a knowledge graph - than a database </p>
+<blockquote>
+<p>&quot;Luhmann&#39;s card index allows the production of new and often unexpected knowledge by relating concepts and thoughts that do not have much in common at first sight &#91;...&#93; &#91;I&#93;t makes &#91;...&#93; serendipity possible in a systemically and theoretically informed way.&quot; &#40;pg. 54&#41;</p>
+</blockquote>
+<p>The power of the Zettelkasten comes from these accidental connections. Very similar to how one may spread out pieces of paper on a table and make a new connection, so does this method simulate it in very much the same way.</p>
+<p>Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as <a href="https://jacobzelko.com/03092020022908-education-spectrum.md">knowledge falls across a spectrum.</a> &#40;pg. 56&#41;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +224,58 @@
   <description>
     <![CDATA[  Simple criteria for when and how to add notes to the Zettelkasten  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Criteria for Creating a Note in the Zettelkasten</h1>
+<p><strong>Date:</strong> March 30 2020</p>
+<p><strong>Summary:</strong> Simple criteria for when and how to add notes to the Zettelkasten</p>
+<p><strong>Keywords:</strong> ##zettel #zettelkasten #information #knowledge #criteria #questions #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Selecting Information for a Zettel</li><li>Zettel Creation</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="selecting_information_for_a_zettel">Selecting Information for a Zettel</h3>
+<ul>
+<li><p>Does this not add to the overall nature of the Zettelkasten? &#91;1&#93;</p>
+</li>
+<li><p>What sort of topics could this open in the Zettelkasten? Are these topics you are willing to invest into? &#91;1&#93;</p>
+</li>
+<li><p>Where does this new note possibly fit into in the rest of the conversation with your Zettelkasten? &#91;1&#93;</p>
+</li>
+<li><p>Can this information be added to an already existing Zettel or theme? &#91;1&#93;</p>
+</li>
+</ul>
+<h3 id="zettel_creation">Zettel Creation</h3>
+<ul>
+<li><p>Do you have enough information do write a new zettel?&#91;1&#93;</p>
+</li>
+<li><p>Do you understand the information enough in the zettel you are creating? &#91;1&#93;</p>
+</li>
+<li><p>Each Zettel should fit onto a screen.  &#91;1&#93;</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -106,6 +295,42 @@
   <description>
     <![CDATA[  Takeaways from the book How to Take Smart Notes  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>How to Take Smart Notes</h1>
+<p><strong>Date:</strong> March 29 2020</p>
+<p><strong>Summary:</strong> Takeaways from the book How to Take Smart Notes</p>
+<p><strong>Keywords:</strong> ##bibliography #knowledge #notetaking #zettelkasten #mentalmodels #writing #blog #archive</p>
+<h1>Bibliography</h1>
+<p>S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Quotes from the Book:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>This was overall a book on knowledge management – in particular, how to take, digest, and use the notes we make while reading material, listening to lectures, or absorb knowledge in general. Sonke Ahrens, the author of the book, also gave a rather in-depth overview of the Zettelkasten method created by sociologist Niklas Luhmann. I found the book useful in giving legitimately very good advice on note-taking, great anecdotes to illustrate his point, and also assistance on using the Zettelkasten method. </p>
+<p>Furthermore, Ahrens made an interesting point saying that if you are approaching writing where you start with just a blank page, you are missing the point. When you approach a blank page, it <em>ought</em> not feel blank but rather the place to put your notes and ideas together that you have been collecting about a particular topic. Ahrens believes that fundamental teachings about how to write long-form papers are wrong in that they do not start with the most crucial aspect of the writing process – free form thought. And free form thought, when investigating a topic, is best captured using a global sort of note taking method like the Zettelkasten.</p>
+<h3 id="quotes_from_the_book">Quotes from the Book:</h3>
+<pre><code class="language-julia">&quot;Every intellectual endeavour starts with a note&quot; &#91;pg 8&#93;&quot;We only write if it helps us with our own thinking.&quot; &#91;pg 101&#93;</code></pre>
+<p>These two quotes get at the idea that when we write and create notes, we are not only creating notes but also playing with ideas and digesting them into our minds.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,88 @@
   <description>
     <![CDATA[  A great summary of how telehealth interventions can be used both in the COVID-19 pandemic and in general  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Telehealth for global emergencies: Implications for coronavirus disease 2019 &#40;COVID-19&#41;</h1>
+<p><strong>Date:</strong> May 2 2022</p>
+<p><strong>Summary:</strong> A great summary of how telehealth interventions can be used both in the COVID-19 pandemic and in general</p>
+<p><strong>Keywords:</strong> ##bibliography #covid #telehealth #clinician #unwillingness #remittance #archive</p>
+<h1>Bibliography</h1>
+<p>A. C. Smith et al., “Telehealth for global emergencies: Implications for coronavirus disease 2019 &#40;COVID-19&#41;,” J Telemed Telecare, vol. 26, no. 5, pp. 309–313, Jun. 2020, doi: 10.1177/1357633X20916567.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Systems for Telehealth Interventions</li><li>Challenges to Telehealth</li><li>Opportunities for Telehealth</li><li>Concluding Thoughts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>An overview of how telehealth interventions could and should be deployed during the COVID-19 pandemic. Really excellent read in my opinion that goes beyond just the COVID-19 pandemic but rather can be taken and applied elsewhere in the telehealth landscape. In particular, their conclusions were interesting as well as their discussion on clinician unwillingness.</p>
+<h3 id="systems_for_telehealth_interventions">Systems for Telehealth Interventions</h3>
+<ul>
+<li><p>NATO created Multinational Telemedicine System in 2000</p>
+</li>
+<li><p>American Telemedicine Association Emergency and Response framework and infrastructure checklist &#91;1&#93;</p>
+</li>
+</ul>
+<h3 id="challenges_to_telehealth">Challenges to Telehealth</h3>
+<ul>
+<li><p>Clinician unwillingness to use telehealth &#91;2&#93;</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Despite high funding in Australia, less than 1&#37; of specialist consultations were telehealth-based &#91;3&#93;
+- Clinicians must see telehealth interventions as normal &#91;2&#93;</code></pre>
+<ul>
+<li><p>Renumeration is important but is not the only thing that leads to a successful telehealth intervention</p>
+</li>
+<li><p>Some care cannot be provided remotely</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Such as lab tests
+- Some physical examinations</code></pre>
+<h3 id="opportunities_for_telehealth">Opportunities for Telehealth</h3>
+<ul>
+<li><p>Advantages of telehealth</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Activate large number of care providers at once
+- Enable better triage
+- Provide care services when provider locations are unavailable
+- Reduce person-to-person contact of disease transmission</code></pre>
+<h3 id="concluding_thoughts">Concluding Thoughts</h3>
+<p>How to realize a successful telehealth intervention alongside medical professionals according to this paper:</p>
+<ul>
+<li><p>Provide telehealth training</p>
+</li>
+<li><p>Create telehealth accreditation</p>
+</li>
+<li><p>Ensure proper funding</p>
+</li>
+<li><p>Structure care models to incorporate telehealth as a core foundation</p>
+</li>
+<li><p>Communicate to all stakeholders the best mode that they will receive</p>
+</li>
+<li><p>Incorporate routine evaluation and management of telehealth interventions</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; C. R. Doarn and R. C. Merrell, “Telemedicine and e-health in disaster response,” vol. 20. Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA, pp. 605–606, 2014.</p>
+<p>&#91;2&#93; V. A. Wade, J. A. Eliott, and J. E. Hiller, “Clinician acceptance is the key factor for sustainable telehealth services,” Qual. Health Res., vol. 24, no. 5, pp. 682–694, 2014.</p>
+<p>&#91;3&#93; V. Wade, J. Soar, and L. Gray, “Uptake of telehealth services funded by Medicare in Australia,” Aust. Health Rev., vol. 38, no. 5, pp. 528–532, 2014.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
   

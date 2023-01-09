@@ -30,6 +30,74 @@
   <description>
     <![CDATA[  A line of questioning to ensure I understand what coproducts and disjoint unions are  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Clarifying Understanding of Coproducts</h1>
+<p><strong>Date:</strong> October 2 2022</p>
+<p><strong>Summary:</strong> A line of questioning to ensure I understand what coproducts and disjoint unions are</p>
+<p><strong>Keywords:</strong> #question #zulip #category #theory #coproducts #disjoint #union #set  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>This is a question to clarify my understand of coproducts as I have largely spent some time in understanding what they are and how to interpret them. </p>
+<h3 id="question">Question</h3>
+<p>Hi everyone,</p>
+<p>I was hoping I could get some clarification on my understanding of coproducts as I <em>believe</em> I have finally wrapped my head around them, but I want to be clear that I do.  To understand coproducts, I started with the set theory definition of a coproduct: </p>
+\[
+\bigcup_{i \in I} \{(x, i): x \in A_{i}\}
+\]
+<p>where \(i \in I\) denotes indexing from some <em>index set</em>, \(I\), using the index term, \(i\) and \(A_{i}\) represents some <em>family of sets</em> indexed by \(i\) and \(x\) is some element of the respective \(A_{i}\) set. Then, based on readings from Category Theory texts, I have gathered that the following is equivalent notation to the formal set theory definition: \(\bigsqcup_{i \in I} A_{i}\).  As an example to make sure I am on the right track, here is a small simple problem and its solution according to my understanding:</p>
+<blockquote>
+<p>Find \(\bigsqcup_{i \in I} A_{i}\) given the following:</p>
+</blockquote>
+<blockquote>
+</blockquote>
+\[
+> I = \{1, 2, 3\}
+> \]
+<blockquote>
+</blockquote>
+\[
+> A = \{\{1, 2, 3\}, \{2, 4, 6\}\}
+> \]
+<blockquote>
+<p>Solution: \(\bigsqcup_{i \in I} A_{i} = \{(1, 1), (2, 1), (3, 1), (2, 2), (4, 2), (6, 2)\}\)</p>
+</blockquote>
+<p>Where I am confused is the following: </p>
+<ol>
+<li><p>What is the difference between \(\bigsqcup_{i \in I} A_{i}\) and \(\coprod_{i \in I} A_{i}\) and \(X_{1} \coprod X_{2}\) syntax notation &#40;the latter notation concerns two specific sets&#41;?</p>
+</li>
+</ol>
+<p>I have seen all notations when referring to coproducts when viewed from both set theory and category theory perspectives. Is it a matter of aesthetic or is there a functional/semantic difference occurring?</p>
+<ol start="2">
+<li><p>I have read that coproducts are also known as disjoint unions.</p>
+</li>
+</ol>
+<p>I read about disjoint unions from a set theory perspective and also a category theory perspective but cannot really discern a functional &#40;i.e. practical&#41; difference from coproducts. Are coproducts and disjoint unions really effectively the same idea?</p>
+<p>Thanks all and let me know if I can clarify anywhere&#33; </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>  
   

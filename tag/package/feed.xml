@@ -30,6 +30,43 @@
   <description>
     <![CDATA[  An overview of important components from Haskell&#39;s standard  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Prelude - Haskell&#39;s Standard Library</h1>
+<p><strong>Date:</strong> November 3 2021</p>
+<p><strong>Summary:</strong> An overview of important components from Haskell&#39;s standard</p>
+<p><strong>Keywords:</strong> #library #package #standard #prelude #haskell #programming #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="identity_function">Identity Function</h3>
+<p><code>id</code> returns the argument it is given:</p>
+<pre><code class="language-haskell">-- Using Prelude to declare the identity function
+-- &#96;a&#96; is a type variable and stands in for all types
+id :: a -&gt; a-- Definition of the function
+id x &#61; x</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +86,50 @@
   <description>
     <![CDATA[  Useful state of the art package for reproducing R projects  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>renv - Reproducible Environments in R</h1>
+<p><strong>Date:</strong> February 8 2021</p>
+<p><strong>Summary:</strong> Useful state of the art package for reproducing R projects</p>
+<p><strong>Keywords:</strong> #zettel #r #programming #package #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>General Workflow When Working with <code>renv</code></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="general_workflow_when_working_with_renv">General Workflow When Working with <code>renv</code></h3>
+<ol>
+<li><p>Call <code>renv::init&#40;&#41;</code> to initialize a new project-local environment with a private R library,</p>
+</li>
+<li><p>Work in the project as normal, installing and removing new R packages as they are needed in the project,</p>
+</li>
+<li><p>Call <code>renv::snapshot&#40;&#41;</code> to save the state of the project library to the lockfile &#40;called <code>renv.lock</code>&#41;,</p>
+</li>
+<li><p>Continue working on your project, installing and updating R packages as needed.</p>
+</li>
+<li><p>Call <code>renv::snapshot&#40;&#41;</code> again to save the state of your project library if your attempts to update R packages were successful, or call <code>renv::restore&#40;&#41;</code> to revert to the previous state as encoded in the lockfile if your attempts to update packages introduced some new problems.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
   

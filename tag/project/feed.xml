@@ -30,6 +30,382 @@
   <description>
     <![CDATA[  Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Achieving an Undergraduate Level Understanding of Graph Theory</h1>
+<p><strong>Date:</strong> December 31 2022</p>
+<p><strong>Summary:</strong> Ultralearning project to learn the equivalent of an undergraduate maths of computer science student understanding of graph theory.</p>
+<p><strong>Keywords:</strong> #zettel #ultralearning #graph #theory #project #archive #blog</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><ol><li><ol><li>Procedures</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3>Motivation</h3>
+<p>I have always found graph theory interesting ever since I was exposed to it back in my undergraduate studies at Georgia Tech. I found out about it through SIR Modeling but personally found the structure of graphs far more fascinating than its application to SIR models. Furthermore, as I intend to be pursuing graduate studies in applied mathematics, why not get started with trying to understand it?</p>
+<h3>Project Goals</h3>
+<p>This process is adapted from the <a href="https://jacobzelko.com/07082020163004-ultralearning.md">Ultralearning framework posited by Scott Young</a>.</p>
+<h4>What Am I Doing?</h4>
+<p>Gain an undergraduate level of understanding of graph theory on par with maths and computer science students.</p>
+<h5>Concepts</h5>
+<ul>
+<li><p>Basic concepts:</p>
+<ul>
+<li><p>Definition of a graph and its components:</p>
+<ul>
+<li><p>Understand the components of a graph and the differences between directed and undirected graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Subgraphs and isomorphism:</p>
+<ul>
+<li><p>Understand the definitions of subgraphs and isomorphism and be able to identify and compare them in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Directed graphs:</p>
+<ul>
+<li><p>Understand the definition of a directed graph and be able to represent it using adjacency and incidence matrices.</p>
+</li>
+</ul>
+</li>
+<li><p>Graphs and their properties:</p>
+<ul>
+<li><p>Understand various properties of graphs and be able to apply them to analyze and classify different types of graphs.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Connectivity:</p>
+<ul>
+<li><p>Paths and circuits:</p>
+<ul>
+<li><p>Understand the definitions of paths and circuits and be able to identify and construct them in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Connectedness and components:</p>
+<ul>
+<li><p>Understand the concept of connectedness and be able to determine whether a graph is connected or disconnected.</p>
+</li>
+<li><p>Understand the concept of graph components and be able to identify them in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Distance in graphs:</p>
+<ul>
+<li><p>Understand the concept of distance between vertices and be able to compute it using various measures.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Trees:</p>
+<ul>
+<li><p>Trees and their properties:</p>
+<ul>
+<li><p>Understand the definition of a tree and be able to identify and distinguish trees from other types of graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Rooted trees and binary trees:</p>
+<ul>
+<li><p>Understand the concept of rooted trees and be able to construct and manipulate them.</p>
+</li>
+<li><p>Understand the concept of binary trees and be able to construct and manipulate them.</p>
+</li>
+</ul>
+</li>
+<li><p>Spanning trees</p>
+</li>
+</ul>
+</li>
+<li><p>Matrix representations of graphs:</p>
+<ul>
+<li><p>Adjacency matrices:</p>
+<ul>
+<li><p>Understand the concept of an adjacency matrix and be able to represent a graph using an adjacency matrix.</p>
+</li>
+</ul>
+</li>
+<li><p>Incidence matrices:</p>
+<ul>
+<li><p>Understand the concept of an incidence matrix and be able to represent a graph using an incidence matrix.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Graph algorithms:</p>
+<ul>
+<li><p>Breadth-first search:</p>
+<ul>
+<li><p>Understand the concept of breadth-first search and be able to implement it to traverse a graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Depth-first search:</p>
+<ul>
+<li><p>Understand the concept of depth-first search and be able to implement it to traverse a graph.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Planar graphs:</p>
+<ul>
+<li><p>Planar graphs and their properties:</p>
+<ul>
+<li><p>Understand the definition of a planar graph and the properties that distinguish planar graphs from other types of graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Euler&#39;s formula:</p>
+<ul>
+<li><p>Understand Euler&#39;s formula and be able to apply it to analyze the structure of planar graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Dual graphs:</p>
+<ul>
+<li><p>Understand the concept of a dual graph and be able to construct the dual of a given planar graph.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Coloring graphs:</p>
+<ul>
+<li><p>Vertex coloring:</p>
+<ul>
+<li><p>Understand the concept of vertex coloring and be able to color the vertices of a given graph according to various coloring schemes.</p>
+</li>
+</ul>
+</li>
+<li><p>Edge coloring:</p>
+<ul>
+<li><p>Understand the concept of edge coloring and be able to color the edges of a given graph according to various coloring schemes.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Matchings and factors:</p>
+<ul>
+<li><p>Matchings:</p>
+<ul>
+<li><p>Understand the concept of a matching in a graph and be able to identify and construct matchings in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Factors:</p>
+<ul>
+<li><p>Understand the concept of a factor in a graph and be able to identify and construct factors in a given graph.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>More advanced topics:</p>
+<ul>
+<li><p>Hamiltonian cycles:</p>
+<ul>
+<li><p>Understand the concept of a Hamiltonian cycle and be able to identify and construct Hamiltonian cycles in a given graph.</p>
+</li>
+</ul>
+</li>
+<li><p>Network flows:</p>
+<ul>
+<li><p>Understand the concept of network flows and be able to model and analyze flow problems in graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Graphs and groups:</p>
+<ul>
+<li><p>Understand the connection between graphs and group theory, and be able to apply group-theoretic techniques to analyze graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Graphs and logic:</p>
+<ul>
+<li><p>Understand the connection between graphs and logic, and be able to apply logical techniques to analyze graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Graphs and geometry:</p>
+<ul>
+<li><p>Understand the connection between graphs and geometry, and be able to apply geometric techniques to analyze graphs.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5>Facts</h5>
+<ul>
+<li><p>Definition of a graph and its components:</p>
+<ul>
+<li><p>Vertices &#40;also called nodes&#41;.</p>
+</li>
+<li><p>Edges.</p>
+</li>
+<li><p>Weights.</p>
+</li>
+<li><p>Labels.</p>
+</li>
+</ul>
+</li>
+<li><p>Subgraphs and isomorphism.</p>
+</li>
+<li><p>Directed graphs and their representations:</p>
+<ul>
+<li><p>Adjacency matrices.</p>
+</li>
+<li><p>Incidence matrices.</p>
+</li>
+</ul>
+</li>
+<li><p>Graph properties:</p>
+<ul>
+<li><p>Connected/disconnected.</p>
+</li>
+<li><p>Bipartite/not bipartite.</p>
+</li>
+<li><p>Cyclic/acyclic.</p>
+</li>
+</ul>
+</li>
+<li><p>Paths and circuits.</p>
+</li>
+<li><p>Connectedness and components.</p>
+</li>
+<li><p>Distance between vertices.</p>
+</li>
+<li><p>Trees:</p>
+<ul>
+<li><p>Definition.</p>
+</li>
+<li><p>Unique path between vertices.</p>
+</li>
+<li><p>Root vertex.</p>
+</li>
+<li><p>Branches.</p>
+</li>
+</ul>
+</li>
+<li><p>Additional topics:</p>
+<ul>
+<li><p>Matrix representations:</p>
+<ul>
+<li><p>Adjacency matrices.</p>
+</li>
+<li><p>Incidence matrices.</p>
+</li>
+</ul>
+</li>
+<li><p>Graph algorithms:</p>
+<ul>
+<li><p>Breadth-first search.</p>
+</li>
+<li><p>Depth-first search.</p>
+</li>
+</ul>
+</li>
+<li><p>Planar graphs and their properties:</p>
+<ul>
+<li><p>Definition of a planar graph.</p>
+</li>
+<li><p>Properties that distinguish planar graphs from other types of graphs.</p>
+</li>
+<li><p>Euler&#39;s formula.</p>
+</li>
+<li><p>Dual graphs.</p>
+</li>
+</ul>
+</li>
+<li><p>Tree properties:</p>
+<ul>
+<li><p>Rooted trees.</p>
+</li>
+<li><p>Binary trees.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="procedures">Procedures</h5>
+<ol>
+<li><p>Representing graphs using different notations &#40;e.g. adjacency lists, adjacency matrices, incidence matrices&#41;.</p>
+</li>
+<li><p>Traversing graphs using different algorithms &#40;e.g. breadth-first search, depth-first search&#41;.</p>
+</li>
+<li><p>Analyzing the properties of graphs &#40;e.g. connectedness, bipartiteness, acyclicity&#41;.</p>
+</li>
+<li><p>Finding paths and circuits in graphs.</p>
+</li>
+<li><p>Identifying and constructing different types of trees &#40;e.g. rooted trees, binary trees&#41;.</p>
+</li>
+<li><p>Coloring the vertices or edges of a graph according to various coloring schemes &#40;e.g. vertex coloring, edge coloring&#41;.</p>
+</li>
+<li><p>Finding matchings and factors in graphs.</p>
+</li>
+<li><p>Identifying and constructing Hamiltonian cycles in graphs.</p>
+</li>
+<li><p>Modeling and analyzing flow problems in graphs using network flows.</p>
+</li>
+<li><p>Applying group-theoretic and logical techniques to analyze graphs.</p>
+</li>
+<li><p>Applying geometric techniques to analyze graphs.</p>
+</li>
+</ol>
+<h3 id="roadmap">Roadmap</h3>
+<p>This is based on the Meta Learning step Young described as well as some additional tweaks of my own:</p>
+<ul>
+<li><p><strong>Outcomes:</strong> The knowledge and abilities you’ll need to acquire for success.</p>
+</li>
+<li><p><strong>Rationale:</strong> Know exactly why you want to learn a skill or subject.</p>
+</li>
+<li><p><strong>Resources:</strong> The resources you’ll use when learning.</p>
+</li>
+<li><p><strong>Done:</strong> If this task has been completed &#40;X&#41; or not yet &#40;cell is empty&#41;</p>
+</li>
+</ul>
+<table><tr><th align="right">Done</th><th align="right">Topic</th><th align="right">Resources</th><th align="right">Outcomes</th></tr><tr><td align="right"></td><td align="right">Definition of a graph and its components</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Graph components; differences between directed and undirected graphs</td></tr><tr><td align="right"></td><td align="right">Subgraphs and isomorphism</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Subgraphs; isomorphism; identify and compare given graphs</td></tr><tr><td align="right"></td><td align="right">Directed graphs</td><td align="right">&#91;1&#93;</td><td align="right">Directed graph; representation using adjacency and incidence matrices</td></tr><tr><td align="right"></td><td align="right">Graphs and their properties</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Properties of graphs; analyze; classify different types of graphs</td></tr><tr><td align="right"></td><td align="right">Paths and circuits</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Paths and circuits; identify and construct given graph</td></tr><tr><td align="right"></td><td align="right">Connectedness and components</td><td align="right">&#91;1&#93;</td><td align="right">Determine if graph is connected; identify graph components</td></tr><tr><td align="right"></td><td align="right">Distance in graphs</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Vertex distances; compute vertex distances</td></tr><tr><td align="right"></td><td align="right">Trees and their properties</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Tree definitions; identify trees; distinguish trees</td></tr><tr><td align="right"></td><td align="right">Rooted trees and binary trees</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Rooted trees; construct and manipulate rooted trees</td></tr><tr><td align="right"></td><td align="right">Adjacency matrices</td><td align="right">&#91;1&#93;</td><td align="right">Adjacency matrix concept; representation of adjacency matrix</td></tr><tr><td align="right"></td><td align="right">Incidence matrices</td><td align="right">&#91;1&#93;</td><td align="right">Incidence matrix concept; representation of incidence graphs</td></tr><tr><td align="right"></td><td align="right">Breadth-first search</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Breadth-first search concept; graph traversal</td></tr><tr><td align="right"></td><td align="right">Depth-first search</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Depth-first search concept; graph traversal</td></tr><tr><td align="right"></td><td align="right">Planar graphs and their properties</td><td align="right">&#91;1&#93;</td><td align="right">Planar graph definition; properties</td></tr><tr><td align="right"></td><td align="right">Euler&#39;s formula</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Euler&#39;s formula; structure of planar graphs</td></tr><tr><td align="right"></td><td align="right">Dual graphs</td><td align="right">&#91;1&#93;</td><td align="right">Dual graph concept; construction of dual graph</td></tr><tr><td align="right"></td><td align="right">Vertex coloring</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Vertex coloring concept; coloring of graph vertices</td></tr><tr><td align="right"></td><td align="right">Edge coloring</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Edge coloring concept; coloring of graph edges</td></tr><tr><td align="right"></td><td align="right">Matchings</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Matching concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Factors</td><td align="right">&#91;1&#93;</td><td align="right">Factor concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Hamiltonian cycles</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Hamiltonian cycle concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Network flows</td><td align="right">&#91;1&#93;</td><td align="right">Network flow concept; modeling and analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and groups</td><td align="right">&#91;2&#93;</td><td align="right">Graph and group theory connection; analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and logic</td><td align="right">&#91;2&#93;</td><td align="right">Graph and logic connection; analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and geometry</td><td align="right">&#91;2&#93;</td><td align="right">Graph and geometry connection; analysis</td></tr></table>
+<p>This table describes the very broad topics, resources I&#39;ll use, and the expected learning outcomes for each topic.  As I progress through this table, I will add an &quot;X&quot; to each row I have studied. Furthermore, the table is ordered by level of difficulty with &quot;Definition of a graph and its components&quot; being the first topic I should learn and &quot;Graphs and geometry&quot; being the more advanced topics I should study. The topics and resources here are based on &#91;1&#93; and &#91;2&#93; with potentially more resources to add in the future.</p>
+<table><tr><th align="right">Done</th><th align="right">Skill Level</th><th align="right">Topic</th><th align="right">Concept</th></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Paths</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Cycles</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Subgraphs</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Isomorphism</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Trees</td><td align="right">Spanning trees</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Connectivity</td><td align="right">Max-flow Min-cut theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Connectivity</td><td align="right">Menger&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Eulerian and Hamiltonian graphs</td><td align="right">Eulerian and Hamiltonian graphs</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Matchings</td><td align="right">Hall&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Matchings</td><td align="right">Tutte&#39;s 1-factor theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Colorings</td><td align="right">Greedy coloring</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Colorings</td><td align="right">Chromatic polynomial</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Planar graphs</td><td align="right">Euler&#39;s formula</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Planar graphs</td><td align="right">Kuratowski&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Planar graphs</td><td align="right">Equivalents of the 4-color theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Ramsey theory</td><td align="right">Ramsey&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Structure of 1-, 2-, 3-connected graphs</td><td align="right">Blocks</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Structure of 1-, 2-, 3-connected graphs</td><td align="right">Ear-decomposition</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Structure of 1-, 2-, 3-connected graphs</td><td align="right">Contractible edges</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Perfect graphs</td><td align="right">Bipartite graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Perfect graphs</td><td align="right">Comparability graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Tutte&#39;s synthesis of 3-connected graphs</td><td align="right">Tutte&#39;s synthesis of 3-connected graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Systems of distinct representatives</td><td align="right">Systems of distinct representatives</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Matching polytope</td><td align="right">Matching polytope</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Chinese postman problem</td><td align="right">Chinese postman problem</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Dual graphs</td><td align="right">Dual graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Graphs on surfaces</td><td align="right">Graphs on surfaces</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Highly chromatic graphs of large girth</td><td align="right">Highly chromatic graphs of large girth</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Vizing&#39;s theorem</td><td align="right">Vizing&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Erdos-de Bruijn compactness theorem</td><td align="right">Erdos-de Bruijn compactness theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Line graphs of bipartite graphs</td><td align="right">Line graphs of bipartite graphs</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Chordal graphs</td><td align="right">Chordal graphs</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Complements of the above</td><td align="right">Complements of the above</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Perfect Graph Theorem</td><td align="right">Perfect Graph Theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Dilworth&#39;s theorem</td><td align="right">Dilworth&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Applications of Ramsey&#39;s theorem</td><td align="right">Applications of Ramsey&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Lower bound for Ramsey numbers</td><td align="right">Lower bound for Ramsey numbers</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Properties of random graphs</td><td align="right">Properties of random graphs</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Threshold functions</td><td align="right">Threshold functions</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">0-1 law</td><td align="right">0-1 law</td></tr></table>
+<p>This table gets more into exact topics and concepts to master. They have an associated difficult level and overall topic.  Moreover, this a synthesis of concepts and topics to be covered based on class outlines from:</p>
+<ul>
+<li><p>COMS W4203: Introduction to Graph Theory &#40;taught by Timothy Sun at Columbia University&#41;</p>
+</li>
+<li><p>MATH 6014: Graph Theory &#40;taught at Georgia Institute of Technology&#41;</p>
+</li>
+<li><p>MATH 4022: Introduction to Graph Theory &#40;taught at Georgia Institute of Technology&#41;</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Trudeau, Introduction to Graph Theory, Dover. DOVER PUBLICATIONS, INC., 1994.</p>
+<p>&#91;2&#93; N. Hartsfield and Ringel, Pearls in Graph Theory A Comprehensive Introduction. DOVER PUBLICATIONS, INC., 1994.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +425,75 @@
   <description>
     <![CDATA[  DrWatson is a strong tool for encouraging reproducible science and enforces good project management.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>DrWatson.jl</h1>
+<p><strong>Date:</strong> October 10 2020</p>
+<p><strong>Summary:</strong> DrWatson is a strong tool for encouraging reproducible science and enforces good project management.</p>
+<p><strong>Keywords:</strong> ##zettel #julialang #project #management #reproducible #science #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Today, I spent some time learning about DrWatson.jl. I have always wanted to use the project and now I finally have a reason to work with it&#33; I enjoyed the default layout provided by DrWatson - here are some general thoughts on the matter.</p>
+<p>The project directory provided by DrWatson is automatically setup. The defaults are quite nice and I did not change anything except for ignoring the data files:</p>
+<pre><code class="language-julia">│projectdir          &lt;- Project&#39;s main folder. It is initialized as a Git
+│                       repository with a reasonable .gitignore file.
+│
+├── _research        &lt;- WIP scripts, code, notes, comments,
+│   |                   to-dos and anything in an alpha state.
+│   └── tmp          &lt;- Temporary data folder.
+│
+├── data             &lt;- **Immutable and add-only&#33;**
+│   ├── sims         &lt;- Data resulting directly from simulations.
+│   ├── exp_pro      &lt;- Data from processing experiments.
+│   └── exp_raw      &lt;- Raw experimental data.
+│
+├── plots            &lt;- Self-explanatory.
+├── notebooks        &lt;- Jupyter, Weave or any other mixed media notebooks.
+│
+├── papers           &lt;- Scientific papers resulting from the project.
+│
+├── scripts          &lt;- Various scripts, e.g. simulations, plotting, analysis,
+│   │                   The scripts use the &#96;src&#96; folder for their base code.
+│   └── intro.jl     &lt;- Simple file that uses DrWatson and uses its greeting.
+│
+├── src              &lt;- Source code for use in this project. Contains functions,
+│                       structures and modules that are used throughout
+│                       the project and in multiple scripts.
+│
+├── README.md        &lt;- Optional top-level README for anyone using this project.
+├── .gitignore       &lt;- by default ignores _research, data, plots, videos,
+│                       notebooks and latex-compilation related files.
+│
+├── Manifest.toml    &lt;- Contains full list of exact package versions used currently.
+└── Project.toml     &lt;- Main project file, allows activation and installation.
+                        Includes DrWatson by default.</code></pre>
+<p>I started DrWatson up in my Julia REPL and ran the following as I already had a git repo set-up and files in the repo:</p>
+<pre><code class="language-julia">using DrWatson
+initialize_project&#40;&quot;NeuriViz&quot;; authors &#61; &#91;&quot;Jacob Zelko&quot;, &quot;Zachary P Christensen&quot;&#93;, force &#61; false, git &#61; false, placeholder &#61; true&#41;</code></pre>
+<p>It set up the structure I needed and was quite easy to use. DrWatson was created by George Datseris.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>  
   

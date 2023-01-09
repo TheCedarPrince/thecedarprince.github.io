@@ -30,6 +30,68 @@
   <description>
     <![CDATA[  An overview of the Virginia All-Payers Claim Database  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Virginia All-Payers Claim Database</h1>
+<p><strong>Date:</strong> August 3 2021</p>
+<p><strong>Summary:</strong> An overview of the Virginia All-Payers Claim Database</p>
+<p><strong>Keywords:</strong> #apcd #virginia ##summary #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Recommendations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="recommendations">Recommendations</h3>
+<ul>
+<li><p>Using standards made with stakeholders significantly increased use of the All Payer Claims Database</p>
+</li>
+<li><p>Promote ability to analyze big claims data at population level.</p>
+</li>
+</ul>
+<blockquote>
+<p>IDEA: This really seems like we could off load a lot of processing to other tools.</p>
+</blockquote>
+<p>No need to reinvent the wheel when I think we have a lot of the tools here like in OHDSI.</p>
+<ul>
+<li><p>Actively review data quality impacts.</p>
+</li>
+</ul>
+<blockquote>
+<p>QUESTION: I wonder what they mean by data quality metrics?</p>
+</blockquote>
+<ul>
+<li><p>Develop and adhere to a regular data update schedule</p>
+</li>
+<li><p>Consider using the Common Data Layout</p>
+</li>
+<li><p>Know about ERISA limitations on private self-insured employer plans</p>
+</li>
+<li><p>Get federal matching funds to support operation.</p>
+</li>
+<li><p>Know what All-Payers Claim Database data can do well and what it cannot.</p>
+</li>
+</ul>
+<p>&#40;The Commonwealth Fund&#41;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>  
   

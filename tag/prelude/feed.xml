@@ -30,6 +30,43 @@
   <description>
     <![CDATA[  An overview of important components from Haskell&#39;s standard  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Prelude - Haskell&#39;s Standard Library</h1>
+<p><strong>Date:</strong> November 3 2021</p>
+<p><strong>Summary:</strong> An overview of important components from Haskell&#39;s standard</p>
+<p><strong>Keywords:</strong> #library #package #standard #prelude #haskell #programming #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="identity_function">Identity Function</h3>
+<p><code>id</code> returns the argument it is given:</p>
+<pre><code class="language-haskell">-- Using Prelude to declare the identity function
+-- &#96;a&#96; is a type variable and stands in for all types
+id :: a -&gt; a-- Definition of the function
+id x &#61; x</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,55 @@
   <description>
     <![CDATA[  The bible of OHDSI detailing how to work with the OHDSI research network.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>The Book of OHDSI</h1>
+<p><strong>Date:</strong> May 16 2021</p>
+<p><strong>Summary:</strong> The bible of OHDSI detailing how to work with the OHDSI research network.</p>
+<p><strong>Keywords:</strong> ##bibliography #ohdsi #research #omop #cdm #atlas #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
+<p><a href="https://jacobzelko.com/05172021000429-observational-studies.md">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
+<p>&#91;Study Packages&#93;</p>
+<h3 id="observational_medical_outcomes_partnership_omop">Observational Medical Outcomes Partnership &#40;OMOP&#41;</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/07282021181744-origins-omop.md">OMOP Origins</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/02082021170353-cdm-standardized-tables.md">OMOP CDM standardized tables</a></p>
+</li>
+</ul>
+<h3 id="observational_health_data_sciences_and_informatics_ohdsi">Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/07282021184510-ohdsi-background.md">OHDSI Origins</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals.md">Goals of OHDSI</a></p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; G. Hripcsak et al., “Observational health data sciences and informatics &#40;OHDSI&#41;: Opportunities for observational researchers,” Stud. Health Technol. Inform., vol. 216, p. 574, 2015.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +98,108 @@
   <description>
     <![CDATA[  Standardized tables used in the OMOP Common Data Model  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>CDM Standardized Tables</h1>
+<p><strong>Date:</strong> February 8 2021</p>
+<p><strong>Summary:</strong> Standardized tables used in the OMOP Common Data Model</p>
+<p><strong>Keywords:</strong> #zettel #omop #cdm #table #standardized #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>OMOP CDM Design Elements</li><li>OMOP CDM Conventions</li><li>OMOP CDM &quot;Concept&quot;&#39;s<ol><li>&quot;Concept&quot; Example</li><li>Drug &quot;Concepts&quot;</li></ol></li><li>Use Cases for the OMOP CDM</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>OMOP Common Data Model &#40;CDM&#41;: effort to standardize observational data to enable transferable analysis. &#91;1&#93;</p>
+<h3 id="omop_cdm_design_elements">OMOP CDM Design Elements</h3>
+<p>The OMOP CDM features person­centric design where each domain records personal identity and a ate while prioritizing data protection through the limiting of information that could endanger patient anonymity. The CDM relies on Standardized Vocabularies and attempts to reuse existing vocabularies where it can. Furthermore, to prevent data loss, the CDM stores original patient source codes.</p>
+<p>The CDM itself does not require a specific technology to work with the data stored in this standard. As a result of this, all versions of the CDM are backwards compatible Even more the CDM is scalable for data processing and analy­sis</p>
+<h3 id="omop_cdm_conventions">OMOP CDM Conventions</h3>
+<p>The CDM is person ­centric meaning tha all clinical Event tables are linked to the<code>PERSON</code> table. Tables that need to be manipulated by users are stored in the &quot;Results&quot; schema. The two tables in the &quot;Results&quot; schema are: <code>COHORT</code> and <code>COHORT_DEFINITION</code>. The data types defined in these tables are ANSI SQL:</p>
+<ul>
+<li><p>VARCHAR</p>
+</li>
+<li><p>INTEGER</p>
+</li>
+<li><p>FLOAT</p>
+</li>
+<li><p>DATE</p>
+</li>
+<li><p>DATETIME</p>
+</li>
+<li><p>CLOB</p>
+</li>
+</ul>
+<h3 id="omop_cdm_concepts">OMOP CDM &quot;Concept&quot;&#39;s</h3>
+<p>All content in the OMOP CDM is a concept. They form relationships with one another in a hierarchical manner. This concept information is stored in the following tables:</p>
+<ol>
+<li><p><code>CONCEPT</code> - the concepts in the CDM</p>
+</li>
+<li><p><code>CONCEPT_RELATIONSHIP</code> - the relationships between concepts</p>
+</li>
+<li><p><code>CONCEPT_ANCESTOR</code> - hierarchical concept relationships; see <a href="https://jacobzelko.com/07282021202459-exploring-ancestors-concept.md">Exploring Ancestors and Descendants of a Concept</a></p>
+</li>
+</ol>
+<h4 id="concept_example">&quot;Concept&quot; Example</h4>
+<p>| CONCEPT<em>ID       | 313217             | | CONCEPT</em>NAME     | Atrial Fibrilation | | DOMAIN<em>ID        | Condition          | | VOCABULARY</em>ID    | SNOMED             | | CONCEP<em>CLASS</em>ID  | Clinical Finding   | | STANDARD<em>CONCEPT | S                  | | CONCEPT</em>CODE     | 4936004            | | VALID<em>START</em>DATE | 01-Jan-1970        | | VALID<em>END</em>DATE   | 31-Dec-2099        | | INVALID_REASON   |                    |</p>
+<ul>
+<li><p><code>CONCEPT_ID</code> is used internally by the OMOP CDM to reference a specific concept</p>
+</li>
+<li><p><code>STANDARD_CONCEPT</code> designates if a concept is standard within the OMOP CDM: &quot;S&quot; represents it is standard, &quot;C&quot; represents its classification, and no value means that concept is not used inside the OMOP CDM</p>
+</li>
+</ul>
+<h4 id="drug_concepts">Drug &quot;Concepts&quot;</h4>
+<p>Includes:</p>
+<ul>
+<li><p>Drug Products</p>
+</li>
+<li><p>Drug Ingredients</p>
+</li>
+<li><p>Drug Classes</p>
+</li>
+</ul>
+<p>One can query <a href="https://jacobzelko.com/07282021211226-drug-concepts.md">drug concepts by name</a> easily in OHDSI tools.</p>
+<h3 id="use_cases_for_the_omop_cdm">Use Cases for the OMOP CDM</h3>
+<p>The OMOP CDM is implemented to help with Big Health Data collection. We use Big Health Data because it:</p>
+<ol>
+<li><p>Enables research</p>
+</li>
+<li><p>Backs effective healthcare</p>
+</li>
+<li><p>Manages healthcare claims</p>
+</li>
+</ol>
+<p>The CDM is optimized for typical observational research purposes such as</p>
+<ol>
+<li><p>Identifying patient populations</p>
+</li>
+<li><p>Characterize populations</p>
+</li>
+<li><p>Determining effects of population-based interventions</p>
+</li>
+<li><p>Organize data for analysis</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; J. M. Overhage, P. B. Ryan, C. G. Reich, A. G. Hartzema, and P. E. Stang, “Validation of a common data model for active safety surveillance research,” J. Am. Med. Inform. Assoc., vol. 19, no. 1, pp. 54–60, 2012.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
   

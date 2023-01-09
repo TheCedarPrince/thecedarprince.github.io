@@ -30,6 +30,77 @@
   <description>
     <![CDATA[  An overview of the RDF and how it works  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Overview of the Resource Description Framework &#40;RDF&#41;</h1>
+<p><strong>Date:</strong> February 18 2022</p>
+<p><strong>Summary:</strong> An overview of the RDF and how it works</p>
+<p><strong>Keywords:</strong> #rdf #overview #triplet #graph #framework #archive</p>
+<h1>Bibliography</h1>
+<p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What Are RDF Triplets?</li><li>What Are Examples of RDF Triplets?</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The Resource Description Framework &#40;RDF&#41; is a family of specifications created by the World Wide Web Consortium &#40;W3C&#41; and formally adopted by W3C in 1999. Data mapped into the RDF form into triplets called <em>RDF statements</em> &#40;also known as Semantic Triplets&#41;.</p>
+<h3 id="what_are_rdf_triplets">What Are RDF Triplets?</h3>
+<p>These triplets, or statements, are comprised of three components called the <em>subject</em>, the <em>predicate</em>, and the <em>object</em>. In summary, these components are described as:</p>
+<ul>
+<li><p><strong>Subject</strong> - this denotes a resource where anything can be a resource.</p>
+</li>
+</ul>
+<p>It is synonymous with the idea of an entity in other data models.</p>
+<ul>
+<li><p><strong>Predicate</strong> - traits or aspects of a defined resource and expresses the relationship between a <strong>Subject</strong> or a given <strong>Object</strong>.</p>
+</li>
+<li><p><strong>Object</strong> - the target of the predicate and is similar to a resource in that anything can be an <strong>Object</strong>.</p>
+</li>
+</ul>
+<p>What the RDF statement compactly communicates is that there holds some relationship, indicated by the predicate, between the <strong>Subject</strong> and <strong>Object</strong>.</p>
+<h3 id="what_are_examples_of_rdf_triplets">What Are Examples of RDF Triplets?</h3>
+<p>Example RDF statements are:</p>
+<blockquote>
+<ul>
+<li><p>The sky is colored blue.</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>Grass is colored green.</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>The ocean is colored blue.</p>
+</li>
+</ul>
+</blockquote>
+<p>Taking the statement &quot;The sky is colored blue.&quot; the <strong>Subject</strong> is the phrase &quot;sky&quot;, the <strong>Predicate</strong> is the verb phrase &quot;is colored&quot;, and the <strong>Object</strong> is the final phrase, &quot;blue&quot;. Moving forward from this example, it may be useful to think of the RDF statement as a labeled directed multigraph where components of the statement are typically broken down and stored in Relational Database Management Systems or native RDF file storage formats. Here is a way of visualizing the triplet for the given statements above:</p>
+<pre><code class="language-mermaid">graph LRsky --is colored--&gt; blue
+ocean --is colored--&gt; blue
+grass --is colored--&gt; green</code></pre>
+<p>The RDF triples &quot;The sky is colored blue.&quot;, &quot;Grass is colored green.&quot;, and &quot;The ocean is colored blue&quot; can all be represented as a Directed Multigraph \(G\). The nodes \(sky\), \(ocean\), and \(grass\) are <strong>Subjects</strong>, the nodes \(blue\) and \(green\) are <strong>Objects</strong>, and the edge \(is colored\) is the <strong>Predicate</strong> in these RDF triple.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +120,128 @@
   <description>
     <![CDATA[  A note that provides an overview to intensive care unit scoring systems  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Scoring systems in the intensive care unit: A compendium</h1>
+<p><strong>Date:</strong> October 14 2021</p>
+<p><strong>Summary:</strong> A note that provides an overview to intensive care unit scoring systems</p>
+<p><strong>Keywords:</strong> ##overview #intensive #care #unit #rating #scoring #prediction #quality #care #archive</p>
+<h1>Bibliography</h1>
+<p>A. Rapsang and D. C. Shyam, &quot;Scoring systems in the intensive care unit: A compendium,&quot; Indian Journal of Critical Care Medicine, vol. 18, no. 4, pp. 220–228, Apr. 2014, doi: 10.4103/0972-5229.130573.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What is a Scoring System?</li><li>What Characterizes a Scoring System?</li><li>What Are Characteristics of an Ideal Model?</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>This paper was useful as it provided a good overview of intensive care unit scoring systems. It enumerated their characteristics and also talked about their advantages. The paper also went over a variety of scoring systems but as I was concerned with learning what scoring systems in general were, I stopped there.</p>
+<h3 id="what_is_a_scoring_system">What is a Scoring System?</h3>
+<blockquote>
+<p>What is one approach clinical staff in an intensive care unit utilize to predict patient outcomes <em>and</em> to improve clinical decisions?</p>
+</blockquote>
+<p>In short, intensive care unit scoring systems&#33;</p>
+<blockquote>
+<p>What is an intensive care unit scoring system?</p>
+</blockquote>
+<p>These scoring systems &#40;also referred to as severity scales&#41; are calculated alongside traditional diagnosis methods. They are used to: </p>
+<ol>
+<li><p>Predict patient outcomes</p>
+</li>
+<li><p>Compare quality of care</p>
+</li>
+<li><p>Create breakdowns for clinical trials</p>
+</li>
+</ol>
+<p>They are handy for also analyzing unexpected patient outcomes and what precipitated the outcome.</p>
+<h3 id="what_characterizes_a_scoring_system">What Characterizes a Scoring System?</h3>
+<blockquote>
+<p>What is a scoring system comprised of?</p>
+</blockquote>
+<p>A scoring system generally has two components:</p>
+<ol>
+<li><p>Score - a number assigned to a given disease based on severity.</p>
+</li>
+<li><p>Probability Model - determines the probability of patient deaths.</p>
+</li>
+</ol>
+<blockquote>
+<p>How are scoring system probability models used?</p>
+</blockquote>
+<p>In practice, a model gives clinical decision makers additional insight into comparing patient populations for:</p>
+<ol>
+<li><p>Treatment</p>
+</li>
+<li><p>Triage</p>
+</li>
+<li><p>Comparative analysis</p>
+</li>
+<li><p>Understanding treatment effectiveness</p>
+</li>
+<li><p>Optimizing resources</p>
+</li>
+</ol>
+<h3 id="what_are_characteristics_of_an_ideal_model">What Are Characteristics of an Ideal Model?</h3>
+<blockquote>
+<p>What are the three characteristics of an ideal model for scoring?</p>
+</blockquote>
+<p>An ideal model must be:</p>
+<ol>
+<li><p>Valid</p>
+</li>
+<li><p>Calibrated</p>
+</li>
+<li><p>Discriminated</p>
+</li>
+</ol>
+<blockquote>
+<p>What does it mean for a model to have &quot;validity&quot;?</p>
+</blockquote>
+<p>&quot;Validity&quot; means how well a model performs on test datasets during the model&#39;s creation.</p>
+<blockquote>
+<p>What does a &quot;calibrated&quot; model mean?</p>
+</blockquote>
+<p>The accuracy between estimated mortality probabilities and the actual mortalities experienced by patients. What is key to note is that it is also able to be statistically robust/rigorous. &#91;1&#93; Essentially, is the model well suited to the actual patients being evaluated?</p>
+<blockquote>
+<p>What does a model that is &quot;discriminatory&quot;?</p>
+</blockquote>
+<p>How well the model can determine what patients live and what patients die in practice. Examples of measures used to understand discriminatory patterns in a model are:</p>
+<ul>
+<li><p>Sensitivity</p>
+</li>
+<li><p>Specificity</p>
+</li>
+<li><p>False positive rate</p>
+</li>
+<li><p>False negative rate</p>
+</li>
+<li><p>Positive predictive power</p>
+</li>
+<li><p>Misclassification rate</p>
+</li>
+<li><p>Area under the receiver operating characteristic curve and</p>
+</li>
+<li><p>Concordance. &#91;2&#93;</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; J.-R. Le Gall, “The use of severity scores in the intensive care unit,” Intensive Care Med., vol. 31, no. 12, pp. 1618–1623, 2005.</p>
+<p>&#91;2&#93; H. Champion, “Trauma scoring,” Scand. J. Surg., vol. 91, no. 1, pp. 12–22, 2002.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>  
   

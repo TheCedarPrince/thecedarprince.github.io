@@ -30,6 +30,39 @@
   <description>
     <![CDATA[  What Magnetoencephalography is  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Magnetoencephalography &#40;MEG&#41;</h1>
+<p><strong>Date:</strong> December 28 2020</p>
+<p><strong>Summary:</strong> What Magnetoencephalography is</p>
+<p><strong>Keywords:</strong> ##zettel #meg #brain #activity #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Magnetoencephalography &#40;MEG&#41; detects magnetic traces of brain activity to determine activity start time. Poor at locating where activity is. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
   

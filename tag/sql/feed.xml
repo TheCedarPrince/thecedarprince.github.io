@@ -30,6 +30,59 @@
   <description>
     <![CDATA[  How to explore drugs in an OHDSI table by name  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Exploring Drug Concepts by Name</h1>
+<p><strong>Date:</strong> July 28 2021</p>
+<p><strong>Summary:</strong> How to explore drugs in an OHDSI table by name</p>
+<p><strong>Keywords:</strong> #ohdsi #sql #drug #name #r  #archive</p>
+<h1>Bibliography</h1>
+<p>EHDEN Academy</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Drugs by Name</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="setting_up_environment">Setting Up Environment</h3>
+<h4 id="installation_requirements">Installation Requirements</h4>
+<p>We install the OHDSI dummy database, <code>Eunomia</code>, to write our queries:</p>
+<pre><code class="language-R">install.packages&#40;c&#40;&quot;SqlRender&quot;, &quot;DatabaseConnector&quot;, &quot;remotes&quot;&#41;&#41;
+remotes::install_github&#40;&quot;ohdsi/Eunomia&quot;, ref &#61; &quot;v1.0.0&quot;&#41;</code></pre>
+<p>We will also install the package <code>knitr</code> for viewing and working with resulting tables easily:</p>
+<pre><code class="language-R">install.packages&#40;&quot;knitr&quot;&#41;</code></pre>
+<h4 id="making_connection_to_eunomia">Making Connection to Eunomia</h4>
+<p>Here we load the <code>DatabaseConnector</code> library to connect to <code>Eunomia</code>: </p>
+<pre><code class="language-R">library&#40;&#39;DatabaseConnector&#39;&#41;
+library&#40;&#39;knitr&#39;&#41;</code></pre>
+<p>And set a connection to Eunomia</p>
+<pre><code class="language-R">connectionDetails &lt;-Eunomia::getEunomiaConnectionDetails&#40;&#41;
+connection &lt;- connect&#40;connectionDetails&#41;</code></pre>
+<h4 id="querying_drugs_by_name">Querying Drugs by Name</h4>
+<p>First we need to write our SQL query as follows:</p>
+<pre><code class="language-R">sql &lt;-	&quot;
+	SELECT * FROM @cdm.concept WHERE lower&#40;concept_name&#41; &#61; &#39;warfarin&#39;
+	&quot;</code></pre>
+<p>And then we can run our SQL query and return the results as follows:</p>
+<pre><code class="language-julia">result &lt;- renderTranslateQuerySql&#40;connection, sql,cdm &#61;&quot;main&quot;&#41;
+knitr::kable&#40;result&#41;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +102,74 @@
   <description>
     <![CDATA[  How to explore ancestors and descendants of OHDSI concepts  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Exploring Ancestors and Descendants of a Concept</h1>
+<p><strong>Date:</strong> July 28 2021</p>
+<p><strong>Summary:</strong> How to explore ancestors and descendants of OHDSI concepts</p>
+<p><strong>Keywords:</strong> #ohdsi #sql #ancestor #descendant #r  #archive</p>
+<h1>Bibliography</h1>
+<p>EHDEN Academy</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Ancestors from OHDSI</li><li>Querying Descendants from OHDSI</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="setting_up_environment">Setting Up Environment</h3>
+<h4 id="installation_requirements">Installation Requirements</h4>
+<p>We install the OHDSI dummy database, <code>Eunomia</code>, to write our queries:</p>
+<pre><code class="language-R">install.packages&#40;c&#40;&quot;SqlRender&quot;, &quot;DatabaseConnector&quot;, &quot;remotes&quot;&#41;&#41;
+remotes::install_github&#40;&quot;ohdsi/Eunomia&quot;, ref &#61; &quot;v1.0.0&quot;&#41;</code></pre>
+<p>We will also install the package <code>knitr</code> for viewing and working with resulting tables easily:</p>
+<pre><code class="language-R">install.packages&#40;&quot;knitr&quot;&#41;</code></pre>
+<h4 id="making_connection_to_eunomia">Making Connection to Eunomia</h4>
+<p>Here we load the <code>DatabaseConnector</code> library to connect to <code>Eunomia</code>: </p>
+<pre><code class="language-R">library&#40;&#39;DatabaseConnector&#39;&#41;</code></pre>
+<p>And set a connection to Eunomia</p>
+<pre><code class="language-R">connectionDetails &lt;-Eunomia::getEunomiaConnectionDetails&#40;&#41;
+connection &lt;- connect&#40;connectionDetails&#41;</code></pre>
+<h4 id="querying_ancestors_from_ohdsi">Querying Ancestors from OHDSI</h4>
+<p>First we need to write our SQL query as follows:</p>
+<pre><code class="language-R">sql &lt;-	&quot;
+	SELECT max_levels_of_separation, concept.*
+	FROM @cdm.concept_ancestor
+	JOIN concept ON ancestor_concept_id &#61; concept_id
+	WHERE descendant_concept_id &#61; 313217
+	ORDER BY max_levels_of_separation
+	&quot;</code></pre>
+<p>And then we can run our SQL query and return the results as follows:</p>
+<pre><code class="language-julia">result &lt;- renderTranslateQuerySql&#40;connection, sql,cdm &#61;&quot;main&quot;&#41;
+knitr::kable&#40;result&#41;</code></pre>
+<h4 id="querying_descendants_from_ohdsi">Querying Descendants from OHDSI</h4>
+<p>First we need to write our SQL query as follows:</p>
+<pre><code class="language-R">sql &lt;-	&quot;
+	SELECT max_levels_of_separation, concept.*
+	FROM @cdm.concept_ancestor
+	JOIN concept ON descendant_concept_id &#61; concept_id
+	WHERE descendant_concept_id &#61; 4478217
+	ORDER BY max_levels_of_separation
+	&quot;</code></pre>
+<p>And then we can run our SQL query and return the results as follows:</p>
+<pre><code class="language-julia">result &lt;- renderTranslateQuerySql&#40;connection, sql,cdm &#61;&quot;main&quot;&#41;
+knitr::kable&#40;result&#41;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
   
@@ -68,6 +189,62 @@
   <description>
     <![CDATA[  Notes on my adventures in learning MySQL syntax and concepts  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Learning MySQL</h1>
+<p><strong>Date:</strong> March 15 2021</p>
+<p><strong>Summary:</strong> Notes on my adventures in learning MySQL syntax and concepts</p>
+<p><strong>Keywords:</strong> ##zettel #mysql #sql #query #language #databases #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Security<ol><li>Adjusting Password Security<ol><li>Low Validate Password Policy</li></ol></li></ol></li><li>Managing Users and Permissions<ol><li>User Creation</li><li>Adding User Permissions<ol><li>Grant User Permission to Everything</li></ol></li></ol></li><li>Manipulating Databases<ol><li>Create a Database</li></ol></li><li>Manipulating Tables<ol><li>Creating Tables</li><li>Keys<ol><li>Primary Key</li></ol></li><li>Wildcards<ol><li>Gobble</li><li>Placeholder</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="security">Security</h3>
+<h4 id="adjusting_password_security">Adjusting Password Security</h4>
+<h5 id="low_validate_password_policy">Low Validate Password Policy</h5>
+<pre><code class="language-sql">SET GLOBAL validate_password.policy&#61;LOW;</code></pre>
+<h3 id="managing_users_and_permissions">Managing Users and Permissions</h3>
+<h4 id="user_creation">User Creation</h4>
+<pre><code class="language-sql">CREATE USER &#39;username&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;mypassword&#39;;</code></pre>
+<h4 id="adding_user_permissions">Adding User Permissions</h4>
+<h5 id="grant_user_permission_to_everything">Grant User Permission to Everything</h5>
+<pre><code class="language-sql">GRANT ALL PRIVILEGES ON * . * TO &#39;username&#39;@&#39;localhost&#39;;</code></pre>
+<h3 id="manipulating_databases">Manipulating Databases</h3>
+<h4 id="create_a_database">Create a Database</h4>
+<pre><code class="language-sql">CREATE DATABASE mydatabase;</code></pre>
+<h3 id="manipulating_tables">Manipulating Tables</h3>
+<h4 id="creating_tables">Creating Tables</h4>
+<h4 id="keys">Keys</h4>
+<h5 id="primary_key">Primary Key</h5>
+<pre><code class="language-sql">CREATE TABLE foo &#40;
+	id INT PRIMARY KEY
+&#41;;</code></pre>
+<h4 id="wildcards">Wildcards</h4>
+<h5 id="gobble">Gobble</h5>
+<pre><code class="language-sql">SELECT * FROM table WHERE last_name LIKE &#39;&#37;Smith&#39;;</code></pre>
+<h5 id="placeholder">Placeholder</h5>
+<pre><code class="language-sql">SELECT * FROM table WHERE date LIKE &#39;____-10&#37;&#39;;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>  
   

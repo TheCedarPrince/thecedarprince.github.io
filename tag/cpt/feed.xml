@@ -30,6 +30,68 @@
   <description>
     <![CDATA[  Exhaustive landscape analysis looking into telehealth opportunities and challenges  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Telehealth</h1>
+<p><strong>Date:</strong> May 2 2022</p>
+<p><strong>Summary:</strong> Exhaustive landscape analysis looking into telehealth opportunities and challenges</p>
+<p><strong>Keywords:</strong> ##bibliography #telehealth #cpt #quality #multistate #licensing #archive</p>
+<h1>Bibliography</h1>
+<p>R. Tuckson, M. Edmunds, and M. Hodgkins, “Telehealth,” New England Journal of Medicine, Oct. 2017. Accessed: Apr. 29, 2022. &#91;Online&#93;. Available: https://www.nejm.org/doi/pdf/10.1056/NEJMsr1503323?articleTools&#61;true</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Challenges in Telehealth</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>A literature survey of telehealth insights.</p>
+<h3 id="definitions">Definitions</h3>
+<ul>
+<li><p>Telehealth</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Interchangeably used with telemedicine
+- Transferring medical information between sites via telecommunications to improve patient health &#91;1&#93;</code></pre>
+<h3 id="challenges_in_telehealth">Challenges in Telehealth</h3>
+<ul>
+<li><p>Current Procedural Terminology Codes</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Get in the way currently of how individuals get paid for telehealth
+- CPT Editorial panel working on this circa 2015</code></pre>
+<ul>
+<li><p>Interstate licensing and care provision</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Federation of State Medical Boards created the Interstate Medical Licensure Compact
+	- Ease multistate licensing &#91;2&#93;
+	- Not all states involved at the time of publication</code></pre>
+<ul>
+<li><p>Quality of Care</p>
+</li>
+</ul>
+<pre><code class="language-julia">- National Quality Forum developing telehealth framework
+	- Telehealth Framework To Support Measure Development 2016 - 2017
+		- Developed to identify existing and potential telehealth metrics</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; “About telemedicine. Washington, DC: American Telemedicine Association.” &#91;Online&#93;. Available: https://www.americantelemed.org/main/about/&#37;20about-telemedicine/telemedicine-faqs. &#91;Accessed: 02-May-2022&#93;.</p>
+<p>&#91;2&#93; “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
   

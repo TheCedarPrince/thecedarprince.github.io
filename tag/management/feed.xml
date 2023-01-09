@@ -30,6 +30,47 @@
   <description>
     <![CDATA[  An overview on Vannevar Bush&#39;s concept of a memex and additional thoughts on the issue of information overload  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>As We May Think</h1>
+<p><strong>Date:</strong> January 11 2021</p>
+<p><strong>Summary:</strong> An overview on Vannevar Bush&#39;s concept of a memex and additional thoughts on the issue of information overload</p>
+<p><strong>Keywords:</strong> ##bibliography #memex #thinking #knowledge #management #archive</p>
+<h1>Bibliography</h1>
+<p>V. Bush and others, &quot;As we may think,&quot; The Atlantic monthly, vol. 176, no. 1, pp. 101–108, 1945.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>The Failure of the Publication Machine</li><li>The idea of Automated Knowledge Systems</li><li>Regarding Thought</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="the_failure_of_the_publication_machine">The Failure of the Publication Machine</h3>
+<p>Publication has been extended beyond usefulness of the record. Current methods for finding relevant information is impractical.</p>
+<p><em>THOUGHTS: Very convicting retrospection on how we handle copious amounts of information. A record which contains too little information is not informative and one that contains too much is overwhelming.</em></p>
+<p>Those who try to stay current with research may have difficulty to recall last month&#39;s material studied.</p>
+<p><em>THOUGHTS: This is so convicting&#33; Even though it is a nearly 80 year old paper, the problems that he discusses are still in existence&#33;  The problem of having too many papers and the inability to extract the truly worthwhile pieces of information are still present.</em></p>
+<h3 id="the_idea_of_automated_knowledge_systems">The idea of Automated Knowledge Systems</h3>
+<p>When one associates information along logical processes, creativity is limited to data selection to match a process. After this initial surge of creativity, the work is fit for automation</p>
+<h3 id="regarding_thought">Regarding Thought</h3>
+<p>There exist no substitute for nuanced thinking. Imagination and repetitious thinking are diverse. Repetitive thought is much easier automated.</p>
+<p><em>THOUGHTS: I like this notion of repetitive thought. As much as there are repetitive thought, there are repetitive actions accordingly.</em></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +90,75 @@
   <description>
     <![CDATA[  DrWatson is a strong tool for encouraging reproducible science and enforces good project management.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>DrWatson.jl</h1>
+<p><strong>Date:</strong> October 10 2020</p>
+<p><strong>Summary:</strong> DrWatson is a strong tool for encouraging reproducible science and enforces good project management.</p>
+<p><strong>Keywords:</strong> ##zettel #julialang #project #management #reproducible #science #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Today, I spent some time learning about DrWatson.jl. I have always wanted to use the project and now I finally have a reason to work with it&#33; I enjoyed the default layout provided by DrWatson - here are some general thoughts on the matter.</p>
+<p>The project directory provided by DrWatson is automatically setup. The defaults are quite nice and I did not change anything except for ignoring the data files:</p>
+<pre><code class="language-julia">│projectdir          &lt;- Project&#39;s main folder. It is initialized as a Git
+│                       repository with a reasonable .gitignore file.
+│
+├── _research        &lt;- WIP scripts, code, notes, comments,
+│   |                   to-dos and anything in an alpha state.
+│   └── tmp          &lt;- Temporary data folder.
+│
+├── data             &lt;- **Immutable and add-only&#33;**
+│   ├── sims         &lt;- Data resulting directly from simulations.
+│   ├── exp_pro      &lt;- Data from processing experiments.
+│   └── exp_raw      &lt;- Raw experimental data.
+│
+├── plots            &lt;- Self-explanatory.
+├── notebooks        &lt;- Jupyter, Weave or any other mixed media notebooks.
+│
+├── papers           &lt;- Scientific papers resulting from the project.
+│
+├── scripts          &lt;- Various scripts, e.g. simulations, plotting, analysis,
+│   │                   The scripts use the &#96;src&#96; folder for their base code.
+│   └── intro.jl     &lt;- Simple file that uses DrWatson and uses its greeting.
+│
+├── src              &lt;- Source code for use in this project. Contains functions,
+│                       structures and modules that are used throughout
+│                       the project and in multiple scripts.
+│
+├── README.md        &lt;- Optional top-level README for anyone using this project.
+├── .gitignore       &lt;- by default ignores _research, data, plots, videos,
+│                       notebooks and latex-compilation related files.
+│
+├── Manifest.toml    &lt;- Contains full list of exact package versions used currently.
+└── Project.toml     &lt;- Main project file, allows activation and installation.
+                        Includes DrWatson by default.</code></pre>
+<p>I started DrWatson up in my Julia REPL and ran the following as I already had a git repo set-up and files in the repo:</p>
+<pre><code class="language-julia">using DrWatson
+initialize_project&#40;&quot;NeuriViz&quot;; authors &#61; &#91;&quot;Jacob Zelko&quot;, &quot;Zachary P Christensen&quot;&#93;, force &#61; false, git &#61; false, placeholder &#61; true&#41;</code></pre>
+<p>It set up the structure I needed and was quite easy to use. DrWatson was created by George Datseris.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>  
   

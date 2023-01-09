@@ -30,6 +30,39 @@
   <description>
     <![CDATA[  Known treatment methods for SARS-CoV  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Treatments for SARS-CoV</h1>
+<p><strong>Date:</strong> July 12 2020</p>
+<p><strong>Summary:</strong> Known treatment methods for SARS-CoV</p>
+<p><strong>Keywords:</strong> ##zettel #treatment #SARS-CoV ##health #coronavirus  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Primary to treating SARS-CoV was the use of ventilator machines. Treatments such as steroidals remain controversial regarding their effect on SARS patients. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
   

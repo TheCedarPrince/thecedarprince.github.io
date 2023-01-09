@@ -30,6 +30,38 @@
   <description>
     <![CDATA[  A brief overview on what database schemas are  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Overview of Database Schemas</h1>
+<p><strong>Date:</strong> February 19 2022</p>
+<p><strong>Summary:</strong> A brief overview on what database schemas are</p>
+<p><strong>Keywords:</strong> #archive #database #schema</p>
+<h1>Bibliography</h1>
+<p>Database schema, Wikipedia. Dec. 19, 2021. Accessed: Feb. 19, 2022. &#91;Online&#93;. Available: https://en.wikipedia.org/w/index.php?title&#61;Database_schema&amp;oldid&#61;1061124043</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>A &quot;schema&quot; describes the way data is structured to define how a database is constructed. </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 19 Feb 2022 00:00:00 +0000</pubDate>  
   

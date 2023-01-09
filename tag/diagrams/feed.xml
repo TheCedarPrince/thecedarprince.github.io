@@ -30,6 +30,109 @@
   <description>
     <![CDATA[  How causality gives us tools to understand the question of cause-and-effect and confounders  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>The Book of Why</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> How causality gives us tools to understand the question of cause-and-effect and confounders</p>
+<p><strong>Keywords:</strong> ##bibliography #causality #diagrams #counterfactual #statistics #graphs ##book ##blog #archive</p>
+<h1>Bibliography</h1>
+<p>J. Pearl and D. Mackenzie, The book of why: the new science of cause and effect, First edition. New York: Basic Books, 2018.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Benefits of Causal Analysis</li><li>Critiques of Statistics</li><li>Causal Calculus</li><li>Inference Engine</li><li>Ladder of Causality</li><li>Mini-Turing Test</li><li>Bayesian Analysis</li><li>Causal Diagrams<ol><li>Paths in Path Diagrams<ol><li>Chain junction</li><li>Fork Junction</li><li>Collider Junction</li></ol></li><li>Lessons from Path Diagrams</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>This book shows that data is stupid. Data can record events but cannot answer why any of the events are the way they are.</p>
+<p>Causal inference posits the brain as the most advanced tool for understanding cause and effect.</p>
+<p>Forcing an occurrence means to submit it to one influence to trigger the desired event</p>
+<p><strong>Counterfactual:</strong> When scientific inquiry involves retrospective reflection. &quot;Why?&quot; is a counterfactual question.</p>
+<p>Probabilities encode our beliefs about a static world. Causality explains probabilities in a changing world.</p>
+<h3 id="benefits_of_causal_analysis">Benefits of Causal Analysis</h3>
+<p>Create a smoother human-machine interface.</p>
+<p><em>THOUGHTS: I wonder if that is what attracted me to the idea of Causal Inference - that it enables better human-machine interfaces. Like human-machine interaction as a discipline; I wonder if they have much in this area. Perhaps reach out to Valentine Wilson about the question?</em></p>
+<h3 id="critiques_of_statistics">Critiques of Statistics</h3>
+<p>Galton separated causation from statistics in 1889 causing the two separate fields to fully manifest.</p>
+<p>&quot;Granger causality&quot; and &quot;vector autocorrelation&quot; exists to accommodate for causal explanations. Associated Thoughts: Judea&#39;s critique on probability-based causality</p>
+<h3 id="causal_calculus">Causal Calculus</h3>
+<p>Causal calculus uses two communications forms: </p>
+<ol>
+<li><p>Causal Diagrams: communicates what is known.</p>
+</li>
+<li><p>Symbolic language: defines what is wanted to be known</p>
+</li>
+</ol>
+<h3 id="inference_engine">Inference Engine</h3>
+<p>The inference engine assumes perfect and unlimited data for the given figure:</p>
+<p><img src="../assets/01082021030619-inference-engine.png" alt="" /></p>
+<p><strong>Estimand:</strong> generalized mathematical formula to answer data questions. A statistical quantity estimated from data that can represent an answer to a query.</p>
+<p>A given estimand is computed on the basis of the causal model alone, prior to an examination of the specifics of the data. This gives the inference engine better adaptibility.</p>
+<p><strong>Binary Evaluation of Query:</strong> determines if a query can be answered under an existing causal model.</p>
+<p><strong>Knowledge:</strong> experience from the past such as prior observations and education.</p>
+<p><strong>Assumptions:</strong> explicit statements from available Knowledge.</p>
+<p><strong>Queries:</strong> the scientific questions to be answered.</p>
+<p><strong>Testable Implications:</strong> observable patterns or dependencies resulting from the listening pattern of a causal model.</p>
+<p><strong>Estimate:</strong> Estimate for the answer is determined alongside uncertainty metrics.The metrics reflect limited data, measurement errors, or missing data.</p>
+<h3 id="ladder_of_causality">Ladder of Causality</h3>
+<p>First rung: observation. This concerns recognition of patterns. This rung asks, &quot;What if I see ...?&quot;</p>
+<p>The second rung: Doing. Altering an environment to achieve a certain goal. This rung poses the questions of &quot;What if we do...?&quot; or &quot;How?&quot;</p>
+<h3 id="mini-turing_test">Mini-Turing Test</h3>
+<p>Mini-Turing Test: Encode a simple story on a machine and see if it can answer causal questions a human can answer.</p>
+<p>Rules:</p>
+<ol>
+<li><p>Limited only to causal reasoning and language.</p>
+</li>
+<li><p>The story can be encoded in the easiest way for the programmer.</p>
+</li>
+</ol>
+<h3 id="bayesian_analysis">Bayesian Analysis</h3>
+<p>Simplified Bayesian analysis: prior belief &#43; new evidence &#61; revised belief.</p>
+<p>Bayesian inference enables one to express personal experiences mathematically and combine it with data in a principled and transparent way.</p>
+<h3 id="causal_diagrams">Causal Diagrams</h3>
+<p>&quot;Causation&quot; via a causal diagram is straightforward. A variable X is a cause of Y if Y listens to X. Y&#39;s value is determined by what it hears.</p>
+<h4 id="paths_in_path_diagrams">Paths in Path Diagrams</h4>
+<h5 id="chain_junction">Chain junction</h5>
+\[
+A \rightarrow B \rightarrow C
+\]
+<p>B is the mediator which relays the effect of A to C. B filters information about A from C.</p>
+<h5 id="fork_junction">Fork Junction</h5>
+\[
+A \leftarrow B \rightarrow C
+\]
+<p>B is a confounder of A and C. B makes A and C statistically correlated despite no direct link between them.</p>
+<h5 id="collider_junction">Collider Junction</h5>
+\[
+A \rightarrow B \leftarrow C
+\]
+<p>Conditioning on B will make A and C dependent</p>
+<h4 id="lessons_from_path_diagrams">Lessons from Path Diagrams</h4>
+<ol>
+<li><p>Causal analysis allows us to quantify real world processes</p>
+</li>
+<li><p>Path analysis draws conclusions about individual causal relationships by examining the diagram as a whole.</p>
+</li>
+<li><p>Two people creating differing causal diagrams for the same data and may not arrive at the same result.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   

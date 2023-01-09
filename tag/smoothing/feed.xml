@@ -30,6 +30,52 @@
   <description>
     <![CDATA[  An overview on commonly used signal processing methods to remove artifacts from signals.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Artifact Removal Methods</h1>
+<p><strong>Date:</strong> March 27 2020</p>
+<p><strong>Summary:</strong> An overview on commonly used signal processing methods to remove artifacts from signals.</p>
+<p><strong>Keywords:</strong> ##summary #digital #signal #processing #artifact #removal #smoothing  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Moving Average Filters:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="moving_average_filters">Moving Average Filters:</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/03272020064312-exponential-smoothing.md">Exponential Smoothing</a></p>
+<ul>
+<li><p><strong>Summary:</strong> An overview on how to use the exponential smoothing algorithm.</p>
+</li>
+</ul>
+</li>
+<li><p><a href="https://jacobzelko.com/04252020024813-median-filtering.md">Median Filtering</a></p>
+<ul>
+<li><p><strong>Summary:</strong> An overview on how to use and implement a median filter</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -49,6 +95,129 @@
   <description>
     <![CDATA[  An overview on how to use the exponential smoothing algorithm  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Exponential Smoothing</h1>
+<p><strong>Date:</strong> March 27 2020</p>
+<p><strong>Summary:</strong> An overview on how to use the exponential smoothing algorithm</p>
+<p><strong>Keywords:</strong> ##zettel #signalprocessing #noise #artifact #smoothing #window #julialang #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Considerations</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The exponential smoothing algorithm is a recursive algorithm and is one of the more simple smoothing methods commonly used to remove small noise and motion artifacts from a discrete time series signal. However, it can be considered a &quot;manual&quot; algorithm due to having to manually determine a smoothing factor for it to work properly.</p>
+<p>Per conversation with Post-Doc Researcher, Fredrik Bagge Carlson, another definition for the smoothing factor is the &quot;forgetting factor&quot;. A bigger value for the forgetting factor results in forgetting the memory built into the algorithm faster and focusing more on recent inputs.</p>
+<p>Also, this method is classified as a moving average filter&#33;</p>
+<h3 id="algorithm">Algorithm</h3>
+<p>The algorithm is very simple in which it is described as:</p>
+\[
+s_1 = x_1
+\]
+\[
+s_t = ax_t + (1 - \alpha)s_{t - 1} \space | \space t > 0
+\]
+<p>The variables are defined as follows:</p>
+<ul>
+<li></li>
+</ul>
+\[
+    \{x_t\}
+    \]
+<p>  * The raw signal sequence</p>
+<ul>
+<li></li>
+</ul>
+\[
+    \{s_t\}
+    \]
+<p>  * The smoothed output signal sequence</p>
+<ul>
+<li></li>
+</ul>
+\[
+    t
+    \]
+<p>  * Time &#40;where &#36;t &gt; 0&#36;&#41;</p>
+<ul>
+<li></li>
+</ul>
+\[
+    \alpha
+    \]
+<p>  * Smoothing factor &#40;must be chosen such that &#36;0 &lt; \alpha &lt;1&#36;&#41;</p>
+<p>The weighted average in this case works when you take a portion of the current value x&#40;t&#41; from the original signal and a portion of the s&#40;t -1&#41; is summed together after being scaled by the forgetting factor. &#91;Explanation thanks to Fredrik Bagge Carlson&#93;</p>
+<h4 id="additional_considerations">Additional Considerations</h4>
+<ul>
+<li><p>Each term in the sequence, \(\{s_t\}\), is counted as the weighted average of the current data point from the sequence \(\{x_t\}\) and the prior smoothed statistic, \(s_t\).</p>
+</li>
+<li><p>There is no clear method for choosing the value of the smoothing factor</p>
+<ul>
+<li>&#36;0 &lt;&lt;\alpha &lt; 1&#36;
+<p>yields a smaller smoothing effect and &quot;value&quot; updating values more highly</p>
+</li>
+<li>&#36;0 &lt; \alpha &lt;&lt; 1&#36;
+<p>yields a greater smoothing effect but does not respond greatly to recent updates</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="example_implementation">Example Implementation</h3>
+<pre><code class="language-julia">using Plots # IMPORT FOR PLOTTING
+using LaTeXStrings # IMPORT TO ENABLE LaTeX FORMATTING
+gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To Calculate
+    # Choose α: 0 &lt; α &lt; 1
+    input &#61; 0:0.001:1
+    α &#61; 0.05    # Generate Generic Signal - In This Case Sin&#40;2π&#41;
+    signal &#61; &#91;sin&#40;2 * pi * i&#41; for i in input&#93;    # Adding Random Noise To Function
+    noisy_signal &#61;
+        &#91;sin&#40;2 * pi * i&#41; &#43; rand&#40;&#91;-1, 1&#93;&#41; * round&#40;rand&#40;&#41;, digits &#61; 2&#41; for i in input&#93;    # Filter The Signal Using An Exponential Smoothing Filter
+    exponential_signal::Array&#123;Float32&#125; &#61; &#91;noisy_signal&#91;1&#93;&#93;
+    for i in 2:length&#40;signal&#41;
+        smooth_term &#61; α * noisy_signal&#91;i&#93; &#43; &#40;1 - α&#41; * exponential_signal&#91;i-1&#93;
+        append&#33;&#40;exponential_signal, smooth_term&#41;
+    end
+    # Plot Signals
+    plot&#40;
+        input,
+        noisy_signal,
+        label &#61; &quot;Noisy Signal&quot;,
+        title &#61; &quot;Example of Exponential Smoothing&quot;,
+    &#41;
+    plot&#33;&#40;
+        input,
+        exponential_signal,
+        label &#61; &quot;Exponentially Smoothed Signal&quot;,
+        linewidth &#61; 3
+    &#41;
+    plot&#33;&#40;
+        input,
+        signal,
+        label &#61; L&quot;sin&#40;2\pi&#41;&quot;,
+        linewidth &#61; 5
+    &#41;end</code></pre>
+<h4 id="output">Output</h4>
+<p><img src="1585295721254.png" alt="" /></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,38 @@
   <description>
     <![CDATA[  Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Call Center Stress Recognition with Person-Specific Models</h1>
+<p><strong>Date:</strong> March 27 2020</p>
+<p><strong>Summary:</strong> Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.</p>
+<p><strong>Keywords:</strong> ##bibliography #eda #mit #affectivecomputing #medialab #stress #archive</p>
+<h1>Bibliography</h1>
+<p>J. Hernandez, R. R. Morris, and R. W. Picard, &quot;Call Center Stress Recognition with Person-Specific Models,&quot; in Affective Computing and Intelligent Interaction, vol. 6974, S. D’Mello, A. Graesser, B. Schuller, and J.-C. Martin, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 2011, pp. 125–134.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>They had a small cohort of nine individuals working at a call center using skin conductance sensors to measure EDA. They used exponential smoothing and chose a smoothing factor, \(\alpha\), of \(0.8\) – it was unclear why this was chosen. They also elected to normalize the skin conductance signals on each individual between \(0\) and \(1\) to reduce variability between the cohort members. </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
   

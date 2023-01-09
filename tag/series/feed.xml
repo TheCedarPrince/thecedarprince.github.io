@@ -30,6 +30,41 @@
   <description>
     <![CDATA[  Mathematical sums and series which are commonly used to assess complexity and create relationships  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Mathematical Sums and Series</h1>
+<p><strong>Date:</strong> January 4 2021</p>
+<p><strong>Summary:</strong> Mathematical sums and series which are commonly used to assess complexity and create relationships</p>
+<p><strong>Keywords:</strong> ##summary #mathematics #sums #series #arithmetic #geometric #sequence #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p><a href="https://jacobzelko.com/01052021044121-arithmetic-series.md">Arithmetic Sums &amp; Series</a> - A brief overview on what arithmetic series are and some of its underlying math.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +84,58 @@
   <description>
     <![CDATA[  A brief overview on what arithmetic series are and some of its underlying math.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Arithmetic Sums &amp; Series</h1>
+<p><strong>Date:</strong> January 4 2021</p>
+<p><strong>Summary:</strong> A brief overview on what arithmetic series are and some of its underlying math.</p>
+<p><strong>Keywords:</strong> ##zettel #arithmetic #sums #series #proof  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>An arithmetic sequence is one which the difference between one term and the next only differs by a constant. One example is this:</p>
+\[
+1+2+3+\cdots+n
+\]
+<p>where the difference between each proceeding term is the constant value, 1.</p>
+<p>An arithmetic series is one in which values in an arithmetic sequence are summed together:</p>
+\[
+\sum_{k=1}^{n} k=1+2+\cdots+n
+\]
+<p>This is a visual proof of the Arithmetic Series algorithm:</p>
+<p><img src="01052021044019-pwow-arithmetic-mean.png" alt="" /></p>
+<p>A formalization of the above is:</p>
+\[
+\sum_{k=1}^{n} = \frac{n(a_{1} + a_{n})}{2}
+\]
+<p>which is equivalent to:</p>
+\[
+\sum_{k=1}^{n} = \frac{a_{n}(a_{1} + a_{n})}{2}
+\]
+<p>The latter formalization is somewhat more common and it works as \(a_{n}\) gives the same values as what the size of the sequence is which is \(n\). From the visual proof, the \(\frac{n}{2}\) constant comes from halving the size of each region.</p>
+<p>&#40;Thanks to Mark Kittisopikul, Yingbo Ma, and Benoit Pasquier for these explanations&#41;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>  
   

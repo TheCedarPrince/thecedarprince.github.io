@@ -30,6 +30,66 @@
   <description>
     <![CDATA[  A possible workflow for assessing fairness in the context of observational health studies  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Assessing Phenotype Definitions for Algorithmic Fairness</h1>
+<p><strong>Date:</strong> August 12 2022</p>
+<p><strong>Summary:</strong> A possible workflow for assessing fairness in the context of observational health studies</p>
+<p><strong>Keywords:</strong> ##bibliography #phenotype #fairness #metrics #observational #health ##research #archive</p>
+<h1>Bibliography</h1>
+<p>T. Y. Sun, S. Bhave, J. Altosaar, and N. Elhadad, “Assessing Phenotype Definitions for Algorithmic Fairness,” arXiv:2203.05174 &#91;cs, q-bio&#93;, Mar. 2022, Accessed: Apr. 29, 2022. &#91;Online&#93;. Available: http://arxiv.org/abs/2203.05174</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Purpose of Paper</li><li>Definitions</li><li>Types of Biases Found in Phenotyping</li><li>Common Fairness Metrics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I wanted to read this article as it was highly recommended to me by my friend, Jaan Altosaar, one of the coauthors of this piece. I was very interested in the methods they used and the approach they took to address fairness in phenotypes as although I had heard about discrepancies in phenotypes, this was a bit of a watershed paper to read in my mind exposing how phenotyping can be so skewed. Really fantastic paper and will be returning to it.</p>
+<h3 id="purpose_of_paper">Purpose of Paper</h3>
+<p>Biases introduced at phenotype level can risk exacerbating existing health disparities by influencing clinical guidelines and public policy is what this paper argues</p>
+<h3 id="definitions">Definitions</h3>
+<p><strong>Phenotyping:</strong> Identifying a set of patients with a particular disease</p>
+<p><strong>Phenotype Definitions:</strong> the process of sorting patients based on a disease they have into cohorts. This phenotyping to create definitions is done to learn more about a specific condition such as: 	- Epidemiological queries &#40;e.g., quantifying incidence of disease overtime&#41; &#40;Dubberke et al., 2012&#41; 	- Estimating and predicting risk &#40;Kaelber et al., 2012&#41;  	- Comparing effectiveness &#40;Suchard et al., 2019&#41;</p>
+<p>The basis of demographic parity is the federal fourfths rule, which states that a selection rate for any race, sex, or ethnic group which is less than fourfths of the rate of the group with the highest rate will generally be regarded by the Federal enforcement agencies as evidence of adverse impact</p>
+<h3 id="types_of_biases_found_in_phenotyping">Types of Biases Found in Phenotyping</h3>
+<p><strong>Diagnosis Bias:</strong> a bias that prevents or causes delays to a disease diagnosis for a population due to differences in how that disease may present for that particular population. Example: 	- Heart attack literature finds that men complain of chest pain more frequently 	- Woman are likely to complain of other forms of pain. 	- Phenotype definition for heart attack with chest pain as the core symptom may not capture women &#40;Coventry et al., 2011&#41;.</p>
+<p><strong>Treatment bias:</strong> a bias that prevents or causes delays to a treatment for population groups. Example: 	- VA black patients less likely to receive cardio-protective drugs than white patients &#40;Mehta et al., 2010 </p>
+<p><strong>Access to Care Bias:</strong> biases that are systemic issues preventing patients from accessing healthcare options. Example: 	- Phenotype definition that requires a diagnosis to occur in outpatient settings could underrepresent patients.</p>
+<h3 id="common_fairness_metrics">Common Fairness Metrics</h3>
+<p><strong>Demographic Parity:</strong> difference in proportion for each protected class that receives the positive and negative outcome. Also referred to as &quot;independence&quot; or &quot;statistical parity&quot;.</p>
+\[
+P_0(\hat{Y}=\hat{y})=P_1(\hat{Y}=\hat{y}) \forall \hat{y} \in\{0,1\}
+\]
+<p><strong>Equality of Opportunity:</strong> when true positive rates of a model are equal across demographics</p>
+\[
+P_0(\hat{Y}=1 \mid Y=1)=P_1(\hat{Y}=1 \mid Y=1)
+\]
+<p><strong>Predictive Rate Parity:</strong> when probability of true labels given the predicted label is the same across classes</p>
+\[
+P_0(Y=1 \mid \hat{Y}=1)=P_1(Y=1 \mid \hat{Y}=1)
+\]
+<p>and </p>
+\[
+P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
+\]
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +109,44 @@
   <description>
     <![CDATA[  The origins of the observational medical outcomes partnership  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>The Origins of the Observational Medical Outcomes Partnership &#40;OMOP&#41;</h1>
+<p><strong>Date:</strong> July 28 2021</p>
+<p><strong>Summary:</strong> The origins of the observational medical outcomes partnership</p>
+<p><strong>Keywords:</strong> #omop #medical #outcomes #partnership #observational #archive</p>
+<h1>Bibliography</h1>
+<p>EHDEN Academy</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The Observational Medical Outcomes Partnership &#40;OMOP&#41; was created in 2009 to reach consensus on data types, study designs, and privacy concerns while sharing data.</p>
+<p>The ground truth for OMOP investigations were positive and negative tests regarding drugs. Examples of positive controls were:</p>
+<pre><code class="language-julia">- Events on drug label warnings/precautions
+- If it was a causative agenda</code></pre>
+<p>Examples of negative controls were:</p>
+<pre><code class="language-julia">- Events not listed on drug labels
+- No powered studies with evidence of potential positive association</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
   

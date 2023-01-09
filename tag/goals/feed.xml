@@ -30,6 +30,50 @@
   <description>
     <![CDATA[  The priorities and goals of OHDSI  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Goals of OHDSI</h1>
+<p><strong>Date:</strong> July 28 2021</p>
+<p><strong>Summary:</strong> The priorities and goals of OHDSI</p>
+<p><strong>Keywords:</strong> #ohdsi #goals #archive</p>
+<h1>Bibliography</h1>
+<p>EHDEN Academy</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The goals of OHDSI are to:</p>
+<ol>
+<li><p>Facilitate an open science community across discipline and stakeholder groups</p>
+</li>
+<li><p>Establish open community data standards</p>
+</li>
+<li><p>Create international collaboration</p>
+</li>
+<li><p>Make end to end solutions of translating observational data to reliable evidence</p>
+</li>
+<li><p>Have fun&#33;</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
   

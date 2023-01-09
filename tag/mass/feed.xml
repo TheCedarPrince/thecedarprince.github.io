@@ -30,6 +30,39 @@
   <description>
     <![CDATA[  An overview of the body mass index and some of the concern surrounding it.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Body Mass Index &#40;BMI&#41;</h1>
+<p><strong>Date:</strong> April 15 2022</p>
+<p><strong>Summary:</strong> An overview of the body mass index and some of the concern surrounding it.</p>
+<p><strong>Keywords:</strong> ##summary #biomarker #body #mass #index #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Mentioned in the note <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking.md">X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</a></p>
+<p>One contentious example is body mass index, or BMI. The formula for BMI uses height and weight, so the relationship between height, weight, and BMI is defined and fixed. However, BMI is then taken as a proxy for body fat, which is then in turn taken as a proxy for healthiness, even though those relationships are not fixed or precisely definable</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
   

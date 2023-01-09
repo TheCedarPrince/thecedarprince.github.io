@@ -30,6 +30,57 @@
   <description>
     <![CDATA[  How to create a monthly plan when using a bullet journal.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Monthly Planning in a Bullet Journal</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> How to create a monthly plan when using a bullet journal.</p>
+<p><strong>Keywords:</strong> ##zettel #bulletjournal #productivity #monthly  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>Monthly Breakdown</li><li>Templates:<ol><li>Habit Tracker</li><li>Monthly Log</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<p>In the monthly plan, one should use this as a big picture preview of the upcoming month and each day you should only have one item about the biggest event for that day. Keep it short and concise&#33;&#33;&#33;</p>
+<h3 id="monthly_breakdown">Monthly Breakdown</h3>
+<p>Each day is logged here; furthermore, the following can be recorded:</p>
+<ol>
+<li><p>Goals for the month</p>
+</li>
+<li><p>Major upcoming tasks for the month</p>
+</li>
+<li><p>Habits &#40;good to break it down as a daily chart of sorts&#41;</p>
+</li>
+</ol>
+<p>Choose what works for you and continue with it; with the major upcoming tasks, I would suggest putting that in your monthly log.</p>
+<h3 id="templates">Templates:</h3>
+<h4 id="habit_tracker">Habit Tracker</h4>
+<p>Here is an example of a habit tracker that could be included in the <a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly.md">weekly plan for each week</a>:</p>
+<table><tr><th align="center">Habit</th><th align="center">M</th><th align="center">Tu</th><th align="center">W</th><th align="center">Tr</th><th align="center">F</th><th align="center">Sa</th><th align="center">Su</th></tr><tr><td align="center">Sleep b/w 22:00 and 23:00</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Wake up by 08:00</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Go for a walk</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Journal</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Tea with God</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Read for 15 min</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Study JavaScript for 15 min</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></table>
+<h4 id="monthly_log">Monthly Log</h4>
+<p>Here is an example of what a monthly log could look like:</p>
+<table><tr><th align="right">Date</th><th align="center">Entry</th></tr><tr><td align="right">01</td><td align="center">–-</td></tr><tr><td align="right">02</td><td align="center">–-</td></tr><tr><td align="right">03</td><td align="center">–-</td></tr><tr><td align="right">04</td><td align="center">–-</td></tr><tr><td align="right">05</td><td align="center">–-</td></tr><tr><td align="right">06</td><td align="center">–-</td></tr><tr><td align="right">07</td><td align="center">–-</td></tr><tr><td align="right">08</td><td align="center">–-</td></tr><tr><td align="right">09</td><td align="center">–-</td></tr><tr><td align="right">10</td><td align="center">–-</td></tr><tr><td align="right">11</td><td align="center">–-</td></tr><tr><td align="right">12</td><td align="center">–-</td></tr><tr><td align="right">13</td><td align="center">–-</td></tr><tr><td align="right">14</td><td align="center">–-</td></tr><tr><td align="right">15</td><td align="center">–-</td></tr><tr><td align="right">16</td><td align="center">–-</td></tr><tr><td align="right">17</td><td align="center">–-</td></tr><tr><td align="right">18</td><td align="center">–-</td></tr><tr><td align="right">19</td><td align="center">–-</td></tr><tr><td align="right">20</td><td align="center"></td></tr><tr><td align="right">21</td><td align="center"></td></tr><tr><td align="right">22</td><td align="center"></td></tr><tr><td align="right">23</td><td align="center"></td></tr><tr><td align="right">24</td><td align="center"></td></tr><tr><td align="right">25</td><td align="center"></td></tr><tr><td align="right">26</td><td align="center"></td></tr><tr><td align="right">27</td><td align="center"></td></tr><tr><td align="right">28</td><td align="center"></td></tr><tr><td align="right">29</td><td align="center"></td></tr><tr><td align="right">30</td><td align="center"></td></tr><tr><td align="right">31</td><td align="center"></td></tr></table>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -49,6 +100,54 @@
   <description>
     <![CDATA[  A guide on how GTD is implemented.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>GTD Implementation</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> A guide on how GTD is implemented.</p>
+<p><strong>Keywords:</strong> ##zettel #gtd #productivity #lists #projectmanagement #projects  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Implementation</li><li>Implementation Flow Chart</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="implementation">Implementation</h3>
+<p>GTD consists of utilizing lists to break down information as it enters your brain. Here are the main lists used:</p>
+<ol>
+<li><p><strong>The Intake</strong> - this is raw information that may come in from your colleagues, class, or situation.</p>
+</li>
+<li><p><strong>Projects</strong> - this contains what projects you have going on</p>
+</li>
+<li><p><strong>Next Actions</strong> - tasks that require immediate or imminent volition go here</p>
+</li>
+<li><p><strong>Waiting For</strong> - tasks that you delegate or are waiting on others to accomplish</p>
+</li>
+<li><p><strong>Future List</strong> - tasks or ideas that may be a stretch at the current moment but worth revisiting</p>
+</li>
+</ol>
+<h3 id="implementation_flow_chart">Implementation Flow Chart</h3>
+<p>It can be somewhat confusing to parse the intake; this flow diagram shows and easy to use method of how to break down information:</p>
+<p><img src="03182020054832-gtd-flowchart.jpg" alt="" /></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -68,6 +167,52 @@
   <description>
     <![CDATA[  An overview of David Allen&#39;s &#39;Get Things Done&#39; framework to manage projects, tasks, and life.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Get Things Done</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> An overview of David Allen&#39;s &#39;Get Things Done&#39; framework to manage projects, tasks, and life.</p>
+<p><strong>Keywords:</strong> ##summary ##gtd #productivity #models #business #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** A concise definition of what the GTD framework is.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">GTD Implementation</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** A guide on how GTD is implemented.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review.md">GTD Weekly Reviews</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +232,38 @@
   <description>
     <![CDATA[  A concise definition of what the GTD framework is.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>GTD Definition</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> A concise definition of what the GTD framework is.</p>
+<p><strong>Keywords:</strong> ##zettel #productivity #model #framework #definition #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>GTD, or <em>Getting Things Done</em>, is a productivity framework created by David Allen to free your mind from as much additional load as possible while maintaining projects, lists, and other items pertaining to day-to-day operations. </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -106,6 +283,52 @@
   <description>
     <![CDATA[  An overview of how to use a bullet journal and how to make one.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Bullet Journal</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> An overview of how to use a bullet journal and how to make one.</p>
+<p><strong>Keywords:</strong> ##summary ##bulletjournal #productivity #model #writing #journaling #reflection #projectmanagement #mentalhealth #creativity #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">Monthly Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a monthly plan when using a bullet journal.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly.md">Weekly Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a weekly plan when using a bullet journal.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020035441-bullet-journal-daily.md">Daily Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a daily plan when using a bullet journal.</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -125,6 +348,111 @@
   <description>
     <![CDATA[  How to create a daily plan when using a bullet journal.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Daily Planning in a Bullet Journal</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> How to create a daily plan when using a bullet journal.</p>
+<p><strong>Keywords:</strong> ##zettel #bulletjournal #productivity #journaling #writing #daily #key  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Keys</li><li>Task Symbols<ol><li>Example<ol><li>To-do&#39;s:</li><li>Review:</li></ol></li><li>Short Form Journaling Symbols<ol><li>Example</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Generally speaking, you want the daily entry to: </p>
+<ol>
+<li><p>Be concise and minimal</p>
+</li>
+<li><p>Contain your tasks for the day</p>
+</li>
+<li><p>Contain your agenda for the day</p>
+</li>
+</ol>
+<p>You could Split each entry in half with daily agenda on top and tasks on the bottom</p>
+<h3 id="keys">Keys</h3>
+<p>A general rule of thumb is to keep symbology as simple as possibly in bullet journal. Therefore, here are the biggest and most important symbols in bullet journaling&#33;</p>
+<h3 id="task_symbols">Task Symbols</h3>
+<p>Here are some common symbols one can use for task management and daily review:</p>
+<ul>
+<li><ul>
+<li><p>I am a task&#33; </p>
+<ul>
+<li><ul>
+<li><p>I am a subtask&#33;</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>? - I am a migrated task - I was either moved to a later day ? - I am a task in progress ? - I am a completed task&#33;</p>
+<h4 id="example">Example</h4>
+<h5 id="to-dos">To-do&#39;s:</h5>
+<ul>
+<li><p>Email Nick plans</p>
+<ul>
+<li><p>CC Jen</p>
+</li>
+</ul>
+</li>
+<li><p>Review Mohsen&#39;s manuscript</p>
+</li>
+<li><p>Meet with Chaitra</p>
+</li>
+</ul>
+<h5 id="review">Review:</h5>
+<ul>
+<li><p>Email Nick plans ?</p>
+<ul>
+<li><p>CC Jen ?</p>
+</li>
+</ul>
+</li>
+<li><p>Review Mohsen&#39;s manuscript ?</p>
+</li>
+<li><p>Meet with Chaitra ?</p>
+</li>
+</ul>
+<h4 id="short_form_journaling_symbols">Short Form Journaling Symbols</h4>
+<p>Here are symbols one can use for writing short form thoughts and journal entries:</p>
+<ul>
+<li><p>Standard entry bullet</p>
+</li>
+</ul>
+<p>❔ - This is something I want to learn more about ⚡ - this is an idea I had</p>
+<h5 id="example__2">Example</h5>
+<ul>
+<li><p>Chatted with Abby about Project X</p>
+</li>
+<li><p>Learned about Bullet Journals</p>
+</li>
+<li><p>I want to learn more about GTD ?</p>
+</li>
+<li><p>How easy is it to make a ventilator? ⚡</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -144,6 +472,74 @@
   <description>
     <![CDATA[  How to create a weekly plan when using a bullet journal.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Weekly Planning in a Bullet Journal</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> How to create a weekly plan when using a bullet journal.</p>
+<p><strong>Keywords:</strong> ##zettel #bulletjournal #productivity #weekly #gtd #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Layout</li><li>Preview</li><li>Review</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The weekly plan is very similar to the <a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">monthly plan</a> but is on a much smaller scale. If anything, it is much more similar to a weekly planner with an added twist of being an exercise in reflection and journaling. The weekly plan comprises of two main parts being:</p>
+<ol>
+<li><p>Preview - where you plan for the week ahead</p>
+</li>
+<li><p>Review - where you reflect on the previous week</p>
+</li>
+</ol>
+<h3 id="layout">Layout</h3>
+<p>Generally, it is very brief and contains the following:</p>
+<ol>
+<li><p>Major to-do&#39;s of the week</p>
+</li>
+<li><p>Major events of the week marked on corresponding day</p>
+</li>
+<li><p>Review of the previous week in a short form journal</p>
+</li>
+</ol>
+<p>Also, one could also include something like a <a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">habit tracking system</a> for each week as well.</p>
+<h3 id="preview">Preview</h3>
+<p>Here is encompassed the first two points being:</p>
+<ol>
+<li><p>Major to-do&#39;s of the week</p>
+</li>
+<li><p>Major events of the week marked on corresponding day</p>
+</li>
+</ol>
+<p>This is where you schedule each day of the week based on your schedule. One can use the <a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">&quot;Next Actions&quot; and &quot;Waiting For&quot;</a> list from the <a href="https://jacobzelko.com/03192020045854-get-things-done.md">GTD framework</a> to plan out your to-do&#39;s in a much more structured and useful way.</p>
+<h3 id="review">Review</h3>
+<p>Here is where the last point of the layout comes in - a reflection in the form of a <a href="https://jacobzelko.com/03192020035441-bullet-journal-daily.md##Short-Form-Journaling-Symbols">short form journal</a>. This is meant to be a brief professional reflection on the week and to reflect on the:</p>
+<ul>
+<li><p>Wins for the week</p>
+</li>
+<li><p>What could have been better</p>
+</li>
+<li><p>How you are going to improve next week</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -163,6 +559,39 @@
   <description>
     <![CDATA[  How to conduct weekly reviews using GTD.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>GTD Weekly Review</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> How to conduct weekly reviews using GTD.</p>
+<p><strong>Keywords:</strong> ##zettel #review #weekly #model #productivity #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Each week, you should hold a 30 minute-ish weekly review to guarantee each project on the <a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">project list</a> has at least one upcoming next action for the week. </p>
+<p>Utilize a <a href="https://jacobzelko.com/03192020050346-trigger-list.md">trigger list</a> to help make sure you did not miss anything. The trigger list should be custom to whatever it is that you are working on or are responsible for.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   

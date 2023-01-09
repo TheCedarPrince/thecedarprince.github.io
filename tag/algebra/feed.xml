@@ -30,6 +30,57 @@
   <description>
     <![CDATA[  The algebraic functions one can execute on a vector  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Vector Algebra</h1>
+<p><strong>Date:</strong> June 17 2020</p>
+<p><strong>Summary:</strong> The algebraic functions one can execute on a vector</p>
+<p><strong>Keywords:</strong> ##zettel #vector ##mathematics #linearalgebra #algebra #multiplication #addition #scalar #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>There are a few <a href="https://jacobzelko.com/05132020135855-linear-vectors.md">definitions of a vector</a>. For this overview, I will use the definition that a vector is that which has the algebra of a vector space. The operations for vectors are straight-forward:</p>
+<ol>
+<li><p>Vector Addition</p>
+</li>
+</ol>
+\[
+v + w = \begin{bmatrix} v_{1}\\ v_{2} \end{bmatrix} + \begin{bmatrix} w_{1}\\ w_{2} \end{bmatrix} = \begin{bmatrix} v_{1} + w_{1}\\ v_{2} + w_{2} \end{bmatrix}
+\]
+<ol start="2">
+<li><p>Scalar Multiplication</p>
+</li>
+</ol>
+\[
+2v = \left[
+\begin{array}{c}
+2v_{1} \\
+2v_{2} \\
+\end{array}
+\right]
+\]
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>  
   
@@ -49,6 +100,59 @@
   <description>
     <![CDATA[  Summary of how Householder notation works  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Householder Notation</h1>
+<p><strong>Date:</strong> June 3 2020</p>
+<p><strong>Summary:</strong> Summary of how Householder notation works</p>
+<p><strong>Keywords:</strong> ##zettel #linear #algebra #matrix #vector #scalar #greek #householder #notation #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Examples</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Householder notation is very simple:</p>
+<ol>
+<li><p>Scalars are denoted as lowercase Greek letters: \(\alpha\). \(\beta\), \(\gamma\), ...</p>
+</li>
+<li><p>Vectors are represented as lowercase English letters: \(a\), \(b\), \(c\), ...</p>
+</li>
+<li><p>Matrices are denoted as uppercase English letters: \(A\), \(B\), \(C\), ...</p>
+</li>
+<li><p>Vector transposes are denoted with the apostrophe &#40; &#39; &#41;</p>
+</li>
+<li><p>Vector or matrix multiplication uses the star character &#40; * &#41;</p>
+</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<ol>
+<li><p>The inner product can be expressed as \(u' * v = \alpha\) &#40;i.e. a transposed vector times a vector yields a scalar&#41;</p>
+</li>
+<li><p>The outer product can be expressed similarly as \(u * v' = A\) &#40;i.e. a vector times a transposed vector yields a matrix&#41;</p>
+</li>
+<li><p>Quadratic/bilinear forms can be written as \(u' * A * v = \beta\) &#40;i.e. a transposed vector times a matrix times a vector yields a scalar&#41;</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>  
   
@@ -68,6 +172,69 @@
   <description>
     <![CDATA[  An explanation on how to find a line that fits to two points  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Finding a Line Which Contains Two Points</h1>
+<p><strong>Date:</strong> May 20 2020</p>
+<p><strong>Summary:</strong> An explanation on how to find a line that fits to two points</p>
+<p><strong>Keywords:</strong> ##zettel #algebra #line #point #slope #formula #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm</li><li>Example</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="algorithm">Algorithm</h3>
+<p>Let \(p_{1} = (x_{1}, y_{1})\), \(p_{2} = (x_{2}, y_{2})\), \(p = (x_{p}, y_{p})\) where \(p_{1}\) and \(p_{2}\) are two points of interest and \(p\) is either \(p_{1}\) or \(p_{2}\). The algorithm for determining the line that contains points \(p_{1}\) and \(p_{2}\) utilizes the Point-Slope Formula:</p>
+\[
+y_{2} - y_{1} = m(x_{2} - x_{1})
+\]
+<p>Can be rewritten such that</p>
+\[
+m = \frac{ y_{2} - y_{1}}{x_{2} - x_{1}}
+\]
+<p>To define the slope of the line in question. To generalize this to a generic solution, one reevaluates for the point slope formula using \(y\) and \(x\) as general terms:</p>
+\[
+y - y_{p} = m(x - x_{p})
+\]
+<p>To produce the final generic equation, reorganizing yields:</p>
+\[
+y(x) = \frac{x \cdot \left( y_{2} - y_{1} \right)}{x_{2} - x_{1}} - \frac{x_{p} \cdot \left( y_{2} - y_{1} \right)}{x_{2} - x_{1}} + y_{p}
+\]
+<h3 id="example">Example</h3>
+<pre><code class="language-julia">using Plots
+gr&#40;&#41;# Utilizing an implicit return from the generic function
+y&#40;x, x_1, y_1, x_2, y_2&#41; &#61; x .* &#40;y_2 - y_1&#41; ./ &#40;x_2 - x_1&#41; .- x_1 .* &#40;y_2 - y_1&#41; ./ &#40;x_2 - x_1&#41; .&#43; y_1input &#61; -5:5
+output &#61; y&#40;input, 2, -1, 0, 3&#41;plot&#40;input,
+     output, 
+     framestyle&#61;:zerolines,
+     label&#61;&quot;Fitted Line&quot;,
+     title&#61;&quot;Line Fitting Two Points&quot;,
+     xlim&#61;&#40;-5, 5&#41;,
+     ylim&#61;&#40;-5, 5&#41;
+     &#41;
+scatter&#33;&#40;&#40;2, -1&#41;, label&#61;&quot;Point 1&quot;, marker&#61;5&#41;
+scatter&#33;&#40;&#40;0, 3&#41;, label&#61;&quot;Point 2&quot;, marker&#61;5&#41;</code></pre>
+<p><img src="https://jacobzelko.com/052520202121.png" alt="output image" /></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +254,45 @@
   <description>
     <![CDATA[  Simple write up on column vectors  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Vectors</h1>
+<p><strong>Date:</strong> May 13 2020</p>
+<p><strong>Summary:</strong> Simple write up on column vectors</p>
+<p><strong>Keywords:</strong> ##zettel #column #vectors #linear #algebra ##mathematics  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>There exist two definitions for vectors:</p>
+<ol>
+<li><p>A vector is a column of a matrix.</p>
+</li>
+<li><p>A vector is that which has the algebra of a vector space.</p>
+</li>
+</ol>
+<p>This can be summarized by saying: not all vectors which have the algebra of a vector space are columns of matrices.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>  
   

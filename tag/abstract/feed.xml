@@ -30,6 +30,76 @@
   <description>
     <![CDATA[  An overview and summary on what are abstract data types and what kinds exist  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Abstract Data Types</h1>
+<p><strong>Date:</strong> October 5 2021</p>
+<p><strong>Summary:</strong> An overview and summary on what are abstract data types and what kinds exist</p>
+<p><strong>Keywords:</strong> ##summary #data #data #abstract #types #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Characteristics</li><li>Abstract Data Types<ol><li>List Abstract Data Type<ol><li>Minimum Required Operations</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="definitions">Definitions</h3>
+<ul>
+<li><p><strong>Abstract Data Types</strong> - the description of a data type based on its associated behaviors and operations.</p>
+</li>
+</ul>
+<p>The details of Abstract Data Types are left vague &#40;i.e. abstract&#41; so that various languages can make their own implementations.</p>
+<ul>
+<li><p><strong>Data Structures</strong> - the concrete implementation details of a given data type.</p>
+</li>
+</ul>
+<h3 id="characteristics">Characteristics</h3>
+<ul>
+<li><p>Allows an implementer to focus on the functionality requirements as opposed to the logistics in the language of implementation</p>
+</li>
+</ul>
+<h3 id="abstract_data_types">Abstract Data Types</h3>
+<h4 id="list_abstract_data_type">List Abstract Data Type</h4>
+<p><strong>List Abstract Data Type</strong> - is a sequence of data values accessible via indexing.</p>
+<h5 id="minimum_required_operations">Minimum Required Operations</h5>
+<ul>
+<li><p><code>addAtIndex&#40;int index, T data&#41;</code> - adds <code>data</code> of generic type <code>T</code> to a list at a specified <code>index</code> of type <code>int</code>.</p>
+</li>
+</ul>
+<p>Any data at an index of <code>i</code> where it is \(\geq\) the value of <code>index</code>, has a new value of <code>i &#43; 1</code> to make space for the inserted <code>data</code>.</p>
+<ul>
+<li><p><code>removeAtIndex&#40;int index&#41;</code> - removes <code>data</code> at a specified <code>index</code> in a list.</p>
+</li>
+</ul>
+<p>Any data with an index <code>i</code> where <code>i</code> is \(>\) <code>index</code> has a new index of <code>i - 1</code> to &quot;shrink&quot; the list of objects.</p>
+<ul>
+<li><p><code>get&#40;int index&#41;</code> - returns <code>data</code> at a specific <code>index</code>.</p>
+</li>
+<li><p><code>isEmpty&#40;&#41;</code> - returns if the list is empty or not.</p>
+</li>
+<li><p><code>clear&#40;&#41;</code> - empties list; resets list back to when it had no data.</p>
+</li>
+<li><p><code>size&#40;&#41;</code> - returns the number of <code>data</code> stored in list.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +119,89 @@
   <description>
     <![CDATA[  An overview of asymptotic notation and time complexity  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Data Structures</h1>
+<p><strong>Date:</strong> September 28 2021</p>
+<p><strong>Summary:</strong> An overview of asymptotic notation and time complexity</p>
+<p><strong>Keywords:</strong> ##summary #data #structures #abstract #types #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Arrays</li><li>ArrayList<ol><li>Characteristics</li><li>Definitions</li><li>Requirements</li><li><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="arrays">Arrays</h3>
+<p>Arrays are: 	- Statically allocated &#40;they are stored in memory and do not change; values can tho&#41; 	- Contiguous blocks of memory &#40;meaning that they are stored end to end in memory&#41;</p>
+<p>They provide <a href="https://jacobzelko.com/09242021040445-asymptotic-notation.md">constant complexity</a> of \(\mathcal{O}(1)\) when accessing data at a specific index in memory.</p>
+<p>They are of particular use in storing sequences of related items. However, they are not very efficient when dealing with dynamically changing sizes for elements. If you try to fit \(10\) objects into an array of size \(5\), the array will need to be expanded.</p>
+<h3 id="arraylist">ArrayList</h3>
+<h4 id="characteristics">Characteristics</h4>
+<ul>
+<li><p>A type of <a href="https://jacobzelko.com/10052021221736-abstract-data-types.md">List Abstract Data Type</a> backed by an array.</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Really just a wrapper around arrays</code></pre>
+<ul>
+<li><p>ArrayLists are expanded when reaching capacity</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Handled automatically by implementation
+- Dynamically allocated via moving data to be copied when more space for the data is needed
+	- This takes &#36;\mathcal&#123;O&#125;&#40;n&#41;&#36; time to do</code></pre>
+<h4 id="definitions">Definitions</h4>
+<ul>
+<li><p><code>size</code> - the number of data &#40;non-null&#41; stored in an ArrayList.</p>
+</li>
+<li><p><code>capacity</code> - number of data that can be stored in an ArrayList without resize</p>
+</li>
+<li><p><strong>Amortized Analysis</strong> - looks at the cost over time rather than cost per add operation</p>
+</li>
+</ul>
+<h4 id="requirements">Requirements</h4>
+<ol>
+<li><p>Data must be contiguous &#40;no gaps between data&#41;.</p>
+</li>
+<li><p>Data must be zero-aligned &#40;meaning that all values from zero to the end of the list, must be filled with data&#41;.</p>
+</li>
+<li><p>Size should be stored for efficiency.</p>
+</li>
+</ol>
+<p><img src="10052021232522-array-list-requirements.png" alt="" /></p>
+<blockquote>
+<p><strong>NOTE:</strong> The empty blocks in the ArrayList sketch contain NULLs</p>
+</blockquote>
+<h4 id="a_href10052021235121-amortized-analysismdamortized_analysis"><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></h4>
+<ul>
+<li><p>Examples:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Insertion:
+	- Adding to the back of an ArrayList is &#36;\mathcal&#123;O&#125;&#40;1&#41;&#36;
+	- Adding at an arbitrary position in the ArrayList is &#36;\mathcal&#123;O&#125;&#40;n&#41;&#36;
+		- This is because when an element is inserted, the rest of the data in the list must be shifted to accommodate for the new data
+- Removing examples:
+	- Removing from back of ArrayList is &#36;\mathcal&#123;O&#125;&#40;1&#41;&#36;
+	- Removing at arbitrary position in ArrayList is &#36;\mathcal&#123;O&#125;&#40;n&#41;&#36;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>  
   

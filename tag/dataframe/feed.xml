@@ -30,6 +30,72 @@
   <description>
     <![CDATA[  Language-agnostic in-memory columnar format for analytical query engines and data frames  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Apache Arrow</h1>
+<p><strong>Date:</strong> October 26 2020</p>
+<p><strong>Summary:</strong> Language-agnostic in-memory columnar format for analytical query engines and data frames</p>
+<p><strong>Keywords:</strong> ##zettel #apache #arrow #dataframe #data #storage #format  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p>Launched in 2016</p>
+</li>
+<li><p>Purpose: Language-independent open standards and libraries to accelerate and simplify in-memory computing</p>
+</li>
+<li><p>Columnar Memory Format</p>
+<ul>
+<li><p>Ideal for Columnar Storage &#40;small size&#41;</p>
+</li>
+<li><p>Supports flat and nested schemas</p>
+</li>
+<li><p>Organized for cache-efficient access on CPUs and GPUs and takes advantage of parallel processing</p>
+</li>
+<li><p>Optimized for scan and random access</p>
+</li>
+</ul>
+</li>
+<li><p>Binary Messaging Protocol</p>
+<ul>
+<li><p>Record batch is a part of a table</p>
+</li>
+<li><p>Can be streamed</p>
+</li>
+</ul>
+</li>
+<li><p>Encapsulated Protocol Messages &#40;IPC&#41;</p>
+<ul>
+<li><p>Specifies the memory location of each column in the table</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>&#91;1&#93;</p>
+<p>The arrow format allows for larger-than-memory datasets. When writing a dataset to arrow format, the data and metadata is laid in a descriptive layout. The data is written in pre-determined, binary formats by supported type. When reading, Arrow memory maps data from arrow memory. This means the OS gives access to memory which is swapped into RAM upon requests. &#40;Jacob Quinn – correspondence on Apache Arrow mailing list&#41;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Apache Arrow and the Future of Data Frames. 2020.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,107 @@
   <description>
     <![CDATA[  An overview on how to use and implement a median filter  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Median Filtering</h1>
+<p><strong>Date:</strong> April 25 2020</p>
+<p><strong>Summary:</strong> An overview on how to use and implement a median filter</p>
+<p><strong>Keywords:</strong> ##zettel #signalprocessing #noise #artifact #filtering #window #julialang #median #movingaverage #downsampling #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Consideration</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>It is a non-linear digital filtering technique, used to remove noise from an image or signal. The main idea of the median filter is to run through the signal value by value, replacing each value with the median of neighboring values. The pattern of neighbors is called the &quot;window&quot;, which slides, entry by entry, over the entire signal.</p>
+<h3 id="algorithm">Algorithm</h3>
+<p>An explanation of implementing the algorithm is given in example form:</p>
+<p>Given the original signal, \(x = (2, 3, 80, 6)\), a 1D Median Filter is applied as follows:</p>
+\[
+y1 = med(2, 3, 80) = 3
+\]
+\[
+y2 = med(3, 80, 6) = med(3, 6, 80) = 6
+\]
+\[
+y3 = med(80, 6, 2) = med(2, 6, 80) = 6
+\]
+\[
+y4 = med(6, 2, 3) = med(2, 3, 6) = 3
+\]
+<p>Which yields the final filtered signal, \(y = (3, 6, 6, 3)\).</p>
+<h4 id="additional_consideration">Additional Consideration</h4>
+<p>In the example implementation, there is no value preceding the first value, thus the window &quot;wraps&quot; around the original to fulfill its window size.</p>
+<p>There are other ways to handle filling the window other than wrapping such as:</p>
+<ul>
+<li><p>Avoiding selecting values directly located at either boundary of the signal.</p>
+</li>
+<li><p>Use other values from within the signal.</p>
+</li>
+<li><p>Shrink the window near the edges of the signal so that the window is always full.</p>
+</li>
+</ul>
+<p>Furthermore, it is very good for salt-and-pepper noise/impulse noise &#40;e.g. noise that is caused by sharp and sudden disturbances in the image signal&#41;</p>
+<h3 id="example_implementation">Example Implementation</h3>
+<pre><code class="language-julia">using Plots # IMPORT FOR PLOTTING
+using Statistics # IMPORT FOR &#96;median&#96; FUNCTION
+using LaTeXStrings # IMPORT TO ENABLE LaTeX FORMATTING
+gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
+    input &#61; 0:0.001:1
+    window &#61; 30
+    sampling_rate &#61; 15    # GENERATE GENERIC SIGNAL - IN THIS CASE sin&#40;2Π&#41;
+    signal &#61; &#91;sin&#40;2 * pi * i&#41; for i in input&#93;    # ADDING RANDOM NOISE TO FUNCTION
+    noisy_signal &#61; &#91;sin&#40;2 * pi * i&#41; &#43; rand&#40;&#91;-1, 1&#93;&#41; * round&#40;rand&#40;&#41;, digits &#61; 2&#41;
+                    for i in input&#93;    # FILTER THE SIGNAL USING A MEDIAN FILTER &amp; DOWNFILTERING USING A MEDIAN FILTER
+    downsampled_signal::Array&#123;Float32&#125; &#61; &#91;noisy_signal&#91;1&#93;&#93;
+    downsampled_input::Array&#123;Float16&#125; &#61; &#91;0&#93;
+    median_signal::Array&#123;Float32&#125; &#61; &#91;&#93;
+    for i in 1:length&#40;signal&#41;
+        if length&#40;noisy_signal&#41; - &#40;window &#43; i - 1&#41; &lt; 0
+            forward &#61; noisy_signal&#91;i:end&#93;
+            wrap &#61; noisy_signal&#91;1:abs&#40;length&#40;noisy_signal&#41; - &#40;window &#43; i - 1&#41;&#41;&#93;
+            append&#33;&#40;median_signal, median&#40;vcat&#40;forward, wrap&#41;&#41;&#41;            # SETTING SAMPLING RATE AND CREATING DOWNSAMPLED OUTPUT
+            if i &#37; sampling_rate &#61;&#61; 0
+                append&#33;&#40;downsampled_input, input&#91;i&#93;&#41;
+                append&#33;&#40;downsampled_signal, median&#40;vcat&#40;forward, wrap&#41;&#41;&#41;
+            end
+        else
+            forward &#61; noisy_signal&#91;i:&#40;window &#43; i - 1&#41;&#93;
+            append&#33;&#40;median_signal, median&#40;forward&#41;&#41;            # SETTING SAMPLING RATE AND CREATING DOWNSAMPLED OUTPUT
+            if i &#37; sampling_rate &#61;&#61; 0
+                append&#33;&#40;downsampled_input, input&#91;i&#93;&#41;
+                append&#33;&#40;downsampled_signal, median&#40;forward&#41;&#41;
+            end
+        end
+    end    # PLOT SIGNALS
+    append&#33;&#40;downsampled_input, input&#91;end&#93;&#41;
+    append&#33;&#40;downsampled_signal, noisy_signal&#91;end&#93;&#41;
+    plot&#40;input, noisy_signal, label &#61; &quot;Noisy Signal&quot;, title &#61; &quot;Example of Median Filter&quot;&#41;
+    plot&#33;&#40;input, median_signal, label &#61; &quot;Median Filtered Signal&quot;, linewidth &#61; 3&#41;
+    plot&#33;&#40;input, signal, label &#61; L&quot;2\pi&quot;, linewidth &#61; 5&#41;
+    plot&#33;&#40;downsampled_input, downsampled_signal, linewidth &#61; 3, color &#61; :black,
+          label &#61; &quot;Downsampled Median Signal&quot;&#41;end</code></pre>
+<h4 id="output">Output</h4>
+<p><img src="https://jacobzelko.com/04252020025710.png" alt="median_filter" /></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>  
   

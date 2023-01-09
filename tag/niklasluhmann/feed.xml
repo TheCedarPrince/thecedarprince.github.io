@@ -30,6 +30,46 @@
   <description>
     <![CDATA[  A more in-depth examination of the Zettelkasten method  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity</h1>
+<p><strong>Date:</strong> May 3 2020</p>
+<p><strong>Summary:</strong> A more in-depth examination of the Zettelkasten method</p>
+<p><strong>Keywords:</strong> ##zettel #database #computer #niklasluhmann #zettelkasten  #archive</p>
+<h1>Bibliography</h1>
+<p>J. F. K. Schmidt, Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity, Sociologica, vol. Vol 12, pp. 53-60 Pages, Jul. 2018, doi: 10.6092/ISSN.1971-8853/8350.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<blockquote>
+<p>&quot;As early as in the 1950s to 1960s, Luhmann simulated a modern computer-based database system &#91;...&#93;.&quot; &#40;pg. 59&#41;</p>
+</blockquote>
+<p>I actually think that the Zettelkasten method by Luhmann is distinctly different from a computer database. The reason being, is that this is far more overlapping and far reaching than a discrete system like a simple computer database. One could argue that relations could be made analogous to relational databases but here, the relations are far more abstract than they are in the traditional relational database. If anything, Luhmann&#39;s Zettelkasten is more similar to a graph-type system - such as a knowledge graph - than a database </p>
+<blockquote>
+<p>&quot;Luhmann&#39;s card index allows the production of new and often unexpected knowledge by relating concepts and thoughts that do not have much in common at first sight &#91;...&#93; &#91;I&#93;t makes &#91;...&#93; serendipity possible in a systemically and theoretically informed way.&quot; &#40;pg. 54&#41;</p>
+</blockquote>
+<p>The power of the Zettelkasten comes from these accidental connections. Very similar to how one may spread out pieces of paper on a table and make a new connection, so does this method simulate it in very much the same way.</p>
+<p>Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as <a href="https://jacobzelko.com/03092020022908-education-spectrum.md">knowledge falls across a spectrum.</a> &#40;pg. 56&#41;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>  
   

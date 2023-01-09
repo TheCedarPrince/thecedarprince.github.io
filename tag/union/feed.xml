@@ -30,6 +30,74 @@
   <description>
     <![CDATA[  A line of questioning to ensure I understand what coproducts and disjoint unions are  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Clarifying Understanding of Coproducts</h1>
+<p><strong>Date:</strong> October 2 2022</p>
+<p><strong>Summary:</strong> A line of questioning to ensure I understand what coproducts and disjoint unions are</p>
+<p><strong>Keywords:</strong> #question #zulip #category #theory #coproducts #disjoint #union #set  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>This is a question to clarify my understand of coproducts as I have largely spent some time in understanding what they are and how to interpret them. </p>
+<h3 id="question">Question</h3>
+<p>Hi everyone,</p>
+<p>I was hoping I could get some clarification on my understanding of coproducts as I <em>believe</em> I have finally wrapped my head around them, but I want to be clear that I do.  To understand coproducts, I started with the set theory definition of a coproduct: </p>
+\[
+\bigcup_{i \in I} \{(x, i): x \in A_{i}\}
+\]
+<p>where \(i \in I\) denotes indexing from some <em>index set</em>, \(I\), using the index term, \(i\) and \(A_{i}\) represents some <em>family of sets</em> indexed by \(i\) and \(x\) is some element of the respective \(A_{i}\) set. Then, based on readings from Category Theory texts, I have gathered that the following is equivalent notation to the formal set theory definition: \(\bigsqcup_{i \in I} A_{i}\).  As an example to make sure I am on the right track, here is a small simple problem and its solution according to my understanding:</p>
+<blockquote>
+<p>Find \(\bigsqcup_{i \in I} A_{i}\) given the following:</p>
+</blockquote>
+<blockquote>
+</blockquote>
+\[
+> I = \{1, 2, 3\}
+> \]
+<blockquote>
+</blockquote>
+\[
+> A = \{\{1, 2, 3\}, \{2, 4, 6\}\}
+> \]
+<blockquote>
+<p>Solution: \(\bigsqcup_{i \in I} A_{i} = \{(1, 1), (2, 1), (3, 1), (2, 2), (4, 2), (6, 2)\}\)</p>
+</blockquote>
+<p>Where I am confused is the following: </p>
+<ol>
+<li><p>What is the difference between \(\bigsqcup_{i \in I} A_{i}\) and \(\coprod_{i \in I} A_{i}\) and \(X_{1} \coprod X_{2}\) syntax notation &#40;the latter notation concerns two specific sets&#41;?</p>
+</li>
+</ol>
+<p>I have seen all notations when referring to coproducts when viewed from both set theory and category theory perspectives. Is it a matter of aesthetic or is there a functional/semantic difference occurring?</p>
+<ol start="2">
+<li><p>I have read that coproducts are also known as disjoint unions.</p>
+</li>
+</ol>
+<p>I read about disjoint unions from a set theory perspective and also a category theory perspective but cannot really discern a functional &#40;i.e. practical&#41; difference from coproducts. Are coproducts and disjoint unions really effectively the same idea?</p>
+<p>Thanks all and let me know if I can clarify anywhere&#33; </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +117,75 @@
   <description>
     <![CDATA[  Exploration on the disjoint union of sets.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Coproducts &#40;Disjoint Unions&#41;</h1>
+<p><strong>Date:</strong> September 16 2022</p>
+<p><strong>Summary:</strong> Exploration on the disjoint union of sets.</p>
+<p><strong>Keywords:</strong> ##summary #category #theory #sets #union #archive</p>
+<h1>Bibliography</h1>
+<p>David Spivak, Category Theory for Scientists, Old Version. 2013.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>To learn and understand the concept of coproducts within the context of category theory. Also, I came across the symbolic notation for what disjoint unions are and wanted to understand what the notation fully meant.</p>
+<h3 id="disjoint_union_of_sets_intuition">Disjoint Union of Sets Intuition</h3>
+<p>To build an intuitive sense of what a disjoint union is, consider the following.</p>
+<p>Given two sets, \(X = \{a, b, c, d\}\), \(Y = \{1, 2, 3\}\), the coproduct of these sets would be: </p>
+\[
+X \coprod Y := \{a, b, c, d, 1, 2, 3\}
+\]
+<p>This also is referred to as the &quot;disjoint union of sets&quot;. Although, it is important to note that an important aspect of this notation above is missing from the coproduct which will be explained in the section on a <a href="https://jacobzelko.com/#coproduct-of-a-set-and-itself">coproduct of a set and itself</a>.</p>
+<h3 id="coproduct_of_a_set_and_itself">Coproduct of a Set and Itself</h3>
+<p>If given set \(X = \{a, b, c, d\}\), the coproduct of \(X\) and itself would look like this:</p>
+\[
+X \coprod X \cong \{i_{1}a, i_{1}b, i_{1}c, i_{1}d, i_{2}a, i_{2}b, i_{2}c, i_{2}d\}
+\]
+<p>In this case, \(i_{1}\) and \(i_{2}\) are unique inclusion functions that map each set in a coproduct to its disjoint union. The inclusion functions in my opinion, act as a sort of metadata that helps one know where elements of a disjoint union comes from.</p>
+<blockquote>
+<p>NOTE: The author, David Spivak, in <em>Category Theory for the Sciences</em> presented the above notation for a coproduct of \(X\) and itself.  Personally, I found this notation very confusing and feel the formal set theory definition explained in the <a href="https://jacobzelko.com/#set-theory-definition">section on the set theory definition of a coproduct</a> to be more useful here.  If we revisited the operation \(X \coprod X\), I am more inclined to write the problem and solution as follows:</p>
+<p>Let \(X = X_{1} = X_{2}\), the value of \(X_{1} \coprod X_{2}\) is: \(X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 3), (d, 4)\}\)</p>
+</blockquote>
+<h3 id="set_theory_definition">Set Theory Definition</h3>
+<p>This big honking formulation is the formal set theoretic definition of a coproduct:</p>
+\[
+\bigsqcup_{i \in I} A_{i} = \bigcup_{i \in I} \{(x, i): x \in A_{i}\}
+\]
+<p>What this says loosely is that given a <a href="https://jacobzelko.com/09302022033236-family-sets.md">family of sets</a> \(A\) indexed by the <a href="https://jacobzelko.com/09302022040126-indexed-sets.md">index set \(I\)</a>, a coproduct is a set that enumerates every element in \(A_{i}\) with its associated set. Referencing the <a href="https://jacobzelko.com/#coproduct-of-a-set-and-itself">example on a coproduct of a set and itself</a>:</p>
+<p>Given: \(X = \{a, b, c, d\}\)</p>
+<p>Let \(X = X_{1} = X_{2}\), the value of \(X_{1} \coprod X_{2}\) is: </p>
+\[
+X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 3), (d, 4)\}
+\]
+<p>The coproduct is a set which enumerates every element in both set \(X_{1}\) and \(X_{2}\) as a tuple with an associated index to say what set this element originated from &#40;i.e. \((a, 1)\) is the same \(a\) from set \(X_{1}\)&#41;.</p>
+<h3 id="notation_in_category_theory">Notation in Category Theory</h3>
+<p>It is important to make clear that in category theory, these two syntaxes are seen:</p>
+\[
+\coprod_{i \in I} X_{i}
+\]
+<p>and \(\bigsqcup_{i \in I} X_{i}\)</p>
+<p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets.md">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>  
   

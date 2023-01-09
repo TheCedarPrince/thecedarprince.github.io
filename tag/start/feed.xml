@@ -30,6 +30,121 @@
   <description>
     <![CDATA[  My notes on learning the Lua programming language  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>A Beginner&#39;s to Master&#39;s Guide in Learning Lua</h1>
+<p><strong>Date:</strong> October 1 2022</p>
+<p><strong>Summary:</strong> My notes on learning the Lua programming language</p>
+<p><strong>Keywords:</strong> #archive #lua #quick #start #programming</p>
+<h1>Bibliography</h1>
+<p>https://github.com/medwatt/Notes/blob/main/Lua/Lua<em>Quick</em>Guide.ipynb</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Comments</li><li>Variable Scope<ol><li>Global Scope</li><li>Local Scope</li></ol></li><li>Variable Assignments</li><li>Variable Types</li><li>Math Operators</li><li>Relational Operators</li><li>Logical Operators</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I wanted to learn Lua for no other reason than to program my own workflow in neovim. Also, Lua is cool and Just-in-Time compiled like Julia&#33; Plus, it is used for game development so if ever this research thing doesn&#39;t work out, backup plan: become a game developer.</p>
+<h3 id="comments">Comments</h3>
+<p>How to write comments within Lua&#33;</p>
+<pre><code class="language-lua">-- This is my comment&#33; --&#91;&#91; 
+	This
+	is 
+	a 
+	multiline 
+	comment&#33; 
+--&#93;&#93;</code></pre>
+<h3 id="variable_scope">Variable Scope</h3>
+<h4 id="global_scope">Global Scope</h4>
+<p>All variables within lua are considered global by default. Moreover, each call or line within a lua script is run as a chunk.</p>
+<pre><code class="language-lua">Var &#61; 10
+print&#40; &quot;Global var:&quot;, Var &#41;</code></pre>
+<h4 id="local_scope">Local Scope</h4>
+<p>To define a large chunk where variables are local in scope, one can create a local scope using a do-end block </p>
+<pre><code class="language-lua">do
+	local Var &#61; 20
+	print&#40; &quot;Local Var:&quot;, Var &#41;
+end</code></pre>
+<h3 id="variable_assignments">Variable Assignments</h3>
+<pre><code class="language-lua">A &#61; A &#43; 1 -- This works 
+A &#43;&#61; 1 -- This does not work B &#61; 0 -- This works
+C &#61; 0 -- This works
+B, C &#61; 0, 0 -- This works
+B &#61; C &#61; 0 -- This does not work</code></pre>
+<h3 id="variable_types">Variable Types</h3>
+<p>There are eight basic types within Lua: </p>
+<ul>
+<li><p><code>nil</code> - represents absence of data</p>
+</li>
+<li><p><code>boolean</code></p>
+</li>
+<li><p><code>number</code> - <code>integer</code> and <code>float</code> both exist as alternative subtypes of <code>number</code></p>
+</li>
+<li><p><code>string</code></p>
+</li>
+<li><p><code>userdata</code></p>
+</li>
+<li><p><code>function</code></p>
+</li>
+<li><p><code>thread</code></p>
+</li>
+<li><p><code>table</code></p>
+</li>
+</ul>
+<pre><code class="language-lua">print&#40; type&#40;&quot;Hello&quot;&#41; &#41; -- string 
+print&#40; type&#40;10.4 * 3&#41; &#41; -- number 
+print&#40; type&#40;&#123;1, 2, 3&#125;&#41; &#41; -- table
+print&#40; type&#40;print&#41; &#41; -- function 
+print&#40; type&#40;true&#41; &#41; -- boolean 
+print&#40; type&#40;nil&#41; &#41; -- nil</code></pre>
+<blockquote>
+<p>NOTE: Arithmetic operations applied to an object of type <code>string</code> will not fail but instead Lua will attempt to convert that object to a <code>number</code> type.  Vice-versa to this is that if a object of type <code>number</code> is used in a <code>string</code> operation, Lua will attempt to convert that object to a <code>string</code>.</p>
+</blockquote>
+<h3 id="math_operators">Math Operators</h3>
+<pre><code class="language-lua">A &#61; 100
+B &#61; 2 print&#40; A &#43; B &#41; -- Addition
+print&#40; A - B &#41; -- Subtraction 
+print&#40; A * B &#41; -- Multiplication
+print&#40; A ^ B &#41; -- Exponents 
+print&#40; A / B &#41; -- Division
+print&#40; A // B &#41; -- Floor
+print&#40; A &#37; B &#41; -- Modulus
+print&#40; -A &#41; -- Negation</code></pre>
+<h3 id="relational_operators">Relational Operators</h3>
+<pre><code class="language-lua">A &#61; 20
+B &#61; 4print&#40;A &#61;&#61; B&#41; -- false
+print&#40;A ~&#61; B&#41; -- true
+print&#40;A &gt; B&#41; -- true
+print&#40;A &lt; B&#41; -- false
+print&#40;A &gt;&#61; B&#41; -- true
+print&#40;A &lt;&#61; B&#41; -- false</code></pre>
+<h3 id="logical_operators">Logical Operators</h3>
+<pre><code class="language-lua">print&#40;true and 10&#41; -- evaluates to &#96;10&#96;
+print&#40;10 and true&#41; -- evaluates &#96;true&#96;
+print&#40;false and 10&#41; -- short circuits to &#96;false&#96;
+print&#40;false or 10&#41; -- evaluates to &#96;10&#96;
+print&#40;nil and 10&#41; -- evaluates to &#96;nil&#96;
+print&#40;nil or 10&#41; -- evaluates to &#96;10&#96;
+print&#40;false and nil&#41; -- evaluates to &#96;false&#96;
+print&#40;false and not&#40;nil&#41;&#41; -- evaluates to &#96;false&#96;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>  
   

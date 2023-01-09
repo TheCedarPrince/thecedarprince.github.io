@@ -30,6 +30,59 @@
   <description>
     <![CDATA[  Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read&#33;  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</h1>
+<p><strong>Date:</strong> April 15 2022</p>
+<p><strong>Summary:</strong> Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read&#33;</p>
+<p><strong>Keywords:</strong> ##summary ##blog #review #book #gender #ingressive #congressive #category #theory #archive</p>
+<h1>Bibliography</h1>
+<p>E. Cheng, X &#43; Y: A Mathematician’s Manifesto for Rethinking Gender. Basic Books, 2020.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Category Theory as Tool for Thinking on Gender</li><li>Congressive versus Ingressive Thinking</li><li>Conclusion</li><li>Final Thoughts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="introduction">Introduction</h3>
+<p>Eugenia Cheng takes a nuanced approach to the discussion around gender. As she references, some feminists&#39; battle cry is the phrase, &quot;Smash the patriarchy&#33;&quot;. In Cheng&#39;s idea of feminism, she instead looks for language that is less divisive and more inclusive encompassed in her saying, &quot;Let’s transform our world into a more congressively led future.&quot;</p>
+<h3 id="category_theory_as_tool_for_thinking_on_gender">Category Theory as Tool for Thinking on Gender</h3>
+<p>With this approach, she launches into her core contribution to the discussion on gender which is introducing the mathematics of <a href="https://jacobzelko.com/11082021041951-category-theory-scientists.md">category theory</a> to decouple historical characteristics associated genders from the genders themselves. Cheng argues that this is a better approach to take in gender discussions to think more deeply about traits or characteristics in isolation rather than rooted in gender. You can then critique a characteristic or trait rather than a whole group of people.</p>
+<p>Rather than being a book on mathematics and gender, category theory is used more as a mental model or framework to enact this decoupling. This works well as category theory fundamentally concerns itself about relationships. In her opinion, category theory enables one to think more clearly about about characteristics with a great degree of flexibility.</p>
+<h3 id="congressive_versus_ingressive_thinking">Congressive versus Ingressive Thinking</h3>
+<p>Cheng introduced two crucial words into her argument which can describe concepts, behaviors or people: &quot;congressive&quot; and &quot;ingressive&quot;. This is how she defined these terms summarized below:</p>
+<ul>
+<li><p><strong>Ingressive</strong> - putting oneself over society, imposing on others frequently, far more individualistic than collaborative, less flexible thinking</p>
+</li>
+<li><p><strong>Congressive</strong> - society over self, prioritizing others, highly collective and community-focused, holistic thought patterns</p>
+</li>
+</ul>
+<p>In this way, the onus of characteristics is moved from tightly coupled gender stereotypes to decoupled conversations on those characteristics in isolation. However, this isn&#39;t entirely the case all the time as most concepts, behaviors, or people have some tendencies to ingressive behavior and some to congressive behavior. As Cheng herself posits, &quot;When gender is relevant, we need to consider it. When character is relevant, we need to consider it.  But we shouldn&#39;t assume they are linked.&quot;</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>She concludes in her book how she doesn&#39;t want, &quot;to see &quot;masculine&quot; and &quot;feminine&quot; character traits evaluated against each other &#91;...&#93; so only one side can win,&quot; in discussions around gender. She emphasizes how she doesn&#39;t want women having to act like men to succeed. Rather, she believes that there are not only other ways to make contributions to society but rather that there are other traditional forms of success.</p>
+<h3 id="final_thoughts">Final Thoughts</h3>
+<p>Overall, I really enjoyed this book&#33; I feel like her point was made pretty early on and I appreciated some of the examples. However, as I am acquainted with category theory as well as having read some material on gender studies in the past, I personally was able to skip through various parts.</p>
+<p>I think her notion of decoupling is immensely important however I am not sure on her terminology of &quot;ingressive&quot; and &quot;congressive&quot;. Whenever anyone overloads terms with additional definitions, it makes me nervous that confusion in discussion can occur. However, since these are not commonly used terms, at least in my experience, it makes me think this may not be as big an issue.</p>
+<p>Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the <a href="https://jacobzelko.com/07112020161337-social-determinants-health.md">social determinants of health</a> and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:</p>
+<p>&quot;The idea of a temporary abstraction also takes into account the thorny issue of intersectionality, and the need to take other forms of power imbalance into account besides those governed by gender, for example race, wealth, sexual orientation, and so on.&quot;</p>
+<p>Overall, good read&#33;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
   

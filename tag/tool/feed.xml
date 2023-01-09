@@ -30,6 +30,52 @@
   <description>
     <![CDATA[  An overview on the Zettelkasten note taking system as made popular by sociologist Niklas Luhmann.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Zettelkasten</h1>
+<p><strong>Date:</strong> December 2 2022</p>
+<p><strong>Summary:</strong> An overview on the Zettelkasten note taking system as made popular by sociologist Niklas Luhmann.</p>
+<p><strong>Keywords:</strong> ##summary ##zettelkasten #learning #research #tool #archive</p>
+<h1>Bibliography</h1>
+<p>Not available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="selecting_notes_for_a_zettelkasten">Selecting Notes for a Zettelkasten</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria.md">Criteria for Creating a Note in the Zettelkasten</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** Simple criteria for when and how to add notes to the Zettelkasten.
+- **Rationale:** Enumerates a robust system for how to add notes to the Zettelkasten</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03172020033742-antifragility">Antifragility</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** An overview on Nassim Taleb&#39;s thoughts on Antifragility
+- **Rationale:** Zettelkastens should be antifragile -- i.e. they thrive off of disorder and chaos and adapt to it meaningfully.</code></pre>
+<h3 id="a_href03092020031618-zettelkasten-principlesmdprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></h3>
+<pre><code class="language-julia">- **Summary:** General principles on how to create and use a Zettelkasten</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
   

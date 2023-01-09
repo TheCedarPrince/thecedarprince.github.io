@@ -30,6 +30,72 @@
   <description>
     <![CDATA[  Introduction to discrete haar wavelet transform and use cases  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Discrete Haar Wavelet Transform</h1>
+<p><strong>Date:</strong> March 27 2020</p>
+<p><strong>Summary:</strong> Introduction to discrete haar wavelet transform and use cases</p>
+<p><strong>Keywords:</strong> ##zettel #signalprocessing #wavelet #changes #python  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Use Cases</li><li>Example Implementation</li><li>Example output</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The Discrete Haar Wavelet Transform computes the degree of relatedness of continuous points in the original discrete signal. </p>
+<h3 id="use_cases">Use Cases</h3>
+<p>It is excellent for detecting edges in a signal and drastic changes in a signal </p>
+<h3 id="example_implementation">Example Implementation</h3>
+<pre><code class="language-python"># Declaring imports
+import numpy as np
+def gen_haar_matrix&#40;n, normalized&#61;None&#41;:
+    #Source: 
+    # 0. https://en.wikipedia.org/wiki/Haar_wavelet
+    # 1. http://fourier.eng.hmc.edu/e161/lectures/Haar/index.html
+    # 2. https://docs.scipy.org/doc/numpy/reference/generated/numpy.kron.html
+    # 3. https://www.wikiwand.com/en/Kronecker_delta    # Allow only size n of power 2
+    n &#61; 2**np.ceil&#40;np.log2&#40;n&#41;&#41;
+    if n &gt; 2:
+        h &#61; gen_haar_matrix&#40;n / 2&#41;
+    else:
+        return np.array&#40;&#91;&#91;1, 1&#93;, &#91;1, -1&#93;&#93;&#41;    # calculate upper haar part
+    h_n &#61; np.kron&#40;h, &#91;1, 1&#93;&#41;
+    # calculate lower haar part 
+    if normalized:
+        h_i &#61; np.sqrt&#40;n/2&#41;*np.kron&#40;np.eye&#40;len&#40;h&#41;&#41;, &#91;1, -1&#93;&#41;
+    else:
+        h_i &#61; np.kron&#40;np.eye&#40;len&#40;h&#41;&#41;, &#91;1, -1&#93;&#41;
+    # combine parts
+    h &#61; np.vstack&#40;&#40;h_n, h_i&#41;&#41;
+    return h</code></pre>
+<h3 id="example_output">Example output</h3>
+<pre><code class="language-python">&gt; gen_haar_matrix&#40;n &#61; 4, normalized &#61; False&#41;&#91;&#91; 1.  1.  1.  1.&#93;
+ &#91; 1.  1. -1. -1.&#93;
+ &#91; 1. -1.  0. -0.&#93;
+ &#91; 0. -0.  1. -1.&#93;&#93;
+&gt; gen_haar_matrix&#40;n &#61; 4, normalized &#61; True&#41;&#91;&#91;   1.          1.          1.          1.   &#93;
+ &#91;   1.          1.         -1.         -1.   &#93;
+ &#91; sqrt&#40;2&#41;    -sqrt&#40;2&#41;       0.         -0.   &#93;
+ &#91;   0.         -0.        sqrt&#40;2&#41;   -sqrt&#40;2&#41; &#93;&#93;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
   

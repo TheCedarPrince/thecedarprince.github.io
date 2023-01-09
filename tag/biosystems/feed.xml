@@ -30,6 +30,49 @@
   <description>
     <![CDATA[  How EDA is used generally as a biomarker.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>EDA as a Biomarker</h1>
+<p><strong>Date:</strong> April 9 2020</p>
+<p><strong>Summary:</strong> How EDA is used generally as a biomarker.</p>
+<p><strong>Keywords:</strong> ##zettel #eda #biomarker #healthcare #biosystems #sensors #scl #skin #scr #response #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The term <em>EDA</em> is often used synonymously in academic literature to refer to its usage as a non-invasive biomarker to investigate physiological arousal. EDA is generally recorded using two small electrodes and are usually &#91;1&#93;, &#91;2&#93; can be placed on the:</p>
+<ul>
+<li><p>Fingers</p>
+</li>
+<li><p>Palms</p>
+</li>
+<li><p>Feet</p>
+</li>
+</ul>
+<p>These electrodes complete a circuit across the skin – the skin acts as a variable resistor – and then <a href="https://jacobzelko.com/03242020003215-eda-explained.md">measure changes in skin conductance</a> &#40;see note for more information on what variables EDA monitors&#41;. After the EDA signal is collected from the electrodes, the signal is typically &#40;by convention&#41; decomposed into skin conductance level <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">SCL</a> and skin conductance responses <a href="https://jacobzelko.com/04092020162632-skin-response.md">SCR</a> &#40;click links to see definitions of both&#41;.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
+<p>&#91;2&#93; M. van Dooren, J. H. Janssen, et al., “Emotional sweating across the body: Comparing 16 different skin conductance measurement locations,” Physiol. Behav., vol. 106, no. 2, pp. 298–304, 2012.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
   

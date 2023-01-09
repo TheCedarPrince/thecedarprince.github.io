@@ -30,6 +30,39 @@
   <description>
     <![CDATA[  An overview of what denied claims are  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Denied Claims</h1>
+<p><strong>Date:</strong> April 11 2022</p>
+<p><strong>Summary:</strong> An overview of what denied claims are</p>
+<p><strong>Keywords:</strong> ##summary #claims #denied #medical #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Denied claims are medical claims that an insurer determined they did not need to pay after processing. The denial can be for many reasons ranging from clerical errors in the coding or submission process to breaches of the patient-payer contract. These denied claims are sent back to the biller with an Explanation of Benefits or Electronic Remittance Advice which both explain why the claim was denied and how to potentially appeal the denial. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>  
   

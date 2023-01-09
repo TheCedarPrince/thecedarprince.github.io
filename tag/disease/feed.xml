@@ -30,6 +30,100 @@
   <description>
     <![CDATA[  Utilizing wearables to detect and find abnormalities in patient conditions  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information</h1>
+<p><strong>Date:</strong> January 11 2022</p>
+<p><strong>Summary:</strong> Utilizing wearables to detect and find abnormalities in patient conditions</p>
+<p><strong>Keywords:</strong> #mhealth #spo2 #heart #rate #skin #temperature #lyme #disease ##bibliography #archive</p>
+<h1>Bibliography</h1>
+<p>X. Li et al., &quot;Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information,&quot; PLoS Biol, vol. 15, no. 1, p. e2001402, Jan. 2017, doi: 10.1371/journal.pbio.2001402.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Goals</li><li>Population Details</li><li>Usage of Wearables</li><li>Lyme Disease Found in Subject 1</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="goals">Goals</h3>
+<ol>
+<li><p>Record real-time physiological data</p>
+</li>
+<li><p>Measure daily activity to find sleep patterns and reactions to surroundings</p>
+</li>
+<li><p>Create personalized baselines</p>
+</li>
+<li><p>Find differences in health of varying individuals</p>
+</li>
+<li><p>Detect when someone could potentially begin to fall ill</p>
+</li>
+</ol>
+<h3 id="population_details">Population Details</h3>
+<ul>
+<li><p>40 people were used for validation testing</p>
+</li>
+<li><p>Participant #1 was tracked 679 days</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Nearly 250000 measurements on this person per day
+- Only 603 days of records were used</code></pre>
+<h3 id="usage_of_wearables">Usage of Wearables</h3>
+<ul>
+<li><p>Metrics Collected</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Heart Rate
+- &#91;SpO2&#93;&#40;/01112022220843-spo2-explained.md&#41;
+- Skin Temperature</code></pre>
+<ul>
+<li><p>Wearables were shown to:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Detect early signs of Lyme Disease
+- Determine an inflammatory response was occurring</code></pre>
+<ul>
+<li><p>Sensors</p>
+</li>
+</ul>
+<pre><code class="language-julia">- HR
+	- &#91;Basis B1&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the&#37;20best&#37;20prices-,The&#37;20Basis&#37;20B1&#37;20is&#37;20an&#37;20activity&#37;20tracker&#37;20that&#39;s&#37;20marketed&#37;20as,burned,&#37;20distance&#37;20walked&#37;20and&#37;20sleep.&#41; - discontinued
+	- &#91;Basis Peak&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the best prices-,The Basis B1 is an activity tracker that&#39;s marketed as,burned, distance walked and sleep.&#41; - recalled, discontinued
+	- &#91;Scanadu&#93;&#40;/https://techcrunch.com/2016/12/13/fda-orders-scanadu-to-shut-down-support-for-its-scout-device-and-customers-are-mad/?guccounter&#61;1&amp;guce_referrer&#61;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig&#61;AQAAALiRl2t7ma1bFByNmrMrAP8vVK5_iBXu35z3PuC9UVIY6cll8UaL5w2RWGvOBU68epFCefiwLghsqP3rxoNEGSKtAXSuMXQKrbSDsE4ti9xcfwcnjMtrx46tP89acwwmKKBJTdvCgmVRgo_zwQDSMztMxVAFFvbmhmYcdq8mTvER&#41; - discontinued
+- Skin Temperature
+	- &#91;Basis B1&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the&#37;20best&#37;20prices-,The&#37;20Basis&#37;20B1&#37;20is&#37;20an&#37;20activity&#37;20tracker&#37;20that&#39;s&#37;20marketed&#37;20as,burned,&#37;20distance&#37;20walked&#37;20and&#37;20sleep.&#41; - discontinued
+	- &#91;Basis Peak&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the best prices-,The Basis B1 is an activity tracker that&#39;s marketed as,burned, distance walked and sleep.&#41; - recalled, discontinued</code></pre>
+<h3 id="lyme_disease_found_in_subject_1">Lyme Disease Found in Subject 1</h3>
+<ul>
+<li><p>During days 470 - 474 outliers were found in</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Abnormally elevated HR
+- Abnormally elevated skin temperature 
+- Decrease in SpO2
+- Congruent with previous studies on nonportable devices &#91;1&#93;</code></pre>
+<ul>
+<li><p>Coincided with Lyme Disease onset</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Detected before typical bull&#39;s rash manifestation
+- It was reported that SpO2 and HR was most important for alerting of Lyme Disease
+- Strong and repeated signals in change of heart algorithm were detected during Lyme Disease</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +143,38 @@
   <description>
     <![CDATA[  Note on what coronavirus is.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Coronavirus Definition</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Note on what coronavirus is.</p>
+<p><strong>Keywords:</strong> ##zettel #health #coronavirus #disease #epidemiology  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Coronaviruses are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats. Rarely, animal coronaviruses can infect people and then spread between people such as with MERS-CoV, SARS-CoV, and now with this new virus &#40;named SARS-CoV-2&#41;.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -68,6 +194,41 @@
   <description>
     <![CDATA[  Note on the current fatality when acquiring COVID19.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Risk of Dying from COVID19</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Note on the current fatality when acquiring COVID19.</p>
+<p><strong>Keywords:</strong> ##zettel #covid19 #health #disease #epidemiology  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Several estimates have suggested that the risk of dying, for those infected with covid-19 and showing its flu-like symptoms, is around 1 or 2 percent. Elderly adults have a considerably higher risk of both becoming infected and dying, as do people with compromised immune systems. The estimates might change as new data arrive, but the range of 1 to 2 percent for fatalities among the symptomatic seems to be the consensus for now. The overall fatality rate for people infected with covid-19 will be lower &quot;possibly much lower&quot; when we know how many people are infected but asymptomatic.</p>
+<blockquote>
+<p><em>Marc Lipsitch is a professor of epidemiology and director of the Center for Communicable Disease Dynamics at Harvard T.H. Chan School of Public Health.</em></p>
+</blockquote>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +248,54 @@
   <description>
     <![CDATA[  Note on generic methods on preventing respiratory infection approved by the CDC.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>CDC Respiratory Disease Prevention</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Note on generic methods on preventing respiratory infection approved by the CDC.</p>
+<p><strong>Keywords:</strong> ##zettel #cdc #health #publichealth #disease #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>CDC always recommends everyday preventive actions to help prevent the spread of respiratory diseases, including:</p>
+<ul>
+<li><p>Avoid close contact with people who are sick.</p>
+</li>
+<li><p>Avoid touching your eyes, nose, and mouth.</p>
+</li>
+<li><p>Stay home when you are sick.</p>
+</li>
+<li><p>Cover your cough or sneeze with a tissue, then throw the tissue in the trash.</p>
+</li>
+<li><p>Clean and disinfect frequently touched objects and surfaces using a regular household cleaning spray or wipe.</p>
+</li>
+<li><p>Wash your hands often with soap and water for at least 20 seconds, especially after going to the bathroom; before eating; and after blowing your nose, coughing, or sneezing.</p>
+</li>
+<li><p>If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60&#37; alcohol. Always wash hands with soap and water if hands are visibly dirty.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,43 @@
   <description>
     <![CDATA[  A summary of what Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and its use as a biomarker and use in signal processing.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</h1>
+<p><strong>Date:</strong> January 11 2022</p>
+<p><strong>Summary:</strong> A summary of what Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and its use as a biomarker and use in signal processing.</p>
+<p><strong>Keywords:</strong> ##summary ##healthcare #informatics #health #signal #biomarker #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained.md">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** What SpO2 is and their pros and cons as a biomarker</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +86,39 @@
   <description>
     <![CDATA[  A brief summary on why this paper was not very useful in discussing computable phenotypes.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Why everyone should care about &#39;Computable Phenotypes&#39;</h1>
+<p><strong>Date:</strong> December 28 2020</p>
+<p><strong>Summary:</strong> A brief summary on why this paper was not very useful in discussing computable phenotypes.</p>
+<p><strong>Keywords:</strong> ##bibliography #computable #phenotypes #sepsis #lung #informatics  #archive</p>
+<h1>Bibliography</h1>
+<p>R. C. Tasker, &quot;Why everyone should care about ‘Computable Phenotypes,’&quot; Pediatr Crit Care Med, vol. 18, no. 5, pp. 489–490, May 2017, doi: 10.1097/PCC.0000000000001115.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>I do not believe the author is very familiar with the notion of mutltimodal analysis or standard data fusion methodologies. This was such a strange article that was more excitement and jubilation over the phenomenon of the possibility of computable phenotypes that I think the author was distracted from the message they were trying to convey. Though, they did talk about some applications regarding lung injury and sepsis, there was nothing really to suggest novelty in their assessment.</p>
+<p>I reviewed this author&#39;s work and it appears the author has no formal training in informatics or analytics. So, I do not fault them for this article - however, to me, it read like something out of MIT Technology Review or a Science &amp; Technology Magazine. Not a professional scientific publication.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
   
@@ -68,6 +138,66 @@
   <description>
     <![CDATA[  A summary of what electrodermal activity is and its use as a biomarker and use in signal processing.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Electrodermal Activity</h1>
+<p><strong>Date:</strong> March 23 2020</p>
+<p><strong>Summary:</strong> A summary of what electrodermal activity is and its use as a biomarker and use in signal processing.</p>
+<p><strong>Keywords:</strong> ##summary ##signalprocessing ##healthcare #informatics #health #signalprocessing #signal #biomarker  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained.md">What Is Electrodermal Activity?</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** What electrodermal activity is and its pros and cons as a biomarker</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts.md">Common Causes of Artifact in EDA Signals</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** An overview of common artifacts in EDA signals</code></pre>
+<h3 id="handling_signal">Handling Signal</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data.md">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data
+- **Rationale:** FANTASTIC implementation on how to parse through EDA artifact -- very useful with a straight-forward algorithm to use</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal.md">Artifact Removal Methods</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** An overview on commonly used signal processing methods to remove artifacts from signals.
+- **Rationale:** Moving average filters seem to hold the most promise in processing EDA.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03272020083421-call-center.md">Call Center Stress Recognition with Person-Specific Models</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.
+- **Rationale:** Showed useful methods on how to process EDA data of a small cohort</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  
   

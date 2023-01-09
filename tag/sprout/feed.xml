@@ -30,6 +30,56 @@
   <description>
     <![CDATA[  Short summary of the SPROUT Telehealth Evaluation and Measurement profile and how it is used  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Strategies for Evaluating Telehealth</h1>
+<p><strong>Date:</strong> May 2 2022</p>
+<p><strong>Summary:</strong> Short summary of the SPROUT Telehealth Evaluation and Measurement profile and how it is used</p>
+<p><strong>Keywords:</strong> ##bibliography #telehealth #sprout #quality #ahrq #who #care #delivery #archive</p>
+<h1>Bibliography</h1>
+<p>J. Chuo, M. L. Macy, and S. A. Lorch, “Strategies for Evaluating Telehealth,” Pediatrics, vol. 146, no. 5, p. e20201781, Nov. 2020, doi: 10.1542/peds.2020-1781.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p>SPROUT Telehealth Evaluation and Measurement profile &#91;1&#93;</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Utilizes concepts from:
+	- National Quality Forum
+	- World Health Organization
+	- Agency for Healthcare Research and Quality
+- Reorganizes concepts into 4 clear measurement domains:
+	- Health outcomes
+	- Health delivery
+	- Experience
+	- Program implementation and key performance indicators 
+- Meant to communicate value to:
+	- Patients
+	- Providers
+	- Health systems
+	- Payer</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” 24-Mar-2020. &#91;Online&#93;. Available: https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la&#61;en. &#91;Accessed: 02-May-2022&#93;.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
   

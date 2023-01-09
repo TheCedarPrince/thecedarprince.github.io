@@ -30,6 +30,94 @@
   <description>
     <![CDATA[  An overall summary and review of the state of telehealth based off literature  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>State of Telehealth</h1>
+<p><strong>Date:</strong> May 2 2022</p>
+<p><strong>Summary:</strong> An overall summary and review of the state of telehealth based off literature</p>
+<p><strong>Keywords:</strong> ##bibliography #telehealth #care #digital #chronic #acute #conditions #wait #time #archive</p>
+<h1>Bibliography</h1>
+<p>E. R. Dorsey and E. J. Topol, “State of Telehealth,” N Engl J Med, vol. 375, no. 2, pp. 154–161, Jul. 2016, doi: 10.1056/NEJMra1601705.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Goals of Telehealth</li><li>Current Issues with Care</li><li>Opportunities for Telehealth</li><li>Challenges to Telehealth</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>This was a systematic review of the state of telehealth using literature.</p>
+<h3 id="definitions">Definitions</h3>
+<ul>
+<li><p>Telehealth - remote healthcare delivery via telecommunication tools with or without video</p>
+</li>
+</ul>
+<h3 id="goals_of_telehealth">Goals of Telehealth</h3>
+<ul>
+<li><p>For patients:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Increase access to care</code></pre>
+<h3 id="current_issues_with_care">Current Issues with Care</h3>
+<ul>
+<li><p>Booking a 20 minute physician appointment takes an average of 20 days &#91;1&#93;</p>
+</li>
+<li><p>Traveling to an appointment and waiting often takes nearly 2 hours &#91;2&#93;</p>
+</li>
+</ul>
+<h3 id="opportunities_for_telehealth">Opportunities for Telehealth</h3>
+<ul>
+<li><p>Chronic condition patients</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Elderly Americans 
+	- ~2 million elderly that are homebound &#91;3&#93;
+	- Medical home will be patient&#39;s home for best patient-centered care &#91;4&#93;</code></pre>
+<ul>
+<li><p>Acute care patients</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Stroke &#91;5&#93;
+- Pneumonia &#91;6&#93;</code></pre>
+<h3 id="challenges_to_telehealth">Challenges to Telehealth</h3>
+<ul>
+<li><p>Reimbursement issues</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Eligible for clinical facilities where shortage of health professionals &#40;get citation&#41;</code></pre>
+<ul>
+<li><p>Lack of socialization</p>
+</li>
+</ul>
+<pre><code class="language-julia">- The digital divide &#91;7&#93;
+	- Difference of access to telehealth based on:
+		- Geography 
+		- Social factors
+	- Worst for the elderly
+		- Only 58&#37; of persons &gt; 65 years old use Internet &#91;8&#93;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Merritt Hawkins, “Physician Appointment Wait Times and Medicaid and Medicare Acceptance Rates,” Merritt Hawkins, 2014.</p>
+<p>&#91;2&#93; K. N. Ray, A. V. Chari, J. Engberg, M. Bertolet, and A. Mehrotra, “Disparities in time spent seeking medical care in the United States,” JAMA Intern. Med., vol. 175, no. 12, pp. 1983–1986, 2015.</p>
+<p>&#91;3&#93; K. A. Ornstein et al., “Epidemiology of the homebound population in the United States,” JAMA Intern. Med., vol. 175, no. 7, pp. 1180–1186, 2015.</p>
+<p>&#91;4&#93; N. Herendeen and P. Deshpande, “Telemedicine and the patient-centered medical home,” Pediatr. Ann., vol. 43, no. 2, pp. e28–e32, 2014.</p>
+<p>&#91;5&#93; A. Itrat et al., “Telemedicine in prehospital stroke evaluation and thrombolysis: Taking stroke treatment to the doorstep,” JAMA Neurol., vol. 73, no. 2, pp. 162–168, 2016.</p>
+<p>&#91;6&#93; W. T. Summerfelt, S. Sulo, A. Robinson, D. Chess, and K. Catanzano, “Scalable hospital at home with virtual physician visits: Pilot study,” Am J Manag Care, vol. 21, no. 10, pp. 675–84, 2015.</p>
+<p>&#91;7&#93; P. Norris et al., Digital divide: Civic engagement, information poverty, and the Internet worldwide. Cambridge university press, 2001.</p>
+<p>&#91;8&#93; A. Perrin and M. Duggan, “Americans’ internet access: 2000-2015,” 2015.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +137,57 @@
   <description>
     <![CDATA[  The brain exhibiting changes to functional activity over time.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Dynamic Functional Connectivity</h1>
+<p><strong>Date:</strong> December 27 2020</p>
+<p><strong>Summary:</strong> The brain exhibiting changes to functional activity over time.</p>
+<p><strong>Keywords:</strong> ##zettel #brain #dynamic #functional #connectivity #time #dfc #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Dynamic functional connectivity refers to functional connectivity changing over a short time.  The primary tool for analyzing DFC is <a href="https://jacobzelko.com/12282020003750-functional-mri.md">fMRI</a>. &#91;1&#93;</p>
+<p>DFC is related to a variety of different neurological disorders, and has been suggested to be a more accurate representation of functional brain networks.</p>
+<p>Functional networks of the brain fluctuate on the scale of seconds to minutes. The changes are generally movements from one short term state to another, rather than continuous shifts. &#91;2&#93;</p>
+<p>There exist a few different types of stability in the kinds of brain analysis. &#91;3&#93; Here are a few with there associated descriptions:</p>
+<ul>
+<li><p>Dynamic functional activity: shown a distinct hierarchical organization of the networks of the brain.</p>
+</li>
+<li><p>Bilaterally symmetric regions: most stable form of connectivity in the brain</p>
+</li>
+<li><p>Direct anatomical connection: similar to bilaterally symmetric regions.</p>
+</li>
+<li><p>Steady state functional connectivity: have less temporal stability than anatomical connections.</p>
+</li>
+</ul>
+<p><a href="https://jacobzelko.com/11302020054836-sliding-window-analysis.md">Sliding window analysis</a> is most common for functional connectivity and was first introduced in 2009. &#91;4&#93; Sliding window analysis is performed on DFC data by conducting analysis on a set number of scans in an fMRI session. The number of scans is the length of the sliding window.  The defined window is then moved a certain number of scans forward in time and additional analysis is performed.  The movement of the window is usually referenced in terms of the degree of overlap between adjacent windows. Data from sliding window analysis generally must be compared between two different groups to prove accuracy.</p>
+<p>THOUGHT: This is very similar to analysis with <a href="https://jacobzelko.com/03272020064312-exponential-smoothing.md">exponential smoothing</a> or <a href="https://jacobzelko.com/04252020024813-median-filtering.md">&quot;salt-and-pepper&quot; filtering</a> and reminiscent of convolution filtering.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Wikipedia contributors, “Dynamic Functional Connectivity — Wikipedia, The Free Encyclopedia,” 2020.</p>
+<p>&#91;2&#93; R. M. Hutchison et al., “Dynamic functional connectivity: Promise, issues, and interpretations,” Neuroimage, vol. 80, pp. 360–378, 2013.</p>
+<p>&#91;3&#93; W. Majeed, M. Magnuson, and S. D. Keilholz, “Spatiotemporal dynamics of low frequency fluctuations in BOLD fMRI of the rat,” J. Magn. Reson. Imaging Off. J. Int. Soc. Magn. Reson. Med., vol. 30, no. 2, pp. 384–393, 2009.</p>
+<p>&#91;4&#93; U. Sakoglu and V. Calhoun, “Dynamic windowing reveals task-modulation of functional connectivity in schizophrenia patients vs healthy controls,” in Proc. Intl. Soc. Mag. Reson. Med, 2009, vol. 17, p. 3675.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,52 @@
   <description>
     <![CDATA[  Tracking contact between individuals of interest.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Contact Tracing</h1>
+<p><strong>Date:</strong> December 27 2020</p>
+<p><strong>Summary:</strong> Tracking contact between individuals of interest.</p>
+<p><strong>Keywords:</strong> ##zettel #cdc #contact #tracing #intervention #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Contact tracing is the identification, monitoring, and support of individuals who have been exposed to an infected person and were possibly infected. &#91;1&#93;</p>
+<p>Case investigation: identifying and investigating persons with confirmed and probable diagnoses. &#91;1&#93;</p>
+<p><strong>Close contact:</strong> any individual within 6 feet of an infected person for at least 15 minutes starting from 48 hours before the person began feeling sick until the time the patient is isolated.</p>
+<p>Steps for contact tracing:</p>
+<ol>
+<li><p>Case investigation: have patient recall everyone that they may have exposed themselves to while infectious.</p>
+</li>
+<li><p>Contact tracing: notify exposed individuals of their potential exposure, while preserving privacy</p>
+</li>
+<li><p>Contact support: Educate, inform, and support exposed persons about their risk, steps to protect others, and to watch for sickness illness.</p>
+</li>
+<li><p>Self-quarantine: Contacts are encouraged to stay home and maintain social distance from others until 14 days after their last exposure to the infected patient, in case they also become ill.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Centers for Disease Control, “Contact Tracing - CDC’s Role and Approach.” 10-Aug-2020.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
   

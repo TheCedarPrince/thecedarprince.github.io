@@ -30,6 +30,63 @@
   <description>
     <![CDATA[  Types of data storage formats available for RDF  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>RDF Data Storage Formats</h1>
+<p><strong>Date:</strong> February 18 2022</p>
+<p><strong>Summary:</strong> Types of data storage formats available for RDF</p>
+<p><strong>Keywords:</strong> #rdf #formats #data #turtle #xml #storage #archive</p>
+<h1>Bibliography</h1>
+<p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What Is the Turtle Format?<ol><li>What Is an Example of the Turtle Format?</li></ol></li><li>What Is the XML Format?<ol><li>What Is an Example of the XML Format?</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>There are many different file storage formats for RDF reified data.</p>
+<h3 id="what_is_the_turtle_format">What Is the Turtle Format?</h3>
+<p>The Turtle format &#40;file extension <code>.ttl</code>&#41; is one example of a storage format. It takes the following form:</p>
+<pre><code class="language-julia">&lt;Subject&gt; &lt;Predicate&gt; &lt;Resource&gt; .</code></pre>
+<h4 id="what_is_an_example_of_the_turtle_format">What Is an Example of the Turtle Format?</h4>
+<p>If I have the statement:</p>
+<blockquote>
+<p>The sky is colored blue.</p>
+</blockquote>
+<p>That can be written in the form:</p>
+<pre><code class="language-julia">&lt;sky&gt; &lt;is colored&gt; &lt;blue&gt; .</code></pre>
+<h3 id="what_is_the_xml_format">What Is the XML Format?</h3>
+<p>Another example is utilizing the popular XML format for representing RDF data.</p>
+<h4 id="what_is_an_example_of_the_xml_format">What Is an Example of the XML Format?</h4>
+<p>If I have the statement:</p>
+<blockquote>
+<p>The sky is colored blue.</p>
+</blockquote>
+<p>That can be written in the form:</p>
+<pre><code class="language-xml">&lt;rdf:RDF
+    xmlns:rdf&#61;&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+    xmlns:j.0&#61;&quot;http://some.fakeurl.com/fake/is &quot; &gt; 
+  &lt;rdf:Description rdf:about&#61;&quot;sky&quot;&gt;
+    &lt;j.0:colored rdf:resource&#61;&quot;blue&quot;/&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
   

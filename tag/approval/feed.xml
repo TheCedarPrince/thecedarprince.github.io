@@ -30,6 +30,50 @@
   <description>
     <![CDATA[  How novel drugs are approved in the United States  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>United States Drug Approval Process</h1>
+<p><strong>Date:</strong> July 28 2021</p>
+<p><strong>Summary:</strong> How novel drugs are approved in the United States</p>
+<p><strong>Keywords:</strong> #drug #approval #fda #food #drug #administration  #archive</p>
+<h1>Bibliography</h1>
+<p>EHDEN Academy</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ol>
+<li><p>Pharmaceutical company develops drug</p>
+</li>
+<li><p>Gets tested in clinical trials</p>
+</li>
+<li><p>Results are submitted to the US Food and Drug Administration</p>
+</li>
+<li><p>After US Food and Drug Administration approval, drug can be sold</p>
+</li>
+<li><p>If <a href="https://jacobzelko.com/07282021175202-fda-risk-prevention.md">negative side effects discovered</a>, FDA takes action</p>
+</li>
+</ol>
+<pre><code class="language-julia">1. Apply warning label to drug2. Possibly withdraws product</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
   

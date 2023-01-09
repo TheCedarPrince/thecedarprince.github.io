@@ -30,6 +30,60 @@
   <description>
     <![CDATA[  How mask mandates were associated with decreases in COVID hospitalization growth rates  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020</h1>
+<p><strong>Date:</strong> June 7 2021</p>
+<p><strong>Summary:</strong> How mask mandates were associated with decreases in COVID hospitalization growth rates</p>
+<p><strong>Keywords:</strong> #hospitalization #covid #policy #mask #mandates #decrease #archive</p>
+<h1>Bibliography</h1>
+<p>H. Joo et al., &quot;Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020,&quot; MMWR Morb. Mortal. Wkly. Rep., vol. 70, no. 6, pp. 212–216, Feb. 2021, doi: 10.15585/mmwr.mm7006e2.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Study Purpose</li><li>Definitions</li><li>Data Source</li><li>Methods</li><li>Results</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="study_purpose">Study Purpose</h3>
+<p>Examined whether implementation of statewide mask mandates was associated with COVID-19–associated hospitalization growth rates among different age groups.</p>
+<h3 id="definitions">Definitions</h3>
+<p><strong>Statewide mask mandate:</strong> persons operating in a personal capacity must wear a mask</p>
+<ol>
+<li><p>Outside home</p>
+</li>
+<li><p>At businesses and in restaurants &amp; food establishments</p>
+</li>
+</ol>
+<p><strong>COVID-NET Site:</strong> Group of counties within a state. Sites in states that did not have statewide mask mandates during March 1– October 17, 2020, were excluded from the analyses.</p>
+<p><strong>Nonpharmaceutical Interventions &#40;NPIs&#41;:</strong> Actions taken to slow the spread of infectious diseases.</p>
+<h3 id="data_source">Data Source</h3>
+<p><strong>COVID-NET:</strong> population-based surveillance system &#91;1&#93; that provides laboratory-confirmed, COVID-19–associated hospitalization rates in 99 counties located in 14 states, beginning March 1, 2020 &#91;2&#93;</p>
+<h3 id="methods">Methods</h3>
+<p>For analyses, cumulative hospitalization rates for each week of the study period for seven age cohorts &#40;adults aged 18–29, 30–39, 40–49, 50–64, 65–74, 75–84, and ≥85 years&#41; were aggregated into three age groups &#40;18–39, 40–64, and ≥65 years&#41;.</p>
+<p>Weekly cumulative hospitalization growth rate &#40;HGrowthast&#41; for age cohort a in site s during week t is defined as the weekly percentage change in COVID-19 hospitalizations per 100,000 persons, estimated by HGrowth<em>&#123;ast&#125; &#61; &#40;&#40;log &#40;HR</em>&#123;ast&#125;&#41;-log &#40;HR<em>&#123;as&#40;t-1&#41;&#125;&#41;&#41;×100, where HR</em>&#123;ast&#125; &#61; cumulative hospitalization rate per 100,000 population for age cohort a in site s in week t. The log of the cumulative hospitalization growth rate is similar to the log of the cumulative cases per week, as the denominators are equivalent.</p>
+<h3 id="results">Results</h3>
+<p>For 40-64 year-olds, 2 weeks after statewide mask mandates: weekly hospitalization growth rates declined by 2.9&#37;.</p>
+<p>For 40-64, 18 - 39 year-olds, &gt;&#61; 3 weeks after statewide mask mandates: weekly hospitalization growth rates declined by 5.5&#37;.</p>
+<p><em>QUESTION: How were these age groupings made I wonder?</em></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; “Coronavirus Disease 2019 &#40;COVID-19&#41;-Associated Hospitalization Surveillance Network &#40;COVID-NET&#41; | CDC.” &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html. &#91;Accessed: 08-Jun-2021&#93;.</p>
+<p>&#91;2&#93; S. Garg et al., “Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019—COVID-NET, 14 States, March 1–30, 2020,” Morb. Mortal. Wkly. Rep., vol. 69, no. 15, p. 458, 2020.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,59 @@
   <description>
     <![CDATA[  Summary of how Householder notation works  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Householder Notation</h1>
+<p><strong>Date:</strong> June 3 2020</p>
+<p><strong>Summary:</strong> Summary of how Householder notation works</p>
+<p><strong>Keywords:</strong> ##zettel #linear #algebra #matrix #vector #scalar #greek #householder #notation #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Examples</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Householder notation is very simple:</p>
+<ol>
+<li><p>Scalars are denoted as lowercase Greek letters: \(\alpha\). \(\beta\), \(\gamma\), ...</p>
+</li>
+<li><p>Vectors are represented as lowercase English letters: \(a\), \(b\), \(c\), ...</p>
+</li>
+<li><p>Matrices are denoted as uppercase English letters: \(A\), \(B\), \(C\), ...</p>
+</li>
+<li><p>Vector transposes are denoted with the apostrophe &#40; &#39; &#41;</p>
+</li>
+<li><p>Vector or matrix multiplication uses the star character &#40; * &#41;</p>
+</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<ol>
+<li><p>The inner product can be expressed as \(u' * v = \alpha\) &#40;i.e. a transposed vector times a vector yields a scalar&#41;</p>
+</li>
+<li><p>The outer product can be expressed similarly as \(u * v' = A\) &#40;i.e. a vector times a transposed vector yields a matrix&#41;</p>
+</li>
+<li><p>Quadratic/bilinear forms can be written as \(u' * A * v = \beta\) &#40;i.e. a transposed vector times a matrix times a vector yields a scalar&#41;</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>  
   

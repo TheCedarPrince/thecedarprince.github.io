@@ -30,6 +30,41 @@
   <description>
     <![CDATA[  Tips and tricks on how to manipulate files in R  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Manipulating Files in R</h1>
+<p><strong>Date:</strong> February 8 2021</p>
+<p><strong>Summary:</strong> Tips and tricks on how to manipulate files in R</p>
+<p><strong>Keywords:</strong> #zettel #r #programming #tips #tricks #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Loading Files</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="loading_files">Loading Files</h3>
+<p>To load in files via the R REPL, do:</p>
+<pre><code class="language-r">source&#40;&quot;name_of_file.R&quot;&#41;</code></pre>
+<p>This updates the state of the session and brings into the current session any variables defined within the file.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
   

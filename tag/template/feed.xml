@@ -30,6 +30,52 @@
   <description>
     <![CDATA[  The template I use for taking notes  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>My Note Templates</h1>
+<p><strong>Date:</strong> August 3 2021</p>
+<p><strong>Summary:</strong> The template I use for taking notes</p>
+<p><strong>Keywords:</strong> #notes #template #archive #blog</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Example of Actual Note</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>This is an <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard.md">example implementation of the Open Knowledge Standard</a> I use when taking notes in Markdown:</p>
+<pre><code class="language-markdown"># &#91;Title&#93;**Date:** &#91;DATE&#93;**Summary:** &#91;ONE SENTENCE SUMMARY&#93;**Keywords:** &#91;KEYWORDS PREPENDED BY #. EXAMPLE: #healthcare&#93;## Note Linked From&#91;REFERENCE TO WHERE THE NOTE WAS LINKED FROM&#93;## Bibliography&#91;BIBLIOGRAPHIC REFERENCE FOR WHERE YOU GOT THE INFORMATION&#93;## Notes&#91;CONTENT OF NOTE&#93;## References:&#91;ADDITIONAL REFERENCES USED IN NOTE&#93;</code></pre>
+<h3 id="example_of_actual_note">Example of Actual Note</h3>
+<p>What follows is an actual note in my knowledge management system:</p>
+<pre><code class="language-markdown"># Normal Science**Date:** May 22 2022**Summary:** An overview of what normal science is according to Thomas Kuhn.**Keywords:** #normal #science #characteristics #work #archive## BibliographyT. S. Kuhn and I. Hacking, The Structure of Scientific Revolutions, Fourth edition. Chicago ; London: The University of Chicago Press, 2012.## Notes### What Is &quot;Normal Science&quot;?According to Kuhn, *normal science*, is research based on past scientific accomplishments that are considered the foundation for that area of investigation. 
+Generally, this is the area where most scientists spend their time. 
+The research done in normal science can be theoretical or empirical.In the book, Kuhn referred to this as &quot;mop-up work&quot; and that this mopping up or &quot;filling out&quot; of science is what most scientists do.
+Although language such as &quot;mop-up&quot; work can make one think that Kuhn was being pejorative to these so-called &quot;scut scientists&quot;, he did not intend it so. 
+In later versions of this book, he made a response to this point of confusion and clarified that this work still is fascinating and crucial in many ways to the advancement of science.#### What Are the Characteristics of Normal Science?An important aspect of normal science is that it does not engage with or seek out anything new. 
+The invention of theories, development of new phenomena - anything abnormal - is not part of normal science. 
+Novelty is abhorrent and antithetical to normal science.Aside from this fundamental aspect of normal science, Kuhn posited that there are three general areas of research in normal science. 
+He emphasized that they do not always hold or are always discrete from one another:1. Investigating questions around the fundamental facts found in a specific domain.
+2. Questions that are predicted and expected to have answers existing within an already existing research domain.
+3. Further articulating the fundamental facts held in a given domain.## References</code></pre>
+<p>NOTE: As a matter of style, I tend to put sentences each on their own line. This helps me with being able to more quickly pull pieces of information across my knowledge management system.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>  
   

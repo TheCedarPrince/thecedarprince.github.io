@@ -30,6 +30,91 @@
   <description>
     <![CDATA[  An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Categorical Data Structures for Technical Computing</h1>
+<p><strong>Date:</strong> October 6 2021</p>
+<p><strong>Summary:</strong> An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.</p>
+<p><strong>Keywords:</strong> #bibliography #acsets #graph #theory #category  #archive</p>
+<h1>Bibliography</h1>
+<p>E. Patterson, O. Lynch, and J. Fairbanks, &quot;Categorical Data Structures for Technical Computing,&quot; arXiv:2106.04703 &#91;cs, math&#93;, Jun. 2021, Accessed: Sep. 27, 2021. &#91;Online&#93;. Available: http://arxiv.org/abs/2106.04703</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Limitations of the Data Frame</li><li>Conclusions<ol><li>Use Cases for Acsets</li><li>Category Theory</li></ol></li><li>Discussion with Brighton Ancelin - October 6, 2021</li><li>Questions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="definitions">Definitions</h3>
+<p><strong>Combinatorial Data</strong> - data stored in a graph</p>
+<p><strong>Attribute data</strong> - the data that would be put into a data frame</p>
+<h3 id="limitations_of_the_data_frame">Limitations of the Data Frame</h3>
+<ul>
+<li><p>Does not record relationships between entities</p>
+</li>
+<li><p>Analogous to the <code>FOREIGN KEY</code> concept in SQL</p>
+</li>
+</ul>
+<h3 id="conclusions">Conclusions</h3>
+<h4 id="use_cases_for_acsets">Use Cases for Acsets</h4>
+<ul>
+<li><p>Act as a unifying abstract data type</p>
+</li>
+<li><p>Particularly useful for graphs and data frames, data structures</p>
+</li>
+<li><p>Enables creation of novel data structures</p>
+</li>
+</ul>
+<h4 id="category_theory">Category Theory</h4>
+<ul>
+<li><p>The category theory for acsets is well understood</p>
+</li>
+<li><p>Opens possibility of implementation of</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Limits
+- Colimits
+- Functorial data migration</code></pre>
+<h3 id="discussion_with_brighton_ancelin_-_october_6_2021">Discussion with Brighton Ancelin - October 6, 2021</h3>
+<ul>
+<li><p>Combinatorial data could be thought of the data that:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Exists solely within a graph structure
+- Defines vertices in a graph structure
+- Defines edges in a graph structure
+- Set of all vertices and set of all edges are isomorphic
+	- As long as edge-vertex relationships are maintained</code></pre>
+<ul>
+<li><p>Attribute data has something concrete that describes it apart from a graph structure</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Encodes symmetries or relationships in data that are important to that data</code></pre>
+<h3 id="questions">Questions</h3>
+<ul>
+<li><p>What are the &quot;new data structures&quot; that could be developed with this implementation</p>
+</li>
+<li><p>Why are attribute data combined in the same structure housing combinatorial data?</p>
+</li>
+<li><p>With the snippet of <code>add_part&#33;</code>, what is a &quot;part&quot;?</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>  
   

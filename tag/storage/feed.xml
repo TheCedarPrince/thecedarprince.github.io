@@ -30,6 +30,63 @@
   <description>
     <![CDATA[  Types of data storage formats available for RDF  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>RDF Data Storage Formats</h1>
+<p><strong>Date:</strong> February 18 2022</p>
+<p><strong>Summary:</strong> Types of data storage formats available for RDF</p>
+<p><strong>Keywords:</strong> #rdf #formats #data #turtle #xml #storage #archive</p>
+<h1>Bibliography</h1>
+<p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What Is the Turtle Format?<ol><li>What Is an Example of the Turtle Format?</li></ol></li><li>What Is the XML Format?<ol><li>What Is an Example of the XML Format?</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>There are many different file storage formats for RDF reified data.</p>
+<h3 id="what_is_the_turtle_format">What Is the Turtle Format?</h3>
+<p>The Turtle format &#40;file extension <code>.ttl</code>&#41; is one example of a storage format. It takes the following form:</p>
+<pre><code class="language-julia">&lt;Subject&gt; &lt;Predicate&gt; &lt;Resource&gt; .</code></pre>
+<h4 id="what_is_an_example_of_the_turtle_format">What Is an Example of the Turtle Format?</h4>
+<p>If I have the statement:</p>
+<blockquote>
+<p>The sky is colored blue.</p>
+</blockquote>
+<p>That can be written in the form:</p>
+<pre><code class="language-julia">&lt;sky&gt; &lt;is colored&gt; &lt;blue&gt; .</code></pre>
+<h3 id="what_is_the_xml_format">What Is the XML Format?</h3>
+<p>Another example is utilizing the popular XML format for representing RDF data.</p>
+<h4 id="what_is_an_example_of_the_xml_format">What Is an Example of the XML Format?</h4>
+<p>If I have the statement:</p>
+<blockquote>
+<p>The sky is colored blue.</p>
+</blockquote>
+<p>That can be written in the form:</p>
+<pre><code class="language-xml">&lt;rdf:RDF
+    xmlns:rdf&#61;&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+    xmlns:j.0&#61;&quot;http://some.fakeurl.com/fake/is &quot; &gt; 
+  &lt;rdf:Description rdf:about&#61;&quot;sky&quot;&gt;
+    &lt;j.0:colored rdf:resource&#61;&quot;blue&quot;/&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +106,72 @@
   <description>
     <![CDATA[  Language-agnostic in-memory columnar format for analytical query engines and data frames  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Apache Arrow</h1>
+<p><strong>Date:</strong> October 26 2020</p>
+<p><strong>Summary:</strong> Language-agnostic in-memory columnar format for analytical query engines and data frames</p>
+<p><strong>Keywords:</strong> ##zettel #apache #arrow #dataframe #data #storage #format  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p>Launched in 2016</p>
+</li>
+<li><p>Purpose: Language-independent open standards and libraries to accelerate and simplify in-memory computing</p>
+</li>
+<li><p>Columnar Memory Format</p>
+<ul>
+<li><p>Ideal for Columnar Storage &#40;small size&#41;</p>
+</li>
+<li><p>Supports flat and nested schemas</p>
+</li>
+<li><p>Organized for cache-efficient access on CPUs and GPUs and takes advantage of parallel processing</p>
+</li>
+<li><p>Optimized for scan and random access</p>
+</li>
+</ul>
+</li>
+<li><p>Binary Messaging Protocol</p>
+<ul>
+<li><p>Record batch is a part of a table</p>
+</li>
+<li><p>Can be streamed</p>
+</li>
+</ul>
+</li>
+<li><p>Encapsulated Protocol Messages &#40;IPC&#41;</p>
+<ul>
+<li><p>Specifies the memory location of each column in the table</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>&#91;1&#93;</p>
+<p>The arrow format allows for larger-than-memory datasets. When writing a dataset to arrow format, the data and metadata is laid in a descriptive layout. The data is written in pre-determined, binary formats by supported type. When reading, Arrow memory maps data from arrow memory. This means the OS gives access to memory which is swapped into RAM upon requests. &#40;Jacob Quinn – correspondence on Apache Arrow mailing list&#41;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Apache Arrow and the Future of Data Frames. 2020.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>  
   
@@ -68,6 +191,42 @@
   <description>
     <![CDATA[  Practical discussion about how to introduce desirable learning difficulties into your learning patterns.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning</h1>
+<p><strong>Date:</strong> May 28 2020</p>
+<p><strong>Summary:</strong> Practical discussion about how to introduce desirable learning difficulties into your learning patterns.</p>
+<p><strong>Keywords:</strong> ##bibliography ##finish #performance #storage #strength #difficulty #desirable #learning #archive</p>
+<h1>Bibliography</h1>
+<p>E. L. Bjork, R. A. Bjork, and others, &quot;Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,&quot; Psychology and the real world: Essays illustrating fundamental contributions to society, vol. 2, no. 59–68, 2011.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Performance is a quantifiable metric that is observed in teaching or practice.</p>
+<p>Performance is not a valid metric to determine if learning is occuring.</p>
+<p>Storage strength defines how interassociated a representation of memory is to relevant experiences &#40;such as knowledge or skills&#41;.</p>
+<p>Learning is the idea of creating permanent changes in one&#39;s understanding or knowledge regarding a particular subject.</p>
+<p>Factors that quickly improve retrieval strength are different from those that improve storage strength. If learners mistake retrieval strength as storage strength, a learner could mistakenly be led to believe that situations which improve retrieval strength could improve storage strength.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +246,65 @@
   <description>
     <![CDATA[  How increasing difficulties in learning can increase better long-term learning. Examples included.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning</h1>
+<p><strong>Date:</strong> May 25 2020</p>
+<p><strong>Summary:</strong> How increasing difficulties in learning can increase better long-term learning. Examples included.</p>
+<p><strong>Keywords:</strong> ##bibliography ##finish #performance #learning #forgetting #retrieval #strength #storage #generation #effect #archive</p>
+<h1>Bibliography</h1>
+<p>E. L. Bjork, R. A. Bjork, and others, &quot;Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,&quot; Psychology and the real world: Essays illustrating fundamental contributions to society, vol. 2, no. 59 - 68, 2011.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Difficulties which can encourage learning: </p>
+<ol>
+<li><p>Varied learning conditions as opposed to constant and predictable ones.</p>
+</li>
+<li><p>Interleaving instruction on separate topics together.</p>
+</li>
+<li><p>Spacing study sessions on a given topic.</p>
+</li>
+<li><p>Using tests as study events. &#91;1&#93;</p>
+</li>
+</ol>
+<p>Learning how to learn is the ultimate survival tool. </p>
+<p>Rather do not fret over inputs but rather, output. Consolidate reading material from memory. Get with others to drill one another with questions. Activites that test your ability to generate explications yields more robust learning experiences.</p>
+<p>Memory does not function like a video recorder. Reviewing the same material ad nauseam is not effective for memory. Learning involves attaching novel information to what is known by oneself. </p>
+<p>Generating an explanation about a topic rather than just being given a solution can be more effective than the spacing effect. This is called the generation effect.</p>
+<p>Learning difficulties which are desirable trigger encoding and retrieval processes that support storage strength. If the learner is unable to successfully handle presented difficulties, they become impediments rather than helps to learning.</p>
+<p>Retrieval strength explains the ease in accessing a representation of a specific memory in the brain. It is signficantly affected by factors such as cues and recency of exposure to a material related to that representation.</p>
+<p>Studying the same material in two different rooms rather the same room leads to increased recall of that material. &#91;2&#93;</p>
+<p>Interleaved practice produces higher quality prolonged retention and promotes skill transferability. In comparison to blocked practice and other sorts of mass practicing. &#91;3&#93;</p>
+<p>Blocked practice is deceptive; it is not the best form of learning though it can appear to be so. &#91;3&#93; </p>
+<p>It is suggested that interleaving material forces one to differentiate between different topics. When pressured, this can heighten one&#39;s perception about differentiators. It leads to better embedding of abstractions that foster retention and transfer. &#91;3&#93;</p>
+<p>Participants in a motor skills test received 18 patterned trials via a pinball-like machine set-up. Participants were presented with randomly determined patterns &#40;interleaved&#41; or individual patterns that were practiced consecutively &#40;blocked&#41; on the machine. Blocked participants quickly improved versus interleaved participants. After a 10 day break, participants retested under blocked or interleaved conditions. Presented random conditions, the original interleaved participants performed superior to the blocked participants. Blocked participants appeared to have learned nothing. Presented blocked conditions, results were approximately the same but the minimal differences favored interleaving. &#91;3&#93;</p>
+<p>Testing is seen as a means of quantitative assessment but not for learning purposes. This is in contradiction to the fact that testing can be highly a highly beneficial tool for learning rather than a measurement of learning taking place. </p>
+<p>8 and 12 year olds practiced tossing beanbags at a target on the floor while having their vision blocked at each throw. Half of each age group practiced throwing at a fixed distance target. The rest threw at targets of varying distances. After sufficient practices and a break, all children were tested under fixed target conditions for their age group. Children who practiced at variable distances performed better than fixed target participants. Introducing variation outmatched benefits of fixed distance practice. &#91;4&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. A. Bjork, “Memory and metamemory considerations in the,” Metacognition Knowing Knowing, vol. 185, 1994.</p>
+<p>&#91;2&#93; S. M. Smith, A. Glenberg, and R. A. Bjork, “Environmental context and human memory,” Memory &amp; Cognition, vol. 6, no. 4, pp. 342–353, Jul. 1978, doi: 10.3758/BF03197465.</p>
+<p>&#91;3&#93; J. B. Shea and R. L. Morgan, “Contextual interference effects on the acquisition, retention, and transfer of a motor skill.” J. Exp. Psychol. &#91;Hum. Learn.&#93;, vol. 5, no. 2, p. 179, 1979.</p>
+<p>&#91;4&#93; R. Kerr and B. Booth, “Specific and varied practice of motor skill,” Percept. Mot. Skills, vol. 46, no. 2, pp. 395–401, 1978.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
   
@@ -106,6 +324,66 @@
   <description>
     <![CDATA[  Overview of the Waveform Database &#40;WFDB&#41; record format  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>WFDB Record</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Overview of the Waveform Database &#40;WFDB&#41; record format</p>
+<p><strong>Keywords:</strong> ##summary #wfdb #dataformat #storage #healthcare #opensource #standard  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>How It Works</li><li>Example Application - ECG Data</li><li>Miscellaneous Notes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<p>The Waveform Database &#40;WFDB&#41; Library is a record management system to handle already existing databases - it itself is not a database but a collection of tools to handle databases that follow the WFDB format. &#91;1&#93; Furthermore, WFDB can be used for viewing, analyzing, and creating recordings of physiological signals &#91;2&#93;.</p>
+<h3 id="how_it_works">How It Works</h3>
+<p>The way that the WFDB record format works is that it utilizes &#91;pg 1, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> to specify the characteristics of a signal &#40;sampling frequency, etc.&#41;</p>
+</li>
+<li><p><strong>Annotation Files</strong> to record annotations corresponding to a signal &#40;generally kept in time with the rest of the signal&#41;</p>
+</li>
+</ul>
+<h3 id="example_application_-_ecg_data">Example Application - ECG Data</h3>
+<p>For example, when working with ECG data, the format utilizes the header and annotation files as follows &#91;pg 2 - 3, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> - could contain information about lead count, calibration format, etc.</p>
+</li>
+<li><p><strong>Annotation Files</strong> - could contain other information such as beat positions.</p>
+</li>
+</ul>
+<h3 id="miscellaneous_notes">Miscellaneous Notes</h3>
+<ul>
+<li><p>WFDB is considered a standard data format within the research world, and has found application in industry as well.</p>
+</li>
+<li><p>The WFDB format is generally used for ECG records - however, it can extend to other data formats.</p>
+</li>
+<li><p>A possible alternative to the WFDB record format is the European Data Format&#43; &#40;EDF&#43;&#41; &#91;see @garciamartinezLoadingPlottingFiltering2017 for more information&#93;.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
+<p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   

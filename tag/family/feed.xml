@@ -30,6 +30,55 @@
   <description>
     <![CDATA[  A simple overview on what a family of sets actually is  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Family of Sets</h1>
+<p><strong>Date:</strong> September 29 2022</p>
+<p><strong>Summary:</strong> A simple overview on what a family of sets actually is</p>
+<p><strong>Keywords:</strong> ##summary #set #family #subset  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Family of Sets</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I am having trouble reading some set theoretic notation. Hoping by gaining better familiarity with family of sets, I can understand notation better. </p>
+<h3 id="family_of_sets">Family of Sets</h3>
+<p>In brief, a family of sets could be the following:</p>
+<p><strong>Definition 1:</strong> A family of sets, \(F\), could be a set of subsets over a set \(X\). An example of this would be the following scenario:</p>
+<p>Let \(X = {1, 2, 3, 4}\)</p>
+\[
+F = \{\{\emptyset\}, \{1, 2 \},\{3, 4\}\}
+\]
+\[
+F
+\]
+<p>is non-exhaustive as there could be more subsets derived from \(X\).</p>
+<p><strong>Definition 2:</strong> A family of sets, \(F\), could be a set of sets where each set is independent from the others. An example of this would be the following scenario:</p>
+<p>Let \(A = \{1, 2, 3\}\), \(B = \{4, 5, 6\}\), and \(C = \{2, 4, 6\}\)</p>
+\[
+F = \{A, B, C\} = \{\{1, 2, 3\}, \{4, 5, 6\}, \{2, 4, 6\}\}
+\]
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>  
   

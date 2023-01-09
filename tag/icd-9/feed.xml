@@ -30,6 +30,93 @@
   <description>
     <![CDATA[  An overview into what computable phenotypes are and how they are used.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Computable Phenotypes?</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> An overview into what computable phenotypes are and how they are used.</p>
+<p><strong>Keywords:</strong> ##zettel #ehr #electronic #health #records #computable #phenotypes #codes #icd-9 #icd-10 #snomed-ct #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Operational Definitions</li><li>Computable Phenotypes Definitions<ol><li>Creating Computable Phenotypes</li><li>Characteristics of a Good Phenotype Definitions</li><li>Determining the Validity of a Phenotype Definition</li></ol></li><li>Available Phenotype Definitions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="operational_definitions">Operational Definitions</h3>
+<p><strong>Phenotype:</strong> a measurable biological, behavioral, or cognitive marker found more often in specific individuals than the general population; the appearance it presents to observers.&#91;1&#93;</p>
+<p><a href="https://jacobzelko.com/./08122022205622-assessing-phenotype-fairness.md"><strong>Phenotyping:</strong></a> Identifying a set of patients with a particular disease </p>
+<p><strong>Computable phenotype:</strong> a clinical element that can derived from queries to an EHR or ancillary data sources &#40;such as claims data, or disease registries&#41; using a defined set of data elements and logical expressions.  It does not require chart review or interpretation by a clinician. </p>
+<p><strong>Data element:</strong> the unit of data being queried, exchanged, or analyzed. It includes:</p>
+<ul>
+<li><p>Descriptive name for the concept</p>
+</li>
+<li><p>A specified value set</p>
+</li>
+<li><p>Additional metadata</p>
+</li>
+</ul>
+<p><strong>Value set:</strong> the set of possible information associated with a particular data element. &#91;2&#93;</p>
+<p><strong>Metadata:</strong> descriptive data about objects, including data objects; data about data.</p>
+<h3 id="computable_phenotypes_definitions">Computable Phenotypes Definitions</h3>
+<p><strong>Computable phenotype definitions:</strong> classifying individuals with a given characteristic of interest from EHRs. Done by using data routinely collected in EHRs or ancillary data sources &#40;such as claims data, or disease registries&#41;.</p>
+<p>Computable phenotype definitions enable reproducible queries of EHRs. They are made of data elements and boolean operators which are executed by a computer. Furthermore, they rely on value sets derived from standardized coding systems.</p>
+<p>These definitions help identify people with particular conditions across healthcare organizations by using common definitions. Standard phenotype definitions can enable direct identification of cohorts. This allows decision-makers to specifically target screening tests and interventions to such cohorts.</p>
+<h4 id="creating_computable_phenotypes">Creating Computable Phenotypes</h4>
+<ol>
+<li><p>Define how a concept should be studied given available data.</p>
+</li>
+<li><p>Identify which diagnoses, treatments, and patient characteristics suggest a condition of interest.</p>
+</li>
+<li><p>Specify clinical condition being searched for and how that would be represented in various EHRs.</p>
+</li>
+</ol>
+<h4 id="characteristics_of_a_good_phenotype_definitions">Characteristics of a Good Phenotype Definitions</h4>
+<ol>
+<li><p>Does not conflict with a previously pre-defined phenotype definitions</p>
+</li>
+<li><p>Details of a definition need be communicated.</p>
+</li>
+</ol>
+<p>It should enable reproducible queries in other contexts.</p>
+<ol start="3">
+<li><p>They must always yield similar results given same data; be reliable.</p>
+</li>
+<li><p>Assess implementation for a given setting</p>
+</li>
+<li><p>Phenotype definition must be compared using available clinical gold standard.</p>
+</li>
+</ol>
+<h4 id="determining_the_validity_of_a_phenotype_definition">Determining the Validity of a Phenotype Definition</h4>
+<ol>
+<li><p>Ability to correctly identify which individuals exhibit the phenotype.</p>
+</li>
+</ol>
+<h3 id="available_phenotype_definitions">Available Phenotype Definitions</h3>
+<p>This paper contains a plethora of resources regarding phenotype definitions:</p>
+<blockquote>
+<p>R. Richesson and M. Smerek, &quot;Electronic health records-based phenotyping,&quot; Rethinking clinical trials: A living textbook of pragmatic clinical trials, vol. 2016, 2014.</p>
+</blockquote>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.</p>
+<p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” &#91;Online&#93;. Available: https://cde.nlm.nih.gov/home. &#91;Accessed: 30-Dec-2020&#93;.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   

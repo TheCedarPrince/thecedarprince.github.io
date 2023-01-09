@@ -30,6 +30,103 @@
   <description>
     <![CDATA[  Modeling computational actions as single step actions  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Random Access Machine &#40;RAM&#41; Model</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> Modeling computational actions as single step actions</p>
+<p><strong>Keywords:</strong> ##zettel #random #access #machine #model #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Properties of RAM<ol><li>Step Execution of Times</li><li>Data Types</li></ol></li><li>Algorithmic Analysis within the RAM Model</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p><strong>Random Access Machine &#40;RAM&#41; Model:</strong> instructions are executed contiguously without concurrency. &#91;1&#93;</p>
+<h3 id="properties_of_ram">Properties of RAM</h3>
+<h4 id="step_execution_of_times">Step Execution of Times</h4>
+<p>RAM concerns common real-world instructions executed at constant times: </p>
+<ol>
+<li><p>Arithmetic:</p>
+<ul>
+<li><p>Add</p>
+</li>
+<li><p>Subtract</p>
+</li>
+<li><p>Multiply</p>
+</li>
+<li><p>Divide</p>
+</li>
+<li><p>Remainder</p>
+</li>
+<li><p>Floor</p>
+</li>
+<li><p>Ceiling</p>
+</li>
+</ul>
+</li>
+<li><p>Data Movement</p>
+<ul>
+<li><p>Loading</p>
+</li>
+<li><p>Storing</p>
+</li>
+<li><p>Copying</p>
+</li>
+</ul>
+</li>
+<li><p>Control flow </p>
+<ul>
+<li><p>Conditionals and unconditional branches</p>
+</li>
+<li><p>Subroutine calls</p>
+</li>
+<li><p>Returns</p>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="data_types">Data Types</h4>
+<ul>
+<li><p>The RAM model concerns integers and floating points for real number representation.</p>
+</li>
+<li><p>A limit on the size of each word of data is assumed.</p>
+</li>
+<li><p>The memory hierarchy &#40;i.e. model caches or virtual memory on modern computers&#41; is not modeled.</p>
+</li>
+</ul>
+<h3 id="algorithmic_analysis_within_the_ram_model">Algorithmic Analysis within the RAM Model</h3>
+<p><strong>Algorithm analysis:</strong> predicting the resources an algorithm requires.Computational time is what is commonly measured. Memory, hardware, or bandwidth are sometimes also analyzed. &#91;1&#93;</p>
+<p><strong>Running time:</strong> the number of basic operations executed in an algorithm. In the RAM model, each executed line takes the constant time ci.</p>
+<p>Generally, time taken by an algorithm grows in proportion to the size of the input. &#91;1&#93; Definitions for input size depend on what is studied:</p>
+<ul>
+<li><p>The number of items in the input</p>
+</li>
+<li><p>The total number of bits needed to represent the input in binary notation</p>
+</li>
+<li><p>Numbers of vertices and edges in a graph</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; T. H. Cormen, Ed., Introduction to algorithms, 3rd ed. Cambridge, Mass: MIT Press, 2009.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +146,38 @@
   <description>
     <![CDATA[  A concise definition of what the GTD framework is.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>GTD Definition</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> A concise definition of what the GTD framework is.</p>
+<p><strong>Keywords:</strong> ##zettel #productivity #model #framework #definition #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>GTD, or <em>Getting Things Done</em>, is a productivity framework created by David Allen to free your mind from as much additional load as possible while maintaining projects, lists, and other items pertaining to day-to-day operations. </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -68,6 +197,52 @@
   <description>
     <![CDATA[  An overview of how to use a bullet journal and how to make one.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Bullet Journal</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> An overview of how to use a bullet journal and how to make one.</p>
+<p><strong>Keywords:</strong> ##summary ##bulletjournal #productivity #model #writing #journaling #reflection #projectmanagement #mentalhealth #creativity #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">Monthly Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a monthly plan when using a bullet journal.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly.md">Weekly Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a weekly plan when using a bullet journal.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020035441-bullet-journal-daily.md">Daily Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a daily plan when using a bullet journal.</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +262,39 @@
   <description>
     <![CDATA[  How to conduct weekly reviews using GTD.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>GTD Weekly Review</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> How to conduct weekly reviews using GTD.</p>
+<p><strong>Keywords:</strong> ##zettel #review #weekly #model #productivity #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Each week, you should hold a 30 minute-ish weekly review to guarantee each project on the <a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">project list</a> has at least one upcoming next action for the week. </p>
+<p>Utilize a <a href="https://jacobzelko.com/03192020050346-trigger-list.md">trigger list</a> to help make sure you did not miss anything. The trigger list should be custom to whatever it is that you are working on or are responsible for.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -106,6 +314,48 @@
   <description>
     <![CDATA[  An overview on Nassim Taleb&#39;s thoughts on Antifragility.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Antifragility</h1>
+<p><strong>Date:</strong> March 17 2020</p>
+<p><strong>Summary:</strong> An overview on Nassim Taleb&#39;s thoughts on Antifragility.</p>
+<p><strong>Keywords:</strong> ##zettel #antifragile #philosophy #fragile #robust #model #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Examples from Taleb&#39;s Model</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Nassim Taleb coined the word &quot;antifragile&quot; to describe systems or objects that, rather than not adapting to an environment, adapts and improves over time as a function of perturbation found in a variable environment. </p>
+<p>Antifragile systems or objects gain from disorder and thrives on volatility and variability within reason for that given system.</p>
+<h3 id="examples_from_talebs_model">Examples from Taleb&#39;s Model</h3>
+<ol>
+<li><p>An antifragile system is not like a coffee mug - a coffee mug does not get stronger the more you use it but rather is at risk the more you use it. As a result, a coffee mug is <strong>fragile</strong>.</p>
+</li>
+<li><p>A cannonball however is not antifragile. You can shoot it out of a cannon, drop it, carry it, etc. Within reason, it is not going to change or adapt to the situation - it is <strong>robust</strong>.</p>
+</li>
+<li><p>A person however is <strong>antifragile</strong>. Before a person can lift a bale of hay, they must first carry the lamb to pasture. Meaning, a person can adapt and change themselves to fit to the situation at hand - though, not immediately. They can make these changes proactively or anticipate needs for a given situation and adapt accordingly.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>  
   

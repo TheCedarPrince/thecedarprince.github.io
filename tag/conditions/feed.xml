@@ -30,6 +30,94 @@
   <description>
     <![CDATA[  An overall summary and review of the state of telehealth based off literature  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>State of Telehealth</h1>
+<p><strong>Date:</strong> May 2 2022</p>
+<p><strong>Summary:</strong> An overall summary and review of the state of telehealth based off literature</p>
+<p><strong>Keywords:</strong> ##bibliography #telehealth #care #digital #chronic #acute #conditions #wait #time #archive</p>
+<h1>Bibliography</h1>
+<p>E. R. Dorsey and E. J. Topol, “State of Telehealth,” N Engl J Med, vol. 375, no. 2, pp. 154–161, Jul. 2016, doi: 10.1056/NEJMra1601705.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Goals of Telehealth</li><li>Current Issues with Care</li><li>Opportunities for Telehealth</li><li>Challenges to Telehealth</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>This was a systematic review of the state of telehealth using literature.</p>
+<h3 id="definitions">Definitions</h3>
+<ul>
+<li><p>Telehealth - remote healthcare delivery via telecommunication tools with or without video</p>
+</li>
+</ul>
+<h3 id="goals_of_telehealth">Goals of Telehealth</h3>
+<ul>
+<li><p>For patients:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Increase access to care</code></pre>
+<h3 id="current_issues_with_care">Current Issues with Care</h3>
+<ul>
+<li><p>Booking a 20 minute physician appointment takes an average of 20 days &#91;1&#93;</p>
+</li>
+<li><p>Traveling to an appointment and waiting often takes nearly 2 hours &#91;2&#93;</p>
+</li>
+</ul>
+<h3 id="opportunities_for_telehealth">Opportunities for Telehealth</h3>
+<ul>
+<li><p>Chronic condition patients</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Elderly Americans 
+	- ~2 million elderly that are homebound &#91;3&#93;
+	- Medical home will be patient&#39;s home for best patient-centered care &#91;4&#93;</code></pre>
+<ul>
+<li><p>Acute care patients</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Stroke &#91;5&#93;
+- Pneumonia &#91;6&#93;</code></pre>
+<h3 id="challenges_to_telehealth">Challenges to Telehealth</h3>
+<ul>
+<li><p>Reimbursement issues</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Eligible for clinical facilities where shortage of health professionals &#40;get citation&#41;</code></pre>
+<ul>
+<li><p>Lack of socialization</p>
+</li>
+</ul>
+<pre><code class="language-julia">- The digital divide &#91;7&#93;
+	- Difference of access to telehealth based on:
+		- Geography 
+		- Social factors
+	- Worst for the elderly
+		- Only 58&#37; of persons &gt; 65 years old use Internet &#91;8&#93;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Merritt Hawkins, “Physician Appointment Wait Times and Medicaid and Medicare Acceptance Rates,” Merritt Hawkins, 2014.</p>
+<p>&#91;2&#93; K. N. Ray, A. V. Chari, J. Engberg, M. Bertolet, and A. Mehrotra, “Disparities in time spent seeking medical care in the United States,” JAMA Intern. Med., vol. 175, no. 12, pp. 1983–1986, 2015.</p>
+<p>&#91;3&#93; K. A. Ornstein et al., “Epidemiology of the homebound population in the United States,” JAMA Intern. Med., vol. 175, no. 7, pp. 1180–1186, 2015.</p>
+<p>&#91;4&#93; N. Herendeen and P. Deshpande, “Telemedicine and the patient-centered medical home,” Pediatr. Ann., vol. 43, no. 2, pp. e28–e32, 2014.</p>
+<p>&#91;5&#93; A. Itrat et al., “Telemedicine in prehospital stroke evaluation and thrombolysis: Taking stroke treatment to the doorstep,” JAMA Neurol., vol. 73, no. 2, pp. 162–168, 2016.</p>
+<p>&#91;6&#93; W. T. Summerfelt, S. Sulo, A. Robinson, D. Chess, and K. Catanzano, “Scalable hospital at home with virtual physician visits: Pilot study,” Am J Manag Care, vol. 21, no. 10, pp. 675–84, 2015.</p>
+<p>&#91;7&#93; P. Norris et al., Digital divide: Civic engagement, information poverty, and the Internet worldwide. Cambridge university press, 2001.</p>
+<p>&#91;8&#93; A. Perrin and M. Duggan, “Americans’ internet access: 2000-2015,” 2015.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
   

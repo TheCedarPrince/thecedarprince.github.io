@@ -30,6 +30,39 @@
   <description>
     <![CDATA[  Overview on what US Census block groups are  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Census Groups</h1>
+<p><strong>Date:</strong> January 19 2021</p>
+<p><strong>Summary:</strong> Overview on what US Census block groups are</p>
+<p><strong>Keywords:</strong> ##zettel #census #usa #block #groups #cbgs #archive</p>
+<h1>Bibliography</h1>
+<p>Not available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Census block groups: Geographical units that typically contain 600–3,000 people &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; S. Chang et al., “Mobility network models of COVID-19 explain inequities and inform reopening,” Nature, vol. 589, no. 7840, pp. 82–87, Jan. 2021, doi: 10.1038/s41586-020-2923-3.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,44 @@
   <description>
     <![CDATA[  An overview of where Cuebiq mobility data comes from and a highlight of some of its key variables.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Cuebiq Mobility Data Summary</h1>
+<p><strong>Date:</strong> June 8 2021</p>
+<p><strong>Summary:</strong> An overview of where Cuebiq mobility data comes from and a highlight of some of its key variables.</p>
+<p><strong>Keywords:</strong> #cuebiq #mobility #dataset #policy #index #cci #cmi  #archive</p>
+<h1>Bibliography</h1>
+<p>Cuebiq, &quot;Mobility Insights - Cuebiq,&quot; Jun. 08, 2021. https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic &#40;accessed Jun. 08, 2021&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Origins of the Data</li><li>Mobility Metrics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="origins_of_the_data">Origins of the Data</h3>
+<p>Cuebiq collects 1st party location data from over twenty five million active users daily.  The data covers the continental US and excludes Hawaii and Alaska.  Cuebiq brokers with 100&#43; applications to collect this location data. This creates a diversity of data from opted-in individuals while preserving anonymity. &#91;1&#93;</p>
+<h3 id="mobility_metrics">Mobility Metrics</h3>
+<p><strong>Shelter-In-Place:</strong> Percent of devices staying within 300 ft of home each day</p>
+<p><strong>Cuebiq Contact Index:</strong> When &gt; 1 devices are within 50ft of one another for &gt; 5min. &#91;1&#93;</p>
+<p><strong>Cuebiq Mobility Index:</strong> How far devices move each day. It is calculated using a derivative factor indicating the distance between opposite corners of a box drawn around the locations observed for devices on each day. </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Cuebiq, “Mobility Insights - Cuebiq,” 08-Jun-2021. &#91;Online&#93;. Available: https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic. &#91;Accessed: 08-Jun-2021&#93;.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>  
   

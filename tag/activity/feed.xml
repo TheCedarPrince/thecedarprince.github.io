@@ -30,6 +30,39 @@
   <description>
     <![CDATA[  What Magnetoencephalography is  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Magnetoencephalography &#40;MEG&#41;</h1>
+<p><strong>Date:</strong> December 28 2020</p>
+<p><strong>Summary:</strong> What Magnetoencephalography is</p>
+<p><strong>Keywords:</strong> ##zettel #meg #brain #activity #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Magnetoencephalography &#40;MEG&#41; detects magnetic traces of brain activity to determine activity start time. Poor at locating where activity is. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
   
@@ -49,6 +82,50 @@
   <description>
     <![CDATA[  Brain activity which occurs between spatially separated  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Functional Connectivity</h1>
+<p><strong>Date:</strong> December 27 2020</p>
+<p><strong>Summary:</strong> Brain activity which occurs between spatially separated</p>
+<p><strong>Keywords:</strong> ##zettel #brain #activity #functional #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Functional connectivity refers to the functionally integrated relationship between spatially separated brain regions.  Functional connectivity is related to similar patterns of activation in different brain regions regardless of the apparent physical connectedness of the regions. &#91;1&#93;, &#91;2&#93;</p>
+<p>Functional connectivity is usually measured during resting state <a href="https://jacobzelko.com/12282020003750-functional-mri.md">fMRI</a>. &#91;3&#93; This is predicated on the assumption that functional connections in the brain remain constant in a short time over a task or period of data collection. Generally examined items based on temporal similarities during analysis of the brain are:</p>
+<ul>
+<li><p>Correlation</p>
+</li>
+<li><p>Coherence</p>
+</li>
+<li><p>Spatial grouping</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; B. Biswal, F. Z. Yetkin, V. M. Haughton, and J. S. Hyde, “Functional connectivity in the motor cortex of resting human brain using echo-planar MRI,” Magn Reson Med, vol. 34, no. 4, pp. 537–541, Oct. 1995, doi: 10.1002/mrm.1910340409.</p>
+<p>&#91;2&#93; K. J. Friston, “Functional and effective connectivity: A review,” Brain Connect., vol. 1, no. 1, pp. 13–36, 2011.</p>
+<p>&#91;3&#93; R. M. Hutchison et al., “Dynamic functional connectivity: Promise, issues, and interpretations,” Neuroimage, vol. 80, pp. 360–378, 2013.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
   

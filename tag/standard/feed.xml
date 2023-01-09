@@ -30,6 +30,83 @@
   <description>
     <![CDATA[  A working proposal on a standard knowledge format for taking notes  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>The Open Knowledge Model</h1>
+<p><strong>Date:</strong> April 16 2022</p>
+<p><strong>Summary:</strong> A working proposal on a standard knowledge format for taking notes</p>
+<p><strong>Keywords:</strong> #open #knowledge #standard ##summary #format #blog #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Knowledge is one of the most nebulous ideas known to mankind since nearly the beginning of time. What may be knowledge to one person may be useless noise to another - this encapsulates the difficulty in defining knowledge. As a result of its many possible meanings, I put forth a rather opinionated proposal for what I term the &quot;Open Knowledge Model&quot;.</p>
+<p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://jacobzelko.com/https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
+<p>There are many different knowledge management systems available to someone – from a pen and pencil to various software offerings. Each of these offerings are very unique and accordingly offer benefits and cons. This model remains independent of any such offering but instead prescribes a model to structure information in any of the offerings one chooses to pursue.</p>
+<h3 id="model_components">Model Components</h3>
+<p>The model is composed of the following sections:</p>
+<ul>
+<li><p><strong>Title Block</strong> - this is a unique block that begins with the name of the note followed by three required subcomponents:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Date** - the date the note was created
+- **Summary** - a brief, single sentence summary of what this note is about
+- **Keywords** - keywords that can be used to find or associated with the content of this note</code></pre>
+<ul>
+<li><p><strong>Bibliography Block</strong> - this contains the bibliographic information that is associated with the specific note</p>
+</li>
+<li><p><strong>Notes</strong> - where one&#39;s notes go on the note subject in whatever format one so chooses</p>
+</li>
+<li><p><strong>References</strong> - list of references used in the note</p>
+</li>
+</ul>
+<p>And that is the core requirement of the model.  What follows are a few digressions on this model. </p>
+<h3 id="digressions_and_recommendations_for_model">Digressions and Recommendations for Model</h3>
+<h4 id="title_block">Title Block</h4>
+<p>It is recommended that for <strong>Date</strong>, one chooses a consistent convention for how one will record the date across their knowledge base using this model.  In practice, there can be as many <strong>Keywords</strong> as one chooses, but it is often better to be more concise in what you choose as words.</p>
+<h4 id="bibliography_block">Bibliography Block</h4>
+<p>It can be possible that there isn&#39;t one bibliography associated with this not or none at all.  In those situations, it makes sense to perhaps write something like: &quot;Not Available&quot;.</p>
+<h4 id="notes">Notes</h4>
+<p>This is the most critical piece to any note.  One can structure and write their notes in any way they please here.  Include images, diagrams, code snippets – anything your knowledge management system supports. The model imposes no specific structure here – implementations may differ.</p>
+<h4 id="references">References</h4>
+<p>It is recommended to never write down the references section manually. Instead, offload this to a third party reference manager or another tool that could generate this information from a given note. </p>
+<h3 id="implementation_examples">Implementation Examples</h3>
+<p>To give an example of implementations, here are some examples of implementations:</p>
+<ul>
+<li><p><a href="https://jacobzelko.com/08032021134232-notes-template.md">Markdown Implementation</a></p>
+</li>
+</ul>
+<h3 id="tools_for_working_with_model">Tools for Working with Model</h3>
+<p>Here are a list of some tools that have emerged to work with the Open Knowledge Model: </p>
+<ul>
+<li><p><a href="https://jacobzelko.com/https://github.com/TheCedarPrince/NoteMate">NoteMate.jl</a> - a companion for working with a knowledge management system that adheres to the Open Knowledge Model.</p>
+</li>
+</ul>
+<p>Written in Julia and offers parsing from Markdown notes to other target formats.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>This standard is an active work in progress and is the product of years of experimentation.  If you find problems with this model or believe it too restrictive or unwise, please comment in the discussion or reach out to me. My hope is that this standard will co-evolve with new tools and increase the utility of any person&#39;s knowledge management system.</p>
+<h2 id="references__2">References</h2>
+<h2 id="references__3">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +126,43 @@
   <description>
     <![CDATA[  An overview of important components from Haskell&#39;s standard  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Prelude - Haskell&#39;s Standard Library</h1>
+<p><strong>Date:</strong> November 3 2021</p>
+<p><strong>Summary:</strong> An overview of important components from Haskell&#39;s standard</p>
+<p><strong>Keywords:</strong> #library #package #standard #prelude #haskell #programming #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="identity_function">Identity Function</h3>
+<p><code>id</code> returns the argument it is given:</p>
+<pre><code class="language-haskell">-- Using Prelude to declare the identity function
+-- &#96;a&#96; is a type variable and stands in for all types
+id :: a -&gt; a-- Definition of the function
+id x &#61; x</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
   
@@ -68,6 +182,66 @@
   <description>
     <![CDATA[  Overview of the Waveform Database &#40;WFDB&#41; record format  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>WFDB Record</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Overview of the Waveform Database &#40;WFDB&#41; record format</p>
+<p><strong>Keywords:</strong> ##summary #wfdb #dataformat #storage #healthcare #opensource #standard  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>How It Works</li><li>Example Application - ECG Data</li><li>Miscellaneous Notes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<p>The Waveform Database &#40;WFDB&#41; Library is a record management system to handle already existing databases - it itself is not a database but a collection of tools to handle databases that follow the WFDB format. &#91;1&#93; Furthermore, WFDB can be used for viewing, analyzing, and creating recordings of physiological signals &#91;2&#93;.</p>
+<h3 id="how_it_works">How It Works</h3>
+<p>The way that the WFDB record format works is that it utilizes &#91;pg 1, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> to specify the characteristics of a signal &#40;sampling frequency, etc.&#41;</p>
+</li>
+<li><p><strong>Annotation Files</strong> to record annotations corresponding to a signal &#40;generally kept in time with the rest of the signal&#41;</p>
+</li>
+</ul>
+<h3 id="example_application_-_ecg_data">Example Application - ECG Data</h3>
+<p>For example, when working with ECG data, the format utilizes the header and annotation files as follows &#91;pg 2 - 3, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> - could contain information about lead count, calibration format, etc.</p>
+</li>
+<li><p><strong>Annotation Files</strong> - could contain other information such as beat positions.</p>
+</li>
+</ul>
+<h3 id="miscellaneous_notes">Miscellaneous Notes</h3>
+<ul>
+<li><p>WFDB is considered a standard data format within the research world, and has found application in industry as well.</p>
+</li>
+<li><p>The WFDB format is generally used for ECG records - however, it can extend to other data formats.</p>
+</li>
+<li><p>A possible alternative to the WFDB record format is the European Data Format&#43; &#40;EDF&#43;&#41; &#91;see @garciamartinezLoadingPlottingFiltering2017 for more information&#93;.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
+<p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   

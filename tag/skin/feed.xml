@@ -30,6 +30,100 @@
   <description>
     <![CDATA[  Utilizing wearables to detect and find abnormalities in patient conditions  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information</h1>
+<p><strong>Date:</strong> January 11 2022</p>
+<p><strong>Summary:</strong> Utilizing wearables to detect and find abnormalities in patient conditions</p>
+<p><strong>Keywords:</strong> #mhealth #spo2 #heart #rate #skin #temperature #lyme #disease ##bibliography #archive</p>
+<h1>Bibliography</h1>
+<p>X. Li et al., &quot;Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information,&quot; PLoS Biol, vol. 15, no. 1, p. e2001402, Jan. 2017, doi: 10.1371/journal.pbio.2001402.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Goals</li><li>Population Details</li><li>Usage of Wearables</li><li>Lyme Disease Found in Subject 1</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="goals">Goals</h3>
+<ol>
+<li><p>Record real-time physiological data</p>
+</li>
+<li><p>Measure daily activity to find sleep patterns and reactions to surroundings</p>
+</li>
+<li><p>Create personalized baselines</p>
+</li>
+<li><p>Find differences in health of varying individuals</p>
+</li>
+<li><p>Detect when someone could potentially begin to fall ill</p>
+</li>
+</ol>
+<h3 id="population_details">Population Details</h3>
+<ul>
+<li><p>40 people were used for validation testing</p>
+</li>
+<li><p>Participant #1 was tracked 679 days</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Nearly 250000 measurements on this person per day
+- Only 603 days of records were used</code></pre>
+<h3 id="usage_of_wearables">Usage of Wearables</h3>
+<ul>
+<li><p>Metrics Collected</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Heart Rate
+- &#91;SpO2&#93;&#40;/01112022220843-spo2-explained.md&#41;
+- Skin Temperature</code></pre>
+<ul>
+<li><p>Wearables were shown to:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Detect early signs of Lyme Disease
+- Determine an inflammatory response was occurring</code></pre>
+<ul>
+<li><p>Sensors</p>
+</li>
+</ul>
+<pre><code class="language-julia">- HR
+	- &#91;Basis B1&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the&#37;20best&#37;20prices-,The&#37;20Basis&#37;20B1&#37;20is&#37;20an&#37;20activity&#37;20tracker&#37;20that&#39;s&#37;20marketed&#37;20as,burned,&#37;20distance&#37;20walked&#37;20and&#37;20sleep.&#41; - discontinued
+	- &#91;Basis Peak&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the best prices-,The Basis B1 is an activity tracker that&#39;s marketed as,burned, distance walked and sleep.&#41; - recalled, discontinued
+	- &#91;Scanadu&#93;&#40;/https://techcrunch.com/2016/12/13/fda-orders-scanadu-to-shut-down-support-for-its-scout-device-and-customers-are-mad/?guccounter&#61;1&amp;guce_referrer&#61;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig&#61;AQAAALiRl2t7ma1bFByNmrMrAP8vVK5_iBXu35z3PuC9UVIY6cll8UaL5w2RWGvOBU68epFCefiwLghsqP3rxoNEGSKtAXSuMXQKrbSDsE4ti9xcfwcnjMtrx46tP89acwwmKKBJTdvCgmVRgo_zwQDSMztMxVAFFvbmhmYcdq8mTvER&#41; - discontinued
+- Skin Temperature
+	- &#91;Basis B1&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the&#37;20best&#37;20prices-,The&#37;20Basis&#37;20B1&#37;20is&#37;20an&#37;20activity&#37;20tracker&#37;20that&#39;s&#37;20marketed&#37;20as,burned,&#37;20distance&#37;20walked&#37;20and&#37;20sleep.&#41; - discontinued
+	- &#91;Basis Peak&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the best prices-,The Basis B1 is an activity tracker that&#39;s marketed as,burned, distance walked and sleep.&#41; - recalled, discontinued</code></pre>
+<h3 id="lyme_disease_found_in_subject_1">Lyme Disease Found in Subject 1</h3>
+<ul>
+<li><p>During days 470 - 474 outliers were found in</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Abnormally elevated HR
+- Abnormally elevated skin temperature 
+- Decrease in SpO2
+- Congruent with previous studies on nonportable devices &#91;1&#93;</code></pre>
+<ul>
+<li><p>Coincided with Lyme Disease onset</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Detected before typical bull&#39;s rash manifestation
+- It was reported that SpO2 and HR was most important for alerting of Lyme Disease
+- Strong and repeated signals in change of heart algorithm were detected during Lyme Disease</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +143,49 @@
   <description>
     <![CDATA[  How EDA is used generally as a biomarker.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>EDA as a Biomarker</h1>
+<p><strong>Date:</strong> April 9 2020</p>
+<p><strong>Summary:</strong> How EDA is used generally as a biomarker.</p>
+<p><strong>Keywords:</strong> ##zettel #eda #biomarker #healthcare #biosystems #sensors #scl #skin #scr #response #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The term <em>EDA</em> is often used synonymously in academic literature to refer to its usage as a non-invasive biomarker to investigate physiological arousal. EDA is generally recorded using two small electrodes and are usually &#91;1&#93;, &#91;2&#93; can be placed on the:</p>
+<ul>
+<li><p>Fingers</p>
+</li>
+<li><p>Palms</p>
+</li>
+<li><p>Feet</p>
+</li>
+</ul>
+<p>These electrodes complete a circuit across the skin – the skin acts as a variable resistor – and then <a href="https://jacobzelko.com/03242020003215-eda-explained.md">measure changes in skin conductance</a> &#40;see note for more information on what variables EDA monitors&#41;. After the EDA signal is collected from the electrodes, the signal is typically &#40;by convention&#41; decomposed into skin conductance level <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">SCL</a> and skin conductance responses <a href="https://jacobzelko.com/04092020162632-skin-response.md">SCR</a> &#40;click links to see definitions of both&#41;.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
+<p>&#91;2&#93; M. van Dooren, J. H. Janssen, et al., “Emotional sweating across the body: Comparing 16 different skin conductance measurement locations,” Physiol. Behav., vol. 106, no. 2, pp. 298–304, 2012.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
   
@@ -68,6 +205,38 @@
   <description>
     <![CDATA[  Summary of what is skin conductance level.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Is Skin Conductance Level?</h1>
+<p><strong>Date:</strong> April 9 2020</p>
+<p><strong>Summary:</strong> Summary of what is skin conductance level.</p>
+<p><strong>Keywords:</strong> ##zettel #eda #scl #skin #response  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Generally Skin Conductance Level &#40;SCL&#41; entails the slow onset of changes in a continuous stream of Electrodermal Activity data.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +256,53 @@
   <description>
     <![CDATA[  An overview of common artifacts in EDA signals  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Common Causes of Artifact in EDA Signals</h1>
+<p><strong>Date:</strong> March 27 2020</p>
+<p><strong>Summary:</strong> An overview of common artifacts in EDA signals</p>
+<p><strong>Keywords:</strong> ##zettel #eda #signalprocessing #biomarker #artifact #noise #skin #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>EDA artifacts can come from the electrodes used to collect EDA data &#91;1&#93;–&#91;3&#93;; examples being:</p>
+<ul>
+<li><p>Inconsistent pressure of the electrode to the skin</p>
+</li>
+<li><p>Physical activity &#40;such as pressure or movement&#41;</p>
+</li>
+<li><p>Arbitrary changes made to securing the device</p>
+</li>
+<li><p>Contextual/ambient factors &#40;such as humidity, temperature, etc. Anything that can cause excessive EDA signals beyond a device&#39;s detection abilities&#41;</p>
+</li>
+</ul>
+<p>Overloading a device that records EDA signals is a special kind of artifact called &quot;bridging&quot; or &quot;saturation&quot;. &#91;4&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; C. Tronstad, G. K. Johnsen, S. Grimnes, and Ø. G. Martinsen, “A study on electrode gels for skin conductance measurements,” Physiol. Meas., vol. 31, no. 10, p. 1395, 2010.</p>
+<p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, 2015, pp. 1934–1937, doi: 10.1109/EMBC.2015.7318762.</p>
+<p>&#91;3&#93; I. R. Kleckner et al., “Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,” IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
+<p>&#91;4&#93; S. for P. R. A. H. C. on E. Measures et al., “Publication recommendations for electrodermal measurements,” Psychophysiology, vol. 49, no. 8, pp. 1017–1034, 2012.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
   

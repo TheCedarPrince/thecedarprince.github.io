@@ -30,6 +30,57 @@
   <description>
     <![CDATA[  An overview of the BIDS style for Brain Imaging Data.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Brain Imaging Data Structure &#40;BIDS&#41;</h1>
+<p><strong>Date:</strong> November 5 2020</p>
+<p><strong>Summary:</strong> An overview of the BIDS style for Brain Imaging Data.</p>
+<p><strong>Keywords:</strong> ##zettel #bids #neuroscience #brain #imaging #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Purpose</li><li>Specific data specifications:</li><li>Topics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="purpose">Purpose</h3>
+<p>A core problem regarding reproducible neuroscience is that there has been no widely adopted standard for describing data from an imaging experiment. This renders sharing and reusing data difficult.&#91;1&#93; Furthermore, it complicates automation and quality assurance.</p>
+<p>The BIDS format was inspired by the work done by the <a href="https://jacobzelko.com/https://openneuro.org/">OpenNeuro</a> community to easily share and structure their data regarding pertaining to neuroscientific research. It enables development of automated tools to operate on datasets. &#91;1&#93; Common standards minimize curation&#33; Helps those not involved to effectively understand the data.</p>
+<h3 id="specific_data_specifications">Specific data specifications:</h3>
+<ul>
+<li><p>Raw data derivatives should be separate from source data.</p>
+</li>
+<li><p>The NIfTI image file format was selected as it is the most ubiquitous across neuroimaging software.BIDS requires users to provide additional meta information in a sidecar JSON file.</p>
+</li>
+<li><p>Metadata is generally stored as an array in tab-delimited values.</p>
+</li>
+<li><p>JSON files are used for storing key/value pairs.</p>
+</li>
+</ul>
+<p>The key names follow a fixed dictionary in the specification.</p>
+<h3 id="topics">Topics</h3>
+<p>Neuroimaging: brain imaging to gain quantitative brain data. &#91;1&#93;</p>
+<p>Error reduction: errors attributed to misunderstanding data.</p>
+<p>Provenance: information regarding actions or those involved in producing an object. It can be used to form assessments about its valour.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; K. J. Gorgolewski et al., “The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments,” Sci Data, vol. 3, no. 1, p. 160044, Dec. 2016, doi: 10.1038/sdata.2016.44.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>  
   

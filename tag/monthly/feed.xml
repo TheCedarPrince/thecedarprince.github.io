@@ -30,6 +30,57 @@
   <description>
     <![CDATA[  How to create a monthly plan when using a bullet journal.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Monthly Planning in a Bullet Journal</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> How to create a monthly plan when using a bullet journal.</p>
+<p><strong>Keywords:</strong> ##zettel #bulletjournal #productivity #monthly  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>Monthly Breakdown</li><li>Templates:<ol><li>Habit Tracker</li><li>Monthly Log</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<p>In the monthly plan, one should use this as a big picture preview of the upcoming month and each day you should only have one item about the biggest event for that day. Keep it short and concise&#33;&#33;&#33;</p>
+<h3 id="monthly_breakdown">Monthly Breakdown</h3>
+<p>Each day is logged here; furthermore, the following can be recorded:</p>
+<ol>
+<li><p>Goals for the month</p>
+</li>
+<li><p>Major upcoming tasks for the month</p>
+</li>
+<li><p>Habits &#40;good to break it down as a daily chart of sorts&#41;</p>
+</li>
+</ol>
+<p>Choose what works for you and continue with it; with the major upcoming tasks, I would suggest putting that in your monthly log.</p>
+<h3 id="templates">Templates:</h3>
+<h4 id="habit_tracker">Habit Tracker</h4>
+<p>Here is an example of a habit tracker that could be included in the <a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly.md">weekly plan for each week</a>:</p>
+<table><tr><th align="center">Habit</th><th align="center">M</th><th align="center">Tu</th><th align="center">W</th><th align="center">Tr</th><th align="center">F</th><th align="center">Sa</th><th align="center">Su</th></tr><tr><td align="center">Sleep b/w 22:00 and 23:00</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Wake up by 08:00</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Go for a walk</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Journal</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Tea with God</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Read for 15 min</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Study JavaScript for 15 min</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></table>
+<h4 id="monthly_log">Monthly Log</h4>
+<p>Here is an example of what a monthly log could look like:</p>
+<table><tr><th align="right">Date</th><th align="center">Entry</th></tr><tr><td align="right">01</td><td align="center">–-</td></tr><tr><td align="right">02</td><td align="center">–-</td></tr><tr><td align="right">03</td><td align="center">–-</td></tr><tr><td align="right">04</td><td align="center">–-</td></tr><tr><td align="right">05</td><td align="center">–-</td></tr><tr><td align="right">06</td><td align="center">–-</td></tr><tr><td align="right">07</td><td align="center">–-</td></tr><tr><td align="right">08</td><td align="center">–-</td></tr><tr><td align="right">09</td><td align="center">–-</td></tr><tr><td align="right">10</td><td align="center">–-</td></tr><tr><td align="right">11</td><td align="center">–-</td></tr><tr><td align="right">12</td><td align="center">–-</td></tr><tr><td align="right">13</td><td align="center">–-</td></tr><tr><td align="right">14</td><td align="center">–-</td></tr><tr><td align="right">15</td><td align="center">–-</td></tr><tr><td align="right">16</td><td align="center">–-</td></tr><tr><td align="right">17</td><td align="center">–-</td></tr><tr><td align="right">18</td><td align="center">–-</td></tr><tr><td align="right">19</td><td align="center">–-</td></tr><tr><td align="right">20</td><td align="center"></td></tr><tr><td align="right">21</td><td align="center"></td></tr><tr><td align="right">22</td><td align="center"></td></tr><tr><td align="right">23</td><td align="center"></td></tr><tr><td align="right">24</td><td align="center"></td></tr><tr><td align="right">25</td><td align="center"></td></tr><tr><td align="right">26</td><td align="center"></td></tr><tr><td align="right">27</td><td align="center"></td></tr><tr><td align="right">28</td><td align="center"></td></tr><tr><td align="right">29</td><td align="center"></td></tr><tr><td align="right">30</td><td align="center"></td></tr><tr><td align="right">31</td><td align="center"></td></tr></table>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   

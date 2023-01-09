@@ -30,6 +30,40 @@
   <description>
     <![CDATA[  A summary on what is an aware home, its history, and its applications  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Aware Homes</h1>
+<p><strong>Date:</strong> December 2 2022</p>
+<p><strong>Summary:</strong> A summary on what is an aware home, its history, and its applications</p>
+<p><strong>Keywords:</strong> ##summary ##technology #ubicomp #computerscience #technology #ambient #networking #archive</p>
+<h1>Bibliography</h1>
+<p>Not available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The idea of the &quot;Aware Home&quot; was created by Kidd et. al. &#91;1&#93; in 1999. As they wrote in their paper, <a href="https://jacobzelko.com/03092020035135-kidd-aware-home"><em>The Aware Home: A Living Laboratory for Ubiquitous Computing Research</em></a>,</p>
+<p>One of the first examples of an &quot;Aware Home&quot; is the <em>Georgia Tech Aware Home</em></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
   

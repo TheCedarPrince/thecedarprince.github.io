@@ -30,6 +30,47 @@
   <description>
     <![CDATA[  How Julia performs implicit returns  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Implicit Returns</h1>
+<p><strong>Date:</strong> May 19 2020</p>
+<p><strong>Summary:</strong> How Julia performs implicit returns</p>
+<p><strong>Keywords:</strong> ##zettel #julialang #programming #implicit #return #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<pre><code class="language-julia">function is_leap_year&#40;year&#41;
+    if &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;
+        return true
+    else
+        return false
+    end</code></pre>
+<p>is equivalent to the expression</p>
+<pre><code class="language-julia">julia&gt; is_leap_year&#40;year&#41; &#61; &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;julia&gt; is_leap_year&#40;1995&#41;
+false</code></pre>
+<p>This works because Julia performs implicit returns in their functions by returning the result of the function&#39;s last evaluated expression.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>  
   

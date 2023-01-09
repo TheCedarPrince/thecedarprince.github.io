@@ -30,6 +30,45 @@
   <description>
     <![CDATA[  Simple write up on column vectors  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Vectors</h1>
+<p><strong>Date:</strong> May 13 2020</p>
+<p><strong>Summary:</strong> Simple write up on column vectors</p>
+<p><strong>Keywords:</strong> ##zettel #column #vectors #linear #algebra ##mathematics  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>There exist two definitions for vectors:</p>
+<ol>
+<li><p>A vector is a column of a matrix.</p>
+</li>
+<li><p>A vector is that which has the algebra of a vector space.</p>
+</li>
+</ol>
+<p>This can be summarized by saying: not all vectors which have the algebra of a vector space are columns of matrices.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>  
   

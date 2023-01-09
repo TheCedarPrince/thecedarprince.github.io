@@ -30,6 +30,54 @@
   <description>
     <![CDATA[  A guide on how GTD is implemented.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>GTD Implementation</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> A guide on how GTD is implemented.</p>
+<p><strong>Keywords:</strong> ##zettel #gtd #productivity #lists #projectmanagement #projects  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Implementation</li><li>Implementation Flow Chart</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="implementation">Implementation</h3>
+<p>GTD consists of utilizing lists to break down information as it enters your brain. Here are the main lists used:</p>
+<ol>
+<li><p><strong>The Intake</strong> - this is raw information that may come in from your colleagues, class, or situation.</p>
+</li>
+<li><p><strong>Projects</strong> - this contains what projects you have going on</p>
+</li>
+<li><p><strong>Next Actions</strong> - tasks that require immediate or imminent volition go here</p>
+</li>
+<li><p><strong>Waiting For</strong> - tasks that you delegate or are waiting on others to accomplish</p>
+</li>
+<li><p><strong>Future List</strong> - tasks or ideas that may be a stretch at the current moment but worth revisiting</p>
+</li>
+</ol>
+<h3 id="implementation_flow_chart">Implementation Flow Chart</h3>
+<p>It can be somewhat confusing to parse the intake; this flow diagram shows and easy to use method of how to break down information:</p>
+<p><img src="03182020054832-gtd-flowchart.jpg" alt="" /></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -49,6 +97,52 @@
   <description>
     <![CDATA[  An overview of how to use a bullet journal and how to make one.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Bullet Journal</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> An overview of how to use a bullet journal and how to make one.</p>
+<p><strong>Keywords:</strong> ##summary ##bulletjournal #productivity #model #writing #journaling #reflection #projectmanagement #mentalhealth #creativity #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">Monthly Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a monthly plan when using a bullet journal.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly.md">Weekly Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a weekly plan when using a bullet journal.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020035441-bullet-journal-daily.md">Daily Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a daily plan when using a bullet journal.</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   

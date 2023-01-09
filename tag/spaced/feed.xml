@@ -30,6 +30,55 @@
   <description>
     <![CDATA[  What are Spaced Repetition Systems and what is available?  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Spaced Repetition Systems</h1>
+<p><strong>Date:</strong> May 25 2020</p>
+<p><strong>Summary:</strong> What are Spaced Repetition Systems and what is available?</p>
+<p><strong>Keywords:</strong> ##zettel #spaced #repetition #system #spacing #effect ##learning #software  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Software Implementations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>There are multiple algorithms available used for effectively implementing the <a href="https://jacobzelko.com/05282020163507-spacing-effect.md">spacing effect</a>. The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus.md">has been replicated</a> and scrutinized examined multiple times. &#91;1&#93;–&#91;3&#93; Spaced repetition systems are based around proper implementations of such algorithms.</p>
+<p>Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the <a href="https://jacobzelko.com/05102020220941-leitner-system.md">Leitner System which used paper note cards</a> to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.</p>
+<p>With computers, there have been several pieces of software made to automate and keep track of repetitions <em>for a learner</em>. A majority of these systems directly adapted the Leitner System from the analog to the digital world. Each software generally has proprietary algorithms that supposedly maximize the spacing effect but are directly inspired by the original work done by Ebbinghaus.</p>
+<p>Whether analog or digital, key features of these systems are as follows:</p>
+<ol>
+<li><p>Uses an algorithm implementation of the spacing effect for a user.</p>
+</li>
+<li><p>Each piece of information is spaced automatically per a user&#39;s perceived difficulty in either remembering or processing that piece of information on a repetition.</p>
+</li>
+<li><p>Pieces of information are generally presented in a &quot;flashcard&quot; format and are stored in &quot;decks&quot;.</p>
+</li>
+</ol>
+<h3 id="software_implementations">Software Implementations</h3>
+<p>There are many pieces of software that utilize spaced repetition. Provided is a table listing some of the most popular ones:</p>
+<table><tr><th align="right">Software</th><th align="right">Description</th><th align="right">Reference</th></tr><tr><td align="right">Anki</td><td align="right">Open source flashcard based learning software.</td><td align="right">@AnkiPowerfulIntelligent</td></tr><tr><td align="right">Duolingo</td><td align="right">Popular language learning platform.</td><td align="right">@LearnLanguageFree</td></tr><tr><td align="right">Memrise</td><td align="right">Flashcard based language learning app.</td><td align="right">@zotero-1378</td></tr><tr><td align="right">Quizlet</td><td align="right">Multi-faceted learning platform.</td><td align="right">@Quizlet</td></tr><tr><td align="right">Supermemo</td><td align="right">Software for spacing and incremental reading.</td><td align="right">@LearnFastForget</td></tr></table>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; J. M. J. Murre and J. Dros, “Replication and Analysis of Ebbinghaus’ Forgetting Curve,” PLoS ONE, vol. 10, no. 7, p. e0120644, Jul. 2015, doi: 10.1371/journal.pone.0120644.</p>
+<p>&#91;2&#93; H. Ebbinghaus, “Ueber das gedächtnis,” 1885.</p>
+<p>&#91;3&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
   
@@ -49,6 +98,51 @@
   <description>
     <![CDATA[  A brief overview of how the Leitner system works  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Leitner System</h1>
+<p><strong>Date:</strong> May 10 2020</p>
+<p><strong>Summary:</strong> A brief overview of how the Leitner system works</p>
+<p><strong>Keywords:</strong> ##zettel #learning #repetition #flashcards #spaced  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The Leitner system uses flashcards to implement a spaced repetition learning system. It was created by German science journalist Sebastian Leitner in the 1970s.</p>
+<p><img src="1589148887796.png" alt="" /></p>
+<blockquote>
+<p>Successfully recalled cards are moved to the next group. Unsuccessfully recalled cards go back to the first box.</p>
+</blockquote>
+<p>Using the Leitner system, learners create flashcards with discrete facts on them. These cards are grouped based on how well a learner knows the information on the card. They are arranged via the following method:</p>
+<ul>
+<li><p>If a card is successfully recalled, the card is put into the next group.</p>
+</li>
+<li><p>If a card is not successfully recalled it is sent to the first group.</p>
+</li>
+</ul>
+<p>The cards are kept in a box and are partitioned by spacings in the box. The size of each participation determined when cards were to be reviewed. For Leitner&#39;s implementation, this consisted of 1, 2, 5, 8, and 14cm partition sizes. Reviews only took place when a partition is filled to proper sizing.</p>
+<p>In Leitner&#39;s original method, published in his book So lernt man Lerne &#40;How to learn to learn&#41;, the schedule of repetition was governed by the size of the partitions in the learning box.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>  
   

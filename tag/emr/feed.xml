@@ -30,6 +30,83 @@
   <description>
     <![CDATA[  An overview of what the TriNetX COVID-19 research platform is and how it works  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>TriNet</h1>
+<p><strong>Date:</strong> July 18 2020</p>
+<p><strong>Summary:</strong> An overview of what the TriNetX COVID-19 research platform is and how it works</p>
+<p><strong>Keywords:</strong> ##zettel #covid19 ##pandemic #health #dataset #EMR #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>ICD10 Codes for COVID19 from TriNetX</li><li>LOINC COVID19 Codes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The TriNetX COVID-19 Research Network Platform is a network of EMR data from 42 health care organizations designed to facilitate research related to COVID-19. &#91;1&#93;, &#91;2&#93;</p>
+<p>TriNetX provides access to de-identified aggregate EMR data including information such as &#91;1&#93;, &#91;2&#93;:</p>
+<ul>
+<li><p>Demographics</p>
+</li>
+<li><p>Diagnoses</p>
+</li>
+<li><p>Procedures</p>
+</li>
+<li><p>Medications</p>
+</li>
+<li><p>Laboratory values</p>
+</li>
+<li><p>Genomics</p>
+</li>
+</ul>
+<h3 id="icd10_codes_for_covid19_from_trinetx">ICD10 Codes for COVID19 from TriNetX</h3>
+<ul>
+<li><p>B34.2</p>
+</li>
+<li><p>B97.29</p>
+</li>
+<li><p>J12.81</p>
+</li>
+<li><p>U07.1</p>
+</li>
+<li><p>U07.2</p>
+</li>
+</ul>
+<h3 id="loinc_covid19_codes">LOINC COVID19 Codes</h3>
+<ul>
+<li><p>94500-6</p>
+</li>
+<li><p>94315-9</p>
+</li>
+<li><p>94309-2</p>
+</li>
+<li><p>94533-7</p>
+</li>
+<li><p>94534-5</p>
+</li>
+<li><p>94559-2</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; J. Stacey and M. Mehta, “Using EHR data extraction to streamline the clinical trial process,” Clin. Res., vol. 4, pp. 2–7, 2017.</p>
+<p>&#91;2&#93; M. Stapff, “Use of electronic health data in clinical development,” Pharm. Ind, vol. 79, no. 2, pp. 204–210, 2017.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
   

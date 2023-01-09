@@ -30,6 +30,77 @@
   <description>
     <![CDATA[  An overview of the RDF and how it works  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Overview of the Resource Description Framework &#40;RDF&#41;</h1>
+<p><strong>Date:</strong> February 18 2022</p>
+<p><strong>Summary:</strong> An overview of the RDF and how it works</p>
+<p><strong>Keywords:</strong> #rdf #overview #triplet #graph #framework #archive</p>
+<h1>Bibliography</h1>
+<p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What Are RDF Triplets?</li><li>What Are Examples of RDF Triplets?</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The Resource Description Framework &#40;RDF&#41; is a family of specifications created by the World Wide Web Consortium &#40;W3C&#41; and formally adopted by W3C in 1999. Data mapped into the RDF form into triplets called <em>RDF statements</em> &#40;also known as Semantic Triplets&#41;.</p>
+<h3 id="what_are_rdf_triplets">What Are RDF Triplets?</h3>
+<p>These triplets, or statements, are comprised of three components called the <em>subject</em>, the <em>predicate</em>, and the <em>object</em>. In summary, these components are described as:</p>
+<ul>
+<li><p><strong>Subject</strong> - this denotes a resource where anything can be a resource.</p>
+</li>
+</ul>
+<p>It is synonymous with the idea of an entity in other data models.</p>
+<ul>
+<li><p><strong>Predicate</strong> - traits or aspects of a defined resource and expresses the relationship between a <strong>Subject</strong> or a given <strong>Object</strong>.</p>
+</li>
+<li><p><strong>Object</strong> - the target of the predicate and is similar to a resource in that anything can be an <strong>Object</strong>.</p>
+</li>
+</ul>
+<p>What the RDF statement compactly communicates is that there holds some relationship, indicated by the predicate, between the <strong>Subject</strong> and <strong>Object</strong>.</p>
+<h3 id="what_are_examples_of_rdf_triplets">What Are Examples of RDF Triplets?</h3>
+<p>Example RDF statements are:</p>
+<blockquote>
+<ul>
+<li><p>The sky is colored blue.</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>Grass is colored green.</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>The ocean is colored blue.</p>
+</li>
+</ul>
+</blockquote>
+<p>Taking the statement &quot;The sky is colored blue.&quot; the <strong>Subject</strong> is the phrase &quot;sky&quot;, the <strong>Predicate</strong> is the verb phrase &quot;is colored&quot;, and the <strong>Object</strong> is the final phrase, &quot;blue&quot;. Moving forward from this example, it may be useful to think of the RDF statement as a labeled directed multigraph where components of the statement are typically broken down and stored in Relational Database Management Systems or native RDF file storage formats. Here is a way of visualizing the triplet for the given statements above:</p>
+<pre><code class="language-mermaid">graph LRsky --is colored--&gt; blue
+ocean --is colored--&gt; blue
+grass --is colored--&gt; green</code></pre>
+<p>The RDF triples &quot;The sky is colored blue.&quot;, &quot;Grass is colored green.&quot;, and &quot;The ocean is colored blue&quot; can all be represented as a Directed Multigraph \(G\). The nodes \(sky\), \(ocean\), and \(grass\) are <strong>Subjects</strong>, the nodes \(blue\) and \(green\) are <strong>Objects</strong>, and the edge \(is colored\) is the <strong>Predicate</strong> in these RDF triple.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
   

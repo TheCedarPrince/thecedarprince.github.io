@@ -30,6 +30,120 @@
   <description>
     <![CDATA[  A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once&#33;  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Asynchronous Workflow Using Julia Tutorial</h1>
+<p><strong>Date:</strong> January 7 2023</p>
+<p><strong>Summary:</strong> A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once&#33;</p>
+<p><strong>Keywords:</strong> #blog #archive #julia #programming #literate #workflow #asynchronous #weave #browser #sync #node</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Set-Up</li><li>Simple Workflow Process<ol><li>Blocking Workflow</li><li>Asynchronous Workflow</li></ol></li><li>Asynchronous Workflow for Literate Programming</li><li>Conclusion</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="https://jacobzelko.com/https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="https://jacobzelko.com/https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
+<h3 id="set-up">Set-Up</h3>
+<p>Here is how I recommend setting up your Julia environment to follow this tutorial &#40;I assume you have Julia installed correctly&#41;:</p>
+<ol>
+<li><p>Create an empty directory &#40;folder&#41; somewhere on your computer. &#40;NOTE: For sake of this tutorial, I will refer to it as the &quot;test&quot; folder&#41;.</p>
+</li>
+<li><p>Within your favorite text editor &#40;like Notepad, Vim, VSCode, etc.&#41;, open this directory.</p>
+</li>
+<li><p>Open and create a file called &quot;tmp.jmd&quot; &#40;NOTE: Keep the file and your editor open as we will be coming back to this file quite a lot&#41;.</p>
+</li>
+<li><p>Open your Julia REPL within the directory and activate a temporary environment within package mode:</p>
+</li>
+</ol>
+<pre><code class="language-julia-repl">pkg&gt; activate --temp</code></pre>
+<ol start="5">
+<li><p>Add into this temporary environment the following packages:</p>
+</li>
+</ol>
+<pre><code class="language-julia-repl">pkg&gt; add FileWatching, Weave</code></pre>
+<ol start="6">
+<li><p>Install node onto your machine.</p>
+</li>
+</ol>
+<p>I suggest using the great tool, <a href="https://jacobzelko.com/https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
+<ol start="7">
+<li><p>Install the node package, <a href="https://jacobzelko.com/https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
+</li>
+</ol>
+<p>Here is the command you can use in your command line: </p>
+<pre><code class="language-sh">npm i -g browser-sync</code></pre>
+<blockquote>
+<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the <a href="https://jacobzelko.com/#asynchronous-workflow-for-literate-programming">section on literate programming</a></p>
+</blockquote>
+<h3 id="simple_workflow_process">Simple Workflow Process</h3>
+<p>There are two ways to start this workflow.  One blocking &#40;i.e. you cannot use the Julia REPL while working&#41; and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:</p>
+<p><img src="../assets/01082023043553-watching-example.gif" alt="" /></p>
+<h4 id="blocking_workflow">Blocking Workflow</h4>
+<p>This creates a synchronous task in your Julia REPL that can then run whatever command you want while you monitor a specific file &#40;or folder&#41;. In this case, I am making the task print a statement that says “Change Detected&#33;” to my REPL whenever there is a change in the file called “tmp.jmd”.</p>
+<pre><code class="language-julia">using FileWatchingwhile true 
+    watch_file&#40;&quot;./tmp.jmd&quot;&#41;
+    println&#40;&quot;Change Detected&#33;&quot;&#41;
+end</code></pre>
+<p>This workflow is not optimal as this loop continues and locks your REPL from doing anything else. </p>
+<h4 id="asynchronous_workflow">Asynchronous Workflow</h4>
+<p>This creates an asynchronous task in the background of your Julia REPL that can then run whatever command you want while you monitor a specific file &#40;or folder&#41;. In this case, I am making the task print a statement that says “Change Detected&#33;” to my REPL whenever there is a change in the file called “tmp.jmd”.</p>
+<pre><code class="language-julia">using FileWatching@async while true 
+    watch_file&#40;&quot;./tmp.jmd&quot;&#41;
+    println&#40;&quot;Change Detected&#33;&quot;&#41;
+end</code></pre>
+<p>From here, you could then still interact with this REPL while this task is running in the background. Furthermore, you can change the line that says <code>println&#40;&quot;Change Detected&#33;&quot;&#41;</code> to whatever command &#40;or commands&#41; you want to trigger.</p>
+<h3 id="asynchronous_workflow_for_literate_programming">Asynchronous Workflow for Literate Programming</h3>
+<p>This workflow allows one to work with a Julia Markdown document with <code>Weave.jl</code> to preview your work in real time.  There a few steps to start the workflow but here is how it looks when in operation:</p>
+<p><img src="../assets/01082023043553-weave-example.gif" alt="" /></p>
+<p>First, execute the following snippet in your Julia REPL to start the asynchronous process to watch for changes and tell Julia to weave the file we will modify:</p>
+<pre><code class="language-julia">using FileWatching
+using Weave@async while true 
+    watch_file&#40;&quot;./tmp.jmd&quot;&#41;
+    weave&#40;&quot;./tmp.jmd&quot;&#41;
+end</code></pre>
+<p>Next, run this in a separate terminal:</p>
+<pre><code class="language-sh">browser-sync start --server --start --file &quot;./*.html&quot;</code></pre>
+<p>or this command within your Julia REPL &#40;NOTE: This will make your REPL session very cluttered but you can still use your REPL&#41;:</p>
+<pre><code class="language-julia">@async run&#40;&#96;browser-sync start --server --start --file &quot;./*.html&quot;&#96;&#41;</code></pre>
+<p>At this point, you should see <code>browser-sync</code> spit out a lot of information that looks something like this:</p>
+<pre><code class="language-sh">&#91;Browsersync&#93; Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.1.186:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ --------------------------------------
+&#91;Browsersync&#93; Serving files from: ./</code></pre>
+<p>You&#39;ll want to grab that URL that looks like <code>http://localhost:3000</code> in the <code>Local</code> spot and then open that in your web browser.  With the URL that you get &#40;it could be on a different port&#41;, navigate to <code>http://localhost:3000/tmp.html</code>.</p>
+<p>Finally, when you have this all in place, go ahead and add this code block into the <code>tmp.jmd</code> file that was created:</p>
+<pre><code class="language-markdown"># Hello World This is a Julia Markdown file. &#96;&#96;&#96;julia 
+2 &#43; 2
+&#96;&#96;&#96;</code></pre>
+<p>You should see a few things happen.  You&#39;ll see a few messages from the Julia REPL stating that <code>Weave.jl</code> is weaving your document to your desired output. Then, you&#39;ll see <code>browser-sync</code> say something about updating or syncing.  Finally, you will see your browser update to the latest version of your weaved document. </p>
+<p>Feel free to play around with this more and see the dynamism of the workflow&#33; I tend to do this when I am iteratively developing reports within Julia and want to tinker within the REPL at the same time I am creating documents. Having to wait for rendering <code>Weave.jl</code> documents and the like was a pain and this took the pain away.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>I hope you appreciated this post&#33; If you have any suggestions, comments, or additional workflows this could be used for, please comment below.  May your Julia sessions now be even more supercharged&#33;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>  
   
@@ -49,6 +163,121 @@
   <description>
     <![CDATA[  My notes on learning the Lua programming language  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>A Beginner&#39;s to Master&#39;s Guide in Learning Lua</h1>
+<p><strong>Date:</strong> October 1 2022</p>
+<p><strong>Summary:</strong> My notes on learning the Lua programming language</p>
+<p><strong>Keywords:</strong> #archive #lua #quick #start #programming</p>
+<h1>Bibliography</h1>
+<p>https://github.com/medwatt/Notes/blob/main/Lua/Lua<em>Quick</em>Guide.ipynb</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Comments</li><li>Variable Scope<ol><li>Global Scope</li><li>Local Scope</li></ol></li><li>Variable Assignments</li><li>Variable Types</li><li>Math Operators</li><li>Relational Operators</li><li>Logical Operators</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I wanted to learn Lua for no other reason than to program my own workflow in neovim. Also, Lua is cool and Just-in-Time compiled like Julia&#33; Plus, it is used for game development so if ever this research thing doesn&#39;t work out, backup plan: become a game developer.</p>
+<h3 id="comments">Comments</h3>
+<p>How to write comments within Lua&#33;</p>
+<pre><code class="language-lua">-- This is my comment&#33; --&#91;&#91; 
+	This
+	is 
+	a 
+	multiline 
+	comment&#33; 
+--&#93;&#93;</code></pre>
+<h3 id="variable_scope">Variable Scope</h3>
+<h4 id="global_scope">Global Scope</h4>
+<p>All variables within lua are considered global by default. Moreover, each call or line within a lua script is run as a chunk.</p>
+<pre><code class="language-lua">Var &#61; 10
+print&#40; &quot;Global var:&quot;, Var &#41;</code></pre>
+<h4 id="local_scope">Local Scope</h4>
+<p>To define a large chunk where variables are local in scope, one can create a local scope using a do-end block </p>
+<pre><code class="language-lua">do
+	local Var &#61; 20
+	print&#40; &quot;Local Var:&quot;, Var &#41;
+end</code></pre>
+<h3 id="variable_assignments">Variable Assignments</h3>
+<pre><code class="language-lua">A &#61; A &#43; 1 -- This works 
+A &#43;&#61; 1 -- This does not work B &#61; 0 -- This works
+C &#61; 0 -- This works
+B, C &#61; 0, 0 -- This works
+B &#61; C &#61; 0 -- This does not work</code></pre>
+<h3 id="variable_types">Variable Types</h3>
+<p>There are eight basic types within Lua: </p>
+<ul>
+<li><p><code>nil</code> - represents absence of data</p>
+</li>
+<li><p><code>boolean</code></p>
+</li>
+<li><p><code>number</code> - <code>integer</code> and <code>float</code> both exist as alternative subtypes of <code>number</code></p>
+</li>
+<li><p><code>string</code></p>
+</li>
+<li><p><code>userdata</code></p>
+</li>
+<li><p><code>function</code></p>
+</li>
+<li><p><code>thread</code></p>
+</li>
+<li><p><code>table</code></p>
+</li>
+</ul>
+<pre><code class="language-lua">print&#40; type&#40;&quot;Hello&quot;&#41; &#41; -- string 
+print&#40; type&#40;10.4 * 3&#41; &#41; -- number 
+print&#40; type&#40;&#123;1, 2, 3&#125;&#41; &#41; -- table
+print&#40; type&#40;print&#41; &#41; -- function 
+print&#40; type&#40;true&#41; &#41; -- boolean 
+print&#40; type&#40;nil&#41; &#41; -- nil</code></pre>
+<blockquote>
+<p>NOTE: Arithmetic operations applied to an object of type <code>string</code> will not fail but instead Lua will attempt to convert that object to a <code>number</code> type.  Vice-versa to this is that if a object of type <code>number</code> is used in a <code>string</code> operation, Lua will attempt to convert that object to a <code>string</code>.</p>
+</blockquote>
+<h3 id="math_operators">Math Operators</h3>
+<pre><code class="language-lua">A &#61; 100
+B &#61; 2 print&#40; A &#43; B &#41; -- Addition
+print&#40; A - B &#41; -- Subtraction 
+print&#40; A * B &#41; -- Multiplication
+print&#40; A ^ B &#41; -- Exponents 
+print&#40; A / B &#41; -- Division
+print&#40; A // B &#41; -- Floor
+print&#40; A &#37; B &#41; -- Modulus
+print&#40; -A &#41; -- Negation</code></pre>
+<h3 id="relational_operators">Relational Operators</h3>
+<pre><code class="language-lua">A &#61; 20
+B &#61; 4print&#40;A &#61;&#61; B&#41; -- false
+print&#40;A ~&#61; B&#41; -- true
+print&#40;A &gt; B&#41; -- true
+print&#40;A &lt; B&#41; -- false
+print&#40;A &gt;&#61; B&#41; -- true
+print&#40;A &lt;&#61; B&#41; -- false</code></pre>
+<h3 id="logical_operators">Logical Operators</h3>
+<pre><code class="language-lua">print&#40;true and 10&#41; -- evaluates to &#96;10&#96;
+print&#40;10 and true&#41; -- evaluates &#96;true&#96;
+print&#40;false and 10&#41; -- short circuits to &#96;false&#96;
+print&#40;false or 10&#41; -- evaluates to &#96;10&#96;
+print&#40;nil and 10&#41; -- evaluates to &#96;nil&#96;
+print&#40;nil or 10&#41; -- evaluates to &#96;10&#96;
+print&#40;false and nil&#41; -- evaluates to &#96;false&#96;
+print&#40;false and not&#40;nil&#41;&#41; -- evaluates to &#96;false&#96;</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>  
   
@@ -68,6 +297,201 @@
   <description>
     <![CDATA[  An explanation of how to setup the Julia LSP for Neovim  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Setting Up Julia LSP for Neovim</h1>
+<p><strong>Date:</strong> August 31 2022</p>
+<p><strong>Summary:</strong> An explanation of how to setup the Julia LSP for Neovim</p>
+<p><strong>Keywords:</strong> ##summary #neovim #julia #programming #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>General Guide</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="general_guide">General Guide</h3>
+<p>This is from Fredrik Ekre at the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
+<p>LanguageServer is somewhat slow to start so it is very useful to use a custom sysimage using PackageCompiler to reduce this time. On my machine I get the first response after 20&#43; seconds, but with a custom sysimage I can execute LS commands instantaneously.</p>
+<p>Here is my setup:</p>
+<ol>
+<li><p>Install <code>Mason.nvim</code> or <code>nvim-lspconfig</code> and install <code>julials</code> &#40;it may also be called something like Julia Language Server Protocol&#41;.</p>
+</li>
+<li><p>Modify <code>init.vim</code> or <code>init.lua</code> to use a custom Julia executable &#40;if it exists&#41;:</p>
+</li>
+</ol>
+<pre><code class="language-lua">require&#39;lspconfig&#39;.julials.setup&#123;
+    on_new_config &#61; function&#40;new_config, _&#41;
+        local julia &#61; vim.fn.expand&#40;&quot;~/.julia/environments/nvim-lspconfig/bin/julia&quot;&#41;
+        if require&#39;lspconfig&#39;.util.path.is_file&#40;julia&#41; then
+	    vim.notify&#40;&quot;Hello&#33;&quot;&#41;
+            new_config.cmd&#91;1&#93; &#61; julia
+        end
+    end
+&#125;</code></pre>
+<p>&#40;OPTIONAL&#41; If you use Packer to manage your vim setup, run <code>PackerCompile</code>.</p>
+<p>NOTE: If you notice, there is a small line named <code>vim.notify&#40;&quot;Hello&#33;&quot;&#41;</code>. This is to test that <code>julials</code> is engaged when accessing a Julia file - you can check that it is engaged by writing <code>:messages</code> in vim. You should see &quot;Hello&#33;&quot; appear. This line can then safely be removed. </p>
+<ol start="3">
+<li><p>Create the <code>nvim-lspconfig</code> Julia environment by running the following in your shell:</p>
+</li>
+</ol>
+<pre><code class="language-sh">julia --project&#61;~/.julia/environments/nvim-lspconfig -e &#39;using Pkg; Pkg.add&#40;&quot;LanguageServer&quot;&#41;&#39;</code></pre>
+<p>And then navigate to the directory at <code>~.julia/environment/nvim-lspconfig</code>.</p>
+<ol start="3">
+<li><p>Copy the following makefile &#40;<a href="https://jacobzelko.com/https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
+</li>
+</ol>
+<pre><code class="language-make"># MIT License. Copyright &#40;c&#41; 2021 Fredrik Ekre
+#
+# This Makefile can be used to build a custom Julia system image for LanguageServer.jl to
+# use with neovims built in LSP support. An up-to date version of this Makefile can be found
+# at https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile
+#
+# Usage instructions:
+#
+#   1. Update the neovim configuration to use a custom julia executable. If you use
+#      nvim-lspconfig &#40;recommended&#41; you can modify the setup call to the following:
+#
+#          require&#40;&quot;lspconfig&quot;&#41;.julials.setup&#40;&#123;
+#              on_new_config &#61; function&#40;new_config, _&#41;
+#                  local julia &#61; vim.fn.expand&#40;&quot;~/.julia/environments/nvim-lspconfig/bin/julia&quot;&#41;
+#                  if require&#40;&quot;lspconfig&quot;&#41;.util.path.is_file&#40;julia&#41; then
+#                      new_config.cmd&#91;1&#93; &#61; julia
+#                  end
+#              end,
+#              -- ...
+#          &#125;&#41;
+#
+#   2. Place this Makefile in ~/.julia/environments/nvim-lspconfig &#40;create the directory if
+#      it doesn&#39;t already exist&#41;.
+#
+#   3. Change directory to ~/.julia/environments/nvim-lspconfig and run &#96;make&#96;. This will
+#      start up neovim in a custom project with a julia process that recods compiler
+#      statements. Follow the instructions in the opened source file, and then exit neovim.
+#
+#   4. Upon exiting neovim PackageCompiler.jl will compile a custom system image which will
+#      automatically be used whenever you work on Julia projects in neovim.
+#
+# Update instructions:
+#
+#  To update the system image &#40;e.g. when upgrading Julia or upgrading LanguageServer.jl or
+#  it&#39;s dependencies&#41; run the following commands from the
+#  ~/.julia/environments/nvim-lspconfig directory:
+#
+#      julia --project&#61;. -e &#39;using Pkg; Pkg.update&#40;&#41;&#39;
+#      makeJULIA&#61;&#36;&#40;shell which julia&#41;
+JULIA_PROJECT&#61;
+SRCDIR:&#61;&#36;&#40;shell dirname &#36;&#40;abspath &#36;&#40;firstword &#36;&#40;MAKEFILE_LIST&#41;&#41;&#41;&#41;
+ifeq &#40;&#36;&#40;shell uname -s&#41;,Linux&#41;
+	SYSIMAGE&#61;languageserver.so
+else
+	SYSIMAGE&#61;languageserver.dylib
+endifdefault: &#36;&#40;SYSIMAGE&#41;&#36;&#40;SYSIMAGE&#41;: Manifest.toml packagecompiler/Manifest.toml packagecompiler/precompile_statements.jl
+	JULIA_LOAD_PATH&#61;&#36;&#123;PWD&#125;:&#36;&#123;PWD&#125;/packagecompiler:@stdlib &#36;&#123;JULIA&#125; -e &#39;using PackageCompiler; PackageCompiler.create_sysimage&#40;:LanguageServer, sysimage_path&#61;&quot;&#36;&#40;SYSIMAGE&#41;&quot;, precompile_statements_file&#61;&quot;packagecompiler/precompile_statements.jl&quot;&#41;&#39;Manifest.toml: Project.toml
+	JULIA_LOAD_PATH&#61;&#36;&#123;PWD&#125;/Project.toml:@stdlib &#36;&#123;JULIA&#125; -e &#39;using Pkg; Pkg.instantiate&#40;&#41;&#39;Project.toml:
+	JULIA_LOAD_PATH&#61;&#36;&#123;PWD&#125;/Project.toml:@stdlib &#36;&#123;JULIA&#125; -e &#39;using Pkg; Pkg.add&#40;&quot;LanguageServer&quot;&#41;&#39;packagecompiler/Manifest.toml: packagecompiler/Project.toml
+	JULIA_LOAD_PATH&#61;&#36;&#123;PWD&#125;/packagecompiler/Project.toml:@stdlib &#36;&#123;JULIA&#125; -e &#39;using Pkg; Pkg.instantiate&#40;&#41;&#39;packagecompiler/Project.toml:
+	mkdir -p packagecompiler
+	JULIA_LOAD_PATH&#61;&#36;&#123;PWD&#125;/packagecompiler/Project.toml:@stdlib &#36;&#123;JULIA&#125; -e &#39;using Pkg; Pkg.add&#40;&quot;PackageCompiler&quot;&#41;&#39;packagecompiler/precompile_statements.jl: Manifest.toml bin/julia
+	TMPDIR&#61;&#36;&#40;shell mktemp -d&#41; &amp;&amp; \
+	cd &#36;&#36;&#123;TMPDIR&#125; &amp;&amp; \
+	JULIA_LOAD_PATH&#61;: &#36;&#123;JULIA&#125; -e &#39;using Pkg; Pkg.generate&#40;&quot;Example&quot;&#41;&#39; 2&gt; /dev/null &amp;&amp; \
+	cd Example &amp;&amp; \
+	JULIA_LOAD_PATH&#61;&#36;&#36;&#123;PWD&#125;:@stdlib &#36;&#123;JULIA&#125; -e &#39;using Pkg; Pkg.add&#40;&#91;&quot;JSON&quot;, &quot;fzf_jll&quot;, &quot;Random&quot;, &quot;Zlib_jll&quot;&#93;&#41;&#39; 2&gt; /dev/null &amp;&amp; \
+	JULIA_LOAD_PATH&#61;&#36;&#36;&#123;PWD&#125;:@stdlib &#36;&#123;JULIA&#125; -e &#39;using Pkg; Pkg.precompile&#40;&#41;&#39; 2&gt; /dev/null &amp;&amp; \
+	echo &quot;&#36;&#36;PACKAGE_CONTENT&quot; &gt; src/Example.jl &amp;&amp; \
+	JULIA_TRACE_COMPILE&#61;1 nvim src/Example.jl &amp;&amp; \ # NOTE: You may need to check that neovim is correctly on your path
+	rm -rf &#36;&#36;&#123;TMPDIR&#125;bin/julia:
+	mkdir -p bin
+	echo &quot;&#36;&#36;JULIA_SHIM&quot; &gt; &#36;@
+	chmod &#43;x &#36;@clean:
+	rm -rf &#36;&#40;SYSIMAGE&#41; packagecompiler bin.PHONY: clean defaultexport JULIA_SHIM
+define JULIA_SHIM
+#&#33;/bin/bash
+JULIA&#61;&#36;&#123;JULIA&#125;
+if &#91;&#91; &#36;&#36;&#123;JULIA_TRACE_COMPILE&#125; &#61; &quot;1&quot; &#93;&#93;; then
+    exec &#36;&#36;&#123;JULIA&#125; --trace-compile&#61;&#36;&#123;PWD&#125;/packagecompiler/precompile_statements.jl &quot;&#36;&#36;@&quot;
+elif &#91;&#91; -f &#36;&#123;PWD&#125;/&#36;&#40;SYSIMAGE&#41; &#93;&#93;; then
+    exec &#36;&#36;&#123;JULIA&#125; --sysimage&#61;&#36;&#123;PWD&#125;/&#36;&#40;SYSIMAGE&#41; &quot;&#36;&#36;@&quot;
+else
+    exec &#36;&#36;&#123;JULIA&#125; &quot;&#36;&#36;@&quot;
+fi
+endefexport PACKAGE_CONTENT
+define PACKAGE_CONTENT
+# This file is opened in neovim with a LanguageServer.jl process that records Julia
+# compilation statements for creating a custom sysimage.
+#
+# This file has a bunch of linter errors which will exercise the linter and record
+# statements for that. When the diagnostic messages corresponding to those errors show up in
+# the buffer the language server should be ready to accept other commands &#40;note: this may
+# take a while -- be patient&#41;. Here are some suggestions for various LSP functionality that
+# can be exercised &#40;your regular keybindings should work&#41;:
+#
+#  - :lua vim.lsp.buf.hover&#40;&#41;
+#  - :lua vim.lsp.buf.definition&#40;&#41;
+#  - :lua vim.lsp.buf.references&#40;&#41;
+#  - :lua vim.lsp.buf.rename&#40;&#41;
+#  - :lua vim.lsp.buf.formatting&#40;&#41;
+#  - :lua vim.lsp.buf.formatting_sync&#40;&#41;
+#  - :lua vim.lsp.buf.code_action&#40;&#41;
+#  - Tab completion &#40;if you have set this up using LSP&#41;
+#  - ...
+#
+# When you are finished, simply exit neovim and PackageCompiler.jl will use all the recorded
+# statements to create a custom sysimage. This sysimage will be used for the language server
+# process in the future, and should result in almost instant response.module Exampleimport JSON
+import fzf_jll
+using Random
+using Zlib_jllfunction hello&#40;who, notused&#41;
+    println&#40;&quot;hello&quot;, who&#41;
+    shuffle&#40;&#91;1, 2, 3&#93;&#41;
+   shoffle&#40;&#91;1, 2, 3&#93;&#41;
+    fzzf &#61; fzf_jll.fzzf&#40;&#41;
+    fzf &#61; fzf_jll.fzf&#40;1&#41;
+    JSON.print&#40;stdout, Dict&#40;&quot;hello&quot; &#61;&gt; &#91;1, 2, 3&#93;&#41;, 2, 123&#41;
+    JSON.print&#40;stdout, Dict&#40;&quot;hello&quot; &#61;&gt; &#91;1, 2, 3&#93;&#41;&#41;
+    hi&#40;who&#41;
+    return Zlib_jll.libz
+endfunction world&#40;s&#41;
+    if s &#61;&#61; nothing
+      hello&#40;s&#41;
+  else
+      hello&#40;s&#41;
+  end
+    x &#61; &#91;1, 2, 3&#93;
+    for i in 1:length&#40;x&#41;
+        println&#40;x&#91;i&#93;&#41;
+    end
+endend # module
+endef</code></pre>
+<ol start="4">
+<li><p>Run <code>make</code>. This will set up a dummy project and launch nvim with julia recording everything that is compiled. Wait until the LanguageServer responds &#40;there are a bunch of things in this dummy project that will result in warnings&#41; and then run some LanguageServer commands, for example <code>::lua vim.lsp.buf.hover&#40;&#41;</code> to fetch documentation&#41;.</p>
+</li>
+<li><p>Quit vim.</p>
+</li>
+<li><p>PackageCompiler will now build a custom <code>languageserver.so</code> sysimage.</p>
+</li>
+<li><p>Enjoy the Julia LSP&#33;</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>  
   
@@ -87,6 +511,41 @@
   <description>
     <![CDATA[  An attempted overview on what is meant by pure functions  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Pure Functions in Programming</h1>
+<p><strong>Date:</strong> November 8 2021</p>
+<p><strong>Summary:</strong> An attempted overview on what is meant by pure functions</p>
+<p><strong>Keywords:</strong> #pure #functions #functional #programming  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The definition of pure is somewhat of a moving target. Pure can mean many things and when applied to programming functions - even more so. Based on querying the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/can-programming-in-julia-be-pure/71165">Julia community</a>, here was what I understood pure functions to be.</p>
+<p>Based on Milewski&#39;s definition, &quot;A pure function is one in which the same result is always produced with no side effects given the same input.&quot; &#91;1&#93; <a href="https://jacobzelko.com/https://github.com/CameronBieganek">Cameron Bieganek</a> explained how, in Julia specifically, you can write functions that are &quot;probably&quot; pure. However, there is no real guarantee that a function is actually pure, because it depends on the various methods that have been implemented. I like the notion of &quot;probably&quot; pure as it encapsulates a more pragmatic approach to the internals of a given language. It lets one get away without having to necessarily be completely aware of all the internals when discussing purity.</p>
+<p>Finally, pure functions are different from mathematical functions for the reason that mathematical functions map a value to another value. Pure functions written in a programming language involve more than just a mapping. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; B. Milewski, Category Theory for Programmers, Version v1.3.0-0-g6bb0bc0. 2019.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>  
   
@@ -106,6 +565,108 @@
   <description>
     <![CDATA[  My notes on an overview and summary on how to use Haskell  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Notes on Programming in Haskell</h1>
+<p><strong>Date:</strong> November 3 2021</p>
+<p><strong>Summary:</strong> My notes on an overview and summary on how to use Haskell</p>
+<p><strong>Keywords:</strong> #syntax ##summary #haskell #programming #languages #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="packages">Packages</h3>
+<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library.md">Prelude</a> - Haskell&#39;s Standard Library</p>
+<h3 id="functions">Functions</h3>
+<p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions.md">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
+<h4 id="ar">Ar</h4>
+<h3 id="haskell_type_system">Haskell Type System</h3>
+<p>Except only in very seldom cases, type annotations are optional in Haskell.</p>
+<h4 id="bool"><code>Bool</code></h4>
+<p>A two element set of <code>True</code> and <code>False</code>.</p>
+<h4 id="char"><code>Char</code></h4>
+<p>A set of all Unicode characters.</p>
+<h4 id="string"><code>String</code></h4>
+<p>A synonym for an infinite list of <code>Char</code>&#39;s.</p>
+<h4 id="8979721170172830534"><code>&#40;&#41;</code></h4>
+<p>A dummy value where there is only one instance of it ever. It is pronounced unit.</p>
+<pre><code class="language-haskell">-- Unit typing example-- Function declaration
+f44 :: &#40;&#41; -&gt; Integer-- Function definition
+f44 &#40;&#41; &#61; 44-- Function invocation
+f44 &#40;&#41; -- Returns the value 44</code></pre>
+<h4 id="type_coercion">Type Coercion</h4>
+<p>Haskell provides <code>unsafeCoerce</code> to bypass the type system.</p>
+<h3 id="syntax">Syntax</h3>
+<h4 id="types">Types</h4>
+<p>All concrete types start with a capital letter. Names of type variables start with a lowercase letter.</p>
+<h4 id="functions__2">Functions</h4>
+<p>A function type is created by putting an arrow between two types.</p>
+<pre><code class="language-haskell">f :: foo -&gt; bar</code></pre>
+<p>A function definition uses the name of the function and formal parameters. The body of a function follows an equals sign. Furthermore, the body of a function is always an expression.</p>
+<p>One of the strangest quirks about Haskell functions is that arguments are neither surrounded by parentheses nor separated by commas.</p>
+<h5 id="defining_function_in_ghci">Defining Function in <code>ghci</code></h5>
+<pre><code class="language-julia">-- Defining a function within ghci
+-- Requires the use of multiple lines as denoted
+-- by :&#123; ... :&#125; 
+« Prelude » λ: :&#123;
+Prelude| add :: Integer -&gt; Integer -&gt; Integer -- Function declaration
+Prelude| add x y &#61; x &#43; y -- Function definition
+Prelude| :&#125;« Prelude » λ: &#40;add 5 3&#41; -- Compute sum of two numbers
+8</code></pre>
+<h5 id="defining_function_in_a_script">Defining Function in a Script</h5>
+<pre><code class="language-haskell">-- Creating function declaration
+add :: Integer -&gt; Integer -&gt; Integer-- Creating function definition
+add x y &#61; x &#43; y-- Compute sum of two numbers
+add 5 3</code></pre>
+<h5 id="variable_wildcards">Variable Wildcards</h5>
+<p>Arguments can be discarded with a wildcard by the following notation:</p>
+<pre><code class="language-haskell">fInt :: Integer -&gt; &#40;&#41;
+fInt _ &#61; &#40;&#41;</code></pre>
+<h4 id="function_composition">Function Composition</h4>
+<p>Functions can be composed by putting a period between them &#40;or a Unicode circle, &quot;◦&quot;&#41;:</p>
+<pre><code class="language-haskell">-- Define two functions:
+f1 :: A -&gt; B
+f2 :: B -&gt; C-- Compose them together:
+f1 . f2-- Or use alternative composition syntax:
+f1 ◦ f2</code></pre>
+<h4 id="double_colons">Double colons</h4>
+<p>In Haskell, a double colon means, &quot;has type of...&quot;</p>
+<pre><code class="language-haskell">f :: foo -&gt; bar</code></pre>
+<h4 id="infix_operators">Infix Operators</h4>
+<p>Any infix operator can be turned into a two-argument function by surrounding them with parentheses:</p>
+<pre><code class="language-haskell">&quot;Hello &quot; &#43;&#43; &quot;world&#33;&quot;</code></pre>
+<p>Can be rewritten as:</p>
+<pre><code class="language-haskell">&#40;&#43;&#43;&#41; &quot;Hello &quot; &quot;world&#33;&quot;</code></pre>
+<h3 id="equality">Equality</h3>
+<h4 id="functional_equality">Functional Equality</h4>
+<p>Haskell enables you to express equality of functions:</p>
+<pre><code class="language-haskell">mappend &#61; &#40;&#43;&#43;&#41;</code></pre>
+<p>This is also known as point-free equality as the arguments to these functions are not defined.</p>
+<h4 id="extensional_equality">Extensional Equality</h4>
+<p>Haskell defines extensional equality loosely where</p>
+<pre><code class="language-haskell">mappend s1 s2 &#61; &#40;&#43;&#43;&#41; s1 s2</code></pre>
+<p>is saying that the output of the function of the left is equivalent to the output of the function on the right. This is also known as point-wise equality as the arguments &#40;points&#41; are defined.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
   
@@ -125,6 +686,47 @@
   <description>
     <![CDATA[  An overview on what functional programming is and the  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Functional Programming</h1>
+<p><strong>Date:</strong> November 3 2021</p>
+<p><strong>Summary:</strong> An overview on what functional programming is and the</p>
+<p><strong>Keywords:</strong> #functional #programming #paradigm #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Paradigm</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="paradigm">Paradigm</h3>
+<p>The approach of asking programming questions that functional programmers take is much more overarching. &#91;1&#93; Examples are:</p>
+<ol>
+<li><p>When designing an interactive program, they would ask: What is interaction?</p>
+</li>
+<li><p>When implementing Conway&#39;s Game of Life, they would ruminate on the meaning of life.</p>
+</li>
+</ol>
+<p>To a functional programmer, the essence of programming, per Milewski, is to take big problems and decompose them into smaller problems. Then create small solutions that can then be composed together to solve the big problem. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; B. Milewski, Category Theory for Programmers, Version v1.3.0-0-g6bb0bc0. 2019.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
   
@@ -144,6 +746,43 @@
   <description>
     <![CDATA[  An overview of important components from Haskell&#39;s standard  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Prelude - Haskell&#39;s Standard Library</h1>
+<p><strong>Date:</strong> November 3 2021</p>
+<p><strong>Summary:</strong> An overview of important components from Haskell&#39;s standard</p>
+<p><strong>Keywords:</strong> #library #package #standard #prelude #haskell #programming #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="identity_function">Identity Function</h3>
+<p><code>id</code> returns the argument it is given:</p>
+<pre><code class="language-haskell">-- Using Prelude to declare the identity function
+-- &#96;a&#96; is a type variable and stands in for all types
+id :: a -&gt; a-- Definition of the function
+id x &#61; x</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
   
@@ -163,6 +802,41 @@
   <description>
     <![CDATA[  Tips and tricks on how to manipulate files in R  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Manipulating Files in R</h1>
+<p><strong>Date:</strong> February 8 2021</p>
+<p><strong>Summary:</strong> Tips and tricks on how to manipulate files in R</p>
+<p><strong>Keywords:</strong> #zettel #r #programming #tips #tricks #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Loading Files</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="loading_files">Loading Files</h3>
+<p>To load in files via the R REPL, do:</p>
+<pre><code class="language-r">source&#40;&quot;name_of_file.R&quot;&#41;</code></pre>
+<p>This updates the state of the session and brings into the current session any variables defined within the file.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
   
@@ -182,6 +856,50 @@
   <description>
     <![CDATA[  Useful state of the art package for reproducing R projects  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>renv - Reproducible Environments in R</h1>
+<p><strong>Date:</strong> February 8 2021</p>
+<p><strong>Summary:</strong> Useful state of the art package for reproducing R projects</p>
+<p><strong>Keywords:</strong> #zettel #r #programming #package #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>General Workflow When Working with <code>renv</code></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="general_workflow_when_working_with_renv">General Workflow When Working with <code>renv</code></h3>
+<ol>
+<li><p>Call <code>renv::init&#40;&#41;</code> to initialize a new project-local environment with a private R library,</p>
+</li>
+<li><p>Work in the project as normal, installing and removing new R packages as they are needed in the project,</p>
+</li>
+<li><p>Call <code>renv::snapshot&#40;&#41;</code> to save the state of the project library to the lockfile &#40;called <code>renv.lock</code>&#41;,</p>
+</li>
+<li><p>Continue working on your project, installing and updating R packages as needed.</p>
+</li>
+<li><p>Call <code>renv::snapshot&#40;&#41;</code> again to save the state of your project library if your attempts to update R packages were successful, or call <code>renv::restore&#40;&#41;</code> to revert to the previous state as encoded in the lockfile if your attempts to update packages introduced some new problems.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
   
@@ -201,6 +919,47 @@
   <description>
     <![CDATA[  Tips and tricks I learn while writing R code  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Programming in R</h1>
+<p><strong>Date:</strong> February 8 2021</p>
+<p><strong>Summary:</strong> Tips and tricks I learn while writing R code</p>
+<p><strong>Keywords:</strong> #zettel #r #programming #statistics #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading and Loading Files</li><li>Packages</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_and_loading_files">Reading and Loading Files</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/02082021203741-R-file-manipulation.md">File manipulation</a></p>
+</li>
+</ul>
+<h3 id="packages">Packages</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/02082021205610-renv-package.md">renv</a> - Useful state of the art package for reproducing R projects.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
   
@@ -220,6 +979,47 @@
   <description>
     <![CDATA[  How Julia performs implicit returns  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Implicit Returns</h1>
+<p><strong>Date:</strong> May 19 2020</p>
+<p><strong>Summary:</strong> How Julia performs implicit returns</p>
+<p><strong>Keywords:</strong> ##zettel #julialang #programming #implicit #return #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<pre><code class="language-julia">function is_leap_year&#40;year&#41;
+    if &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;
+        return true
+    else
+        return false
+    end</code></pre>
+<p>is equivalent to the expression</p>
+<pre><code class="language-julia">julia&gt; is_leap_year&#40;year&#41; &#61; &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;julia&gt; is_leap_year&#40;1995&#41;
+false</code></pre>
+<p>This works because Julia performs implicit returns in their functions by returning the result of the function&#39;s last evaluated expression.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>  
   
@@ -239,6 +1039,43 @@
   <description>
     <![CDATA[  A thought on a global overlapping paradigm for developing useful and just-in-time software  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Global Programming Paradigm</h1>
+<p><strong>Date:</strong> April 18 2020</p>
+<p><strong>Summary:</strong> A thought on a global overlapping paradigm for developing useful and just-in-time software</p>
+<p><strong>Keywords:</strong> ##zettel #paradigms #models #writing #programming ##metascience #smart #blank #page #poet #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>I read a Q&amp;A article on Barbara Liskov &#91;1&#93; and the author made a very interesting comparison between Liskov&#39;s work of designing paradigms for creating well structured and crafted code with that of a Poet or Novelist. I have heard of comparisons like this before but I was quite intrigued by the latter – a programmer being compared to a writer. What piqued my interest the most about the article was the following statement,</p>
+<p>&quot;As a computer scientist thinking about code, Liskov had no physical objects to work with. Like a novelist or a poet, <em>she was staring at a blank page</em>.&quot; &#40;emphasis added&#41;</p>
+<p>The end of that statement, &quot;<em>blank page</em>&quot;, reminded me of the book <em>How to Take Smart Notes</em> &#91;2&#93; and my note on the book where Ahrens essentially believes that starting with a <a href="https://jacobzelko.com/03292020180520-smart-notes.md">blank page is the wrong idea in writing</a>. I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the <a href="https://jacobzelko.com/03092020031549-zettelkasten.md">Zettelkasten method</a> where, according to its <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">principles</a>, each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?</p>
+<p>Upon reflection upon this note some time later, I think I was thinking about the concept of composition and composition of software&#33;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” &#91;Online&#93;. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. &#91;Accessed: 18-Apr-2020&#93;.</p>
+<p>&#91;2&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>  
   

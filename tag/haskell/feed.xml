@@ -30,6 +30,108 @@
   <description>
     <![CDATA[  My notes on an overview and summary on how to use Haskell  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Notes on Programming in Haskell</h1>
+<p><strong>Date:</strong> November 3 2021</p>
+<p><strong>Summary:</strong> My notes on an overview and summary on how to use Haskell</p>
+<p><strong>Keywords:</strong> #syntax ##summary #haskell #programming #languages #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="packages">Packages</h3>
+<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library.md">Prelude</a> - Haskell&#39;s Standard Library</p>
+<h3 id="functions">Functions</h3>
+<p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions.md">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
+<h4 id="ar">Ar</h4>
+<h3 id="haskell_type_system">Haskell Type System</h3>
+<p>Except only in very seldom cases, type annotations are optional in Haskell.</p>
+<h4 id="bool"><code>Bool</code></h4>
+<p>A two element set of <code>True</code> and <code>False</code>.</p>
+<h4 id="char"><code>Char</code></h4>
+<p>A set of all Unicode characters.</p>
+<h4 id="string"><code>String</code></h4>
+<p>A synonym for an infinite list of <code>Char</code>&#39;s.</p>
+<h4 id="8979721170172830534"><code>&#40;&#41;</code></h4>
+<p>A dummy value where there is only one instance of it ever. It is pronounced unit.</p>
+<pre><code class="language-haskell">-- Unit typing example-- Function declaration
+f44 :: &#40;&#41; -&gt; Integer-- Function definition
+f44 &#40;&#41; &#61; 44-- Function invocation
+f44 &#40;&#41; -- Returns the value 44</code></pre>
+<h4 id="type_coercion">Type Coercion</h4>
+<p>Haskell provides <code>unsafeCoerce</code> to bypass the type system.</p>
+<h3 id="syntax">Syntax</h3>
+<h4 id="types">Types</h4>
+<p>All concrete types start with a capital letter. Names of type variables start with a lowercase letter.</p>
+<h4 id="functions__2">Functions</h4>
+<p>A function type is created by putting an arrow between two types.</p>
+<pre><code class="language-haskell">f :: foo -&gt; bar</code></pre>
+<p>A function definition uses the name of the function and formal parameters. The body of a function follows an equals sign. Furthermore, the body of a function is always an expression.</p>
+<p>One of the strangest quirks about Haskell functions is that arguments are neither surrounded by parentheses nor separated by commas.</p>
+<h5 id="defining_function_in_ghci">Defining Function in <code>ghci</code></h5>
+<pre><code class="language-julia">-- Defining a function within ghci
+-- Requires the use of multiple lines as denoted
+-- by :&#123; ... :&#125; 
+« Prelude » λ: :&#123;
+Prelude| add :: Integer -&gt; Integer -&gt; Integer -- Function declaration
+Prelude| add x y &#61; x &#43; y -- Function definition
+Prelude| :&#125;« Prelude » λ: &#40;add 5 3&#41; -- Compute sum of two numbers
+8</code></pre>
+<h5 id="defining_function_in_a_script">Defining Function in a Script</h5>
+<pre><code class="language-haskell">-- Creating function declaration
+add :: Integer -&gt; Integer -&gt; Integer-- Creating function definition
+add x y &#61; x &#43; y-- Compute sum of two numbers
+add 5 3</code></pre>
+<h5 id="variable_wildcards">Variable Wildcards</h5>
+<p>Arguments can be discarded with a wildcard by the following notation:</p>
+<pre><code class="language-haskell">fInt :: Integer -&gt; &#40;&#41;
+fInt _ &#61; &#40;&#41;</code></pre>
+<h4 id="function_composition">Function Composition</h4>
+<p>Functions can be composed by putting a period between them &#40;or a Unicode circle, &quot;◦&quot;&#41;:</p>
+<pre><code class="language-haskell">-- Define two functions:
+f1 :: A -&gt; B
+f2 :: B -&gt; C-- Compose them together:
+f1 . f2-- Or use alternative composition syntax:
+f1 ◦ f2</code></pre>
+<h4 id="double_colons">Double colons</h4>
+<p>In Haskell, a double colon means, &quot;has type of...&quot;</p>
+<pre><code class="language-haskell">f :: foo -&gt; bar</code></pre>
+<h4 id="infix_operators">Infix Operators</h4>
+<p>Any infix operator can be turned into a two-argument function by surrounding them with parentheses:</p>
+<pre><code class="language-haskell">&quot;Hello &quot; &#43;&#43; &quot;world&#33;&quot;</code></pre>
+<p>Can be rewritten as:</p>
+<pre><code class="language-haskell">&#40;&#43;&#43;&#41; &quot;Hello &quot; &quot;world&#33;&quot;</code></pre>
+<h3 id="equality">Equality</h3>
+<h4 id="functional_equality">Functional Equality</h4>
+<p>Haskell enables you to express equality of functions:</p>
+<pre><code class="language-haskell">mappend &#61; &#40;&#43;&#43;&#41;</code></pre>
+<p>This is also known as point-free equality as the arguments to these functions are not defined.</p>
+<h4 id="extensional_equality">Extensional Equality</h4>
+<p>Haskell defines extensional equality loosely where</p>
+<pre><code class="language-haskell">mappend s1 s2 &#61; &#40;&#43;&#43;&#41; s1 s2</code></pre>
+<p>is saying that the output of the function of the left is equivalent to the output of the function on the right. This is also known as point-wise equality as the arguments &#40;points&#41; are defined.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +151,43 @@
   <description>
     <![CDATA[  An overview of important components from Haskell&#39;s standard  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Prelude - Haskell&#39;s Standard Library</h1>
+<p><strong>Date:</strong> November 3 2021</p>
+<p><strong>Summary:</strong> An overview of important components from Haskell&#39;s standard</p>
+<p><strong>Keywords:</strong> #library #package #standard #prelude #haskell #programming #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="identity_function">Identity Function</h3>
+<p><code>id</code> returns the argument it is given:</p>
+<pre><code class="language-haskell">-- Using Prelude to declare the identity function
+-- &#96;a&#96; is a type variable and stands in for all types
+id :: a -&gt; a-- Definition of the function
+id x &#61; x</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
   

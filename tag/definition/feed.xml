@@ -30,6 +30,58 @@
   <description>
     <![CDATA[  A summary note focused on definitions concerning terrorism and  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Definitions Concerning Terrorism</h1>
+<p><strong>Date:</strong> August 28 2022</p>
+<p><strong>Summary:</strong> A summary note focused on definitions concerning terrorism and</p>
+<p><strong>Keywords:</strong> ##summary #definition #terrorism #radicalization #fear #violence #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What Is Terrorism?</li><li>Goals of Terrorism</li><li>What Is Violent Radicalization</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="what_is_terrorism">What Is Terrorism?</h3>
+<p>Terrorism is defined as the use of violence and intimidation in the pursuit of political aims. Terrorism is not an individual experience; it is violence at a population level and worthy of attention in fields focusing on socioecological understanding of social processes and human behavior <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a>. Often the threat of violence – is enough to accomplish an objective &#40;this holds true often for terrorist groups as well&#41;.</p>
+<h3 id="goals_of_terrorism">Goals of Terrorism</h3>
+<p>Instill a population level of:</p>
+<ul>
+<li><p>Fear</p>
+</li>
+<li><p>Uncertainty</p>
+</li>
+<li><p>Vulnerability</p>
+</li>
+</ul>
+<p>As well as:</p>
+<ul>
+<li><p>Undermine health and well-being of populations</p>
+</li>
+<li><p>Not preventing avoidable morbidity and mortality - Yehuda R, Hyman SE. The impact of terrorism on brain, and behavior: what we know and what we need to know. Neuropsychopharmacology. 2005;30:1773–1780.</p>
+</li>
+</ul>
+<h3 id="what_is_violent_radicalization">What Is Violent Radicalization</h3>
+<p>Violent radicalization the process of adopting or promoting an ideologically based violence to advance political, religious, or social change via an extremist belief system <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a>.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +101,38 @@
   <description>
     <![CDATA[  Explaining what bundles or groups are in the context of All-Payer Claims Databases  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Bundles or Groups?</h1>
+<p><strong>Date:</strong> August 5 2021</p>
+<p><strong>Summary:</strong> Explaining what bundles or groups are in the context of All-Payer Claims Databases</p>
+<p><strong>Keywords:</strong> #apcd #bundles #groups #groupers #definition #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Bundles are when you group together medical services to a single price. Often, these bundles proprietary to vendors. To patients, the advantage to this is knowing where costs break down and to find who is charging the least. - Megan Denham</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>  
   
@@ -68,6 +152,41 @@
   <description>
     <![CDATA[  One of the best definitions I have found for data fusion  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Definition of Data Fusion</h1>
+<p><strong>Date:</strong> April 22 2020</p>
+<p><strong>Summary:</strong> One of the best definitions I have found for data fusion</p>
+<p><strong>Keywords:</strong> ##zettel #data #fusion #definition #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Defined as the use of multiple technologies or location systems simultaneously to form hierarchical and overlapping levels of sensing, sensor fusion can provide aggregate properties unavailable when using location systems individually</p>
+<p>This definition of data fusion comes from <em>Hightower &amp; Borriello</em> &#91;1&#93; and I think it provides a very good explanation of what data fusion actually is. I decided to generalize it as their definition only concerns with location systems – here is my paraphrase:</p>
+<p>When one utilizes differing technologies to form tiers of improving sensor accuracy; this methodology can compensate for the loss or absence of signal from other sensors by providing multiple overlaps for the same defining properties of a system.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; J. Hightower and G. Borriello, “Location systems for ubiquitous computing,” Computer, vol. 34, no. 8, pp. 57–66, 2001.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +206,38 @@
   <description>
     <![CDATA[  A concise definition of what the GTD framework is.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>GTD Definition</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> A concise definition of what the GTD framework is.</p>
+<p><strong>Keywords:</strong> ##zettel #productivity #model #framework #definition #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>GTD, or <em>Getting Things Done</em>, is a productivity framework created by David Allen to free your mind from as much additional load as possible while maintaining projects, lists, and other items pertaining to day-to-day operations. </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   

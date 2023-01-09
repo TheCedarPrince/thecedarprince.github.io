@@ -30,6 +30,103 @@
   <description>
     <![CDATA[  Modeling computational actions as single step actions  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Random Access Machine &#40;RAM&#41; Model</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> Modeling computational actions as single step actions</p>
+<p><strong>Keywords:</strong> ##zettel #random #access #machine #model #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Properties of RAM<ol><li>Step Execution of Times</li><li>Data Types</li></ol></li><li>Algorithmic Analysis within the RAM Model</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p><strong>Random Access Machine &#40;RAM&#41; Model:</strong> instructions are executed contiguously without concurrency. &#91;1&#93;</p>
+<h3 id="properties_of_ram">Properties of RAM</h3>
+<h4 id="step_execution_of_times">Step Execution of Times</h4>
+<p>RAM concerns common real-world instructions executed at constant times: </p>
+<ol>
+<li><p>Arithmetic:</p>
+<ul>
+<li><p>Add</p>
+</li>
+<li><p>Subtract</p>
+</li>
+<li><p>Multiply</p>
+</li>
+<li><p>Divide</p>
+</li>
+<li><p>Remainder</p>
+</li>
+<li><p>Floor</p>
+</li>
+<li><p>Ceiling</p>
+</li>
+</ul>
+</li>
+<li><p>Data Movement</p>
+<ul>
+<li><p>Loading</p>
+</li>
+<li><p>Storing</p>
+</li>
+<li><p>Copying</p>
+</li>
+</ul>
+</li>
+<li><p>Control flow </p>
+<ul>
+<li><p>Conditionals and unconditional branches</p>
+</li>
+<li><p>Subroutine calls</p>
+</li>
+<li><p>Returns</p>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="data_types">Data Types</h4>
+<ul>
+<li><p>The RAM model concerns integers and floating points for real number representation.</p>
+</li>
+<li><p>A limit on the size of each word of data is assumed.</p>
+</li>
+<li><p>The memory hierarchy &#40;i.e. model caches or virtual memory on modern computers&#41; is not modeled.</p>
+</li>
+</ul>
+<h3 id="algorithmic_analysis_within_the_ram_model">Algorithmic Analysis within the RAM Model</h3>
+<p><strong>Algorithm analysis:</strong> predicting the resources an algorithm requires.Computational time is what is commonly measured. Memory, hardware, or bandwidth are sometimes also analyzed. &#91;1&#93;</p>
+<p><strong>Running time:</strong> the number of basic operations executed in an algorithm. In the RAM model, each executed line takes the constant time ci.</p>
+<p>Generally, time taken by an algorithm grows in proportion to the size of the input. &#91;1&#93; Definitions for input size depend on what is studied:</p>
+<ul>
+<li><p>The number of items in the input</p>
+</li>
+<li><p>The total number of bits needed to represent the input in binary notation</p>
+</li>
+<li><p>Numbers of vertices and edges in a graph</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; T. H. Cormen, Ed., Introduction to algorithms, 3rd ed. Cambridge, Mass: MIT Press, 2009.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   

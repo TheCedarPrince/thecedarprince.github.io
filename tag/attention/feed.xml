@@ -30,6 +30,41 @@
   <description>
     <![CDATA[  Quick review of this paper to understand how covert attention works and how the study was used to assess this  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex</h1>
+<p><strong>Date:</strong> January 1 2021</p>
+<p><strong>Summary:</strong> Quick review of this paper to understand how covert attention works and how the study was used to assess this</p>
+<p><strong>Keywords:</strong> ##bibliography #attention #erp #archive</p>
+<h1>Bibliography</h1>
+<p>M. S. Worden, J. J. Foxe, N. Wang, and G. V. Simpson, &quot;Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex,&quot; J. Neurosci., vol. 20, no. 6, pp. RC63–RC63, Mar. 2000, doi: 10.1523/JNEUROSCI.20-06-j0002.2000.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Materials &amp; Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="materials_methods">Materials &amp; Methods</h3>
+<p>Ten right-handed subjects, five male and five female, participated and gave informed consent. Their mean age was 27.1 years with a standard deviation of 6.7 years.</p>
+<p><strong>Covert attention:</strong> how one can intentionally focus on locations in visual space where stimuli are expected without eye movement.Results in better stimuli processing occurring at the locus of attention while attenuating attention given elsewhere. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; M. I. Posner, C. R. Snyder, and B. J. Davidson, “Attention and the detection of signals.” J. Exp. Psychol. Gen., vol. 109, no. 2, p. 160, 1980.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +84,63 @@
   <description>
     <![CDATA[  An overview of the process of incremental reading  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Incremental Reading</h1>
+<p><strong>Date:</strong> May 9 2020</p>
+<p><strong>Summary:</strong> An overview of the process of incremental reading</p>
+<p><strong>Keywords:</strong> ##zettel #incremental #reading ##knowledge ##technique #generation #interleaving #breaks #brief #attention #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><strong>Footnotes:</strong></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Incremental reading follows the general format. &#91;1&#93;</p>
+<ol>
+<li><p>Identify written pieces of interest.</p>
+</li>
+<li><p>Prioritize the pieces according to personal urgency.</p>
+</li>
+<li><p>Allocate a comfortable reading time duration per piece with a timed, short break in-between. <sup id="fnref:1">[1]</sup></p>
+</li>
+<li><p>While reading each piece, annotate material that is of interest or difficult to process.</p>
+</li>
+<li><p>Transfer annotations from each piece to an index card representation &#40;actual or digital&#41;.</p>
+</li>
+<li><p>Pause reading and review collected annotations using a <a href="https://jacobzelko.com/05252020183020-spaced-repetition-systems.md">spaced repetition system</a>.</p>
+</li>
+<li><p>Once annotations have been thoroughly revised and reviewed, repeat from step 2 until finished with pieces over the next several days.</p>
+</li>
+</ol>
+<p>Incremental reading helps with improving focus and promotes learning while moving uniformly to finish reading. <sup id="fnref:2">[2]</sup> &#91;2&#93;, &#91;3&#93; Ingesting raw annotations into a spaced repetition system enables one to process them without being overwhelmed. On each repetition of a particular annotation, rewriting or modifying that information is crucial in cementing understanding. <sup id="fnref:3">[3]</sup> After finishing revisions and reviews, this process is repeated until done with reading the pieces.</p>
+<h3 id="footnotes"><strong>Footnotes:</strong></h3>
+<p><sup id="fnref:1">[1]</sup> Ariga and Lleras demonstrated that attention on a particular task can be extended via brief and uncommon respites of a controlled nature. <a href="&#91;Click for more details&#93;&#40;/06052020031214-brief-breaks.md&#41;">4</a></p>
+<p><sup id="fnref:2">[2]</sup> It is suggested that interleaving material forces one to differentiate between different topics. When pressured under practice, this can heighten one&#39;s perception about differentiators. It leads to better embedding of concept abstractions that foster retention and transfer. &#91;2&#93;, <a href="&#91;Click for more details&#93;&#40;/05252020211350-hard-on-self.md&#41;">3</a></p>
+<p><sup id="fnref:3">[3]</sup> Generating an explanation about a topic rather than just being given a solution can be more effective than the spacing effect. This is called the generation effect. <a href="&#91;Click for more details&#93;&#40;/05252020211350-hard-on-self.md&#41;">2</a></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Master How To Learn, “Demonstration: My Workflow of Incremental Reading,” 09-Dec-2018. &#91;Online&#93;. Available: https://www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/. &#91;Accessed: 19-May-2020&#93;.</p>
+<p>&#91;2&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>
+<p>&#91;3&#93; J. B. Shea and R. L. Morgan, “Contextual interference effects on the acquisition, retention, and transfer of a motor skill.” J. Exp. Psychol. &#91;Hum. Learn.&#93;, vol. 5, no. 2, p. 179, 1979.</p>
+<p>&#91;4&#93; A. Ariga and A. Lleras, “Brief and rare mental ‘breaks’ keep you focused: Deactivation and reactivation of task goals preempt vigilance decrements,” Cognition, vol. 118, no. 3, pp. 439–443, Mar. 2011, doi: 10.1016/j.cognition.2010.12.007.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>  
   

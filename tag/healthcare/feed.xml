@@ -30,6 +30,43 @@
   <description>
     <![CDATA[  A summary of what Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and its use as a biomarker and use in signal processing.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</h1>
+<p><strong>Date:</strong> January 11 2022</p>
+<p><strong>Summary:</strong> A summary of what Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and its use as a biomarker and use in signal processing.</p>
+<p><strong>Keywords:</strong> ##summary ##healthcare #informatics #health #signal #biomarker #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained.md">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** What SpO2 is and their pros and cons as a biomarker</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +86,67 @@
   <description>
     <![CDATA[  An overview of Electronic Health Records  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Electronic Health Records</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> An overview of Electronic Health Records</p>
+<p><strong>Keywords:</strong> ##zettel #ehr #healthcare #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Assessment of EHRs</li><li>Limitations of EHRs</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="assessment_of_ehrs">Assessment of EHRs</h3>
+<p>US Department of Health and Human Services&#39; &#40;HHS&#41; Office of the National Coordinator of Health Information Technology &#40;ONC&#41; specifies standards for EHR systems. This is to ensure that EHRs meet &quot;Meaningful Use&quot; criteria.</p>
+<p>EHR data is generally from patients who have the means of seeing a provider. &#91;1&#93; This data may be available from different encounters. Examples include:</p>
+<ul>
+<li><p>Inpatient</p>
+</li>
+<li><p>Outpatient</p>
+</li>
+<li><p>Emergency department visits</p>
+</li>
+</ul>
+<h3 id="limitations_of_ehrs">Limitations of EHRs</h3>
+<p>EHRs are not optimized for secondary uses. They have multiple limitations for research &#91;1&#93;, &#91;2&#93; EHR data is recorded during healthcare visitations. As a result, bias can favor those sicker in datasets. This results in what is known as informative censoring &#91;1&#93;, &#91;3&#93;, &#91;4&#93; It is important to distinguish between &quot;not present&quot; in datasets versus &quot;did not assess&quot;.</p>
+<p>Errors propagate EHRs and ancillary sources. Data is entered by providers during visitation or memory. &#91;1&#93;</p>
+<p>Healthcare standards change over time. Collection standards vary by location. Much data is unstructured and narrative in nature. <a href="https://jacobzelko.com/01112021180936-we-may-think.md">Vannevar Bush article &quot;As We May Think&quot;</a> also has relation to this very same issue. Regarding how clinicians&#39; recall or anyone&#39;s recall of an incident from more than a few days ago may be impossible. There are analogies between the two disparate lines of thought: one clinical, the other academic: both overwhelming.</p>
+<p>Only a few data fields are common across different EHRs. Most phenotype definitions use combinations of:</p>
+<ul>
+<li><p>ICD-9 codes</p>
+</li>
+<li><p>Medication names</p>
+</li>
+<li><p>Laboratory tests.</p>
+</li>
+</ul>
+<p>EHRs will use ICD-10 codes for diagnoses and potentially SNOMED-CT codes for problem lists and other aspects of EHRs.  EHRs also consist of free form text where Natural Language Processing could be of use. &#91;5&#93; ICD-9-CM diagnosis codes can be found in technical billing, professional billing, and/or problem lists.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.</p>
+<p>&#91;2&#93; K. B. Bayley, T. Belnap, L. Savitz, A. L. Masica, N. Shah, and N. S. Fleming, “Challenges in using electronic health record data for CER: Experience of 4 learning organizations and solutions applied,” Med. Care, pp. S80–S86, 2013.</p>
+<p>&#91;3&#93; W. J. Shih, “Problems in dealing with missing data and informative censoring in clinical trials,” Curr. Control. Trials Cardiovasc. Med., vol. 3, no. 1, pp. 1–7, 2002.</p>
+<p>&#91;4&#93; N. R. Council et al., The prevention and treatment of missing data in clinical trials. National Academies Press, 2010.</p>
+<p>&#91;5&#93; J. F. Ludvigsson et al., “Use of computerized algorithm to identify individuals in need of testing for celiac disease,” J. Am. Med. Inform. Assoc., vol. 20, no. e2, pp. e306–e310, 2013.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -68,6 +166,49 @@
   <description>
     <![CDATA[  How EDA is used generally as a biomarker.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>EDA as a Biomarker</h1>
+<p><strong>Date:</strong> April 9 2020</p>
+<p><strong>Summary:</strong> How EDA is used generally as a biomarker.</p>
+<p><strong>Keywords:</strong> ##zettel #eda #biomarker #healthcare #biosystems #sensors #scl #skin #scr #response #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The term <em>EDA</em> is often used synonymously in academic literature to refer to its usage as a non-invasive biomarker to investigate physiological arousal. EDA is generally recorded using two small electrodes and are usually &#91;1&#93;, &#91;2&#93; can be placed on the:</p>
+<ul>
+<li><p>Fingers</p>
+</li>
+<li><p>Palms</p>
+</li>
+<li><p>Feet</p>
+</li>
+</ul>
+<p>These electrodes complete a circuit across the skin – the skin acts as a variable resistor – and then <a href="https://jacobzelko.com/03242020003215-eda-explained.md">measure changes in skin conductance</a> &#40;see note for more information on what variables EDA monitors&#41;. After the EDA signal is collected from the electrodes, the signal is typically &#40;by convention&#41; decomposed into skin conductance level <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">SCL</a> and skin conductance responses <a href="https://jacobzelko.com/04092020162632-skin-response.md">SCR</a> &#40;click links to see definitions of both&#41;.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
+<p>&#91;2&#93; M. van Dooren, J. H. Janssen, et al., “Emotional sweating across the body: Comparing 16 different skin conductance measurement locations,” Physiol. Behav., vol. 106, no. 2, pp. 298–304, 2012.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
   
@@ -87,6 +228,66 @@
   <description>
     <![CDATA[  A summary of what electrodermal activity is and its use as a biomarker and use in signal processing.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Electrodermal Activity</h1>
+<p><strong>Date:</strong> March 23 2020</p>
+<p><strong>Summary:</strong> A summary of what electrodermal activity is and its use as a biomarker and use in signal processing.</p>
+<p><strong>Keywords:</strong> ##summary ##signalprocessing ##healthcare #informatics #health #signalprocessing #signal #biomarker  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained.md">What Is Electrodermal Activity?</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** What electrodermal activity is and its pros and cons as a biomarker</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts.md">Common Causes of Artifact in EDA Signals</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** An overview of common artifacts in EDA signals</code></pre>
+<h3 id="handling_signal">Handling Signal</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data.md">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data
+- **Rationale:** FANTASTIC implementation on how to parse through EDA artifact -- very useful with a straight-forward algorithm to use</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal.md">Artifact Removal Methods</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** An overview on commonly used signal processing methods to remove artifacts from signals.
+- **Rationale:** Moving average filters seem to hold the most promise in processing EDA.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03272020083421-call-center.md">Call Center Stress Recognition with Person-Specific Models</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.
+- **Rationale:** Showed useful methods on how to process EDA data of a small cohort</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -106,6 +307,80 @@
   <description>
     <![CDATA[  Gives an overview of the 2020 SARS-CoV-2 &#40;COVID19&#41; pandemic and what the disease is.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>SARS-CoV-2</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Gives an overview of the 2020 SARS-CoV-2 &#40;COVID19&#41; pandemic and what the disease is.</p>
+<p><strong>Keywords:</strong> ##summary ##health #covid19 #publichealth #pandemic #globalhealth #health #healthcare  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="what_is_sars-cov-2">What is SARS-CoV-2?</h3>
+<p>The SARS-CoV-2 virus is a <a href="https://jacobzelko.com/03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
+<p>Early on, many of the patients at the epicenter of the outbreak in Wuhan, Hubei Province, China had some link to a large seafood and live animal market, suggesting animal-to-person spread. Later, a growing number of patients reportedly did not have exposure to animal markets, indicating person-to-person spread. Person-to-person spread was subsequently reported outside Hubei and in countries outside China, including in the United States. &#91;1&#93;</p>
+<p>Currently, the World Health Organization has not classified this situation as a pandemic though this stance is highly contentious. &#91;2&#93;</p>
+<p>UPDATE &#40;MARCH 11th&#41;:_ As of now, this situation is now classified a pandemic by the World Health Organization. &#91;3&#93;</p>
+<p>Here is an image showing its transmission across the world:</p>
+<p><img src="https://jacobzelko.com/03102020050115-covid19-jhu-arcgis.jpg" alt="arcgis-sars" /></p>
+<h4 id="symptoms">Symptoms</h4>
+<p>The following symptoms may appear 2-14 days after exposure &#40;this is based on what has been seen previously as the incubation period of MERS-CoV viruses &#91;Middle East Respiratory Syndrome Coronavirus&#93;&#41; &#91;4&#93;:</p>
+<ul>
+<li><p>Fever</p>
+</li>
+<li><p>Cough</p>
+</li>
+<li><p>Shortness of breath</p>
+</li>
+</ul>
+<h4 id="a_href03102020052237-covid19-dyingrisk_of_dying"><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></h4>
+<p>1 - 2&#37; is the current estimate though it could get higher. &#91;5&#93;</p>
+<h4 id="a_href03102020053006-cdc-respiratory-preventionsprevention_methods"><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></h4>
+<ul>
+<li><p>Avoid close contact with people who are sick.</p>
+</li>
+<li><p>Avoid touching your eyes, nose, and mouth.</p>
+</li>
+<li><p>Stay home when you are sick.</p>
+</li>
+<li><p>Cover your cough or sneeze with a tissue, then throw the tissue in the trash.</p>
+</li>
+<li><p>Clean and disinfect frequently touched objects and surfaces using a regular household cleaning spray or wipe.</p>
+</li>
+<li><p>Wash your hands often with soap and water for at least 20 seconds, especially after going to the bathroom; before eating; and after blowing your nose, coughing, or sneezing.</p>
+</li>
+<li><p>If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60&#37; alcohol. Always wash hands with soap and water if hands are visibly dirty.</p>
+</li>
+</ul>
+<p>&#91;6&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; Situation Summary,” 09-Mar-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/summary.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<p>&#91;2&#93; “Statement on the second meeting of the International Health Regulations &#40;2005&#41; Emergency Committee regarding the outbreak of novel coronavirus &#40;2019-nCoV&#41;.” &#91;Online&#93;. Available: https://www.who.int/news-room/detail/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-&#40;2005&#41;-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-&#40;2019-ncov&#41;. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<p>&#91;3&#93; “WHO Director-General’s opening remarks at the media briefing on COVID-19 - 11 March 2020.” &#91;Online&#93;. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19–-11-march-2020. &#91;Accessed: 15-Mar-2020&#93;.</p>
+<p>&#91;4&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Symptoms,” 29-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<p>&#91;5&#93; M. Lipsitch, “Opinion | Why it’s so hard to pin down the risk of dying from coronavirus.” &#91;Online&#93;. Available: https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<p>&#91;6&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Prevention &amp; Treatment,” 15-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -125,6 +400,66 @@
   <description>
     <![CDATA[  Overview of the Waveform Database &#40;WFDB&#41; record format  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>WFDB Record</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Overview of the Waveform Database &#40;WFDB&#41; record format</p>
+<p><strong>Keywords:</strong> ##summary #wfdb #dataformat #storage #healthcare #opensource #standard  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>How It Works</li><li>Example Application - ECG Data</li><li>Miscellaneous Notes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<p>The Waveform Database &#40;WFDB&#41; Library is a record management system to handle already existing databases - it itself is not a database but a collection of tools to handle databases that follow the WFDB format. &#91;1&#93; Furthermore, WFDB can be used for viewing, analyzing, and creating recordings of physiological signals &#91;2&#93;.</p>
+<h3 id="how_it_works">How It Works</h3>
+<p>The way that the WFDB record format works is that it utilizes &#91;pg 1, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> to specify the characteristics of a signal &#40;sampling frequency, etc.&#41;</p>
+</li>
+<li><p><strong>Annotation Files</strong> to record annotations corresponding to a signal &#40;generally kept in time with the rest of the signal&#41;</p>
+</li>
+</ul>
+<h3 id="example_application_-_ecg_data">Example Application - ECG Data</h3>
+<p>For example, when working with ECG data, the format utilizes the header and annotation files as follows &#91;pg 2 - 3, @moodyWFDBProgrammerGuide2019&#93;:</p>
+<ul>
+<li><p><strong>Header Files</strong> - could contain information about lead count, calibration format, etc.</p>
+</li>
+<li><p><strong>Annotation Files</strong> - could contain other information such as beat positions.</p>
+</li>
+</ul>
+<h3 id="miscellaneous_notes">Miscellaneous Notes</h3>
+<ul>
+<li><p>WFDB is considered a standard data format within the research world, and has found application in industry as well.</p>
+</li>
+<li><p>The WFDB format is generally used for ECG records - however, it can extend to other data formats.</p>
+</li>
+<li><p>A possible alternative to the WFDB record format is the European Data Format&#43; &#40;EDF&#43;&#41; &#91;see @garciamartinezLoadingPlottingFiltering2017 for more information&#93;.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
+<p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -144,6 +479,38 @@
   <description>
     <![CDATA[  OWEAR is a collaboration designed to promote the effective use of sensor-generated measures of health in clinical research through the open sharing and benchmarking of algorithms and datasets.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Open Wearables Initiative</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> OWEAR is a collaboration designed to promote the effective use of sensor-generated measures of health in clinical research through the open sharing and benchmarking of algorithms and datasets.</p>
+<p><strong>Keywords:</strong> ##zettel #opensource #dataset #research #healthcare #technology #wearables #health #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” &#91;Online&#93;. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -163,6 +530,48 @@
   <description>
     <![CDATA[  Index of topics pertaining to health, healthcare, public health, and other domains.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>The Health Index, Jacob 😷</h1>
+<p><strong>Date:</strong> March 9 2020</p>
+<p><strong>Summary:</strong> Index of topics pertaining to health, healthcare, public health, and other domains.</p>
+<p><strong>Keywords:</strong> ##index ##health ##healthcare ##publichealth #pandemic #epidemiology #archive</p>
+<h1>Bibliography</h1>
+<p>Not available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Thoughts about Health</li><li>Diseases</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="thoughts_about_health">Thoughts about Health</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/03092020022148-health-spectrum">Health as a Spectrum</a></p>
+</li>
+</ul>
+<hr />
+<h3 id="diseases">Diseases</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/03102020051547-sars-cov-2">SARS-CoV-2</a></p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>  
   

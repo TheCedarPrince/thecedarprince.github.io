@@ -30,6 +30,50 @@
   <description>
     <![CDATA[  Brief synopsis/explanation of what is Multiscale Entropy  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Multiscale Entropy</h1>
+<p><strong>Date:</strong> October 7 2020</p>
+<p><strong>Summary:</strong> Brief synopsis/explanation of what is Multiscale Entropy</p>
+<p><strong>Keywords:</strong> ##zettel #statistics #entropy  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Notes from Giulia Da Poian&#39;s mini lecture:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="notes_from_giulia_da_poians_mini_lecture">Notes from Giulia Da Poian&#39;s mini lecture:</h3>
+<ul>
+<li><p>The radius of similarity is technically 0.15&#40;standard deviation of the time series&#41;</p>
+</li>
+<li><p>Generally people choose the radius of similarity to be 0.15 in practice</p>
+</li>
+<li><p>The pattern usually chosen for MSE is 2 points</p>
+</li>
+</ul>
+<p>Entropy Equation:</p>
+\[
+S = \frac{log(A)}{log(B)}
+\]
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>  
   

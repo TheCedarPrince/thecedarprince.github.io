@@ -30,6 +30,64 @@
   <description>
     <![CDATA[  An overview on fiber products &#40;aka pullbacks&#41; and their features within category theory  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Fiber Products &#40;Pullbacks&#41;</h1>
+<p><strong>Date:</strong> October 30 2022</p>
+<p><strong>Summary:</strong> An overview on fiber products &#40;aka pullbacks&#41; and their features within category theory</p>
+<p><strong>Keywords:</strong> ##summary #fiber #product #pullback #category #theory  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics of a Fiber Product</li><li>Basics of the Pullback</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>Pullbacks are a central part to category theory so naturally, I would like to know more about them&#33;</p>
+<h3 id="basics_of_a_fiber_product">Basics of a Fiber Product</h3>
+<p>Suppose we have the diagram of sets and functions:</p>
+<p>X -f-&gt; Z &lt;-g- Y</p>
+<p>Its fiber product is defined as:</p>
+\[
+X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
+\]
+<p>Which has two projection functions: </p>
+<ol>
+<li></li>
+</ol>
+\[
+    \pi_{1}: X {x}_{Z}Y \rightarrow X
+    \]
+<ol start="2">
+<li></li>
+</ol>
+\[
+    \pi_{2}: X {x}_{Z}Y \rightarrow Y
+    \]
+<p>How I would understand that, is by saying that</p>
+<h3 id="basics_of_the_pullback">Basics of the Pullback</h3>
+<p>Suppose we have the diagram of sets and functions:</p>
+<p>W -pi<em>&#123;1&#125;-&gt; X -f-&gt; Z &lt;-g- Y &lt;-pi</em>&#123;2&#125;- W</p>
+<p>The pullback of \(X\) and \(Y\) over \(Z\) is any set \(W\) for which we have an isomorphism W -approx-&gt; X &#123;x&#125;_&#123;Z&#125; Y.  In this case, \(W\) is the pullback.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +107,74 @@
   <description>
     <![CDATA[  A line of questioning to ensure I understand what coproducts and disjoint unions are  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Clarifying Understanding of Coproducts</h1>
+<p><strong>Date:</strong> October 2 2022</p>
+<p><strong>Summary:</strong> A line of questioning to ensure I understand what coproducts and disjoint unions are</p>
+<p><strong>Keywords:</strong> #question #zulip #category #theory #coproducts #disjoint #union #set  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>This is a question to clarify my understand of coproducts as I have largely spent some time in understanding what they are and how to interpret them. </p>
+<h3 id="question">Question</h3>
+<p>Hi everyone,</p>
+<p>I was hoping I could get some clarification on my understanding of coproducts as I <em>believe</em> I have finally wrapped my head around them, but I want to be clear that I do.  To understand coproducts, I started with the set theory definition of a coproduct: </p>
+\[
+\bigcup_{i \in I} \{(x, i): x \in A_{i}\}
+\]
+<p>where \(i \in I\) denotes indexing from some <em>index set</em>, \(I\), using the index term, \(i\) and \(A_{i}\) represents some <em>family of sets</em> indexed by \(i\) and \(x\) is some element of the respective \(A_{i}\) set. Then, based on readings from Category Theory texts, I have gathered that the following is equivalent notation to the formal set theory definition: \(\bigsqcup_{i \in I} A_{i}\).  As an example to make sure I am on the right track, here is a small simple problem and its solution according to my understanding:</p>
+<blockquote>
+<p>Find \(\bigsqcup_{i \in I} A_{i}\) given the following:</p>
+</blockquote>
+<blockquote>
+</blockquote>
+\[
+> I = \{1, 2, 3\}
+> \]
+<blockquote>
+</blockquote>
+\[
+> A = \{\{1, 2, 3\}, \{2, 4, 6\}\}
+> \]
+<blockquote>
+<p>Solution: \(\bigsqcup_{i \in I} A_{i} = \{(1, 1), (2, 1), (3, 1), (2, 2), (4, 2), (6, 2)\}\)</p>
+</blockquote>
+<p>Where I am confused is the following: </p>
+<ol>
+<li><p>What is the difference between \(\bigsqcup_{i \in I} A_{i}\) and \(\coprod_{i \in I} A_{i}\) and \(X_{1} \coprod X_{2}\) syntax notation &#40;the latter notation concerns two specific sets&#41;?</p>
+</li>
+</ol>
+<p>I have seen all notations when referring to coproducts when viewed from both set theory and category theory perspectives. Is it a matter of aesthetic or is there a functional/semantic difference occurring?</p>
+<ol start="2">
+<li><p>I have read that coproducts are also known as disjoint unions.</p>
+</li>
+</ol>
+<p>I read about disjoint unions from a set theory perspective and also a category theory perspective but cannot really discern a functional &#40;i.e. practical&#41; difference from coproducts. Are coproducts and disjoint unions really effectively the same idea?</p>
+<p>Thanks all and let me know if I can clarify anywhere&#33; </p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>  
   
@@ -68,6 +194,75 @@
   <description>
     <![CDATA[  Exploration on the disjoint union of sets.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Coproducts &#40;Disjoint Unions&#41;</h1>
+<p><strong>Date:</strong> September 16 2022</p>
+<p><strong>Summary:</strong> Exploration on the disjoint union of sets.</p>
+<p><strong>Keywords:</strong> ##summary #category #theory #sets #union #archive</p>
+<h1>Bibliography</h1>
+<p>David Spivak, Category Theory for Scientists, Old Version. 2013.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>To learn and understand the concept of coproducts within the context of category theory. Also, I came across the symbolic notation for what disjoint unions are and wanted to understand what the notation fully meant.</p>
+<h3 id="disjoint_union_of_sets_intuition">Disjoint Union of Sets Intuition</h3>
+<p>To build an intuitive sense of what a disjoint union is, consider the following.</p>
+<p>Given two sets, \(X = \{a, b, c, d\}\), \(Y = \{1, 2, 3\}\), the coproduct of these sets would be: </p>
+\[
+X \coprod Y := \{a, b, c, d, 1, 2, 3\}
+\]
+<p>This also is referred to as the &quot;disjoint union of sets&quot;. Although, it is important to note that an important aspect of this notation above is missing from the coproduct which will be explained in the section on a <a href="https://jacobzelko.com/#coproduct-of-a-set-and-itself">coproduct of a set and itself</a>.</p>
+<h3 id="coproduct_of_a_set_and_itself">Coproduct of a Set and Itself</h3>
+<p>If given set \(X = \{a, b, c, d\}\), the coproduct of \(X\) and itself would look like this:</p>
+\[
+X \coprod X \cong \{i_{1}a, i_{1}b, i_{1}c, i_{1}d, i_{2}a, i_{2}b, i_{2}c, i_{2}d\}
+\]
+<p>In this case, \(i_{1}\) and \(i_{2}\) are unique inclusion functions that map each set in a coproduct to its disjoint union. The inclusion functions in my opinion, act as a sort of metadata that helps one know where elements of a disjoint union comes from.</p>
+<blockquote>
+<p>NOTE: The author, David Spivak, in <em>Category Theory for the Sciences</em> presented the above notation for a coproduct of \(X\) and itself.  Personally, I found this notation very confusing and feel the formal set theory definition explained in the <a href="https://jacobzelko.com/#set-theory-definition">section on the set theory definition of a coproduct</a> to be more useful here.  If we revisited the operation \(X \coprod X\), I am more inclined to write the problem and solution as follows:</p>
+<p>Let \(X = X_{1} = X_{2}\), the value of \(X_{1} \coprod X_{2}\) is: \(X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 3), (d, 4)\}\)</p>
+</blockquote>
+<h3 id="set_theory_definition">Set Theory Definition</h3>
+<p>This big honking formulation is the formal set theoretic definition of a coproduct:</p>
+\[
+\bigsqcup_{i \in I} A_{i} = \bigcup_{i \in I} \{(x, i): x \in A_{i}\}
+\]
+<p>What this says loosely is that given a <a href="https://jacobzelko.com/09302022033236-family-sets.md">family of sets</a> \(A\) indexed by the <a href="https://jacobzelko.com/09302022040126-indexed-sets.md">index set \(I\)</a>, a coproduct is a set that enumerates every element in \(A_{i}\) with its associated set. Referencing the <a href="https://jacobzelko.com/#coproduct-of-a-set-and-itself">example on a coproduct of a set and itself</a>:</p>
+<p>Given: \(X = \{a, b, c, d\}\)</p>
+<p>Let \(X = X_{1} = X_{2}\), the value of \(X_{1} \coprod X_{2}\) is: </p>
+\[
+X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 3), (d, 4)\}
+\]
+<p>The coproduct is a set which enumerates every element in both set \(X_{1}\) and \(X_{2}\) as a tuple with an associated index to say what set this element originated from &#40;i.e. \((a, 1)\) is the same \(a\) from set \(X_{1}\)&#41;.</p>
+<h3 id="notation_in_category_theory">Notation in Category Theory</h3>
+<p>It is important to make clear that in category theory, these two syntaxes are seen:</p>
+\[
+\coprod_{i \in I} X_{i}
+\]
+<p>and \(\bigsqcup_{i \in I} X_{i}\)</p>
+<p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets.md">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>  
   
@@ -87,6 +282,59 @@
   <description>
     <![CDATA[  Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read&#33;  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</h1>
+<p><strong>Date:</strong> April 15 2022</p>
+<p><strong>Summary:</strong> Book review on an approach of using category theory to decouple and discuss characteristics of gender without conflating the two - great read&#33;</p>
+<p><strong>Keywords:</strong> ##summary ##blog #review #book #gender #ingressive #congressive #category #theory #archive</p>
+<h1>Bibliography</h1>
+<p>E. Cheng, X &#43; Y: A Mathematician’s Manifesto for Rethinking Gender. Basic Books, 2020.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Category Theory as Tool for Thinking on Gender</li><li>Congressive versus Ingressive Thinking</li><li>Conclusion</li><li>Final Thoughts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="introduction">Introduction</h3>
+<p>Eugenia Cheng takes a nuanced approach to the discussion around gender. As she references, some feminists&#39; battle cry is the phrase, &quot;Smash the patriarchy&#33;&quot;. In Cheng&#39;s idea of feminism, she instead looks for language that is less divisive and more inclusive encompassed in her saying, &quot;Let’s transform our world into a more congressively led future.&quot;</p>
+<h3 id="category_theory_as_tool_for_thinking_on_gender">Category Theory as Tool for Thinking on Gender</h3>
+<p>With this approach, she launches into her core contribution to the discussion on gender which is introducing the mathematics of <a href="https://jacobzelko.com/11082021041951-category-theory-scientists.md">category theory</a> to decouple historical characteristics associated genders from the genders themselves. Cheng argues that this is a better approach to take in gender discussions to think more deeply about traits or characteristics in isolation rather than rooted in gender. You can then critique a characteristic or trait rather than a whole group of people.</p>
+<p>Rather than being a book on mathematics and gender, category theory is used more as a mental model or framework to enact this decoupling. This works well as category theory fundamentally concerns itself about relationships. In her opinion, category theory enables one to think more clearly about about characteristics with a great degree of flexibility.</p>
+<h3 id="congressive_versus_ingressive_thinking">Congressive versus Ingressive Thinking</h3>
+<p>Cheng introduced two crucial words into her argument which can describe concepts, behaviors or people: &quot;congressive&quot; and &quot;ingressive&quot;. This is how she defined these terms summarized below:</p>
+<ul>
+<li><p><strong>Ingressive</strong> - putting oneself over society, imposing on others frequently, far more individualistic than collaborative, less flexible thinking</p>
+</li>
+<li><p><strong>Congressive</strong> - society over self, prioritizing others, highly collective and community-focused, holistic thought patterns</p>
+</li>
+</ul>
+<p>In this way, the onus of characteristics is moved from tightly coupled gender stereotypes to decoupled conversations on those characteristics in isolation. However, this isn&#39;t entirely the case all the time as most concepts, behaviors, or people have some tendencies to ingressive behavior and some to congressive behavior. As Cheng herself posits, &quot;When gender is relevant, we need to consider it. When character is relevant, we need to consider it.  But we shouldn&#39;t assume they are linked.&quot;</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>She concludes in her book how she doesn&#39;t want, &quot;to see &quot;masculine&quot; and &quot;feminine&quot; character traits evaluated against each other &#91;...&#93; so only one side can win,&quot; in discussions around gender. She emphasizes how she doesn&#39;t want women having to act like men to succeed. Rather, she believes that there are not only other ways to make contributions to society but rather that there are other traditional forms of success.</p>
+<h3 id="final_thoughts">Final Thoughts</h3>
+<p>Overall, I really enjoyed this book&#33; I feel like her point was made pretty early on and I appreciated some of the examples. However, as I am acquainted with category theory as well as having read some material on gender studies in the past, I personally was able to skip through various parts.</p>
+<p>I think her notion of decoupling is immensely important however I am not sure on her terminology of &quot;ingressive&quot; and &quot;congressive&quot;. Whenever anyone overloads terms with additional definitions, it makes me nervous that confusion in discussion can occur. However, since these are not commonly used terms, at least in my experience, it makes me think this may not be as big an issue.</p>
+<p>Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the <a href="https://jacobzelko.com/07112020161337-social-determinants-health.md">social determinants of health</a> and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:</p>
+<p>&quot;The idea of a temporary abstraction also takes into account the thorny issue of intersectionality, and the need to take other forms of power imbalance into account besides those governed by gender, for example race, wealth, sexual orientation, and so on.&quot;</p>
+<p>Overall, good read&#33;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
   
@@ -106,6 +354,91 @@
   <description>
     <![CDATA[  An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Categorical Data Structures for Technical Computing</h1>
+<p><strong>Date:</strong> October 6 2021</p>
+<p><strong>Summary:</strong> An overview on the applications of category theory to computing; introduces acsets, port graphs, and other applied category theory ideas.</p>
+<p><strong>Keywords:</strong> #bibliography #acsets #graph #theory #category  #archive</p>
+<h1>Bibliography</h1>
+<p>E. Patterson, O. Lynch, and J. Fairbanks, &quot;Categorical Data Structures for Technical Computing,&quot; arXiv:2106.04703 &#91;cs, math&#93;, Jun. 2021, Accessed: Sep. 27, 2021. &#91;Online&#93;. Available: http://arxiv.org/abs/2106.04703</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Limitations of the Data Frame</li><li>Conclusions<ol><li>Use Cases for Acsets</li><li>Category Theory</li></ol></li><li>Discussion with Brighton Ancelin - October 6, 2021</li><li>Questions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="definitions">Definitions</h3>
+<p><strong>Combinatorial Data</strong> - data stored in a graph</p>
+<p><strong>Attribute data</strong> - the data that would be put into a data frame</p>
+<h3 id="limitations_of_the_data_frame">Limitations of the Data Frame</h3>
+<ul>
+<li><p>Does not record relationships between entities</p>
+</li>
+<li><p>Analogous to the <code>FOREIGN KEY</code> concept in SQL</p>
+</li>
+</ul>
+<h3 id="conclusions">Conclusions</h3>
+<h4 id="use_cases_for_acsets">Use Cases for Acsets</h4>
+<ul>
+<li><p>Act as a unifying abstract data type</p>
+</li>
+<li><p>Particularly useful for graphs and data frames, data structures</p>
+</li>
+<li><p>Enables creation of novel data structures</p>
+</li>
+</ul>
+<h4 id="category_theory">Category Theory</h4>
+<ul>
+<li><p>The category theory for acsets is well understood</p>
+</li>
+<li><p>Opens possibility of implementation of</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Limits
+- Colimits
+- Functorial data migration</code></pre>
+<h3 id="discussion_with_brighton_ancelin_-_october_6_2021">Discussion with Brighton Ancelin - October 6, 2021</h3>
+<ul>
+<li><p>Combinatorial data could be thought of the data that:</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Exists solely within a graph structure
+- Defines vertices in a graph structure
+- Defines edges in a graph structure
+- Set of all vertices and set of all edges are isomorphic
+	- As long as edge-vertex relationships are maintained</code></pre>
+<ul>
+<li><p>Attribute data has something concrete that describes it apart from a graph structure</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Encodes symmetries or relationships in data that are important to that data</code></pre>
+<h3 id="questions">Questions</h3>
+<ul>
+<li><p>What are the &quot;new data structures&quot; that could be developed with this implementation</p>
+</li>
+<li><p>Why are attribute data combined in the same structure housing combinatorial data?</p>
+</li>
+<li><p>With the snippet of <code>add_part&#33;</code>, what is a &quot;part&quot;?</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,52 @@
   <description>
     <![CDATA[  What independent component analysis is  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Independent Component Analysis</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> What independent component analysis is</p>
+<p><strong>Keywords:</strong> ##zettel #mathematics #analysis #independent #component #analysis #speech #fmri #noise #separation #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>ICA seeks to minimize mutual information between projections.Independent component analysis finds a coordinate frame onto which the projection of the data has minimal temporal overlap. &#91;1&#93;</p>
+<p>ICA is considered a linear decomposition alternative to principal component analysis &#40;PCA&#41;. In PCA, the data is represented using perpendicular axes. ICA is not limited by this constraint &#91;2&#93;</p>
+<p>ICA has been applied to domains such as:</p>
+<ul>
+<li><p>fMRI</p>
+</li>
+<li><p>performing speech</p>
+</li>
+<li><p>noise separation &#91;3&#93;</p>
+</li>
+</ul>
+<p>ICA decompositions are best for sources linearly mixed in a recorded signal.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; A. Delorme, S. Makeig, M. Fabre-Thorpe, and T. Sejnowski, “From single-trial EEG to brain area dynamics,” Neurocomputing, vol. 44–46, pp. 1057–1064, Jun. 2002, doi: 10.1016/S0925-2312&#40;02&#41;00415-0.</p>
+<p>&#91;2&#93; S. Makeig et al., “Functionally independent components of the late positive event-related potential during visual spatial attention,” J. Neurosci., vol. 19, no. 7, pp. 2665–2680, 1999.</p>
+<p>&#91;3&#93; H.-M. Park, H.-Y. Jung, T.-W. Lee, and S.-Y. Lee, “Subband-based blind signal separation for noisy speech recognition,” Electron. Lett., vol. 35, no. 23, pp. 2011–2012, 1999.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -49,6 +95,39 @@
   <description>
     <![CDATA[  What is an fMRI or Functional Magnetic Resonance Imaging  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Functional Magnetic Resonance Imaging</h1>
+<p><strong>Date:</strong> December 28 2020</p>
+<p><strong>Summary:</strong> What is an fMRI or Functional Magnetic Resonance Imaging</p>
+<p><strong>Keywords:</strong> ##zettel #imaging #brain #fmri #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Functional Magnetic Resonance Imaging &#40;fMRI&#41; finds levels of electrical brain activity.Great at determining where brain activity is. &#91;1&#93; fMRI imaging was used to show activation patterns in spatially separated, though in-sync, <a href="https://jacobzelko.com/12282020003106-dynamic-functional-connectivity.md">brain region activity</a>. It has become clear there is a spatial and temporal periodicity in the brain that probably reflects some of the constant processes of the brain.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
   

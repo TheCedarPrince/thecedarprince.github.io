@@ -30,6 +30,52 @@
   <description>
     <![CDATA[  An overview of David Allen&#39;s &#39;Get Things Done&#39; framework to manage projects, tasks, and life.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Get Things Done</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> An overview of David Allen&#39;s &#39;Get Things Done&#39; framework to manage projects, tasks, and life.</p>
+<p><strong>Keywords:</strong> ##summary ##gtd #productivity #models #business #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** A concise definition of what the GTD framework is.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">GTD Implementation</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** A guide on how GTD is implemented.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review.md">GTD Weekly Reviews</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   

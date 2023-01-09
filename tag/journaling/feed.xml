@@ -30,6 +30,52 @@
   <description>
     <![CDATA[  An overview of how to use a bullet journal and how to make one.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Bullet Journal</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> An overview of how to use a bullet journal and how to make one.</p>
+<p><strong>Keywords:</strong> ##summary ##bulletjournal #productivity #model #writing #journaling #reflection #projectmanagement #mentalhealth #creativity #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">Monthly Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a monthly plan when using a bullet journal.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly.md">Weekly Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a weekly plan when using a bullet journal.</code></pre>
+<ul>
+<li><p><a href="https://jacobzelko.com/03192020035441-bullet-journal-daily.md">Daily Planning in a Bullet Journal</a></p>
+</li>
+</ul>
+<pre><code class="language-julia">- **Summary:** How to create a daily plan when using a bullet journal.</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   
@@ -49,6 +95,111 @@
   <description>
     <![CDATA[  How to create a daily plan when using a bullet journal.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Daily Planning in a Bullet Journal</h1>
+<p><strong>Date:</strong> March 19 2020</p>
+<p><strong>Summary:</strong> How to create a daily plan when using a bullet journal.</p>
+<p><strong>Keywords:</strong> ##zettel #bulletjournal #productivity #journaling #writing #daily #key  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Keys</li><li>Task Symbols<ol><li>Example<ol><li>To-do&#39;s:</li><li>Review:</li></ol></li><li>Short Form Journaling Symbols<ol><li>Example</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Generally speaking, you want the daily entry to: </p>
+<ol>
+<li><p>Be concise and minimal</p>
+</li>
+<li><p>Contain your tasks for the day</p>
+</li>
+<li><p>Contain your agenda for the day</p>
+</li>
+</ol>
+<p>You could Split each entry in half with daily agenda on top and tasks on the bottom</p>
+<h3 id="keys">Keys</h3>
+<p>A general rule of thumb is to keep symbology as simple as possibly in bullet journal. Therefore, here are the biggest and most important symbols in bullet journaling&#33;</p>
+<h3 id="task_symbols">Task Symbols</h3>
+<p>Here are some common symbols one can use for task management and daily review:</p>
+<ul>
+<li><ul>
+<li><p>I am a task&#33; </p>
+<ul>
+<li><ul>
+<li><p>I am a subtask&#33;</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>? - I am a migrated task - I was either moved to a later day ? - I am a task in progress ? - I am a completed task&#33;</p>
+<h4 id="example">Example</h4>
+<h5 id="to-dos">To-do&#39;s:</h5>
+<ul>
+<li><p>Email Nick plans</p>
+<ul>
+<li><p>CC Jen</p>
+</li>
+</ul>
+</li>
+<li><p>Review Mohsen&#39;s manuscript</p>
+</li>
+<li><p>Meet with Chaitra</p>
+</li>
+</ul>
+<h5 id="review">Review:</h5>
+<ul>
+<li><p>Email Nick plans ?</p>
+<ul>
+<li><p>CC Jen ?</p>
+</li>
+</ul>
+</li>
+<li><p>Review Mohsen&#39;s manuscript ?</p>
+</li>
+<li><p>Meet with Chaitra ?</p>
+</li>
+</ul>
+<h4 id="short_form_journaling_symbols">Short Form Journaling Symbols</h4>
+<p>Here are symbols one can use for writing short form thoughts and journal entries:</p>
+<ul>
+<li><p>Standard entry bullet</p>
+</li>
+</ul>
+<p>❔ - This is something I want to learn more about ⚡ - this is an idea I had</p>
+<h5 id="example__2">Example</h5>
+<ul>
+<li><p>Chatted with Abby about Project X</p>
+</li>
+<li><p>Learned about Bullet Journals</p>
+</li>
+<li><p>I want to learn more about GTD ?</p>
+</li>
+<li><p>How easy is it to make a ventilator? ⚡</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,41 @@
   <description>
     <![CDATA[  One of the best definitions I have found for data fusion  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Definition of Data Fusion</h1>
+<p><strong>Date:</strong> April 22 2020</p>
+<p><strong>Summary:</strong> One of the best definitions I have found for data fusion</p>
+<p><strong>Keywords:</strong> ##zettel #data #fusion #definition #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Defined as the use of multiple technologies or location systems simultaneously to form hierarchical and overlapping levels of sensing, sensor fusion can provide aggregate properties unavailable when using location systems individually</p>
+<p>This definition of data fusion comes from <em>Hightower &amp; Borriello</em> &#91;1&#93; and I think it provides a very good explanation of what data fusion actually is. I decided to generalize it as their definition only concerns with location systems – here is my paraphrase:</p>
+<p>When one utilizes differing technologies to form tiers of improving sensor accuracy; this methodology can compensate for the loss or absence of signal from other sensors by providing multiple overlaps for the same defining properties of a system.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; J. Hightower and G. Borriello, “Location systems for ubiquitous computing,” Computer, vol. 34, no. 8, pp. 57–66, 2001.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>  
   

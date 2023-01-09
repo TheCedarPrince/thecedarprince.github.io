@@ -30,6 +30,44 @@
   <description>
     <![CDATA[  The origins of the observational medical outcomes partnership  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>The Origins of the Observational Medical Outcomes Partnership &#40;OMOP&#41;</h1>
+<p><strong>Date:</strong> July 28 2021</p>
+<p><strong>Summary:</strong> The origins of the observational medical outcomes partnership</p>
+<p><strong>Keywords:</strong> #omop #medical #outcomes #partnership #observational #archive</p>
+<h1>Bibliography</h1>
+<p>EHDEN Academy</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>The Observational Medical Outcomes Partnership &#40;OMOP&#41; was created in 2009 to reach consensus on data types, study designs, and privacy concerns while sharing data.</p>
+<p>The ground truth for OMOP investigations were positive and negative tests regarding drugs. Examples of positive controls were:</p>
+<pre><code class="language-julia">- Events on drug label warnings/precautions
+- If it was a causative agenda</code></pre>
+<p>Examples of negative controls were:</p>
+<pre><code class="language-julia">- Events not listed on drug labels
+- No powered studies with evidence of potential positive association</code></pre>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
   

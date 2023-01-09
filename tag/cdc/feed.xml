@@ -30,6 +30,45 @@
   <description>
     <![CDATA[  A small article on how the CDC&#39;s social vulnerability index was associated with heat-related morbidities in Georgia  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia</h1>
+<p><strong>Date:</strong> September 8 2022</p>
+<p><strong>Summary:</strong> A small article on how the CDC&#39;s social vulnerability index was associated with heat-related morbidities in Georgia</p>
+<p><strong>Keywords:</strong> ##bibliography #cdc #social #vulnerability #index #georgia #death #health  #archive</p>
+<h1>Bibliography</h1>
+<p>E. A. Lehnert, &quot;Spatial exploration of the CDC’s Social Vulnerability Index and heat-related health outcomes in Georgia,&quot; International Journal of Disaster Risk Reduction, p. 7, 2020.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Definitions</li><li>Social Vulnerability Index Calculations</li><li>Digression on Black Belt</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>I read this paper to find out more about the social vulnerability index and how it can be used in the state of Georgia. It wasn&#39;t particularly insightful although the discussion about calculating SVI for GA and its definition about social vulnerability was helpful.</p>
+<h3 id="definitions">Definitions</h3>
+<p>Social vulnerability is defined as the extent to which a community contains social characteristics that may affect the community&#39;s overall resilience &#40;18&#41;. It is affected by 	- Situational factors: Employment, Education, Income, Housing Type &#40;19, 20&#41; 	- Intrinsic factors: Age, Race, and Ethnicity &#40;19, 21&#41;</p>
+<h3 id="social_vulnerability_index_calculations">Social Vulnerability Index Calculations</h3>
+<p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index.md">See Note for Details</a></p>
+<h3 id="digression_on_black_belt">Digression on Black Belt</h3>
+<p>I never knew the term for this but historically, where African Americans were heavily enslaved is called the &quot;Black Belt&quot;. The authors found that high SVI and heat-related deaths were often found in these historical communities &#91;32&#93;.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +88,41 @@
   <description>
     <![CDATA[  An overview of the metric, Social Vulnerability Index, created by the Centers for Disease Control  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Social Vulnerability Index</h1>
+<p><strong>Date:</strong> September 8 2022</p>
+<p><strong>Summary:</strong> An overview of the metric, Social Vulnerability Index, created by the Centers for Disease Control</p>
+<p><strong>Keywords:</strong> ##summary #metric #social #vulnerability #index #svi #cdc  #archive</p>
+<h1>Bibliography</h1>
+<p>B. E. Flanagan, E. W. Gregory, E. J. Hallisey, J. L. Heitgerd, and B. Lewis, &quot;A social vulnerability index for disaster management,&quot; Journal of homeland security and emergency management, vol. 8, no. 1, 2011.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>SVI data can be retrieved from: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html</p>
+<p>For at least the 2000 version of SVI, the metric is derived from summed percentile rankings at census tract level of fifteen U.S. Census variables shown in the following table: </p>
+<table><tr><th align="left">SVI Theme</th><th align="left">Variables Included</th></tr><tr><td align="left">1. Socioeconomic Status</td><td align="left">&#37; Below Poverty Level</td></tr><tr><td align="left"></td><td align="left">&#37; Unemployed</td></tr><tr><td align="left"></td><td align="left">Per Capita Income</td></tr><tr><td align="left"></td><td align="left">&#37; Age 25 or Older with No High School</td></tr><tr><td align="left">2. Household Composition &amp;</td><td align="left">Diploma</td></tr><tr><td align="left">Disability</td><td align="left">&#37; Age 65 or Older</td></tr><tr><td align="left"></td><td align="left">&#37; Age 17 or Younger</td></tr><tr><td align="left">3. Minority Status &amp; Language</td><td align="left">&#37; Single Parent Household</td></tr><tr><td align="left"></td><td align="left">&#37; Age 5 or Older Speak English &quot;Less than</td></tr><tr><td align="left">4. Housing &amp; Transportation</td><td align="left">Well&quot;</td></tr><tr><td align="left"></td><td align="left">&#37; Multi-Unit Structures</td></tr><tr><td align="left"></td><td align="left">&#37; Mobile Homes</td></tr><tr><td align="left"></td><td align="left">&#37; Crowding &#40;More people than rooms&#41;</td></tr><tr><td align="left"></td><td align="left">&#37; Households without a Vehicle</td></tr><tr><td align="left"></td><td align="left">&#37; In Institutionalized Group Quarters</td></tr></table>
+<p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes.md">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
   
@@ -68,6 +142,93 @@
   <description>
     <![CDATA[  How population mobility was affected by US mandates for stay-at-home orders  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020</h1>
+<p><strong>Date:</strong> January 7 2021</p>
+<p><strong>Summary:</strong> How population mobility was affected by US mandates for stay-at-home orders</p>
+<p><strong>Keywords:</strong> ##bibliography #covid #population #dynamics #gtri #cdc #mmwr #dataset #agriculture #rural #urban #archive</p>
+<h1>Bibliography</h1>
+<p>A. Moreland et al., &quot;Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020,&quot; MMWR Morb. Mortal. Wkly. Rep., vol. 69, no. 35, pp. 1198–1203, Sep. 2020, doi: 10.15585/mmwr.mm6935a2.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Methods and Materials<ol><li>Classifying Stay-at-Home Orders</li><li>Determining Time Windows</li><li>Analyzing for Changes in Population Movement Patterns</li></ol></li><li>Discussion<ol><li>General Insights</li><li>Limitations of this analysis</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion</li></ol></div>
+<h3 id="methods_and_materials">Methods and Materials</h3>
+<p>Changes in population movement based on stay-at-home orders between March 1–May 31, 2020 given by all 50 states, the District of Columbia, and five U.S. territories were examined.</p>
+<h4 id="classifying_stay-at-home_orders">Classifying Stay-at-Home Orders</h4>
+<p>Coding of orders was based solely on the legal language in each state or territorial order. Stay-at-home orders were assigned a mutually exclusive category based on this language:</p>
+<ol>
+<li><p>All required &#40;language examples: persons &quot;shall,&quot; &quot;must,&quot; or &quot;are directed to&quot;&#41;</p>
+</li>
+<li><p>Applied to persons in specific jurisdictions&#39; locations &#40;language examples: persons &quot;shall,&quot; &quot;must,&quot; or &quot;are directed to&quot;&#41;</p>
+</li>
+<li><p>Required for individuals &gt; 65 years or with underlying conditions</p>
+</li>
+<li><p>Mandatory for individuals &gt; 65 years or with underlying conditions in specific jurisdictions&#39; locations</p>
+</li>
+<li><p>Not required but advised to stay home &#40;language examples: persons &quot;should,&quot; &quot;are encouraged to,&quot; or &quot;are urged to&quot;&#41;</p>
+</li>
+<li><p>Jurisdictions that did not issue an order were coded as having no state- or territory-issued order</p>
+</li>
+</ol>
+<h4 id="determining_time_windows">Determining Time Windows</h4>
+<p>Given a state &quot;s&quot; that issues a stay-at-home order at date &quot;t&quot;, pre- and post-order windows for each county, &quot;c&quot;, in a state can be defined. c&#39;s preorder window contains movement values, m, during the time period before, t. The postorder window contains m values during the time period after t. Each county&#39;s preorder window serves as a county- and COVID-specific baseline. Small time values observed during these periods reflect county-specific invariants and impacts of the pandemic on behavior in the absence of state- or territory-issued community mitigation policies. ***QUESTION:** What is a sufficiently small value of n-days &#40;or time period before and after t&#41;?* ***QUESTION:** What is a county-specific invariant?*</p>
+<p>Order index date types:</p>
+<ol>
+<li><p>Start of each state or territorial stay-at-home order for each jurisdiction&#39;s counties</p>
+</li>
+<li><p>Waning or end of each state or territorial stay-at-home order for each jurisdiction&#39;s counties</p>
+</li>
+<li><p>Date of the first state stay-at-home order</p>
+</li>
+<li><p>Date of the first termination of a state stay-at-home order</p>
+</li>
+</ol>
+<h4 id="analyzing_for_changes_in_population_movement_patterns">Analyzing for Changes in Population Movement Patterns</h4>
+<p>Counties were broken into rural-urban categories to ensure groupings of counties with similar population sizes. Box plots were constructed for each category to examine the distribution of county mean percentages of devices at home during the pre- and postorder periods associated with each index date. Movement values following a normal distribution was not assumed for all counties and periods.  A clustered Wilcoxon signed rank test was then performed, with counties as clusters, on the constituent counties&#39; median pre- and post-order values associated with each index date. A lower-tailed test was used for dates regarding the start of regional mandates. An upper-tailed test was used for dates recording the end of regional mandates. Strata-level statistical significance was assessed at the 99&#37; confidence level &#40;alpha &#61; 0.01&#41;. <em>Dataset used: <a href="https://jacobzelko.com/https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/documentation/">The U.S. Department of Agriculture&#39;s Rural-Urban Continuum Codes</a> are used to stratify counties in this analysis</em> <strong>QUESTION:</strong> What is a &quot;clustered Wilcoxon signed rank test&quot;?_</p>
+<p>Population movement was inferred via the percentage of individual devices reported each day that were home for each county. A 7-day rolling average was used to smooth each county&#39;s pre- and postorder time series values ***QUESTION:** I wonder how good a metric this observation serves as a proxy of measuring population movement?*</p>
+<h3 id="discussion">Discussion</h3>
+<h4 id="general_insights">General Insights</h4>
+<p>Regions which issued stay-at-home mandates saw general declines in population movement. At the same time as the first state relaxed their mandate, regions that had not relaxed their mandates saw increased population movement. Stay-at-home orders can reduce activities associated with community spread of COVID-19. This includes population movement and external person-to-person contact.</p>
+<h4 id="limitations_of_this_analysis">Limitations of this analysis</h4>
+<ol>
+<li><p>Device coverage correlates with US pop density.</p>
+</li>
+</ol>
+<p>However, certain regions or groups might be inequitably represented. ***QUESTION:** How does relative device coverage largely correlate with US pop density?*</p>
+<ol start="2">
+<li><p>People may have multiple mobile devices and might take any number of them when they leave home.</p>
+</li>
+<li><p>The clustered Wilcoxon signed rank test is used with counties as clusters.</p>
+</li>
+</ol>
+<p>This is because a county&#39;s median pre- and postorder values are paired comparisons. Possible spatial dependence between counties wasn&#39;t addressed.</p>
+<ol start="4">
+<li><p>The report does not account for nationwide protests affects on mobility patterns.</p>
+</li>
+<li><p>The only relationship analyzed was between stay-at-home orders and population movement.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion__2">Discussion</h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
   
@@ -87,6 +248,52 @@
   <description>
     <![CDATA[  Tracking contact between individuals of interest.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Contact Tracing</h1>
+<p><strong>Date:</strong> December 27 2020</p>
+<p><strong>Summary:</strong> Tracking contact between individuals of interest.</p>
+<p><strong>Keywords:</strong> ##zettel #cdc #contact #tracing #intervention #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Contact tracing is the identification, monitoring, and support of individuals who have been exposed to an infected person and were possibly infected. &#91;1&#93;</p>
+<p>Case investigation: identifying and investigating persons with confirmed and probable diagnoses. &#91;1&#93;</p>
+<p><strong>Close contact:</strong> any individual within 6 feet of an infected person for at least 15 minutes starting from 48 hours before the person began feeling sick until the time the patient is isolated.</p>
+<p>Steps for contact tracing:</p>
+<ol>
+<li><p>Case investigation: have patient recall everyone that they may have exposed themselves to while infectious.</p>
+</li>
+<li><p>Contact tracing: notify exposed individuals of their potential exposure, while preserving privacy</p>
+</li>
+<li><p>Contact support: Educate, inform, and support exposed persons about their risk, steps to protect others, and to watch for sickness illness.</p>
+</li>
+<li><p>Self-quarantine: Contacts are encouraged to stay home and maintain social distance from others until 14 days after their last exposure to the infected patient, in case they also become ill.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; Centers for Disease Control, “Contact Tracing - CDC’s Role and Approach.” 10-Aug-2020.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
   
@@ -106,6 +313,54 @@
   <description>
     <![CDATA[  Note on generic methods on preventing respiratory infection approved by the CDC.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>CDC Respiratory Disease Prevention</h1>
+<p><strong>Date:</strong> March 10 2020</p>
+<p><strong>Summary:</strong> Note on generic methods on preventing respiratory infection approved by the CDC.</p>
+<p><strong>Keywords:</strong> ##zettel #cdc #health #publichealth #disease #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>CDC always recommends everyday preventive actions to help prevent the spread of respiratory diseases, including:</p>
+<ul>
+<li><p>Avoid close contact with people who are sick.</p>
+</li>
+<li><p>Avoid touching your eyes, nose, and mouth.</p>
+</li>
+<li><p>Stay home when you are sick.</p>
+</li>
+<li><p>Cover your cough or sneeze with a tissue, then throw the tissue in the trash.</p>
+</li>
+<li><p>Clean and disinfect frequently touched objects and surfaces using a regular household cleaning spray or wipe.</p>
+</li>
+<li><p>Wash your hands often with soap and water for at least 20 seconds, especially after going to the bathroom; before eating; and after blowing your nose, coughing, or sneezing.</p>
+</li>
+<li><p>If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60&#37; alcohol. Always wash hands with soap and water if hands are visibly dirty.</p>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
   

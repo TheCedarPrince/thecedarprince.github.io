@@ -30,6 +30,57 @@
   <description>
     <![CDATA[  General principles on how to create and use a Zettelkasten.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Principles of the Zettelkasten</h1>
+<p><strong>Date:</strong> December 2 2022</p>
+<p><strong>Summary:</strong> General principles on how to create and use a Zettelkasten.</p>
+<p><strong>Keywords:</strong> ##zettel #zettelkasten #principles #atomicity #archive</p>
+<h1>Bibliography</h1>
+<p>Not available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ol>
+<li><p>&quot;Principle of Atomicity&quot; – each zettel should contain only one idea &#40;principle credited to Christian Tietze&#41;.</p>
+</li>
+<li><p>Each zettel should be self-contained and understandable as a standalone scrap of thought.</p>
+</li>
+<li><p>Link each zettel and explain why you are linking them together.</p>
+</li>
+<li><p>Reword gathered information in your own words &#40;unless if it is a verbatim quote or something&#41;.</p>
+</li>
+<li><p>Add references to each zettel.</p>
+</li>
+<li><p>Don&#39;t be afraid to add your own ideas to the Zettelkasten – embrace it.</p>
+</li>
+<li><p>Have no fear when it comes to organization – the order will arise organically in the Zettelkasten.</p>
+</li>
+<li><p>Never delete a zettel and don&#39;t worry too much about when you create zettels; the more information the better.</p>
+</li>
+<li><p>Don&#39;t overthink the Zettelkasten. Keep it simple and efficient.</p>
+</li>
+</ol>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
   

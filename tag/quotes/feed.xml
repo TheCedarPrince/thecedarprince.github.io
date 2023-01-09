@@ -30,6 +30,55 @@
   <description>
     <![CDATA[  A collection of favorite quotes from books and people.  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Famous Quotes</h1>
+<p><strong>Date:</strong> July 22 2020</p>
+<p><strong>Summary:</strong> A collection of favorite quotes from books and people.</p>
+<p><strong>Keywords:</strong> #knowledge #quotes #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Quotes Regarding Knowledge</li><li>Quotes Regarding Books</li><li>Quotes Regarding Fame</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="quotes_regarding_knowledge">Quotes Regarding Knowledge</h3>
+<blockquote>
+<p>&quot;There are known knowns; there are things we know that we know. There are known unknowns; that is to say, there are things that we now know we don’t know. But there are also unknown unknowns — there are things we do not know we don’t know.&quot; - Secretary of State, Donald Rumsfeld</p>
+</blockquote>
+<blockquote>
+<p>&quot;When you have eliminated the impossible, whatever remains, however improbable, must be the truth.&quot; - Sherlock Holmes, Sir Arthur Conan Doyle</p>
+</blockquote>
+<p>An inductive approach to knowledge that Sherlock Holmes takes to solve puzzles and problems.</p>
+<h3 id="quotes_regarding_books">Quotes Regarding Books</h3>
+<blockquote>
+<p>&quot;Dorian Gray had been poisoned by a book&quot; - Oscar Wilde, <a href="https://jacobzelko.com/04202022021854-picture-dorian-gray.md">The Picture of Dorian Gray</a></p>
+</blockquote>
+<p>This quote gets at how the influence of a book can corrupt an individual or push someone further to corruption. In Gray&#39;s case, he was already corrupted but the book further pushed him beyond what evil he was already capable of pursuing.</p>
+<h3 id="quotes_regarding_fame">Quotes Regarding Fame</h3>
+<blockquote>
+<p>&quot;For there is only one thing in the world worse than being talked about, and that is not being talked about.&quot; - Oscar Wilde, <a href="https://jacobzelko.com/04202022021854-picture-dorian-gray.md">The Picture of Dorian Gray</a></p>
+</blockquote>
+<p>When you attain fame, at least you are talked about – whether positively or negatively. But to not be talked about means no one even knows who you are.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>  
   

@@ -30,6 +30,64 @@
   <description>
     <![CDATA[  An overview on fiber products &#40;aka pullbacks&#41; and their features within category theory  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Fiber Products &#40;Pullbacks&#41;</h1>
+<p><strong>Date:</strong> October 30 2022</p>
+<p><strong>Summary:</strong> An overview on fiber products &#40;aka pullbacks&#41; and their features within category theory</p>
+<p><strong>Keywords:</strong> ##summary #fiber #product #pullback #category #theory  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics of a Fiber Product</li><li>Basics of the Pullback</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="reading_motivation">Reading Motivation</h3>
+<p>Pullbacks are a central part to category theory so naturally, I would like to know more about them&#33;</p>
+<h3 id="basics_of_a_fiber_product">Basics of a Fiber Product</h3>
+<p>Suppose we have the diagram of sets and functions:</p>
+<p>X -f-&gt; Z &lt;-g- Y</p>
+<p>Its fiber product is defined as:</p>
+\[
+X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
+\]
+<p>Which has two projection functions: </p>
+<ol>
+<li></li>
+</ol>
+\[
+    \pi_{1}: X {x}_{Z}Y \rightarrow X
+    \]
+<ol start="2">
+<li></li>
+</ol>
+\[
+    \pi_{2}: X {x}_{Z}Y \rightarrow Y
+    \]
+<p>How I would understand that, is by saying that</p>
+<h3 id="basics_of_the_pullback">Basics of the Pullback</h3>
+<p>Suppose we have the diagram of sets and functions:</p>
+<p>W -pi<em>&#123;1&#125;-&gt; X -f-&gt; Z &lt;-g- Y &lt;-pi</em>&#123;2&#125;- W</p>
+<p>The pullback of \(X\) and \(Y\) over \(Z\) is any set \(W\) for which we have an isomorphism W -approx-&gt; X &#123;x&#125;_&#123;Z&#125; Y.  In this case, \(W\) is the pullback.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>  
   

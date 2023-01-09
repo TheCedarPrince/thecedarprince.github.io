@@ -30,6 +30,40 @@
   <description>
     <![CDATA[  What Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and the pros and cons associated with its use  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;?</h1>
+<p><strong>Date:</strong> January 11 2022</p>
+<p><strong>Summary:</strong> What Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; is and the pros and cons associated with its use</p>
+<p><strong>Keywords:</strong> #biomarker #biology #physiology #health #blood #signal #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Condition Complications</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Peripheral Capillary Oxygen Saturation &#40;SpO2&#41; measures blood hemoglobin oxygen saturation.</p>
+<h3 id="condition_complications">Condition Complications</h3>
+<p>Lower resting SpO2 levels tend to be seen in persons with chronic pulmonary disease. Often, they will require oxygen to achieve a healthy SpO2 reading. &#91;1&#93;</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
   
@@ -49,6 +83,74 @@
   <description>
     <![CDATA[  What electrodermal activity is and its pros and cons as a biomarker  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Is Electrodermal Activity?</h1>
+<p><strong>Date:</strong> March 24 2020</p>
+<p><strong>Summary:</strong> What electrodermal activity is and its pros and cons as a biomarker</p>
+<p><strong>Keywords:</strong> ##zettel #biomarker #biology #physiology #health #signal #signalprocessing #stress  #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<p>Electrodermal activity &#40;EDA&#41; broadly refers to any electrical activity across the dermis of the skin &#40;the dermis being the outermost layer of the skin&#41;. Whenever the body experiences stress – this could be in the form of an ambient temperature change, physical activity, etc. – the sympathetic nervous system &#40;SNS&#41; increases sudomotor innervation, which leads to increases in EDA and sweating. The SNS is directly influenced by parts of the brain responsible for emotional response – the hypothalamus and limbic system. Because of this codependency, EDA is commonly used to study stress and other affective behavior &#40;mood, disorders, etc.&#41;.</p>
+<p>EDA has been used to study the following sort of conditions:</p>
+<ul>
+<li><p>Arousal in Emotion &#91;1&#93;</p>
+</li>
+<li><p>Attention &#91;2&#93;</p>
+</li>
+<li><p>Decision-making &#91;3&#93;</p>
+</li>
+<li><p>Pain &#91;4&#93;</p>
+</li>
+<li><p>Stress &#91;5&#93;</p>
+</li>
+<li><p>Autism &#91;6&#93;</p>
+</li>
+<li><p>Phobias &#91;7&#93;</p>
+</li>
+<li><p>Panic Disorder &#91;8&#93;</p>
+</li>
+<li><p>Attention Deficit Disorders &#91;9&#93;</p>
+</li>
+<li><p>Side Effects from Cancer Treatments &#91;10&#93;</p>
+</li>
+</ul>
+<p>The use cases of EDA is further explored by <em>Boucsein et. al.</em> in their book, <em>Electrodermal Activity</em>. &#91;11&#93;</p>
+<p>Furthermore, EDA is a generalization of the overall signal – in reality, this signal is often decomposed into <a href="https://jacobzelko.com/04092020162632-skin-response.md">Skin Conductance Response &#40;SCR&#41;</a> and <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">Skin Conductance Level &#40;SCL&#41;</a>.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<p>&#91;1&#93; M. M. Bradley and P. J. Lang, “Emotion and motivation.” 2007.</p>
+<p>&#91;2&#93; M. M. Bradley, “Natural selective attention: Orienting and emotion,” Psychophysiology, vol. 46, no. 1, pp. 1–11, 2009.</p>
+<p>&#91;3&#93; A. Bechara, H. Damasio, A. R. Damasio, and G. P. Lee, “Different contributions of the human amygdala and ventromedial prefrontal cortex to decision-making,” J. Neurosci., vol. 19, no. 13, pp. 5473–5481, 1999.</p>
+<p>&#91;4&#93; S. Geuter, M. Gamer, S. Onat, and C. Büchel, “Parametric trial-by-trial prediction of pain by easily available physiological measures,” PAIN®, vol. 155, no. 5, pp. 994–1001, 2014.</p>
+<p>&#91;5&#93; T. Reinhardt, C. Schmahl, S. Wüst, and M. Bohus, “Salivary cortisol, heart rate, electrodermal activity and subjective stress responses to the Mannheim Multicomponent Stress Test &#40;MMST&#41;,” Psychiatry Res., vol. 198, no. 1, pp. 106–111, 2012.</p>
+<p>&#91;6&#93; E. B. Prince et al., “The relationship between autism symptoms and arousal level in toddlers with autism spectrum disorder, as measured by electrodermal activity,” Autism, vol. 21, no. 4, pp. 504–508, 2017.</p>
+<p>&#91;7&#93; F. H. Wilhelm and W. T. Roth, “Taking the laboratory to the skies: Ambulatory assessment of self-report, autonomic, and respiratory responses in flying phobia,” Psychophysiology, vol. 35, no. 5, pp. 596–606, 1998.</p>
+<p>&#91;8&#93; A. E. Meuret et al., “Do unexpected panic attacks occur spontaneously?” Biol. Psychiatry, vol. 70, no. 10, pp. 985–991, 2011.</p>
+<p>&#91;9&#93; R. G. O’Connell, M. A. Bellgrove, P. M. Dockree, and I. H. Robertson, “Reduced electrodermal response to errors predicts poor sustained attention performance in attention deficit hyperactivity disorder,” Neuroreport, vol. 15, no. 16, pp. 2535–2538, 2004.</p>
+<p>&#91;10&#93; M.-H. Savard, J. Savard, A. Caplette-Gingras, H. Ivers, and C. Bastien, “Relationship between objectively recorded hot flashes and sleep disturbances among breast cancer patients: Investigating hot flash characteristics other than frequency,” Menopause, vol. 20, no. 10, pp. 997–1005, 2013.</p>
+<p>&#91;11&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>  
   

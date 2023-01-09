@@ -30,6 +30,49 @@
   <description>
     <![CDATA[  Origins of OHDSI initiative  ]]>
   </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Observational Health Data Sciences and Informatics &#40;OHDSI&#41; Origins</h1>
+<p><strong>Date:</strong> July 28 2021</p>
+<p><strong>Summary:</strong> Origins of OHDSI initiative</p>
+<p><strong>Keywords:</strong> #ohdsi #origins #archive</p>
+<h1>Bibliography</h1>
+<p>EHDEN Academy</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<ul>
+<li><p>Was formed by <a href="https://jacobzelko.com/07282021181744-origins-omop.md">OMOP</a></p>
+</li>
+<li><p>Based out of Columbia University</p>
+</li>
+</ul>
+<pre><code class="language-julia">- Rose out of distrust with pharma-funded institutions</code></pre>
+<ul>
+<li><p>International initiative for interdisciplinary, observational-based problem solving</p>
+</li>
+</ul>
+<p>It has a clearly defined set of <a href="https://jacobzelko.com/07282021185354-ohdsi-goals.md">goals</a> to encourage international collaboration on observational health research.</p>
+<h2 id="references">References</h2>
+<h2 id="references__2">References</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
   
