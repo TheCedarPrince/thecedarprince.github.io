@@ -340,7 +340,6 @@ body {
 ================================================================== */
 
 code {
-    background-color: var(--block-background);
     padding: 0.1em 0.2em;
     border-radius: 2px;
     font-size: var(--small);
@@ -406,10 +405,12 @@ code {
     DARKMODE STYLING
 ================================================================== */
 
-/*TODO: FIX NAVBAR STYLING*/
-/*TODO: FIX BLOCKQUOTE STYLING*/
-/*TODO: FIX LIST BACKGROUND STYLING*/
+/* 
 
+NOTE: The following settings copy the Gruvbox style (dark) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox) design -- additionally, credit to Fredrik Ekre for this Franklin adaptation.
+
+*/
+ 
 .darkmode--activated p,
 .darkmode--activated h1,
 .darkmode--activated h2,
@@ -422,16 +423,109 @@ code {
     color: #ECEFF4;
 }
 
+.darkmode--activated .hljs,
+.darkmode--activated .hljs-subst {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282828;
+  color: #ebdbb2;
+}
+
+/* Gruvbox Red */
+.darkmode--activated .hljs-deletion,
+.darkmode--activated .hljs-formula,
+.darkmode--activated .hljs-keyword,
+.darkmode--activated .hljs-link,
+.darkmode--activated .hljs-selector-tag {
+  color: #fb4934;
+}
+
+/* Gruvbox Blue */
+.darkmode--activated .hljs-built_in,
+.darkmode--activated .hljs-emphasis,
+.darkmode--activated .hljs-name,
+.darkmode--activated a,
+.darkmode--activated .hljs-quote,
+.darkmode--activated .hljs-strong,
+.darkmode--activated .hljs-title,
+.darkmode--activated .hljs-variable {
+  color: #83a598;
+}
+
+/* Gruvbox Yellow */
+.darkmode--activated .hljs-attr,
+.darkmode--activated .hljs-params,
+.darkmode--activated .hljs-template-tag,
+.darkmode--activated .hljs-type {
+  color: #fabd2f;
+}
+
+/* Gruvbox Purple */
+.darkmode--activated .hljs-builtin-name,
+.darkmode--activated .hljs-doctag,
+.darkmode--activated .hljs-literal,
+.darkmode--activated .hljs-number {
+  color: #8f3f71;
+}
+
+/* Gruvbox Orange */
+.darkmode--activated .hljs-code,
+.darkmode--activated .hljs-meta,
+.darkmode--activated .hljs-regexp,
+.darkmode--activated .hljs-selector-id,
+.darkmode--activated .hljs-template-variable {
+  color: #fe8019;
+}
+
+/* Gruvbox Green */
+.darkmode--activated .hljs-addition,
+.darkmode--activated .hljs-meta-string,
+.darkmode--activated .hljs-section,
+.darkmode--activated .hljs-selector-attr,
+.darkmode--activated .hljs-selector-class,
+.darkmode--activated .hljs-string,
+.darkmode--activated .hljs-symbol {
+  color: #b8bb26;
+}
+
+/* Gruvbox Aqua */
+.darkmode--activated .hljs-attribute,
+.darkmode--activated .hljs-bullet,
+.darkmode--activated .hljs-class,
+.darkmode--activated .hljs-function,
+.darkmode--activated .hljs-function .hljs-keyword,
+.darkmode--activated .hljs-meta-keyword,
+.darkmode--activated .hljs-selector-pseudo,
+.darkmode--activated .hljs-tag {
+  color: #8ec07c;
+}
+
+/* Gruvbox Gray */
+.darkmode--activated .hljs-comment {
+  color: #928374;
+}
+
+/* Gruvbox Purple */
+.darkmode--activated .hljs-link_label,
+.darkmode--activated .hljs-literal,
+.darkmode--activated .hljs-number {
+  color: #d3869b;
+}
+
+.darkmode--activated .hljs-comment,
+.darkmode--activated .hljs-emphasis {
+  font-style: italic;
+}
+
+.darkmode--activated .hljs-section,
+.darkmode--activated .hljs-strong,
+.darkmode--activated .hljs-tag {
+  font-weight: bold;
+}
+
 .darkmode--activated blockquote {
-    background-color: #2E3440;
-}
-
-.darkmode--activated ul {
-    background-color: #2E3440;
-}
-
-.darkmode--activated a {
-    color: #81A1C1
+    background-color: #282828;
 }
 
 .darkmode-toggle {
