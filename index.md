@@ -5,11 +5,15 @@ tags = ["home", "about"]
 
 # Hello! | ¡Hola! | Hallo! | !مرحبا
 
+![center-aligned-image](/assets/rounded_profile_reduced.png)
+
+---
+
 \toc
 
 ---
 
-### About Me, Jacob S. Zelko -- Welcome to _the cedar ledge_! :wave:
+### About Me, Jacob S. Zelko -- welcome to _the cedar ledge_! :wave:
 
 <!--TODO: Update my CV - convert to Markdown with pandoc filter?-->
 <!--TODO: Add CV page-->
