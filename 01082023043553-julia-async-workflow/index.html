@@ -95,7 +95,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li><a href="#motivation">Motivation</a></li><li><a href="#set-up">Set-Up</a></li><li><a href="#simple_workflow_process">Simple Workflow Process</a><ol><li><a href="#blocking_workflow">Blocking Workflow</a></li><li><a href="#asynchronous_workflow">Asynchronous Workflow</a></li></ol></li><li><a href="#asynchronous_workflow_for_literate_programming">Asynchronous Workflow for Literate Programming</a></li><li><a href="#conclusion">Conclusion</a></li></ol></li><li><a href="#references">References</a></li><li><a href="#references__2">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li><a href="#motivation">Motivation</a></li><li><a href="#set-up">Set-Up</a></li><li><a href="#simple_workflow_process">Simple Workflow Process</a><ol><li><a href="#blocking_workflow">Blocking Workflow</a></li><li><a href="#asynchronous_workflow">Asynchronous Workflow</a></li></ol></li><li><a href="#asynchronous_workflow_for_literate_programming">Asynchronous Workflow for Literate Programming</a></li><li><a href="#conclusion">Conclusion</a></li></ol></li><li><a href="#how_to_cite">How To Cite</a></li><li><a href="#references">References:</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
 <h3 id="motivation"><a href="#motivation" class="header-anchor">Motivation</a></h3>
 <p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="/https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="/https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
 <h3 id="set-up"><a href="#set-up" class="header-anchor">Set-Up</a></h3>
@@ -132,7 +132,7 @@
 </blockquote>
 <h3 id="simple_workflow_process"><a href="#simple_workflow_process" class="header-anchor">Simple Workflow Process</a></h3>
 <p>There are two ways to start this workflow.  One blocking &#40;i.e. you cannot use the Julia REPL while working&#41; and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:</p>
-<p><img src="../assets/01082023043553-watching-example.gif" alt="" /></p>
+<p><img src="assets/01082023043553-watching-example.gif" alt="" /></p>
 <h4 id="blocking_workflow"><a href="#blocking_workflow" class="header-anchor">Blocking Workflow</a></h4>
 <p>This creates a synchronous task in your Julia REPL that can then run whatever command you want while you monitor a specific file &#40;or folder&#41;. In this case, I am making the task print a statement that says “Change Detected&#33;” to my REPL whenever there is a change in the file called “tmp.jmd”.</p>
 <pre><code class="julia hljs"><span class="hljs-keyword">using</span> FileWatching
@@ -153,7 +153,7 @@
 <p>From here, you could then still interact with this REPL while this task is running in the background. Furthermore, you can change the line that says <code>println&#40;&quot;Change Detected&#33;&quot;&#41;</code> to whatever command &#40;or commands&#41; you want to trigger.</p>
 <h3 id="asynchronous_workflow_for_literate_programming"><a href="#asynchronous_workflow_for_literate_programming" class="header-anchor">Asynchronous Workflow for Literate Programming</a></h3>
 <p>This workflow allows one to work with a Julia Markdown document with <code>Weave.jl</code> to preview your work in real time.  There a few steps to start the workflow but here is how it looks when in operation:</p>
-<p><img src="../assets/01082023043553-weave-example.gif" alt="" /></p>
+<p><img src="assets/01082023043553-weave-example.gif" alt="" /></p>
 <p>First, execute the following snippet in your Julia REPL to start the asynchronous process to watch for changes and tell Julia to weave the file we will modify:</p>
 <pre><code class="julia hljs"><span class="hljs-keyword">using</span> FileWatching
 <span class="hljs-keyword">using</span> Weave
@@ -189,8 +189,9 @@ This is a Julia Markdown file.
 <p>Feel free to play around with this more and see the dynamism of the workflow&#33; I tend to do this when I am iteratively developing reports within Julia and want to tinker within the REPL at the same time I am creating documents. Having to wait for rendering <code>Weave.jl</code> documents and the like was a pain and this took the pain away.</p>
 <h3 id="conclusion"><a href="#conclusion" class="header-anchor">Conclusion</a></h3>
 <p>I hope you appreciated this post&#33; If you have any suggestions, comments, or additional workflows this could be used for, please comment below.  May your Julia sessions now be even more supercharged&#33;</p>
-<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
-<h2 id="references__2"><a href="#references__2" class="header-anchor">References</a></h2>
+<h2 id="how_to_cite"><a href="#how_to_cite" class="header-anchor">How To Cite</a></h2>
+<p>Zelko, Jacob. <em>Asynchronous Workflow Using Julia Tutorial</em>. <a href="https://jacobzelko.com/01082023043553-julia-async-workflow">https://jacobzelko.com/01082023043553-julia-async-workflow</a>. January 7 2023.</p>
+<h2 id="references"><a href="#references" class="header-anchor">References:</a></h2>
 <h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
