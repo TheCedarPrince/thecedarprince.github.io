@@ -132,9 +132,9 @@ end
 #### Output
 
 ![median_filter](/04252020025710.png)
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Median Filtering_. [https://jacobzelko.com/04252020024813-median-filtering](https://jacobzelko.com/04252020024813-median-filtering). April 25 2020.
 ## References
 ## Discussion: 
 

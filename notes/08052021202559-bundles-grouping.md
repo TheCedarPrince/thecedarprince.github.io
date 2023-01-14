@@ -30,9 +30,9 @@ Table of Contents
 \toc
 
 Bundles are when you group together medical services to a single price. Often, these bundles proprietary to vendors. To patients, the advantage to this is knowing where costs break down and to find who is charging the least. - Megan Denham
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _What Are Bundles or Groups?_. [https://jacobzelko.com/08052021202559-bundles-grouping](https://jacobzelko.com/08052021202559-bundles-grouping). August 5 2021.
 ## References:
 ## Discussion: 
 

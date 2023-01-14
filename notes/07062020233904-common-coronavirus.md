@@ -42,9 +42,9 @@ All human coronaviruses have been reported worldwide. Infections occur throughou
 Coronavirae are a common cause of the cold, causing about 2–10% infections across the world. Infections in adults usually experience symptoms of rhinitis, sore throat and sometimes coughing. Asthma, chronic bronchitis, and chronic lung disease sufferers may experience a worsening of underlying illness from coronavirus. [2]
 
 Coronavirus is acquired via air-borne particles (fecal matter, droplets, etc.) upon inhalation by an individual. The coronavirus enters the respiratory system. From there, it multiplies in the epithelial cells of the upper respiratory tract. It then spreads to the lower respiratory tract. [2]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Information about Common Coronaviruses_. [https://jacobzelko.com/07062020233904-common-coronavirus](https://jacobzelko.com/07062020233904-common-coronavirus). July 6 2020.
 ## References
 
 [1] J. S. M. Peiris, “Coronaviruses,” in Medical Microbiology, Elsevier, 2012, pp. 587–593.

@@ -54,9 +54,9 @@ Only a few data fields are common across different EHRs. Most phenotype definiti
   * Laboratory tests.
 
 EHRs will use ICD-10 codes for diagnoses and potentially SNOMED-CT codes for problem lists and other aspects of EHRs.  EHRs also consist of free form text where Natural Language Processing could be of use. [5] ICD-9-CM diagnosis codes can be found in technical billing, professional billing, and/or problem lists.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Electronic Health Records_. [https://jacobzelko.com/01082021031034-electronic-health-records](https://jacobzelko.com/01082021031034-electronic-health-records). January 7 2021.
 ## References
 
 [1] R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.

@@ -36,9 +36,9 @@ Functional connectivity is usually measured during resting state [fMRI](/1228202
   * Correlation
   * Coherence
   * Spatial grouping
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Functional Connectivity_. [https://jacobzelko.com/12282020004327-functional-connectivity](https://jacobzelko.com/12282020004327-functional-connectivity). December 27 2020.
 ## References
 
 [1] B. Biswal, F. Z. Yetkin, V. M. Haughton, and J. S. Hyde, “Functional connectivity in the motor cortex of resting human brain using echo-planar MRI,” Magn Reson Med, vol. 34, no. 4, pp. 537–541, Oct. 1995, doi: 10.1002/mrm.1910340409.

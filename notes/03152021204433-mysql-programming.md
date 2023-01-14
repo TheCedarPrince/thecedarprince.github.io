@@ -90,9 +90,9 @@ SELECT * FROM table WHERE last_name LIKE '%Smith';
 ```sql
 SELECT * FROM table WHERE date LIKE '____-10%';
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Learning MySQL_. [https://jacobzelko.com/03152021204433-mysql-programming](https://jacobzelko.com/03152021204433-mysql-programming). March 15 2021.
 ## References
 ## Discussion: 
 

@@ -38,9 +38,9 @@ A study by New York State concluded nursing home workers were likely the main so
 Geolocation data from 501,503 smartphones was observed in at least one nursing home across the US.5.1% who spend > 1hr in a nursing home were found to spend > 1 hr in at least one other nursing home. Directly followed the 11-week period after the March 13th nationwide restriction on nursing home visitors.
 
 Staff working across multiple nursing homes locations were three times likely to be infected than single home staff. [3]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Nursing Home Staff Networks and COVID-19_. [https://jacobzelko.com/01072021061204-nursing-home-staff](https://jacobzelko.com/01072021061204-nursing-home-staff). January 7 2021.
 ## References
 
 [1] C. H. Van Houtven, N. DePasquale, and N. B. Coe, “Essential long-term care workers commonly hold second jobs and double-or triple-duty caregiving roles,” J. Am. Geriatr. Soc., 2020.

@@ -30,9 +30,9 @@ Table of Contents
 \toc
 
 Primary to treating SARS-CoV was the use of ventilator machines. Treatments such as steroidals remain controversial regarding their effect on SARS patients. [1]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Treatments for SARS-CoV_. [https://jacobzelko.com/07122020195122-sars-cov-treatments](https://jacobzelko.com/07122020195122-sars-cov-treatments). July 12 2020.
 ## References
 
 [1] S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.

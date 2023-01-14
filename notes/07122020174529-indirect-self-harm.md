@@ -34,9 +34,9 @@ Table of Contents
 Indirect self-harm (ISH) is conceptually different from [direct self-harm](/07122020185239-direct-self-harm.md) (DSH). Generally, ISH is an expression of centering oneself. It is a way to control one's feelings or to exact punishment. [2] As such, ISH can be a coping mechanism to handle emotional anguish, rage and frustration. [1] Some use it as a means to lower tension [3].
 
 Eating disorders have the highest mortality rate of all mental illnesses. [4] For women aged 15-24, mortality rates related to Anorexia are 12 times greater than other mortality rates. [5] As such, the eating disorder community is generally the most prolific indirect self-harm community. A majority of the literature about  indirect self-harm literature is centered around it [6]–[9]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Indirect Self Harm_. [https://jacobzelko.com/07122020174529-indirect-self-harm](https://jacobzelko.com/07122020174529-indirect-self-harm). July 12 2020.
 ## References
 
 [1] S. A. S. Germain and J. M. Hooley, “Direct and indirect forms of non-suicidal self-injury: Evidence for a distinction,” Psychiatry Res., vol. 197, no. 1–2, pp. 78–84, 2012.

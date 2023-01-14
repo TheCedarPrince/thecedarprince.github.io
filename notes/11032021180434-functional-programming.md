@@ -37,9 +37,9 @@ The approach of asking programming questions that functional programmers take is
 2. When implementing Conway's Game of Life, they would ruminate on the meaning of life.
 
 To a functional programmer, the essence of programming, per Milewski, is to take big problems and decompose them into smaller problems. Then create small solutions that can then be composed together to solve the big problem. [1]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Functional Programming_. [https://jacobzelko.com/11032021180434-functional-programming](https://jacobzelko.com/11032021180434-functional-programming). November 3 2021.
 ## References:
 
 [1] B. Milewski, Category Theory for Programmers, Version v1.3.0-0-g6bb0bc0. 2019.

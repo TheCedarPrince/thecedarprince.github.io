@@ -34,9 +34,9 @@ Hadamard division is also known as element wise division. When two matrices, $A$
 C*{i, j} = \frac{A*{i, j}}{B_{i, j}}:$
 
 Where $i$ and $j$ refer to the row and column of that particular matrix and $C$ is the result of that operation.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Hadamard Division (Elementwise Division)_. [https://jacobzelko.com/06252021233252-hadamard-division](https://jacobzelko.com/06252021233252-hadamard-division). June 25 2021.
 ## References:
 ## Discussion: 
 

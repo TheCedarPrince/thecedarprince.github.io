@@ -37,9 +37,9 @@ See links:
 
   * https://sites.pitt.edu/~jdnorton/papers/AE*1905*Tsinghua.pdf
   * https://sites.pitt.edu/~jdnorton/teaching/HPS*0410/chapters/Special*relativity*rel*sim/index.html
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Relativity of Simultaneity_. [https://jacobzelko.com/12242022211924-simultaneity-relativity](https://jacobzelko.com/12242022211924-simultaneity-relativity). December 24 2022.
 ## References
 ## Discussion: 
 

@@ -83,9 +83,9 @@ This was a systematic review of the state of telehealth using literature.
 	- Worst for the elderly
 		- Only 58% of persons > 65 years old use Internet [8]
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _State of Telehealth_. [https://jacobzelko.com/05022022144808-state-of-telehealth](https://jacobzelko.com/05022022144808-state-of-telehealth). May 2 2022.
 ## References:
 
 [1] Merritt Hawkins, “Physician Appointment Wait Times and Medicaid and Medicare Acceptance Rates,” Merritt Hawkins, 2014.

@@ -37,9 +37,9 @@ Table of Contents
   * [Median Filtering](/04252020024813-median-filtering.md)
 
       * **Summary:** An overview on how to use and implement a median filter
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Artifact Removal Methods_. [https://jacobzelko.com/03272020062857-artifact-removal](https://jacobzelko.com/03272020062857-artifact-removal). March 27 2020.
 ## References
 ## Discussion: 
 

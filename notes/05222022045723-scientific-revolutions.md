@@ -36,9 +36,9 @@ According to Kuhn, these crises are the requirements for a new paradigm to come 
 Kuhn was very particular in invoking the term "revolution". He related the phrase "scientific revolution" analogously to a political revolution. In the same way that a political revolution is often fomented when a political body fails to serve adequately the growing body of its populace, so too are the grounds set for a scientific revolution.
 
 Although a paradigm may shift how one does science, the world itself does not change. Rather, the way we view and operate in the world does. For the adoptees of a new paradigm, the adoptee must say something to the effect of "I once understood X to be Y, but I was mistaken" and in doing so admit a form of error in looking at reality.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Scientific Revolutions_. [https://jacobzelko.com/05222022045723-scientific-revolutions](https://jacobzelko.com/05222022045723-scientific-revolutions). May 22 2022.
 ## References:
 ## Discussion: 
 

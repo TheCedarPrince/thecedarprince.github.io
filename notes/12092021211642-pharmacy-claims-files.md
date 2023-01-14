@@ -32,9 +32,9 @@ Table of Contents
 A type of data file composed of service level payment info such as: 	- Member demographics 	- Provider info 	- Charge/Payment/Allowed info 	- National drug codes 	- Procedure codes 
 
 This comes from non-denied adjudicated claims for each billed service.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Pharmacy Claims Files_. [https://jacobzelko.com/12092021211642-pharmacy-claims-files](https://jacobzelko.com/12092021211642-pharmacy-claims-files). December 9 2021.
 ## References:
 ## Discussion: 
 

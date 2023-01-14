@@ -63,9 +63,9 @@ However, these four issues are not considered as such strong impediments to the 
 **Lag effects** are believed to occur when performance on a memory task improves as the number of intervening items between successive presentations increases.
 
 **Jost's Law:** If two memories are equal in how well they were learned but at differing times, the older memory will gain more out of a review than the new one. [1]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _A Case Study in the Failure to Apply the Results of Psychological Research_. [https://jacobzelko.com/06082020234244-dempster-critique](https://jacobzelko.com/06082020234244-dempster-critique). June 8 2020.
 ## References
 
 [1] J. A. McGeoch, “The psychology of human learning.” 1942.

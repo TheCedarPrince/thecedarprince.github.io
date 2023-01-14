@@ -36,9 +36,9 @@ The way sliding window analysis works is to analyze each voxel across an axis an
 ![](11302020062728.png)
 
 As shown in the above picture, the algorithm then continues this process until the array determined by the `x` and `y` dimensions of the cube, in this case a `(3, 3)` array, is filled.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Sliding Window Analysis_. [https://jacobzelko.com/11302020054836-sliding-window-analysis](https://jacobzelko.com/11302020054836-sliding-window-analysis). November 30 2020.
 ## References:
 ## Discussion: 
 

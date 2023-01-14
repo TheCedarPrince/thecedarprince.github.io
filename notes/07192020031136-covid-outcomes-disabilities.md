@@ -42,9 +42,9 @@ Residential group homes are required to complete a COVID-19 screen and temperatu
 IDD individuals experience health disparities and high prevalence of comorbidities. [2] Many of which areassociated with more severe COVID19 outcomes. [3], [4] There is a paucity of IDD health research. [5], [6] Furthermore, the CDC only issued COVID-19 guidance relevant to this population in late May. *RQ: That's absurd how long it took the CDC to issue guidelines about this population. I wonder if WHO has issued any guidelines related to individuals with IDD?*
 
 There may be increased risk from COVID-19 for individuals living in congregate care settings due to difficulty in maintaining physical distancing. [7]–[9] It is estimated that 13% of IDD adults reside in congregate care settings, [10] with shared use of essential living spaces, closeproximity to others, high levels of personal care assistancefrom staff, and multiple shift staffing patterns. [11]  *RQ: It seems like the authors are insinuating that individauls with IDD are at increased risk for COVID19 due to group care facilities.  Not so much biologic dysfunction. However, I think they say later there is biologic concern.*
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State_. [https://jacobzelko.com/07192020031136-covid-outcomes-disabilities](https://jacobzelko.com/07192020031136-covid-outcomes-disabilities). July 18 2020.
 ## References
 
 [1] Office for People with Developmental Disabilities, “Revised Staffing Guidance for Management of COVID-19,” 12-Jun-2020. [Online]. Available: https://opwdd.ny.gov/system/files/documents/2020/06/6.12.2020-opwdd*covid19*staffguidance_updated-symptoms.pdf. [Accessed: 14-Jul-2020].

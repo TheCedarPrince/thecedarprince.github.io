@@ -41,9 +41,9 @@ id :: a -> a
 -- Definition of the function
 id x = x
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Prelude - Haskell's Standard Library_. [https://jacobzelko.com/11032021171123-prelude-haskell-library](https://jacobzelko.com/11032021171123-prelude-haskell-library). November 3 2021.
 ## References:
 ## Discussion: 
 

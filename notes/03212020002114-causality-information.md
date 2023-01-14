@@ -57,9 +57,9 @@ Topically a JITR could watch you begin searching for allergies on a computer. Im
 Instead, a causal agent might function similarly at first but instead of giving you a list of allergies, gives you more concise information. The causal agent infers, based on some history it has of you, you are worried if you should take your allergy medication that day. Instead, the agent just gives you information on pollen levels throughout the week based on local weather reports.
 
 Though one can argue that there is guessing at place in either situation I think the latter proves far more effective than the former approach.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Causality and Information Retrieval_. [https://jacobzelko.com/03212020002114-causality-information](https://jacobzelko.com/03212020002114-causality-information). March 21 2020.
 ## References
 
 [1] B. J. Rhodes and P. Maes, “Just-in-time information retrieval agents,” IBM Syst. J., vol. 39, no. 3.4, pp. 685–704, 2000, doi: 10.1147/sj.393.0685.

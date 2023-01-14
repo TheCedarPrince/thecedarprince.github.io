@@ -64,9 +64,9 @@ Intersectional vulnerable populations (e.g. those living with disability, povert
 - Poor and overcrowded housing
 - Could be impossible to adhere to COVID-19 safety policies
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _COVID-19 and the other pandemic: populations made vulnerable by systemic inequity_. [https://jacobzelko.com/09082022132448-covid-systemic-inequity](https://jacobzelko.com/09082022132448-covid-systemic-inequity). September 8 2022.
 ## References:
 ## Discussion: 
 

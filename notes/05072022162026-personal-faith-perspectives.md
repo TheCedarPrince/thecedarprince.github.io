@@ -81,9 +81,9 @@ to judge the living and the dead and his kingdom will have no end.
 To leave off, please note: I am not a perfect Christian. No one is or can be. I try to follow God with confident steps; oftentimes, it looks more like a faltering walk. Yet, by the grace of God, I have courage that each day can be better and I can show Christ's love to others not through faux perfection of arrogance but the ordinary efforts of a common man with an extraordinary Savior.
 
 *Solil Deo Gloria – To God Alone Be the Glory.*
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Personal Perspectives on Faith_. [https://jacobzelko.com/05072022162026-personal-faith-perspectives](https://jacobzelko.com/05072022162026-personal-faith-perspectives). May 7 2022.
 ## References:
 ## Discussion: 
 

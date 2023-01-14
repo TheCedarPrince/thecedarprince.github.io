@@ -42,9 +42,9 @@ Phase I of initial showing of SARS-CoV symptoms [1]:
 Phase 2 (3 - 7 days after initial symptoms) Characterized by cough and shortness of breath. Hypoxia can develop in individuals and relative lymphopenia and neutropenia is possible. [1]
 
 Some patients showed a biphasic course, with apparent recovery followed by worsening of the clinical condition. Mortality was highest in the elderly and lowest in the younger population, and co-existing illness worsened morbidity and mortality. Upwards of 10 - 20% of cases needed ventilation. [1]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _SARS Coronavirae_. [https://jacobzelko.com/07062020234546-sars-coronavirus](https://jacobzelko.com/07062020234546-sars-coronavirus). July 6 2020.
 ## References
 
 [1] S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.

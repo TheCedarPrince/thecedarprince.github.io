@@ -40,9 +40,9 @@ Entropy Equation:
 $$
 S = \frac{log(A)}{log(B)}
 $$
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Multiscale Entropy_. [https://jacobzelko.com/10082020005615-multiscale-entropy](https://jacobzelko.com/10082020005615-multiscale-entropy). October 7 2020.
 ## References
 ## Discussion: 
 

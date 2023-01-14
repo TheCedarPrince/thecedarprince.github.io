@@ -30,9 +30,9 @@ Table of Contents
 \toc
 
 Positron Emission Tomography (PET) scanners use radioactive marker signals in brain tissue to show activity. [1]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Positron Emission Tomography (PET)_. [https://jacobzelko.com/12282020161408-positron-emission-tomography](https://jacobzelko.com/12282020161408-positron-emission-tomography). December 28 2020.
 ## References
 
 [1] R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.

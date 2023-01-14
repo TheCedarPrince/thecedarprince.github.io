@@ -92,9 +92,9 @@ Let $v = \begin{bmatrix} 1\\ 1 \end{bmatrix}$, $w = \begin{bmatrix} 2\\ 3 \end{b
 $$
 cv + dw = 1\begin{bmatrix} 1\\ 1 \end{bmatrix} + 1\begin{bmatrix} 2\\ 3 \end{bmatrix} = \begin{bmatrix} 3\\ 4 \end{bmatrix}
 $$
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Linear Combination_. [https://jacobzelko.com/05132020134039-linear-combination](https://jacobzelko.com/05132020134039-linear-combination). May 13 2020.
 ## References
 ## Discussion: 
 

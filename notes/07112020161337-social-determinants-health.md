@@ -151,9 +151,9 @@ Social structure affects an individual via three primary influences:
 One example is a study of children at orphanages:
 
 Under the same food conditions, children in the ‘Bienenhaus' orphanage under the control of a stern Fraülein Schwarz, gained less weight and grew slowly. This opposite to children under the care of the affectionate Fraülein Grün at the ‘Vogelnest' orphanage.  Schwarz replaced Grün during the study at ‘Vogelnest' and growth rates were subsequently reversed. This controlled cross-over study provides evidence that adverse psychosocial circumstances in childhood can influence growth. [11]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Social Determinants of Health_. [https://jacobzelko.com/07112020161337-social-determinants-health](https://jacobzelko.com/07112020161337-social-determinants-health). July 11 2020.
 ## References
 
 [1] J. Siegrist, “Adverse health effects of high-effort/low-reward conditions.” J. Occup. Health Psychol., vol. 1, no. 1, p. 27, 1996.

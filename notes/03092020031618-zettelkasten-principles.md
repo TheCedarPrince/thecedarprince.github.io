@@ -38,9 +38,9 @@ Table of Contents
 7. Have no fear when it comes to organization – the order will arise organically in the Zettelkasten.
 8. Never delete a zettel and don't worry too much about when you create zettels; the more information the better.
 9. Don't overthink the Zettelkasten. Keep it simple and efficient.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Principles of the Zettelkasten_. [https://jacobzelko.com/03092020031618-zettelkasten-principles](https://jacobzelko.com/03092020031618-zettelkasten-principles). December 2 2022.
 ## References:
 ## Discussion: 
 

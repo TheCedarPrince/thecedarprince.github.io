@@ -44,9 +44,9 @@ Negative factors associated with quitting [1]:
   * Greater tension (stress)
   * Smoking-related medical conditions
   * Previous use of two or more quitting programs
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Predictors and Factors Affecting Smoking Cessation_. [https://jacobzelko.com/05182020005014-smoking-recovery-indicators](https://jacobzelko.com/05182020005014-smoking-recovery-indicators). May 18 2020.
 ## References
 
 [1] L. E. Carlson, P. Taenzer, J. Koopmans, and B. D. Bultz, “Eight-year follow-up of a community-based large group behavioral smoking cessation intervention,” Addictive Behaviors, vol. 25, no. 5, pp. 725–741, Sep. 2000, doi: 10.1016/S0306-4603(00)00081-2.

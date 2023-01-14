@@ -28,9 +28,9 @@ Table of Contents
 \toc
 
 TODO: Draft some content here on OHDSI Study Packages [CONTENT]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _OHDSI Study Packages_. [https://jacobzelko.com/05172021002851-ohdsi-study-packages](https://jacobzelko.com/05172021002851-ohdsi-study-packages). May 16 2021.
 ## References
 ## Discussion: 
 

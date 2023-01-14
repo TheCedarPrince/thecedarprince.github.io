@@ -49,9 +49,9 @@ This intersectional breakdown could be summarized loosely as follows:
 |     Apparent disadvantaged | Disadvantaged | Disadvantaged |                        Slaves, serfs |
 
 ### An Emerging Tension
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Advantage to Disadvantage - Working Thoughts_. [https://jacobzelko.com/10092021131742-advantaged-to-disadvantaged](https://jacobzelko.com/10092021131742-advantaged-to-disadvantaged). October 9 2021.
 ## References:
 ## Discussion: 
 

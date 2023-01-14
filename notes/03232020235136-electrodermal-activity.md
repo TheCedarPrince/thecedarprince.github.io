@@ -63,9 +63,9 @@ Table of Contents
 - **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.
 - **Rationale:** Showed useful methods on how to process EDA data of a small cohort
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Electrodermal Activity_. [https://jacobzelko.com/03232020235136-electrodermal-activity](https://jacobzelko.com/03232020235136-electrodermal-activity). March 23 2020.
 ## References
 ## Discussion: 
 

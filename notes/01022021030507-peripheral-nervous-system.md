@@ -33,9 +33,9 @@ Peripheral nervous system: relays information between body and brain via nerve i
 
 1. Afferent division - information for the brain
 2. Efferent division - messaging from the brain
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Peripheral Nervous System_. [https://jacobzelko.com/01022021030507-peripheral-nervous-system](https://jacobzelko.com/01022021030507-peripheral-nervous-system). January 1 2021.
 ## References
 
 [1] R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.

@@ -71,9 +71,9 @@ Only one article calculated a power analysis (Komro et al., 2015).
 Power analysis are used in quantitative research to limit error between hypothesis and findings.
 
 There was observed an overrelianceon descriptive correlational designs that impeded adequate theory testing. Studies should incorporate theories and theoretical applications relevant to rural populations.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _A Systematic Review of the Health of Vulnerable Populations within US Rural Societies_. [https://jacobzelko.com/09082022131551-systematic-rural-review](https://jacobzelko.com/09082022131551-systematic-rural-review). September 8 2022.
 ## References:
 ## Discussion: 
 

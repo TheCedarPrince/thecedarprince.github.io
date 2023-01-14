@@ -32,9 +32,9 @@ Table of Contents
 Intellectual and Developmental Disability (IDD) is a lifelong disability that manifests before age 18. It imposes limits on areas of learning, language, and behavior. [1]
 
 An estimated 2.6 - 4 million people with intellectual and developmental disabilities reside in US community settings. [2], [3] *RQ: I wonder if this includes autistic individuals*
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Intellectual and Developmental Disability_. [https://jacobzelko.com/07192020025408-intellectual-developmental-disability](https://jacobzelko.com/07192020025408-intellectual-developmental-disability). July 18 2020.
 ## References
 
 [1] CDC, “Developmental Disabilities | CDC,” 26-Sep-2019. [Online]. Available: https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html. [Accessed: 14-Jul-2020].

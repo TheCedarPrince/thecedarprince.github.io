@@ -41,9 +41,9 @@ COVID-19 patients were defined as those with either a COVID-19 diagnosis code or
 Documentation was provided for comorbidities related to risk for severe outcomes with COVID-19 up to the date of the first COVID-19 documentation. Trends in number of cases, number of deaths, and case-fatality rates were compared between COVID19 patients with IDD and without IDD. Age distributions for number of cases and number of deaths were computed for both patient groups. Deaths occurring within 30 days of the date of first COVID-19 documentation in the EMR were identified and used to calculate case-fatality rates and 95% confidence intervals. Age groups were selected based upon the knowledge that COVID-19 rates are substantially lower among children, [1] and that a disproportionately lower percent of adults with IDD live into older age. [2]
 
 We excluded patients with diagnosis codes of other specified viral infection (ICD-9 code: 097.89) or suspected exposure to other biologic agents (ICD-10 code: Z03.818) during the same timeframe
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Intellectual and Developmental Disability and COVID-19 Case-fatality Trends: TriNetX Analysis_. [https://jacobzelko.com/07192020022823-intellectual-trinetx-analysis](https://jacobzelko.com/07192020022823-intellectual-trinetx-analysis). July 19 2020.
 ## References
 
 [1] CDC, “Severe outcomes among patients with coronavirus disease 2019 (COVID-19)—United States, February 12–March 16, 2020,” MMWR Morb Mortal Wkly Rep, vol. 69, no. 12, pp. 343–346, 2020.

@@ -35,9 +35,9 @@ Table of Contents
   * [Merge Sort](/12192020184204-merge-sort.md) -
   * [Bubble Sort](/12212020214025-bubble-sort.md) -
   * [Selection Sort](/12212020214012-selection-sort.md) - Selection sort utilizes repeated usages of linear searches to sort an input.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Sorting Algorithms_. [https://jacobzelko.com/12192020180920-sorting-algorithms](https://jacobzelko.com/12192020180920-sorting-algorithms). December 19 2020.
 ## References
 ## Discussion: 
 

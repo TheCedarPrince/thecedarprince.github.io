@@ -44,9 +44,9 @@ Before beginning an observational research study, it is important to lay down a 
 |           Tool |                          Description | Source |
 | --------------:| ------------------------------------:| ------:|
 | studyProtocols | OHDSI sandbox for managing Protocols |        |
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Observational Research Studies_. [https://jacobzelko.com/05172021000429-observational-studies](https://jacobzelko.com/05172021000429-observational-studies). May 16 2021.
 ## References
 
 [1] Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.

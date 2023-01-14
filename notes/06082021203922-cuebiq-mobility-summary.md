@@ -40,9 +40,9 @@ Cuebiq collects 1st party location data from over twenty five million active use
 **Cuebiq Contact Index:** When > 1 devices are within 50ft of one another for > 5min. [1]
 
 **Cuebiq Mobility Index:** How far devices move each day. It is calculated using a derivative factor indicating the distance between opposite corners of a box drawn around the locations observed for devices on each day. 
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Cuebiq Mobility Data Summary_. [https://jacobzelko.com/06082021203922-cuebiq-mobility-summary](https://jacobzelko.com/06082021203922-cuebiq-mobility-summary). June 8 2021.
 ## References:
 
 [1] Cuebiq, “Mobility Insights - Cuebiq,” 08-Jun-2021. [Online]. Available: https://www.cuebiq.com/visitation-insights-covid19/?utm*source=nyt&utm*medium=article&utm_campaign=organic. [Accessed: 08-Jun-2021].

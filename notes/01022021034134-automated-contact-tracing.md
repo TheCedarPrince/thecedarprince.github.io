@@ -50,9 +50,9 @@ Key questions before implementing an automated contact-tracing system to be aske
 Manual contact tracing could be improved by or work with automated approaches. It could contribute to reducing transmission and offsetting work of manual contact tracing. Benefits of automated approaches should be weighed against implementation costs and broader risks.
 
 The effectiveness of automated contact tracing in reducing disease transmission depends on both population uptake and timeliness of intervention. [16] As with manual contact tracing, automated contact tracing relies on accurate and reliable identification of encounters during which transmission occurs. Technology could be used for automated processing of test results or symptom reports and by use of smartphone sensors to identify and notify contacts instantaneously who are at risk of infection. [16]–[18]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Automated And Partly Automated Contact Tracing: A Systematic Review To Inform The Control Of COVID-19_. [https://jacobzelko.com/01022021034134-automated-contact-tracing](https://jacobzelko.com/01022021034134-automated-contact-tracing). January 1 2021.
 ## References
 
 [1] World Health Organization, “COVID-19 Strategy Update,” World Health Organization, Apr. 2020.

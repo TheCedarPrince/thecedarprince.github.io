@@ -190,9 +190,9 @@ mappend s1 s2 = (++) s1 s2
 ```
 
 is saying that the output of the function of the left is equivalent to the output of the function on the right. This is also known as point-wise equality as the arguments (points) are defined.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Notes on Programming in Haskell_. [https://jacobzelko.com/11032021155827-haskell-programming](https://jacobzelko.com/11032021155827-haskell-programming). November 3 2021.
 ## References:
 ## Discussion: 
 

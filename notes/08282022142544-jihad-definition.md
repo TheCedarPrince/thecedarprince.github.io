@@ -30,9 +30,9 @@ Table of Contents
 \toc
 
 Jihad is a major teaching in Islam and is often confused in modern discussion of contemporary Islam. It is often simplistically translated in English to mean, "holy war". However, it has a much deeper meaning relating to the notion of struggling for the sake of God.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Overview of What Is Jihad_. [https://jacobzelko.com/08282022142544-jihad-definition](https://jacobzelko.com/08282022142544-jihad-definition). August 28 2022.
 ## References:
 ## Discussion: 
 

@@ -269,9 +269,9 @@ Explanation: Algorithm A could be faster on smaller inputs as compared to algori
 ### Amortized Analysis
 
 See [note here for details](/10052021235121-amortized-analysis.md)
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Asymptotic Notation_. [https://jacobzelko.com/09242021040445-asymptotic-notation](https://jacobzelko.com/09242021040445-asymptotic-notation). September 28 2021.
 ## References:
 ## Discussion: 
 

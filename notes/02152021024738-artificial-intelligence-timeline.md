@@ -35,9 +35,9 @@ Table of Contents
 
   * 1980 - expert systems struggled with making correct inferences from uncertain knowledge.
   * 1989 - Yann LeCun develops handwriting recognition
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Artificial Intelligence Timeline_. [https://jacobzelko.com/02152021024738-artificial-intelligence-timeline](https://jacobzelko.com/02152021024738-artificial-intelligence-timeline). February 14 2021.
 ## References
 ## Discussion: 
 

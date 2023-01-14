@@ -94,9 +94,9 @@ Table of Contents
 - It was reported that SpO2 and HR was most important for alerting of Lyme Disease
 - Strong and repeated signals in change of heart algorithm were detected during Lyme Disease
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information_. [https://jacobzelko.com/01112022214236-tracking-physiomes](https://jacobzelko.com/01112022214236-tracking-physiomes). January 11 2022.
 ## References:
 ## Discussion: 
 

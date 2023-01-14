@@ -28,9 +28,9 @@ Table of Contents
 \toc
 
 Computed tomography (CT) imaging uses a computer and X-Rays to generate image slices of the body. [1]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Computed Tomography_. [https://jacobzelko.com/12302020173101-computed-tomography](https://jacobzelko.com/12302020173101-computed-tomography). December 30 2020.
 ## References
 
 [1] R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.

@@ -90,9 +90,9 @@ Written in Julia and offers parsing from Markdown notes to other target formats.
 ### Conclusion
 
 This standard is an active work in progress and is the product of years of experimentation.  If you find problems with this model or believe it too restrictive or unwise, please comment in the discussion or reach out to me. My hope is that this standard will co-evolve with new tools and increase the utility of any person's knowledge management system.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _The Open Knowledge Model_. [https://jacobzelko.com/04172022033744-open-knowledge-standard](https://jacobzelko.com/04172022033744-open-knowledge-standard). April 16 2022.
 ## References:
 ## Discussion: 
 

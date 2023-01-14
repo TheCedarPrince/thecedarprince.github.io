@@ -36,9 +36,9 @@ Table of Contents
 ### State Specific Recommendations
 
   * [Virginia](/08032021211753-virginia-apcd.md)
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Recommendations for Creating a New All-Payers Claim Database_. [https://jacobzelko.com/08032021211415-apcd-recommendations](https://jacobzelko.com/08032021211415-apcd-recommendations). August 3 2021.
 ## References:
 ## Discussion: 
 

@@ -90,9 +90,9 @@ Dependent variables are more difficult to label when they represent abstract par
 Link to code in this paper: http://mialab.mrn.org/datavis
 
 *QUESTION: One thing that I realize and think a lot about from this paper is the question of: how easy is it to represent this sort of additional information that tells more the story of the neuroscientific data? Obviously, the authors have expertise with making their own tools.  But what about for those who do not have them?*
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality_. [https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience](https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience). December 27 2020.
 ## References
 
 [1] E. Tagliazucchi, M. Siniatchkin, H. Laufs, and D. R. Chialvo, “The voxel-wise functional connectome can be efficiently derived from co-activations in a sparse spatio-temporal point-process,” Front. Neurosci., vol. 10, p. 381, 2016.

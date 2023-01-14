@@ -40,9 +40,9 @@ The LGBTQ community faces significant mental health disparities compared to hete
 People of color within the LGBTQ community are at greater risk for social inequality (Baams, Wilson, & Russell, 2019; Conron & Wilson, 2019; Movement Advancement Project & SAGE, 2017; Morton et al., 2018; Whittington et al., 2020).
 
 Intersectional LGBTQ youth populations (e.g. stratified by race, ethnicity, immigration status, poverty conditions, etc.) generally engage more often with school mental health services (Ali et al., 2019; Golberstein, Wen, & Miller, 2020).
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic_. [https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable](https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable). September 8 2022.
 ## References:
 ## Discussion: 
 

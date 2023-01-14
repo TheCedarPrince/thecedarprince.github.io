@@ -42,9 +42,9 @@ Householder notation is very simple:
 1. The inner product can be expressed as $u' * v = \alpha$ (i.e. a transposed vector times a vector yields a scalar)
 2. The outer product can be expressed similarly as $u * v' = A$ (i.e. a vector times a transposed vector yields a matrix)
 3. Quadratic/bilinear forms can be written as $u' * A * v = \beta$ (i.e. a transposed vector times a matrix times a vector yields a scalar)
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Householder Notation_. [https://jacobzelko.com/06032020153234-householder-notation](https://jacobzelko.com/06032020153234-householder-notation). June 3 2020.
 ## References
 ## Discussion: 
 

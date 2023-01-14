@@ -63,9 +63,9 @@ Suppose we have the diagram of sets and functions:
 W -pi*{1}-> X -f-> Z <-g- Y <-pi*{2}- W
 
 The pullback of $X$ and $Y$ over $Z$ is any set $W$ for which we have an isomorphism W -approx-> X {x}_{Z} Y.  In this case, $W$ is the pullback.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Fiber Products (Pullbacks)_. [https://jacobzelko.com/10312022005339-fiber-product-pullback](https://jacobzelko.com/10312022005339-fiber-product-pullback). October 30 2022.
 ## References:
 ## Discussion: 
 

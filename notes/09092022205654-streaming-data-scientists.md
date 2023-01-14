@@ -78,9 +78,9 @@ Retroactively processing historical data using a different logic is also called 
 With batch backfilling, you can apply the new logic (e.g. new feature definition) to a table in the past.
 
 With stream backfilling, you can apply the new logic to the log in a given period of time in the past, e.g. apply it to the log on June 10, 2022.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Introduction To Streaming for Data Scientists_. [https://jacobzelko.com/09092022205654-streaming-data-scientists](https://jacobzelko.com/09092022205654-streaming-data-scientists). September 9 2022.
 ## References:
 ## Discussion: 
 

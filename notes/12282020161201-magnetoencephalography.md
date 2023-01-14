@@ -30,9 +30,9 @@ Table of Contents
 \toc
 
 Magnetoencephalography (MEG) detects magnetic traces of brain activity to determine activity start time. Poor at locating where activity is. [1]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Magnetoencephalography (MEG)_. [https://jacobzelko.com/12282020161201-magnetoencephalography](https://jacobzelko.com/12282020161201-magnetoencephalography). December 28 2020.
 ## References
 
 [1] R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.

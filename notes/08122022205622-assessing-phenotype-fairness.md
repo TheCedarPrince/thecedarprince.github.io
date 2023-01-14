@@ -78,9 +78,9 @@ and
 $$
 P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 $$
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Assessing Phenotype Definitions for Algorithmic Fairness_. [https://jacobzelko.com/08122022205622-assessing-phenotype-fairness](https://jacobzelko.com/08122022205622-assessing-phenotype-fairness). August 12 2022.
 ## References:
 ## Discussion: 
 

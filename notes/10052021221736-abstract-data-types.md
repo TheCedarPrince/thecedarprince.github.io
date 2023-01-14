@@ -61,9 +61,9 @@ Any data with an index `i` where `i` is $>$ `index` has a new index of `i - 1` t
   * `isEmpty()` - returns if the list is empty or not.
   * `clear()` - empties list; resets list back to when it had no data.
   * `size()` - returns the number of `data` stored in list.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Abstract Data Types_. [https://jacobzelko.com/10052021221736-abstract-data-types](https://jacobzelko.com/10052021221736-abstract-data-types). October 5 2021.
 ## References
 ## Discussion: 
 

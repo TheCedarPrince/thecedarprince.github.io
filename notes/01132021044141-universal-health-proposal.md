@@ -42,9 +42,9 @@ Third, ensure disadvantaged groups are not left behind.
 **Accountability for reasonableness framework:** "reasonable" disagreements spanning regions regarding necessary compromises due to resource constraints [1], [2]
 
 *THOUGHTS: I wonder what the most popular decision making frameworks are for constrained situations*
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Making Fair Choices on the Path to Universal Health Coverage_. [https://jacobzelko.com/01132021044141-universal-health-proposal](https://jacobzelko.com/01132021044141-universal-health-proposal). January 12 2021.
 ## References
 
 [1] N. Daniels, Just health: Meeting health needs fairly. Cambridge University Press, 2007.

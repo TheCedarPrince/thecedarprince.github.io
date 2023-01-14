@@ -40,9 +40,9 @@ ICA has been applied to domains such as:
   * noise separation [3]
 
 ICA decompositions are best for sources linearly mixed in a recorded signal.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Independent Component Analysis_. [https://jacobzelko.com/01072021054854-independent-component-analysis](https://jacobzelko.com/01072021054854-independent-component-analysis). January 7 2021.
 ## References
 
 [1] A. Delorme, S. Makeig, M. Fabre-Thorpe, and T. Sejnowski, “From single-trial EEG to brain area dynamics,” Neurocomputing, vol. 44–46, pp. 1057–1064, Jun. 2002, doi: 10.1016/S0925-2312(02)00415-0.

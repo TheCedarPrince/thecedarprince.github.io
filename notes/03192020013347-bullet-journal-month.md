@@ -96,9 +96,9 @@ Here is an example of what a monthly log could look like:
 |   29 |       |
 |   30 |       |
 |   31 |       |
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Monthly Planning in a Bullet Journal_. [https://jacobzelko.com/03192020013347-bullet-journal-month](https://jacobzelko.com/03192020013347-bullet-journal-month). March 19 2020.
 ## References
 ## Discussion: 
 

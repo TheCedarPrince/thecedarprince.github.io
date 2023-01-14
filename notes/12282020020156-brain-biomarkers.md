@@ -28,9 +28,9 @@ Table of Contents
 \toc
 
 BOLD - Blood Oxygenation Level-Dependent
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Common Biomarkers for the Brain_. [https://jacobzelko.com/12282020020156-brain-biomarkers](https://jacobzelko.com/12282020020156-brain-biomarkers). December 27 2020.
 ## References
 ## Discussion: 
 

@@ -246,9 +246,9 @@ Given this definition, one of the most obvious goals of telehealth is to improve
   * Structure care models to incorporate telehealth as a core foundation
   * Communicate to all stakeholders the best mode that they will receive
   * Incorporate routine evaluation and management of telehealth interventions
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _What Is Telehealth?_. [https://jacobzelko.com/05022022181455-telehealth-explained](https://jacobzelko.com/05022022181455-telehealth-explained). May 2 2022.
 ## References:
 
 [1] Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” 24-Mar-2020. [Online]. Available: https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la=en. [Accessed: 02-May-2022].

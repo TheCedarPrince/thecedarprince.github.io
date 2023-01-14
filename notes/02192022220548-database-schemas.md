@@ -30,9 +30,9 @@ Table of Contents
 \toc
 
 A "schema" describes the way data is structured to define how a database is constructed. 
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Overview of Database Schemas_. [https://jacobzelko.com/02192022220548-database-schemas](https://jacobzelko.com/02192022220548-database-schemas). February 19 2022.
 ## References:
 ## Discussion: 
 

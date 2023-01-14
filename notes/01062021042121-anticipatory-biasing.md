@@ -34,9 +34,9 @@ Table of Contents
 EEGs from 128 tin electrodes, referenced to the nose. Data acquired at 500 Hz (pass band of DC, 100 Hz), impedances &lt; 10 KOhms, and interelectrode spacing at 2.4 cm. Eye position monitored with electrooculographic recordings from the external canthi. Eye movements and artifacts were removed off-line.
 
 *QUESTION: How was it referenced to the nose?  QUESTION: What is an electrooculographic recording? QUESTION: Where is the external canthi?*
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex_. [https://jacobzelko.com/01062021042121-anticipatory-biasing](https://jacobzelko.com/01062021042121-anticipatory-biasing). January 6 2021.
 ## References
 ## Discussion: 
 

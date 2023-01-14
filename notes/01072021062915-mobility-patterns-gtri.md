@@ -80,9 +80,9 @@ This is because a county's median pre- and postorder values are paired compariso
 
 4. The report does not account for nationwide protests affects on mobility patterns.
 5. The only relationship analyzed was between stay-at-home orders and population movement.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020_. [https://jacobzelko.com/01072021062915-mobility-patterns-gtri](https://jacobzelko.com/01072021062915-mobility-patterns-gtri). January 7 2021.
 ## References
 ## Discussion: 
 

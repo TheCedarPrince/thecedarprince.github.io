@@ -156,9 +156,9 @@ In an online group discussion, the user *heynonnynonnie*, made a great point tha
 ### Conclusion
 
 I thought this book was well done and also worth this lengthy analysis. It provided context to a lot of ideas that were born from the notions Kuhn coined here. For me, it felt like giving me a bit more of a better foundation to understand better how to operate in domains. Even if this piece is labeled more as a philosophy of science piece, it could easily also be considered a sociological exploration of academia as a whole. I recommend the read, but also, not to take the notions as literally or seriously as possible. Kuhn himself suggested that as he later would get inundated with letters saying that there was a revolution happening because of X - help me. As judicious as Kuhn was in using the term revolution, we too must be careful to recognize when a revolution or paradigm shift is occurring.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _The Structure of Scientific Revolutions_. [https://jacobzelko.com/05152022174848-structure-revolutions](https://jacobzelko.com/05152022174848-structure-revolutions). May 15 2022.
 ## References:
 ## Discussion: 
 

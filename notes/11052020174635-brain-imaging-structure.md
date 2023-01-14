@@ -51,9 +51,9 @@ Neuroimaging: brain imaging to gain quantitative brain data. [1]
 Error reduction: errors attributed to misunderstanding data.
 
 Provenance: information regarding actions or those involved in producing an object. It can be used to form assessments about its valour.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Brain Imaging Data Structure (BIDS)_. [https://jacobzelko.com/11052020174635-brain-imaging-structure](https://jacobzelko.com/11052020174635-brain-imaging-structure). November 5 2020.
 ## References
 
 [1] K. J. Gorgolewski et al., “The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments,” Sci Data, vol. 3, no. 1, p. 160044, Dec. 2016, doi: 10.1038/sdata.2016.44.

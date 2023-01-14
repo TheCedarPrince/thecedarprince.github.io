@@ -120,9 +120,9 @@ After > 40 days on-premises dining was permitted, increases in case and death gr
 1. Models not control for other policies like: other types of business closures, physical distancing recommendations, policies issued by localities, and county-level policy variances.
 2. Policy compliance and enforcement not explored.
 3. No differentiating indoor and outdoor dining, ventilation, and following physical distancing and occupancy not investigated.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020_. [https://jacobzelko.com/06072021210734-mask-mandates-association](https://jacobzelko.com/06072021210734-mask-mandates-association). June 7 2021.
 ## References:
 ## Discussion: 
 

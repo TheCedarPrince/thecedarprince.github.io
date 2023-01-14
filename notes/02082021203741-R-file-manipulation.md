@@ -38,9 +38,9 @@ source("name_of_file.R")
 ```
 
 This updates the state of the session and brings into the current session any variables defined within the file.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Manipulating Files in R_. [https://jacobzelko.com/02082021203741-R-file-manipulation](https://jacobzelko.com/02082021203741-R-file-manipulation). February 8 2021.
 ## References
 ## Discussion: 
 

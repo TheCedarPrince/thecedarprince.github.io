@@ -38,9 +38,9 @@ CDC always recommends everyday preventive actions to help prevent the spread of 
   * Clean and disinfect frequently touched objects and surfaces using a regular household cleaning spray or wipe.
   * Wash your hands often with soap and water for at least 20 seconds, especially after going to the bathroom; before eating; and after blowing your nose, coughing, or sneezing.
   * If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol. Always wash hands with soap and water if hands are visibly dirty.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _CDC Respiratory Disease Prevention_. [https://jacobzelko.com/03102020053006-cdc-respiratory-preventions](https://jacobzelko.com/03102020053006-cdc-respiratory-preventions). March 10 2020.
 ## References
 ## Discussion: 
 

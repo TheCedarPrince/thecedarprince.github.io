@@ -45,9 +45,9 @@ $$
 $$
 [2] \ (X, Y, Z)=\left(\frac{2 X}{1+X^{2}+Y^{2}}, \frac{2 Y}{1+X^{2}+Y^{2}}, \frac{-1+X^{2}+Y^{2}}{1+X^{2}+Y^{2}}\right)
 $$
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Stereographic Projection_. [https://jacobzelko.com/11132020052431-stereographic-projection](https://jacobzelko.com/11132020052431-stereographic-projection). November 12 2020.
 ## References
 ## Discussion: 
 

@@ -63,9 +63,9 @@ Finally, it has made me think about where this method of decoupling can be used 
 "The idea of a temporary abstraction also takes into account the thorny issue of intersectionality, and the need to take other forms of power imbalance into account besides those governed by gender, for example race, wealth, sexual orientation, and so on."
 
 Overall, good read!
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _X + Y : A Mathematician’s Manifesto for Rethinking Gender_. [https://jacobzelko.com/04162022002725-mathematician-gender-rethinking](https://jacobzelko.com/04162022002725-mathematician-gender-rethinking). April 15 2022.
 ## References:
 ## Discussion: 
 

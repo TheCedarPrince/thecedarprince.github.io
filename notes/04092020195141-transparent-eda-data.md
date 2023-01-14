@@ -54,9 +54,9 @@ If the data did not adhere to these rules, it was classified as artifact.
 
   * When collecting EDA data, the authors used solid conductive adhesive hydrogel Ag/AgCl electrodes (22 mm square; model A10040-5 from Vermed; Buffalo, NY).
   * Used 181 hours worth of data collected from children and adolescents with autism in an at-home environment.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity_. [https://jacobzelko.com/04092020195141-transparent-eda-data](https://jacobzelko.com/04092020195141-transparent-eda-data). April 9 2020.
 ## References
 
 [1] W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.

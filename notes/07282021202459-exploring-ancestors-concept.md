@@ -102,9 +102,9 @@ And then we can run our SQL query and return the results as follows:
 result <- renderTranslateQuerySql(connection, sql,cdm ="main")
 knitr::kable(result)
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Exploring Ancestors and Descendants of a Concept_. [https://jacobzelko.com/07282021202459-exploring-ancestors-concept](https://jacobzelko.com/07282021202459-exploring-ancestors-concept). July 28 2021.
 ## References:
 ## Discussion: 
 

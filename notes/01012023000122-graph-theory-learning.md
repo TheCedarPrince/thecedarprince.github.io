@@ -289,9 +289,9 @@ This table gets more into exact topics and concepts to master. They have an asso
   * COMS W4203: Introduction to Graph Theory (taught by Timothy Sun at Columbia University)
   * MATH 6014: Graph Theory (taught at Georgia Institute of Technology)
   * MATH 4022: Introduction to Graph Theory (taught at Georgia Institute of Technology)
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Achieving an Undergraduate Level Understanding of Graph Theory_. [https://jacobzelko.com/01012023000122-graph-theory-learning](https://jacobzelko.com/01012023000122-graph-theory-learning). December 31 2022.
 ## References:
 
 [1] R. Trudeau, Introduction to Graph Theory, Dover. DOVER PUBLICATIONS, INC., 1994.

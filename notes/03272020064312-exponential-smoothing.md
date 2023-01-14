@@ -136,9 +136,9 @@ end
 #### Output
 
 ![](1585295721254.png)
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Exponential Smoothing_. [https://jacobzelko.com/03272020064312-exponential-smoothing](https://jacobzelko.com/03272020064312-exponential-smoothing). March 27 2020.
 ## References
 ## Discussion: 
 

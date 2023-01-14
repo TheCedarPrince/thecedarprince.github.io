@@ -28,9 +28,9 @@ Table of Contents
 \toc
 
 **Autonomic Nervous System (ANS)**: facilitates unconscious actions in the body such as body temperature regulation, etc.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Autonomic Nervous System_. [https://jacobzelko.com/12302020174059-autonomic-nervous-system](https://jacobzelko.com/12302020174059-autonomic-nervous-system). December 30 2020.
 ## References
 ## Discussion: 
 

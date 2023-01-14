@@ -328,9 +328,9 @@ It is an interesting remark on labor saving devices. Rather than freeing up time
 "As Selye deals with the total environmental situation in his "stress" theory of disease, so the latest approach to media study considers not only the "content" but the medium and the cultural matrix within which the particular medium operates." (McLuhan, 1994, p. 13) How fascinating! McLuhan knew of the stress theory of disease. I wonder how he knew that? I find it so fascinating the analogy McLuhan is making. It seems as though McLuhan proposes to say that the medium is an organ which interplay’s with Selye's theory. Rather than contradicting or separate from it, it subsists within and intertwined with this theory. In short, McLuhan seems to say that whereas Selye took an environmental approach to disease, McLuhan is taking a holistic view to mediums in a person's life
 
 Selye's work preceded the work of Sir Michael Marmot in creating the Social Determinants of Health. Plus he was starting with the idea of metastatic load.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Understanding Media: The Extensions of Man_. [https://jacobzelko.com/05222022225241-understanding-media-extensions](https://jacobzelko.com/05222022225241-understanding-media-extensions). May 22 2022.
 ## References:
 ## Discussion: 
 

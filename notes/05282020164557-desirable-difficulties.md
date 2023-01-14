@@ -38,9 +38,9 @@ Storage strength defines how interassociated a representation of memory is to re
 Learning is the idea of creating permanent changes in one's understanding or knowledge regarding a particular subject.
 
 Factors that quickly improve retrieval strength are different from those that improve storage strength. If learners mistake retrieval strength as storage strength, a learner could mistakenly be led to believe that situations which improve retrieval strength could improve storage strength.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning_. [https://jacobzelko.com/05282020164557-desirable-difficulties](https://jacobzelko.com/05282020164557-desirable-difficulties). May 28 2020.
 ## References
 ## Discussion: 
 

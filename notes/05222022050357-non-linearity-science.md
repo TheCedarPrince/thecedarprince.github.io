@@ -34,9 +34,9 @@ Table of Contents
 One thing out of this book is that I very much appreciated and agreed with Kuhn's notion that science is not linear nor is it necessarily the result of a universal truth being uncovered. Rather, it is the confluence of emerging theories that evolve and find they can fit with other theories or paradigms. These newly combined theories then come together to possibly overturn or change the understanding of currently practiced science.
 
 This fallacious notion of linear knowledge going to a particular truth about the world is based in part on science historians and textbook makers. As textbooks are designed to assist students in learning as much material as possible, the teacher with the textbook maker chooses to formulate a textbook around one particular area of knowledge thereby giving a sense of progress to a domain's particular truth. As science does not deal with all possible experiments but only those which are doable according to an existing paradigm, so too a textbook must be very judicious in what it presents to a student from its paradigm.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _On the Non-Linearity of Science_. [https://jacobzelko.com/05222022050357-non-linearity-science](https://jacobzelko.com/05222022050357-non-linearity-science). May 22 2022.
 ## References:
 ## Discussion: 
 

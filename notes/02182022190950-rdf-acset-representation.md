@@ -54,9 +54,9 @@ Thing --is colored--> Color
 *Thing* represents a generalized Subject Object, *Color* represents a generalized Resource Object, and *is colored* defines the Predicate morphism for this Category of RDFs.
 
 TODO: Add connection to acsets note
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _How To Imagine an RDF as an ACSet_. [https://jacobzelko.com/02182022190950-rdf-acset-representation](https://jacobzelko.com/02182022190950-rdf-acset-representation). February 18 2022.
 ## References:
 ## Discussion: 
 

@@ -36,9 +36,9 @@ I read a Q&A article on Barbara Liskov [1] and the author made a very interestin
 The end of that statement, "*blank page*", reminded me of the book *How to Take Smart Notes* [2] and my note on the book where Ahrens essentially believes that starting with a [blank page is the wrong idea in writing](/03292020180520-smart-notes.md). I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the [Zettelkasten method](/03092020031549-zettelkasten.md) where, according to its [principles](/03092020031618-zettelkasten-principles.md), each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?
 
 Upon reflection upon this note some time later, I think I was thinking about the concept of composition and composition of software!
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Global Programming Paradigm_. [https://jacobzelko.com/04182020162028-global-programming](https://jacobzelko.com/04182020162028-global-programming). April 18 2020.
 ## References
 
 [1] S. D’Agostino, “The Architect of Modern Algorithms.” [Online]. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. [Accessed: 18-Apr-2020].

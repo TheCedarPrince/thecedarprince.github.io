@@ -70,9 +70,9 @@ In so doing, "the life that was to make his soul," was avoided and any "[marring
 ### On Homo-Eroticism
 
 There was a strong undercurrent of homosexuality and homo-eroticism in this book. With Basil's unreuited love for Dorian, the homosexuality here was shown rather positively. Yet, with Dorian, this was portrayed as predatory to men and youth around him. A welcome change of the oft-condemning of homosexuals in Victorian literature but rather a sort of early value judgement on what was moral and immoral homosexual behavior for that time. Most likely this was a direct commentary from Wilde himself as a bisexual person but it wove into the narrative rather well.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _The Picture of Dorian Gray_. [https://jacobzelko.com/04202022021854-picture-dorian-gray](https://jacobzelko.com/04202022021854-picture-dorian-gray). April 19 2022.
 ## References:
 ## Discussion: 
 

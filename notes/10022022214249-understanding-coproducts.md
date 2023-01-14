@@ -72,9 +72,9 @@ I have seen all notations when referring to coproducts when viewed from both set
 I read about disjoint unions from a set theory perspective and also a category theory perspective but cannot really discern a functional (i.e. practical) difference from coproducts. Are coproducts and disjoint unions really effectively the same idea?
 
 Thanks all and let me know if I can clarify anywhere! 
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Clarifying Understanding of Coproducts_. [https://jacobzelko.com/10022022214249-understanding-coproducts](https://jacobzelko.com/10022022214249-understanding-coproducts). October 2 2022.
 ## References:
 ## Discussion: 
 

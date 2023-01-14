@@ -30,9 +30,9 @@ Table of Contents
 ### Conclusion
 
 Very early indications that the impact of policies and social distancing on later changes in cases are possible. *RESEARCH OPPORTUNITY*
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Timing of Community Mitigation and Changes in Reported COVID-19 and Community Mobility - Four U.S. Metropolitan Areas, February 26 - April 1, 2020_. [https://jacobzelko.com/06082021141248-timing-community-mitigation](https://jacobzelko.com/06082021141248-timing-community-mitigation). June 8 2021.
 ## References:
 ## Discussion: 
 

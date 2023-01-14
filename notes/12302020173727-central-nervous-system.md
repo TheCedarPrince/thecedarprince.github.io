@@ -28,9 +28,9 @@ Table of Contents
 \toc
 
 **Central Nervous System (CNS)**: the coordinating system for the body.  It is comprised of the brain and spinal cord which are protected by the skull and vertebral column respectively. [1]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Central Nervous System_. [https://jacobzelko.com/12302020173727-central-nervous-system](https://jacobzelko.com/12302020173727-central-nervous-system). December 30 2020.
 ## References
 
 [1] R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.

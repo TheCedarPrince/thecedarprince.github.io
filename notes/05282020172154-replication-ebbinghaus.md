@@ -68,9 +68,9 @@ How sleep can impact and benefit the learning of new material. The forgetting cu
 **Implicit memory:** where an individual may not be consciously aware they still possess traces of memory representations but one cannot actively recall or recognize these representations. These old traces do show savings when relearning that corresponding material. *RQ: This intuitively makes sense to me after much study and practice in languages and other domains. I wonder how long implicit memory lasts?*
 
 **Memory Chain Model:** posits memory passes through several neural processes - "stores" - as it transitions from short-term to long-term memory. [6] It can be used to model the forgetting curve and "savings". Store 1, the hippocampus, acts as a temporary storage which decreases exponentially in intensity. Store 2, the neocortex, is for long-term memory where it declines at a much slower rate. Store 1 gradually shifts its contents to Store 2. The decay rates in Store 1 and Store 2 are given by $\alpha_{1}$ and $\alpha_{2}$, respectively. The initial strength of the memory traces in Store 1 are given by $\mu_{1}$ and the rate of consolidating the contents of Store 1 to Store 2 is given by μ2. Lesioning Store 1, will produce a retrograde amnesia gradient that can be modeled by the Memory Chain Model simultaneously with the forgetting gradient of healthy controls. [7] The Memory Chain Model (MCM) equation for type of savings studied here is given by $Q(t) = \mu_{1}e^{a_{1}t} + \frac{\mu_{1}\mu_{2}(e^{-a_{2}t} - e^{-a_{1}t})}{a_{1} -a_{2}}$The MCM function has the same number of parameters but they are arranged differently. The proof that this equation is a mathematical formalization of the memory consolidation process can be found elsewhere. [7]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Replication and Analysis of Ebbinghaus’ Forgetting Curve_. [https://jacobzelko.com/05282020172154-replication-ebbinghaus](https://jacobzelko.com/05282020172154-replication-ebbinghaus). May 28 2020.
 ## References
 
 [1] W. A. Wagenaar, “My memory: A study of autobiographical memory over six years,” Cognit. Psychol., vol. 18, no. 2, pp. 225–252, 1986.

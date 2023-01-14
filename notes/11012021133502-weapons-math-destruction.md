@@ -55,9 +55,9 @@ Algorithms prioritize two factors: efficiency and profit. They do not care about
 So the first step is to get a grip on our techno-utopia, that unbounded and unwarranted hope in what algorithms and technology can accomplish. Before asking them to do better, we have to admit they can’t do everything
 
 audits have to be carefully designed and tested by human beings, and afterward automated
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Weapons of Math Destruction_. [https://jacobzelko.com/11012021133502-weapons-math-destruction](https://jacobzelko.com/11012021133502-weapons-math-destruction). November 1 2021.
 ## References:
 ## Discussion: 
 

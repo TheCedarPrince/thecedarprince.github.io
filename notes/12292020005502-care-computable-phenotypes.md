@@ -32,9 +32,9 @@ Table of Contents
 I do not believe the author is very familiar with the notion of mutltimodal analysis or standard data fusion methodologies. This was such a strange article that was more excitement and jubilation over the phenomenon of the possibility of computable phenotypes that I think the author was distracted from the message they were trying to convey. Though, they did talk about some applications regarding lung injury and sepsis, there was nothing really to suggest novelty in their assessment.
 
 I reviewed this author's work and it appears the author has no formal training in informatics or analytics. So, I do not fault them for this article - however, to me, it read like something out of MIT Technology Review or a Science & Technology Magazine. Not a professional scientific publication.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Why everyone should care about 'Computable Phenotypes'_. [https://jacobzelko.com/12292020005502-care-computable-phenotypes](https://jacobzelko.com/12292020005502-care-computable-phenotypes). December 28 2020.
 ## References
 ## Discussion: 
 

@@ -30,9 +30,9 @@ Table of Contents
 \toc
 
 Generally Skin Conductance Level (SCL) entails the slow onset of changes in a continuous stream of Electrodermal Activity data.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _What Is Skin Conductance Level?_. [https://jacobzelko.com/04092020161622-skin-conductance](https://jacobzelko.com/04092020161622-skin-conductance). April 9 2020.
 ## References
 ## Discussion: 
 

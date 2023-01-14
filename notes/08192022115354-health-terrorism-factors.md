@@ -98,9 +98,9 @@ This approach, believes that to fight terrorism through policing and/or "profili
 ### Problems with Whiteness and Terrorism Classifications
 
 Muslim Americans who come from the Middle East are often classified as "White" by categories set forth by the Office of Management and Budget. However, this is in complete opposition to the fact that a large proportion of Muslim Americans do not identify as "White". 15 An implicit assumption and implicit problem is that people labeled "White" are assumed to be "racially neutral."15 
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective_. [https://jacobzelko.com/08192022115354-health-terrorism-factors](https://jacobzelko.com/08192022115354-health-terrorism-factors). August 19 2022.
 ## References:
 ## Discussion: 
 

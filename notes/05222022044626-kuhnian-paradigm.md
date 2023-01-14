@@ -49,9 +49,9 @@ When a domain decides upon a paradigm, avenues of research can now be readily sc
 A benefit that did not immediately appear to me was the insulating properties of a paradigm. An example that Kuhn suggested is that in the social sciences, one has to frame an avenue of research by its importance to society (such as studying racial discrimination, etc.). Problems such as these are notoriously difficult to frame and reach a quorum consensus on due to possibly many competing schools of thought or groups. Instead, by keeping a conversation limited to the adherents of a specific paradigm, a researcher can easily keep moving forward through problems without having to strive against competing schools of thought. Furthermore, the insulating power of a paradigms gives a researcher the ability to solely focus on problems they think they can solve or are solvable.
 
 I will admit, his example of social scientists was at first confusing. But, upon reflection, what made this example make sense is that he later explained his decision to have this as an example due to the fact that there are often many competing paradigms in these areas. This conflict makes progress difficult as many people still argue the fundamentals of these sciences.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _What Are Kuhnian Paradigms?_. [https://jacobzelko.com/05222022044626-kuhnian-paradigm](https://jacobzelko.com/05222022044626-kuhnian-paradigm). May 22 2022.
 ## References:
 ## Discussion: 
 

@@ -41,9 +41,9 @@ Table of Contents
 $$
 \frac{\sum{Cost_{Operations}}}{\sum{Operations}}
 $$
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Amortized Analysis_. [https://jacobzelko.com/10052021235121-amortized-analysis](https://jacobzelko.com/10052021235121-amortized-analysis). October 5 2021.
 ## References
 ## Discussion: 
 

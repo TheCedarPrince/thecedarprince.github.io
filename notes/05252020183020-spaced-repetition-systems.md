@@ -52,9 +52,9 @@ There are many pieces of software that utilize spaced repetition. Provided is a 
 |   Memrise |         Flashcard based language learning app. |             @zotero-1378 |
 |   Quizlet |               Multi-faceted learning platform. |                 @Quizlet |
 | Supermemo |  Software for spacing and incremental reading. |         @LearnFastForget |
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Spaced Repetition Systems_. [https://jacobzelko.com/05252020183020-spaced-repetition-systems](https://jacobzelko.com/05252020183020-spaced-repetition-systems). May 25 2020.
 ## References
 
 [1] J. M. J. Murre and J. Dros, “Replication and Analysis of Ebbinghaus’ Forgetting Curve,” PLoS ONE, vol. 10, no. 7, p. e0120644, Jul. 2015, doi: 10.1371/journal.pone.0120644.

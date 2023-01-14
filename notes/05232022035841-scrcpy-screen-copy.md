@@ -47,9 +47,9 @@ Table of Contents
 6. Run `scrcpy` as usual
 
 I recommend using this command: `scrcpy --bit-rate 2M --max-size 800`
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Scrcpy Screen Copy_. [https://jacobzelko.com/05232022035841-scrcpy-screen-copy](https://jacobzelko.com/05232022035841-scrcpy-screen-copy). May 22 2022.
 ## References:
 ## Discussion: 
 

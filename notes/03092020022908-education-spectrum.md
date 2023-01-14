@@ -41,9 +41,9 @@ There is the idea of the creature being a biological entity motivating questions
 ### Kuhnian Reasoning on Non-Linearity of Education
 
 Beyond Kuhn's general [musing in the _Structure of Scientific Revolutions](/05152022174848-structure-revolutions.md), his thought can also be linked to the notion that science and education is not linear.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Education as a Spectrum_. [https://jacobzelko.com/03092020022908-education-spectrum](https://jacobzelko.com/03092020022908-education-spectrum). March 9 2020.
 ## References:
 
 [1] Golden ratio discovered in a quantum world. Eurekalert.org, 2010.

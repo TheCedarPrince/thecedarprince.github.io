@@ -74,9 +74,9 @@ Generally, time taken by an algorithm grows in proportion to the size of the inp
   * The number of items in the input
   * The total number of bits needed to represent the input in binary notation
   * Numbers of vertices and edges in a graph
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Random Access Machine (RAM) Model_. [https://jacobzelko.com/01072021072613-random-access-model](https://jacobzelko.com/01072021072613-random-access-model). January 7 2021.
 ## References
 
 [1] T. H. Cormen, Ed., Introduction to algorithms, 3rd ed. Cambridge, Mass: MIT Press, 2009.

@@ -62,9 +62,9 @@ $$
 The latter formalization is somewhat more common and it works as $a_{n}$ gives the same values as what the size of the sequence is which is $n$. From the visual proof, the $\frac{n}{2}$ constant comes from halving the size of each region.
 
 (Thanks to Mark Kittisopikul, Yingbo Ma, and Benoit Pasquier for these explanations)
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Arithmetic Sums & Series_. [https://jacobzelko.com/01052021044121-arithmetic-series](https://jacobzelko.com/01052021044121-arithmetic-series). January 4 2021.
 ## References
 ## Discussion: 
 

@@ -82,9 +82,9 @@ This paper contains a plethora of resources regarding phenotype definitions:
 
 > R. Richesson and M. Smerek, "Electronic health records-based phenotyping," Rethinking clinical trials: A living textbook of pragmatic clinical trials, vol. 2016, 2014.
 
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _What Are Computable Phenotypes?_. [https://jacobzelko.com/01072021074632-computable-phenotypes](https://jacobzelko.com/01072021074632-computable-phenotypes). January 7 2021.
 ## References
 
 [1] R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.

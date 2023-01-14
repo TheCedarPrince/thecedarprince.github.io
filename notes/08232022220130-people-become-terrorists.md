@@ -53,9 +53,9 @@ H. Shmuel Erlich, 'Reflections on the Terrorist Mind, in Varvin and Volkan, ibid
 In the relationship that inevitably takes shape with the collaborators with justice, I have at times been struck by the astonishment and gratitude with which they welcomed even simple gestures of courtesy or human interest on my part, which were evidently interpreted as signs, almost as proof, of the existence of a personal relationship of acceptance and sympathy. It is something they marvel at and do not seem to have expected. This means that the Public Prosecutor does not become just the collaborator's reference point in the course of the criminal proceedings awaiting him, which are often long and complex. The Public Prosecutor also becomes the addressee of a trust that projects beyond the judicial occasion and concerns the future of that person.
 
 One final note that was highlighted by this collection of perspectives was the fact that terrorists who collaborate on behalf of justice enjoy the apparent friendship that can be struck up with the public prosecutor. To me, it highlights the importance of meeting the social needs of these terrorists or would-be terrorists as a means to prevent terrorism.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Why Do People Become Terrorists? A Prosecutor's Experiences_. [https://jacobzelko.com/08232022220130-people-become-terrorists](https://jacobzelko.com/08232022220130-people-become-terrorists). August 23 2022.
 ## References:
 ## Discussion: 
 

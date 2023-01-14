@@ -83,9 +83,9 @@ Here are symbols one can use for writing short form thoughts and journal entries
   * Learned about Bullet Journals
   * I want to learn more about GTD ?
   * How easy is it to make a ventilator? :zap:
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Daily Planning in a Bullet Journal_. [https://jacobzelko.com/03192020035441-bullet-journal-daily](https://jacobzelko.com/03192020035441-bullet-journal-daily). March 19 2020.
 ## References
 ## Discussion: 
 

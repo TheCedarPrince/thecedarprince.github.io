@@ -55,9 +55,9 @@ Health is simultaneously shaped by an array of individual-level social positions
 4. Intersectionality highlights the complex nature of the social world.
 
 Intersectionality research itself is characterized by its complexity.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Structural Intersectionality as a New Direction for Health Disparities Research_. [https://jacobzelko.com/11042022134535-structural-intersectionality](https://jacobzelko.com/11042022134535-structural-intersectionality). November 4 2022.
 ## References:
 ## Discussion: 
 

@@ -40,9 +40,9 @@ When I asked about how one could map these approach to humans, Jakob had the fol
 One could model society as a large group of social bubbles where people see other people inside the bubble in the context of epidemics. So perhaps here, the virus is going extinct in social bubbles and migrating from bubble to bubble.
 
 This gave some good thoughts on approaches for metapopulation-based analysis to epidemics/pandemics.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Metapopulation Analysis_. [https://jacobzelko.com/03012021162136-metapopulation-analysis](https://jacobzelko.com/03012021162136-metapopulation-analysis). March 1 2021.
 ## References
 ## Discussion: 
 

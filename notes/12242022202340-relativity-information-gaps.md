@@ -52,9 +52,9 @@ Table of Contents
 	- Others will be slow to adapt 
 -
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _The Analogy between the Relativity of Simultaneity and Information Dissemination_. [https://jacobzelko.com/12242022202340-relativity-information-gaps](https://jacobzelko.com/12242022202340-relativity-information-gaps). December 24 2022.
 ## References
 ## Discussion: 
 

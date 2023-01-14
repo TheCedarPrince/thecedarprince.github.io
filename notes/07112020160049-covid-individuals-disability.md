@@ -39,9 +39,9 @@ Adults with IDD experience higher rates of living with others, lower socioeconom
 The U.S. tends to erroneously list IDD an underlying cause of death. [5] In 2017, 56.9% of U.S. IDD adults who had pneumonia as an underlying or contributing cause of death had IDD recorded as their underlying cause of death.
 
 Provider organizations and their care staff - generally from impoverished populations - serving IDD adults have been chronically underfunded.  [6], [7]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _COVID-19 and Pneumonia: Increased Risk for Individuals with Intellectual and Developmental Disabilities during the Pandemic_. [https://jacobzelko.com/07112020160049-covid-individuals-disability](https://jacobzelko.com/07112020160049-covid-individuals-disability). July 11 2020.
 ## References
 
 [1] M. Marmot and R. Wilkinson, Social Determinants of Health, 2nd ed. Oxford University Press, 2006.

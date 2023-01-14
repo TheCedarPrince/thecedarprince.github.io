@@ -28,9 +28,9 @@ Table of Contents
 \toc
 
 **Event Related Potential:** a temporal resolution to measure brain activity at small time frames. [1]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Event Related Potential_. [https://jacobzelko.com/12312020233931-event-related-potential](https://jacobzelko.com/12312020233931-event-related-potential). December 31 2020.
 ## References
 
 [1] G. F. Woodman, “A brief introduction to the use of event-related potentials in studies of perception and attention,” Attention, Perception, & Psychophysics, vol. 72, no. 8, pp. 2031–2046, Nov. 2010, doi: 10.3758/BF03196680.

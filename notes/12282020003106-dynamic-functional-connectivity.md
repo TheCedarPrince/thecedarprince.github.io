@@ -48,9 +48,9 @@ There exist a few different types of stability in the kinds of brain analysis. [
 [Sliding window analysis](/11302020054836-sliding-window-analysis.md) is most common for functional connectivity and was first introduced in 2009. [4] Sliding window analysis is performed on DFC data by conducting analysis on a set number of scans in an fMRI session. The number of scans is the length of the sliding window.  The defined window is then moved a certain number of scans forward in time and additional analysis is performed.  The movement of the window is usually referenced in terms of the degree of overlap between adjacent windows. Data from sliding window analysis generally must be compared between two different groups to prove accuracy.
 
 THOUGHT: This is very similar to analysis with [exponential smoothing](/03272020064312-exponential-smoothing.md) or ["salt-and-pepper" filtering](/04252020024813-median-filtering.md) and reminiscent of convolution filtering.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Dynamic Functional Connectivity_. [https://jacobzelko.com/12282020003106-dynamic-functional-connectivity](https://jacobzelko.com/12282020003106-dynamic-functional-connectivity). December 27 2020.
 ## References
 
 [1] Wikipedia contributors, “Dynamic Functional Connectivity — Wikipedia, The Free Encyclopedia,” 2020.

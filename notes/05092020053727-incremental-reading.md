@@ -48,9 +48,9 @@ Incremental reading helps with improving focus and promotes learning while movin
 [^2] It is suggested that interleaving material forces one to differentiate between different topics. When pressured under practice, this can heighten one's perception about differentiators. It leads to better embedding of concept abstractions that foster retention and transfer. [2], [3]([Click for more details](/05252020211350-hard-on-self.md))
 
 [^3] Generating an explanation about a topic rather than just being given a solution can be more effective than the spacing effect. This is called the generation effect. [2]([Click for more details](/05252020211350-hard-on-self.md))
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Incremental Reading_. [https://jacobzelko.com/05092020053727-incremental-reading](https://jacobzelko.com/05092020053727-incremental-reading). May 9 2020.
 ## References
 
 [1] Master How To Learn, “Demonstration: My Workflow of Incremental Reading,” 09-Dec-2018. [Online]. Available: https://www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/. [Accessed: 19-May-2020].

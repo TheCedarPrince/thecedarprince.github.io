@@ -87,9 +87,9 @@ The CDM is optimized for typical observational research purposes such as
 2. Characterize populations
 3. Determining effects of population-based interventions
 4. Organize data for analysis
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _CDM Standardized Tables_. [https://jacobzelko.com/02082021170353-cdm-standardized-tables](https://jacobzelko.com/02082021170353-cdm-standardized-tables). February 8 2021.
 ## References
 
 [1] J. M. Overhage, P. B. Ryan, C. G. Reich, A. G. Hartzema, and P. E. Stang, “Validation of a common data model for active safety surveillance research,” J. Am. Med. Inform. Assoc., vol. 19, no. 1, pp. 54–60, 2012.

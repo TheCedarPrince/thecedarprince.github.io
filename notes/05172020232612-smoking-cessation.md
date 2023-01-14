@@ -40,9 +40,9 @@ Each session included topics such as education about the negative consequences o
 ### Conclusion
 
 The part of the study program most helpful to participants was the supportive nature of the large group setting. Despite large group sizes, individuals thought they were supported very well. The support and the accepting, non-judgemental atmosphere provided in groups promoted cessation. This study illustrated that a Cognitive Behavioral grounding in smoking cessation can produce success with large group participant. [pg. 738]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Eight-Year Follow-Up Of A Community-Based Large Group Behavioral Smoking Cessation Intervention_. [https://jacobzelko.com/05172020232612-smoking-cessation](https://jacobzelko.com/05172020232612-smoking-cessation). May 17 2020.
 ## References
 ## Discussion: 
 

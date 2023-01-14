@@ -104,9 +104,9 @@ How well the model can determine what patients live and what patients die in pra
   * Misclassification rate
   * Area under the receiver operating characteristic curve and
   * Concordance. [2]
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Scoring systems in the intensive care unit: A compendium_. [https://jacobzelko.com/10152021023937-icu-rating-systems](https://jacobzelko.com/10152021023937-icu-rating-systems). October 14 2021.
 ## References:
 
 [1] J.-R. Le Gall, “The use of severity scores in the intensive care unit,” Intensive Care Med., vol. 31, no. 12, pp. 1618–1623, 2005.

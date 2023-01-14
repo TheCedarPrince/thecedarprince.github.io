@@ -49,9 +49,9 @@ As well as:
 ### What Is Violent Radicalization
 
 Violent radicalization the process of adopting or promoting an ideologically based violence to advance political, religious, or social change via an extremist belief system [Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective](/08192022115354-health-terrorism-factors.md).
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Definitions Concerning Terrorism_. [https://jacobzelko.com/08282022133230-definitions-around-terrorism](https://jacobzelko.com/08282022133230-definitions-around-terrorism). August 28 2022.
 ## References:
 ## Discussion: 
 

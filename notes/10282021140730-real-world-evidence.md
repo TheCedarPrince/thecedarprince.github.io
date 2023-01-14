@@ -59,9 +59,9 @@ Some examples include:
 	- Pragmatic trials
 	- Observational studies (prospective and/or retrospective).
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Real-World Data and Real-World Evidence_. [https://jacobzelko.com/10282021140730-real-world-evidence](https://jacobzelko.com/10282021140730-real-world-evidence). October 28 2021.
 ## References:
 ## Discussion: 
 

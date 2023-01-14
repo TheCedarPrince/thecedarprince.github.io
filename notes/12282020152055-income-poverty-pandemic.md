@@ -59,9 +59,9 @@ Disruptions such as:
   * The uncertainty about future income streams
   * Concerns about the health of family and friends
   * Other disruptions
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Income and Poverty in the COVID-19 Pandemic_. [https://jacobzelko.com/12282020152055-income-poverty-pandemic](https://jacobzelko.com/12282020152055-income-poverty-pandemic). December 28 2020.
 ## References
 
 [1] S. Flood, M. King, R. Rodgers, S. Ruggles, and J. Warren, “Integrated public use microdata series, current population survey: Version 7.0 [dataset]. Minneapolis, MN: Integrated public use microdata; 2020.”

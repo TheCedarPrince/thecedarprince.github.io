@@ -74,9 +74,9 @@ How to realize a successful telehealth intervention alongside medical profession
   * Structure care models to incorporate telehealth as a core foundation
   * Communicate to all stakeholders the best mode that they will receive
   * Incorporate routine evaluation and management of telehealth interventions
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Telehealth for global emergencies: Implications for coronavirus disease 2019 (COVID-19)_. [https://jacobzelko.com/05022022171845-telehealth-global-emergencies](https://jacobzelko.com/05022022171845-telehealth-global-emergencies). May 2 2022.
 ## References:
 
 [1] C. R. Doarn and R. C. Merrell, “Telemedicine and e-health in disaster response,” vol. 20. Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA, pp. 605–606, 2014.

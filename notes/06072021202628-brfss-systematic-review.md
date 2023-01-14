@@ -57,9 +57,9 @@ Similarities between BRFSS and other surveys using self-reports persisted across
 All surveys consistently showed the proportion of respondents indicating general health to be "excellent" was declining. *RESEARCH OPPORTUNITY*
 
 BRFSS physical activity measures and responses were compared sometimes to physical device measures.Prevalence variation estimates found occasionally; trends similar when comparing survey results over time. *QUESTION: Interesting how with devices prevalences did vary but trends were found to be similar across demographics. I wonder what reports did that? I'll stick a pin in this for now.*
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _A Systematic Review of Publications Assessing Reliability and Validity of the Behavioral Risk Factor Surveillance System (BRFSS)_. [https://jacobzelko.com/06072021202628-brfss-systematic-review](https://jacobzelko.com/06072021202628-brfss-systematic-review). June 7 2021.
 ## References:
 
 [1] D. G. Altman and J. M. Bland, “Diagnostic tests. 1: Sensitivity and specificity.” BMJ, vol. 308, no. 6943, p. 1552, 1994.

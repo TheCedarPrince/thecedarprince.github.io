@@ -96,9 +96,9 @@ CBGs with fewer white residents had higher predicted infection risks.
 *THOUGHTS: Seems somewhat odd? This is interesting to me in how they keep bringing up race or economic status as a variable, but never fully commit to an investigation. Feels really weird to talk about issues without actually addressing them.*
 
 Mobility data showed average grocery store visits from lower-income CBGs had 59% more hourly visitors per square foot. Median metro area data showed they stayed 17% longer.
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening_. [https://jacobzelko.com/01202021043643-mobility-network-models](https://jacobzelko.com/01202021043643-mobility-network-models). January 19 2021.
 ## References
 
 [1] W. E. Deming and F. F. Stephan, “On a least squares adjustment of a sampled frequency table when the expected marginal totals are known,” Ann. Math. Stat., vol. 11, no. 4, pp. 427–444, 1940.

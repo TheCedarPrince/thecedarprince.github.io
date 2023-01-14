@@ -36,9 +36,9 @@ Table of Contents
 ```
 - **Summary:** What SpO2 is and their pros and cons as a biomarker
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Peripheral Capillary Oxygen Saturation (SpO2)_. [https://jacobzelko.com/01112022215755-oxygen-saturation](https://jacobzelko.com/01112022215755-oxygen-saturation). January 11 2022.
 ## References:
 ## Discussion: 
 

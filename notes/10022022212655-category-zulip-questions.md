@@ -34,9 +34,9 @@ This outline is a tracker for all the questions I have posed to the wonderful [C
 ### Questions
 
   * [Clarifying Understanding of Coproducts](//10022022212655-category-zulip-questions.md) - A line of questioning to ensure I understand what coproducts and disjoint unions are
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Questions for the Category Theory Zulip_. [https://jacobzelko.com/10022022212655-category-zulip-questions](https://jacobzelko.com/10022022212655-category-zulip-questions). October 2 2022.
 ## References:
 ## Discussion: 
 

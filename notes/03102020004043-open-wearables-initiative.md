@@ -29,9 +29,9 @@ Table of Contents
 
 \toc
 
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Open Wearables Initiative_. [https://jacobzelko.com/03102020004043-open-wearables-initiative](https://jacobzelko.com/03102020004043-open-wearables-initiative). March 10 2020.
 ## References
 
 [1] A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” [Online]. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. [Accessed: 10-Mar-2020].

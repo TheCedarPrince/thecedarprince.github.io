@@ -91,9 +91,9 @@ $$
 and $\bigsqcup_{i \in I} X_{i}$
 
 Both refer to a disjoint union and both can be read as "the disjoint union of the family of sets $X_{i}$ indexed by the index set, $I$." Here, when we say ["family of sets", they can either be a "set of subsets over a set $X$" or a "set of sets $X$ where each set could be independent of one another."](//09302022033236-family-sets.md)
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Coproducts (Disjoint Unions)_. [https://jacobzelko.com/09162022162129-coproducts-disjoints](https://jacobzelko.com/09162022162129-coproducts-disjoints). September 16 2022.
 ## References:
 ## Discussion: 
 

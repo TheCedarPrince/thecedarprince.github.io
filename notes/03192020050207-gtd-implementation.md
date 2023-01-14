@@ -44,9 +44,9 @@ GTD consists of utilizing lists to break down information as it enters your brai
 It can be somewhat confusing to parse the intake; this flow diagram shows and easy to use method of how to break down information:
 
 ![](03182020054832-gtd-flowchart.jpg)
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _GTD Implementation_. [https://jacobzelko.com/03192020050207-gtd-implementation](https://jacobzelko.com/03192020050207-gtd-implementation). March 19 2020.
 ## References
 ## Discussion: 
 

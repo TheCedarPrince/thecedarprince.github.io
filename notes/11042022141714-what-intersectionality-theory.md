@@ -42,9 +42,9 @@ Embedded into this notion are several concepts such as social context and comple
 ### Why Are Intersectional Approaches Needed?
 
   * [Structural Intersectionality as a New Direction for Health Disparities Research](/11042022134535-structural-intersectionality.md) - An introduction to intersectionality theory and medical sociological ideas at play within health disparities research
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _What Is Intersectionality and Intersectionality Theory?_. [https://jacobzelko.com/11042022141714-what-intersectionality-theory](https://jacobzelko.com/11042022141714-what-intersectionality-theory). November 4 2022.
 ## References:
 ## Discussion: 
 

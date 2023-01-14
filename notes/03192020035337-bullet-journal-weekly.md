@@ -60,9 +60,9 @@ Here is where the last point of the layout comes in - a reflection in the form o
   * Wins for the week
   * What could have been better
   * How you are going to improve next week
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Weekly Planning in a Bullet Journal_. [https://jacobzelko.com/03192020035337-bullet-journal-weekly](https://jacobzelko.com/03192020035337-bullet-journal-weekly). March 19 2020.
 ## References
 ## Discussion: 
 

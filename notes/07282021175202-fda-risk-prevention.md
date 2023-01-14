@@ -53,9 +53,9 @@ Table of Contents
 - Required industry partnerships 
 - Culminated in the creation of the [Observational Medical Outcomes Partnership (OMOP)](/07282021181744-origins-omop.md)
 ```
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _FDA Amendment Act_. [https://jacobzelko.com/07282021175202-fda-risk-prevention](https://jacobzelko.com/07282021175202-fda-risk-prevention). July 28 2021.
 ## References:
 ## Discussion: 
 
