@@ -71,7 +71,7 @@ npm i -g browser-sync
 
 There are two ways to start this workflow.  One blocking (i.e. you cannot use the Julia REPL while working) and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:
 
-![](../assets/01082023043553-watching-example.gif)
+![](assets/01082023043553-watching-example.gif)
 
 #### Blocking Workflow
 
@@ -107,7 +107,7 @@ From here, you could then still interact with this REPL while this task is runni
 
 This workflow allows one to work with a Julia Markdown document with `Weave.jl` to preview your work in real time.  There a few steps to start the workflow but here is how it looks when in operation:
 
-![](../assets/01082023043553-weave-example.gif)
+![](assets/01082023043553-weave-example.gif)
 
 First, execute the following snippet in your Julia REPL to start the asynchronous process to watch for changes and tell Julia to weave the file we will modify:
 
@@ -168,9 +168,9 @@ Feel free to play around with this more and see the dynamism of the workflow! I 
 ### Conclusion
 
 I hope you appreciated this post! If you have any suggestions, comments, or additional workflows this could be used for, please comment below.  May your Julia sessions now be even more supercharged!
+## How To Cite
 
-## References
-
+ Zelko, Jacob. _Asynchronous Workflow Using Julia Tutorial_. [https://jacobzelko.com/01082023043553-julia-async-workflow](https://jacobzelko.com/01082023043553-julia-async-workflow). January 7 2023.
 ## References:
 ## Discussion: 
 

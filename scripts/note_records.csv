@@ -264,3 +264,4 @@ filename,title,keywords,summary,creation_date,edit_time
 12302020174059-autonomic-nervous-system.md,Autonomic Nervous System,##zettel #ans #nervous #brain #nerves #archive,,2020-12-30T00:00:00.0,2022-12-29T20:32:16.351
 12312020233931-event-related-potential.md,Event Related Potential,##zettel #event #related #potential #erp #archive,,2020-12-31T00:00:00.0,2022-12-29T20:32:19.339
 12312020235220-single-trial-eeg.md,From Single-Trial EEG To Brain Area Dynamics,##bibliography #eeg #brain #data #ica #archive,Modeling brain EEG using EEGLAB on a Go/Nogo Dataset to model brain activity,2020-12-31T00:00:00.0,2022-12-29T20:32:25.306
+01082023043553-julia-async-workflow.md,Asynchronous Workflow Using Julia Tutorial,#blog #archive #julia #programming #literate #workflow #asynchronous #weave #browser #sync #node,"A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once!",2023-01-07T00:00:00.0,2023-01-14T06:30:19.454
