@@ -38,6 +38,8 @@ end
 
 records = CSV.read("/home/src/Projects/NewWebSite/scripts/note_records.csv", DataFrame)
 
+authors = CSV.read("/home/src/Projects/NewWebSite/scripts/authorship_records.csv", DataFrame)
+
 for zettel in notes
 
     file = read(zettelkasten * zettel, String)
@@ -93,6 +95,7 @@ for zettel in notes
                 page = page * generate_bibliography(franklin_note)
                 page = page * generate_table_of_contents()
                 page = page * franklin_note.notes
+                page = page * generate_citation(franklin_note; citations = authors)
                 page = page * generate_references(franklin_note)
                 page = page * generate_comments()
 
