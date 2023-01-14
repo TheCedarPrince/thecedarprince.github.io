@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Usage</li><li>Characteristics of a Connectogram</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Usage</li><li>Characteristics of a Connectogram</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="usage">Usage</h3>
 <p>Connectograms based on diffusion MRI data employ graphs to demonstrate white matter connections and cortical characteristics. Connectograms can inform treatment of patients with neuroanatomical abnormalities. They can also be used for average cortical metrics and tractography data, across populations of any size.</p>
 <h3 id="characteristics_of_a_connectogram">Characteristics of a Connectogram</h3>
@@ -74,8 +74,9 @@
 </li>
 </ul>
 <p>The opacity of the lines represent number of connections. Fiber color gives fractional anisotropy. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is a Connectogram?</em>. <a href="https://jacobzelko.com/12282020022324-connectogram">https://jacobzelko.com/12282020022324-connectogram</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; A. Irimia, M. C. Chambers, C. M. Torgerson, and J. D. Van Horn, “Circular representation of human cortical networks for subject and population-level connectomic visualization,” Neuroimage, vol. 60, no. 2, pp. 1340–1351, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

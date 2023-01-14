@@ -420,6 +420,7 @@ NOTE: The following settings copy the Gruvbox style (dark) (c) Pavel Pertsev (or
 .darkmode--activated h5,
 .darkmode--activated span,
 .darkmode--activated li,
+.darkmode--activated td,
 .darkmode--activated ol {
     color: #ECEFF4;
 }

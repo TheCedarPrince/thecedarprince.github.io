@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ol>
 <li><p>&quot;Principle of Atomicity&quot; – each zettel should contain only one idea &#40;principle credited to Christian Tietze&#41;.</p>
 </li>
@@ -61,8 +61,9 @@
 <li><p>Don&#39;t overthink the Zettelkasten. Keep it simple and efficient.</p>
 </li>
 </ol>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Principles of the Zettelkasten</em>. <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">https://jacobzelko.com/03092020031618-zettelkasten-principles</a>. December 2 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

@@ -40,10 +40,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Magnetoencephalography &#40;MEG&#41; detects magnetic traces of brain activity to determine activity start time. Poor at locating where activity is. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Magnetoencephalography &#40;MEG&#41;</em>. <a href="https://jacobzelko.com/12282020161201-magnetoencephalography">https://jacobzelko.com/12282020161201-magnetoencephalography</a>. December 28 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

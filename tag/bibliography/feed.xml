@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>H. A. Simon, &quot;How Big Is a Chunk? By combining data from several experiments, a basic human memory unit can be identified and measured.,&quot; Science, vol. 183, no. 4124, pp. 482–488, 1974.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>What Are Chunks?</li><li>Benefits of Chunk Generation</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>What Are Chunks?</li><li>Benefits of Chunk Generation</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>In reading a piece by Michael Nielsen on using spaced repetition to process mathematics &#91;1&#93;, he referenced a concept called &quot;chunking&quot;. I hadn&#39;t encountered this notion in education research before and thought it sounded interesting.  So, thus reading the paper.</p>
 <h3 id="what_are_chunks">What Are Chunks?</h3>
@@ -63,8 +63,9 @@
 <p>I had no difficulty at all</p>
 </blockquote>
 <p>The variance between chunks and memory can be attributed to larger chunk sizes based on one&#39;s expertise with a material. &#91;4&#93;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>How Big Is a Chunk?</em>. <a href="https://jacobzelko.com/01072023205813-memory-chunks">https://jacobzelko.com/01072023205813-memory-chunks</a>. January 7 2023.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. &#91;Online&#93;. Available: http://cognitivemedium.com/srs-mathematics.</p>
 <p>&#91;2&#93; G. A. Miller, “The magical number seven, plus or minus two: Some limits on our capacity for processing information.” Psychol. Rev., vol. 63, no. 2, p. 81, 1956.</p>
 <p>&#91;3&#93; W. G. Chase and H. A. Simon, “The mind’s eye in chess,” in Visual information processing, Elsevier, 1973, pp. 215–281.</p>
@@ -116,7 +117,7 @@
 <h1>Bibliography</h1>
 <p>D. M. Gray, A. Anyane-Yeboa, S. Balzora, R. B. Issaka, and F. P. May, &quot;COVID-19 and the other pandemic: populations made vulnerable by systemic inequity,&quot; Nat Rev Gastroenterol Hepatol, vol. 17, no. 9, pp. 520–522, Sep. 2020, doi: 10.1038/s41575-020-0330-8.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Vulnerable Population Examples</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Vulnerable Population Examples</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I examined this paper to learn more about vulnerabilities posed to minority and vulnerable populations. I focused less on pandemic-related risks and more on examples of problems posed to minority populations.</p>
 <h3 id="vulnerable_population_examples">Vulnerable Population Examples</h3>
@@ -145,8 +146,9 @@
 <pre><code class="language-julia">- Essential workers 
 - Poor and overcrowded housing
 - Could be impossible to adhere to COVID-19 safety policies</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>COVID-19 and the other pandemic: populations made vulnerable by systemic inequity</em>. <a href="https://jacobzelko.com/09082022132448-covid-systemic-inequity">https://jacobzelko.com/09082022132448-covid-systemic-inequity</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -194,7 +196,7 @@
 <h1>Bibliography</h1>
 <p>E. A. Lehnert, &quot;Spatial exploration of the CDC’s Social Vulnerability Index and heat-related health outcomes in Georgia,&quot; International Journal of Disaster Risk Reduction, p. 7, 2020.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Definitions</li><li>Social Vulnerability Index Calculations</li><li>Digression on Black Belt</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Definitions</li><li>Social Vulnerability Index Calculations</li><li>Digression on Black Belt</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I read this paper to find out more about the social vulnerability index and how it can be used in the state of Georgia. It wasn&#39;t particularly insightful although the discussion about calculating SVI for GA and its definition about social vulnerability was helpful.</p>
 <h3 id="definitions">Definitions</h3>
@@ -203,8 +205,9 @@
 <p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index.md">See Note for Details</a></p>
 <h3 id="digression_on_black_belt">Digression on Black Belt</h3>
 <p>I never knew the term for this but historically, where African Americans were heavily enslaved is called the &quot;Black Belt&quot;. The authors found that high SVI and heat-related deaths were often found in these historical communities &#91;32&#93;.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia</em>. <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -252,15 +255,16 @@
 <h1>Bibliography</h1>
 <p>J. P. Salerno, N. D. Williams, and K. A. Gattamorta, &quot;LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic,&quot; p. 4.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>LGBTQ Risks</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>LGBTQ Risks</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I examined this paper at the time to find out more about vulnerabilities posed to LGBTQ populations. I was less interested in the pandemic&#39;s potential impacts on these populations although this paper did have many thoughts on the topic.</p>
 <h3 id="lgbtq_risks">LGBTQ Risks</h3>
 <p>The LGBTQ community faces significant mental health disparities compared to heterosexual, cisgender populations &#40;Plöderl &amp; Tremblay, 2015; Price-Feeney, Green, &amp; Dorison, 2020; Russell &amp; Fish, 2016&#41;</p>
 <p>People of color within the LGBTQ community are at greater risk for social inequality &#40;Baams, Wilson, &amp; Russell, 2019; Conron &amp; Wilson, 2019; Movement Advancement Project &amp; SAGE, 2017; Morton et al., 2018; Whittington et al., 2020&#41;.</p>
 <p>Intersectional LGBTQ youth populations &#40;e.g. stratified by race, ethnicity, immigration status, poverty conditions, etc.&#41; generally engage more often with school mental health services &#40;Ali et al., 2019; Golberstein, Wen, &amp; Miller, 2020&#41;.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic</em>. <a href="https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable">https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -308,7 +312,7 @@
 <h1>Bibliography</h1>
 <p>K. M. Gonzalez, &quot;A Systematic Review of the Health of Vulnerable Populations within US Rural Societies,&quot; OJRNHC, vol. 18, no. 1, pp. 112–147, 2018, doi: 10.14574/ojrnhc.v18i1.507.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Movation</li><li>What Is Vulnerability?</li><li>Barriers Often Encountered in Rural Healthcare Settings</li><li>Vulnerabilities Most Often Studied in Rural Health Literature</li><li>Recommendations for Future Research</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Movation</li><li>What Is Vulnerability?</li><li>Barriers Often Encountered in Rural Healthcare Settings</li><li>Vulnerabilities Most Often Studied in Rural Health Literature</li><li>Recommendations for Future Research</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_movation">Reading Movation</h3>
 <p>I wanted to read this paper to get more a sense for vulnerable populations. Although I was less interested in the specific applications to rural communities, I found the discussion around rural vulnerabilities very interesting as well as clarification around definitions.</p>
 <h3 id="what_is_vulnerability">What Is Vulnerability?</h3>
@@ -329,8 +333,9 @@
 <p>Only one article calculated a power analysis &#40;Komro et al., 2015&#41;.</p>
 <p>Power analysis are used in quantitative research to limit error between hypothesis and findings.</p>
 <p>There was observed an overrelianceon descriptive correlational designs that impeded adequate theory testing. Studies should incorporate theories and theoretical applications relevant to rural populations.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>A Systematic Review of the Health of Vulnerable Populations within US Rural Societies</em>. <a href="https://jacobzelko.com/09082022131551-systematic-rural-review">https://jacobzelko.com/09082022131551-systematic-rural-review</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -378,12 +383,13 @@
 <h1>Bibliography</h1>
 <p>A. Freytag, J. J. Krüger, D. Meierrieks, and F. Schneider, &quot;The origins of terrorism: Cross-country estimates of socio-economic determinants of terrorism,&quot; European Journal of Political Economy, vol. 27, pp. S5–S16, Dec. 2011, doi: 10.1016/j.ejpoleco.2011.06.009.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>I personally only found this paper mildly interesting. In my research in terrorism, I was not as interested in this sort of research literature as it was too granular for what I was investigating – which was a broad level of investigation as an initial pass.</p>
 <p>Their biggest takeaway from their study was that they found contrary to mainstream literature now, there is a socioeconomic impact to account for when researching terrorism. This especially extends the poor socioeconomic conditions individuals find themselves in such as insufficient welfare policies, economic discrimination, and low levels of economic openness. &#40;e.g., Burgoon, 2006; Blomberg and Hess, 2008; Krieger and Meierrieks, 2010; Caruso and Schneider, 2011&#41; Additionally, to fight terrorism, they surmised that improving socioeconomic conditions could in fact counter terrorist growth. </p>
 <p>&lt;&#33;–TODO: Add citations–&gt;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Origins Of Terrorism: Cross-country Estimates Of Socio-economic Determinants Of Terrorism</em>. <a href="https://jacobzelko.com/08232022220628-origins-terrorism">https://jacobzelko.com/08232022220628-origins-terrorism</a>. August 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -431,7 +437,7 @@
 <h1>Bibliography</h1>
 <p>H. E. Alcalá, M. Z. Sharif, and G. Samari, &quot;Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective,&quot; Health Equity, vol. 1, no. 1, pp. 87–95, Aug. 2017, doi: 10.1089/heq.2016.0016.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Public Health Approach to Terrorism</li><li>Shortcomings of Addressing Terrorism from a Public Health Perspective</li><li>Factors Leading to Extremism</li><li>Studying Gang Violence as a Proxy for Terrorist Groups</li><li>Positive Approaches to Mitigate Radicalization</li><li>Problems with Whiteness and Terrorism Classifications</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Public Health Approach to Terrorism</li><li>Shortcomings of Addressing Terrorism from a Public Health Perspective</li><li>Factors Leading to Extremism</li><li>Studying Gang Violence as a Proxy for Terrorist Groups</li><li>Positive Approaches to Mitigate Radicalization</li><li>Problems with Whiteness and Terrorism Classifications</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>This paper was probably the best paper I have read on the subject of terrorism research and how it intersects with public health and the social determinants of health. It provided a comprehensive background on what terrorism and radicalism are as well as some very useful public health terminology introducing the concept of social cohesion and social capital. Furthermore, it got at the concept of how examining terrorism and gang violence from a public health perspective is very understudied and underutilized when exploring this space.</p>
 <h3 id="public_health_approach_to_terrorism">Public Health Approach to Terrorism</h3>
 <p>2.6&#37; of terrorism deaths happen in the West. 72&#37; belong to:</p>
@@ -503,8 +509,9 @@
 <p>&lt;&#33;–TODO: Add citations to note–&gt;</p>
 <h3 id="problems_with_whiteness_and_terrorism_classifications">Problems with Whiteness and Terrorism Classifications</h3>
 <p>Muslim Americans who come from the Middle East are often classified as &quot;White&quot; by categories set forth by the Office of Management and Budget. However, this is in complete opposition to the fact that a large proportion of Muslim Americans do not identify as &quot;White&quot;. 15 An implicit assumption and implicit problem is that people labeled &quot;White&quot; are assumed to be &quot;racially neutral.&quot;15 </p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</em>. <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">https://jacobzelko.com/08192022115354-health-terrorism-factors</a>. August 19 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -552,7 +559,7 @@
 <h1>Bibliography</h1>
 <p>T. Y. Sun, S. Bhave, J. Altosaar, and N. Elhadad, “Assessing Phenotype Definitions for Algorithmic Fairness,” arXiv:2203.05174 &#91;cs, q-bio&#93;, Mar. 2022, Accessed: Apr. 29, 2022. &#91;Online&#93;. Available: http://arxiv.org/abs/2203.05174</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Purpose of Paper</li><li>Definitions</li><li>Types of Biases Found in Phenotyping</li><li>Common Fairness Metrics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Purpose of Paper</li><li>Definitions</li><li>Types of Biases Found in Phenotyping</li><li>Common Fairness Metrics</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I wanted to read this article as it was highly recommended to me by my friend, Jaan Altosaar, one of the coauthors of this piece. I was very interested in the methods they used and the approach they took to address fairness in phenotypes as although I had heard about discrepancies in phenotypes, this was a bit of a watershed paper to read in my mind exposing how phenotyping can be so skewed. Really fantastic paper and will be returning to it.</p>
 <h3 id="purpose_of_paper">Purpose of Paper</h3>
@@ -582,8 +589,9 @@ P_0(Y=1 \mid \hat{Y}=1)=P_1(Y=1 \mid \hat{Y}=1)
 \[
 P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Assessing Phenotype Definitions for Algorithmic Fairness</em>. <a href="https://jacobzelko.com/08122022205622-assessing-phenotype-fairness">https://jacobzelko.com/08122022205622-assessing-phenotype-fairness</a>. August 12 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -631,7 +639,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>J. Chuo, M. L. Macy, and S. A. Lorch, “Strategies for Evaluating Telehealth,” Pediatrics, vol. 146, no. 5, p. e20201781, Nov. 2020, doi: 10.1542/peds.2020-1781.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>SPROUT Telehealth Evaluation and Measurement profile &#91;1&#93;</p>
 </li>
@@ -650,8 +658,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 	- Providers
 	- Health systems
 	- Payer</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Strategies for Evaluating Telehealth</em>. <a href="https://jacobzelko.com/05022022153220-evaluating-telehealth">https://jacobzelko.com/05022022153220-evaluating-telehealth</a>. May 2 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” 24-Mar-2020. &#91;Online&#93;. Available: https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la&#61;en. &#91;Accessed: 02-May-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -700,7 +709,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>A. C. Smith et al., “Telehealth for global emergencies: Implications for coronavirus disease 2019 &#40;COVID-19&#41;,” J Telemed Telecare, vol. 26, no. 5, pp. 309–313, Jun. 2020, doi: 10.1177/1357633X20916567.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Systems for Telehealth Interventions</li><li>Challenges to Telehealth</li><li>Opportunities for Telehealth</li><li>Concluding Thoughts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Systems for Telehealth Interventions</li><li>Challenges to Telehealth</li><li>Opportunities for Telehealth</li><li>Concluding Thoughts</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>An overview of how telehealth interventions could and should be deployed during the COVID-19 pandemic. Really excellent read in my opinion that goes beyond just the COVID-19 pandemic but rather can be taken and applied elsewhere in the telehealth landscape. In particular, their conclusions were interesting as well as their discussion on clinician unwillingness.</p>
 <h3 id="systems_for_telehealth_interventions">Systems for Telehealth Interventions</h3>
 <ul>
@@ -749,8 +758,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <li><p>Incorporate routine evaluation and management of telehealth interventions</p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Telehealth for global emergencies: Implications for coronavirus disease 2019 &#40;COVID-19&#41;</em>. <a href="https://jacobzelko.com/05022022171845-telehealth-global-emergencies">https://jacobzelko.com/05022022171845-telehealth-global-emergencies</a>. May 2 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; C. R. Doarn and R. C. Merrell, “Telemedicine and e-health in disaster response,” vol. 20. Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA, pp. 605–606, 2014.</p>
 <p>&#91;2&#93; V. A. Wade, J. A. Eliott, and J. E. Hiller, “Clinician acceptance is the key factor for sustainable telehealth services,” Qual. Health Res., vol. 24, no. 5, pp. 682–694, 2014.</p>
 <p>&#91;3&#93; V. Wade, J. Soar, and L. Gray, “Uptake of telehealth services funded by Medicare in Australia,” Aust. Health Rev., vol. 38, no. 5, pp. 528–532, 2014.</p>
@@ -801,7 +811,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>R. Tuckson, M. Edmunds, and M. Hodgkins, “Telehealth,” New England Journal of Medicine, Oct. 2017. Accessed: Apr. 29, 2022. &#91;Online&#93;. Available: https://www.nejm.org/doi/pdf/10.1056/NEJMsr1503323?articleTools&#61;true</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Challenges in Telehealth</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Challenges in Telehealth</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A literature survey of telehealth insights.</p>
 <h3 id="definitions">Definitions</h3>
 <ul>
@@ -831,8 +841,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <pre><code class="language-julia">- National Quality Forum developing telehealth framework
 	- Telehealth Framework To Support Measure Development 2016 - 2017
 		- Developed to identify existing and potential telehealth metrics</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Telehealth</em>. <a href="https://jacobzelko.com/05022022155118-telehealth">https://jacobzelko.com/05022022155118-telehealth</a>. May 2 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; “About telemedicine. Washington, DC: American Telemedicine Association.” &#91;Online&#93;. Available: https://www.americantelemed.org/main/about/&#37;20about-telemedicine/telemedicine-faqs. &#91;Accessed: 02-May-2022&#93;.</p>
 <p>&#91;2&#93; “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -882,7 +893,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>E. R. Dorsey and E. J. Topol, “State of Telehealth,” N Engl J Med, vol. 375, no. 2, pp. 154–161, Jul. 2016, doi: 10.1056/NEJMra1601705.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Goals of Telehealth</li><li>Current Issues with Care</li><li>Opportunities for Telehealth</li><li>Challenges to Telehealth</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Goals of Telehealth</li><li>Current Issues with Care</li><li>Opportunities for Telehealth</li><li>Challenges to Telehealth</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>This was a systematic review of the state of telehealth using literature.</p>
 <h3 id="definitions">Definitions</h3>
 <ul>
@@ -932,8 +943,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 		- Social factors
 	- Worst for the elderly
 		- Only 58&#37; of persons &gt; 65 years old use Internet &#91;8&#93;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>State of Telehealth</em>. <a href="https://jacobzelko.com/05022022144808-state-of-telehealth">https://jacobzelko.com/05022022144808-state-of-telehealth</a>. May 2 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Merritt Hawkins, “Physician Appointment Wait Times and Medicaid and Medicare Acceptance Rates,” Merritt Hawkins, 2014.</p>
 <p>&#91;2&#93; K. N. Ray, A. V. Chari, J. Engberg, M. Bertolet, and A. Mehrotra, “Disparities in time spent seeking medical care in the United States,” JAMA Intern. Med., vol. 175, no. 12, pp. 1983–1986, 2015.</p>
 <p>&#91;3&#93; K. A. Ornstein et al., “Epidemiology of the homebound population in the United States,” JAMA Intern. Med., vol. 175, no. 7, pp. 1180–1186, 2015.</p>
@@ -989,7 +1001,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>X. Li et al., &quot;Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information,&quot; PLoS Biol, vol. 15, no. 1, p. e2001402, Jan. 2017, doi: 10.1371/journal.pbio.2001402.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Goals</li><li>Population Details</li><li>Usage of Wearables</li><li>Lyme Disease Found in Subject 1</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Goals</li><li>Population Details</li><li>Usage of Wearables</li><li>Lyme Disease Found in Subject 1</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="goals">Goals</h3>
 <ol>
 <li><p>Record real-time physiological data</p>
@@ -1053,8 +1065,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <pre><code class="language-julia">- Detected before typical bull&#39;s rash manifestation
 - It was reported that SpO2 and HR was most important for alerting of Lyme Disease
 - Strong and repeated signals in change of heart algorithm were detected during Lyme Disease</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information</em>. <a href="https://jacobzelko.com/01112022214236-tracking-physiomes">https://jacobzelko.com/01112022214236-tracking-physiomes</a>. January 11 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1102,7 +1115,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>E. Patterson, O. Lynch, and J. Fairbanks, &quot;Categorical Data Structures for Technical Computing,&quot; arXiv:2106.04703 &#91;cs, math&#93;, Jun. 2021, Accessed: Sep. 27, 2021. &#91;Online&#93;. Available: http://arxiv.org/abs/2106.04703</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Limitations of the Data Frame</li><li>Conclusions<ol><li>Use Cases for Acsets</li><li>Category Theory</li></ol></li><li>Discussion with Brighton Ancelin - October 6, 2021</li><li>Questions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Limitations of the Data Frame</li><li>Conclusions<ol><li>Use Cases for Acsets</li><li>Category Theory</li></ol></li><li>Discussion with Brighton Ancelin - October 6, 2021</li><li>Questions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="definitions">Definitions</h3>
 <p><strong>Combinatorial Data</strong> - data stored in a graph</p>
 <p><strong>Attribute data</strong> - the data that would be put into a data frame</p>
@@ -1157,8 +1170,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <li><p>With the snippet of <code>add_part&#33;</code>, what is a &quot;part&quot;?</p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Categorical Data Structures for Technical Computing</em>. <a href="https://jacobzelko.com/10062021162335-ascets-paper">https://jacobzelko.com/10062021162335-ascets-paper</a>. October 6 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1206,7 +1220,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
 <p><a href="https://jacobzelko.com/05172021000429-observational-studies.md">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
 <p>&#91;Study Packages&#93;</p>
@@ -1224,8 +1238,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals.md">Goals of OHDSI</a></p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Book of OHDSI</em>. <a href="https://jacobzelko.com/05172021000348-book-of-ohdsi">https://jacobzelko.com/05172021000348-book-of-ohdsi</a>. May 16 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; G. Hripcsak et al., “Observational health data sciences and informatics &#40;OHDSI&#41;: Opportunities for observational researchers,” Stud. Health Technol. Inform., vol. 216, p. 574, 2015.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -1274,7 +1289,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>S. Chang et al., &quot;Mobility network models of COVID-19 explain inequities and inform reopening,&quot; Nature, vol. 589, no. 7840, pp. 82–87, Jan. 2021, doi: 10.1038/s41586-020-2923-3.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Iterative proportional fitting &#91;1&#93; was used to make POI –&gt; <a href="https://jacobzelko.com/01202021043013-census-groups.md">CBG</a> networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.</p>
 <p><em>THOUGHTS: What is iterative proportional fitting?</em></p>
 <p>Model fits observed daily case counts from 8 March to 9 May 2020</p>
@@ -1339,8 +1354,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>CBGs with fewer white residents had higher predicted infection risks.</p>
 <p><em>THOUGHTS: Seems somewhat odd? This is interesting to me in how they keep bringing up race or economic status as a variable, but never fully commit to an investigation. Feels really weird to talk about issues without actually addressing them.</em></p>
 <p>Mobility data showed average grocery store visits from lower-income CBGs had 59&#37; more hourly visitors per square foot. Median metro area data showed they stayed 17&#37; longer.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening</em>. <a href="https://jacobzelko.com/01202021043643-mobility-network-models">https://jacobzelko.com/01202021043643-mobility-network-models</a>. January 19 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; W. E. Deming and F. F. Stephan, “On a least squares adjustment of a sampled frequency table when the expected marginal totals are known,” Ann. Math. Stat., vol. 11, no. 4, pp. 427–444, 1940.</p>
 <p>&#91;2&#93; Q. Bi et al., “Epidemiology and transmission of COVID-19 in 391 cases and 1286 of their close contacts in Shenzhen, China: A retrospective cohort study,” Lancet Infect. Dis., 2020.</p>
 <p>&#91;3&#93; S. Y. Park et al., “Early release-coronavirus disease outbreak in call center, south korea,” 2020.</p>
@@ -1400,7 +1416,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>G. Marchais, P. Bazuzi, and A. Amani Lameke, &quot;‘The Data Is Gold, And We Are The gold-diggers&#39;: Whiteness, Race And Contemporary Academic Research In Eastern DRC,&quot; Critical African Studies, vol. 12, no. 3, pp. 372–394, Sep. 2020, doi: 10.1080/21681392.2020.1724806.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Background<ol><li>Review Process</li><li>Research Projects Are a Lucrative Business</li><li>Accidental Whiteness</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Background<ol><li>Review Process</li><li>Research Projects Are a Lucrative Business</li><li>Accidental Whiteness</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="background">Background</h3>
 <h4 id="review_process">Review Process</h4>
 <p>First stage, a white European male&#39;s reflection on academic research in DRC and setting up Marakuja Kive Research group.  Second stage, two Congolese researchers and Marakuja Kive Research founders review ideas in initial draft.</p>
@@ -1432,8 +1448,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>This mirrors very closely how international academic endeavors can look like a supply chain.</p>
 <h4 id="accidental_whiteness">Accidental Whiteness</h4>
 <p>White academics incidentally separate to give themselves a sense of racial inapplicability &#91;6&#93;, &#91;7&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>‘The Data Is Gold, And We Are The gold-diggers&#39;: Whiteness, Race And Contemporary Academic Research In Eastern DRC</em>. <a href="https://jacobzelko.com/01132021041501-gold-diggers">https://jacobzelko.com/01132021041501-gold-diggers</a>. January 12 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; D. Desai and R. Tapscott, “Tomayto tomahto: The research supply chain and the ethics of knowledge production,” Humanity J. Online, 2004.</p>
 <p>&#91;2&#93; F. Bédécarrats, I. Guérin, and F. Roubaud, “All that glitters is not gold. The political economy of randomized evaluations in development,” Dev. Change, vol. 50, no. 3, pp. 735–762, 2019.</p>
 <p>&#91;3&#93; L. Mann, “Left to other peoples’ devices? A political economy perspective on the big data revolution in development,” Dev. Change, vol. 49, no. 1, pp. 3–36, 2018.</p>
@@ -1488,7 +1505,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>V. Bush and others, &quot;As we may think,&quot; The Atlantic monthly, vol. 176, no. 1, pp. 101–108, 1945.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>The Failure of the Publication Machine</li><li>The idea of Automated Knowledge Systems</li><li>Regarding Thought</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>The Failure of the Publication Machine</li><li>The idea of Automated Knowledge Systems</li><li>Regarding Thought</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="the_failure_of_the_publication_machine">The Failure of the Publication Machine</h3>
 <p>Publication has been extended beyond usefulness of the record. Current methods for finding relevant information is impractical.</p>
 <p><em>THOUGHTS: Very convicting retrospection on how we handle copious amounts of information. A record which contains too little information is not informative and one that contains too much is overwhelming.</em></p>
@@ -1499,8 +1516,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h3 id="regarding_thought">Regarding Thought</h3>
 <p>There exist no substitute for nuanced thinking. Imagination and repetitious thinking are diverse. Repetitive thought is much easier automated.</p>
 <p><em>THOUGHTS: I like this notion of repetitive thought. As much as there are repetitive thought, there are repetitive actions accordingly.</em></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>As We May Think</em>. <a href="https://jacobzelko.com/01112021180936-we-may-think">https://jacobzelko.com/01112021180936-we-may-think</a>. January 11 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1548,7 +1566,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>J. Pearl and D. Mackenzie, The book of why: the new science of cause and effect, First edition. New York: Basic Books, 2018.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Benefits of Causal Analysis</li><li>Critiques of Statistics</li><li>Causal Calculus</li><li>Inference Engine</li><li>Ladder of Causality</li><li>Mini-Turing Test</li><li>Bayesian Analysis</li><li>Causal Diagrams<ol><li>Paths in Path Diagrams<ol><li>Chain junction</li><li>Fork Junction</li><li>Collider Junction</li></ol></li><li>Lessons from Path Diagrams</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Benefits of Causal Analysis</li><li>Critiques of Statistics</li><li>Causal Calculus</li><li>Inference Engine</li><li>Ladder of Causality</li><li>Mini-Turing Test</li><li>Bayesian Analysis</li><li>Causal Diagrams<ol><li>Paths in Path Diagrams<ol><li>Chain junction</li><li>Fork Junction</li><li>Collider Junction</li></ol></li><li>Lessons from Path Diagrams</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This book shows that data is stupid. Data can record events but cannot answer why any of the events are the way they are.</p>
 <p>Causal inference posits the brain as the most advanced tool for understanding cause and effect.</p>
 <p>Forcing an occurrence means to submit it to one influence to trigger the desired event</p>
@@ -1570,7 +1588,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 </ol>
 <h3 id="inference_engine">Inference Engine</h3>
 <p>The inference engine assumes perfect and unlimited data for the given figure:</p>
-<p><img src="../assets/01082021030619-inference-engine.png" alt="" /></p>
+<p><img src="assets/01082021030619-inference-engine.png" alt="" /></p>
 <p><strong>Estimand:</strong> generalized mathematical formula to answer data questions. A statistical quantity estimated from data that can represent an answer to a query.</p>
 <p>A given estimand is computed on the basis of the causal model alone, prior to an examination of the specifics of the data. This gives the inference engine better adaptibility.</p>
 <p><strong>Binary Evaluation of Query:</strong> determines if a query can be answered under an existing causal model.</p>
@@ -1621,8 +1639,9 @@ A \rightarrow B \leftarrow C
 <li><p>Two people creating differing causal diagrams for the same data and may not arrive at the same result.</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Book of Why</em>. <a href="https://jacobzelko.com/01072021082043-book-of-why">https://jacobzelko.com/01072021082043-book-of-why</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1670,7 +1689,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>A. Moreland et al., &quot;Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020,&quot; MMWR Morb. Mortal. Wkly. Rep., vol. 69, no. 35, pp. 1198–1203, Sep. 2020, doi: 10.15585/mmwr.mm6935a2.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Methods and Materials<ol><li>Classifying Stay-at-Home Orders</li><li>Determining Time Windows</li><li>Analyzing for Changes in Population Movement Patterns</li></ol></li><li>Discussion<ol><li>General Insights</li><li>Limitations of this analysis</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion</li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Methods and Materials<ol><li>Classifying Stay-at-Home Orders</li><li>Determining Time Windows</li><li>Analyzing for Changes in Population Movement Patterns</li></ol></li><li>Discussion<ol><li>General Insights</li><li>Limitations of this analysis</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion</li></ol></div>
 <h3 id="methods_and_materials">Methods and Materials</h3>
 <p>Changes in population movement based on stay-at-home orders between March 1–May 31, 2020 given by all 50 states, the District of Columbia, and five U.S. territories were examined.</p>
 <h4 id="classifying_stay-at-home_orders">Classifying Stay-at-Home Orders</h4>
@@ -1727,8 +1746,9 @@ A \rightarrow B \leftarrow C
 <li><p>The only relationship analyzed was between stay-at-home orders and population movement.</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020</em>. <a href="https://jacobzelko.com/01072021062915-mobility-patterns-gtri">https://jacobzelko.com/01072021062915-mobility-patterns-gtri</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion__2">Discussion</h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1776,12 +1796,13 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>M. S. Worden, J. J. Foxe, N. Wang, and G. V. Simpson, &quot;Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex,&quot; J. Neurosci., vol. 20, no. 6, pp. RC63–RC63, Mar. 2000, doi: 10.1523/JNEUROSCI.20-06-j0002.2000.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="materials_and_methods">Materials and Methods</h3>
 <p>EEGs from 128 tin electrodes, referenced to the nose. Data acquired at 500 Hz &#40;pass band of DC, 100 Hz&#41;, impedances &lt; 10 KOhms, and interelectrode spacing at 2.4 cm. Eye position monitored with electrooculographic recordings from the external canthi. Eye movements and artifacts were removed off-line.</p>
 <p><em>QUESTION: How was it referenced to the nose?  QUESTION: What is an electrooculographic recording? QUESTION: Where is the external canthi?</em></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex</em>. <a href="https://jacobzelko.com/01062021042121-anticipatory-biasing">https://jacobzelko.com/01062021042121-anticipatory-biasing</a>. January 6 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1829,12 +1850,13 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>M. S. Worden, J. J. Foxe, N. Wang, and G. V. Simpson, &quot;Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex,&quot; J. Neurosci., vol. 20, no. 6, pp. RC63–RC63, Mar. 2000, doi: 10.1523/JNEUROSCI.20-06-j0002.2000.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Materials &amp; Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Materials &amp; Methods</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="materials_methods">Materials &amp; Methods</h3>
 <p>Ten right-handed subjects, five male and five female, participated and gave informed consent. Their mean age was 27.1 years with a standard deviation of 6.7 years.</p>
 <p><strong>Covert attention:</strong> how one can intentionally focus on locations in visual space where stimuli are expected without eye movement.Results in better stimuli processing occurring at the locus of attention while attenuating attention given elsewhere. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Anticipatory Biasing of Visuospatial Attention Indexed by Retinotopically Specific α-Bank Electroencephalography Increases over Occipital Cortex</em>. <a href="https://jacobzelko.com/01022021030923-retinotopically-alpha-band">https://jacobzelko.com/01022021030923-retinotopically-alpha-band</a>. January 1 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; M. I. Posner, C. R. Snyder, and B. J. Davidson, “Attention and the detection of signals.” J. Exp. Psychol. Gen., vol. 109, no. 2, p. 160, 1980.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -1883,13 +1905,14 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>A. Delorme, S. Makeig, M. Fabre-Thorpe, and T. Sejnowski, &quot;From single-trial EEG to brain area dynamics,&quot; Neurocomputing, vol. 44–46, pp. 1057–1064, Jun. 2002, doi: 10.1016/S0925-2312&#40;02&#41;00415-0.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="materials_and_methods">Materials and Methods</h3>
 <p>EEG data from rapid go/nogo visual categorization via natural photographs &#91;1&#93; Though the task involved complicated visual processing, averaged EEG epochs for target and non-target stimuli differed greatly as early as 150 ms after stimulus onset. It appeared to involve automated processing in the visual system.&#91;2&#93; <em>QUESTION: What is a go/nogo visual categorization task?</em></p>
 <p><strong>EEG inverse problem:</strong> reconstructing intracranial brain sources from collected signals.Disparate EEG processes generally overlap in time and space. They become intertwined in scalp electrode recordings. &#91;3&#93;</p>
 <p>Subjects were presented pictures for 20 ms at random intervals between 1.8–2.2s. Half of the pictures were animals. Subjects released a held button when an animal was observed. Subject accuracy was 94&#37; for correct responses. Median reaction time was 440 ms</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>From Single-Trial EEG To Brain Area Dynamics</em>. <a href="https://jacobzelko.com/12312020235220-single-trial-eeg">https://jacobzelko.com/12312020235220-single-trial-eeg</a>. December 31 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; M. Fabre-Thorpe, A. Delorme, C. Marlot, and S. Thorpe, “A limit to the speed of processing in ultra-rapid visual categorization of novel natural scenes,” J. Cogn. Neurosci., vol. 13, no. 2, pp. 171–180, 2001.</p>
 <p>&#91;2&#93; S. J. Thorpe and M. Fabre-Thorpe, “Seeking categories in the brain,” Science, vol. 291, no. 5502, pp. 260–263, 2001.</p>
 <p>&#91;3&#93; S. Thorpe, D. Fize, and C. Marlot, “Speed of processing in the human visual system,” nature, vol. 381, no. 6582, pp. 520–522, 1996.</p>
@@ -1940,7 +1963,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>J. Han, B. Meyer, and J. Sullivan, &quot;Income and Poverty in the COVID-19 Pandemic,&quot; National Bureau of Economic Research, Cambridge, MA, w27729, Aug. 2020. doi: 10.3386/w27729.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>General Insights</li><li>Methods of Research</li><li>Key Conclusions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>General Insights</li><li>Methods of Research</li><li>Key Conclusions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_insights">General Insights</h3>
 <p>This study provides a template for understanding large economic shocks as they happen to counter the problem of data availability during major economic shocks. The start of the pandemic saw an unprecedented decline in economic activity in the US. The largest single month decline in US unemployment was 14 percent in April 2020.</p>
 <p>The federal government&#39;s response totalled to nearly three trillion dollars spent to counter pandemic effects. Their response comprised of:</p>
@@ -1973,8 +1996,9 @@ A \rightarrow B \leftarrow C
 <li><p>Other disruptions</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Income and Poverty in the COVID-19 Pandemic</em>. <a href="https://jacobzelko.com/12282020152055-income-poverty-pandemic">https://jacobzelko.com/12282020152055-income-poverty-pandemic</a>. December 28 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; S. Flood, M. King, R. Rodgers, S. Ruggles, and J. Warren, “Integrated public use microdata series, current population survey: Version 7.0 &#91;dataset&#93;. Minneapolis, MN: Integrated public use microdata; 2020.”</p>
 <p>&#91;2&#93; B. D. Meyer, W. K. Mok, and J. X. Sullivan, “Household surveys in crisis,” J. Econ. Perspect., vol. 29, no. 4, pp. 199–226, 2015.</p>
 <p>&#91;3&#93; L. Bauer, “The COVID-19 Crisis Has Already Left Too Many Children Hungry in America,” 06-May-2020. &#91;Online&#93;. Available: https://www.hamiltonproject.org/blog/the<em>covid</em>19<em>crisis</em>has<em>already</em>left<em>too</em>many<em>children</em>hungry<em>in</em>america. &#91;Accessed: 08-Nov-2020&#93;.</p>
@@ -2026,11 +2050,12 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>R. C. Tasker, &quot;Why everyone should care about ‘Computable Phenotypes,’&quot; Pediatr Crit Care Med, vol. 18, no. 5, pp. 489–490, May 2017, doi: 10.1097/PCC.0000000000001115.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>I do not believe the author is very familiar with the notion of mutltimodal analysis or standard data fusion methodologies. This was such a strange article that was more excitement and jubilation over the phenomenon of the possibility of computable phenotypes that I think the author was distracted from the message they were trying to convey. Though, they did talk about some applications regarding lung injury and sepsis, there was nothing really to suggest novelty in their assessment.</p>
 <p>I reviewed this author&#39;s work and it appears the author has no formal training in informatics or analytics. So, I do not fault them for this article - however, to me, it read like something out of MIT Technology Review or a Science &amp; Technology Magazine. Not a professional scientific publication.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Why everyone should care about &#39;Computable Phenotypes&#39;</em>. <a href="https://jacobzelko.com/12292020005502-care-computable-phenotypes">https://jacobzelko.com/12292020005502-care-computable-phenotypes</a>. December 28 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2078,7 +2103,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>E. A. Allen, E. B. Erhardt, and V. D. Calhoun, &quot;Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality,&quot; Neuron, vol. 74, no. 4, pp. 603–608, May 2012, doi: 10.1016/j.neuron.2012.05.001.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Methods</li><li>Purpose</li><li>Ways to Reduce Complexity</li><li>Common Perceptions of Neuroscience Visualizations<ol><li>Bar Plots</li></ol></li><li>Key Takeaways</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Methods</li><li>Purpose</li><li>Ways to Reduce Complexity</li><li>Common Perceptions of Neuroscience Visualizations<ol><li>Bar Plots</li></ol></li><li>Key Takeaways</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="methods">Methods</h3>
 <p>1,451 figures were examined from 288 neuroscience papers in 2010.</p>
 <h3 id="purpose">Purpose</h3>
@@ -2137,8 +2162,9 @@ A \rightarrow B \leftarrow C
 <p>Dependent variables are more difficult to label when they represent abstract parameter estimates rather than directly measured quantities. Uncertainty is more challenging to render when data sets require error surfaces rather than error bars.  Displays should become increasingly informative regarding complex data in illustrating relationships that would not be well defined in tables or values alone.</p>
 <p>Link to code in this paper: http://mialab.mrn.org/datavis</p>
 <p><em>QUESTION: One thing that I realize and think a lot about from this paper is the question of: how easy is it to represent this sort of additional information that tells more the story of the neuroscientific data? Obviously, the authors have expertise with making their own tools.  But what about for those who do not have them?</em></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality</em>. <a href="https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience">https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; E. Tagliazucchi, M. Siniatchkin, H. Laufs, and D. R. Chialvo, “The voxel-wise functional connectome can be efficiently derived from co-activations in a sparse spatio-temporal point-process,” Front. Neurosci., vol. 10, p. 381, 2016.</p>
 <p>&#91;2&#93; E. Tagliazucchi, R. Carhart-Harris, R. Leech, D. Nutt, and D. R. Chialvo, “Enhanced repertoire of brain dynamical states during the psychedelic experience,” Hum. Brain Mapp., vol. 35, no. 11, pp. 5442–5456, 2014.</p>
 <p>&#91;3&#93; E. Tagliazucchi, P. Balenzuela, D. Fraiman, and D. R. Chialvo, “Criticality in large-scale brain fMRI dynamics unveiled by a novel point process analysis,” Front. Physiol., vol. 3, p. 15, 2012.</p>
@@ -2194,7 +2220,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>A. Miller, Death of a Salesman. Penguin Books, 1998.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What is Satisfaction?</li><li>Shattering of Innocence</li><li>False Expectations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What is Satisfaction?</li><li>Shattering of Innocence</li><li>False Expectations</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="what_is_satisfaction">What is Satisfaction?</h3>
 <blockquote>
 <p>&quot;I&#39;m thirty-four years old, I oughta be makin&#39; my future.</p>
@@ -2234,8 +2260,9 @@ A \rightarrow B \leftarrow C
 <p>And the funny thing is that you&#39;re a salesman, and you don&#39;t know that.&quot;</p>
 <p><em>Willy&#39;s neighbor Charley admonishing him on his frustration with the world not working they way Willy expects it to.</em></p>
 <p>Ultimately, this searing criticism of Willy shows to him that he doesn&#39;t have any skills to offer outside of his perfunctory service as a salesman. He is a mediocre man who never tried to adapt and move with the times. And Willy refuses to believe that life passed him by in that way.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Death of a Salesman</em>. <a href="https://jacobzelko.com/12262020224653-death-salesman">https://jacobzelko.com/12262020224653-death-salesman</a>. July 26 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2283,7 +2310,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>M. A. Turk, S. D. Landes, M. K. Formica, and K. D. Goss, &quot;Intellectual and developmental disability and COVID-19 case-fatality trends: TriNetX analysis,&quot; Disability and Health Journal, p. 100942, May 2020, doi: 10.1016/j.dhjo.2020.100942.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Data Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Data Methods</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The central hypotheses of this paper are:</p>
 <ol>
 <li><p>IDD persons have higher prevalence of conditions associated with higher COVID-19 morbidity and mortality outcomes</p>
@@ -2295,8 +2322,9 @@ A \rightarrow B \leftarrow C
 <p>COVID-19 patients were defined as those with either a COVID-19 diagnosis code or a positive SARS-CoV-2 laboratory test result since January 20, 2020. Patients were categorized as those with and without diagnosed developmental disability, including intellectual disability &#40;F70-79&#41;, cerebral palsy &#40;G80&#41;, Down syndrome &#40;Q90&#41;, and other developmental disabilities &#40;F80-89, Q91-99&#41;.</p>
 <p>Documentation was provided for comorbidities related to risk for severe outcomes with COVID-19 up to the date of the first COVID-19 documentation. Trends in number of cases, number of deaths, and case-fatality rates were compared between COVID19 patients with IDD and without IDD. Age distributions for number of cases and number of deaths were computed for both patient groups. Deaths occurring within 30 days of the date of first COVID-19 documentation in the EMR were identified and used to calculate case-fatality rates and 95&#37; confidence intervals. Age groups were selected based upon the knowledge that COVID-19 rates are substantially lower among children, &#91;1&#93; and that a disproportionately lower percent of adults with IDD live into older age. &#91;2&#93;</p>
 <p>We excluded patients with diagnosis codes of other specified viral infection &#40;ICD-9 code: 097.89&#41; or suspected exposure to other biologic agents &#40;ICD-10 code: Z03.818&#41; during the same timeframe</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Intellectual and Developmental Disability and COVID-19 Case-fatality Trends: TriNetX Analysis</em>. <a href="https://jacobzelko.com/07192020022823-intellectual-trinetx-analysis">https://jacobzelko.com/07192020022823-intellectual-trinetx-analysis</a>. July 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; CDC, “Severe outcomes among patients with coronavirus disease 2019 &#40;COVID-19&#41;—United States, February 12–March 16, 2020,” MMWR Morb Mortal Wkly Rep, vol. 69, no. 12, pp. 343–346, 2020.</p>
 <p>&#91;2&#93; S. Landes, J. Stevens, and M. Turk, “Heterogeneity in age at death for adults with developmental disability,” J. Intellect. Disabil. Res., vol. 63, no. 12, pp. 1482–1487, 2019.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -2346,7 +2374,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>S. D. Landes, M. A. Turk, M. K. Formica, K. E. McDonald, and J. D. Stevens, &quot;COVID-19 outcomes among people with intellectual and developmental disability living in residential group homes in New York State,&quot; Disability and Health Journal, p. 100969, Jun. 2020, doi: 10.1016/j.dhjo.2020.100969.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Methods</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p><strong>Hypothesis:</strong> COVID-19 case rates, case fatality, and mortality rates will be elevated for IDD persons abiding in residential group homes.</p>
 <h3 id="methods">Methods</h3>
 <p>They assume the majority of cases reported in this study are likely for symptomatic individuals.</p>
@@ -2354,8 +2382,9 @@ A \rightarrow B \leftarrow C
 <p>Residential group homes are required to complete a COVID-19 screen and temperature check at least once per day in homes that have not had a prior confirmed case. For a prior confirmed case, screening and checks once per shift. &#91;1&#93;</p>
 <p>IDD individuals experience health disparities and high prevalence of comorbidities. &#91;2&#93; Many of which areassociated with more severe COVID19 outcomes. &#91;3&#93;, &#91;4&#93; There is a paucity of IDD health research. &#91;5&#93;, &#91;6&#93; Furthermore, the CDC only issued COVID-19 guidance relevant to this population in late May. <em>RQ: That&#39;s absurd how long it took the CDC to issue guidelines about this population. I wonder if WHO has issued any guidelines related to individuals with IDD?</em></p>
 <p>There may be increased risk from COVID-19 for individuals living in congregate care settings due to difficulty in maintaining physical distancing. &#91;7&#93;–&#91;9&#93; It is estimated that 13&#37; of IDD adults reside in congregate care settings, &#91;10&#93; with shared use of essential living spaces, closeproximity to others, high levels of personal care assistancefrom staff, and multiple shift staffing patterns. &#91;11&#93;  <em>RQ: It seems like the authors are insinuating that individauls with IDD are at increased risk for COVID19 due to group care facilities.  Not so much biologic dysfunction. However, I think they say later there is biologic concern.</em></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State</em>. <a href="https://jacobzelko.com/07192020031136-covid-outcomes-disabilities">https://jacobzelko.com/07192020031136-covid-outcomes-disabilities</a>. July 18 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; Office for People with Developmental Disabilities, “Revised Staffing Guidance for Management of COVID-19,” 12-Jun-2020. &#91;Online&#93;. Available: https://opwdd.ny.gov/system/files/documents/2020/06/6.12.2020-opwdd<em>covid19</em>staffguidance_updated-symptoms.pdf. &#91;Accessed: 14-Jul-2020&#93;.</p>
 <p>&#91;2&#93; V. Prasher and M. Janicki, Physical health of adults with intellectual disabilities. John Wiley &amp; Sons, 2008.</p>
 <p>&#91;3&#93; Centers for Disease Control, “Preliminary Estimates of the Prevalence of Selected Underlying Health Conditions Among Patients with Coronavirus Disease 2019 — United States, February 12–March 28, 2020.” MMWR Morb Mortal Wkly Rep, 2020.</p>
@@ -2414,7 +2443,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>M. E. de Sousa Lima, L. C. M. Barros, and G. F. Aragão, &quot;Could Autism Spectrum Disorders be a Risk Factor for COVID-19?,&quot; Med Hypotheses, May 2020, doi: 10.1016/j.mehy.2020.109899.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Cytokine Observations in ASD and COVID19</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Cytokine Observations in ASD and COVID19</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <blockquote>
 <p><strong>NOTE:</strong> The journal medical hypothesis lacks a standard peer review process, but is often utilized to posit ideas quickly.</p>
 </blockquote>
@@ -2424,8 +2453,9 @@ A \rightarrow B \leftarrow C
 <p>Initially there is an endogenous immune response in the presence of COVID19. The response is linked to the destruction level of the virus, the patient’s innateresponse, and it determines its inflammation status and symptomatology. &#91;2&#93;</p>
 <p>Secretory increases of ACE-2 was correlated with COVID-19 patients &#91;3&#93;. There seem to exist an ACE-2 superexpression leading to a pro-inflammatory state, related to cardiac and pulmonary damage &#91;3&#93; ACE-2 is a regulator in angiotensin-2transformation into angiotensin-&#40;1-7&#41; metabolite. It has inflammatory effects producing vasodilatation, anti-proliferation and apoptosis. This is common to CVD conditions &#91;4&#93;.</p>
 <p>Coronavirus also has the characteristic of being neuroinvasive. &#91;5&#93; This characteristic shows via:- Febrile seizures - Encephalitis - Convulsions - Change in mental status Some neurological symptomsfound in COVID-19 patients are non-specific, such as headache, dizziness and confusion. Neurological symptoms were directly related to patients. &#91;6&#93; Thereby, we can hypothesize that its physiopathology might have a strict relation with the nervous system.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Could Autism Spectrum Disorders Be A Risk Factor For covid-19?</em>. <a href="https://jacobzelko.com/07192020034934-asd-risk-factor">https://jacobzelko.com/07192020034934-asd-risk-factor</a>. July 18 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; H. Ormstad, V. Bryn, O. D. Saugstad, O. Skjeldal, and M. Maes, “Role of the immune system in autism spectrum disorders &#40;ASD&#41;,” CNS Neurol. Disord.-Drug Targets Former. Curr. Drug Targets-CNS Neurol. Disord., vol. 17, no. 7, pp. 489–495, 2018.</p>
 <p>&#91;2&#93; Y. Shi et al., “COVID-19 infection: The perspectives on immune responses,” 2020.</p>
 <p>&#91;3&#93; Y.-Y. Zheng, Y.-T. Ma, J.-Y. Zhang, and X. Xie, “COVID-19 and the cardiovascular system,” Nat. Rev. Cardiol., vol. 17, no. 5, pp. 259–260, 2020.</p>
@@ -2479,14 +2509,15 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>W. S. Helton and P. N. Russell, &quot;Rest is best: The role of rest and task interruptions on vigilance,&quot; Cognition, vol. 134, pp. 165–173, Jan. 2015, doi: 10.1016/j.cognition.2014.10.001.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Based on the results, taking rest is best for maintaining vigilance. A different perspective can proffer an explanation for this: </p>
 <p>Differing tasks which interrupt one during a vigilance task may both utilize distinctly unique resources and require different amounts of resources. The tasks may have elicited different levels of cognitive load.</p>
 <p>There exist on-going debate about the origins of vigilance decrement &#91;1&#93;. The best known is based on resource theory. However critics think it is a circular mode of reasoning &#91;2&#93;.</p>
 <p>Current findings suggest that vigilance decrement comes from repeated use of executive resources. There may be domain specific interference when the primary task and activities during a break make use of the same resources.</p>
 <p>The findings by Ariga do not support the idea that vigilance decrement is due to task under-load. &#91;3&#93; Knowing why resting can assist with refocusing is difficult. Perhaps, rest allowed participants to engage in day dreaming which eliminated task monotony. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Rest Is Best: The Role of Rest and Task Interruptions on Vigilance</em>. <a href="https://jacobzelko.com/07122020172346-rest-best">https://jacobzelko.com/07122020172346-rest-best</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; W. S. Helton and J. S. Warm, “Signal salience and the mindlessness theory of vigilance,” Acta Psychol. &#40;Amst.&#41;, vol. 129, no. 1, pp. 18–25, 2008.</p>
 <p>&#91;2&#93; D. Navon, “Resources—A theoretical soup stone?” Psychol. Rev., vol. 91, no. 2, p. 216, 1984.</p>
 <p>&#91;3&#93; P. A. Hancock, “In search of vigilance: The problem of iatrogenically created psychological phenomena.” Am. Psychol., vol. 68, no. 2, p. 97, 2013.</p>
@@ -2537,7 +2568,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>P. Feyerabend, <em>Against method</em>, 3rd ed. London ; New York: Verso, 1993.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>General Themes</li><li>Limits of Current Education</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>General Themes</li><li>Limits of Current Education</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_themes">General Themes</h3>
 <p>The goal of Against Method is to show that all methodologies have limits.</p>
 <p>&quot;Passion&quot;, in Kierkegaard&#39;s sense, should encourage playful exploration of ideas. This passion results in behavior that facilitates circumstances and ideas which can produce a logical framework regarding an idea. &#91;1&#93;  Feyerabend contends that people rely on too narrow and fixed frameworks to understand the world. Only one principle that guides learning under any circumstance of human development is the principle &quot;anything goes.&quot;</p>
@@ -2573,8 +2604,9 @@ A \rightarrow B \leftarrow C
 </blockquote>
 <p>His imagination is restrained, and even his language ceases to be his own.&quot;</p>
 <p>The <strong>consistency condition</strong> of modern academia demands new hypotheses to agree with accepted theories. It preserves the older theory but not the better theory. Theories should only be changed when a theory disagrees with facts. Discussion of incompatible facts will lead to progress. Discussion of incompatible hypotheses will not.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Against Method</em>. <a href="https://jacobzelko.com/07122020043224-against-method">https://jacobzelko.com/07122020043224-against-method</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; S. Kierkegaard, Kierkegaard’s writings, VI, volume 6: Fear and trembling/repetition. Princeton University Press, 2013.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -2623,7 +2655,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>P. C. Brown, Make it stick: the science of successful learning. Cambridge, Massachusetts: The Belknap Press of Harvard University Press, 2014.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Feedback</li><li>Effects of Quizzing</li><li>Characteristics of Learning</li><li>Notable Quotes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Feedback</li><li>Effects of Quizzing</li><li>Characteristics of Learning</li><li>Notable Quotes</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The false idea that repetition improves memory traces back to the mid-1960&#39;s. Psychologist Endel Tulving, from the University of Toronto, tested people on their ability to remember lists of common English nouns.</p>
 <h3 id="feedback">Feedback</h3>
 <p>Feedback has been extensively studied. &#91;1&#93; It can lead to the following conditions:</p>
@@ -2652,8 +2684,9 @@ A \rightarrow B \leftarrow C
 <blockquote>
 <p><em>If you’re good at learning, you have an advantage in life.</em></p>
 </blockquote>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Make It Stick: the Science of Successful Learning</em>. <a href="https://jacobzelko.com/07122020164149-make-it-stick">https://jacobzelko.com/07122020164149-make-it-stick</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; A. C. Butler and H. L. Roediger, “Feedback enhances the positive effects and reduces the negative effects of multiple-choice testing,” Mem. Cognit., vol. 36, no. 3, pp. 604–616, 2008.</p>
 <p>&#91;2&#93; A. W. Salmoni, R. A. Schmidt, and C. B. Walter, “Knowledge of results and motor learning: A review and critical reappraisal.” Psychol. Bull., vol. 95, no. 3, p. 355, 1984.</p>
 <p>&#91;3&#93; M. A. McDaniel, P. K. Agarwal, B. J. Huelser, K. B. McDermott, and H. L. Roediger III, “Test-enhanced learning in a middle school science classroom: The effects of quiz frequency and placement.” J. Educ. Psychol., vol. 103, no. 2, p. 399, 2011.</p>
@@ -2705,7 +2738,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>S. Young, Ultralearning. HarperCollins Publishers, 2019.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Principles of Metalearning</li><li>Make a Roadmap for a Learning Project<ol><li>What Is the Project and What Does It Entail?</li><li>How Do We Approach The Project?</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Principles of Metalearning</li><li>Make a Roadmap for a Learning Project<ol><li>What Is the Project and What Does It Entail?</li><li>How Do We Approach The Project?</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p><strong>Ultralearning</strong>: An intensive, self-directed study framework for quickly acquiring skills and knowledge.</p>
 <h3 id="principles_of_metalearning">Principles of Metalearning</h3>
 <ol>
@@ -2733,8 +2766,9 @@ A \rightarrow B \leftarrow C
 <h4 id="how_do_we_approach_the_project">How Do We Approach The Project?</h4>
 <p>Employing the <strong>Emphasize/Exclude Method</strong> is to find areas of study that align with identified goals. Part of this method is to omit or delay from your curriculum material which do not align with your goals. Familiarize yourself with what is common for <strong>benchmarking</strong>, or the ways people learn a skill or subject, regarding your project.</p>
 <p><strong>Directness:</strong> learning being directly related to the way you want to use the information.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Ultralearning</em>. <a href="https://jacobzelko.com/07082020163004-ultralearning">https://jacobzelko.com/07082020163004-ultralearning</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2782,7 +2816,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>M. Marmot and R. Wilkinson, Social Determinants of Health, 2nd ed. Oxford University Press, 2006.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>The Fallacy of Diseases of the Rich and Poor</li><li>The Fight Or Flight Response and Its Role in Disease<ol><li>Sympatho-Adrenal Pathway</li><li>Hypothalamus-Pituitary-Adrenal &#40;HPA&#41; Axis</li><li>Effects</li><li>Overall Response to Stress</li><li>Social Effects on Well-Being</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>The Fallacy of Diseases of the Rich and Poor</li><li>The Fight Or Flight Response and Its Role in Disease<ol><li>Sympatho-Adrenal Pathway</li><li>Hypothalamus-Pituitary-Adrenal &#40;HPA&#41; Axis</li><li>Effects</li><li>Overall Response to Stress</li><li>Social Effects on Well-Being</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Poverty of material conditions alone does not explain a biological explanation for causes of impaired lifespans.</p>
 <p>It is historically noted that there is a general shortage of randomized control trials to determine the utility of interventions in all areas of public health. DIscussion about the lack of controlled trials in public health pertaining to the social determinants area and the field of public health in general.</p>
 <p>James Lind is rightly acknowledged as an exceptional public health figure because as early as the 18th century he conducted controlled investigations to show citrus fruit cured scurvy. By contrast, John Snow’s determination in the 19th century that ingestion of contaminated water led to cholera, relied on careful observation and the exercise of reasoned judgement rather than his uncontrolled experiment of removing the handle of the Broad Street pump.</p>
@@ -2879,8 +2913,9 @@ A \rightarrow B \leftarrow C
 </ol>
 <p>One example is a study of children at orphanages:</p>
 <p>Under the same food conditions, children in the ‘Bienenhaus&#39; orphanage under the control of a stern Fraülein Schwarz, gained less weight and grew slowly. This opposite to children under the care of the affectionate Fraülein Grün at the ‘Vogelnest&#39; orphanage.  Schwarz replaced Grün during the study at ‘Vogelnest&#39; and growth rates were subsequently reversed. This controlled cross-over study provides evidence that adverse psychosocial circumstances in childhood can influence growth. &#91;11&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Social Determinants of Health</em>. <a href="https://jacobzelko.com/07112020161337-social-determinants-health">https://jacobzelko.com/07112020161337-social-determinants-health</a>. July 11 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; J. Siegrist, “Adverse health effects of high-effort/low-reward conditions.” J. Occup. Health Psychol., vol. 1, no. 1, p. 27, 1996.</p>
 <p>&#91;2&#93; H. Bosma, M. G. Marmot, H. Hemingway, A. C. Nicholson, E. Brunner, and S. A. Stansfeld, “Low job control and risk of coronary heart disease in Whitehall II &#40;prospective cohort&#41; study,” Bmj, vol. 314, no. 7080, p. 558, 1997.</p>
 <p>&#91;3&#93; P. Vallance and J. Collier, “Infection, inflammation, and infarction: Does acute endothelial dysfunction provide a link?” The Lancet, vol. 349, no. 9062, pp. 1391–1392, 1997.</p>
@@ -2939,7 +2974,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>J. Pater and E. Mynatt, &quot;Defining Digital Self-Harm,&quot; in Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing, Portland Oregon USA, Feb. 2017, pp. 1501–1513, doi: 10.1145/2998181.2998224.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Examples of Digital Self-Harm</li><li>Problems with the Internet</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Examples of Digital Self-Harm</li><li>Problems with the Internet</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>This paper aims to define what digital self-harm is.</p>
 <p>Digital self harm: online communication and activity that leads to, supports, or exacerbates non-suicidal yet intentional harm or impairment of an individual’s physical wellbeing.  It includes consuming and generating online content.  Digital self-harm occurs when a person’s behaviors are negatively influenced through his or her online activities in such a manner that these online activities lead to the infliction of non-suicidal direct or indirect physical harm to oneself. </p>
 <p>Traditionally, eating disorder treatments generally include individual and family therapy or group therapy. Interpersonal and cultural forces that sustain self-harm activities are scrutinized.</p>
@@ -2961,8 +2996,9 @@ A \rightarrow B \leftarrow C
 <p>The internet creates an environment for reinforced strengthening of behavioral issues within an affected individual through encouragement of destructive behaviors. This sort of cybernetic reinforcement mechanism could lead to the fast and serious manifestations of underlying disease symptoms.</p>
 <p>ED websites may have contagion-like effects on individuals investigating eating disorders prior to exhibiting any commitment to a disorder. &#91;5&#93; Regarding adolescents, a concern is a healthy desire for weight-loss could lead to unintended exposure of ED content.</p>
 <p><em>QUESTION: I wonder if there is a corollary definition about unintentional digital self-harm? People who are not necessarily interested in self-harm, but come into it anyways.</em></p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Defining Digital Self-Harm</em>. <a href="https://jacobzelko.com/06202020205907-digital-harm">https://jacobzelko.com/06202020205907-digital-harm</a>. July 8 2020.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; M. De Choudhury, M. R. Morris, and R. W. White, “Seeking and sharing health information online: Comparing search engines and social media,” in Proceedings of the SIGCHI conference on human factors in computing systems, 2014, pp. 1365–1376.</p>
 <p>&#91;2&#93; J. Huh and W. Pratt, “Weaving clinical expertise in online health communities,” in Proceedings of the SIGCHI conference on human factors in computing systems, 2014, pp. 1355–1364.</p>
 <p>&#91;3&#93; M. L. Jacobs, J. Clawson, and E. D. Mynatt, “My journey compass: A preliminary investigation of a mobile tool for cancer patients,” in Proceedings of the SIGCHI conference on human factors in computing systems, 2014, pp. 663–672.</p>
@@ -3015,7 +3051,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>F. N. Dempster, &quot;A Case Study in the Failure to Apply the Results of Psychological Research,&quot; American Psychologist, p. 8, 1988.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Issues regarding the adoption of the spacing effect into classroom settings.</li><li>Miscellaneous Concepts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Issues regarding the adoption of the spacing effect into classroom settings.</li><li>Miscellaneous Concepts</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="issues_regarding_the_adoption_of_the_spacing_effect_into_classroom_settings">Issues regarding the adoption of the spacing effect into classroom settings.</h3>
 <ul>
 <li><p>The spacing effect has not been studied in recent years</p>
@@ -3065,8 +3101,9 @@ A \rightarrow B \leftarrow C
 <h3 id="miscellaneous_concepts">Miscellaneous Concepts</h3>
 <p><strong>Lag effects</strong> are believed to occur when performance on a memory task improves as the number of intervening items between successive presentations increases.</p>
 <p><strong>Jost&#39;s Law:</strong> If two memories are equal in how well they were learned but at differing times, the older memory will gain more out of a review than the new one. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>A Case Study in the Failure to Apply the Results of Psychological Research</em>. <a href="https://jacobzelko.com/06082020234244-dempster-critique">https://jacobzelko.com/06082020234244-dempster-critique</a>. June 8 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; J. A. McGeoch, “The psychology of human learning.” 1942.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -3115,7 +3152,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>A. Ariga and A. Lleras, &quot;Brief and rare mental ‘breaks’ keep you focused: Deactivation and reactivation of task goals preempt vigilance decrements,&quot; Cognition, vol. 118, no. 3, pp. 439–443, Mar. 2011, doi: 10.1016/j.cognition.2010.12.007.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Study Methods</li><li>Concepts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Study Methods</li><li>Concepts</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="study_methods">Study Methods</h3>
 <p>84 students &#40;37 males, 47 female&#41; involved.</p>
 <h3 id="concepts">Concepts</h3>
@@ -3129,8 +3166,9 @@ A \rightarrow B \leftarrow C
 <p>How Ariga believes vigilance decrement should be viewed. Cognitive control is also known as executive control. &#91;5&#93;, &#91;6&#93; Ariga&#39;s posits vigilance decrement is a failure of cognitive control. This is in contrast to the current thought that vigilance decrement is the inability to recover resources needed for retention as a function of time.</p>
 <p>The defintion of habituation </p>
 <p><strong>Habituation effect:</strong> the gradual diminishing of representation to sustained stimulation. Can occur even when being actively involved in tasks that require cognitive effort &#91;7&#93;, &#91;8&#93; and in tasks regarding meaning &#91;9&#93; This links back to how Ariga views vigilance decrement.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Brief And Rare Mental &#39;Breaks&#39; Keep You Focused: Deactivation And Reactivation Of Task Goals Preempt Vigilance Decrements</em>. <a href="https://jacobzelko.com/06052020031214-brief-breaks">https://jacobzelko.com/06052020031214-brief-breaks</a>. June 5 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; T. Manly, I. H. Robertson, M. Galloway, and K. Hawkins, “The absent mind:: Further investigations of sustained attention to response,” Neuropsychologia, vol. 37, no. 6, pp. 661–670, 1999.</p>
 <p>&#91;2&#93; I. H. Robertson, T. Manly, J. Andrade, B. T. Baddeley, and J. Yiend, “Oops&#33;’: Performance correlates of everyday attentional failures in traumatic brain injured and normal subjects,” Neuropsychologia, vol. 35, no. 6, pp. 747–758, 1997.</p>
 <p>&#91;3&#93; D. R. Davies and R. Parasuraman, The psychology of vigilance. Academic Pr, 1982.</p>
@@ -3187,7 +3225,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>J. M. J. Murre and J. Dros, &quot;Replication and Analysis of Ebbinghaus’ Forgetting Curve,&quot; PLoS ONE, vol. 10, no. 7, p. e0120644, Jul. 2015, doi: 10.1371/journal.pone.0120644.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Study Set-up</li><li>Useful Concepts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Study Set-up</li><li>Useful Concepts</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="study_set-up">Study Set-up</h3>
 <ol>
 <li><p>Due to time constraints, 10 replications per time interval was used, instead of the 12 to 45 by Ebbinghaus. This means the variance in our data is larger than in Ebbinghaus&#39; especially at the longest time intervals.</p>
@@ -3217,8 +3255,9 @@ A \rightarrow B \leftarrow C
 <p>How sleep can impact and benefit the learning of new material. The forgetting curve is not completely smooth and jumps at the 1 day retention interval. One possible explanation for this jump is based on the effects of sleep on memory. However, that explanation has not been proven for this study type.</p>
 <p><strong>Implicit memory:</strong> where an individual may not be consciously aware they still possess traces of memory representations but one cannot actively recall or recognize these representations. These old traces do show savings when relearning that corresponding material. <em>RQ: This intuitively makes sense to me after much study and practice in languages and other domains. I wonder how long implicit memory lasts?</em></p>
 <p><strong>Memory Chain Model:</strong> posits memory passes through several neural processes - &quot;stores&quot; - as it transitions from short-term to long-term memory. &#91;6&#93; It can be used to model the forgetting curve and &quot;savings&quot;. Store 1, the hippocampus, acts as a temporary storage which decreases exponentially in intensity. Store 2, the neocortex, is for long-term memory where it declines at a much slower rate. Store 1 gradually shifts its contents to Store 2. The decay rates in Store 1 and Store 2 are given by \(\alpha_{1}\) and \(\alpha_{2}\), respectively. The initial strength of the memory traces in Store 1 are given by \(\mu_{1}\) and the rate of consolidating the contents of Store 1 to Store 2 is given by μ2. Lesioning Store 1, will produce a retrograde amnesia gradient that can be modeled by the Memory Chain Model simultaneously with the forgetting gradient of healthy controls. &#91;7&#93; The Memory Chain Model &#40;MCM&#41; equation for type of savings studied here is given by \(Q(t) = \mu_{1}e^{a_{1}t} + \frac{\mu_{1}\mu_{2}(e^{-a_{2}t} - e^{-a_{1}t})}{a_{1} -a_{2}}\)The MCM function has the same number of parameters but they are arranged differently. The proof that this equation is a mathematical formalization of the memory consolidation process can be found elsewhere. &#91;7&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Replication and Analysis of Ebbinghaus’ Forgetting Curve</em>. <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus">https://jacobzelko.com/05282020172154-replication-ebbinghaus</a>. May 28 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; W. A. Wagenaar, “My memory: A study of autobiographical memory over six years,” Cognit. Psychol., vol. 18, no. 2, pp. 225–252, 1986.</p>
 <p>&#91;2&#93; M. Linton, “Memory for real-world events,” Explor. Cogn., pp. 376–404, 1975.</p>
 <p>&#91;3&#93; J. R. Sehulster, “Content and temporal structure of autobiographical knowledge: Remembering twenty-five seasons at the Metropolitan Opera,” Mem. Cognit., vol. 17, no. 5, pp. 590–606, 1989.</p>
@@ -3273,14 +3312,15 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>E. L. Bjork, R. A. Bjork, and others, &quot;Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,&quot; Psychology and the real world: Essays illustrating fundamental contributions to society, vol. 2, no. 59–68, 2011.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Performance is a quantifiable metric that is observed in teaching or practice.</p>
 <p>Performance is not a valid metric to determine if learning is occuring.</p>
 <p>Storage strength defines how interassociated a representation of memory is to relevant experiences &#40;such as knowledge or skills&#41;.</p>
 <p>Learning is the idea of creating permanent changes in one&#39;s understanding or knowledge regarding a particular subject.</p>
 <p>Factors that quickly improve retrieval strength are different from those that improve storage strength. If learners mistake retrieval strength as storage strength, a learner could mistakenly be led to believe that situations which improve retrieval strength could improve storage strength.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning</em>. <a href="https://jacobzelko.com/05282020164557-desirable-difficulties">https://jacobzelko.com/05282020164557-desirable-difficulties</a>. May 28 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -3328,7 +3368,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>E. L. Bjork, R. A. Bjork, and others, &quot;Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,&quot; Psychology and the real world: Essays illustrating fundamental contributions to society, vol. 2, no. 59 - 68, 2011.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Difficulties which can encourage learning: </p>
 <ol>
 <li><p>Varied learning conditions as opposed to constant and predictable ones.</p>
@@ -3353,8 +3393,9 @@ A \rightarrow B \leftarrow C
 <p>Participants in a motor skills test received 18 patterned trials via a pinball-like machine set-up. Participants were presented with randomly determined patterns &#40;interleaved&#41; or individual patterns that were practiced consecutively &#40;blocked&#41; on the machine. Blocked participants quickly improved versus interleaved participants. After a 10 day break, participants retested under blocked or interleaved conditions. Presented random conditions, the original interleaved participants performed superior to the blocked participants. Blocked participants appeared to have learned nothing. Presented blocked conditions, results were approximately the same but the minimal differences favored interleaving. &#91;3&#93;</p>
 <p>Testing is seen as a means of quantitative assessment but not for learning purposes. This is in contradiction to the fact that testing can be highly a highly beneficial tool for learning rather than a measurement of learning taking place. </p>
 <p>8 and 12 year olds practiced tossing beanbags at a target on the floor while having their vision blocked at each throw. Half of each age group practiced throwing at a fixed distance target. The rest threw at targets of varying distances. After sufficient practices and a break, all children were tested under fixed target conditions for their age group. Children who practiced at variable distances performed better than fixed target participants. Introducing variation outmatched benefits of fixed distance practice. &#91;4&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning</em>. <a href="https://jacobzelko.com/05252020211350-hard-on-self">https://jacobzelko.com/05252020211350-hard-on-self</a>. May 25 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; R. A. Bjork, “Memory and metamemory considerations in the,” Metacognition Knowing Knowing, vol. 185, 1994.</p>
 <p>&#91;2&#93; S. M. Smith, A. Glenberg, and R. A. Bjork, “Environmental context and human memory,” Memory &amp; Cognition, vol. 6, no. 4, pp. 342–353, Jul. 1978, doi: 10.3758/BF03197465.</p>
 <p>&#91;3&#93; J. B. Shea and R. L. Morgan, “Contextual interference effects on the acquisition, retention, and transfer of a motor skill.” J. Exp. Psychol. &#91;Hum. Learn.&#93;, vol. 5, no. 2, p. 179, 1979.</p>
@@ -3406,7 +3447,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>J. M. Twenge, J. Haidt, T. E. Joiner, and W. K. Campbell, &quot;Underestimating digital media harm,&quot; Nat Hum Behav, vol. 4, no. 4, pp. 346–348, Apr. 2020, doi: 10.1038/s41562-020-0839-4.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The consideration of only monotonic effects were accounted. Relationships between digital media use and health are generally non-monotonic. Associations often follow a J-shaped curve. The first issue raised by Jean Twenge against &quot;The association between adolescent well-being and digital technology use&quot; by Orben and Przybylski. This is nicknamed the Goldilocks hypothesis which was posited by Przybylski himself. &#91;0&#93; J. M. Twenge, J. Haidt, T. E. Joiner, and W. K. Campbell, &quot;Underestimating digital media harm,&quot; Nat Hum Behav, vol. 4, no. 4, pp. 346–348, Apr. 2020, doi: 10.1038/s41562-020-0839-4. &#91;1&#93; A. K. Przybylski and N. Weinstein, &quot;A large-scale test of the goldilocks hypothesis: quantifying the relations between digital-screen use and the mental well-being of adolescents,&quot; Psychological Science, vol. 28, no. 2, pp. 204–215, 2017.</p>
 <p>The global adolescent mental health crisis started around 2012 and greatly affects girls more so than boys &#91;5&#93;. As TV is now commonplace and TV watching amongst adolescents has declined after 2012 &#91;6&#93;, TV watching does not suggest an adequate explanation for the sudden increase in mental health disorders. The second issue raised by Jean Twenge against &quot;The association between adolescent well-being and digital technology use&quot; by Orben and Przybylski &#91;0&#93; J. M. Twenge, J. Haidt, T. E. Joiner, and W. K. Campbell, &quot;Underestimating digital media harm,&quot; Nat Hum Behav, vol. 4, no. 4, pp. 346–348, Apr. 2020, doi: 10.1038/s41562-020-0839-4. &#91;5&#93; S. McManus et al., &quot;Prevalence of non-suicidal self-harm and service contact in England, 2000–14: repeated cross-sectional surveys of the general population,&quot; The lancet psychiatry, vol. 6, no. 7, pp. 573–581, 2019. &#91;6&#93; J. M. Twenge, G. N. Martin, and B. H. Spitzberg, &quot;Trends in US Adolescents’ media use, 1976–2016: The rise of digital media, the decline of TV, and the &#40;near&#41; demise of print.,&quot; Psychology of Popular Media Culture, vol. 8, no. 4, p. 329, 2019.</p>
 <p>The Monitoring the Future dataset examines digital media usage via two ways. </p>
@@ -3422,8 +3463,9 @@ A \rightarrow B \leftarrow C
 <p>Heavy use of social media is regularly correlated with negative mental health outcomes of varying severity. This relationship disproportionately affects girls. Given that there is no plausible alternative explanation for this association, associations with a variety of adverse mental health conditions in girls should not be dismissed. Adverse events being rising rates of anxiety, depression, self-harm and suicide &#91;0&#93; J. M. Twenge, J. Haidt, T. E. Joiner, and W. K. Campbell, &quot;Underestimating digital media harm,&quot; Nat Hum Behav, vol. 4, no. 4, pp. 346–348, Apr. 2020, doi: 10.1038/s41562-020-0839-4. &#91;1&#93; S. McManus et al., &quot;Prevalence of non-suicidal self-harm and service contact in England, 2000–14: repeated cross-sectional surveys of the general population,&quot; The lancet psychiatry, vol. 6, no. 7, pp. 573–581, &#91;1&#93; &#91;2&#93; J. M. Twenge, &quot;Why increases in adolescent depression may be linked to the technological environment,&quot; Current opinion in psychology, vol. 32, pp. 89–94, 2020.2019.</p>
 <p>Effect sizes include many individual items. These are lower in internal reliability than multiple-item scales and thus produce lower effect sizes. Scales with more items count more heavily in the analysis because they have more items. &#91;1&#93; L. J. Cronbach and P. E. Meehl, &quot;Construct validity in psychological tests.,&quot; Psychological bulletin, vol. 52, no. 4, p. 281, 1955. The third issue raised by Jean Twenge against &quot;The association between adolescent well-being and digital technology use&quot; by Orben and Przybylski</p>
 <p>Mediators are a possible reason behind an effect. They should not be controlled. This is from an email conversation with Jean Twenge about this issue. For example, it is plausible that excessive social media use causes teens to spend less time with their parents. Thus this variable should not be a covariate, as it might partially explain why the correlation between social media use and depression occurs in the first place. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Underestimating Digital Media Harm</em>. <a href="https://jacobzelko.com/05252020221842-digital-media">https://jacobzelko.com/05252020221842-digital-media</a>. May 25 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -3471,15 +3513,16 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>L. E. Carlson, P. Taenzer, J. Koopmans, and B. D. Bultz, &quot;Eight-year follow-up of a community-based large group behavioral smoking cessation intervention,&quot; Addictive Behaviors, vol. 25, no. 5, pp. 725–741, Sep. 2000, doi: 10.1016/S0306-4603&#40;00&#41;00081-2.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Methodology</li><li>Conclusion</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Methodology</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>In this particular study, a cohort of 971 individuals were involved in smoking cessation sessions hosted at smoking cessation clinics between 1986 and 1990. The intervention developed at these sessions for a participant involved attending eight 90 minute group sessions over a period of 4 months. The biggest of the groups reached 110 attendees. 3 months after a group quit date, 39.3&#37; of cohort self-reported as non-smoking. Thereafter, 32.1&#37; and 26.0&#37; of the cohort at 6 and 12 months respectively reported non-smoking. Finally, at an 8 year check-in, 33.9&#37; of the cohort were reached. 47.7&#37; reported not currently smoking &#40;16.2 of total cohort&#41;. &#91;pg. 725&#93;</p>
 <p>33.9&#37; and 66.1&#37; of the cohort were male and female respectively. Participants averaged an age of 39.9. &#91;pg. 729&#93; Interestingly, it was found that the motivation for the cohort came from oneself with 81.2&#37; saying they wanted to quit. 3.4&#37; said they were motivated by others and 14.5&#37; said they were motivated by themselves and others. &#91;pg. 730&#93; The participants who were not successful in quitting smoking for 3 months reported not being prepared to quit. &#91;pg. 737&#93; The success rates that were reported were reasonably not significantly biased to positive or negative outcomes due to a loose balance between those who started with both <a href="https://jacobzelko.com/05182020005014-smoking-recovery-indicators.md">great and poor quitting conditions</a> &#40;linked to related quitting factors&#41;. &#91;pg. 732&#93; Race was not accounted for in this study.</p>
 <h3 id="methodology">Methodology</h3>
 <p>Each session included topics such as education about the negative consequences of smoking, how to self monitor, and strategies for modifying behavior to disassociate smoking from pleasure. &quot;Butt jars&quot; were used to create aversive sensations to smoking via association with pictures of cancerous organs. In contrast, non-smoking behavior was rewarded in the idea of a &quot;money jar&quot;. The money jar contains the money a participant would have used for smoking and is instead set aside to be used to finance enjoyable activity. &#91;pg. 728&#93;</p>
 <h3 id="conclusion">Conclusion</h3>
 <p>The part of the study program most helpful to participants was the supportive nature of the large group setting. Despite large group sizes, individuals thought they were supported very well. The support and the accepting, non-judgemental atmosphere provided in groups promoted cessation. This study illustrated that a Cognitive Behavioral grounding in smoking cessation can produce success with large group participant. &#91;pg. 738&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Eight-Year Follow-Up Of A Community-Based Large Group Behavioral Smoking Cessation Intervention</em>. <a href="https://jacobzelko.com/05172020232612-smoking-cessation">https://jacobzelko.com/05172020232612-smoking-cessation</a>. May 17 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -3527,7 +3570,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>I. R. Kleckner et al., &quot;Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,&quot; IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Rule-based Algorithm<ol><li>Notes on Algorithm Rules</li></ol></li><li>Misc Notes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Rule-based Algorithm<ol><li>Notes on Algorithm Rules</li></ol></li><li>Misc Notes</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="rule-based_algorithm">Rule-based Algorithm</h3>
 <p>The authors also decided to create a very simple rule-based algorithm in an effort to make results easily reproducible and understandable to researchers of differing backgrounds. This algorithm for assessing data quality was as is follows:</p>
 <table><tr><th align="center">Number</th><th align="center">Rule</th><th align="center">Rationale</th></tr><tr><td align="center">1</td><td align="center">EDA is not within the range of \(0.05 - 60 \mu S\)</td><td align="center">Prevent &quot;floor&quot; and &quot;ceiling&quot; artifacts</td></tr><tr><td align="center">2</td><td align="center">EDA fluctuates too fast \((+/- 10 \frac{\mu S}{second})\)</td><td align="center">To prevent &quot;jump&quot; artifacts</td></tr><tr><td align="center">3</td><td align="center">Temperature not within 30-40 \(C\)</td><td align="center">Preserve best accuracy of data</td></tr><tr><td align="center">4</td><td align="center">EDA data within \(5\) sec of invalid sections</td><td align="center">Invalid sections based on rules \(1-3\)</td></tr></table>
@@ -3543,8 +3586,9 @@ A \rightarrow B \leftarrow C
 <li><p>Used 181 hours worth of data collected from children and adolescents with autism in an at-home environment.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</em>. <a href="https://jacobzelko.com/04092020195141-transparent-eda-data">https://jacobzelko.com/04092020195141-transparent-eda-data</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
 <p>&#91;2&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;3&#93; F. H. Wilhelm and W. T. Roth, “Ambulatory assessment of clinical anxiety,” Ambul. Assess. Comput.-Assist. Psychol. Psychophysiological Methods Monit. Field Stud., pp. 317–345, 1996.</p>
@@ -3595,14 +3639,15 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Quotes from the Book:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Quotes from the Book:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This was overall a book on knowledge management – in particular, how to take, digest, and use the notes we make while reading material, listening to lectures, or absorb knowledge in general. Sonke Ahrens, the author of the book, also gave a rather in-depth overview of the Zettelkasten method created by sociologist Niklas Luhmann. I found the book useful in giving legitimately very good advice on note-taking, great anecdotes to illustrate his point, and also assistance on using the Zettelkasten method. </p>
 <p>Furthermore, Ahrens made an interesting point saying that if you are approaching writing where you start with just a blank page, you are missing the point. When you approach a blank page, it <em>ought</em> not feel blank but rather the place to put your notes and ideas together that you have been collecting about a particular topic. Ahrens believes that fundamental teachings about how to write long-form papers are wrong in that they do not start with the most crucial aspect of the writing process – free form thought. And free form thought, when investigating a topic, is best captured using a global sort of note taking method like the Zettelkasten.</p>
 <h3 id="quotes_from_the_book">Quotes from the Book:</h3>
 <pre><code class="language-julia">&quot;Every intellectual endeavour starts with a note&quot; &#91;pg 8&#93;&quot;We only write if it helps us with our own thinking.&quot; &#91;pg 101&#93;</code></pre>
 <p>These two quotes get at the idea that when we write and create notes, we are not only creating notes but also playing with ideas and digesting them into our minds.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>How to Take Smart Notes</em>. <a href="https://jacobzelko.com/03292020180520-smart-notes">https://jacobzelko.com/03292020180520-smart-notes</a>. March 29 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -3650,10 +3695,11 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>J. Hernandez, R. R. Morris, and R. W. Picard, &quot;Call Center Stress Recognition with Person-Specific Models,&quot; in Affective Computing and Intelligent Interaction, vol. 6974, S. D’Mello, A. Graesser, B. Schuller, and J.-C. Martin, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 2011, pp. 125–134.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>They had a small cohort of nine individuals working at a call center using skin conductance sensors to measure EDA. They used exponential smoothing and chose a smoothing factor, \(\alpha\), of \(0.8\) – it was unclear why this was chosen. They also elected to normalize the skin conductance signals on each individual between \(0\) and \(1\) to reduce variability between the cohort members. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Call Center Stress Recognition with Person-Specific Models</em>. <a href="https://jacobzelko.com/03272020083421-call-center">https://jacobzelko.com/03272020083421-call-center</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

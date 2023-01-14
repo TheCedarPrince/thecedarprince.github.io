@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>The Basics on the Images of Elements<ol><li>Example</li></ol></li><li>The Basics on the Images of Subsets<ol><li>Example</li></ol></li><li>The Basics on the Images of Functions<ol><li>Example</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>The Basics on the Images of Elements<ol><li>Example</li></ol></li><li>The Basics on the Images of Subsets<ol><li>Example</li></ol></li><li>The Basics on the Images of Functions<ol><li>Example</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I wanted to understand more about the ideas of images as an avenue to understand bundles.</p>
 <h3 id="the_basics_on_the_images_of_elements">The Basics on the Images of Elements</h3>
@@ -102,8 +102,9 @@ im(f) = \{f(x) | x \in X\} \subseteq Y
 im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
 \]
 <p>In this example, based on the definition we have for an \(im(f)\), the \(im(f)\) is all possible outputs that \(f\) can generate which is the <em>range</em> \(+\mathbb R\).</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Images of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10152022173643-image-of-sets">https://jacobzelko.com/10152022173643-image-of-sets</a>. October 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -151,7 +152,7 @@ im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>This is a question to clarify my understand of coproducts as I have largely spent some time in understanding what they are and how to interpret them. </p>
 <h3 id="question">Question</h3>
@@ -189,8 +190,9 @@ im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
 </ol>
 <p>I read about disjoint unions from a set theory perspective and also a category theory perspective but cannot really discern a functional &#40;i.e. practical&#41; difference from coproducts. Are coproducts and disjoint unions really effectively the same idea?</p>
 <p>Thanks all and let me know if I can clarify anywhere&#33; </p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Clarifying Understanding of Coproducts</em>. <a href="https://jacobzelko.com/10022022214249-understanding-coproducts">https://jacobzelko.com/10022022214249-understanding-coproducts</a>. October 2 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -238,7 +240,7 @@ im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
 <h1>Bibliography</h1>
 <p>Indexed Sets, &#40;Nov. 27, 2020&#41;. Accessed: Oct. 01, 2022. &#91;Online Video&#93;. Available: https://www.youtube.com/watch?v&#61;ZoR93jR9Ok0</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Building an Intuition for Index Sets<ol><li>Union Example Where \(I\) Is a Finite Set of Integers</li><li>Union Example Where \(I\) Is a Countably Infinite Set of Integers</li><li>Union Example Where \(I\) Is an Interval</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Building an Intuition for Index Sets<ol><li>Union Example Where \(I\) Is a Finite Set of Integers</li><li>Union Example Where \(I\) Is a Countably Infinite Set of Integers</li><li>Union Example Where \(I\) Is an Interval</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I was very confused about nomenclature concerning indexed sets and how to interpret them.</p>
 <h3 id="building_an_intuition_for_index_sets">Building an Intuition for Index Sets</h3>
@@ -298,8 +300,9 @@ A_{i} = \{i\} \times [0, 1]
 \[
 \bigcup_{i \in I} A_{i} = [-1, 1] \times [0, 1]
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Indexed Sets &#40;Or How to Index Sets&#41;</em>. <a href="https://jacobzelko.com/09302022040126-indexed-sets">https://jacobzelko.com/09302022040126-indexed-sets</a>. September 30 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -347,7 +350,7 @@ A_{i} = \{i\} \times [0, 1]
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Family of Sets</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Family of Sets</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I am having trouble reading some set theoretic notation. Hoping by gaining better familiarity with family of sets, I can understand notation better. </p>
 <h3 id="family_of_sets">Family of Sets</h3>
@@ -366,8 +369,9 @@ F
 \[
 F = \{A, B, C\} = \{\{1, 2, 3\}, \{4, 5, 6\}, \{2, 4, 6\}\}
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Family of Sets</em>. <a href="https://jacobzelko.com/09302022033236-family-sets">https://jacobzelko.com/09302022033236-family-sets</a>. September 29 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

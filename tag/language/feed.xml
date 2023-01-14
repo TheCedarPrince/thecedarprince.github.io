@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Security<ol><li>Adjusting Password Security<ol><li>Low Validate Password Policy</li></ol></li></ol></li><li>Managing Users and Permissions<ol><li>User Creation</li><li>Adding User Permissions<ol><li>Grant User Permission to Everything</li></ol></li></ol></li><li>Manipulating Databases<ol><li>Create a Database</li></ol></li><li>Manipulating Tables<ol><li>Creating Tables</li><li>Keys<ol><li>Primary Key</li></ol></li><li>Wildcards<ol><li>Gobble</li><li>Placeholder</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Security<ol><li>Adjusting Password Security<ol><li>Low Validate Password Policy</li></ol></li></ol></li><li>Managing Users and Permissions<ol><li>User Creation</li><li>Adding User Permissions<ol><li>Grant User Permission to Everything</li></ol></li></ol></li><li>Manipulating Databases<ol><li>Create a Database</li></ol></li><li>Manipulating Tables<ol><li>Creating Tables</li><li>Keys<ol><li>Primary Key</li></ol></li><li>Wildcards<ol><li>Gobble</li><li>Placeholder</li></ol></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="security">Security</h3>
 <h4 id="adjusting_password_security">Adjusting Password Security</h4>
 <h5 id="low_validate_password_policy">Low Validate Password Policy</h5>
@@ -66,8 +66,9 @@
 <pre><code class="language-sql">SELECT * FROM table WHERE last_name LIKE &#39;&#37;Smith&#39;;</code></pre>
 <h5 id="placeholder">Placeholder</h5>
 <pre><code class="language-sql">SELECT * FROM table WHERE date LIKE &#39;____-10&#37;&#39;;</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Learning MySQL</em>. <a href="https://jacobzelko.com/03152021204433-mysql-programming">https://jacobzelko.com/03152021204433-mysql-programming</a>. March 15 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

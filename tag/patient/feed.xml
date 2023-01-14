@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Request for payment that you or your health care provider submits to your health insurer when you get items or services you think are covered. https://www.healthcare.gov/glossary/claim/</p>
 </li>
@@ -60,8 +60,9 @@ style n3 fill:#006400
 style n6 fill:#8b0000</code></pre>
 <p>Here, the green blocks representing medical staff and patients, denote where data originates from. Whenever a medical staffer provides or a patient seeks a medical service, data is generated &#40;these encounters could be routine health check-ups, emergency room visits, or anything involving an interaction with a medical service provider&#41;. These services are then recorded and passed along to medical coders whose job it is to match a service provided with a correct standardized medical code &#40;standards include coding such as ICD-10, HCPCS, etc&#41;. After these services are matched to a correct standard, the coded services are then passed on to a medical biller who determines what is covered by a patient&#39;s insurance and what is not. Depending on what is or is not covered, this claims data then passes to insurance providers in a back and forth process to adequately pay for the services utilized by the patient and patients may also be directly be billed for services leading to potentially either return visits or these claims to be appealed by the patient.</p>
 <p>https://www.wikiwand.com/en/Medical_billing TODO: add brief blurb about Revenue Cycle Management as note</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Are Claims?</em>. <a href="https://jacobzelko.com/02142022220749-claims-summary">https://jacobzelko.com/02142022220749-claims-summary</a>. February 14 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

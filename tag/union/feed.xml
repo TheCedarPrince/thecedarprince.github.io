@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>This is a question to clarify my understand of coproducts as I have largely spent some time in understanding what they are and how to interpret them. </p>
 <h3 id="question">Question</h3>
@@ -78,8 +78,9 @@
 </ol>
 <p>I read about disjoint unions from a set theory perspective and also a category theory perspective but cannot really discern a functional &#40;i.e. practical&#41; difference from coproducts. Are coproducts and disjoint unions really effectively the same idea?</p>
 <p>Thanks all and let me know if I can clarify anywhere&#33; </p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Clarifying Understanding of Coproducts</em>. <a href="https://jacobzelko.com/10022022214249-understanding-coproducts">https://jacobzelko.com/10022022214249-understanding-coproducts</a>. October 2 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -127,7 +128,7 @@
 <h1>Bibliography</h1>
 <p>David Spivak, Category Theory for Scientists, Old Version. 2013.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>To learn and understand the concept of coproducts within the context of category theory. Also, I came across the symbolic notation for what disjoint unions are and wanted to understand what the notation fully meant.</p>
 <h3 id="disjoint_union_of_sets_intuition">Disjoint Union of Sets Intuition</h3>
@@ -166,8 +167,9 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 \]
 <p>and \(\bigsqcup_{i \in I} X_{i}\)</p>
 <p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets.md">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Coproducts &#40;Disjoint Unions&#41;</em>. <a href="https://jacobzelko.com/09162022162129-coproducts-disjoints">https://jacobzelko.com/09162022162129-coproducts-disjoints</a>. September 16 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

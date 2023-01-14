@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>J. F. K. Schmidt, Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity, Sociologica, vol. Vol 12, pp. 53-60 Pages, Jul. 2018, doi: 10.6092/ISSN.1971-8853/8350.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <blockquote>
 <p>&quot;As early as in the 1950s to 1960s, Luhmann simulated a modern computer-based database system &#91;...&#93;.&quot; &#40;pg. 59&#41;</p>
 </blockquote>
@@ -50,8 +50,9 @@
 </blockquote>
 <p>The power of the Zettelkasten comes from these accidental connections. Very similar to how one may spread out pieces of paper on a table and make a new connection, so does this method simulate it in very much the same way.</p>
 <p>Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as <a href="https://jacobzelko.com/03092020022908-education-spectrum.md">knowledge falls across a spectrum.</a> &#40;pg. 56&#41;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity</em>. <a href="https://jacobzelko.com/05032020155207-fabrication-serendipity">https://jacobzelko.com/05032020155207-fabrication-serendipity</a>. May 3 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

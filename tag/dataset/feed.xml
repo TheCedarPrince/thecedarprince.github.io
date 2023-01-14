@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>The All of Us Research Program is supported by the National Institutes of Health, Office of the Director: Regional Medical Centers: 1 OT2 OD026549; 1 OT2 OD026554; 1 OT2 OD026557; 1 OT2 OD026556; 1 OT2 OD026550; 1 OT2 OD 026552; 1 OT2 OD026553; 1 OT2 OD026548; 1 OT2 OD026551; 1 OT2 OD026555; IAA #: AOD 16037; Federally Qualified Health Centers: HHSN 263201600085U; Data and Research Center: 5 U2C OD023196; Biobank: 1 U24 OD023121; The Participant Center: U24 OD023176; Participant Technology Systems Center: 1 U24 OD023163; Communications and Engagement: 3 OT2 OD023205; 3 OT2 OD023206; and Community Partners: 1 OT2 OD025277; 3 OT2 OD025315; 1 OT2 OD025337; 1 OT2 OD025276. In addition, the All of Us Research Program would not be possible without the partnership of its participants.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Provenance</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Provenance</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="provenance">Provenance</h3>
 <p>The Supported by the National Institutes of Health</p>
 <p>Aggregates must be &gt;&#61; 20 people</p>
@@ -57,8 +57,9 @@
 <p>Training needed for 1 &amp; 2</p>
 <p>Wants to work with 1 million &#43; volunteers across the US. Focuses on underrepresented populations.</p>
 <p>All participants are invited to complete surveys about health and lifestyle. Collects additional information on Electronic Health Records, Physical Measurements &#40;i.e. height, weight, BMI, waist circumference, Hip circumference, blood pressure, and heart rate; bio samples such as blood, urine, and saliva; and wearable data such as heart rate and blood pressure</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>All Of Us Initiative</em>. <a href="https://jacobzelko.com/09202021224748-all-of-us">https://jacobzelko.com/09202021224748-all-of-us</a>. September 20 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -106,15 +107,16 @@
 <h1>Bibliography</h1>
 <p>Cuebiq, &quot;Mobility Insights - Cuebiq,&quot; Jun. 08, 2021. https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic &#40;accessed Jun. 08, 2021&#41;.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Origins of the Data</li><li>Mobility Metrics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Origins of the Data</li><li>Mobility Metrics</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="origins_of_the_data">Origins of the Data</h3>
 <p>Cuebiq collects 1st party location data from over twenty five million active users daily.  The data covers the continental US and excludes Hawaii and Alaska.  Cuebiq brokers with 100&#43; applications to collect this location data. This creates a diversity of data from opted-in individuals while preserving anonymity. &#91;1&#93;</p>
 <h3 id="mobility_metrics">Mobility Metrics</h3>
 <p><strong>Shelter-In-Place:</strong> Percent of devices staying within 300 ft of home each day</p>
 <p><strong>Cuebiq Contact Index:</strong> When &gt; 1 devices are within 50ft of one another for &gt; 5min. &#91;1&#93;</p>
 <p><strong>Cuebiq Mobility Index:</strong> How far devices move each day. It is calculated using a derivative factor indicating the distance between opposite corners of a box drawn around the locations observed for devices on each day. </p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Cuebiq Mobility Data Summary</em>. <a href="https://jacobzelko.com/06082021203922-cuebiq-mobility-summary">https://jacobzelko.com/06082021203922-cuebiq-mobility-summary</a>. June 8 2021.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Cuebiq, “Mobility Insights - Cuebiq,” 08-Jun-2021. &#91;Online&#93;. Available: https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic. &#91;Accessed: 08-Jun-2021&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -163,7 +165,7 @@
 <h1>Bibliography</h1>
 <p>A. Moreland et al., &quot;Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020,&quot; MMWR Morb. Mortal. Wkly. Rep., vol. 69, no. 35, pp. 1198–1203, Sep. 2020, doi: 10.15585/mmwr.mm6935a2.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Methods and Materials<ol><li>Classifying Stay-at-Home Orders</li><li>Determining Time Windows</li><li>Analyzing for Changes in Population Movement Patterns</li></ol></li><li>Discussion<ol><li>General Insights</li><li>Limitations of this analysis</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion</li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Methods and Materials<ol><li>Classifying Stay-at-Home Orders</li><li>Determining Time Windows</li><li>Analyzing for Changes in Population Movement Patterns</li></ol></li><li>Discussion<ol><li>General Insights</li><li>Limitations of this analysis</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion</li></ol></div>
 <h3 id="methods_and_materials">Methods and Materials</h3>
 <p>Changes in population movement based on stay-at-home orders between March 1–May 31, 2020 given by all 50 states, the District of Columbia, and five U.S. territories were examined.</p>
 <h4 id="classifying_stay-at-home_orders">Classifying Stay-at-Home Orders</h4>
@@ -220,8 +222,9 @@
 <li><p>The only relationship analyzed was between stay-at-home orders and population movement.</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020</em>. <a href="https://jacobzelko.com/01072021062915-mobility-patterns-gtri">https://jacobzelko.com/01072021062915-mobility-patterns-gtri</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion__2">Discussion</h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -269,7 +272,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>ICD10 Codes for COVID19 from TriNetX</li><li>LOINC COVID19 Codes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>ICD10 Codes for COVID19 from TriNetX</li><li>LOINC COVID19 Codes</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The TriNetX COVID-19 Research Network Platform is a network of EMR data from 42 health care organizations designed to facilitate research related to COVID-19. &#91;1&#93;, &#91;2&#93;</p>
 <p>TriNetX provides access to de-identified aggregate EMR data including information such as &#91;1&#93;, &#91;2&#93;:</p>
 <ul>
@@ -314,8 +317,9 @@
 <li><p>94559-2</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>TriNet</em>. <a href="https://jacobzelko.com/07192020013500-trinetx-covid">https://jacobzelko.com/07192020013500-trinetx-covid</a>. July 18 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; J. Stacey and M. Mehta, “Using EHR data extraction to streamline the clinical trial process,” Clin. Res., vol. 4, pp. 2–7, 2017.</p>
 <p>&#91;2&#93; M. Stapff, “Use of electronic health data in clinical development,” Pharm. Ind, vol. 79, no. 2, pp. 204–210, 2017.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -365,9 +369,10 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Open Wearables Initiative</em>. <a href="https://jacobzelko.com/03102020004043-open-wearables-initiative">https://jacobzelko.com/03102020004043-open-wearables-initiative</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” &#91;Online&#93;. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

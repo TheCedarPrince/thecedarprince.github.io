@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>S. Chang et al., &quot;Mobility network models of COVID-19 explain inequities and inform reopening,&quot; Nature, vol. 589, no. 7840, pp. 82–87, Jan. 2021, doi: 10.1038/s41586-020-2923-3.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Iterative proportional fitting &#91;1&#93; was used to make POI –&gt; <a href="https://jacobzelko.com/01202021043013-census-groups.md">CBG</a> networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.</p>
 <p><em>THOUGHTS: What is iterative proportional fitting?</em></p>
 <p>Model fits observed daily case counts from 8 March to 9 May 2020</p>
@@ -105,8 +105,9 @@
 <p>CBGs with fewer white residents had higher predicted infection risks.</p>
 <p><em>THOUGHTS: Seems somewhat odd? This is interesting to me in how they keep bringing up race or economic status as a variable, but never fully commit to an investigation. Feels really weird to talk about issues without actually addressing them.</em></p>
 <p>Mobility data showed average grocery store visits from lower-income CBGs had 59&#37; more hourly visitors per square foot. Median metro area data showed they stayed 17&#37; longer.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening</em>. <a href="https://jacobzelko.com/01202021043643-mobility-network-models">https://jacobzelko.com/01202021043643-mobility-network-models</a>. January 19 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; W. E. Deming and F. F. Stephan, “On a least squares adjustment of a sampled frequency table when the expected marginal totals are known,” Ann. Math. Stat., vol. 11, no. 4, pp. 427–444, 1940.</p>
 <p>&#91;2&#93; Q. Bi et al., “Epidemiology and transmission of COVID-19 in 391 cases and 1286 of their close contacts in Shenzhen, China: A retrospective cohort study,” Lancet Infect. Dis., 2020.</p>
 <p>&#91;3&#93; S. Y. Park et al., “Early release-coronavirus disease outbreak in call center, south korea,” 2020.</p>
@@ -166,13 +167,14 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>I read a Q&amp;A article on Barbara Liskov &#91;1&#93; and the author made a very interesting comparison between Liskov&#39;s work of designing paradigms for creating well structured and crafted code with that of a Poet or Novelist. I have heard of comparisons like this before but I was quite intrigued by the latter – a programmer being compared to a writer. What piqued my interest the most about the article was the following statement,</p>
 <p>&quot;As a computer scientist thinking about code, Liskov had no physical objects to work with. Like a novelist or a poet, <em>she was staring at a blank page</em>.&quot; &#40;emphasis added&#41;</p>
 <p>The end of that statement, &quot;<em>blank page</em>&quot;, reminded me of the book <em>How to Take Smart Notes</em> &#91;2&#93; and my note on the book where Ahrens essentially believes that starting with a <a href="https://jacobzelko.com/03292020180520-smart-notes.md">blank page is the wrong idea in writing</a>. I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the <a href="https://jacobzelko.com/03092020031549-zettelkasten.md">Zettelkasten method</a> where, according to its <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">principles</a>, each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?</p>
 <p>Upon reflection upon this note some time later, I think I was thinking about the concept of composition and composition of software&#33;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Global Programming Paradigm</em>. <a href="https://jacobzelko.com/04182020162028-global-programming">https://jacobzelko.com/04182020162028-global-programming</a>. April 18 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” &#91;Online&#93;. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. &#91;Accessed: 18-Apr-2020&#93;.</p>
 <p>&#91;2&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -222,7 +224,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
 </li>
@@ -238,8 +240,9 @@
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Get Things Done</em>. <a href="https://jacobzelko.com/03192020045854-get-things-done">https://jacobzelko.com/03192020045854-get-things-done</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

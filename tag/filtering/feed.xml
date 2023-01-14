@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Consideration</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Consideration</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>It is a non-linear digital filtering technique, used to remove noise from an image or signal. The main idea of the median filter is to run through the signal value by value, replacing each value with the median of neighboring values. The pattern of neighbors is called the &quot;window&quot;, which slides, entry by entry, over the entire signal.</p>
 <h3 id="algorithm">Algorithm</h3>
 <p>An explanation of implementing the algorithm is given in example form:</p>
@@ -111,8 +111,9 @@ gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
           label &#61; &quot;Downsampled Median Signal&quot;&#41;end</code></pre>
 <h4 id="output">Output</h4>
 <p><img src="https://jacobzelko.com/04252020025710.png" alt="median_filter" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Median Filtering</em>. <a href="https://jacobzelko.com/04252020024813-median-filtering">https://jacobzelko.com/04252020024813-median-filtering</a>. April 25 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

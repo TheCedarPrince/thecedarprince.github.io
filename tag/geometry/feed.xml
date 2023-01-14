@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>How Does Linear Combination Operate?</li><li>Reading Vector \(u\) in the Cartesian Coordinate Plane</li><li><strong>Examples</strong><ol><li><strong>Simple Linear Combination Example</strong></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>How Does Linear Combination Operate?</li><li>Reading Vector \(u\) in the Cartesian Coordinate Plane</li><li><strong>Examples</strong><ol><li><strong>Simple Linear Combination Example</strong></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="how_does_linear_combination_operate">How Does Linear Combination Operate?</h3>
 <p>Let \(v\) and \(w\) be any two vectors and let \(c\) and \(d\) represent any real numbers. Multiplying \(v\) and \(w\) by \(c\) and \(d\) respectively yields \(cv\) and \(dw\).</p>
 <p>Adding \(cv\) and \(dw\) together is the idea of a linear combination.</p>
@@ -91,8 +91,9 @@ d\left[
 \[
 cv + dw = 1\begin{bmatrix} 1\\ 1 \end{bmatrix} + 1\begin{bmatrix} 2\\ 3 \end{bmatrix} = \begin{bmatrix} 3\\ 4 \end{bmatrix}
 \]
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Linear Combination</em>. <a href="https://jacobzelko.com/05132020134039-linear-combination">https://jacobzelko.com/05132020134039-linear-combination</a>. May 13 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

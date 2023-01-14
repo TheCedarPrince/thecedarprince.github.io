@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>K. M. Gonzalez, &quot;A Systematic Review of the Health of Vulnerable Populations within US Rural Societies,&quot; OJRNHC, vol. 18, no. 1, pp. 112–147, 2018, doi: 10.14574/ojrnhc.v18i1.507.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Movation</li><li>What Is Vulnerability?</li><li>Barriers Often Encountered in Rural Healthcare Settings</li><li>Vulnerabilities Most Often Studied in Rural Health Literature</li><li>Recommendations for Future Research</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Movation</li><li>What Is Vulnerability?</li><li>Barriers Often Encountered in Rural Healthcare Settings</li><li>Vulnerabilities Most Often Studied in Rural Health Literature</li><li>Recommendations for Future Research</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_movation">Reading Movation</h3>
 <p>I wanted to read this paper to get more a sense for vulnerable populations. Although I was less interested in the specific applications to rural communities, I found the discussion around rural vulnerabilities very interesting as well as clarification around definitions.</p>
 <h3 id="what_is_vulnerability">What Is Vulnerability?</h3>
@@ -61,8 +61,9 @@
 <p>Only one article calculated a power analysis &#40;Komro et al., 2015&#41;.</p>
 <p>Power analysis are used in quantitative research to limit error between hypothesis and findings.</p>
 <p>There was observed an overrelianceon descriptive correlational designs that impeded adequate theory testing. Studies should incorporate theories and theoretical applications relevant to rural populations.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>A Systematic Review of the Health of Vulnerable Populations within US Rural Societies</em>. <a href="https://jacobzelko.com/09082022131551-systematic-rural-review">https://jacobzelko.com/09082022131551-systematic-rural-review</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -110,7 +111,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Request for payment that you or your health care provider submits to your health insurer when you get items or services you think are covered. https://www.healthcare.gov/glossary/claim/</p>
 </li>
@@ -130,8 +131,9 @@ style n3 fill:#006400
 style n6 fill:#8b0000</code></pre>
 <p>Here, the green blocks representing medical staff and patients, denote where data originates from. Whenever a medical staffer provides or a patient seeks a medical service, data is generated &#40;these encounters could be routine health check-ups, emergency room visits, or anything involving an interaction with a medical service provider&#41;. These services are then recorded and passed along to medical coders whose job it is to match a service provided with a correct standardized medical code &#40;standards include coding such as ICD-10, HCPCS, etc&#41;. After these services are matched to a correct standard, the coded services are then passed on to a medical biller who determines what is covered by a patient&#39;s insurance and what is not. Depending on what is or is not covered, this claims data then passes to insurance providers in a back and forth process to adequately pay for the services utilized by the patient and patients may also be directly be billed for services leading to potentially either return visits or these claims to be appealed by the patient.</p>
 <p>https://www.wikiwand.com/en/Medical_billing TODO: add brief blurb about Revenue Cycle Management as note</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Are Claims?</em>. <a href="https://jacobzelko.com/02142022220749-claims-summary">https://jacobzelko.com/02142022220749-claims-summary</a>. February 14 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -179,11 +181,12 @@ style n6 fill:#8b0000</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A type of data file composed of service level payment info such as: 	- Member demographics 	- Provider info 	- Charge/Payment/Allowed info 	- Clinical diagnosis codes 	- Procedure codes </p>
 <p>This comes from non-denied adjudicated claims for each billed service.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Medical Claims Files</em>. <a href="https://jacobzelko.com/12092021205237-medical-claims-files">https://jacobzelko.com/12092021205237-medical-claims-files</a>. December 9 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -231,11 +234,12 @@ style n6 fill:#8b0000</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A type of data file composed of service level payment info such as: 	- Member demographics 	- Provider info 	- Charge/Payment/Allowed info 	- Clinical diagnosis codes  	- Procedure codes </p>
 <p>This comes from non-denied adjudicated claims for each billed service.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Pharmacy Claims Files</em>. <a href="https://jacobzelko.com/12092021212535-dental-claims-files">https://jacobzelko.com/12092021212535-dental-claims-files</a>. December 9 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -283,11 +287,12 @@ style n6 fill:#8b0000</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A type of data file composed of service level payment info such as: 	- Member demographics 	- Provider info 	- Charge/Payment/Allowed info 	- National drug codes 	- Procedure codes </p>
 <p>This comes from non-denied adjudicated claims for each billed service.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Pharmacy Claims Files</em>. <a href="https://jacobzelko.com/12092021211642-pharmacy-claims-files">https://jacobzelko.com/12092021211642-pharmacy-claims-files</a>. December 9 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

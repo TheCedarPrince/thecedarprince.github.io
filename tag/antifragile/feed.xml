@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Examples from Taleb&#39;s Model</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Examples from Taleb&#39;s Model</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Nassim Taleb coined the word &quot;antifragile&quot; to describe systems or objects that, rather than not adapting to an environment, adapts and improves over time as a function of perturbation found in a variable environment. </p>
 <p>Antifragile systems or objects gain from disorder and thrives on volatility and variability within reason for that given system.</p>
 <h3 id="examples_from_talebs_model">Examples from Taleb&#39;s Model</h3>
@@ -52,8 +52,9 @@
 <li><p>A person however is <strong>antifragile</strong>. Before a person can lift a bale of hay, they must first carry the lamb to pasture. Meaning, a person can adapt and change themselves to fit to the situation at hand - though, not immediately. They can make these changes proactively or anticipate needs for a given situation and adapt accordingly.</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Antifragility</em>. <a href="https://jacobzelko.com/03172020033742-antifragility">https://jacobzelko.com/03172020033742-antifragility</a>. March 17 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

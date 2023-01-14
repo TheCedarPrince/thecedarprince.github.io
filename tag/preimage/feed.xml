@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics on the Preimage of a Subset<ol><li>Example</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics on the Preimage of a Subset<ol><li>Example</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>As I have learned and understood what <a href="https://jacobzelko.com//10152022173643-image-of-sets.md">images</a> are, I am now on my quest to learn what preimages so that I can understand the concept of bundles&#33;</p>
 <h3 id="basics_on_the_preimage_of_a_subset">Basics on the Preimage of a Subset</h3>
@@ -96,8 +96,9 @@ x^{2} = 25; x = \pm 5
 \[
 \{-5, -4, -3, -2, -1, +1, +2, +3, +4, +5\}
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Preimage of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10282022132046-preimage-of-sets">https://jacobzelko.com/10282022132046-preimage-of-sets</a>. October 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

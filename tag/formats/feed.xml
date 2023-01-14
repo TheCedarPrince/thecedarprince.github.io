@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What Is the Turtle Format?<ol><li>What Is an Example of the Turtle Format?</li></ol></li><li>What Is the XML Format?<ol><li>What Is an Example of the XML Format?</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What Is the Turtle Format?<ol><li>What Is an Example of the Turtle Format?</li></ol></li><li>What Is the XML Format?<ol><li>What Is an Example of the XML Format?</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>There are many different file storage formats for RDF reified data.</p>
 <h3 id="what_is_the_turtle_format">What Is the Turtle Format?</h3>
 <p>The Turtle format &#40;file extension <code>.ttl</code>&#41; is one example of a storage format. It takes the following form:</p>
@@ -67,8 +67,9 @@
     &lt;j.0:colored rdf:resource&#61;&quot;blue&quot;/&gt;
   &lt;/rdf:Description&gt;
 &lt;/rdf:RDF&gt;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>RDF Data Storage Formats</em>. <a href="https://jacobzelko.com/02182022172731-rdf-file-formats">https://jacobzelko.com/02182022172731-rdf-file-formats</a>. February 18 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

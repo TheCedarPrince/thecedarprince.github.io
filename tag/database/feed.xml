@@ -40,10 +40,11 @@
 <h1>Bibliography</h1>
 <p>Database schema, Wikipedia. Dec. 19, 2021. Accessed: Feb. 19, 2022. &#91;Online&#93;. Available: https://en.wikipedia.org/w/index.php?title&#61;Database_schema&amp;oldid&#61;1061124043</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A &quot;schema&quot; describes the way data is structured to define how a database is constructed. </p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Overview of Database Schemas</em>. <a href="https://jacobzelko.com/02192022220548-database-schemas">https://jacobzelko.com/02192022220548-database-schemas</a>. February 19 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -91,7 +92,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>Advantages of APCDs over other federal health datasets</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>Advantages of APCDs over other federal health datasets</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="overview">Overview</h3>
 <p>The goal of APCDs is to improve affordability of healthcare, its efficiency, and cost transparency. &#91;1&#93;</p>
 <p>All-payer claims databases: State databases which contain the following information on private and public payers:</p>
@@ -110,8 +111,9 @@
 <p>APCDs contain private insurance. This is not common for other datasets.</p>
 <p>APCDs contain data from most or all insurance companies in a State. Other datasets do not have them.</p>
 <p>APCDs include info on care for patients across care sites rather than only from discharge data systems. APCDs include large sample sizes, geographic representation, and capture of longitudinal information on a wide range of individual patients.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>All-Payer Claims Database</em>. <a href="https://jacobzelko.com/01022021031334-all-payer-claims">https://jacobzelko.com/01022021031334-all-payer-claims</a>. January 1 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; Agency for Healthcare Research and Quality, “All-Payer Claims Databases,” Feb-2018. &#91;Online&#93;. Available: https://www.ahrq.gov/data/apcd/index.html.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -160,7 +162,7 @@
 <h1>Bibliography</h1>
 <p>J. F. K. Schmidt, Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity, Sociologica, vol. Vol 12, pp. 53-60 Pages, Jul. 2018, doi: 10.6092/ISSN.1971-8853/8350.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <blockquote>
 <p>&quot;As early as in the 1950s to 1960s, Luhmann simulated a modern computer-based database system &#91;...&#93;.&quot; &#40;pg. 59&#41;</p>
 </blockquote>
@@ -170,8 +172,9 @@
 </blockquote>
 <p>The power of the Zettelkasten comes from these accidental connections. Very similar to how one may spread out pieces of paper on a table and make a new connection, so does this method simulate it in very much the same way.</p>
 <p>Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as <a href="https://jacobzelko.com/03092020022908-education-spectrum.md">knowledge falls across a spectrum.</a> &#40;pg. 56&#41;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity</em>. <a href="https://jacobzelko.com/05032020155207-fabrication-serendipity">https://jacobzelko.com/05032020155207-fabrication-serendipity</a>. May 3 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

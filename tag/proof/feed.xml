@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>An arithmetic sequence is one which the difference between one term and the next only differs by a constant. One example is this:</p>
 \[
 1+2+3+\cdots+n
@@ -62,8 +62,9 @@
 \]
 <p>The latter formalization is somewhat more common and it works as \(a_{n}\) gives the same values as what the size of the sequence is which is \(n\). From the visual proof, the \(\frac{n}{2}\) constant comes from halving the size of each region.</p>
 <p>&#40;Thanks to Mark Kittisopikul, Yingbo Ma, and Benoit Pasquier for these explanations&#41;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Arithmetic Sums &amp; Series</em>. <a href="https://jacobzelko.com/01052021044121-arithmetic-series">https://jacobzelko.com/01052021044121-arithmetic-series</a>. January 4 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>Knowledge is one of the most nebulous ideas known to mankind since nearly the beginning of time. What may be knowledge to one person may be useless noise to another - this encapsulates the difficulty in defining knowledge. As a result of its many possible meanings, I put forth a rather opinionated proposal for what I term the &quot;Open Knowledge Model&quot;.</p>
 <p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://jacobzelko.com/https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
@@ -87,8 +87,9 @@
 <p>Written in Julia and offers parsing from Markdown notes to other target formats.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p>This standard is an active work in progress and is the product of years of experimentation.  If you find problems with this model or believe it too restrictive or unwise, please comment in the discussion or reach out to me. My hope is that this standard will co-evolve with new tools and increase the utility of any person&#39;s knowledge management system.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Open Knowledge Model</em>. <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard">https://jacobzelko.com/04172022033744-open-knowledge-standard</a>. April 16 2022.</p>
 <h2 id="references__2">References</h2>
-<h2 id="references__3">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -136,15 +137,16 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="identity_function">Identity Function</h3>
 <p><code>id</code> returns the argument it is given:</p>
 <pre><code class="language-haskell">-- Using Prelude to declare the identity function
 -- &#96;a&#96; is a type variable and stands in for all types
 id :: a -&gt; a-- Definition of the function
 id x &#61; x</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Prelude - Haskell&#39;s Standard Library</em>. <a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">https://jacobzelko.com/11032021171123-prelude-haskell-library</a>. November 3 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -192,7 +194,7 @@ id x &#61; x</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available </p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>How It Works</li><li>Example Application - ECG Data</li><li>Miscellaneous Notes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>How It Works</li><li>Example Application - ECG Data</li><li>Miscellaneous Notes</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="overview">Overview</h3>
 <p>The Waveform Database &#40;WFDB&#41; Library is a record management system to handle already existing databases - it itself is not a database but a collection of tools to handle databases that follow the WFDB format. &#91;1&#93; Furthermore, WFDB can be used for viewing, analyzing, and creating recordings of physiological signals &#91;2&#93;.</p>
 <h3 id="how_it_works">How It Works</h3>
@@ -220,8 +222,9 @@ id x &#61; x</code></pre>
 <li><p>A possible alternative to the WFDB record format is the European Data Format&#43; &#40;EDF&#43;&#41; &#91;see @garciamartinezLoadingPlottingFiltering2017 for more information&#93;.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>WFDB Record</em>. <a href="https://jacobzelko.com/03102020061429-wfdb-format">https://jacobzelko.com/03102020061429-wfdb-format</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
 <p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
 <h2 id="discussion">Discussion: </h2>

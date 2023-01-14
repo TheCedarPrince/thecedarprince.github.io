@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Today, I spent some time learning about DrWatson.jl. I have always wanted to use the project and now I finally have a reason to work with it&#33; I enjoyed the default layout provided by DrWatson - here are some general thoughts on the matter.</p>
 <p>The project directory provided by DrWatson is automatically setup. The defaults are quite nice and I did not change anything except for ignoring the data files:</p>
 <pre><code class="language-julia">│projectdir          &lt;- Project&#39;s main folder. It is initialized as a Git
@@ -79,8 +79,9 @@
 <pre><code class="language-julia">using DrWatson
 initialize_project&#40;&quot;NeuriViz&quot;; authors &#61; &#91;&quot;Jacob Zelko&quot;, &quot;Zachary P Christensen&quot;&#93;, force &#61; false, git &#61; false, placeholder &#61; true&#41;</code></pre>
 <p>It set up the structure I needed and was quite easy to use. DrWatson was created by George Datseris.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>DrWatson.jl</em>. <a href="https://jacobzelko.com/10262020033701-drwatson-pkg">https://jacobzelko.com/10262020033701-drwatson-pkg</a>. October 10 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -128,7 +129,7 @@ initialize_project&#40;&quot;NeuriViz&quot;; authors &#61; &#91;&quot;Jacob Zelk
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <pre><code class="language-julia">function is_leap_year&#40;year&#41;
     if &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;
         return true
@@ -139,8 +140,9 @@ initialize_project&#40;&quot;NeuriViz&quot;; authors &#61; &#91;&quot;Jacob Zelk
 <pre><code class="language-julia">julia&gt; is_leap_year&#40;year&#41; &#61; &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;julia&gt; is_leap_year&#40;1995&#41;
 false</code></pre>
 <p>This works because Julia performs implicit returns in their functions by returning the result of the function&#39;s last evaluated expression.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Implicit Returns</em>. <a href="https://jacobzelko.com/05192020171152-implicit-return">https://jacobzelko.com/05192020171152-implicit-return</a>. May 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -188,7 +190,7 @@ false</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Consideration</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Consideration</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>It is a non-linear digital filtering technique, used to remove noise from an image or signal. The main idea of the median filter is to run through the signal value by value, replacing each value with the median of neighboring values. The pattern of neighbors is called the &quot;window&quot;, which slides, entry by entry, over the entire signal.</p>
 <h3 id="algorithm">Algorithm</h3>
 <p>An explanation of implementing the algorithm is given in example form:</p>
@@ -259,8 +261,9 @@ gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
           label &#61; &quot;Downsampled Median Signal&quot;&#41;end</code></pre>
 <h4 id="output">Output</h4>
 <p><img src="https://jacobzelko.com/04252020025710.png" alt="median_filter" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Median Filtering</em>. <a href="https://jacobzelko.com/04252020024813-median-filtering">https://jacobzelko.com/04252020024813-median-filtering</a>. April 25 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -308,7 +311,7 @@ gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Considerations</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Considerations</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The exponential smoothing algorithm is a recursive algorithm and is one of the more simple smoothing methods commonly used to remove small noise and motion artifacts from a discrete time series signal. However, it can be considered a &quot;manual&quot; algorithm due to having to manually determine a smoothing factor for it to work properly.</p>
 <p>Per conversation with Post-Doc Researcher, Fredrik Bagge Carlson, another definition for the smoothing factor is the &quot;forgetting factor&quot;. A bigger value for the forgetting factor results in forgetting the memory built into the algorithm faster and focusing more on recent inputs.</p>
 <p>Also, this method is classified as a moving average filter&#33;</p>
@@ -401,8 +404,9 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
     &#41;end</code></pre>
 <h4 id="output">Output</h4>
 <p><img src="1585295721254.png" alt="" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Exponential Smoothing</em>. <a href="https://jacobzelko.com/03272020064312-exponential-smoothing">https://jacobzelko.com/03272020064312-exponential-smoothing</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

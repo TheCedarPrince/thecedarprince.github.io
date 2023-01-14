@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li><ol><li><ol><li>Procedures</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li><ol><li><ol><li>Procedures</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3>Motivation</h3>
 <p>I have always found graph theory interesting ever since I was exposed to it back in my undergraduate studies at Georgia Tech. I found out about it through SIR Modeling but personally found the structure of graphs far more fascinating than its application to SIR models. Furthermore, as I intend to be pursuing graduate studies in applied mathematics, why not get started with trying to understand it?</p>
 <h3>Project Goals</h3>
@@ -384,8 +384,9 @@
 <li><p>MATH 4022: Introduction to Graph Theory &#40;taught at Georgia Institute of Technology&#41;</p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Achieving an Undergraduate Level Understanding of Graph Theory</em>. <a href="https://jacobzelko.com/01012023000122-graph-theory-learning">https://jacobzelko.com/01012023000122-graph-theory-learning</a>. December 31 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; R. Trudeau, Introduction to Graph Theory, Dover. DOVER PUBLICATIONS, INC., 1994.</p>
 <p>&#91;2&#93; N. Hartsfield and Ringel, Pearls in Graph Theory A Comprehensive Introduction. DOVER PUBLICATIONS, INC., 1994.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -435,7 +436,7 @@
 <h1>Bibliography</h1>
 <p>S. Young, Ultralearning. HarperCollins Publishers, 2019.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Principles of Metalearning</li><li>Make a Roadmap for a Learning Project<ol><li>What Is the Project and What Does It Entail?</li><li>How Do We Approach The Project?</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Principles of Metalearning</li><li>Make a Roadmap for a Learning Project<ol><li>What Is the Project and What Does It Entail?</li><li>How Do We Approach The Project?</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p><strong>Ultralearning</strong>: An intensive, self-directed study framework for quickly acquiring skills and knowledge.</p>
 <h3 id="principles_of_metalearning">Principles of Metalearning</h3>
 <ol>
@@ -463,8 +464,9 @@
 <h4 id="how_do_we_approach_the_project">How Do We Approach The Project?</h4>
 <p>Employing the <strong>Emphasize/Exclude Method</strong> is to find areas of study that align with identified goals. Part of this method is to omit or delay from your curriculum material which do not align with your goals. Familiarize yourself with what is common for <strong>benchmarking</strong>, or the ways people learn a skill or subject, regarding your project.</p>
 <p><strong>Directness:</strong> learning being directly related to the way you want to use the information.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Ultralearning</em>. <a href="https://jacobzelko.com/07082020163004-ultralearning">https://jacobzelko.com/07082020163004-ultralearning</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

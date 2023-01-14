@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>C. Huyen, “Introduction to streaming for data scientists,” Aug. 03, 2022. https://huyenchip.com//2022/08/03/stream-processing-for-data-scientists.html &#40;accessed Sep. 02, 2022&#41;.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>Streaming is an immensely important concept I have consistently found. I came to appreciate the concept more deeply by interacting with <a href="https://jacobzelko.com/https://juliaio.github.io/TranscodingStreams.jl/stable/">TranscodingStreams.jl</a> to parse terabytes worth of data out of memory in a JSON format &#40;shudders at the thought of this&#41;.</p>
 <p>Once your data is stored in files, data lakes, or data warehouses, it becomes historical data.</p>
@@ -66,8 +66,9 @@
 <p>Retroactively processing historical data using a different logic is also called backfilling.</p>
 <p>With batch backfilling, you can apply the new logic &#40;e.g. new feature definition&#41; to a table in the past.</p>
 <p>With stream backfilling, you can apply the new logic to the log in a given period of time in the past, e.g. apply it to the log on June 10, 2022.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Introduction To Streaming for Data Scientists</em>. <a href="https://jacobzelko.com/09092022205654-streaming-data-scientists">https://jacobzelko.com/09092022205654-streaming-data-scientists</a>. September 9 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -115,7 +116,7 @@
 <h1>Bibliography</h1>
 <p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What Is the Turtle Format?<ol><li>What Is an Example of the Turtle Format?</li></ol></li><li>What Is the XML Format?<ol><li>What Is an Example of the XML Format?</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What Is the Turtle Format?<ol><li>What Is an Example of the Turtle Format?</li></ol></li><li>What Is the XML Format?<ol><li>What Is an Example of the XML Format?</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>There are many different file storage formats for RDF reified data.</p>
 <h3 id="what_is_the_turtle_format">What Is the Turtle Format?</h3>
 <p>The Turtle format &#40;file extension <code>.ttl</code>&#41; is one example of a storage format. It takes the following form:</p>
@@ -142,8 +143,9 @@
     &lt;j.0:colored rdf:resource&#61;&quot;blue&quot;/&gt;
   &lt;/rdf:Description&gt;
 &lt;/rdf:RDF&gt;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>RDF Data Storage Formats</em>. <a href="https://jacobzelko.com/02182022172731-rdf-file-formats">https://jacobzelko.com/02182022172731-rdf-file-formats</a>. February 18 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -191,7 +193,7 @@
 <h1>Bibliography</h1>
 <p>U.S. Food and Drug Administration, &quot;Real-World Evidence.&quot; Sep. 30, 2021. Accessed: Oct. 27, 2021. &#91;Online&#93;. Available: https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Background</li><li>United States Food and Drug Administration Definitions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Background</li><li>United States Food and Drug Administration Definitions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="background">Background</h3>
 <p>Real-World Evidence, according to Congress, is any data that concerns the use, benefits, or risks of a drug from nontraditional sources &#40;i.e. clinical trials&#41;</p>
 <h3 id="united_states_food_and_drug_administration_definitions">United States Food and Drug Administration Definitions</h3>
@@ -215,8 +217,9 @@
 	- Large simple trials
 	- Pragmatic trials
 	- Observational studies &#40;prospective and/or retrospective&#41;.</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Real-World Data and Real-World Evidence</em>. <a href="https://jacobzelko.com/10282021140730-real-world-evidence">https://jacobzelko.com/10282021140730-real-world-evidence</a>. October 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -264,7 +267,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Characteristics</li><li>Abstract Data Types<ol><li>List Abstract Data Type<ol><li>Minimum Required Operations</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Characteristics</li><li>Abstract Data Types<ol><li>List Abstract Data Type<ol><li>Minimum Required Operations</li></ol></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="definitions">Definitions</h3>
 <ul>
 <li><p><strong>Abstract Data Types</strong> - the description of a data type based on its associated behaviors and operations.</p>
@@ -304,8 +307,9 @@
 <li><p><code>size&#40;&#41;</code> - returns the number of <code>data</code> stored in list.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Abstract Data Types</em>. <a href="https://jacobzelko.com/10052021221736-abstract-data-types">https://jacobzelko.com/10052021221736-abstract-data-types</a>. October 5 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -353,7 +357,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Arrays</li><li>ArrayList<ol><li>Characteristics</li><li>Definitions</li><li>Requirements</li><li><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Arrays</li><li>ArrayList<ol><li>Characteristics</li><li>Definitions</li><li>Requirements</li><li><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="arrays">Arrays</h3>
 <p>Arrays are: 	- Statically allocated &#40;they are stored in memory and do not change; values can tho&#41; 	- Contiguous blocks of memory &#40;meaning that they are stored end to end in memory&#41;</p>
 <p>They provide <a href="https://jacobzelko.com/09242021040445-asymptotic-notation.md">constant complexity</a> of \(\mathcal{O}(1)\) when accessing data at a specific index in memory.</p>
@@ -406,8 +410,9 @@
 - Removing examples:
 	- Removing from back of ArrayList is &#36;\mathcal&#123;O&#125;&#40;1&#41;&#36;
 	- Removing at arbitrary position in ArrayList is &#36;\mathcal&#123;O&#125;&#40;n&#41;&#36;</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Data Structures</em>. <a href="https://jacobzelko.com/10012021003603-data-structures">https://jacobzelko.com/10012021003603-data-structures</a>. September 28 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -455,7 +460,7 @@
 <h1>Bibliography</h1>
 <p>G. Marchais, P. Bazuzi, and A. Amani Lameke, &quot;‘The Data Is Gold, And We Are The gold-diggers&#39;: Whiteness, Race And Contemporary Academic Research In Eastern DRC,&quot; Critical African Studies, vol. 12, no. 3, pp. 372–394, Sep. 2020, doi: 10.1080/21681392.2020.1724806.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Background<ol><li>Review Process</li><li>Research Projects Are a Lucrative Business</li><li>Accidental Whiteness</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Background<ol><li>Review Process</li><li>Research Projects Are a Lucrative Business</li><li>Accidental Whiteness</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="background">Background</h3>
 <h4 id="review_process">Review Process</h4>
 <p>First stage, a white European male&#39;s reflection on academic research in DRC and setting up Marakuja Kive Research group.  Second stage, two Congolese researchers and Marakuja Kive Research founders review ideas in initial draft.</p>
@@ -487,8 +492,9 @@
 <p>This mirrors very closely how international academic endeavors can look like a supply chain.</p>
 <h4 id="accidental_whiteness">Accidental Whiteness</h4>
 <p>White academics incidentally separate to give themselves a sense of racial inapplicability &#91;6&#93;, &#91;7&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>‘The Data Is Gold, And We Are The gold-diggers&#39;: Whiteness, Race And Contemporary Academic Research In Eastern DRC</em>. <a href="https://jacobzelko.com/01132021041501-gold-diggers">https://jacobzelko.com/01132021041501-gold-diggers</a>. January 12 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; D. Desai and R. Tapscott, “Tomayto tomahto: The research supply chain and the ethics of knowledge production,” Humanity J. Online, 2004.</p>
 <p>&#91;2&#93; F. Bédécarrats, I. Guérin, and F. Roubaud, “All that glitters is not gold. The political economy of randomized evaluations in development,” Dev. Change, vol. 50, no. 3, pp. 735–762, 2019.</p>
 <p>&#91;3&#93; L. Mann, “Left to other peoples’ devices? A political economy perspective on the big data revolution in development,” Dev. Change, vol. 49, no. 1, pp. 3–36, 2018.</p>
@@ -543,13 +549,14 @@
 <h1>Bibliography</h1>
 <p>A. Delorme, S. Makeig, M. Fabre-Thorpe, and T. Sejnowski, &quot;From single-trial EEG to brain area dynamics,&quot; Neurocomputing, vol. 44–46, pp. 1057–1064, Jun. 2002, doi: 10.1016/S0925-2312&#40;02&#41;00415-0.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="materials_and_methods">Materials and Methods</h3>
 <p>EEG data from rapid go/nogo visual categorization via natural photographs &#91;1&#93; Though the task involved complicated visual processing, averaged EEG epochs for target and non-target stimuli differed greatly as early as 150 ms after stimulus onset. It appeared to involve automated processing in the visual system.&#91;2&#93; <em>QUESTION: What is a go/nogo visual categorization task?</em></p>
 <p><strong>EEG inverse problem:</strong> reconstructing intracranial brain sources from collected signals.Disparate EEG processes generally overlap in time and space. They become intertwined in scalp electrode recordings. &#91;3&#93;</p>
 <p>Subjects were presented pictures for 20 ms at random intervals between 1.8–2.2s. Half of the pictures were animals. Subjects released a held button when an animal was observed. Subject accuracy was 94&#37; for correct responses. Median reaction time was 440 ms</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>From Single-Trial EEG To Brain Area Dynamics</em>. <a href="https://jacobzelko.com/12312020235220-single-trial-eeg">https://jacobzelko.com/12312020235220-single-trial-eeg</a>. December 31 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; M. Fabre-Thorpe, A. Delorme, C. Marlot, and S. Thorpe, “A limit to the speed of processing in ultra-rapid visual categorization of novel natural scenes,” J. Cogn. Neurosci., vol. 13, no. 2, pp. 171–180, 2001.</p>
 <p>&#91;2&#93; S. J. Thorpe and M. Fabre-Thorpe, “Seeking categories in the brain,” Science, vol. 291, no. 5502, pp. 260–263, 2001.</p>
 <p>&#91;3&#93; S. Thorpe, D. Fize, and C. Marlot, “Speed of processing in the human visual system,” nature, vol. 381, no. 6582, pp. 520–522, 1996.</p>
@@ -600,7 +607,7 @@
 <h1>Bibliography</h1>
 <p>E. A. Allen, E. B. Erhardt, and V. D. Calhoun, &quot;Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality,&quot; Neuron, vol. 74, no. 4, pp. 603–608, May 2012, doi: 10.1016/j.neuron.2012.05.001.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Methods</li><li>Purpose</li><li>Ways to Reduce Complexity</li><li>Common Perceptions of Neuroscience Visualizations<ol><li>Bar Plots</li></ol></li><li>Key Takeaways</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Methods</li><li>Purpose</li><li>Ways to Reduce Complexity</li><li>Common Perceptions of Neuroscience Visualizations<ol><li>Bar Plots</li></ol></li><li>Key Takeaways</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="methods">Methods</h3>
 <p>1,451 figures were examined from 288 neuroscience papers in 2010.</p>
 <h3 id="purpose">Purpose</h3>
@@ -659,8 +666,9 @@
 <p>Dependent variables are more difficult to label when they represent abstract parameter estimates rather than directly measured quantities. Uncertainty is more challenging to render when data sets require error surfaces rather than error bars.  Displays should become increasingly informative regarding complex data in illustrating relationships that would not be well defined in tables or values alone.</p>
 <p>Link to code in this paper: http://mialab.mrn.org/datavis</p>
 <p><em>QUESTION: One thing that I realize and think a lot about from this paper is the question of: how easy is it to represent this sort of additional information that tells more the story of the neuroscientific data? Obviously, the authors have expertise with making their own tools.  But what about for those who do not have them?</em></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality</em>. <a href="https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience">https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; E. Tagliazucchi, M. Siniatchkin, H. Laufs, and D. R. Chialvo, “The voxel-wise functional connectome can be efficiently derived from co-activations in a sparse spatio-temporal point-process,” Front. Neurosci., vol. 10, p. 381, 2016.</p>
 <p>&#91;2&#93; E. Tagliazucchi, R. Carhart-Harris, R. Leech, D. Nutt, and D. R. Chialvo, “Enhanced repertoire of brain dynamical states during the psychedelic experience,” Hum. Brain Mapp., vol. 35, no. 11, pp. 5442–5456, 2014.</p>
 <p>&#91;3&#93; E. Tagliazucchi, P. Balenzuela, D. Fraiman, and D. R. Chialvo, “Criticality in large-scale brain fMRI dynamics unveiled by a novel point process analysis,” Front. Physiol., vol. 3, p. 15, 2012.</p>
@@ -716,11 +724,12 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Voxels are 3D volumetric constructs that take as parameters three axes which serve as indices for the value stored in the 3D block at the indexed location.</p>
 <p><img src="11302020060802.png" alt="" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What are Voxels</em>. <a href="https://jacobzelko.com/11302020054820-voxel">https://jacobzelko.com/11302020054820-voxel</a>. November 30 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -768,7 +777,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Launched in 2016</p>
 </li>
@@ -803,8 +812,9 @@
 </ul>
 <p>&#91;1&#93;</p>
 <p>The arrow format allows for larger-than-memory datasets. When writing a dataset to arrow format, the data and metadata is laid in a descriptive layout. The data is written in pre-determined, binary formats by supported type. When reading, Arrow memory maps data from arrow memory. This means the OS gives access to memory which is swapped into RAM upon requests. &#40;Jacob Quinn – correspondence on Apache Arrow mailing list&#41;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Apache Arrow</em>. <a href="https://jacobzelko.com/10262020041544-apache-arrow">https://jacobzelko.com/10262020041544-apache-arrow</a>. October 26 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; Apache Arrow and the Future of Data Frames. 2020.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -853,12 +863,13 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Defined as the use of multiple technologies or location systems simultaneously to form hierarchical and overlapping levels of sensing, sensor fusion can provide aggregate properties unavailable when using location systems individually</p>
 <p>This definition of data fusion comes from <em>Hightower &amp; Borriello</em> &#91;1&#93; and I think it provides a very good explanation of what data fusion actually is. I decided to generalize it as their definition only concerns with location systems – here is my paraphrase:</p>
 <p>When one utilizes differing technologies to form tiers of improving sensor accuracy; this methodology can compensate for the loss or absence of signal from other sensors by providing multiple overlaps for the same defining properties of a system.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Definition of Data Fusion</em>. <a href="https://jacobzelko.com/04222020154543-data-fusion">https://jacobzelko.com/04222020154543-data-fusion</a>. April 22 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; J. Hightower and G. Borriello, “Location systems for ubiquitous computing,” Computer, vol. 34, no. 8, pp. 57–66, 2001.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

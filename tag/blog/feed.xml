@@ -173,7 +173,7 @@ end</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li><ol><li><ol><li>Procedures</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li><ol><li><ol><li>Procedures</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3>Motivation</h3>
 <p>I have always found graph theory interesting ever since I was exposed to it back in my undergraduate studies at Georgia Tech. I found out about it through SIR Modeling but personally found the structure of graphs far more fascinating than its application to SIR models. Furthermore, as I intend to be pursuing graduate studies in applied mathematics, why not get started with trying to understand it?</p>
 <h3>Project Goals</h3>
@@ -517,8 +517,9 @@ end</code></pre>
 <li><p>MATH 4022: Introduction to Graph Theory &#40;taught at Georgia Institute of Technology&#41;</p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Achieving an Undergraduate Level Understanding of Graph Theory</em>. <a href="https://jacobzelko.com/01012023000122-graph-theory-learning">https://jacobzelko.com/01012023000122-graph-theory-learning</a>. December 31 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; R. Trudeau, Introduction to Graph Theory, Dover. DOVER PUBLICATIONS, INC., 1994.</p>
 <p>&#91;2&#93; N. Hartsfield and Ringel, Pearls in Graph Theory A Comprehensive Introduction. DOVER PUBLICATIONS, INC., 1994.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -568,7 +569,7 @@ end</code></pre>
 <h1>Bibliography</h1>
 <p>T. S. Kuhn and I. Hacking, The Structure of Scientific Revolutions, Fourth edition. Chicago; London: The University of Chicago Press, 2012.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>What Is <em>Normal Science</em>?<ol><li>What Are the Characteristics of Normal Science?</li></ol></li><li>What Was Kuhn&#39;s Concept of a Paradigm?<ol><li>What Are the Characteristics of a Paradigm?</li><li>What Are the Benefits of Choosing a Paradigm?</li></ol></li><li>What Causes the Downfall of a Paradigm?<ol><li>What Happens When a Paradigm Is in Crisis?</li><li>Extraordinary Problems</li></ol></li><li>&quot;Scientific Revolutions&quot; and the Term &quot;Revolution&quot;</li><li>Invoking New Paradigms on Faith</li><li>On the Non-Linearity of Science</li><li>Additional Notes<ol><li>Paradigm Shifts in Other Domains</li><li>Non-Kuhnian Revolutions or Domain Transformations</li></ol></li><li>Conclusion</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>What Is <em>Normal Science</em>?<ol><li>What Are the Characteristics of Normal Science?</li></ol></li><li>What Was Kuhn&#39;s Concept of a Paradigm?<ol><li>What Are the Characteristics of a Paradigm?</li><li>What Are the Benefits of Choosing a Paradigm?</li></ol></li><li>What Causes the Downfall of a Paradigm?<ol><li>What Happens When a Paradigm Is in Crisis?</li><li>Extraordinary Problems</li></ol></li><li>&quot;Scientific Revolutions&quot; and the Term &quot;Revolution&quot;</li><li>Invoking New Paradigms on Faith</li><li>On the Non-Linearity of Science</li><li>Additional Notes<ol><li>Paradigm Shifts in Other Domains</li><li>Non-Kuhnian Revolutions or Domain Transformations</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="introduction">Introduction</h3>
 <p>This book has had an immense impact in the world of science. From how science is taught to how science is thought about, Kuhn&#39;s notions of scientific revolution resonated across nearly all domains of science as well as touching into the arts. The central conceit that Kuhn stated in this book is that the scientific community knows what the world is like. I was recommended this book by my friend, collaborator, and Category Theorist, <a href="https://jacobzelko.com/https://www.jpfairbanks.com/">Professor James P. Fairbanks</a> I can see why it was recommended as it fits in quite nicely to the ensuing philosophical ideas found in <a href="https://jacobzelko.com/11082021041951-category-theory-scientists.md">Category Theory</a>.</p>
 <h3 id="what_is_normal_science">What Is <em>Normal Science</em>?</h3>
@@ -657,8 +658,9 @@ end</code></pre>
 <p>In an online group discussion, the user <em>heynonnynonnie</em>, made a great point that non-Kuhnian scientific revolutions happen more frequently than the bigger Kuhnian scientific revolutions &#40;such as the heliocentric versus geocentric theory, etc.&#41;. As these are much smaller scale revolutions and do not affect the entirety of science, I call these &quot;domain transformations&quot; as they transform or affect a particular domain&#39;s way of operating but not the rest of science as a whole. <em>heynonnynonnie</em> gave the example that the discovery of the DNA structure, though fantastic and a major discovery, provided only pure information that fit within the preexisting paradigms.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p>I thought this book was well done and also worth this lengthy analysis. It provided context to a lot of ideas that were born from the notions Kuhn coined here. For me, it felt like giving me a bit more of a better foundation to understand better how to operate in domains. Even if this piece is labeled more as a philosophy of science piece, it could easily also be considered a sociological exploration of academia as a whole. I recommend the read, but also, not to take the notions as literally or seriously as possible. Kuhn himself suggested that as he later would get inundated with letters saying that there was a revolution happening because of X - help me. As judicious as Kuhn was in using the term revolution, we too must be careful to recognize when a revolution or paradigm shift is occurring.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Structure of Scientific Revolutions</em>. <a href="https://jacobzelko.com/05152022174848-structure-revolutions">https://jacobzelko.com/05152022174848-structure-revolutions</a>. May 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -706,7 +708,7 @@ end</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p><em>A living note on my faith as a Christian</em></p>
 <p>Saying you are a Christian is a loaded statement that colors a spectrum. It brings to mind the halls of a quiet countryside monastery echoing with billowing hymns to outraged shouts of damnation from a pulpit. Saying you are a Christian is strangely all encompassing and hollow simultaneously.</p>
 <p>I am a Christian and this blog post is an overview of what <em>I</em> mean by that.</p>
@@ -735,8 +737,9 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 </blockquote>
 <p>To leave off, please note: I am not a perfect Christian. No one is or can be. I try to follow God with confident steps; oftentimes, it looks more like a faltering walk. Yet, by the grace of God, I have courage that each day can be better and I can show Christ&#39;s love to others not through faux perfection of arrogance but the ordinary efforts of a common man with an extraordinary Savior.</p>
 <p><em>Solil Deo Gloria – To God Alone Be the Glory.</em></p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Personal Perspectives on Faith</em>. <a href="https://jacobzelko.com/05072022162026-personal-faith-perspectives">https://jacobzelko.com/05072022162026-personal-faith-perspectives</a>. May 7 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -784,7 +787,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>Knowledge is one of the most nebulous ideas known to mankind since nearly the beginning of time. What may be knowledge to one person may be useless noise to another - this encapsulates the difficulty in defining knowledge. As a result of its many possible meanings, I put forth a rather opinionated proposal for what I term the &quot;Open Knowledge Model&quot;.</p>
 <p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://jacobzelko.com/https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
@@ -831,8 +834,9 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <p>Written in Julia and offers parsing from Markdown notes to other target formats.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p>This standard is an active work in progress and is the product of years of experimentation.  If you find problems with this model or believe it too restrictive or unwise, please comment in the discussion or reach out to me. My hope is that this standard will co-evolve with new tools and increase the utility of any person&#39;s knowledge management system.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Open Knowledge Model</em>. <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard">https://jacobzelko.com/04172022033744-open-knowledge-standard</a>. April 16 2022.</p>
 <h2 id="references__2">References</h2>
-<h2 id="references__3">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -880,7 +884,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h1>Bibliography</h1>
 <p>E. Cheng, X &#43; Y: A Mathematician’s Manifesto for Rethinking Gender. Basic Books, 2020.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Category Theory as Tool for Thinking on Gender</li><li>Congressive versus Ingressive Thinking</li><li>Conclusion</li><li>Final Thoughts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Category Theory as Tool for Thinking on Gender</li><li>Congressive versus Ingressive Thinking</li><li>Conclusion</li><li>Final Thoughts</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="introduction">Introduction</h3>
 <p>Eugenia Cheng takes a nuanced approach to the discussion around gender. As she references, some feminists&#39; battle cry is the phrase, &quot;Smash the patriarchy&#33;&quot;. In Cheng&#39;s idea of feminism, she instead looks for language that is less divisive and more inclusive encompassed in her saying, &quot;Let’s transform our world into a more congressively led future.&quot;</p>
 <h3 id="category_theory_as_tool_for_thinking_on_gender">Category Theory as Tool for Thinking on Gender</h3>
@@ -903,8 +907,9 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <p>Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the <a href="https://jacobzelko.com/07112020161337-social-determinants-health.md">social determinants of health</a> and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:</p>
 <p>&quot;The idea of a temporary abstraction also takes into account the thorny issue of intersectionality, and the need to take other forms of power imbalance into account besides those governed by gender, for example race, wealth, sexual orientation, and so on.&quot;</p>
 <p>Overall, good read&#33;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</em>. <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking">https://jacobzelko.com/04162022002725-mathematician-gender-rethinking</a>. April 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -952,7 +957,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h1>Bibliography</h1>
 <p>W. Shakespeare and others, &quot;Othello:&#91;1622&#93;,&quot; Oxford Text Archive Core Collection, 1991.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Racism and Deconstruction of the Noble Savage</li><li>Manipulation as Enigmatic Entertainment</li><li>Transcendental Love</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Racism and Deconstruction of the Noble Savage</li><li>Manipulation as Enigmatic Entertainment</li><li>Transcendental Love</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="racism_and_deconstruction_of_the_noble_savage">Racism and Deconstruction of the Noble Savage</h3>
 <p>It is surprisingly progressive in some ways I found - even by today&#39;s standards which was interesting. The racist overtones in the book were very much in your face but with the treatment of Othello, I did not find it similar to the idea of the &quot;noble savage&quot; literary idea but rather much different. Instead, it felt like Othello was treated by all other accounts either an equal or due to his experience, exempt from the racial overtures his peers had towards him generally.</p>
 <h3 id="manipulation_as_enigmatic_entertainment">Manipulation as Enigmatic Entertainment</h3>
@@ -960,8 +965,9 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <p>I quite liked the fact that he did not have a real motive. It drove home the pettiness of him but is not unrealistic. To me, he reminded me of a man who was very bored and his most fun was in controlling the lives of others in some way even if it meant his ruin. It has been said that the most dangerous people to watch for are those who have nothing to lose when you have every thing to lose. The think this is a very apt description of Iago as a man who has nothing but is happy to see some one lose everything.</p>
 <h3 id="transcendental_love">Transcendental Love</h3>
 <p>Finally, what has stuck with me is how much Othello and Desdemona were in love with each other. It was typical of Shakespeare to write these deep romances where the bonds between the lovers could transcend the times that the people were from. It is both saddening and interesting that the situation described here is not too dissimilar to the world we live in still. In the start of the book, you can see the bigotry at full display in the father of Desdemona which is eerily like modern discussions.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Othello</em>. <a href="https://jacobzelko.com/04102022034503-othello">https://jacobzelko.com/04102022034503-othello</a>. April 9 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1009,7 +1015,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Example of Actual Note</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Example of Actual Note</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This is an <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard.md">example implementation of the Open Knowledge Standard</a> I use when taking notes in Markdown:</p>
 <pre><code class="language-markdown"># &#91;Title&#93;**Date:** &#91;DATE&#93;**Summary:** &#91;ONE SENTENCE SUMMARY&#93;**Keywords:** &#91;KEYWORDS PREPENDED BY #. EXAMPLE: #healthcare&#93;## Note Linked From&#91;REFERENCE TO WHERE THE NOTE WAS LINKED FROM&#93;## Bibliography&#91;BIBLIOGRAPHIC REFERENCE FOR WHERE YOU GOT THE INFORMATION&#93;## Notes&#91;CONTENT OF NOTE&#93;## References:&#91;ADDITIONAL REFERENCES USED IN NOTE&#93;</code></pre>
 <h3 id="example_of_actual_note">Example of Actual Note</h3>
@@ -1025,8 +1031,9 @@ He emphasized that they do not always hold or are always discrete from one anoth
 2. Questions that are predicted and expected to have answers existing within an already existing research domain.
 3. Further articulating the fundamental facts held in a given domain.## References</code></pre>
 <p>NOTE: As a matter of style, I tend to put sentences each on their own line. This helps me with being able to more quickly pull pieces of information across my knowledge management system.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>My Note Templates</em>. <a href="https://jacobzelko.com/08032021134232-notes-template">https://jacobzelko.com/08032021134232-notes-template</a>. August 3 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1074,7 +1081,7 @@ He emphasized that they do not always hold or are always discrete from one anoth
 <h1>Bibliography</h1>
 <p>J. Pearl and D. Mackenzie, The book of why: the new science of cause and effect, First edition. New York: Basic Books, 2018.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Benefits of Causal Analysis</li><li>Critiques of Statistics</li><li>Causal Calculus</li><li>Inference Engine</li><li>Ladder of Causality</li><li>Mini-Turing Test</li><li>Bayesian Analysis</li><li>Causal Diagrams<ol><li>Paths in Path Diagrams<ol><li>Chain junction</li><li>Fork Junction</li><li>Collider Junction</li></ol></li><li>Lessons from Path Diagrams</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Benefits of Causal Analysis</li><li>Critiques of Statistics</li><li>Causal Calculus</li><li>Inference Engine</li><li>Ladder of Causality</li><li>Mini-Turing Test</li><li>Bayesian Analysis</li><li>Causal Diagrams<ol><li>Paths in Path Diagrams<ol><li>Chain junction</li><li>Fork Junction</li><li>Collider Junction</li></ol></li><li>Lessons from Path Diagrams</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This book shows that data is stupid. Data can record events but cannot answer why any of the events are the way they are.</p>
 <p>Causal inference posits the brain as the most advanced tool for understanding cause and effect.</p>
 <p>Forcing an occurrence means to submit it to one influence to trigger the desired event</p>
@@ -1096,7 +1103,7 @@ He emphasized that they do not always hold or are always discrete from one anoth
 </ol>
 <h3 id="inference_engine">Inference Engine</h3>
 <p>The inference engine assumes perfect and unlimited data for the given figure:</p>
-<p><img src="../assets/01082021030619-inference-engine.png" alt="" /></p>
+<p><img src="assets/01082021030619-inference-engine.png" alt="" /></p>
 <p><strong>Estimand:</strong> generalized mathematical formula to answer data questions. A statistical quantity estimated from data that can represent an answer to a query.</p>
 <p>A given estimand is computed on the basis of the causal model alone, prior to an examination of the specifics of the data. This gives the inference engine better adaptibility.</p>
 <p><strong>Binary Evaluation of Query:</strong> determines if a query can be answered under an existing causal model.</p>
@@ -1147,8 +1154,9 @@ A \rightarrow B \leftarrow C
 <li><p>Two people creating differing causal diagrams for the same data and may not arrive at the same result.</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Book of Why</em>. <a href="https://jacobzelko.com/01072021082043-book-of-why">https://jacobzelko.com/01072021082043-book-of-why</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1196,7 +1204,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>A. Miller, Death of a Salesman. Penguin Books, 1998.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What is Satisfaction?</li><li>Shattering of Innocence</li><li>False Expectations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What is Satisfaction?</li><li>Shattering of Innocence</li><li>False Expectations</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="what_is_satisfaction">What is Satisfaction?</h3>
 <blockquote>
 <p>&quot;I&#39;m thirty-four years old, I oughta be makin&#39; my future.</p>
@@ -1236,8 +1244,9 @@ A \rightarrow B \leftarrow C
 <p>And the funny thing is that you&#39;re a salesman, and you don&#39;t know that.&quot;</p>
 <p><em>Willy&#39;s neighbor Charley admonishing him on his frustration with the world not working they way Willy expects it to.</em></p>
 <p>Ultimately, this searing criticism of Willy shows to him that he doesn&#39;t have any skills to offer outside of his perfunctory service as a salesman. He is a mediocre man who never tried to adapt and move with the times. And Willy refuses to believe that life passed him by in that way.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Death of a Salesman</em>. <a href="https://jacobzelko.com/12262020224653-death-salesman">https://jacobzelko.com/12262020224653-death-salesman</a>. July 26 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1285,7 +1294,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Psalm 5 Scripture</li><li>Exegesis</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Psalm 5 Scripture</li><li>Exegesis</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="psalm_5_scripture">Psalm 5 Scripture</h3>
 <pre><code class="language-julia">Listen to my words, Lord, 
 consider my lament. 
@@ -1300,8 +1309,9 @@ you surround them with your favor as with a shield.                             
 <h3 id="exegesis">Exegesis</h3>
 <p>One of the key things to note about this passage is when the Psalmist chooses to lay his requests before God – the morning. If you wake up and the very first thing you do is cry and lament before God, then this illustrates a point of extreme stress. The object of stress in this Psalm is enough to haunt the writer&#39;s every waking moment. It causes enough concern for the Psalmist to wait on God to answer the writer.</p>
 <p>Yet, what may or may not be implied from this is that the Psalmist still chooses rest and/or sleep. In verses 11 - 12, the Psalmist knows that God protects and blesses those who love Him and he chooses to have faith and trust in that knowledge to rest and rejoice. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Sleep as an Act of Faith</em>. <a href="https://jacobzelko.com/04282020175356-sleep-act">https://jacobzelko.com/04282020175356-sleep-act</a>. April 28 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1349,14 +1359,15 @@ you surround them with your favor as with a shield.                             
 <h1>Bibliography</h1>
 <p>S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Quotes from the Book:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Quotes from the Book:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This was overall a book on knowledge management – in particular, how to take, digest, and use the notes we make while reading material, listening to lectures, or absorb knowledge in general. Sonke Ahrens, the author of the book, also gave a rather in-depth overview of the Zettelkasten method created by sociologist Niklas Luhmann. I found the book useful in giving legitimately very good advice on note-taking, great anecdotes to illustrate his point, and also assistance on using the Zettelkasten method. </p>
 <p>Furthermore, Ahrens made an interesting point saying that if you are approaching writing where you start with just a blank page, you are missing the point. When you approach a blank page, it <em>ought</em> not feel blank but rather the place to put your notes and ideas together that you have been collecting about a particular topic. Ahrens believes that fundamental teachings about how to write long-form papers are wrong in that they do not start with the most crucial aspect of the writing process – free form thought. And free form thought, when investigating a topic, is best captured using a global sort of note taking method like the Zettelkasten.</p>
 <h3 id="quotes_from_the_book">Quotes from the Book:</h3>
 <pre><code class="language-julia">&quot;Every intellectual endeavour starts with a note&quot; &#91;pg 8&#93;&quot;We only write if it helps us with our own thinking.&quot; &#91;pg 101&#93;</code></pre>
 <p>These two quotes get at the idea that when we write and create notes, we are not only creating notes but also playing with ideas and digesting them into our minds.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>How to Take Smart Notes</em>. <a href="https://jacobzelko.com/03292020180520-smart-notes">https://jacobzelko.com/03292020180520-smart-notes</a>. March 29 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Algorithm</li><li>Example</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm</li><li>Example</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="algorithm">Algorithm</h3>
 <p>Let \(p_{1} = (x_{1}, y_{1})\), \(p_{2} = (x_{2}, y_{2})\), \(p = (x_{p}, y_{p})\) where \(p_{1}\) and \(p_{2}\) are two points of interest and \(p\) is either \(p_{1}\) or \(p_{2}\). The algorithm for determining the line that contains points \(p_{1}\) and \(p_{2}\) utilizes the Point-Slope Formula:</p>
 \[
@@ -73,8 +73,9 @@ output &#61; y&#40;input, 2, -1, 0, 3&#41;plot&#40;input,
 scatter&#33;&#40;&#40;2, -1&#41;, label&#61;&quot;Point 1&quot;, marker&#61;5&#41;
 scatter&#33;&#40;&#40;0, 3&#41;, label&#61;&quot;Point 2&quot;, marker&#61;5&#41;</code></pre>
 <p><img src="https://jacobzelko.com/052520202121.png" alt="output image" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Finding a Line Which Contains Two Points</em>. <a href="https://jacobzelko.com/05202020224416-line-two-points">https://jacobzelko.com/05202020224416-line-two-points</a>. May 20 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

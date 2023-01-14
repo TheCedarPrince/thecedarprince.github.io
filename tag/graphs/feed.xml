@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>S. Chang et al., &quot;Mobility network models of COVID-19 explain inequities and inform reopening,&quot; Nature, vol. 589, no. 7840, pp. 82–87, Jan. 2021, doi: 10.1038/s41586-020-2923-3.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Iterative proportional fitting &#91;1&#93; was used to make POI –&gt; <a href="https://jacobzelko.com/01202021043013-census-groups.md">CBG</a> networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.</p>
 <p><em>THOUGHTS: What is iterative proportional fitting?</em></p>
 <p>Model fits observed daily case counts from 8 March to 9 May 2020</p>
@@ -105,8 +105,9 @@
 <p>CBGs with fewer white residents had higher predicted infection risks.</p>
 <p><em>THOUGHTS: Seems somewhat odd? This is interesting to me in how they keep bringing up race or economic status as a variable, but never fully commit to an investigation. Feels really weird to talk about issues without actually addressing them.</em></p>
 <p>Mobility data showed average grocery store visits from lower-income CBGs had 59&#37; more hourly visitors per square foot. Median metro area data showed they stayed 17&#37; longer.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening</em>. <a href="https://jacobzelko.com/01202021043643-mobility-network-models">https://jacobzelko.com/01202021043643-mobility-network-models</a>. January 19 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; W. E. Deming and F. F. Stephan, “On a least squares adjustment of a sampled frequency table when the expected marginal totals are known,” Ann. Math. Stat., vol. 11, no. 4, pp. 427–444, 1940.</p>
 <p>&#91;2&#93; Q. Bi et al., “Epidemiology and transmission of COVID-19 in 391 cases and 1286 of their close contacts in Shenzhen, China: A retrospective cohort study,” Lancet Infect. Dis., 2020.</p>
 <p>&#91;3&#93; S. Y. Park et al., “Early release-coronavirus disease outbreak in call center, south korea,” 2020.</p>
@@ -166,7 +167,7 @@
 <h1>Bibliography</h1>
 <p>J. Pearl and D. Mackenzie, The book of why: the new science of cause and effect, First edition. New York: Basic Books, 2018.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Benefits of Causal Analysis</li><li>Critiques of Statistics</li><li>Causal Calculus</li><li>Inference Engine</li><li>Ladder of Causality</li><li>Mini-Turing Test</li><li>Bayesian Analysis</li><li>Causal Diagrams<ol><li>Paths in Path Diagrams<ol><li>Chain junction</li><li>Fork Junction</li><li>Collider Junction</li></ol></li><li>Lessons from Path Diagrams</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Benefits of Causal Analysis</li><li>Critiques of Statistics</li><li>Causal Calculus</li><li>Inference Engine</li><li>Ladder of Causality</li><li>Mini-Turing Test</li><li>Bayesian Analysis</li><li>Causal Diagrams<ol><li>Paths in Path Diagrams<ol><li>Chain junction</li><li>Fork Junction</li><li>Collider Junction</li></ol></li><li>Lessons from Path Diagrams</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This book shows that data is stupid. Data can record events but cannot answer why any of the events are the way they are.</p>
 <p>Causal inference posits the brain as the most advanced tool for understanding cause and effect.</p>
 <p>Forcing an occurrence means to submit it to one influence to trigger the desired event</p>
@@ -188,7 +189,7 @@
 </ol>
 <h3 id="inference_engine">Inference Engine</h3>
 <p>The inference engine assumes perfect and unlimited data for the given figure:</p>
-<p><img src="../assets/01082021030619-inference-engine.png" alt="" /></p>
+<p><img src="assets/01082021030619-inference-engine.png" alt="" /></p>
 <p><strong>Estimand:</strong> generalized mathematical formula to answer data questions. A statistical quantity estimated from data that can represent an answer to a query.</p>
 <p>A given estimand is computed on the basis of the causal model alone, prior to an examination of the specifics of the data. This gives the inference engine better adaptibility.</p>
 <p><strong>Binary Evaluation of Query:</strong> determines if a query can be answered under an existing causal model.</p>
@@ -239,8 +240,9 @@ A \rightarrow B \leftarrow C
 <li><p>Two people creating differing causal diagrams for the same data and may not arrive at the same result.</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Book of Why</em>. <a href="https://jacobzelko.com/01072021082043-book-of-why">https://jacobzelko.com/01072021082043-book-of-why</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

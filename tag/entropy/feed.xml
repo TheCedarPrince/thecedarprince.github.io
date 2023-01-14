@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Notes from Giulia Da Poian&#39;s mini lecture:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Notes from Giulia Da Poian&#39;s mini lecture:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="notes_from_giulia_da_poians_mini_lecture">Notes from Giulia Da Poian&#39;s mini lecture:</h3>
 <ul>
 <li><p>The radius of similarity is technically 0.15&#40;standard deviation of the time series&#41;</p>
@@ -54,8 +54,9 @@
 \[
 S = \frac{log(A)}{log(B)}
 \]
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Multiscale Entropy</em>. <a href="https://jacobzelko.com/10082020005615-multiscale-entropy">https://jacobzelko.com/10082020005615-multiscale-entropy</a>. October 7 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>P. Homan, T. H. Brown, and B. King, &quot;Structural Intersectionality as a New Direction for Health Disparities Research,&quot; J Health Soc Behav, vol. 62, no. 3, pp. 350–370, Sep. 2021, doi: 10.1177/00221465211032947.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>What Is Intersectionality?</li><li>Why Are Intersectional Approaches Needed?</li><li>How Is Health Impacted by Intersectionality?</li><li>How Can Intersectionality Help Address Health Inequity?</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>What Is Intersectionality?</li><li>Why Are Intersectional Approaches Needed?</li><li>How Is Health Impacted by Intersectionality?</li><li>How Can Intersectionality Help Address Health Inequity?</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I was suggested this paper by Sarah Gasman of Boston Medical Center. She suggested it as has it holds great relevance to some of my research on health disparities. I must say, this paper was revelatory and plan a future discussion with the study authors due to how incredible it was to my mind.</p>
 <h3 id="what_is_intersectionality">What Is Intersectionality?</h3>
@@ -65,8 +65,9 @@
 </li>
 </ol>
 <p>Intersectionality research itself is characterized by its complexity.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Structural Intersectionality as a New Direction for Health Disparities Research</em>. <a href="https://jacobzelko.com/11042022134535-structural-intersectionality">https://jacobzelko.com/11042022134535-structural-intersectionality</a>. November 4 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -114,10 +115,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A rejected claim contained errors that prevented the claim from even being processed by a payer. &#91;1&#93;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Rejected Claims</em>. <a href="https://jacobzelko.com/04112022133137-rejected-claims">https://jacobzelko.com/04112022133137-rejected-claims</a>. April 11 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -166,10 +168,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>Denied claims are medical claims that an insurer determined they did not need to pay after processing. The denial can be for many reasons ranging from clerical errors in the coding or submission process to breaches of the patient-payer contract. These denied claims are sent back to the biller with an Explanation of Benefits or Electronic Remittance Advice which both explain why the claim was denied and how to potentially appeal the denial. &#91;1&#93;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Denied Claims</em>. <a href="https://jacobzelko.com/04112022133109-denied-claims">https://jacobzelko.com/04112022133109-denied-claims</a>. April 11 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -218,7 +221,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Request for payment that you or your health care provider submits to your health insurer when you get items or services you think are covered. https://www.healthcare.gov/glossary/claim/</p>
 </li>
@@ -238,8 +241,9 @@ style n3 fill:#006400
 style n6 fill:#8b0000</code></pre>
 <p>Here, the green blocks representing medical staff and patients, denote where data originates from. Whenever a medical staffer provides or a patient seeks a medical service, data is generated &#40;these encounters could be routine health check-ups, emergency room visits, or anything involving an interaction with a medical service provider&#41;. These services are then recorded and passed along to medical coders whose job it is to match a service provided with a correct standardized medical code &#40;standards include coding such as ICD-10, HCPCS, etc&#41;. After these services are matched to a correct standard, the coded services are then passed on to a medical biller who determines what is covered by a patient&#39;s insurance and what is not. Depending on what is or is not covered, this claims data then passes to insurance providers in a back and forth process to adequately pay for the services utilized by the patient and patients may also be directly be billed for services leading to potentially either return visits or these claims to be appealed by the patient.</p>
 <p>https://www.wikiwand.com/en/Medical_billing TODO: add brief blurb about Revenue Cycle Management as note</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Are Claims?</em>. <a href="https://jacobzelko.com/02142022220749-claims-summary">https://jacobzelko.com/02142022220749-claims-summary</a>. February 14 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -287,11 +291,12 @@ style n6 fill:#8b0000</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A type of data file composed of service level payment info such as: 	- Member demographics 	- Provider info 	- Charge/Payment/Allowed info 	- Clinical diagnosis codes 	- Procedure codes </p>
 <p>This comes from non-denied adjudicated claims for each billed service.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Medical Claims Files</em>. <a href="https://jacobzelko.com/12092021205237-medical-claims-files">https://jacobzelko.com/12092021205237-medical-claims-files</a>. December 9 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -339,7 +344,7 @@ style n6 fill:#8b0000</code></pre>
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>The Observational Medical Outcomes Partnership &#40;OMOP&#41; was created in 2009 to reach consensus on data types, study designs, and privacy concerns while sharing data.</p>
 <p>The ground truth for OMOP investigations were positive and negative tests regarding drugs. Examples of positive controls were:</p>
 <pre><code class="language-julia">- Events on drug label warnings/precautions
@@ -347,8 +352,9 @@ style n6 fill:#8b0000</code></pre>
 <p>Examples of negative controls were:</p>
 <pre><code class="language-julia">- Events not listed on drug labels
 - No powered studies with evidence of potential positive association</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Origins of the Observational Medical Outcomes Partnership &#40;OMOP&#41;</em>. <a href="https://jacobzelko.com/07282021181744-origins-omop">https://jacobzelko.com/07282021181744-origins-omop</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

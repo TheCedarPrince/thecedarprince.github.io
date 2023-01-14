@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics on the Preimage of a Subset<ol><li>Example</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics on the Preimage of a Subset<ol><li>Example</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>As I have learned and understood what <a href="https://jacobzelko.com//10152022173643-image-of-sets.md">images</a> are, I am now on my quest to learn what preimages so that I can understand the concept of bundles&#33;</p>
 <h3 id="basics_on_the_preimage_of_a_subset">Basics on the Preimage of a Subset</h3>
@@ -96,8 +96,9 @@ x^{2} = 25; x = \pm 5
 \[
 \{-5, -4, -3, -2, -1, +1, +2, +3, +4, +5\}
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Preimage of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10282022132046-preimage-of-sets">https://jacobzelko.com/10282022132046-preimage-of-sets</a>. October 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -145,7 +146,7 @@ x^{2} = 25; x = \pm 5
 <h1>Bibliography</h1>
 <p>David Spivak, Category Theory for Scientists, Old Version. 2013.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>To learn and understand the concept of coproducts within the context of category theory. Also, I came across the symbolic notation for what disjoint unions are and wanted to understand what the notation fully meant.</p>
 <h3 id="disjoint_union_of_sets_intuition">Disjoint Union of Sets Intuition</h3>
@@ -184,8 +185,9 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 \]
 <p>and \(\bigsqcup_{i \in I} X_{i}\)</p>
 <p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets.md">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Coproducts &#40;Disjoint Unions&#41;</em>. <a href="https://jacobzelko.com/09162022162129-coproducts-disjoints">https://jacobzelko.com/09162022162129-coproducts-disjoints</a>. September 16 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

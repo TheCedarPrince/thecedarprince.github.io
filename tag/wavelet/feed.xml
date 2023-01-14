@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Use Cases</li><li>Example Implementation</li><li>Example output</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Use Cases</li><li>Example Implementation</li><li>Example output</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The Discrete Haar Wavelet Transform computes the degree of relatedness of continuous points in the original discrete signal. </p>
 <h3 id="use_cases">Use Cases</h3>
 <p>It is excellent for detecting edges in a signal and drastic changes in a signal </p>
@@ -76,8 +76,9 @@ def gen_haar_matrix&#40;n, normalized&#61;None&#41;:
  &#91;   1.          1.         -1.         -1.   &#93;
  &#91; sqrt&#40;2&#41;    -sqrt&#40;2&#41;       0.         -0.   &#93;
  &#91;   0.         -0.        sqrt&#40;2&#41;   -sqrt&#40;2&#41; &#93;&#93;</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Discrete Haar Wavelet Transform</em>. <a href="https://jacobzelko.com/03272020050924-discrete-haar">https://jacobzelko.com/03272020050924-discrete-haar</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

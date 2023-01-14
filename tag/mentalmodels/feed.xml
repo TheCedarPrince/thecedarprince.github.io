@@ -40,14 +40,15 @@
 <h1>Bibliography</h1>
 <p>S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Quotes from the Book:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Quotes from the Book:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This was overall a book on knowledge management – in particular, how to take, digest, and use the notes we make while reading material, listening to lectures, or absorb knowledge in general. Sonke Ahrens, the author of the book, also gave a rather in-depth overview of the Zettelkasten method created by sociologist Niklas Luhmann. I found the book useful in giving legitimately very good advice on note-taking, great anecdotes to illustrate his point, and also assistance on using the Zettelkasten method. </p>
 <p>Furthermore, Ahrens made an interesting point saying that if you are approaching writing where you start with just a blank page, you are missing the point. When you approach a blank page, it <em>ought</em> not feel blank but rather the place to put your notes and ideas together that you have been collecting about a particular topic. Ahrens believes that fundamental teachings about how to write long-form papers are wrong in that they do not start with the most crucial aspect of the writing process – free form thought. And free form thought, when investigating a topic, is best captured using a global sort of note taking method like the Zettelkasten.</p>
 <h3 id="quotes_from_the_book">Quotes from the Book:</h3>
 <pre><code class="language-julia">&quot;Every intellectual endeavour starts with a note&quot; &#91;pg 8&#93;&quot;We only write if it helps us with our own thinking.&quot; &#91;pg 101&#93;</code></pre>
 <p>These two quotes get at the idea that when we write and create notes, we are not only creating notes but also playing with ideas and digesting them into our minds.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>How to Take Smart Notes</em>. <a href="https://jacobzelko.com/03292020180520-smart-notes">https://jacobzelko.com/03292020180520-smart-notes</a>. March 29 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -95,10 +96,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Mental models are provide you with patterns of thinking. To paraphrase the author, Sonke Ahrens, in his book, <em>How to Take Smart Notes</em>, well-crafted structures &#40;in our case mental models&#41; are things you can trust as it works in the background to manage everything that prevents you from getting to what is of most importance &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What are Mental Models?</em>. <a href="https://jacobzelko.com/03292020221326-what-mental-models">https://jacobzelko.com/03292020221326-what-mental-models</a>. March 29 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

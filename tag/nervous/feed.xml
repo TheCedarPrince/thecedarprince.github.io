@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Peripheral nervous system: relays information between body and brain via nerve impulses. &#91;1&#93; It has two divisions:</p>
 <ol>
 <li><p>Afferent division - information for the brain</p>
@@ -48,8 +48,9 @@
 <li><p>Efferent division - messaging from the brain</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Peripheral Nervous System</em>. <a href="https://jacobzelko.com/01022021030507-peripheral-nervous-system">https://jacobzelko.com/01022021030507-peripheral-nervous-system</a>. January 1 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

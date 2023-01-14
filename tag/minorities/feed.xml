@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>D. M. Gray, A. Anyane-Yeboa, S. Balzora, R. B. Issaka, and F. P. May, &quot;COVID-19 and the other pandemic: populations made vulnerable by systemic inequity,&quot; Nat Rev Gastroenterol Hepatol, vol. 17, no. 9, pp. 520–522, Sep. 2020, doi: 10.1038/s41575-020-0330-8.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Vulnerable Population Examples</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Vulnerable Population Examples</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I examined this paper to learn more about vulnerabilities posed to minority and vulnerable populations. I focused less on pandemic-related risks and more on examples of problems posed to minority populations.</p>
 <h3 id="vulnerable_population_examples">Vulnerable Population Examples</h3>
@@ -69,8 +69,9 @@
 <pre><code class="language-julia">- Essential workers 
 - Poor and overcrowded housing
 - Could be impossible to adhere to COVID-19 safety policies</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>COVID-19 and the other pandemic: populations made vulnerable by systemic inequity</em>. <a href="https://jacobzelko.com/09082022132448-covid-systemic-inequity">https://jacobzelko.com/09082022132448-covid-systemic-inequity</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

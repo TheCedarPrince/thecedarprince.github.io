@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>E. A. Lehnert, &quot;Spatial exploration of the CDC’s Social Vulnerability Index and heat-related health outcomes in Georgia,&quot; International Journal of Disaster Risk Reduction, p. 7, 2020.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Definitions</li><li>Social Vulnerability Index Calculations</li><li>Digression on Black Belt</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Definitions</li><li>Social Vulnerability Index Calculations</li><li>Digression on Black Belt</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I read this paper to find out more about the social vulnerability index and how it can be used in the state of Georgia. It wasn&#39;t particularly insightful although the discussion about calculating SVI for GA and its definition about social vulnerability was helpful.</p>
 <h3 id="definitions">Definitions</h3>
@@ -49,8 +49,9 @@
 <p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index.md">See Note for Details</a></p>
 <h3 id="digression_on_black_belt">Digression on Black Belt</h3>
 <p>I never knew the term for this but historically, where African Americans were heavily enslaved is called the &quot;Black Belt&quot;. The authors found that high SVI and heat-related deaths were often found in these historical communities &#91;32&#93;.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia</em>. <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -98,13 +99,14 @@
 <h1>Bibliography</h1>
 <p>B. E. Flanagan, E. W. Gregory, E. J. Hallisey, J. L. Heitgerd, and B. Lewis, &quot;A social vulnerability index for disaster management,&quot; Journal of homeland security and emergency management, vol. 8, no. 1, 2011.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>SVI data can be retrieved from: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html</p>
 <p>For at least the 2000 version of SVI, the metric is derived from summed percentile rankings at census tract level of fifteen U.S. Census variables shown in the following table: </p>
 <table><tr><th align="left">SVI Theme</th><th align="left">Variables Included</th></tr><tr><td align="left">1. Socioeconomic Status</td><td align="left">&#37; Below Poverty Level</td></tr><tr><td align="left"></td><td align="left">&#37; Unemployed</td></tr><tr><td align="left"></td><td align="left">Per Capita Income</td></tr><tr><td align="left"></td><td align="left">&#37; Age 25 or Older with No High School</td></tr><tr><td align="left">2. Household Composition &amp;</td><td align="left">Diploma</td></tr><tr><td align="left">Disability</td><td align="left">&#37; Age 65 or Older</td></tr><tr><td align="left"></td><td align="left">&#37; Age 17 or Younger</td></tr><tr><td align="left">3. Minority Status &amp; Language</td><td align="left">&#37; Single Parent Household</td></tr><tr><td align="left"></td><td align="left">&#37; Age 5 or Older Speak English &quot;Less than</td></tr><tr><td align="left">4. Housing &amp; Transportation</td><td align="left">Well&quot;</td></tr><tr><td align="left"></td><td align="left">&#37; Multi-Unit Structures</td></tr><tr><td align="left"></td><td align="left">&#37; Mobile Homes</td></tr><tr><td align="left"></td><td align="left">&#37; Crowding &#40;More people than rooms&#41;</td></tr><tr><td align="left"></td><td align="left">&#37; Households without a Vehicle</td></tr><tr><td align="left"></td><td align="left">&#37; In Institutionalized Group Quarters</td></tr></table>
 <p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes.md">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Social Vulnerability Index</em>. <a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">https://jacobzelko.com/09082022144933-social-vulnerability-index</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -152,12 +154,13 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Definitions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="definitions">Definitions</h3>
 <p>Social cohesion is the connectedness and solidarity in populations. This includes the absence of social conflict and presence of social bonds.27 A measure used to quantify social cohesion is trust. <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
 <p>Social capital are the features of social structures that are resources for community members to create action.27 Social capital acts as a safety net for individuals to protect against losses like physical health, mental health, and life satisfaction.31<a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a> &#40;See <a href="https://jacobzelko.com/08282022135955-social-capital.md">Features of Social Capital</a> for further insight on what social capital is and its importance&#41;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Social Determinants Surrounding Terrorism</em>. <a href="https://jacobzelko.com/08282022134930-social-determinants-terrorism">https://jacobzelko.com/08282022134930-social-determinants-terrorism</a>. August 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -205,7 +208,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>Varying levels of social capital in a population is an important determinant of health in children, adolescents, adults, and aging populations.28,33 <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
 <p>Low levels of social capital, can be a risk factors for population health such as:</p>
 <ol>
@@ -221,8 +224,9 @@
 <li><p>Bring people not alike together to create bridging networks. 29,30</p>
 </li>
 </ol>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Features of Social Capital</em>. <a href="https://jacobzelko.com/08282022135955-social-capital">https://jacobzelko.com/08282022135955-social-capital</a>. August 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -270,7 +274,7 @@
 <h1>Bibliography</h1>
 <p>H. E. Alcalá, M. Z. Sharif, and G. Samari, &quot;Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective,&quot; Health Equity, vol. 1, no. 1, pp. 87–95, Aug. 2017, doi: 10.1089/heq.2016.0016.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Public Health Approach to Terrorism</li><li>Shortcomings of Addressing Terrorism from a Public Health Perspective</li><li>Factors Leading to Extremism</li><li>Studying Gang Violence as a Proxy for Terrorist Groups</li><li>Positive Approaches to Mitigate Radicalization</li><li>Problems with Whiteness and Terrorism Classifications</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Public Health Approach to Terrorism</li><li>Shortcomings of Addressing Terrorism from a Public Health Perspective</li><li>Factors Leading to Extremism</li><li>Studying Gang Violence as a Proxy for Terrorist Groups</li><li>Positive Approaches to Mitigate Radicalization</li><li>Problems with Whiteness and Terrorism Classifications</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>This paper was probably the best paper I have read on the subject of terrorism research and how it intersects with public health and the social determinants of health. It provided a comprehensive background on what terrorism and radicalism are as well as some very useful public health terminology introducing the concept of social cohesion and social capital. Furthermore, it got at the concept of how examining terrorism and gang violence from a public health perspective is very understudied and underutilized when exploring this space.</p>
 <h3 id="public_health_approach_to_terrorism">Public Health Approach to Terrorism</h3>
 <p>2.6&#37; of terrorism deaths happen in the West. 72&#37; belong to:</p>
@@ -342,8 +346,9 @@
 <p>&lt;&#33;–TODO: Add citations to note–&gt;</p>
 <h3 id="problems_with_whiteness_and_terrorism_classifications">Problems with Whiteness and Terrorism Classifications</h3>
 <p>Muslim Americans who come from the Middle East are often classified as &quot;White&quot; by categories set forth by the Office of Management and Budget. However, this is in complete opposition to the fact that a large proportion of Muslim Americans do not identify as &quot;White&quot;. 15 An implicit assumption and implicit problem is that people labeled &quot;White&quot; are assumed to be &quot;racially neutral.&quot;15 </p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</em>. <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">https://jacobzelko.com/08192022115354-health-terrorism-factors</a>. August 19 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -391,7 +396,7 @@
 <h1>Bibliography</h1>
 <p>W. Golding, Lord of the flies: Casebook edition. Penguin, 1987.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>I did not enjoy this book much at all. When I had finished reading it, I was left thinking to myself, &quot;that was it? This is the book so many put on a pedestal?&quot; I very much expected more for a supposed critique on the banality of man. Instead, it read a very contrived scenario that just did not feel much like life. To explain my thoughts, here are some of my findings about the book after researching the author:</p>
 <ol>
 <li><p>It has been well documented that the author used his students in experiments to test human behavior.</p>
@@ -410,8 +415,9 @@
 <p>Just these three points made me think the book was awful. As the book was written to talk about how children, left to their own devices, would create society and destroy it,it is oddly moralistic. You are put in a position to watch the unfurling of this horrific story take place from an objective standpoint. But based on point one, you are not all that objective.</p>
 <p>Point two I feel is not talked about a lot but should be more. If this book is just parody then why is it treated as novel and even realistic at all? Coral Island was contrived just as Lord of the Flies is now,just in the opposite direction. Whether man falls to utopia or dystopia is not a binary choice but a sliding scale of morality That is very dependent on many factors.</p>
 <p>Also it should not be forgotten that this book is a critique on British schooling as well. That context alone should remind that this book does not parody much of life at all but a very small cross section of it. How much can be taken from British life to other modes of living is most likely minimal.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Lord of the Flies</em>. <a href="https://jacobzelko.com/04112022004224-lord-of-flies">https://jacobzelko.com/04112022004224-lord-of-flies</a>. April 10 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; J. Carey, William golding: The man who wrote lord of the flies. Faber &amp; Faber, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -460,7 +466,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <blockquote>
 <p>As I urged you when I went into Macedonia, stay there in Ephesus so that you may command certain people not to teach false doctrines any longer or to devote themselves to myths and endless genealogies. Such things promote controversial speculations rather than advancing God’s work — which is by faith. The goal of this command is love, which comes from a pure heart and a good conscience and a sincere faith. Some have departed from these and have turned to meaningless talk. They want to be teachers of the law, but they do not know what they are talking about or what they so confidently affirm.</p>
 </blockquote>
@@ -470,8 +476,9 @@
 </ul>
 <p>I was reading this passage in 1 Timothy and was thinking about how it very much relates to one of the current issues being faced in the world. Social media&#39;s negative impact on individuals. Particularly the parallels drawn between Paul&#39;s letter and today are very much talking about the same thing. People being drawn away to nonsensical things that are not useful to life. Or, worse, becoming supposed &quot;experts&quot; in fields that they truly know nothing about but have heard enough <em>things</em> to give them the impression of having learned something.</p>
 <p>And Paul very explicitly calls these people out by saying they do not know anything. Furthermore, Paul states how these sort of meaningless discussions only promote controversial speculations rather than actually pushing us forward to a meaningful goal. This is very much a problem being faced in today&#39;s society where social media is being used to promote narratives or stories as a means of information but in reality, does not deliver on anything. Furthermore, the polarization that comes from such negative discussion is almost exactly the same as Paul is describing. The only real difference may be how this is impacting so many more individuals than in the past, but the same problems persist: polarization, false impressions of expertise, and endless arguments or quabbling. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>False Expertise</em>. <a href="https://jacobzelko.com/07132020022756-media-timothy">https://jacobzelko.com/07132020022756-media-timothy</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -519,7 +526,7 @@
 <h1>Bibliography</h1>
 <p>M. Marmot and R. Wilkinson, Social Determinants of Health, 2nd ed. Oxford University Press, 2006.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>The Fallacy of Diseases of the Rich and Poor</li><li>The Fight Or Flight Response and Its Role in Disease<ol><li>Sympatho-Adrenal Pathway</li><li>Hypothalamus-Pituitary-Adrenal &#40;HPA&#41; Axis</li><li>Effects</li><li>Overall Response to Stress</li><li>Social Effects on Well-Being</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>The Fallacy of Diseases of the Rich and Poor</li><li>The Fight Or Flight Response and Its Role in Disease<ol><li>Sympatho-Adrenal Pathway</li><li>Hypothalamus-Pituitary-Adrenal &#40;HPA&#41; Axis</li><li>Effects</li><li>Overall Response to Stress</li><li>Social Effects on Well-Being</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Poverty of material conditions alone does not explain a biological explanation for causes of impaired lifespans.</p>
 <p>It is historically noted that there is a general shortage of randomized control trials to determine the utility of interventions in all areas of public health. DIscussion about the lack of controlled trials in public health pertaining to the social determinants area and the field of public health in general.</p>
 <p>James Lind is rightly acknowledged as an exceptional public health figure because as early as the 18th century he conducted controlled investigations to show citrus fruit cured scurvy. By contrast, John Snow’s determination in the 19th century that ingestion of contaminated water led to cholera, relied on careful observation and the exercise of reasoned judgement rather than his uncontrolled experiment of removing the handle of the Broad Street pump.</p>
@@ -616,8 +623,9 @@
 </ol>
 <p>One example is a study of children at orphanages:</p>
 <p>Under the same food conditions, children in the ‘Bienenhaus&#39; orphanage under the control of a stern Fraülein Schwarz, gained less weight and grew slowly. This opposite to children under the care of the affectionate Fraülein Grün at the ‘Vogelnest&#39; orphanage.  Schwarz replaced Grün during the study at ‘Vogelnest&#39; and growth rates were subsequently reversed. This controlled cross-over study provides evidence that adverse psychosocial circumstances in childhood can influence growth. &#91;11&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Social Determinants of Health</em>. <a href="https://jacobzelko.com/07112020161337-social-determinants-health">https://jacobzelko.com/07112020161337-social-determinants-health</a>. July 11 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; J. Siegrist, “Adverse health effects of high-effort/low-reward conditions.” J. Occup. Health Psychol., vol. 1, no. 1, p. 27, 1996.</p>
 <p>&#91;2&#93; H. Bosma, M. G. Marmot, H. Hemingway, A. C. Nicholson, E. Brunner, and S. A. Stansfeld, “Low job control and risk of coronary heart disease in Whitehall II &#40;prospective cohort&#41; study,” Bmj, vol. 314, no. 7080, p. 558, 1997.</p>
 <p>&#91;3&#93; P. Vallance and J. Collier, “Infection, inflammation, and infarction: Does acute endothelial dysfunction provide a link?” The Lancet, vol. 349, no. 9062, pp. 1391–1392, 1997.</p>
@@ -676,7 +684,7 @@
 <h1>Bibliography</h1>
 <p>J. M. Twenge, J. Haidt, T. E. Joiner, and W. K. Campbell, &quot;Underestimating digital media harm,&quot; Nat Hum Behav, vol. 4, no. 4, pp. 346–348, Apr. 2020, doi: 10.1038/s41562-020-0839-4.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The consideration of only monotonic effects were accounted. Relationships between digital media use and health are generally non-monotonic. Associations often follow a J-shaped curve. The first issue raised by Jean Twenge against &quot;The association between adolescent well-being and digital technology use&quot; by Orben and Przybylski. This is nicknamed the Goldilocks hypothesis which was posited by Przybylski himself. &#91;0&#93; J. M. Twenge, J. Haidt, T. E. Joiner, and W. K. Campbell, &quot;Underestimating digital media harm,&quot; Nat Hum Behav, vol. 4, no. 4, pp. 346–348, Apr. 2020, doi: 10.1038/s41562-020-0839-4. &#91;1&#93; A. K. Przybylski and N. Weinstein, &quot;A large-scale test of the goldilocks hypothesis: quantifying the relations between digital-screen use and the mental well-being of adolescents,&quot; Psychological Science, vol. 28, no. 2, pp. 204–215, 2017.</p>
 <p>The global adolescent mental health crisis started around 2012 and greatly affects girls more so than boys &#91;5&#93;. As TV is now commonplace and TV watching amongst adolescents has declined after 2012 &#91;6&#93;, TV watching does not suggest an adequate explanation for the sudden increase in mental health disorders. The second issue raised by Jean Twenge against &quot;The association between adolescent well-being and digital technology use&quot; by Orben and Przybylski &#91;0&#93; J. M. Twenge, J. Haidt, T. E. Joiner, and W. K. Campbell, &quot;Underestimating digital media harm,&quot; Nat Hum Behav, vol. 4, no. 4, pp. 346–348, Apr. 2020, doi: 10.1038/s41562-020-0839-4. &#91;5&#93; S. McManus et al., &quot;Prevalence of non-suicidal self-harm and service contact in England, 2000–14: repeated cross-sectional surveys of the general population,&quot; The lancet psychiatry, vol. 6, no. 7, pp. 573–581, 2019. &#91;6&#93; J. M. Twenge, G. N. Martin, and B. H. Spitzberg, &quot;Trends in US Adolescents’ media use, 1976–2016: The rise of digital media, the decline of TV, and the &#40;near&#41; demise of print.,&quot; Psychology of Popular Media Culture, vol. 8, no. 4, p. 329, 2019.</p>
 <p>The Monitoring the Future dataset examines digital media usage via two ways. </p>
@@ -692,8 +700,9 @@
 <p>Heavy use of social media is regularly correlated with negative mental health outcomes of varying severity. This relationship disproportionately affects girls. Given that there is no plausible alternative explanation for this association, associations with a variety of adverse mental health conditions in girls should not be dismissed. Adverse events being rising rates of anxiety, depression, self-harm and suicide &#91;0&#93; J. M. Twenge, J. Haidt, T. E. Joiner, and W. K. Campbell, &quot;Underestimating digital media harm,&quot; Nat Hum Behav, vol. 4, no. 4, pp. 346–348, Apr. 2020, doi: 10.1038/s41562-020-0839-4. &#91;1&#93; S. McManus et al., &quot;Prevalence of non-suicidal self-harm and service contact in England, 2000–14: repeated cross-sectional surveys of the general population,&quot; The lancet psychiatry, vol. 6, no. 7, pp. 573–581, &#91;1&#93; &#91;2&#93; J. M. Twenge, &quot;Why increases in adolescent depression may be linked to the technological environment,&quot; Current opinion in psychology, vol. 32, pp. 89–94, 2020.2019.</p>
 <p>Effect sizes include many individual items. These are lower in internal reliability than multiple-item scales and thus produce lower effect sizes. Scales with more items count more heavily in the analysis because they have more items. &#91;1&#93; L. J. Cronbach and P. E. Meehl, &quot;Construct validity in psychological tests.,&quot; Psychological bulletin, vol. 52, no. 4, p. 281, 1955. The third issue raised by Jean Twenge against &quot;The association between adolescent well-being and digital technology use&quot; by Orben and Przybylski</p>
 <p>Mediators are a possible reason behind an effect. They should not be controlled. This is from an email conversation with Jean Twenge about this issue. For example, it is plausible that excessive social media use causes teens to spend less time with their parents. Thus this variable should not be a covariate, as it might partially explain why the correlation between social media use and depression occurs in the first place. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Underestimating Digital Media Harm</em>. <a href="https://jacobzelko.com/05252020221842-digital-media">https://jacobzelko.com/05252020221842-digital-media</a>. May 25 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

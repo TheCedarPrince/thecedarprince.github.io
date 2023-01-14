@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Technical Definition</li><li>Discussion</li><li>Plain-Word Explanation</li><li>Code Implementation</li></ol></li><li>References</li><li>References</li><li>Discussion</li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Technical Definition</li><li>Discussion</li><li>Plain-Word Explanation</li><li>Code Implementation</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion</li></ol></div>
 <h3 id="technical_definition">Technical Definition</h3>
 <h3 id="discussion">Discussion</h3>
 <h3 id="plain-word_explanation">Plain-Word Explanation</h3>
@@ -63,8 +63,9 @@
     end
     return sorted
 end</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Selection Sort</em>. <a href="https://jacobzelko.com/12212020214012-selection-sort">https://jacobzelko.com/12212020214012-selection-sort</a>. December 21 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion__2">Discussion</h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

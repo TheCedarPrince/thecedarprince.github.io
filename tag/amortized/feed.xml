@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Amortized refers to the spread of costs over time.</p>
 </li>
@@ -54,8 +54,9 @@
 \[
 \frac{\sum{Cost_{Operations}}}{\sum{Operations}}
 \]
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Amortized Analysis</em>. <a href="https://jacobzelko.com/10052021235121-amortized-analysis">https://jacobzelko.com/10052021235121-amortized-analysis</a>. October 5 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

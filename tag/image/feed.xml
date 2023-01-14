@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>The Basics on the Images of Elements<ol><li>Example</li></ol></li><li>The Basics on the Images of Subsets<ol><li>Example</li></ol></li><li>The Basics on the Images of Functions<ol><li>Example</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>The Basics on the Images of Elements<ol><li>Example</li></ol></li><li>The Basics on the Images of Subsets<ol><li>Example</li></ol></li><li>The Basics on the Images of Functions<ol><li>Example</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I wanted to understand more about the ideas of images as an avenue to understand bundles.</p>
 <h3 id="the_basics_on_the_images_of_elements">The Basics on the Images of Elements</h3>
@@ -102,8 +102,9 @@ im(f) = \{f(x) | x \in X\} \subseteq Y
 im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
 \]
 <p>In this example, based on the definition we have for an \(im(f)\), the \(im(f)\) is all possible outputs that \(f\) can generate which is the <em>range</em> \(+\mathbb R\).</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Images of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10152022173643-image-of-sets">https://jacobzelko.com/10152022173643-image-of-sets</a>. October 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

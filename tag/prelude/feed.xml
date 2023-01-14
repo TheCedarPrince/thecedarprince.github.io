@@ -40,15 +40,16 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="identity_function">Identity Function</h3>
 <p><code>id</code> returns the argument it is given:</p>
 <pre><code class="language-haskell">-- Using Prelude to declare the identity function
 -- &#96;a&#96; is a type variable and stands in for all types
 id :: a -&gt; a-- Definition of the function
 id x &#61; x</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Prelude - Haskell&#39;s Standard Library</em>. <a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">https://jacobzelko.com/11032021171123-prelude-haskell-library</a>. November 3 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

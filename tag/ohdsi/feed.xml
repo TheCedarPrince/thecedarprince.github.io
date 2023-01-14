@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>The goals of OHDSI are to:</p>
 <ol>
 <li><p>Facilitate an open science community across discipline and stakeholder groups</p>
@@ -54,8 +54,9 @@
 <li><p>Have fun&#33;</p>
 </li>
 </ol>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Goals of OHDSI</em>. <a href="https://jacobzelko.com/07282021185354-ohdsi-goals">https://jacobzelko.com/07282021185354-ohdsi-goals</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -103,7 +104,7 @@
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Drugs by Name</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Drugs by Name</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="setting_up_environment">Setting Up Environment</h3>
 <h4 id="installation_requirements">Installation Requirements</h4>
 <p>We install the OHDSI dummy database, <code>Eunomia</code>, to write our queries:</p>
@@ -126,8 +127,9 @@ connection &lt;- connect&#40;connectionDetails&#41;</code></pre>
 <p>And then we can run our SQL query and return the results as follows:</p>
 <pre><code class="language-julia">result &lt;- renderTranslateQuerySql&#40;connection, sql,cdm &#61;&quot;main&quot;&#41;
 knitr::kable&#40;result&#41;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Exploring Drug Concepts by Name</em>. <a href="https://jacobzelko.com/07282021211226-drug-concepts">https://jacobzelko.com/07282021211226-drug-concepts</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -175,7 +177,7 @@ knitr::kable&#40;result&#41;</code></pre>
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Ancestors from OHDSI</li><li>Querying Descendants from OHDSI</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Ancestors from OHDSI</li><li>Querying Descendants from OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="setting_up_environment">Setting Up Environment</h3>
 <h4 id="installation_requirements">Installation Requirements</h4>
 <p>We install the OHDSI dummy database, <code>Eunomia</code>, to write our queries:</p>
@@ -213,8 +215,9 @@ knitr::kable&#40;result&#41;</code></pre>
 <p>And then we can run our SQL query and return the results as follows:</p>
 <pre><code class="language-julia">result &lt;- renderTranslateQuerySql&#40;connection, sql,cdm &#61;&quot;main&quot;&#41;
 knitr::kable&#40;result&#41;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Exploring Ancestors and Descendants of a Concept</em>. <a href="https://jacobzelko.com/07282021202459-exploring-ancestors-concept">https://jacobzelko.com/07282021202459-exploring-ancestors-concept</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -262,7 +265,7 @@ knitr::kable&#40;result&#41;</code></pre>
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Was formed by <a href="https://jacobzelko.com/07282021181744-origins-omop.md">OMOP</a></p>
 </li>
@@ -275,8 +278,9 @@ knitr::kable&#40;result&#41;</code></pre>
 </li>
 </ul>
 <p>It has a clearly defined set of <a href="https://jacobzelko.com/07282021185354-ohdsi-goals.md">goals</a> to encourage international collaboration on observational health research.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Observational Health Data Sciences and Informatics &#40;OHDSI&#41; Origins</em>. <a href="https://jacobzelko.com/07282021184510-ohdsi-background">https://jacobzelko.com/07282021184510-ohdsi-background</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -324,7 +328,7 @@ knitr::kable&#40;result&#41;</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
 <p><a href="https://jacobzelko.com/05172021000429-observational-studies.md">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
 <p>&#91;Study Packages&#93;</p>
@@ -342,8 +346,9 @@ knitr::kable&#40;result&#41;</code></pre>
 <li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals.md">Goals of OHDSI</a></p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Book of OHDSI</em>. <a href="https://jacobzelko.com/05172021000348-book-of-ohdsi">https://jacobzelko.com/05172021000348-book-of-ohdsi</a>. May 16 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; G. Hripcsak et al., “Observational health data sciences and informatics &#40;OHDSI&#41;: Opportunities for observational researchers,” Stud. Health Technol. Inform., vol. 216, p. 574, 2015.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

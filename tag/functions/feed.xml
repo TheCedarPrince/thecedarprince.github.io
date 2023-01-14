@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics on the Preimage of a Subset<ol><li>Example</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics on the Preimage of a Subset<ol><li>Example</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>As I have learned and understood what <a href="https://jacobzelko.com//10152022173643-image-of-sets.md">images</a> are, I am now on my quest to learn what preimages so that I can understand the concept of bundles&#33;</p>
 <h3 id="basics_on_the_preimage_of_a_subset">Basics on the Preimage of a Subset</h3>
@@ -96,8 +96,9 @@ x^{2} = 25; x = \pm 5
 \[
 \{-5, -4, -3, -2, -1, +1, +2, +3, +4, +5\}
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Preimage of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10282022132046-preimage-of-sets">https://jacobzelko.com/10282022132046-preimage-of-sets</a>. October 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -145,12 +146,13 @@ x^{2} = 25; x = \pm 5
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>The definition of pure is somewhat of a moving target. Pure can mean many things and when applied to programming functions - even more so. Based on querying the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/can-programming-in-julia-be-pure/71165">Julia community</a>, here was what I understood pure functions to be.</p>
 <p>Based on Milewski&#39;s definition, &quot;A pure function is one in which the same result is always produced with no side effects given the same input.&quot; &#91;1&#93; <a href="https://jacobzelko.com/https://github.com/CameronBieganek">Cameron Bieganek</a> explained how, in Julia specifically, you can write functions that are &quot;probably&quot; pure. However, there is no real guarantee that a function is actually pure, because it depends on the various methods that have been implemented. I like the notion of &quot;probably&quot; pure as it encapsulates a more pragmatic approach to the internals of a given language. It lets one get away without having to necessarily be completely aware of all the internals when discussing purity.</p>
 <p>Finally, pure functions are different from mathematical functions for the reason that mathematical functions map a value to another value. Pure functions written in a programming language involve more than just a mapping. &#91;1&#93;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Pure Functions in Programming</em>. <a href="https://jacobzelko.com/11082021225843-pure-functions">https://jacobzelko.com/11082021225843-pure-functions</a>. November 8 2021.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; B. Milewski, Category Theory for Programmers, Version v1.3.0-0-g6bb0bc0. 2019.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

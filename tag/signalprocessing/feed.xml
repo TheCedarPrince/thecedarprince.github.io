@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Consideration</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Consideration</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>It is a non-linear digital filtering technique, used to remove noise from an image or signal. The main idea of the median filter is to run through the signal value by value, replacing each value with the median of neighboring values. The pattern of neighbors is called the &quot;window&quot;, which slides, entry by entry, over the entire signal.</p>
 <h3 id="algorithm">Algorithm</h3>
 <p>An explanation of implementing the algorithm is given in example form:</p>
@@ -111,8 +111,9 @@ gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
           label &#61; &quot;Downsampled Median Signal&quot;&#41;end</code></pre>
 <h4 id="output">Output</h4>
 <p><img src="https://jacobzelko.com/04252020025710.png" alt="median_filter" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Median Filtering</em>. <a href="https://jacobzelko.com/04252020024813-median-filtering">https://jacobzelko.com/04252020024813-median-filtering</a>. April 25 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -160,7 +161,7 @@ gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Use Cases</li><li>Example Implementation</li><li>Example output</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Use Cases</li><li>Example Implementation</li><li>Example output</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The Discrete Haar Wavelet Transform computes the degree of relatedness of continuous points in the original discrete signal. </p>
 <h3 id="use_cases">Use Cases</h3>
 <p>It is excellent for detecting edges in a signal and drastic changes in a signal </p>
@@ -196,8 +197,9 @@ def gen_haar_matrix&#40;n, normalized&#61;None&#41;:
  &#91;   1.          1.         -1.         -1.   &#93;
  &#91; sqrt&#40;2&#41;    -sqrt&#40;2&#41;       0.         -0.   &#93;
  &#91;   0.         -0.        sqrt&#40;2&#41;   -sqrt&#40;2&#41; &#93;&#93;</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Discrete Haar Wavelet Transform</em>. <a href="https://jacobzelko.com/03272020050924-discrete-haar">https://jacobzelko.com/03272020050924-discrete-haar</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -245,7 +247,7 @@ def gen_haar_matrix&#40;n, normalized&#61;None&#41;:
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Considerations</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Algorithm<ol><li>Additional Considerations</li></ol></li><li>Example Implementation<ol><li>Output</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The exponential smoothing algorithm is a recursive algorithm and is one of the more simple smoothing methods commonly used to remove small noise and motion artifacts from a discrete time series signal. However, it can be considered a &quot;manual&quot; algorithm due to having to manually determine a smoothing factor for it to work properly.</p>
 <p>Per conversation with Post-Doc Researcher, Fredrik Bagge Carlson, another definition for the smoothing factor is the &quot;forgetting factor&quot;. A bigger value for the forgetting factor results in forgetting the memory built into the algorithm faster and focusing more on recent inputs.</p>
 <p>Also, this method is classified as a moving average filter&#33;</p>
@@ -338,8 +340,9 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
     &#41;end</code></pre>
 <h4 id="output">Output</h4>
 <p><img src="1585295721254.png" alt="" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Exponential Smoothing</em>. <a href="https://jacobzelko.com/03272020064312-exponential-smoothing">https://jacobzelko.com/03272020064312-exponential-smoothing</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -387,7 +390,7 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>EDA artifacts can come from the electrodes used to collect EDA data &#91;1&#93;–&#91;3&#93;; examples being:</p>
 <ul>
 <li><p>Inconsistent pressure of the electrode to the skin</p>
@@ -400,8 +403,9 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 </li>
 </ul>
 <p>Overloading a device that records EDA signals is a special kind of artifact called &quot;bridging&quot; or &quot;saturation&quot;. &#91;4&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Common Causes of Artifact in EDA Signals</em>. <a href="https://jacobzelko.com/03272020061037-eda-artifacts">https://jacobzelko.com/03272020061037-eda-artifacts</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; C. Tronstad, G. K. Johnsen, S. Grimnes, and Ø. G. Martinsen, “A study on electrode gels for skin conductance measurements,” Physiol. Meas., vol. 31, no. 10, p. 1395, 2010.</p>
 <p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, 2015, pp. 1934–1937, doi: 10.1109/EMBC.2015.7318762.</p>
 <p>&#91;3&#93; I. R. Kleckner et al., “Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,” IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
@@ -453,7 +457,7 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Electrodermal activity &#40;EDA&#41; broadly refers to any electrical activity across the dermis of the skin &#40;the dermis being the outermost layer of the skin&#41;. Whenever the body experiences stress – this could be in the form of an ambient temperature change, physical activity, etc. – the sympathetic nervous system &#40;SNS&#41; increases sudomotor innervation, which leads to increases in EDA and sweating. The SNS is directly influenced by parts of the brain responsible for emotional response – the hypothalamus and limbic system. Because of this codependency, EDA is commonly used to study stress and other affective behavior &#40;mood, disorders, etc.&#41;.</p>
 <p>EDA has been used to study the following sort of conditions:</p>
 <ul>
@@ -480,8 +484,9 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 </ul>
 <p>The use cases of EDA is further explored by <em>Boucsein et. al.</em> in their book, <em>Electrodermal Activity</em>. &#91;11&#93;</p>
 <p>Furthermore, EDA is a generalization of the overall signal – in reality, this signal is often decomposed into <a href="https://jacobzelko.com/04092020162632-skin-response.md">Skin Conductance Response &#40;SCR&#41;</a> and <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">Skin Conductance Level &#40;SCL&#41;</a>.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is Electrodermal Activity?</em>. <a href="https://jacobzelko.com/03242020003215-eda-explained">https://jacobzelko.com/03242020003215-eda-explained</a>. March 24 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; M. M. Bradley and P. J. Lang, “Emotion and motivation.” 2007.</p>
 <p>&#91;2&#93; M. M. Bradley, “Natural selective attention: Orienting and emotion,” Psychophysiology, vol. 46, no. 1, pp. 1–11, 2009.</p>
 <p>&#91;3&#93; A. Bechara, H. Damasio, A. R. Damasio, and G. P. Lee, “Different contributions of the human amygdala and ventromedial prefrontal cortex to decision-making,” J. Neurosci., vol. 19, no. 13, pp. 5473–5481, 1999.</p>
@@ -540,7 +545,7 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/03242020003215-eda-explained.md">What Is Electrodermal Activity?</a></p>
 </li>
@@ -570,8 +575,9 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 </ul>
 <pre><code class="language-julia">- **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.
 - **Rationale:** Showed useful methods on how to process EDA data of a small cohort</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Electrodermal Activity</em>. <a href="https://jacobzelko.com/03232020235136-electrodermal-activity">https://jacobzelko.com/03232020235136-electrodermal-activity</a>. March 23 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

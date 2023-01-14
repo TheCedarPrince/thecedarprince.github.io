@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>TODO: Finish Note here</p>
 <ul>
 <li><p>Data file composed of information including</p>
@@ -51,8 +51,9 @@
 - National Provider Identifiers &#40;NPI&#41;
 - Specialty codes
 - Practice locations</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Provider Files</em>. <a href="https://jacobzelko.com/12092021213017-provider-files">https://jacobzelko.com/12092021213017-provider-files</a>. December 9 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

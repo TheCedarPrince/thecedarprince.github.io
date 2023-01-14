@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>Knowledge is one of the most nebulous ideas known to mankind since nearly the beginning of time. What may be knowledge to one person may be useless noise to another - this encapsulates the difficulty in defining knowledge. As a result of its many possible meanings, I put forth a rather opinionated proposal for what I term the &quot;Open Knowledge Model&quot;.</p>
 <p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://jacobzelko.com/https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
@@ -87,8 +87,9 @@
 <p>Written in Julia and offers parsing from Markdown notes to other target formats.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p>This standard is an active work in progress and is the product of years of experimentation.  If you find problems with this model or believe it too restrictive or unwise, please comment in the discussion or reach out to me. My hope is that this standard will co-evolve with new tools and increase the utility of any person&#39;s knowledge management system.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Open Knowledge Model</em>. <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard">https://jacobzelko.com/04172022033744-open-knowledge-standard</a>. April 16 2022.</p>
 <h2 id="references__2">References</h2>
-<h2 id="references__3">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -136,7 +137,7 @@
 <h1>Bibliography</h1>
 <p>V. Bush and others, &quot;As we may think,&quot; The Atlantic monthly, vol. 176, no. 1, pp. 101–108, 1945.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>The Failure of the Publication Machine</li><li>The idea of Automated Knowledge Systems</li><li>Regarding Thought</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>The Failure of the Publication Machine</li><li>The idea of Automated Knowledge Systems</li><li>Regarding Thought</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="the_failure_of_the_publication_machine">The Failure of the Publication Machine</h3>
 <p>Publication has been extended beyond usefulness of the record. Current methods for finding relevant information is impractical.</p>
 <p><em>THOUGHTS: Very convicting retrospection on how we handle copious amounts of information. A record which contains too little information is not informative and one that contains too much is overwhelming.</em></p>
@@ -147,8 +148,9 @@
 <h3 id="regarding_thought">Regarding Thought</h3>
 <p>There exist no substitute for nuanced thinking. Imagination and repetitious thinking are diverse. Repetitive thought is much easier automated.</p>
 <p><em>THOUGHTS: I like this notion of repetitive thought. As much as there are repetitive thought, there are repetitive actions accordingly.</em></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>As We May Think</em>. <a href="https://jacobzelko.com/01112021180936-we-may-think">https://jacobzelko.com/01112021180936-we-may-think</a>. January 11 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -196,7 +198,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Quotes Regarding Knowledge</li><li>Quotes Regarding Books</li><li>Quotes Regarding Fame</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Quotes Regarding Knowledge</li><li>Quotes Regarding Books</li><li>Quotes Regarding Fame</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="quotes_regarding_knowledge">Quotes Regarding Knowledge</h3>
 <blockquote>
 <p>&quot;There are known knowns; there are things we know that we know. There are known unknowns; that is to say, there are things that we now know we don’t know. But there are also unknown unknowns — there are things we do not know we don’t know.&quot; - Secretary of State, Donald Rumsfeld</p>
@@ -215,8 +217,9 @@
 <p>&quot;For there is only one thing in the world worse than being talked about, and that is not being talked about.&quot; - Oscar Wilde, <a href="https://jacobzelko.com/04202022021854-picture-dorian-gray.md">The Picture of Dorian Gray</a></p>
 </blockquote>
 <p>When you attain fame, at least you are talked about – whether positively or negatively. But to not be talked about means no one even knows who you are.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Famous Quotes</em>. <a href="https://jacobzelko.com/07222020181007-famous-quotes">https://jacobzelko.com/07222020181007-famous-quotes</a>. July 22 2020.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -264,7 +267,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <blockquote>
 <p>As I urged you when I went into Macedonia, stay there in Ephesus so that you may command certain people not to teach false doctrines any longer or to devote themselves to myths and endless genealogies. Such things promote controversial speculations rather than advancing God’s work — which is by faith. The goal of this command is love, which comes from a pure heart and a good conscience and a sincere faith. Some have departed from these and have turned to meaningless talk. They want to be teachers of the law, but they do not know what they are talking about or what they so confidently affirm.</p>
 </blockquote>
@@ -274,8 +277,9 @@
 </ul>
 <p>I was reading this passage in 1 Timothy and was thinking about how it very much relates to one of the current issues being faced in the world. Social media&#39;s negative impact on individuals. Particularly the parallels drawn between Paul&#39;s letter and today are very much talking about the same thing. People being drawn away to nonsensical things that are not useful to life. Or, worse, becoming supposed &quot;experts&quot; in fields that they truly know nothing about but have heard enough <em>things</em> to give them the impression of having learned something.</p>
 <p>And Paul very explicitly calls these people out by saying they do not know anything. Furthermore, Paul states how these sort of meaningless discussions only promote controversial speculations rather than actually pushing us forward to a meaningful goal. This is very much a problem being faced in today&#39;s society where social media is being used to promote narratives or stories as a means of information but in reality, does not deliver on anything. Furthermore, the polarization that comes from such negative discussion is almost exactly the same as Paul is describing. The only real difference may be how this is impacting so many more individuals than in the past, but the same problems persist: polarization, false impressions of expertise, and endless arguments or quabbling. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>False Expertise</em>. <a href="https://jacobzelko.com/07132020022756-media-timothy">https://jacobzelko.com/07132020022756-media-timothy</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -323,7 +327,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li><strong>Footnotes:</strong></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li><strong>Footnotes:</strong></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Incremental reading follows the general format. &#91;1&#93;</p>
 <ol>
 <li><p>Identify written pieces of interest.</p>
@@ -346,8 +350,9 @@
 <p><sup id="fnref:1">[1]</sup> Ariga and Lleras demonstrated that attention on a particular task can be extended via brief and uncommon respites of a controlled nature. <a href="&#91;Click for more details&#93;&#40;/06052020031214-brief-breaks.md&#41;">4</a></p>
 <p><sup id="fnref:2">[2]</sup> It is suggested that interleaving material forces one to differentiate between different topics. When pressured under practice, this can heighten one&#39;s perception about differentiators. It leads to better embedding of concept abstractions that foster retention and transfer. &#91;2&#93;, <a href="&#91;Click for more details&#93;&#40;/05252020211350-hard-on-self.md&#41;">3</a></p>
 <p><sup id="fnref:3">[3]</sup> Generating an explanation about a topic rather than just being given a solution can be more effective than the spacing effect. This is called the generation effect. <a href="&#91;Click for more details&#93;&#40;/05252020211350-hard-on-self.md&#41;">2</a></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Incremental Reading</em>. <a href="https://jacobzelko.com/05092020053727-incremental-reading">https://jacobzelko.com/05092020053727-incremental-reading</a>. May 9 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; Master How To Learn, “Demonstration: My Workflow of Incremental Reading,” 09-Dec-2018. &#91;Online&#93;. Available: https://www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/. &#91;Accessed: 19-May-2020&#93;.</p>
 <p>&#91;2&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>
 <p>&#91;3&#93; J. B. Shea and R. L. Morgan, “Contextual interference effects on the acquisition, retention, and transfer of a motor skill.” J. Exp. Psychol. &#91;Hum. Learn.&#93;, vol. 5, no. 2, p. 179, 1979.</p>
@@ -399,7 +404,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Selecting Information for a Zettel</li><li>Zettel Creation</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Selecting Information for a Zettel</li><li>Zettel Creation</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="selecting_information_for_a_zettel">Selecting Information for a Zettel</h3>
 <ul>
 <li><p>Does this not add to the overall nature of the Zettelkasten? &#91;1&#93;</p>
@@ -420,8 +425,9 @@
 <li><p>Each Zettel should fit onto a screen.  &#91;1&#93;</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Criteria for Creating a Note in the Zettelkasten</em>. <a href="https://jacobzelko.com/03302020005409-note-criteria">https://jacobzelko.com/03302020005409-note-criteria</a>. March 30 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -470,14 +476,15 @@
 <h1>Bibliography</h1>
 <p>S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Quotes from the Book:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Quotes from the Book:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This was overall a book on knowledge management – in particular, how to take, digest, and use the notes we make while reading material, listening to lectures, or absorb knowledge in general. Sonke Ahrens, the author of the book, also gave a rather in-depth overview of the Zettelkasten method created by sociologist Niklas Luhmann. I found the book useful in giving legitimately very good advice on note-taking, great anecdotes to illustrate his point, and also assistance on using the Zettelkasten method. </p>
 <p>Furthermore, Ahrens made an interesting point saying that if you are approaching writing where you start with just a blank page, you are missing the point. When you approach a blank page, it <em>ought</em> not feel blank but rather the place to put your notes and ideas together that you have been collecting about a particular topic. Ahrens believes that fundamental teachings about how to write long-form papers are wrong in that they do not start with the most crucial aspect of the writing process – free form thought. And free form thought, when investigating a topic, is best captured using a global sort of note taking method like the Zettelkasten.</p>
 <h3 id="quotes_from_the_book">Quotes from the Book:</h3>
 <pre><code class="language-julia">&quot;Every intellectual endeavour starts with a note&quot; &#91;pg 8&#93;&quot;We only write if it helps us with our own thinking.&quot; &#91;pg 101&#93;</code></pre>
 <p>These two quotes get at the idea that when we write and create notes, we are not only creating notes but also playing with ideas and digesting them into our minds.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>How to Take Smart Notes</em>. <a href="https://jacobzelko.com/03292020180520-smart-notes">https://jacobzelko.com/03292020180520-smart-notes</a>. March 29 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -525,10 +532,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Mental models are provide you with patterns of thinking. To paraphrase the author, Sonke Ahrens, in his book, <em>How to Take Smart Notes</em>, well-crafted structures &#40;in our case mental models&#41; are things you can trust as it works in the background to manage everything that prevents you from getting to what is of most importance &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What are Mental Models?</em>. <a href="https://jacobzelko.com/03292020221326-what-mental-models">https://jacobzelko.com/03292020221326-what-mental-models</a>. March 29 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -577,7 +585,7 @@
 <h1>Bibliography</h1>
 <p>Not available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Kuhnian Reasoning on Non-Linearity of Education</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Kuhnian Reasoning on Non-Linearity of Education</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>My best friend Wesley Samples believes that education – and for that matter, knowledge – falls more along a spectrum than in discrete categories &#40;such as Mathematics and Biology&#41;. One can look at biology and find the idea of the golden ratio repeated across nature &#91;1&#93;, &#91;2&#93;; example being the <em>Aeonium Tabuliforme</em>:</p>
 <p><img src="https://jacobzelko.com/03102020015817-aeonium-tabuliforme.jpg" alt="saucer plant" /></p>
 <p>There is the idea of the creature being a biological entity motivating questions such as</p>
@@ -589,8 +597,9 @@
 </ul>
 <h3 id="kuhnian_reasoning_on_non-linearity_of_education">Kuhnian Reasoning on Non-Linearity of Education</h3>
 <p>Beyond Kuhn&#39;s general <a href="https://jacobzelko.com/05152022174848-structure-revolutions.md">musing in the _Structure of Scientific Revolutions</a>, his thought can also be linked to the notion that science and education is not linear.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Education as a Spectrum</em>. <a href="https://jacobzelko.com/03092020022908-education-spectrum">https://jacobzelko.com/03092020022908-education-spectrum</a>. March 9 2020.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Golden ratio discovered in a quantum world. Eurekalert.org, 2010.</p>
 <p>&#91;2&#93; R. Padovan, “Proportion: Science, Philosophy, Architecture,” Nexus Netw. J., vol. 4, no. 1, pp. 113–122, 2002, doi: 10.1007/s00004-001-0008-7.</p>
 <h2 id="discussion">Discussion: </h2>

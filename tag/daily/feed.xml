@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Keys</li><li>Task Symbols<ol><li>Example<ol><li>To-do&#39;s:</li><li>Review:</li></ol></li><li>Short Form Journaling Symbols<ol><li>Example</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Keys</li><li>Task Symbols<ol><li>Example<ol><li>To-do&#39;s:</li><li>Review:</li></ol></li><li>Short Form Journaling Symbols<ol><li>Example</li></ol></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Generally speaking, you want the daily entry to: </p>
 <ol>
 <li><p>Be concise and minimal</p>
@@ -115,8 +115,9 @@
 <li><p>How easy is it to make a ventilator? ⚡</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Daily Planning in a Bullet Journal</em>. <a href="https://jacobzelko.com/03192020035441-bullet-journal-daily">https://jacobzelko.com/03192020035441-bullet-journal-daily</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

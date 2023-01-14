@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Peripheral nervous system: relays information between body and brain via nerve impulses. &#91;1&#93; It has two divisions:</p>
 <ol>
 <li><p>Afferent division - information for the brain</p>
@@ -48,8 +48,9 @@
 <li><p>Efferent division - messaging from the brain</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Peripheral Nervous System</em>. <a href="https://jacobzelko.com/01022021030507-peripheral-nervous-system">https://jacobzelko.com/01022021030507-peripheral-nervous-system</a>. January 1 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -98,13 +99,14 @@
 <h1>Bibliography</h1>
 <p>A. Delorme, S. Makeig, M. Fabre-Thorpe, and T. Sejnowski, &quot;From single-trial EEG to brain area dynamics,&quot; Neurocomputing, vol. 44–46, pp. 1057–1064, Jun. 2002, doi: 10.1016/S0925-2312&#40;02&#41;00415-0.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Materials and Methods</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="materials_and_methods">Materials and Methods</h3>
 <p>EEG data from rapid go/nogo visual categorization via natural photographs &#91;1&#93; Though the task involved complicated visual processing, averaged EEG epochs for target and non-target stimuli differed greatly as early as 150 ms after stimulus onset. It appeared to involve automated processing in the visual system.&#91;2&#93; <em>QUESTION: What is a go/nogo visual categorization task?</em></p>
 <p><strong>EEG inverse problem:</strong> reconstructing intracranial brain sources from collected signals.Disparate EEG processes generally overlap in time and space. They become intertwined in scalp electrode recordings. &#91;3&#93;</p>
 <p>Subjects were presented pictures for 20 ms at random intervals between 1.8–2.2s. Half of the pictures were animals. Subjects released a held button when an animal was observed. Subject accuracy was 94&#37; for correct responses. Median reaction time was 440 ms</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>From Single-Trial EEG To Brain Area Dynamics</em>. <a href="https://jacobzelko.com/12312020235220-single-trial-eeg">https://jacobzelko.com/12312020235220-single-trial-eeg</a>. December 31 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; M. Fabre-Thorpe, A. Delorme, C. Marlot, and S. Thorpe, “A limit to the speed of processing in ultra-rapid visual categorization of novel natural scenes,” J. Cogn. Neurosci., vol. 13, no. 2, pp. 171–180, 2001.</p>
 <p>&#91;2&#93; S. J. Thorpe and M. Fabre-Thorpe, “Seeking categories in the brain,” Science, vol. 291, no. 5502, pp. 260–263, 2001.</p>
 <p>&#91;3&#93; S. Thorpe, D. Fize, and C. Marlot, “Speed of processing in the human visual system,” nature, vol. 381, no. 6582, pp. 520–522, 1996.</p>
@@ -155,10 +157,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Functional Magnetic Resonance Imaging &#40;fMRI&#41; finds levels of electrical brain activity.Great at determining where brain activity is. &#91;1&#93; fMRI imaging was used to show activation patterns in spatially separated, though in-sync, <a href="https://jacobzelko.com/12282020003106-dynamic-functional-connectivity.md">brain region activity</a>. It has become clear there is a spatial and temporal periodicity in the brain that probably reflects some of the constant processes of the brain.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Functional Magnetic Resonance Imaging</em>. <a href="https://jacobzelko.com/12282020003750-functional-mri">https://jacobzelko.com/12282020003750-functional-mri</a>. December 28 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -207,10 +210,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Magnetoencephalography &#40;MEG&#41; detects magnetic traces of brain activity to determine activity start time. Poor at locating where activity is. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Magnetoencephalography &#40;MEG&#41;</em>. <a href="https://jacobzelko.com/12282020161201-magnetoencephalography">https://jacobzelko.com/12282020161201-magnetoencephalography</a>. December 28 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -259,7 +263,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Usage</li><li>Characteristics of a Connectogram</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Usage</li><li>Characteristics of a Connectogram</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="usage">Usage</h3>
 <p>Connectograms based on diffusion MRI data employ graphs to demonstrate white matter connections and cortical characteristics. Connectograms can inform treatment of patients with neuroanatomical abnormalities. They can also be used for average cortical metrics and tractography data, across populations of any size.</p>
 <h3 id="characteristics_of_a_connectogram">Characteristics of a Connectogram</h3>
@@ -293,8 +297,9 @@
 </li>
 </ul>
 <p>The opacity of the lines represent number of connections. Fiber color gives fractional anisotropy. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is a Connectogram?</em>. <a href="https://jacobzelko.com/12282020022324-connectogram">https://jacobzelko.com/12282020022324-connectogram</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; A. Irimia, M. C. Chambers, C. M. Torgerson, and J. D. Van Horn, “Circular representation of human cortical networks for subject and population-level connectomic visualization,” Neuroimage, vol. 60, no. 2, pp. 1340–1351, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -343,7 +348,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Dynamic functional connectivity refers to functional connectivity changing over a short time.  The primary tool for analyzing DFC is <a href="https://jacobzelko.com/12282020003750-functional-mri.md">fMRI</a>. &#91;1&#93;</p>
 <p>DFC is related to a variety of different neurological disorders, and has been suggested to be a more accurate representation of functional brain networks.</p>
 <p>Functional networks of the brain fluctuate on the scale of seconds to minutes. The changes are generally movements from one short term state to another, rather than continuous shifts. &#91;2&#93;</p>
@@ -360,8 +365,9 @@
 </ul>
 <p><a href="https://jacobzelko.com/11302020054836-sliding-window-analysis.md">Sliding window analysis</a> is most common for functional connectivity and was first introduced in 2009. &#91;4&#93; Sliding window analysis is performed on DFC data by conducting analysis on a set number of scans in an fMRI session. The number of scans is the length of the sliding window.  The defined window is then moved a certain number of scans forward in time and additional analysis is performed.  The movement of the window is usually referenced in terms of the degree of overlap between adjacent windows. Data from sliding window analysis generally must be compared between two different groups to prove accuracy.</p>
 <p>THOUGHT: This is very similar to analysis with <a href="https://jacobzelko.com/03272020064312-exponential-smoothing.md">exponential smoothing</a> or <a href="https://jacobzelko.com/04252020024813-median-filtering.md">&quot;salt-and-pepper&quot; filtering</a> and reminiscent of convolution filtering.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Dynamic Functional Connectivity</em>. <a href="https://jacobzelko.com/12282020003106-dynamic-functional-connectivity">https://jacobzelko.com/12282020003106-dynamic-functional-connectivity</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; Wikipedia contributors, “Dynamic Functional Connectivity — Wikipedia, The Free Encyclopedia,” 2020.</p>
 <p>&#91;2&#93; R. M. Hutchison et al., “Dynamic functional connectivity: Promise, issues, and interpretations,” Neuroimage, vol. 80, pp. 360–378, 2013.</p>
 <p>&#91;3&#93; W. Majeed, M. Magnuson, and S. D. Keilholz, “Spatiotemporal dynamics of low frequency fluctuations in BOLD fMRI of the rat,” J. Magn. Reson. Imaging Off. J. Int. Soc. Magn. Reson. Med., vol. 30, no. 2, pp. 384–393, 2009.</p>
@@ -413,7 +419,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Functional connectivity refers to the functionally integrated relationship between spatially separated brain regions.  Functional connectivity is related to similar patterns of activation in different brain regions regardless of the apparent physical connectedness of the regions. &#91;1&#93;, &#91;2&#93;</p>
 <p>Functional connectivity is usually measured during resting state <a href="https://jacobzelko.com/12282020003750-functional-mri.md">fMRI</a>. &#91;3&#93; This is predicated on the assumption that functional connections in the brain remain constant in a short time over a task or period of data collection. Generally examined items based on temporal similarities during analysis of the brain are:</p>
 <ul>
@@ -424,8 +430,9 @@
 <li><p>Spatial grouping</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Functional Connectivity</em>. <a href="https://jacobzelko.com/12282020004327-functional-connectivity">https://jacobzelko.com/12282020004327-functional-connectivity</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; B. Biswal, F. Z. Yetkin, V. M. Haughton, and J. S. Hyde, “Functional connectivity in the motor cortex of resting human brain using echo-planar MRI,” Magn Reson Med, vol. 34, no. 4, pp. 537–541, Oct. 1995, doi: 10.1002/mrm.1910340409.</p>
 <p>&#91;2&#93; K. J. Friston, “Functional and effective connectivity: A review,” Brain Connect., vol. 1, no. 1, pp. 13–36, 2011.</p>
 <p>&#91;3&#93; R. M. Hutchison et al., “Dynamic functional connectivity: Promise, issues, and interpretations,” Neuroimage, vol. 80, pp. 360–378, 2013.</p>
@@ -476,7 +483,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Purpose</li><li>Specific data specifications:</li><li>Topics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Purpose</li><li>Specific data specifications:</li><li>Topics</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="purpose">Purpose</h3>
 <p>A core problem regarding reproducible neuroscience is that there has been no widely adopted standard for describing data from an imaging experiment. This renders sharing and reusing data difficult.&#91;1&#93; Furthermore, it complicates automation and quality assurance.</p>
 <p>The BIDS format was inspired by the work done by the <a href="https://jacobzelko.com/https://openneuro.org/">OpenNeuro</a> community to easily share and structure their data regarding pertaining to neuroscientific research. It enables development of automated tools to operate on datasets. &#91;1&#93; Common standards minimize curation&#33; Helps those not involved to effectively understand the data.</p>
@@ -496,8 +503,9 @@
 <p>Neuroimaging: brain imaging to gain quantitative brain data. &#91;1&#93;</p>
 <p>Error reduction: errors attributed to misunderstanding data.</p>
 <p>Provenance: information regarding actions or those involved in producing an object. It can be used to form assessments about its valour.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Brain Imaging Data Structure &#40;BIDS&#41;</em>. <a href="https://jacobzelko.com/11052020174635-brain-imaging-structure">https://jacobzelko.com/11052020174635-brain-imaging-structure</a>. November 5 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; K. J. Gorgolewski et al., “The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments,” Sci Data, vol. 3, no. 1, p. 160044, Dec. 2016, doi: 10.1038/sdata.2016.44.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

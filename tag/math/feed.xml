@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>O&#39;neil, C. &#40;2016&#41;. Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Quotes</li><li>General Observations</li><li>Credit Scores as a Proxy for Human Value</li><li>Concluding Thoughts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Quotes</li><li>General Observations</li><li>Credit Scores as a Proxy for Human Value</li><li>Concluding Thoughts</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="quotes">Quotes</h3>
 <blockquote>
 <p>&quot;Sometimes the job of a data scientist is to know when you don&#39;t know enough.&quot;</p>
@@ -59,8 +59,9 @@
 <h3 id="concluding_thoughts">Concluding Thoughts</h3>
 <p>So the first step is to get a grip on our techno-utopia, that unbounded and unwarranted hope in what algorithms and technology can accomplish. Before asking them to do better, we have to admit they can’t do everything</p>
 <p>audits have to be carefully designed and tested by human beings, and afterward automated</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Weapons of Math Destruction</em>. <a href="https://jacobzelko.com/11012021133502-weapons-math-destruction">https://jacobzelko.com/11012021133502-weapons-math-destruction</a>. November 1 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -108,7 +109,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Note Linked From:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Note Linked From:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="note_linked_from">Note Linked From:</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/10152020223819-neuriviz-project.md">NeuriViz Project</a> - An on-going experiment into developing performant neuroscientific visualizations via Julia.</p>
@@ -124,8 +125,9 @@
 \[
 [2] \ (X, Y, Z)=\left(\frac{2 X}{1+X^{2}+Y^{2}}, \frac{2 Y}{1+X^{2}+Y^{2}}, \frac{-1+X^{2}+Y^{2}}{1+X^{2}+Y^{2}}\right)
 \]
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Stereographic Projection</em>. <a href="https://jacobzelko.com/11132020052431-stereographic-projection">https://jacobzelko.com/11132020052431-stereographic-projection</a>. November 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>E. A. Allen, E. B. Erhardt, and V. D. Calhoun, &quot;Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality,&quot; Neuron, vol. 74, no. 4, pp. 603–608, May 2012, doi: 10.1016/j.neuron.2012.05.001.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Methods</li><li>Purpose</li><li>Ways to Reduce Complexity</li><li>Common Perceptions of Neuroscience Visualizations<ol><li>Bar Plots</li></ol></li><li>Key Takeaways</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Methods</li><li>Purpose</li><li>Ways to Reduce Complexity</li><li>Common Perceptions of Neuroscience Visualizations<ol><li>Bar Plots</li></ol></li><li>Key Takeaways</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="methods">Methods</h3>
 <p>1,451 figures were examined from 288 neuroscience papers in 2010.</p>
 <h3 id="purpose">Purpose</h3>
@@ -99,8 +99,9 @@
 <p>Dependent variables are more difficult to label when they represent abstract parameter estimates rather than directly measured quantities. Uncertainty is more challenging to render when data sets require error surfaces rather than error bars.  Displays should become increasingly informative regarding complex data in illustrating relationships that would not be well defined in tables or values alone.</p>
 <p>Link to code in this paper: http://mialab.mrn.org/datavis</p>
 <p><em>QUESTION: One thing that I realize and think a lot about from this paper is the question of: how easy is it to represent this sort of additional information that tells more the story of the neuroscientific data? Obviously, the authors have expertise with making their own tools.  But what about for those who do not have them?</em></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Data Visualization in the Neurosciences: Overcoming the Curse of Dimensionality</em>. <a href="https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience">https://jacobzelko.com/12282020001029-overcoming-dimensionality-neuroscience</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; E. Tagliazucchi, M. Siniatchkin, H. Laufs, and D. R. Chialvo, “The voxel-wise functional connectome can be efficiently derived from co-activations in a sparse spatio-temporal point-process,” Front. Neurosci., vol. 10, p. 381, 2016.</p>
 <p>&#91;2&#93; E. Tagliazucchi, R. Carhart-Harris, R. Leech, D. Nutt, and D. R. Chialvo, “Enhanced repertoire of brain dynamical states during the psychedelic experience,” Hum. Brain Mapp., vol. 35, no. 11, pp. 5442–5456, 2014.</p>
 <p>&#91;3&#93; E. Tagliazucchi, P. Balenzuela, D. Fraiman, and D. R. Chialvo, “Criticality in large-scale brain fMRI dynamics unveiled by a novel point process analysis,” Front. Physiol., vol. 3, p. 15, 2012.</p>
@@ -156,7 +157,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Usage</li><li>Characteristics of a Connectogram</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Usage</li><li>Characteristics of a Connectogram</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="usage">Usage</h3>
 <p>Connectograms based on diffusion MRI data employ graphs to demonstrate white matter connections and cortical characteristics. Connectograms can inform treatment of patients with neuroanatomical abnormalities. They can also be used for average cortical metrics and tractography data, across populations of any size.</p>
 <h3 id="characteristics_of_a_connectogram">Characteristics of a Connectogram</h3>
@@ -190,8 +191,9 @@
 </li>
 </ul>
 <p>The opacity of the lines represent number of connections. Fiber color gives fractional anisotropy. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is a Connectogram?</em>. <a href="https://jacobzelko.com/12282020022324-connectogram">https://jacobzelko.com/12282020022324-connectogram</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; A. Irimia, M. C. Chambers, C. M. Torgerson, and J. D. Van Horn, “Circular representation of human cortical networks for subject and population-level connectomic visualization,” Neuroimage, vol. 60, no. 2, pp. 1340–1351, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -240,7 +242,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Purpose</li><li>Specific data specifications:</li><li>Topics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Purpose</li><li>Specific data specifications:</li><li>Topics</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="purpose">Purpose</h3>
 <p>A core problem regarding reproducible neuroscience is that there has been no widely adopted standard for describing data from an imaging experiment. This renders sharing and reusing data difficult.&#91;1&#93; Furthermore, it complicates automation and quality assurance.</p>
 <p>The BIDS format was inspired by the work done by the <a href="https://jacobzelko.com/https://openneuro.org/">OpenNeuro</a> community to easily share and structure their data regarding pertaining to neuroscientific research. It enables development of automated tools to operate on datasets. &#91;1&#93; Common standards minimize curation&#33; Helps those not involved to effectively understand the data.</p>
@@ -260,8 +262,9 @@
 <p>Neuroimaging: brain imaging to gain quantitative brain data. &#91;1&#93;</p>
 <p>Error reduction: errors attributed to misunderstanding data.</p>
 <p>Provenance: information regarding actions or those involved in producing an object. It can be used to form assessments about its valour.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Brain Imaging Data Structure &#40;BIDS&#41;</em>. <a href="https://jacobzelko.com/11052020174635-brain-imaging-structure">https://jacobzelko.com/11052020174635-brain-imaging-structure</a>. November 5 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; K. J. Gorgolewski et al., “The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments,” Sci Data, vol. 3, no. 1, p. 160044, Dec. 2016, doi: 10.1038/sdata.2016.44.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The Leitner system uses flashcards to implement a spaced repetition learning system. It was created by German science journalist Sebastian Leitner in the 1970s.</p>
 <p><img src="1589148887796.png" alt="" /></p>
 <blockquote>
@@ -55,8 +55,9 @@
 </ul>
 <p>The cards are kept in a box and are partitioned by spacings in the box. The size of each participation determined when cards were to be reviewed. For Leitner&#39;s implementation, this consisted of 1, 2, 5, 8, and 14cm partition sizes. Reviews only took place when a partition is filled to proper sizing.</p>
 <p>In Leitner&#39;s original method, published in his book So lernt man Lerne &#40;How to learn to learn&#41;, the schedule of repetition was governed by the size of the partitions in the learning box.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Leitner System</em>. <a href="https://jacobzelko.com/05102020220941-leitner-system">https://jacobzelko.com/05102020220941-leitner-system</a>. May 10 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

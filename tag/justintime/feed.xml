@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>I think Remembrance and Just In-Time Information Retrieval Agents &#40;nicknamed JITRs&#41; &#91;1&#93;, &#91;2&#93; partially – maybe by about 75&#37; – miss the point of truly aiding the human mind. On the surface, these tools come close to mimicking the chain of sub-thoughts and actions associated with a thought. A chain of thought being described in the following example: </p>
 <pre><code class="language-julia">Thought: I wonder if I need my umbrella for today?
 Goal: Find out if I need my umbrella for the day.Sub-Thought 1: I wonder what the weather is like for today?
@@ -53,8 +53,9 @@ Action 3: Person identifies chance of rain.Information Retrieved: There is a 75&
 <p>Topically a JITR could watch you begin searching for allergies on a computer. Immediately, it delivers you results on common allergies. This could be useful but still is not the <em>most</em> useful as it is just guessing based on the search and some of the context of your search query. In actuality, you were trying to find information about the pollen level of your area for the day and if you should take your allergy medication prophylactically.</p>
 <p>Instead, a causal agent might function similarly at first but instead of giving you a list of allergies, gives you more concise information. The causal agent infers, based on some history it has of you, you are worried if you should take your allergy medication that day. Instead, the agent just gives you information on pollen levels throughout the week based on local weather reports.</p>
 <p>Though one can argue that there is guessing at place in either situation I think the latter proves far more effective than the former approach.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Causality and Information Retrieval</em>. <a href="https://jacobzelko.com/03212020002114-causality-information">https://jacobzelko.com/03212020002114-causality-information</a>. March 21 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; B. J. Rhodes and P. Maes, “Just-in-time information retrieval agents,” IBM Syst. J., vol. 39, no. 3.4, pp. 685–704, 2000, doi: 10.1147/sj.393.0685.</p>
 <p>&#91;2&#93; B. J. Rhodes and T. Starner, “Remembrance Agent: A Continuously Running Automated Information Retrieval System,” p. 4.</p>
 <p>&#91;3&#93; L. Fridman, “Judea Pearl: Causal Reasoning, Counterfactuals, Bayesian Networks, and the Path to AGI | MIT | Artificial Intelligence Podcast,” 11-Dec-2019. &#91;Online&#93;. Available: https://lexfridman.com/judea-pearl/. &#91;Accessed: 21-Mar-2020&#93;.</p>

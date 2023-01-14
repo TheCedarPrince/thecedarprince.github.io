@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Implementation</li><li>Implementation Flow Chart</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Implementation</li><li>Implementation Flow Chart</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="implementation">Implementation</h3>
 <p>GTD consists of utilizing lists to break down information as it enters your brain. Here are the main lists used:</p>
 <ol>
@@ -58,8 +58,9 @@
 <h3 id="implementation_flow_chart">Implementation Flow Chart</h3>
 <p>It can be somewhat confusing to parse the intake; this flow diagram shows and easy to use method of how to break down information:</p>
 <p><img src="03182020054832-gtd-flowchart.jpg" alt="" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>GTD Implementation</em>. <a href="https://jacobzelko.com/03192020050207-gtd-implementation">https://jacobzelko.com/03192020050207-gtd-implementation</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -107,7 +108,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
 </li>
@@ -123,8 +124,9 @@
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Get Things Done</em>. <a href="https://jacobzelko.com/03192020045854-get-things-done">https://jacobzelko.com/03192020045854-get-things-done</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -172,7 +174,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Layout</li><li>Preview</li><li>Review</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Layout</li><li>Preview</li><li>Review</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The weekly plan is very similar to the <a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">monthly plan</a> but is on a much smaller scale. If anything, it is much more similar to a weekly planner with an added twist of being an exercise in reflection and journaling. The weekly plan comprises of two main parts being:</p>
 <ol>
 <li><p>Preview - where you plan for the week ahead</p>
@@ -210,8 +212,9 @@
 <li><p>How you are going to improve next week</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Weekly Planning in a Bullet Journal</em>. <a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly">https://jacobzelko.com/03192020035337-bullet-journal-weekly</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

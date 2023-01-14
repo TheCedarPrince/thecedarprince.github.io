@@ -40,15 +40,16 @@
 <h1>Bibliography</h1>
 <p>Cuebiq, &quot;Mobility Insights - Cuebiq,&quot; Jun. 08, 2021. https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic &#40;accessed Jun. 08, 2021&#41;.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Origins of the Data</li><li>Mobility Metrics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Origins of the Data</li><li>Mobility Metrics</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="origins_of_the_data">Origins of the Data</h3>
 <p>Cuebiq collects 1st party location data from over twenty five million active users daily.  The data covers the continental US and excludes Hawaii and Alaska.  Cuebiq brokers with 100&#43; applications to collect this location data. This creates a diversity of data from opted-in individuals while preserving anonymity. &#91;1&#93;</p>
 <h3 id="mobility_metrics">Mobility Metrics</h3>
 <p><strong>Shelter-In-Place:</strong> Percent of devices staying within 300 ft of home each day</p>
 <p><strong>Cuebiq Contact Index:</strong> When &gt; 1 devices are within 50ft of one another for &gt; 5min. &#91;1&#93;</p>
 <p><strong>Cuebiq Mobility Index:</strong> How far devices move each day. It is calculated using a derivative factor indicating the distance between opposite corners of a box drawn around the locations observed for devices on each day. </p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Cuebiq Mobility Data Summary</em>. <a href="https://jacobzelko.com/06082021203922-cuebiq-mobility-summary">https://jacobzelko.com/06082021203922-cuebiq-mobility-summary</a>. June 8 2021.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Cuebiq, “Mobility Insights - Cuebiq,” 08-Jun-2021. &#91;Online&#93;. Available: https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic. &#91;Accessed: 08-Jun-2021&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -97,7 +98,7 @@
 <h1>Bibliography</h1>
 <p>G. P. Guy et al., &quot;Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates — United States, March 1–December 31, 2020,&quot; MMWR Morb. Mortal. Wkly. Rep., vol. 70, no. 10, pp. 350–354, Mar. 2021, doi: 10.15585/mmwr.mm7010e3.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Definitions and Background</li><li>Equations</li><li>Methods</li><li>Results</li><li>Limitations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Definitions and Background</li><li>Equations</li><li>Methods</li><li>Results</li><li>Limitations</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="definitions_and_background">Definitions and Background</h3>
 <p><strong>State-issued mask mandates:</strong> Required to wear masks at:</p>
 <ol>
@@ -211,8 +212,9 @@
 <li><p>No differentiating indoor and outdoor dining, ventilation, and following physical distancing and occupancy not investigated.</p>
 </li>
 </ol>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020</em>. <a href="https://jacobzelko.com/06072021210734-mask-mandates-association">https://jacobzelko.com/06072021210734-mask-mandates-association</a>. June 7 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -260,7 +262,7 @@
 <h1>Bibliography</h1>
 <p>H. Joo et al., &quot;Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020,&quot; MMWR Morb. Mortal. Wkly. Rep., vol. 70, no. 6, pp. 212–216, Feb. 2021, doi: 10.15585/mmwr.mm7006e2.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Study Purpose</li><li>Definitions</li><li>Data Source</li><li>Methods</li><li>Results</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Study Purpose</li><li>Definitions</li><li>Data Source</li><li>Methods</li><li>Results</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="study_purpose">Study Purpose</h3>
 <p>Examined whether implementation of statewide mask mandates was associated with COVID-19–associated hospitalization growth rates among different age groups.</p>
 <h3 id="definitions">Definitions</h3>
@@ -282,8 +284,9 @@
 <p>For 40-64 year-olds, 2 weeks after statewide mask mandates: weekly hospitalization growth rates declined by 2.9&#37;.</p>
 <p>For 40-64, 18 - 39 year-olds, &gt;&#61; 3 weeks after statewide mask mandates: weekly hospitalization growth rates declined by 5.5&#37;.</p>
 <p><em>QUESTION: How were these age groupings made I wonder?</em></p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020</em>. <a href="https://jacobzelko.com/06072021214725-decline-hospitilizations-mask">https://jacobzelko.com/06072021214725-decline-hospitilizations-mask</a>. June 7 2021.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; “Coronavirus Disease 2019 &#40;COVID-19&#41;-Associated Hospitalization Surveillance Network &#40;COVID-NET&#41; | CDC.” &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html. &#91;Accessed: 08-Jun-2021&#93;.</p>
 <p>&#91;2&#93; S. Garg et al., “Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019—COVID-NET, 14 States, March 1–30, 2020,” Morb. Mortal. Wkly. Rep., vol. 69, no. 15, p. 458, 2020.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -333,7 +336,7 @@
 <h1>Bibliography</h1>
 <p>S. Chang et al., &quot;Mobility network models of COVID-19 explain inequities and inform reopening,&quot; Nature, vol. 589, no. 7840, pp. 82–87, Jan. 2021, doi: 10.1038/s41586-020-2923-3.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Iterative proportional fitting &#91;1&#93; was used to make POI –&gt; <a href="https://jacobzelko.com/01202021043013-census-groups.md">CBG</a> networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.</p>
 <p><em>THOUGHTS: What is iterative proportional fitting?</em></p>
 <p>Model fits observed daily case counts from 8 March to 9 May 2020</p>
@@ -398,8 +401,9 @@
 <p>CBGs with fewer white residents had higher predicted infection risks.</p>
 <p><em>THOUGHTS: Seems somewhat odd? This is interesting to me in how they keep bringing up race or economic status as a variable, but never fully commit to an investigation. Feels really weird to talk about issues without actually addressing them.</em></p>
 <p>Mobility data showed average grocery store visits from lower-income CBGs had 59&#37; more hourly visitors per square foot. Median metro area data showed they stayed 17&#37; longer.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Mobility Network Models of COVID-19 Explain Inequities and Inform Reopening</em>. <a href="https://jacobzelko.com/01202021043643-mobility-network-models">https://jacobzelko.com/01202021043643-mobility-network-models</a>. January 19 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; W. E. Deming and F. F. Stephan, “On a least squares adjustment of a sampled frequency table when the expected marginal totals are known,” Ann. Math. Stat., vol. 11, no. 4, pp. 427–444, 1940.</p>
 <p>&#91;2&#93; Q. Bi et al., “Epidemiology and transmission of COVID-19 in 391 cases and 1286 of their close contacts in Shenzhen, China: A retrospective cohort study,” Lancet Infect. Dis., 2020.</p>
 <p>&#91;3&#93; S. Y. Park et al., “Early release-coronavirus disease outbreak in call center, south korea,” 2020.</p>

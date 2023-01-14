@@ -40,10 +40,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Functional Magnetic Resonance Imaging &#40;fMRI&#41; finds levels of electrical brain activity.Great at determining where brain activity is. &#91;1&#93; fMRI imaging was used to show activation patterns in spatially separated, though in-sync, <a href="https://jacobzelko.com/12282020003106-dynamic-functional-connectivity.md">brain region activity</a>. It has become clear there is a spatial and temporal periodicity in the brain that probably reflects some of the constant processes of the brain.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Functional Magnetic Resonance Imaging</em>. <a href="https://jacobzelko.com/12282020003750-functional-mri">https://jacobzelko.com/12282020003750-functional-mri</a>. December 28 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -92,7 +93,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Purpose</li><li>Specific data specifications:</li><li>Topics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Purpose</li><li>Specific data specifications:</li><li>Topics</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="purpose">Purpose</h3>
 <p>A core problem regarding reproducible neuroscience is that there has been no widely adopted standard for describing data from an imaging experiment. This renders sharing and reusing data difficult.&#91;1&#93; Furthermore, it complicates automation and quality assurance.</p>
 <p>The BIDS format was inspired by the work done by the <a href="https://jacobzelko.com/https://openneuro.org/">OpenNeuro</a> community to easily share and structure their data regarding pertaining to neuroscientific research. It enables development of automated tools to operate on datasets. &#91;1&#93; Common standards minimize curation&#33; Helps those not involved to effectively understand the data.</p>
@@ -112,8 +113,9 @@
 <p>Neuroimaging: brain imaging to gain quantitative brain data. &#91;1&#93;</p>
 <p>Error reduction: errors attributed to misunderstanding data.</p>
 <p>Provenance: information regarding actions or those involved in producing an object. It can be used to form assessments about its valour.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Brain Imaging Data Structure &#40;BIDS&#41;</em>. <a href="https://jacobzelko.com/11052020174635-brain-imaging-structure">https://jacobzelko.com/11052020174635-brain-imaging-structure</a>. November 5 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; K. J. Gorgolewski et al., “The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments,” Sci Data, vol. 3, no. 1, p. 160044, Dec. 2016, doi: 10.1038/sdata.2016.44.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>Monthly Breakdown</li><li>Templates:<ol><li>Habit Tracker</li><li>Monthly Log</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>Monthly Breakdown</li><li>Templates:<ol><li>Habit Tracker</li><li>Monthly Log</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="overview">Overview</h3>
 <p>In the monthly plan, one should use this as a big picture preview of the upcoming month and each day you should only have one item about the biggest event for that day. Keep it short and concise&#33;&#33;&#33;</p>
 <h3 id="monthly_breakdown">Monthly Breakdown</h3>
@@ -61,8 +61,9 @@
 <h4 id="monthly_log">Monthly Log</h4>
 <p>Here is an example of what a monthly log could look like:</p>
 <table><tr><th align="right">Date</th><th align="center">Entry</th></tr><tr><td align="right">01</td><td align="center">–-</td></tr><tr><td align="right">02</td><td align="center">–-</td></tr><tr><td align="right">03</td><td align="center">–-</td></tr><tr><td align="right">04</td><td align="center">–-</td></tr><tr><td align="right">05</td><td align="center">–-</td></tr><tr><td align="right">06</td><td align="center">–-</td></tr><tr><td align="right">07</td><td align="center">–-</td></tr><tr><td align="right">08</td><td align="center">–-</td></tr><tr><td align="right">09</td><td align="center">–-</td></tr><tr><td align="right">10</td><td align="center">–-</td></tr><tr><td align="right">11</td><td align="center">–-</td></tr><tr><td align="right">12</td><td align="center">–-</td></tr><tr><td align="right">13</td><td align="center">–-</td></tr><tr><td align="right">14</td><td align="center">–-</td></tr><tr><td align="right">15</td><td align="center">–-</td></tr><tr><td align="right">16</td><td align="center">–-</td></tr><tr><td align="right">17</td><td align="center">–-</td></tr><tr><td align="right">18</td><td align="center">–-</td></tr><tr><td align="right">19</td><td align="center">–-</td></tr><tr><td align="right">20</td><td align="center"></td></tr><tr><td align="right">21</td><td align="center"></td></tr><tr><td align="right">22</td><td align="center"></td></tr><tr><td align="right">23</td><td align="center"></td></tr><tr><td align="right">24</td><td align="center"></td></tr><tr><td align="right">25</td><td align="center"></td></tr><tr><td align="right">26</td><td align="center"></td></tr><tr><td align="right">27</td><td align="center"></td></tr><tr><td align="right">28</td><td align="center"></td></tr><tr><td align="right">29</td><td align="center"></td></tr><tr><td align="right">30</td><td align="center"></td></tr><tr><td align="right">31</td><td align="center"></td></tr></table>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Monthly Planning in a Bullet Journal</em>. <a href="https://jacobzelko.com/03192020013347-bullet-journal-month">https://jacobzelko.com/03192020013347-bullet-journal-month</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -110,7 +111,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Implementation</li><li>Implementation Flow Chart</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Implementation</li><li>Implementation Flow Chart</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="implementation">Implementation</h3>
 <p>GTD consists of utilizing lists to break down information as it enters your brain. Here are the main lists used:</p>
 <ol>
@@ -128,8 +129,9 @@
 <h3 id="implementation_flow_chart">Implementation Flow Chart</h3>
 <p>It can be somewhat confusing to parse the intake; this flow diagram shows and easy to use method of how to break down information:</p>
 <p><img src="03182020054832-gtd-flowchart.jpg" alt="" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>GTD Implementation</em>. <a href="https://jacobzelko.com/03192020050207-gtd-implementation">https://jacobzelko.com/03192020050207-gtd-implementation</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -177,7 +179,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
 </li>
@@ -193,8 +195,9 @@
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Get Things Done</em>. <a href="https://jacobzelko.com/03192020045854-get-things-done">https://jacobzelko.com/03192020045854-get-things-done</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -242,10 +245,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>GTD, or <em>Getting Things Done</em>, is a productivity framework created by David Allen to free your mind from as much additional load as possible while maintaining projects, lists, and other items pertaining to day-to-day operations. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>GTD Definition</em>. <a href="https://jacobzelko.com/03192020050130-gtd-definition">https://jacobzelko.com/03192020050130-gtd-definition</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -293,7 +297,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">Monthly Planning in a Bullet Journal</a></p>
 </li>
@@ -309,8 +313,9 @@
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to create a daily plan when using a bullet journal.</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Bullet Journal</em>. <a href="https://jacobzelko.com/03192020013253-bullet-journal">https://jacobzelko.com/03192020013253-bullet-journal</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -358,7 +363,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Keys</li><li>Task Symbols<ol><li>Example<ol><li>To-do&#39;s:</li><li>Review:</li></ol></li><li>Short Form Journaling Symbols<ol><li>Example</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Keys</li><li>Task Symbols<ol><li>Example<ol><li>To-do&#39;s:</li><li>Review:</li></ol></li><li>Short Form Journaling Symbols<ol><li>Example</li></ol></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Generally speaking, you want the daily entry to: </p>
 <ol>
 <li><p>Be concise and minimal</p>
@@ -433,8 +438,9 @@
 <li><p>How easy is it to make a ventilator? ⚡</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Daily Planning in a Bullet Journal</em>. <a href="https://jacobzelko.com/03192020035441-bullet-journal-daily">https://jacobzelko.com/03192020035441-bullet-journal-daily</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -482,7 +488,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Layout</li><li>Preview</li><li>Review</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Layout</li><li>Preview</li><li>Review</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The weekly plan is very similar to the <a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">monthly plan</a> but is on a much smaller scale. If anything, it is much more similar to a weekly planner with an added twist of being an exercise in reflection and journaling. The weekly plan comprises of two main parts being:</p>
 <ol>
 <li><p>Preview - where you plan for the week ahead</p>
@@ -520,8 +526,9 @@
 <li><p>How you are going to improve next week</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Weekly Planning in a Bullet Journal</em>. <a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly">https://jacobzelko.com/03192020035337-bullet-journal-weekly</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -569,11 +576,12 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Each week, you should hold a 30 minute-ish weekly review to guarantee each project on the <a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">project list</a> has at least one upcoming next action for the week. </p>
 <p>Utilize a <a href="https://jacobzelko.com/03192020050346-trigger-list.md">trigger list</a> to help make sure you did not miss anything. The trigger list should be custom to whatever it is that you are working on or are responsible for.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>GTD Weekly Review</em>. <a href="https://jacobzelko.com/03192020050249-gtd-weekly-review">https://jacobzelko.com/03192020050249-gtd-weekly-review</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

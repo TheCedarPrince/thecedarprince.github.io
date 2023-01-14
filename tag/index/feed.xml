@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Indexed Sets, &#40;Nov. 27, 2020&#41;. Accessed: Oct. 01, 2022. &#91;Online Video&#93;. Available: https://www.youtube.com/watch?v&#61;ZoR93jR9Ok0</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Building an Intuition for Index Sets<ol><li>Union Example Where \(I\) Is a Finite Set of Integers</li><li>Union Example Where \(I\) Is a Countably Infinite Set of Integers</li><li>Union Example Where \(I\) Is an Interval</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Building an Intuition for Index Sets<ol><li>Union Example Where \(I\) Is a Finite Set of Integers</li><li>Union Example Where \(I\) Is a Countably Infinite Set of Integers</li><li>Union Example Where \(I\) Is an Interval</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I was very confused about nomenclature concerning indexed sets and how to interpret them.</p>
 <h3 id="building_an_intuition_for_index_sets">Building an Intuition for Index Sets</h3>
@@ -100,8 +100,9 @@ A_{i} = \{i\} \times [0, 1]
 \[
 \bigcup_{i \in I} A_{i} = [-1, 1] \times [0, 1]
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Indexed Sets &#40;Or How to Index Sets&#41;</em>. <a href="https://jacobzelko.com/09302022040126-indexed-sets">https://jacobzelko.com/09302022040126-indexed-sets</a>. September 30 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -149,7 +150,7 @@ A_{i} = \{i\} \times [0, 1]
 <h1>Bibliography</h1>
 <p>E. A. Lehnert, &quot;Spatial exploration of the CDC’s Social Vulnerability Index and heat-related health outcomes in Georgia,&quot; International Journal of Disaster Risk Reduction, p. 7, 2020.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Definitions</li><li>Social Vulnerability Index Calculations</li><li>Digression on Black Belt</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Definitions</li><li>Social Vulnerability Index Calculations</li><li>Digression on Black Belt</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I read this paper to find out more about the social vulnerability index and how it can be used in the state of Georgia. It wasn&#39;t particularly insightful although the discussion about calculating SVI for GA and its definition about social vulnerability was helpful.</p>
 <h3 id="definitions">Definitions</h3>
@@ -158,8 +159,9 @@ A_{i} = \{i\} \times [0, 1]
 <p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index.md">See Note for Details</a></p>
 <h3 id="digression_on_black_belt">Digression on Black Belt</h3>
 <p>I never knew the term for this but historically, where African Americans were heavily enslaved is called the &quot;Black Belt&quot;. The authors found that high SVI and heat-related deaths were often found in these historical communities &#91;32&#93;.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia</em>. <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -207,13 +209,14 @@ A_{i} = \{i\} \times [0, 1]
 <h1>Bibliography</h1>
 <p>B. E. Flanagan, E. W. Gregory, E. J. Hallisey, J. L. Heitgerd, and B. Lewis, &quot;A social vulnerability index for disaster management,&quot; Journal of homeland security and emergency management, vol. 8, no. 1, 2011.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>SVI data can be retrieved from: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html</p>
 <p>For at least the 2000 version of SVI, the metric is derived from summed percentile rankings at census tract level of fifteen U.S. Census variables shown in the following table: </p>
 <table><tr><th align="left">SVI Theme</th><th align="left">Variables Included</th></tr><tr><td align="left">1. Socioeconomic Status</td><td align="left">&#37; Below Poverty Level</td></tr><tr><td align="left"></td><td align="left">&#37; Unemployed</td></tr><tr><td align="left"></td><td align="left">Per Capita Income</td></tr><tr><td align="left"></td><td align="left">&#37; Age 25 or Older with No High School</td></tr><tr><td align="left">2. Household Composition &amp;</td><td align="left">Diploma</td></tr><tr><td align="left">Disability</td><td align="left">&#37; Age 65 or Older</td></tr><tr><td align="left"></td><td align="left">&#37; Age 17 or Younger</td></tr><tr><td align="left">3. Minority Status &amp; Language</td><td align="left">&#37; Single Parent Household</td></tr><tr><td align="left"></td><td align="left">&#37; Age 5 or Older Speak English &quot;Less than</td></tr><tr><td align="left">4. Housing &amp; Transportation</td><td align="left">Well&quot;</td></tr><tr><td align="left"></td><td align="left">&#37; Multi-Unit Structures</td></tr><tr><td align="left"></td><td align="left">&#37; Mobile Homes</td></tr><tr><td align="left"></td><td align="left">&#37; Crowding &#40;More people than rooms&#41;</td></tr><tr><td align="left"></td><td align="left">&#37; Households without a Vehicle</td></tr><tr><td align="left"></td><td align="left">&#37; In Institutionalized Group Quarters</td></tr></table>
 <p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes.md">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Social Vulnerability Index</em>. <a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">https://jacobzelko.com/09082022144933-social-vulnerability-index</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -261,11 +264,12 @@ A_{i} = \{i\} \times [0, 1]
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>Mentioned in the note <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking.md">X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</a></p>
 <p>One contentious example is body mass index, or BMI. The formula for BMI uses height and weight, so the relationship between height, weight, and BMI is defined and fixed. However, BMI is then taken as a proxy for body fat, which is then in turn taken as a proxy for healthiness, even though those relationships are not fixed or precisely definable</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Body Mass Index &#40;BMI&#41;</em>. <a href="https://jacobzelko.com/04162022022947-body-mass-index">https://jacobzelko.com/04162022022947-body-mass-index</a>. April 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -313,15 +317,16 @@ A_{i} = \{i\} \times [0, 1]
 <h1>Bibliography</h1>
 <p>Cuebiq, &quot;Mobility Insights - Cuebiq,&quot; Jun. 08, 2021. https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic &#40;accessed Jun. 08, 2021&#41;.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Origins of the Data</li><li>Mobility Metrics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Origins of the Data</li><li>Mobility Metrics</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="origins_of_the_data">Origins of the Data</h3>
 <p>Cuebiq collects 1st party location data from over twenty five million active users daily.  The data covers the continental US and excludes Hawaii and Alaska.  Cuebiq brokers with 100&#43; applications to collect this location data. This creates a diversity of data from opted-in individuals while preserving anonymity. &#91;1&#93;</p>
 <h3 id="mobility_metrics">Mobility Metrics</h3>
 <p><strong>Shelter-In-Place:</strong> Percent of devices staying within 300 ft of home each day</p>
 <p><strong>Cuebiq Contact Index:</strong> When &gt; 1 devices are within 50ft of one another for &gt; 5min. &#91;1&#93;</p>
 <p><strong>Cuebiq Mobility Index:</strong> How far devices move each day. It is calculated using a derivative factor indicating the distance between opposite corners of a box drawn around the locations observed for devices on each day. </p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Cuebiq Mobility Data Summary</em>. <a href="https://jacobzelko.com/06082021203922-cuebiq-mobility-summary">https://jacobzelko.com/06082021203922-cuebiq-mobility-summary</a>. June 8 2021.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Cuebiq, “Mobility Insights - Cuebiq,” 08-Jun-2021. &#91;Online&#93;. Available: https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic. &#91;Accessed: 08-Jun-2021&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -370,7 +375,7 @@ A_{i} = \{i\} \times [0, 1]
 <h1>Bibliography</h1>
 <p>Not available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Thoughts about Health</li><li>Diseases</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Thoughts about Health</li><li>Diseases</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="thoughts_about_health">Thoughts about Health</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/03092020022148-health-spectrum">Health as a Spectrum</a></p>
@@ -382,8 +387,9 @@ A_{i} = \{i\} \times [0, 1]
 <li><p><a href="https://jacobzelko.com/03102020051547-sars-cov-2">SARS-CoV-2</a></p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Health Index, Jacob 😷</em>. <a href="https://jacobzelko.com/03092020025554-health-index">https://jacobzelko.com/03092020025554-health-index</a>. March 9 2020.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

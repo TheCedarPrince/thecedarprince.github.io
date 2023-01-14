@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Software Implementations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Software Implementations</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>There are multiple algorithms available used for effectively implementing the <a href="https://jacobzelko.com/05282020163507-spacing-effect.md">spacing effect</a>. The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus.md">has been replicated</a> and scrutinized examined multiple times. &#91;1&#93;–&#91;3&#93; Spaced repetition systems are based around proper implementations of such algorithms.</p>
 <p>Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the <a href="https://jacobzelko.com/05102020220941-leitner-system.md">Leitner System which used paper note cards</a> to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.</p>
 <p>With computers, there have been several pieces of software made to automate and keep track of repetitions <em>for a learner</em>. A majority of these systems directly adapted the Leitner System from the analog to the digital world. Each software generally has proprietary algorithms that supposedly maximize the spacing effect but are directly inspired by the original work done by Ebbinghaus.</p>
@@ -56,8 +56,9 @@
 <h3 id="software_implementations">Software Implementations</h3>
 <p>There are many pieces of software that utilize spaced repetition. Provided is a table listing some of the most popular ones:</p>
 <table><tr><th align="right">Software</th><th align="right">Description</th><th align="right">Reference</th></tr><tr><td align="right">Anki</td><td align="right">Open source flashcard based learning software.</td><td align="right">@AnkiPowerfulIntelligent</td></tr><tr><td align="right">Duolingo</td><td align="right">Popular language learning platform.</td><td align="right">@LearnLanguageFree</td></tr><tr><td align="right">Memrise</td><td align="right">Flashcard based language learning app.</td><td align="right">@zotero-1378</td></tr><tr><td align="right">Quizlet</td><td align="right">Multi-faceted learning platform.</td><td align="right">@Quizlet</td></tr><tr><td align="right">Supermemo</td><td align="right">Software for spacing and incremental reading.</td><td align="right">@LearnFastForget</td></tr></table>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Spaced Repetition Systems</em>. <a href="https://jacobzelko.com/05252020183020-spaced-repetition-systems">https://jacobzelko.com/05252020183020-spaced-repetition-systems</a>. May 25 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; J. M. J. Murre and J. Dros, “Replication and Analysis of Ebbinghaus’ Forgetting Curve,” PLoS ONE, vol. 10, no. 7, p. e0120644, Jul. 2015, doi: 10.1371/journal.pone.0120644.</p>
 <p>&#91;2&#93; H. Ebbinghaus, “Ueber das gedächtnis,” 1885.</p>
 <p>&#91;3&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>

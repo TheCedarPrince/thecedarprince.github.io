@@ -40,15 +40,16 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Conversation with Jakob Nissen</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Conversation with Jakob Nissen</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="conversation_with_jakob_nissen">Conversation with Jakob Nissen</h3>
 <p>I was explained by Jakob Nissen, a Danish Bioinformatics PhD, that one can think of metapopulation analysis as follows:</p>
 <p>The analysis has its foundation in ecology where the goal was to explore a specific species as a &quot;population of populations&quot;. For example, if you have a large area where there are many smaller habitats, a species can go extinct without causing a large problem for or impact on the overall area. This is because other species from nearby habitats will eventually move in to the old habitat of that species. Therefore, to ascertain the status of that species, the larger area needs to be considered</p>
 <p>When I asked about how one could map these approach to humans, Jakob had the following idea:</p>
 <p>One could model society as a large group of social bubbles where people see other people inside the bubble in the context of epidemics. So perhaps here, the virus is going extinct in social bubbles and migrating from bubble to bubble.</p>
 <p>This gave some good thoughts on approaches for metapopulation-based analysis to epidemics/pandemics.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Metapopulation Analysis</em>. <a href="https://jacobzelko.com/03012021162136-metapopulation-analysis">https://jacobzelko.com/03012021162136-metapopulation-analysis</a>. March 1 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

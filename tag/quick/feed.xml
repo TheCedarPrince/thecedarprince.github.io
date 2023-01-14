@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>https://github.com/medwatt/Notes/blob/main/Lua/Lua<em>Quick</em>Guide.ipynb</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Comments</li><li>Variable Scope<ol><li>Global Scope</li><li>Local Scope</li></ol></li><li>Variable Assignments</li><li>Variable Types</li><li>Math Operators</li><li>Relational Operators</li><li>Logical Operators</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Comments</li><li>Variable Scope<ol><li>Global Scope</li><li>Local Scope</li></ol></li><li>Variable Assignments</li><li>Variable Types</li><li>Math Operators</li><li>Relational Operators</li><li>Logical Operators</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I wanted to learn Lua for no other reason than to program my own workflow in neovim. Also, Lua is cool and Just-in-Time compiled like Julia&#33; Plus, it is used for game development so if ever this research thing doesn&#39;t work out, backup plan: become a game developer.</p>
 <h3 id="comments">Comments</h3>
@@ -125,8 +125,9 @@ print&#40;nil and 10&#41; -- evaluates to &#96;nil&#96;
 print&#40;nil or 10&#41; -- evaluates to &#96;10&#96;
 print&#40;false and nil&#41; -- evaluates to &#96;false&#96;
 print&#40;false and not&#40;nil&#41;&#41; -- evaluates to &#96;false&#96;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>A Beginner&#39;s to Master&#39;s Guide in Learning Lua</em>. <a href="https://jacobzelko.com/10012022184345-learning-lua">https://jacobzelko.com/10012022184345-learning-lua</a>. October 1 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

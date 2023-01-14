@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Amortized refers to the spread of costs over time.</p>
 </li>
@@ -54,8 +54,9 @@
 \[
 \frac{\sum{Cost_{Operations}}}{\sum{Operations}}
 \]
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Amortized Analysis</em>. <a href="https://jacobzelko.com/10052021235121-amortized-analysis">https://jacobzelko.com/10052021235121-amortized-analysis</a>. October 5 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -103,7 +104,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Big-O Notation<ol><li>Overview</li><li>Conventions</li><li>Constant Complexity: \(\mathcal{O}(1)\)</li><li>Linear Complexity: \(\mathcal{O}(n)\)</li><li>Logarithmic Complexity: \(\mathcal{O}(log(n))\)</li><li>Exercises</li></ol></li><li>Amortized Analysis</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Big-O Notation<ol><li>Overview</li><li>Conventions</li><li>Constant Complexity: \(\mathcal{O}(1)\)</li><li>Linear Complexity: \(\mathcal{O}(n)\)</li><li>Logarithmic Complexity: \(\mathcal{O}(log(n))\)</li><li>Exercises</li></ol></li><li>Amortized Analysis</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Complexity of an algorithm is often calculated by counting primitive operations</p>
 </li>
@@ -302,8 +303,9 @@ end</code></pre>
 <p>Explanation: Algorithm A could be faster on smaller inputs as compared to algorithm B</p>
 <h3 id="amortized_analysis">Amortized Analysis</h3>
 <p>See <a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">note here for details</a></p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Asymptotic Notation</em>. <a href="https://jacobzelko.com/09242021040445-asymptotic-notation">https://jacobzelko.com/09242021040445-asymptotic-notation</a>. September 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics of a Fiber Product</li><li>Basics of the Pullback</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics of a Fiber Product</li><li>Basics of the Pullback</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>Pullbacks are a central part to category theory so naturally, I would like to know more about them&#33;</p>
 <h3 id="basics_of_a_fiber_product">Basics of a Fiber Product</h3>
@@ -68,8 +68,9 @@ X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
 <p>Suppose we have the diagram of sets and functions:</p>
 <p>W -pi<em>&#123;1&#125;-&gt; X -f-&gt; Z &lt;-g- Y &lt;-pi</em>&#123;2&#125;- W</p>
 <p>The pullback of \(X\) and \(Y\) over \(Z\) is any set \(W\) for which we have an isomorphism W -approx-&gt; X &#123;x&#125;_&#123;Z&#125; Y.  In this case, \(W\) is the pullback.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Fiber Products &#40;Pullbacks&#41;</em>. <a href="https://jacobzelko.com/10312022005339-fiber-product-pullback">https://jacobzelko.com/10312022005339-fiber-product-pullback</a>. October 30 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -117,7 +118,7 @@ X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Question</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>This is a question to clarify my understand of coproducts as I have largely spent some time in understanding what they are and how to interpret them. </p>
 <h3 id="question">Question</h3>
@@ -155,8 +156,9 @@ X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
 </ol>
 <p>I read about disjoint unions from a set theory perspective and also a category theory perspective but cannot really discern a functional &#40;i.e. practical&#41; difference from coproducts. Are coproducts and disjoint unions really effectively the same idea?</p>
 <p>Thanks all and let me know if I can clarify anywhere&#33; </p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Clarifying Understanding of Coproducts</em>. <a href="https://jacobzelko.com/10022022214249-understanding-coproducts">https://jacobzelko.com/10022022214249-understanding-coproducts</a>. October 2 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -204,7 +206,7 @@ X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
 <h1>Bibliography</h1>
 <p>David Spivak, Category Theory for Scientists, Old Version. 2013.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>To learn and understand the concept of coproducts within the context of category theory. Also, I came across the symbolic notation for what disjoint unions are and wanted to understand what the notation fully meant.</p>
 <h3 id="disjoint_union_of_sets_intuition">Disjoint Union of Sets Intuition</h3>
@@ -243,8 +245,9 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 \]
 <p>and \(\bigsqcup_{i \in I} X_{i}\)</p>
 <p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets.md">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Coproducts &#40;Disjoint Unions&#41;</em>. <a href="https://jacobzelko.com/09162022162129-coproducts-disjoints">https://jacobzelko.com/09162022162129-coproducts-disjoints</a>. September 16 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -292,7 +295,7 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 <h1>Bibliography</h1>
 <p>E. Cheng, X &#43; Y: A Mathematician’s Manifesto for Rethinking Gender. Basic Books, 2020.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Category Theory as Tool for Thinking on Gender</li><li>Congressive versus Ingressive Thinking</li><li>Conclusion</li><li>Final Thoughts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Category Theory as Tool for Thinking on Gender</li><li>Congressive versus Ingressive Thinking</li><li>Conclusion</li><li>Final Thoughts</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="introduction">Introduction</h3>
 <p>Eugenia Cheng takes a nuanced approach to the discussion around gender. As she references, some feminists&#39; battle cry is the phrase, &quot;Smash the patriarchy&#33;&quot;. In Cheng&#39;s idea of feminism, she instead looks for language that is less divisive and more inclusive encompassed in her saying, &quot;Let’s transform our world into a more congressively led future.&quot;</p>
 <h3 id="category_theory_as_tool_for_thinking_on_gender">Category Theory as Tool for Thinking on Gender</h3>
@@ -315,8 +318,9 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 <p>Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the <a href="https://jacobzelko.com/07112020161337-social-determinants-health.md">social determinants of health</a> and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:</p>
 <p>&quot;The idea of a temporary abstraction also takes into account the thorny issue of intersectionality, and the need to take other forms of power imbalance into account besides those governed by gender, for example race, wealth, sexual orientation, and so on.&quot;</p>
 <p>Overall, good read&#33;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</em>. <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking">https://jacobzelko.com/04162022002725-mathematician-gender-rethinking</a>. April 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -364,7 +368,7 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 <h1>Bibliography</h1>
 <p>E. Patterson, O. Lynch, and J. Fairbanks, &quot;Categorical Data Structures for Technical Computing,&quot; arXiv:2106.04703 &#91;cs, math&#93;, Jun. 2021, Accessed: Sep. 27, 2021. &#91;Online&#93;. Available: http://arxiv.org/abs/2106.04703</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Limitations of the Data Frame</li><li>Conclusions<ol><li>Use Cases for Acsets</li><li>Category Theory</li></ol></li><li>Discussion with Brighton Ancelin - October 6, 2021</li><li>Questions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Limitations of the Data Frame</li><li>Conclusions<ol><li>Use Cases for Acsets</li><li>Category Theory</li></ol></li><li>Discussion with Brighton Ancelin - October 6, 2021</li><li>Questions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="definitions">Definitions</h3>
 <p><strong>Combinatorial Data</strong> - data stored in a graph</p>
 <p><strong>Attribute data</strong> - the data that would be put into a data frame</p>
@@ -419,8 +423,9 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 <li><p>With the snippet of <code>add_part&#33;</code>, what is a &quot;part&quot;?</p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Categorical Data Structures for Technical Computing</em>. <a href="https://jacobzelko.com/10062021162335-ascets-paper">https://jacobzelko.com/10062021162335-ascets-paper</a>. October 6 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

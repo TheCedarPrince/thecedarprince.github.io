@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics of a Fiber Product</li><li>Basics of the Pullback</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics of a Fiber Product</li><li>Basics of the Pullback</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>Pullbacks are a central part to category theory so naturally, I would like to know more about them&#33;</p>
 <h3 id="basics_of_a_fiber_product">Basics of a Fiber Product</h3>
@@ -68,8 +68,9 @@ X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
 <p>Suppose we have the diagram of sets and functions:</p>
 <p>W -pi<em>&#123;1&#125;-&gt; X -f-&gt; Z &lt;-g- Y &lt;-pi</em>&#123;2&#125;- W</p>
 <p>The pullback of \(X\) and \(Y\) over \(Z\) is any set \(W\) for which we have an isomorphism W -approx-&gt; X &#123;x&#125;_&#123;Z&#125; Y.  In this case, \(W\) is the pullback.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Fiber Products &#40;Pullbacks&#41;</em>. <a href="https://jacobzelko.com/10312022005339-fiber-product-pullback">https://jacobzelko.com/10312022005339-fiber-product-pullback</a>. October 30 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

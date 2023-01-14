@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Was formed by <a href="https://jacobzelko.com/07282021181744-origins-omop.md">OMOP</a></p>
 </li>
@@ -53,8 +53,9 @@
 </li>
 </ul>
 <p>It has a clearly defined set of <a href="https://jacobzelko.com/07282021185354-ohdsi-goals.md">goals</a> to encourage international collaboration on observational health research.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Observational Health Data Sciences and Informatics &#40;OHDSI&#41; Origins</em>. <a href="https://jacobzelko.com/07282021184510-ohdsi-background">https://jacobzelko.com/07282021184510-ohdsi-background</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Family of Sets</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Family of Sets</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I am having trouble reading some set theoretic notation. Hoping by gaining better familiarity with family of sets, I can understand notation better. </p>
 <h3 id="family_of_sets">Family of Sets</h3>
@@ -59,8 +59,9 @@ F
 \[
 F = \{A, B, C\} = \{\{1, 2, 3\}, \{4, 5, 6\}, \{2, 4, 6\}\}
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Family of Sets</em>. <a href="https://jacobzelko.com/09302022033236-family-sets">https://jacobzelko.com/09302022033236-family-sets</a>. September 29 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

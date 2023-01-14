@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Topological Spaces</li><li>Examples of Topologies on a Set \(X\)<ol><li>Trivial &#40;Indiscrete&#41; Topology on \(X\)</li><li>General Topology on \(X\)</li><li>The Discrete Topology of \(X\)</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Topological Spaces</li><li>Examples of Topologies on a Set \(X\)<ol><li>Trivial &#40;Indiscrete&#41; Topology on \(X\)</li><li>General Topology on \(X\)</li><li>The Discrete Topology of \(X\)</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I wanted to learn more about algebraic topology so as to further understand the notion of cross products. Cross products are albeit a simple mechanism but I was curious to see the notion of them pop up so much. Much more so seeing the idea propagate to topologies which sparked my interested about topologies.</p>
 <h3 id="topological_spaces">Topological Spaces</h3>
@@ -96,8 +96,9 @@ X &#61; &#91;1, 2, 3, 4&#93;
 &#91;1, 3, 4&#93;,
 &#91;2, 3, 4&#93;,
 &#91;1, 2, 3, 4&#93;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is a Topological Space?</em>. <a href="https://jacobzelko.com/09172022051900-what-topology">https://jacobzelko.com/09172022051900-what-topology</a>. September 17 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

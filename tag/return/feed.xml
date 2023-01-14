@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <pre><code class="language-julia">function is_leap_year&#40;year&#41;
     if &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;
         return true
@@ -51,8 +51,9 @@
 <pre><code class="language-julia">julia&gt; is_leap_year&#40;year&#41; &#61; &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;julia&gt; is_leap_year&#40;1995&#41;
 false</code></pre>
 <p>This works because Julia performs implicit returns in their functions by returning the result of the function&#39;s last evaluated expression.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Implicit Returns</em>. <a href="https://jacobzelko.com/05192020171152-implicit-return">https://jacobzelko.com/05192020171152-implicit-return</a>. May 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

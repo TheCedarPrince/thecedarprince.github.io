@@ -40,11 +40,12 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Voxels are 3D volumetric constructs that take as parameters three axes which serve as indices for the value stored in the 3D block at the indexed location.</p>
 <p><img src="11302020060802.png" alt="" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What are Voxels</em>. <a href="https://jacobzelko.com/11302020054820-voxel">https://jacobzelko.com/11302020054820-voxel</a>. November 30 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

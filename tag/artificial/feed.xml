@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>1900 CE<ol><li>1980 - 1989 CE</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>1900 CE<ol><li>1980 - 1989 CE</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="1900_ce">1900 CE</h3>
 <h4 id="1980_-_1989_ce">1980 - 1989 CE</h4>
 <ul>
@@ -49,8 +49,9 @@
 <li><p>1989 - Yann LeCun develops handwriting recognition</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Artificial Intelligence Timeline</em>. <a href="https://jacobzelko.com/02152021024738-artificial-intelligence-timeline">https://jacobzelko.com/02152021024738-artificial-intelligence-timeline</a>. February 14 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

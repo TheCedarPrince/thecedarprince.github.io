@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>X. Li et al., &quot;Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information,&quot; PLoS Biol, vol. 15, no. 1, p. e2001402, Jan. 2017, doi: 10.1371/journal.pbio.2001402.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Goals</li><li>Population Details</li><li>Usage of Wearables</li><li>Lyme Disease Found in Subject 1</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Goals</li><li>Population Details</li><li>Usage of Wearables</li><li>Lyme Disease Found in Subject 1</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="goals">Goals</h3>
 <ol>
 <li><p>Record real-time physiological data</p>
@@ -104,8 +104,9 @@
 <pre><code class="language-julia">- Detected before typical bull&#39;s rash manifestation
 - It was reported that SpO2 and HR was most important for alerting of Lyme Disease
 - Strong and repeated signals in change of heart algorithm were detected during Lyme Disease</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information</em>. <a href="https://jacobzelko.com/01112022214236-tracking-physiomes">https://jacobzelko.com/01112022214236-tracking-physiomes</a>. January 11 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -153,7 +154,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The term <em>EDA</em> is often used synonymously in academic literature to refer to its usage as a non-invasive biomarker to investigate physiological arousal. EDA is generally recorded using two small electrodes and are usually &#91;1&#93;, &#91;2&#93; can be placed on the:</p>
 <ul>
 <li><p>Fingers</p>
@@ -164,8 +165,9 @@
 </li>
 </ul>
 <p>These electrodes complete a circuit across the skin – the skin acts as a variable resistor – and then <a href="https://jacobzelko.com/03242020003215-eda-explained.md">measure changes in skin conductance</a> &#40;see note for more information on what variables EDA monitors&#41;. After the EDA signal is collected from the electrodes, the signal is typically &#40;by convention&#41; decomposed into skin conductance level <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">SCL</a> and skin conductance responses <a href="https://jacobzelko.com/04092020162632-skin-response.md">SCR</a> &#40;click links to see definitions of both&#41;.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>EDA as a Biomarker</em>. <a href="https://jacobzelko.com/04092020153616-eda-biomarker">https://jacobzelko.com/04092020153616-eda-biomarker</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;2&#93; M. van Dooren, J. H. Janssen, et al., “Emotional sweating across the body: Comparing 16 different skin conductance measurement locations,” Physiol. Behav., vol. 106, no. 2, pp. 298–304, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -215,10 +217,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Generally Skin Conductance Level &#40;SCL&#41; entails the slow onset of changes in a continuous stream of Electrodermal Activity data.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is Skin Conductance Level?</em>. <a href="https://jacobzelko.com/04092020161622-skin-conductance">https://jacobzelko.com/04092020161622-skin-conductance</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -266,7 +269,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>EDA artifacts can come from the electrodes used to collect EDA data &#91;1&#93;–&#91;3&#93;; examples being:</p>
 <ul>
 <li><p>Inconsistent pressure of the electrode to the skin</p>
@@ -279,8 +282,9 @@
 </li>
 </ul>
 <p>Overloading a device that records EDA signals is a special kind of artifact called &quot;bridging&quot; or &quot;saturation&quot;. &#91;4&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Common Causes of Artifact in EDA Signals</em>. <a href="https://jacobzelko.com/03272020061037-eda-artifacts">https://jacobzelko.com/03272020061037-eda-artifacts</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; C. Tronstad, G. K. Johnsen, S. Grimnes, and Ø. G. Martinsen, “A study on electrode gels for skin conductance measurements,” Physiol. Meas., vol. 31, no. 10, p. 1395, 2010.</p>
 <p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, 2015, pp. 1934–1937, doi: 10.1109/EMBC.2015.7318762.</p>
 <p>&#91;3&#93; I. R. Kleckner et al., “Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,” IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>

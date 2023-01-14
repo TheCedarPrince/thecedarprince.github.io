@@ -40,10 +40,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Primary to treating SARS-CoV was the use of ventilator machines. Treatments such as steroidals remain controversial regarding their effect on SARS patients. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Treatments for SARS-CoV</em>. <a href="https://jacobzelko.com/07122020195122-sars-cov-treatments">https://jacobzelko.com/07122020195122-sars-cov-treatments</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

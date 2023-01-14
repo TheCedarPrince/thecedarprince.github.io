@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Drugs by Name</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Drugs by Name</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="setting_up_environment">Setting Up Environment</h3>
 <h4 id="installation_requirements">Installation Requirements</h4>
 <p>We install the OHDSI dummy database, <code>Eunomia</code>, to write our queries:</p>
@@ -63,8 +63,9 @@ connection &lt;- connect&#40;connectionDetails&#41;</code></pre>
 <p>And then we can run our SQL query and return the results as follows:</p>
 <pre><code class="language-julia">result &lt;- renderTranslateQuerySql&#40;connection, sql,cdm &#61;&quot;main&quot;&#41;
 knitr::kable&#40;result&#41;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Exploring Drug Concepts by Name</em>. <a href="https://jacobzelko.com/07282021211226-drug-concepts">https://jacobzelko.com/07282021211226-drug-concepts</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

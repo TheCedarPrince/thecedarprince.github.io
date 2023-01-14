@@ -40,10 +40,11 @@
 <h1>Bibliography</h1>
 <p>J. Hernandez, R. R. Morris, and R. W. Picard, &quot;Call Center Stress Recognition with Person-Specific Models,&quot; in Affective Computing and Intelligent Interaction, vol. 6974, S. D’Mello, A. Graesser, B. Schuller, and J.-C. Martin, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 2011, pp. 125–134.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>They had a small cohort of nine individuals working at a call center using skin conductance sensors to measure EDA. They used exponential smoothing and chose a smoothing factor, \(\alpha\), of \(0.8\) – it was unclear why this was chosen. They also elected to normalize the skin conductance signals on each individual between \(0\) and \(1\) to reduce variability between the cohort members. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Call Center Stress Recognition with Person-Specific Models</em>. <a href="https://jacobzelko.com/03272020083421-call-center">https://jacobzelko.com/03272020083421-call-center</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>General Recommendations</li><li>State Specific Recommendations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>General Recommendations</li><li>State Specific Recommendations</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="general_recommendations">General Recommendations</h3>
 <p><a href="https://jacobzelko.com/08032021205910-establish-apcd.md">Organizers should appeal to policymakers and primary users by showing data-driven decision making on key issues</a></p>
 <h3 id="state_specific_recommendations">State Specific Recommendations</h3>
@@ -48,8 +48,9 @@
 <li><p><a href="https://jacobzelko.com/08032021211753-virginia-apcd.md">Virginia</a></p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Recommendations for Creating a New All-Payers Claim Database</em>. <a href="https://jacobzelko.com/08032021211415-apcd-recommendations">https://jacobzelko.com/08032021211415-apcd-recommendations</a>. August 3 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

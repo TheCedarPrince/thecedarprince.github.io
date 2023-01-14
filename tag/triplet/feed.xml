@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What Are RDF Triplets?</li><li>What Are Examples of RDF Triplets?</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What Are RDF Triplets?</li><li>What Are Examples of RDF Triplets?</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>The Resource Description Framework &#40;RDF&#41; is a family of specifications created by the World Wide Web Consortium &#40;W3C&#41; and formally adopted by W3C in 1999. Data mapped into the RDF form into triplets called <em>RDF statements</em> &#40;also known as Semantic Triplets&#41;.</p>
 <h3 id="what_are_rdf_triplets">What Are RDF Triplets?</h3>
 <p>These triplets, or statements, are comprised of three components called the <em>subject</em>, the <em>predicate</em>, and the <em>object</em>. In summary, these components are described as:</p>
@@ -81,8 +81,9 @@
 ocean --is colored--&gt; blue
 grass --is colored--&gt; green</code></pre>
 <p>The RDF triples &quot;The sky is colored blue.&quot;, &quot;Grass is colored green.&quot;, and &quot;The ocean is colored blue&quot; can all be represented as a Directed Multigraph \(G\). The nodes \(sky\), \(ocean\), and \(grass\) are <strong>Subjects</strong>, the nodes \(blue\) and \(green\) are <strong>Objects</strong>, and the edge \(is colored\) is the <strong>Predicate</strong> in these RDF triple.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Overview of the Resource Description Framework &#40;RDF&#41;</em>. <a href="https://jacobzelko.com/02182022165447-rdf-overview">https://jacobzelko.com/02182022165447-rdf-overview</a>. February 18 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

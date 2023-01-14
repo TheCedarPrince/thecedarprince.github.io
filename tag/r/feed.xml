@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Drugs by Name</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Drugs by Name</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="setting_up_environment">Setting Up Environment</h3>
 <h4 id="installation_requirements">Installation Requirements</h4>
 <p>We install the OHDSI dummy database, <code>Eunomia</code>, to write our queries:</p>
@@ -63,8 +63,9 @@ connection &lt;- connect&#40;connectionDetails&#41;</code></pre>
 <p>And then we can run our SQL query and return the results as follows:</p>
 <pre><code class="language-julia">result &lt;- renderTranslateQuerySql&#40;connection, sql,cdm &#61;&quot;main&quot;&#41;
 knitr::kable&#40;result&#41;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Exploring Drug Concepts by Name</em>. <a href="https://jacobzelko.com/07282021211226-drug-concepts">https://jacobzelko.com/07282021211226-drug-concepts</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -112,7 +113,7 @@ knitr::kable&#40;result&#41;</code></pre>
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Ancestors from OHDSI</li><li>Querying Descendants from OHDSI</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Setting Up Environment<ol><li>Installation Requirements</li><li>Making Connection to Eunomia</li><li>Querying Ancestors from OHDSI</li><li>Querying Descendants from OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="setting_up_environment">Setting Up Environment</h3>
 <h4 id="installation_requirements">Installation Requirements</h4>
 <p>We install the OHDSI dummy database, <code>Eunomia</code>, to write our queries:</p>
@@ -150,8 +151,9 @@ knitr::kable&#40;result&#41;</code></pre>
 <p>And then we can run our SQL query and return the results as follows:</p>
 <pre><code class="language-julia">result &lt;- renderTranslateQuerySql&#40;connection, sql,cdm &#61;&quot;main&quot;&#41;
 knitr::kable&#40;result&#41;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Exploring Ancestors and Descendants of a Concept</em>. <a href="https://jacobzelko.com/07282021202459-exploring-ancestors-concept">https://jacobzelko.com/07282021202459-exploring-ancestors-concept</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -199,13 +201,14 @@ knitr::kable&#40;result&#41;</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Loading Files</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Loading Files</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="loading_files">Loading Files</h3>
 <p>To load in files via the R REPL, do:</p>
 <pre><code class="language-r">source&#40;&quot;name_of_file.R&quot;&#41;</code></pre>
 <p>This updates the state of the session and brings into the current session any variables defined within the file.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Manipulating Files in R</em>. <a href="https://jacobzelko.com/02082021203741-R-file-manipulation">https://jacobzelko.com/02082021203741-R-file-manipulation</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -253,7 +256,7 @@ knitr::kable&#40;result&#41;</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>General Workflow When Working with <code>renv</code></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>General Workflow When Working with <code>renv</code></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_workflow_when_working_with_renv">General Workflow When Working with <code>renv</code></h3>
 <ol>
 <li><p>Call <code>renv::init&#40;&#41;</code> to initialize a new project-local environment with a private R library,</p>
@@ -267,8 +270,9 @@ knitr::kable&#40;result&#41;</code></pre>
 <li><p>Call <code>renv::snapshot&#40;&#41;</code> again to save the state of your project library if your attempts to update R packages were successful, or call <code>renv::restore&#40;&#41;</code> to revert to the previous state as encoded in the lockfile if your attempts to update packages introduced some new problems.</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>renv - Reproducible Environments in R</em>. <a href="https://jacobzelko.com/02082021205610-renv-package">https://jacobzelko.com/02082021205610-renv-package</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -316,7 +320,7 @@ knitr::kable&#40;result&#41;</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading and Loading Files</li><li>Packages</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading and Loading Files</li><li>Packages</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="reading_and_loading_files">Reading and Loading Files</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/02082021203741-R-file-manipulation.md">File manipulation</a></p>
@@ -327,8 +331,9 @@ knitr::kable&#40;result&#41;</code></pre>
 <li><p><a href="https://jacobzelko.com/02082021205610-renv-package.md">renv</a> - Useful state of the art package for reproducing R projects.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Programming in R</em>. <a href="https://jacobzelko.com/02082021203324-r-programming">https://jacobzelko.com/02082021203324-r-programming</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

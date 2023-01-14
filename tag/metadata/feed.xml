@@ -40,10 +40,11 @@
 <h1>Bibliography</h1>
 <p>W3C, &quot;RDF 1.1 Concepts and Abstract Syntax.&quot; https://www.w3.org/TR/rdf11-concepts/ &#40;accessed Feb. 18, 2022&#41;.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>The Resource Description Framework &#40;RDF&#41; is a family of specifications created by the World Wide Web Consortium &#40;W3C&#41; and formally adopted by W3C in 1999. The RDF specification was originally created by the as a data model for managing and storing metadata found on the internet. In recent years, it has become a general framework for web resource tooling and provides an abstract model that can be used in multiple serialization formats.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>History of the RDF</em>. <a href="https://jacobzelko.com/02182022164256-rdf-history">https://jacobzelko.com/02182022164256-rdf-history</a>. February 18 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -91,7 +92,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/02182022164256-rdf-history.md">History of the RDF</a> - Very brief history of the RDF</p>
 </li>
@@ -102,8 +103,9 @@
 <li><p><a href="https://jacobzelko.com/02182022190950-rdf-acset-representation.md">How To Imagine an RDF as an ACSet</a> - How RDFs can be conceptualized as an ACSet</p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Resource Description Framework &#40;RDF&#41; Explained</em>. <a href="https://jacobzelko.com/01282022220116-resource-description-framework">https://jacobzelko.com/01282022220116-resource-description-framework</a>. January 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

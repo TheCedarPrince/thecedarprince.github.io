@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>The term <em>EDA</em> is often used synonymously in academic literature to refer to its usage as a non-invasive biomarker to investigate physiological arousal. EDA is generally recorded using two small electrodes and are usually &#91;1&#93;, &#91;2&#93; can be placed on the:</p>
 <ul>
 <li><p>Fingers</p>
@@ -51,8 +51,9 @@
 </li>
 </ul>
 <p>These electrodes complete a circuit across the skin – the skin acts as a variable resistor – and then <a href="https://jacobzelko.com/03242020003215-eda-explained.md">measure changes in skin conductance</a> &#40;see note for more information on what variables EDA monitors&#41;. After the EDA signal is collected from the electrodes, the signal is typically &#40;by convention&#41; decomposed into skin conductance level <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">SCL</a> and skin conductance responses <a href="https://jacobzelko.com/04092020162632-skin-response.md">SCR</a> &#40;click links to see definitions of both&#41;.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>EDA as a Biomarker</em>. <a href="https://jacobzelko.com/04092020153616-eda-biomarker">https://jacobzelko.com/04092020153616-eda-biomarker</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;2&#93; M. van Dooren, J. H. Janssen, et al., “Emotional sweating across the body: Comparing 16 different skin conductance measurement locations,” Physiol. Behav., vol. 106, no. 2, pp. 298–304, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -102,10 +103,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Generally Skin Conductance Level &#40;SCL&#41; entails the slow onset of changes in a continuous stream of Electrodermal Activity data.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is Skin Conductance Level?</em>. <a href="https://jacobzelko.com/04092020161622-skin-conductance">https://jacobzelko.com/04092020161622-skin-conductance</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -153,7 +155,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Skin conductance response &#40;SCR&#41; are the fast portions found in the decomposition of the EDA signal. They are then superimposed onto the <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">Skin Conductance Level</a> &#40;click link to see what the SCL is&#41;.</p>
 <p>Conventionally &#91;1&#93;–&#91;3&#93;, SCR is classified via the following criterion:</p>
 <ul>
@@ -162,8 +164,9 @@
 <li><p>Immediately after this increase, there should be seen a gradual decrease in EDA over \(3 - 15\) seconds to what value &#40;or <em>level</em>&#41; was recorded before the SCR event</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is Skin Conductance Response?</em>. <a href="https://jacobzelko.com/04092020162632-skin-response">https://jacobzelko.com/04092020162632-skin-response</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; M. E. Dawson, A. M. Schell, and D. L. Filion, “The electrodermal system.” 2017.</p>
 <p>&#91;2&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;3&#93; F. H. Wilhelm and W. T. Roth, “Ambulatory assessment of clinical anxiety,” Ambul. Assess. Comput.-Assist. Psychol. Psychophysiological Methods Monit. Field Stud., pp. 317–345, 1996.</p>
@@ -214,7 +217,7 @@
 <h1>Bibliography</h1>
 <p>I. R. Kleckner et al., &quot;Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,&quot; IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Rule-based Algorithm<ol><li>Notes on Algorithm Rules</li></ol></li><li>Misc Notes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Rule-based Algorithm<ol><li>Notes on Algorithm Rules</li></ol></li><li>Misc Notes</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="rule-based_algorithm">Rule-based Algorithm</h3>
 <p>The authors also decided to create a very simple rule-based algorithm in an effort to make results easily reproducible and understandable to researchers of differing backgrounds. This algorithm for assessing data quality was as is follows:</p>
 <table><tr><th align="center">Number</th><th align="center">Rule</th><th align="center">Rationale</th></tr><tr><td align="center">1</td><td align="center">EDA is not within the range of \(0.05 - 60 \mu S\)</td><td align="center">Prevent &quot;floor&quot; and &quot;ceiling&quot; artifacts</td></tr><tr><td align="center">2</td><td align="center">EDA fluctuates too fast \((+/- 10 \frac{\mu S}{second})\)</td><td align="center">To prevent &quot;jump&quot; artifacts</td></tr><tr><td align="center">3</td><td align="center">Temperature not within 30-40 \(C\)</td><td align="center">Preserve best accuracy of data</td></tr><tr><td align="center">4</td><td align="center">EDA data within \(5\) sec of invalid sections</td><td align="center">Invalid sections based on rules \(1-3\)</td></tr></table>
@@ -230,8 +233,9 @@
 <li><p>Used 181 hours worth of data collected from children and adolescents with autism in an at-home environment.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</em>. <a href="https://jacobzelko.com/04092020195141-transparent-eda-data">https://jacobzelko.com/04092020195141-transparent-eda-data</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
 <p>&#91;2&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;3&#93; F. H. Wilhelm and W. T. Roth, “Ambulatory assessment of clinical anxiety,” Ambul. Assess. Comput.-Assist. Psychol. Psychophysiological Methods Monit. Field Stud., pp. 317–345, 1996.</p>
@@ -282,7 +286,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>EDA artifacts can come from the electrodes used to collect EDA data &#91;1&#93;–&#91;3&#93;; examples being:</p>
 <ul>
 <li><p>Inconsistent pressure of the electrode to the skin</p>
@@ -295,8 +299,9 @@
 </li>
 </ul>
 <p>Overloading a device that records EDA signals is a special kind of artifact called &quot;bridging&quot; or &quot;saturation&quot;. &#91;4&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Common Causes of Artifact in EDA Signals</em>. <a href="https://jacobzelko.com/03272020061037-eda-artifacts">https://jacobzelko.com/03272020061037-eda-artifacts</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; C. Tronstad, G. K. Johnsen, S. Grimnes, and Ø. G. Martinsen, “A study on electrode gels for skin conductance measurements,” Physiol. Meas., vol. 31, no. 10, p. 1395, 2010.</p>
 <p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, 2015, pp. 1934–1937, doi: 10.1109/EMBC.2015.7318762.</p>
 <p>&#91;3&#93; I. R. Kleckner et al., “Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,” IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
@@ -348,10 +353,11 @@
 <h1>Bibliography</h1>
 <p>J. Hernandez, R. R. Morris, and R. W. Picard, &quot;Call Center Stress Recognition with Person-Specific Models,&quot; in Affective Computing and Intelligent Interaction, vol. 6974, S. D’Mello, A. Graesser, B. Schuller, and J.-C. Martin, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 2011, pp. 125–134.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>They had a small cohort of nine individuals working at a call center using skin conductance sensors to measure EDA. They used exponential smoothing and chose a smoothing factor, \(\alpha\), of \(0.8\) – it was unclear why this was chosen. They also elected to normalize the skin conductance signals on each individual between \(0\) and \(1\) to reduce variability between the cohort members. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Call Center Stress Recognition with Person-Specific Models</em>. <a href="https://jacobzelko.com/03272020083421-call-center">https://jacobzelko.com/03272020083421-call-center</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

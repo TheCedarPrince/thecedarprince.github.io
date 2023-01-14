@@ -173,7 +173,7 @@ end</code></pre>
 <h1>Bibliography</h1>
 <p>https://github.com/medwatt/Notes/blob/main/Lua/Lua<em>Quick</em>Guide.ipynb</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Comments</li><li>Variable Scope<ol><li>Global Scope</li><li>Local Scope</li></ol></li><li>Variable Assignments</li><li>Variable Types</li><li>Math Operators</li><li>Relational Operators</li><li>Logical Operators</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Comments</li><li>Variable Scope<ol><li>Global Scope</li><li>Local Scope</li></ol></li><li>Variable Assignments</li><li>Variable Types</li><li>Math Operators</li><li>Relational Operators</li><li>Logical Operators</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I wanted to learn Lua for no other reason than to program my own workflow in neovim. Also, Lua is cool and Just-in-Time compiled like Julia&#33; Plus, it is used for game development so if ever this research thing doesn&#39;t work out, backup plan: become a game developer.</p>
 <h3 id="comments">Comments</h3>
@@ -258,8 +258,9 @@ print&#40;nil and 10&#41; -- evaluates to &#96;nil&#96;
 print&#40;nil or 10&#41; -- evaluates to &#96;10&#96;
 print&#40;false and nil&#41; -- evaluates to &#96;false&#96;
 print&#40;false and not&#40;nil&#41;&#41; -- evaluates to &#96;false&#96;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>A Beginner&#39;s to Master&#39;s Guide in Learning Lua</em>. <a href="https://jacobzelko.com/10012022184345-learning-lua">https://jacobzelko.com/10012022184345-learning-lua</a>. October 1 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -307,7 +308,7 @@ print&#40;false and not&#40;nil&#41;&#41; -- evaluates to &#96;false&#96;</code>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>General Guide</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>General Guide</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_guide">General Guide</h3>
 <p>This is from Fredrik Ekre at the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
 <p>LanguageServer is somewhat slow to start so it is very useful to use a custom sysimage using PackageCompiler to reduce this time. On my machine I get the first response after 20&#43; seconds, but with a custom sysimage I can execute LS commands instantaneously.</p>
@@ -472,8 +473,9 @@ endef</code></pre>
 <li><p>Enjoy the Julia LSP&#33;</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Setting Up Julia LSP for Neovim</em>. <a href="https://jacobzelko.com/08312022162228-julia-lsp-setup">https://jacobzelko.com/08312022162228-julia-lsp-setup</a>. August 31 2022.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -521,12 +523,13 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>The definition of pure is somewhat of a moving target. Pure can mean many things and when applied to programming functions - even more so. Based on querying the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/can-programming-in-julia-be-pure/71165">Julia community</a>, here was what I understood pure functions to be.</p>
 <p>Based on Milewski&#39;s definition, &quot;A pure function is one in which the same result is always produced with no side effects given the same input.&quot; &#91;1&#93; <a href="https://jacobzelko.com/https://github.com/CameronBieganek">Cameron Bieganek</a> explained how, in Julia specifically, you can write functions that are &quot;probably&quot; pure. However, there is no real guarantee that a function is actually pure, because it depends on the various methods that have been implemented. I like the notion of &quot;probably&quot; pure as it encapsulates a more pragmatic approach to the internals of a given language. It lets one get away without having to necessarily be completely aware of all the internals when discussing purity.</p>
 <p>Finally, pure functions are different from mathematical functions for the reason that mathematical functions map a value to another value. Pure functions written in a programming language involve more than just a mapping. &#91;1&#93;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Pure Functions in Programming</em>. <a href="https://jacobzelko.com/11082021225843-pure-functions">https://jacobzelko.com/11082021225843-pure-functions</a>. November 8 2021.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; B. Milewski, Category Theory for Programmers, Version v1.3.0-0-g6bb0bc0. 2019.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -575,7 +578,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="packages">Packages</h3>
 <p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library.md">Prelude</a> - Haskell&#39;s Standard Library</p>
 <h3 id="functions">Functions</h3>
@@ -647,8 +650,9 @@ f1 ◦ f2</code></pre>
 <p>Haskell defines extensional equality loosely where</p>
 <pre><code class="language-haskell">mappend s1 s2 &#61; &#40;&#43;&#43;&#41; s1 s2</code></pre>
 <p>is saying that the output of the function of the left is equivalent to the output of the function on the right. This is also known as point-wise equality as the arguments &#40;points&#41; are defined.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Notes on Programming in Haskell</em>. <a href="https://jacobzelko.com/11032021155827-haskell-programming">https://jacobzelko.com/11032021155827-haskell-programming</a>. November 3 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -696,7 +700,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Paradigm</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Paradigm</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="paradigm">Paradigm</h3>
 <p>The approach of asking programming questions that functional programmers take is much more overarching. &#91;1&#93; Examples are:</p>
 <ol>
@@ -706,8 +710,9 @@ f1 ◦ f2</code></pre>
 </li>
 </ol>
 <p>To a functional programmer, the essence of programming, per Milewski, is to take big problems and decompose them into smaller problems. Then create small solutions that can then be composed together to solve the big problem. &#91;1&#93;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Functional Programming</em>. <a href="https://jacobzelko.com/11032021180434-functional-programming">https://jacobzelko.com/11032021180434-functional-programming</a>. November 3 2021.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; B. Milewski, Category Theory for Programmers, Version v1.3.0-0-g6bb0bc0. 2019.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -756,15 +761,16 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Identity Function</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="identity_function">Identity Function</h3>
 <p><code>id</code> returns the argument it is given:</p>
 <pre><code class="language-haskell">-- Using Prelude to declare the identity function
 -- &#96;a&#96; is a type variable and stands in for all types
 id :: a -&gt; a-- Definition of the function
 id x &#61; x</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Prelude - Haskell&#39;s Standard Library</em>. <a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">https://jacobzelko.com/11032021171123-prelude-haskell-library</a>. November 3 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -812,13 +818,14 @@ id x &#61; x</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Loading Files</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Loading Files</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="loading_files">Loading Files</h3>
 <p>To load in files via the R REPL, do:</p>
 <pre><code class="language-r">source&#40;&quot;name_of_file.R&quot;&#41;</code></pre>
 <p>This updates the state of the session and brings into the current session any variables defined within the file.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Manipulating Files in R</em>. <a href="https://jacobzelko.com/02082021203741-R-file-manipulation">https://jacobzelko.com/02082021203741-R-file-manipulation</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -866,7 +873,7 @@ id x &#61; x</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>General Workflow When Working with <code>renv</code></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>General Workflow When Working with <code>renv</code></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_workflow_when_working_with_renv">General Workflow When Working with <code>renv</code></h3>
 <ol>
 <li><p>Call <code>renv::init&#40;&#41;</code> to initialize a new project-local environment with a private R library,</p>
@@ -880,8 +887,9 @@ id x &#61; x</code></pre>
 <li><p>Call <code>renv::snapshot&#40;&#41;</code> again to save the state of your project library if your attempts to update R packages were successful, or call <code>renv::restore&#40;&#41;</code> to revert to the previous state as encoded in the lockfile if your attempts to update packages introduced some new problems.</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>renv - Reproducible Environments in R</em>. <a href="https://jacobzelko.com/02082021205610-renv-package">https://jacobzelko.com/02082021205610-renv-package</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -929,7 +937,7 @@ id x &#61; x</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading and Loading Files</li><li>Packages</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading and Loading Files</li><li>Packages</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="reading_and_loading_files">Reading and Loading Files</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/02082021203741-R-file-manipulation.md">File manipulation</a></p>
@@ -940,8 +948,9 @@ id x &#61; x</code></pre>
 <li><p><a href="https://jacobzelko.com/02082021205610-renv-package.md">renv</a> - Useful state of the art package for reproducing R projects.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Programming in R</em>. <a href="https://jacobzelko.com/02082021203324-r-programming">https://jacobzelko.com/02082021203324-r-programming</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -989,7 +998,7 @@ id x &#61; x</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <pre><code class="language-julia">function is_leap_year&#40;year&#41;
     if &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;
         return true
@@ -1000,8 +1009,9 @@ id x &#61; x</code></pre>
 <pre><code class="language-julia">julia&gt; is_leap_year&#40;year&#41; &#61; &#40;year &#37; 4 &#61;&#61; 0&#41; &amp;&amp; &#33;&#40;year &#37; 100 &#61;&#61; 0&#41; || &#40;year &#37; 400 &#61;&#61; 0&#41;julia&gt; is_leap_year&#40;1995&#41;
 false</code></pre>
 <p>This works because Julia performs implicit returns in their functions by returning the result of the function&#39;s last evaluated expression.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Implicit Returns</em>. <a href="https://jacobzelko.com/05192020171152-implicit-return">https://jacobzelko.com/05192020171152-implicit-return</a>. May 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1049,13 +1059,14 @@ false</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>I read a Q&amp;A article on Barbara Liskov &#91;1&#93; and the author made a very interesting comparison between Liskov&#39;s work of designing paradigms for creating well structured and crafted code with that of a Poet or Novelist. I have heard of comparisons like this before but I was quite intrigued by the latter – a programmer being compared to a writer. What piqued my interest the most about the article was the following statement,</p>
 <p>&quot;As a computer scientist thinking about code, Liskov had no physical objects to work with. Like a novelist or a poet, <em>she was staring at a blank page</em>.&quot; &#40;emphasis added&#41;</p>
 <p>The end of that statement, &quot;<em>blank page</em>&quot;, reminded me of the book <em>How to Take Smart Notes</em> &#91;2&#93; and my note on the book where Ahrens essentially believes that starting with a <a href="https://jacobzelko.com/03292020180520-smart-notes.md">blank page is the wrong idea in writing</a>. I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the <a href="https://jacobzelko.com/03092020031549-zettelkasten.md">Zettelkasten method</a> where, according to its <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">principles</a>, each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?</p>
 <p>Upon reflection upon this note some time later, I think I was thinking about the concept of composition and composition of software&#33;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Global Programming Paradigm</em>. <a href="https://jacobzelko.com/04182020162028-global-programming">https://jacobzelko.com/04182020162028-global-programming</a>. April 18 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” &#91;Online&#93;. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. &#91;Accessed: 18-Apr-2020&#93;.</p>
 <p>&#91;2&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>

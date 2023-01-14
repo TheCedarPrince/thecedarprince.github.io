@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>T. Y. Sun, S. Bhave, J. Altosaar, and N. Elhadad, “Assessing Phenotype Definitions for Algorithmic Fairness,” arXiv:2203.05174 &#91;cs, q-bio&#93;, Mar. 2022, Accessed: Apr. 29, 2022. &#91;Online&#93;. Available: http://arxiv.org/abs/2203.05174</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Purpose of Paper</li><li>Definitions</li><li>Types of Biases Found in Phenotyping</li><li>Common Fairness Metrics</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Purpose of Paper</li><li>Definitions</li><li>Types of Biases Found in Phenotyping</li><li>Common Fairness Metrics</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I wanted to read this article as it was highly recommended to me by my friend, Jaan Altosaar, one of the coauthors of this piece. I was very interested in the methods they used and the approach they took to address fairness in phenotypes as although I had heard about discrepancies in phenotypes, this was a bit of a watershed paper to read in my mind exposing how phenotyping can be so skewed. Really fantastic paper and will be returning to it.</p>
 <h3 id="purpose_of_paper">Purpose of Paper</h3>
@@ -70,8 +70,9 @@ P_0(Y=1 \mid \hat{Y}=1)=P_1(Y=1 \mid \hat{Y}=1)
 \[
 P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Assessing Phenotype Definitions for Algorithmic Fairness</em>. <a href="https://jacobzelko.com/08122022205622-assessing-phenotype-fairness">https://jacobzelko.com/08122022205622-assessing-phenotype-fairness</a>. August 12 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

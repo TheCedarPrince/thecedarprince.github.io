@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="selecting_notes_for_a_zettelkasten">Selecting Notes for a Zettelkasten</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/03302020005409-note-criteria.md">Criteria for Creating a Note in the Zettelkasten</a></p>
@@ -56,8 +56,9 @@
 - **Rationale:** Zettelkastens should be antifragile -- i.e. they thrive off of disorder and chaos and adapt to it meaningfully.</code></pre>
 <h3 id="a_href03092020031618-zettelkasten-principlesmdprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></h3>
 <pre><code class="language-julia">- **Summary:** General principles on how to create and use a Zettelkasten</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Zettelkasten</em>. <a href="https://jacobzelko.com/03092020031549-zettelkasten">https://jacobzelko.com/03092020031549-zettelkasten</a>. December 2 2022.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -105,11 +106,12 @@
 <h1>Bibliography</h1>
 <p>Not available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>The idea of the &quot;Aware Home&quot; was created by Kidd et. al. &#91;1&#93; in 1999. As they wrote in their paper, <a href="https://jacobzelko.com/03092020035135-kidd-aware-home"><em>The Aware Home: A Living Laboratory for Ubiquitous Computing Research</em></a>,</p>
 <p>One of the first examples of an &quot;Aware Home&quot; is the <em>Georgia Tech Aware Home</em></p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Aware Homes</em>. <a href="https://jacobzelko.com/03092020033420-aware-homes">https://jacobzelko.com/03092020033420-aware-homes</a>. December 2 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -158,7 +160,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Workable Definitions of Intersectionality</li><li>Why Are Intersectional Approaches Needed?</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Workable Definitions of Intersectionality</li><li>Why Are Intersectional Approaches Needed?</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>Intersectionality and intersectionality theory is a really cool emerging area of research within health research. Wanted to create this note to summarize intersectionality ideas.</p>
 <h3 id="workable_definitions_of_intersectionality">Workable Definitions of Intersectionality</h3>
@@ -172,8 +174,9 @@
 <li><p><a href="https://jacobzelko.com/11042022134535-structural-intersectionality.md">Structural Intersectionality as a New Direction for Health Disparities Research</a> - An introduction to intersectionality theory and medical sociological ideas at play within health disparities research</p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is Intersectionality and Intersectionality Theory?</em>. <a href="https://jacobzelko.com/11042022141714-what-intersectionality-theory">https://jacobzelko.com/11042022141714-what-intersectionality-theory</a>. November 4 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -221,7 +224,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics of a Fiber Product</li><li>Basics of the Pullback</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics of a Fiber Product</li><li>Basics of the Pullback</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>Pullbacks are a central part to category theory so naturally, I would like to know more about them&#33;</p>
 <h3 id="basics_of_a_fiber_product">Basics of a Fiber Product</h3>
@@ -249,8 +252,9 @@ X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
 <p>Suppose we have the diagram of sets and functions:</p>
 <p>W -pi<em>&#123;1&#125;-&gt; X -f-&gt; Z &lt;-g- Y &lt;-pi</em>&#123;2&#125;- W</p>
 <p>The pullback of \(X\) and \(Y\) over \(Z\) is any set \(W\) for which we have an isomorphism W -approx-&gt; X &#123;x&#125;_&#123;Z&#125; Y.  In this case, \(W\) is the pullback.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Fiber Products &#40;Pullbacks&#41;</em>. <a href="https://jacobzelko.com/10312022005339-fiber-product-pullback">https://jacobzelko.com/10312022005339-fiber-product-pullback</a>. October 30 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -298,7 +302,7 @@ X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>The Basics on the Images of Elements<ol><li>Example</li></ol></li><li>The Basics on the Images of Subsets<ol><li>Example</li></ol></li><li>The Basics on the Images of Functions<ol><li>Example</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>The Basics on the Images of Elements<ol><li>Example</li></ol></li><li>The Basics on the Images of Subsets<ol><li>Example</li></ol></li><li>The Basics on the Images of Functions<ol><li>Example</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I wanted to understand more about the ideas of images as an avenue to understand bundles.</p>
 <h3 id="the_basics_on_the_images_of_elements">The Basics on the Images of Elements</h3>
@@ -360,8 +364,9 @@ im(f) = \{f(x) | x \in X\} \subseteq Y
 im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
 \]
 <p>In this example, based on the definition we have for an \(im(f)\), the \(im(f)\) is all possible outputs that \(f\) can generate which is the <em>range</em> \(+\mathbb R\).</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Images of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10152022173643-image-of-sets">https://jacobzelko.com/10152022173643-image-of-sets</a>. October 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -409,7 +414,7 @@ im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Family of Sets</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Family of Sets</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I am having trouble reading some set theoretic notation. Hoping by gaining better familiarity with family of sets, I can understand notation better. </p>
 <h3 id="family_of_sets">Family of Sets</h3>
@@ -428,8 +433,9 @@ F
 \[
 F = \{A, B, C\} = \{\{1, 2, 3\}, \{4, 5, 6\}, \{2, 4, 6\}\}
 \]
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Family of Sets</em>. <a href="https://jacobzelko.com/09302022033236-family-sets">https://jacobzelko.com/09302022033236-family-sets</a>. September 29 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -477,7 +483,7 @@ F = \{A, B, C\} = \{\{1, 2, 3\}, \{4, 5, 6\}, \{2, 4, 6\}\}
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Topological Spaces</li><li>Examples of Topologies on a Set \(X\)<ol><li>Trivial &#40;Indiscrete&#41; Topology on \(X\)</li><li>General Topology on \(X\)</li><li>The Discrete Topology of \(X\)</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Topological Spaces</li><li>Examples of Topologies on a Set \(X\)<ol><li>Trivial &#40;Indiscrete&#41; Topology on \(X\)</li><li>General Topology on \(X\)</li><li>The Discrete Topology of \(X\)</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I wanted to learn more about algebraic topology so as to further understand the notion of cross products. Cross products are albeit a simple mechanism but I was curious to see the notion of them pop up so much. Much more so seeing the idea propagate to topologies which sparked my interested about topologies.</p>
 <h3 id="topological_spaces">Topological Spaces</h3>
@@ -533,8 +539,9 @@ X &#61; &#91;1, 2, 3, 4&#93;
 &#91;1, 3, 4&#93;,
 &#91;2, 3, 4&#93;,
 &#91;1, 2, 3, 4&#93;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is a Topological Space?</em>. <a href="https://jacobzelko.com/09172022051900-what-topology">https://jacobzelko.com/09172022051900-what-topology</a>. September 17 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -582,7 +589,7 @@ X &#61; &#91;1, 2, 3, 4&#93;
 <h1>Bibliography</h1>
 <p>David Spivak, Category Theory for Scientists, Old Version. 2013.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Disjoint Union of Sets Intuition</li><li>Coproduct of a Set and Itself</li><li>Set Theory Definition</li><li>Notation in Category Theory</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>To learn and understand the concept of coproducts within the context of category theory. Also, I came across the symbolic notation for what disjoint unions are and wanted to understand what the notation fully meant.</p>
 <h3 id="disjoint_union_of_sets_intuition">Disjoint Union of Sets Intuition</h3>
@@ -621,8 +628,9 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 \]
 <p>and \(\bigsqcup_{i \in I} X_{i}\)</p>
 <p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets.md">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Coproducts &#40;Disjoint Unions&#41;</em>. <a href="https://jacobzelko.com/09162022162129-coproducts-disjoints">https://jacobzelko.com/09162022162129-coproducts-disjoints</a>. September 16 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -670,13 +678,14 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 <h1>Bibliography</h1>
 <p>B. E. Flanagan, E. W. Gregory, E. J. Hallisey, J. L. Heitgerd, and B. Lewis, &quot;A social vulnerability index for disaster management,&quot; Journal of homeland security and emergency management, vol. 8, no. 1, 2011.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>SVI data can be retrieved from: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html</p>
 <p>For at least the 2000 version of SVI, the metric is derived from summed percentile rankings at census tract level of fifteen U.S. Census variables shown in the following table: </p>
 <table><tr><th align="left">SVI Theme</th><th align="left">Variables Included</th></tr><tr><td align="left">1. Socioeconomic Status</td><td align="left">&#37; Below Poverty Level</td></tr><tr><td align="left"></td><td align="left">&#37; Unemployed</td></tr><tr><td align="left"></td><td align="left">Per Capita Income</td></tr><tr><td align="left"></td><td align="left">&#37; Age 25 or Older with No High School</td></tr><tr><td align="left">2. Household Composition &amp;</td><td align="left">Diploma</td></tr><tr><td align="left">Disability</td><td align="left">&#37; Age 65 or Older</td></tr><tr><td align="left"></td><td align="left">&#37; Age 17 or Younger</td></tr><tr><td align="left">3. Minority Status &amp; Language</td><td align="left">&#37; Single Parent Household</td></tr><tr><td align="left"></td><td align="left">&#37; Age 5 or Older Speak English &quot;Less than</td></tr><tr><td align="left">4. Housing &amp; Transportation</td><td align="left">Well&quot;</td></tr><tr><td align="left"></td><td align="left">&#37; Multi-Unit Structures</td></tr><tr><td align="left"></td><td align="left">&#37; Mobile Homes</td></tr><tr><td align="left"></td><td align="left">&#37; Crowding &#40;More people than rooms&#41;</td></tr><tr><td align="left"></td><td align="left">&#37; Households without a Vehicle</td></tr><tr><td align="left"></td><td align="left">&#37; In Institutionalized Group Quarters</td></tr></table>
 <p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes.md">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Social Vulnerability Index</em>. <a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">https://jacobzelko.com/09082022144933-social-vulnerability-index</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -724,7 +733,7 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>General Guide</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>General Guide</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_guide">General Guide</h3>
 <p>This is from Fredrik Ekre at the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
 <p>LanguageServer is somewhat slow to start so it is very useful to use a custom sysimage using PackageCompiler to reduce this time. On my machine I get the first response after 20&#43; seconds, but with a custom sysimage I can execute LS commands instantaneously.</p>
@@ -889,8 +898,9 @@ endef</code></pre>
 <li><p>Enjoy the Julia LSP&#33;</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Setting Up Julia LSP for Neovim</em>. <a href="https://jacobzelko.com/08312022162228-julia-lsp-setup">https://jacobzelko.com/08312022162228-julia-lsp-setup</a>. August 31 2022.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -938,7 +948,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What Is Terrorism?</li><li>Goals of Terrorism</li><li>What Is Violent Radicalization</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What Is Terrorism?</li><li>Goals of Terrorism</li><li>What Is Violent Radicalization</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="what_is_terrorism">What Is Terrorism?</h3>
 <p>Terrorism is defined as the use of violence and intimidation in the pursuit of political aims. Terrorism is not an individual experience; it is violence at a population level and worthy of attention in fields focusing on socioecological understanding of social processes and human behavior <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a>. Often the threat of violence – is enough to accomplish an objective &#40;this holds true often for terrorist groups as well&#41;.</p>
 <h3 id="goals_of_terrorism">Goals of Terrorism</h3>
@@ -960,8 +970,9 @@ endef</code></pre>
 </ul>
 <h3 id="what_is_violent_radicalization">What Is Violent Radicalization</h3>
 <p>Violent radicalization the process of adopting or promoting an ideologically based violence to advance political, religious, or social change via an extremist belief system <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a>.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Definitions Concerning Terrorism</em>. <a href="https://jacobzelko.com/08282022133230-definitions-around-terrorism">https://jacobzelko.com/08282022133230-definitions-around-terrorism</a>. August 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1009,10 +1020,11 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>Jihad is a major teaching in Islam and is often confused in modern discussion of contemporary Islam. It is often simplistically translated in English to mean, &quot;holy war&quot;. However, it has a much deeper meaning relating to the notion of struggling for the sake of God.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Overview of What Is Jihad</em>. <a href="https://jacobzelko.com/08282022142544-jihad-definition">https://jacobzelko.com/08282022142544-jihad-definition</a>. August 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1060,7 +1072,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>Varying levels of social capital in a population is an important determinant of health in children, adolescents, adults, and aging populations.28,33 <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
 <p>Low levels of social capital, can be a risk factors for population health such as:</p>
 <ol>
@@ -1076,8 +1088,9 @@ endef</code></pre>
 <li><p>Bring people not alike together to create bridging networks. 29,30</p>
 </li>
 </ol>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Features of Social Capital</em>. <a href="https://jacobzelko.com/08282022135955-social-capital">https://jacobzelko.com/08282022135955-social-capital</a>. August 28 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1125,7 +1138,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>O. Wilde, The Picture of Dorian Gray. OUP Oxford, 2006.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Extreme Hedonism</li><li>Moral Collapse</li><li>On Homo-Eroticism</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Extreme Hedonism</li><li>Moral Collapse</li><li>On Homo-Eroticism</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="introduction">Introduction</h3>
 <p>This was a rather odd but enjoyable book. Even though Wilde more depicted this book as the evil and banality of hedonism taken to the extreme, it was a rather nice reminder, for me personally, that it is acceptable to enjoy life. To seek and find new experiences and adventures is perfectly fine, but as Wilde pointed out, there is a limit.</p>
 <h3 id="extreme_hedonism">Extreme Hedonism</h3>
@@ -1153,8 +1166,9 @@ endef</code></pre>
 <p>In so doing, &quot;the life that was to make his soul,&quot; was avoided and any &quot;&#91;marring of&#93; his body&quot;, Dorian was spared. This enabled him to commit even worse terrors. The murder of Basil, the blackmailing of Alan, and the ruin of many of those around him, Dorian was now fully unchained to pursue it all. Dorian&#39;s moral collapse was well and truly complete.</p>
 <h3 id="on_homo-eroticism">On Homo-Eroticism</h3>
 <p>There was a strong undercurrent of homosexuality and homo-eroticism in this book. With Basil&#39;s unreuited love for Dorian, the homosexuality here was shown rather positively. Yet, with Dorian, this was portrayed as predatory to men and youth around him. A welcome change of the oft-condemning of homosexuals in Victorian literature but rather a sort of early value judgement on what was moral and immoral homosexual behavior for that time. Most likely this was a direct commentary from Wilde himself as a bisexual person but it wove into the narrative rather well.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Picture of Dorian Gray</em>. <a href="https://jacobzelko.com/04202022021854-picture-dorian-gray">https://jacobzelko.com/04202022021854-picture-dorian-gray</a>. April 19 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1202,7 +1216,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>Knowledge is one of the most nebulous ideas known to mankind since nearly the beginning of time. What may be knowledge to one person may be useless noise to another - this encapsulates the difficulty in defining knowledge. As a result of its many possible meanings, I put forth a rather opinionated proposal for what I term the &quot;Open Knowledge Model&quot;.</p>
 <p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://jacobzelko.com/https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
@@ -1249,8 +1263,9 @@ endef</code></pre>
 <p>Written in Julia and offers parsing from Markdown notes to other target formats.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p>This standard is an active work in progress and is the product of years of experimentation.  If you find problems with this model or believe it too restrictive or unwise, please comment in the discussion or reach out to me. My hope is that this standard will co-evolve with new tools and increase the utility of any person&#39;s knowledge management system.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Open Knowledge Model</em>. <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard">https://jacobzelko.com/04172022033744-open-knowledge-standard</a>. April 16 2022.</p>
 <h2 id="references__2">References</h2>
-<h2 id="references__3">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1298,11 +1313,12 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>One such sharply divisive word is the verb &quot;mansplain,&quot; coined by Rebecca Solnit</p>
 <p>Mansplaining is not just when a man explains something to a woman in a patronizing way. It is when they do it despite there being clear signs that the woman already knows it and possibly knows it better than they do, which fits into a pattern that many women experience across their whole lives, of society generally assuming that men are more knowledgeable than women</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is Mansplaining?</em>. <a href="https://jacobzelko.com/04162022021058-mansplaining">https://jacobzelko.com/04162022021058-mansplaining</a>. April 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1350,11 +1366,12 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>Mentioned in the note <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking.md">X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</a></p>
 <p>One contentious example is body mass index, or BMI. The formula for BMI uses height and weight, so the relationship between height, weight, and BMI is defined and fixed. However, BMI is then taken as a proxy for body fat, which is then in turn taken as a proxy for healthiness, even though those relationships are not fixed or precisely definable</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Body Mass Index &#40;BMI&#41;</em>. <a href="https://jacobzelko.com/04162022022947-body-mass-index">https://jacobzelko.com/04162022022947-body-mass-index</a>. April 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1402,7 +1419,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>E. Cheng, X &#43; Y: A Mathematician’s Manifesto for Rethinking Gender. Basic Books, 2020.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Category Theory as Tool for Thinking on Gender</li><li>Congressive versus Ingressive Thinking</li><li>Conclusion</li><li>Final Thoughts</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>Category Theory as Tool for Thinking on Gender</li><li>Congressive versus Ingressive Thinking</li><li>Conclusion</li><li>Final Thoughts</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="introduction">Introduction</h3>
 <p>Eugenia Cheng takes a nuanced approach to the discussion around gender. As she references, some feminists&#39; battle cry is the phrase, &quot;Smash the patriarchy&#33;&quot;. In Cheng&#39;s idea of feminism, she instead looks for language that is less divisive and more inclusive encompassed in her saying, &quot;Let’s transform our world into a more congressively led future.&quot;</p>
 <h3 id="category_theory_as_tool_for_thinking_on_gender">Category Theory as Tool for Thinking on Gender</h3>
@@ -1425,8 +1442,9 @@ endef</code></pre>
 <p>Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the <a href="https://jacobzelko.com/07112020161337-social-determinants-health.md">social determinants of health</a> and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:</p>
 <p>&quot;The idea of a temporary abstraction also takes into account the thorny issue of intersectionality, and the need to take other forms of power imbalance into account besides those governed by gender, for example race, wealth, sexual orientation, and so on.&quot;</p>
 <p>Overall, good read&#33;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</em>. <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking">https://jacobzelko.com/04162022002725-mathematician-gender-rethinking</a>. April 15 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1474,10 +1492,11 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A rejected claim contained errors that prevented the claim from even being processed by a payer. &#91;1&#93;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Rejected Claims</em>. <a href="https://jacobzelko.com/04112022133137-rejected-claims">https://jacobzelko.com/04112022133137-rejected-claims</a>. April 11 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -1526,10 +1545,11 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>Denied claims are medical claims that an insurer determined they did not need to pay after processing. The denial can be for many reasons ranging from clerical errors in the coding or submission process to breaches of the patient-payer contract. These denied claims are sent back to the biller with an Explanation of Benefits or Electronic Remittance Advice which both explain why the claim was denied and how to potentially appeal the denial. &#91;1&#93;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Denied Claims</em>. <a href="https://jacobzelko.com/04112022133109-denied-claims">https://jacobzelko.com/04112022133109-denied-claims</a>. April 11 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -1578,7 +1598,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>W. Golding, Lord of the flies: Casebook edition. Penguin, 1987.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>I did not enjoy this book much at all. When I had finished reading it, I was left thinking to myself, &quot;that was it? This is the book so many put on a pedestal?&quot; I very much expected more for a supposed critique on the banality of man. Instead, it read a very contrived scenario that just did not feel much like life. To explain my thoughts, here are some of my findings about the book after researching the author:</p>
 <ol>
 <li><p>It has been well documented that the author used his students in experiments to test human behavior.</p>
@@ -1597,8 +1617,9 @@ endef</code></pre>
 <p>Just these three points made me think the book was awful. As the book was written to talk about how children, left to their own devices, would create society and destroy it,it is oddly moralistic. You are put in a position to watch the unfurling of this horrific story take place from an objective standpoint. But based on point one, you are not all that objective.</p>
 <p>Point two I feel is not talked about a lot but should be more. If this book is just parody then why is it treated as novel and even realistic at all? Coral Island was contrived just as Lord of the Flies is now,just in the opposite direction. Whether man falls to utopia or dystopia is not a binary choice but a sliding scale of morality That is very dependent on many factors.</p>
 <p>Also it should not be forgotten that this book is a critique on British schooling as well. That context alone should remind that this book does not parody much of life at all but a very small cross section of it. How much can be taken from British life to other modes of living is most likely minimal.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Lord of the Flies</em>. <a href="https://jacobzelko.com/04112022004224-lord-of-flies">https://jacobzelko.com/04112022004224-lord-of-flies</a>. April 10 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; J. Carey, William golding: The man who wrote lord of the flies. Faber &amp; Faber, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
@@ -1647,7 +1668,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>W. Shakespeare and others, &quot;Othello:&#91;1622&#93;,&quot; Oxford Text Archive Core Collection, 1991.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Racism and Deconstruction of the Noble Savage</li><li>Manipulation as Enigmatic Entertainment</li><li>Transcendental Love</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Racism and Deconstruction of the Noble Savage</li><li>Manipulation as Enigmatic Entertainment</li><li>Transcendental Love</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="racism_and_deconstruction_of_the_noble_savage">Racism and Deconstruction of the Noble Savage</h3>
 <p>It is surprisingly progressive in some ways I found - even by today&#39;s standards which was interesting. The racist overtones in the book were very much in your face but with the treatment of Othello, I did not find it similar to the idea of the &quot;noble savage&quot; literary idea but rather much different. Instead, it felt like Othello was treated by all other accounts either an equal or due to his experience, exempt from the racial overtures his peers had towards him generally.</p>
 <h3 id="manipulation_as_enigmatic_entertainment">Manipulation as Enigmatic Entertainment</h3>
@@ -1655,8 +1676,9 @@ endef</code></pre>
 <p>I quite liked the fact that he did not have a real motive. It drove home the pettiness of him but is not unrealistic. To me, he reminded me of a man who was very bored and his most fun was in controlling the lives of others in some way even if it meant his ruin. It has been said that the most dangerous people to watch for are those who have nothing to lose when you have every thing to lose. The think this is a very apt description of Iago as a man who has nothing but is happy to see some one lose everything.</p>
 <h3 id="transcendental_love">Transcendental Love</h3>
 <p>Finally, what has stuck with me is how much Othello and Desdemona were in love with each other. It was typical of Shakespeare to write these deep romances where the bonds between the lovers could transcend the times that the people were from. It is both saddening and interesting that the situation described here is not too dissimilar to the world we live in still. In the start of the book, you can see the bigotry at full display in the father of Desdemona which is eerily like modern discussions.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Othello</em>. <a href="https://jacobzelko.com/04102022034503-othello">https://jacobzelko.com/04102022034503-othello</a>. April 9 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1704,15 +1726,16 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Overview</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="overview">Overview</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained.md">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** What SpO2 is and their pros and cons as a biomarker</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</em>. <a href="https://jacobzelko.com/01112022215755-oxygen-saturation">https://jacobzelko.com/01112022215755-oxygen-saturation</a>. January 11 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1760,11 +1783,12 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A type of data file composed of service level payment info such as: 	- Member demographics 	- Provider info 	- Charge/Payment/Allowed info 	- Clinical diagnosis codes 	- Procedure codes </p>
 <p>This comes from non-denied adjudicated claims for each billed service.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Medical Claims Files</em>. <a href="https://jacobzelko.com/12092021205237-medical-claims-files">https://jacobzelko.com/12092021205237-medical-claims-files</a>. December 9 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1812,11 +1836,12 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A type of data file composed of service level payment info such as: 	- Member demographics 	- Provider info 	- Charge/Payment/Allowed info 	- Clinical diagnosis codes  	- Procedure codes </p>
 <p>This comes from non-denied adjudicated claims for each billed service.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Pharmacy Claims Files</em>. <a href="https://jacobzelko.com/12092021212535-dental-claims-files">https://jacobzelko.com/12092021212535-dental-claims-files</a>. December 9 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1864,11 +1889,12 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>A type of data file composed of service level payment info such as: 	- Member demographics 	- Provider info 	- Charge/Payment/Allowed info 	- National drug codes 	- Procedure codes </p>
 <p>This comes from non-denied adjudicated claims for each billed service.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Pharmacy Claims Files</em>. <a href="https://jacobzelko.com/12092021211642-pharmacy-claims-files">https://jacobzelko.com/12092021211642-pharmacy-claims-files</a>. December 9 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1916,7 +1942,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>TODO: Finish Note here</p>
 <ul>
 <li><p>Data file composed of information including</p>
@@ -1927,8 +1953,9 @@ endef</code></pre>
 - National Provider Identifiers &#40;NPI&#41;
 - Specialty codes
 - Practice locations</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Provider Files</em>. <a href="https://jacobzelko.com/12092021213017-provider-files">https://jacobzelko.com/12092021213017-provider-files</a>. December 9 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -1976,7 +2003,7 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="packages">Packages</h3>
 <p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library.md">Prelude</a> - Haskell&#39;s Standard Library</p>
 <h3 id="functions">Functions</h3>
@@ -2048,8 +2075,9 @@ f1 ◦ f2</code></pre>
 <p>Haskell defines extensional equality loosely where</p>
 <pre><code class="language-haskell">mappend s1 s2 &#61; &#40;&#43;&#43;&#41; s1 s2</code></pre>
 <p>is saying that the output of the function of the left is equivalent to the output of the function on the right. This is also known as point-wise equality as the arguments &#40;points&#41; are defined.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Notes on Programming in Haskell</em>. <a href="https://jacobzelko.com/11032021155827-haskell-programming">https://jacobzelko.com/11032021155827-haskell-programming</a>. November 3 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2097,7 +2125,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>U.S. Food and Drug Administration, &quot;Real-World Evidence.&quot; Sep. 30, 2021. Accessed: Oct. 27, 2021. &#91;Online&#93;. Available: https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Background</li><li>United States Food and Drug Administration Definitions</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Background</li><li>United States Food and Drug Administration Definitions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="background">Background</h3>
 <p>Real-World Evidence, according to Congress, is any data that concerns the use, benefits, or risks of a drug from nontraditional sources &#40;i.e. clinical trials&#41;</p>
 <h3 id="united_states_food_and_drug_administration_definitions">United States Food and Drug Administration Definitions</h3>
@@ -2121,8 +2149,9 @@ f1 ◦ f2</code></pre>
 	- Large simple trials
 	- Pragmatic trials
 	- Observational studies &#40;prospective and/or retrospective&#41;.</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Real-World Data and Real-World Evidence</em>. <a href="https://jacobzelko.com/10282021140730-real-world-evidence">https://jacobzelko.com/10282021140730-real-world-evidence</a>. October 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2170,7 +2199,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Amortized refers to the spread of costs over time.</p>
 </li>
@@ -2184,8 +2213,9 @@ f1 ◦ f2</code></pre>
 \[
 \frac{\sum{Cost_{Operations}}}{\sum{Operations}}
 \]
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Amortized Analysis</em>. <a href="https://jacobzelko.com/10052021235121-amortized-analysis">https://jacobzelko.com/10052021235121-amortized-analysis</a>. October 5 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2233,7 +2263,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Characteristics</li><li>Abstract Data Types<ol><li>List Abstract Data Type<ol><li>Minimum Required Operations</li></ol></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Definitions</li><li>Characteristics</li><li>Abstract Data Types<ol><li>List Abstract Data Type<ol><li>Minimum Required Operations</li></ol></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="definitions">Definitions</h3>
 <ul>
 <li><p><strong>Abstract Data Types</strong> - the description of a data type based on its associated behaviors and operations.</p>
@@ -2273,8 +2303,9 @@ f1 ◦ f2</code></pre>
 <li><p><code>size&#40;&#41;</code> - returns the number of <code>data</code> stored in list.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Abstract Data Types</em>. <a href="https://jacobzelko.com/10052021221736-abstract-data-types">https://jacobzelko.com/10052021221736-abstract-data-types</a>. October 5 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2322,7 +2353,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Arrays</li><li>ArrayList<ol><li>Characteristics</li><li>Definitions</li><li>Requirements</li><li><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Arrays</li><li>ArrayList<ol><li>Characteristics</li><li>Definitions</li><li>Requirements</li><li><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="arrays">Arrays</h3>
 <p>Arrays are: 	- Statically allocated &#40;they are stored in memory and do not change; values can tho&#41; 	- Contiguous blocks of memory &#40;meaning that they are stored end to end in memory&#41;</p>
 <p>They provide <a href="https://jacobzelko.com/09242021040445-asymptotic-notation.md">constant complexity</a> of \(\mathcal{O}(1)\) when accessing data at a specific index in memory.</p>
@@ -2375,8 +2406,9 @@ f1 ◦ f2</code></pre>
 - Removing examples:
 	- Removing from back of ArrayList is &#36;\mathcal&#123;O&#125;&#40;1&#41;&#36;
 	- Removing at arbitrary position in ArrayList is &#36;\mathcal&#123;O&#125;&#40;n&#41;&#36;</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Data Structures</em>. <a href="https://jacobzelko.com/10012021003603-data-structures">https://jacobzelko.com/10012021003603-data-structures</a>. September 28 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2424,7 +2456,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Recommendations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Recommendations</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="recommendations">Recommendations</h3>
 <ul>
 <li><p>Using standards made with stakeholders significantly increased use of the All Payer Claims Database</p>
@@ -2456,8 +2488,9 @@ f1 ◦ f2</code></pre>
 </li>
 </ul>
 <p>&#40;The Commonwealth Fund&#41;</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Virginia All-Payers Claim Database</em>. <a href="https://jacobzelko.com/08032021211753-virginia-apcd">https://jacobzelko.com/08032021211753-virginia-apcd</a>. August 3 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2505,13 +2538,14 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/01052021044121-arithmetic-series.md">Arithmetic Sums &amp; Series</a> - A brief overview on what arithmetic series are and some of its underlying math.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Mathematical Sums and Series</em>. <a href="https://jacobzelko.com/01042021224715-sums-series">https://jacobzelko.com/01042021224715-sums-series</a>. January 4 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2559,7 +2593,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Common Sorting Algorithms</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Common Sorting Algorithms</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="common_sorting_algorithms">Common Sorting Algorithms</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/12192020184137-insertion-sort.md">Insertion Sort</a> -</p>
@@ -2571,8 +2605,9 @@ f1 ◦ f2</code></pre>
 <li><p><a href="https://jacobzelko.com/12212020214012-selection-sort.md">Selection Sort</a> - Selection sort utilizes repeated usages of linear searches to sort an input.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Sorting Algorithms</em>. <a href="https://jacobzelko.com/12192020180920-sorting-algorithms">https://jacobzelko.com/12192020180920-sorting-algorithms</a>. December 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2620,11 +2655,12 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Voxels are 3D volumetric constructs that take as parameters three axes which serve as indices for the value stored in the 3D block at the indexed location.</p>
 <p><img src="11302020060802.png" alt="" /></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What are Voxels</em>. <a href="https://jacobzelko.com/11302020054820-voxel">https://jacobzelko.com/11302020054820-voxel</a>. November 30 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2672,7 +2708,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>In 2014, WHO found that 20&#37; of children aged 15 confirmed having self-harmed within the last year. &#91;1&#93;</p>
 <p>Self-harm is a mental illness that results in causing pain or harm to oneself. &#91;2&#93; Examples include restrictive and binge eating, cutting, hitting, scratching, burning, bleaching of an individual’s body, and other forms of self-mutilation. &#91;3&#93;</p>
 <p>Self-harm generally pertains to non-life threatening actions individuals perform to negatively impact their health. This starts with actions like cutting and wrist slashing. &#91;4&#93; It can then lead to more severe acts of injuring human body tissue &#91;5&#93; and to <a href="https://jacobzelko.com/07122020174529-indirect-self-harm.md">indirect self-harming behavior</a> such as eating disorders &#91;6&#93;</p>
@@ -2686,8 +2722,9 @@ f1 ◦ f2</code></pre>
 </li>
 </ol>
 <p>Further complicating discrete categories is that not all people that self-harm are <a href="https://jacobzelko.com/07122020192840-suicide.md">suicidal</a>. &#91;7&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is Self-Harm</em>. <a href="https://jacobzelko.com/07082020161946-self-harm">https://jacobzelko.com/07082020161946-self-harm</a>. July 8 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; C. Currie et al., “Social determinants of health and well-being among young people,” Health Behav. Sch.-Aged Child. HBSC Study Int. Rep. From, vol. 2010, p. 271, 2009.</p>
 <p>&#91;2&#93; E. D. Klonsky, “The functions of deliberate self-injury: A review of the evidence,” Clin. Psychol. Rev., vol. 27, no. 2, pp. 226–239, 2007.</p>
 <p>&#91;3&#93; M. K. Nock, “Self-injury,” Annu. Rev. Clin. Psychol., vol. 6, pp. 339–363, 2010.</p>
@@ -2742,7 +2779,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Moving Average Filters:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Moving Average Filters:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="moving_average_filters">Moving Average Filters:</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/03272020064312-exponential-smoothing.md">Exponential Smoothing</a></p>
@@ -2758,8 +2795,9 @@ f1 ◦ f2</code></pre>
 </ul>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Artifact Removal Methods</em>. <a href="https://jacobzelko.com/03272020062857-artifact-removal">https://jacobzelko.com/03272020062857-artifact-removal</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2807,7 +2845,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/03242020003215-eda-explained.md">What Is Electrodermal Activity?</a></p>
 </li>
@@ -2837,8 +2875,9 @@ f1 ◦ f2</code></pre>
 </ul>
 <pre><code class="language-julia">- **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.
 - **Rationale:** Showed useful methods on how to process EDA data of a small cohort</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Electrodermal Activity</em>. <a href="https://jacobzelko.com/03232020235136-electrodermal-activity">https://jacobzelko.com/03232020235136-electrodermal-activity</a>. March 23 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2886,7 +2925,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
 </li>
@@ -2902,8 +2941,9 @@ f1 ◦ f2</code></pre>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Get Things Done</em>. <a href="https://jacobzelko.com/03192020045854-get-things-done">https://jacobzelko.com/03192020045854-get-things-done</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -2951,7 +2991,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">Monthly Planning in a Bullet Journal</a></p>
 </li>
@@ -2967,8 +3007,9 @@ f1 ◦ f2</code></pre>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to create a daily plan when using a bullet journal.</code></pre>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Bullet Journal</em>. <a href="https://jacobzelko.com/03192020013253-bullet-journal">https://jacobzelko.com/03192020013253-bullet-journal</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -3016,13 +3057,14 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available </p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>MAC address is unique to the pi and not the SD card. One can find this information via the file located at <code>/sys/class/net/eth0/address</code>. Instead of eth0, if one uses wlan0 – we get MAC address for wireless connection. &#40;Chaitra Hegde&#41;</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Raspberry Pi</em>. <a href="https://jacobzelko.com/03102020061135-raspberry-pi">https://jacobzelko.com/03102020061135-raspberry-pi</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -3070,7 +3112,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="what_is_sars-cov-2">What is SARS-CoV-2?</h3>
 <p>The SARS-CoV-2 virus is a <a href="https://jacobzelko.com/03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
 <p>Early on, many of the patients at the epicenter of the outbreak in Wuhan, Hubei Province, China had some link to a large seafood and live animal market, suggesting animal-to-person spread. Later, a growing number of patients reportedly did not have exposure to animal markets, indicating person-to-person spread. Person-to-person spread was subsequently reported outside Hubei and in countries outside China, including in the United States. &#91;1&#93;</p>
@@ -3108,8 +3150,9 @@ f1 ◦ f2</code></pre>
 </li>
 </ul>
 <p>&#91;6&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>SARS-CoV-2</em>. <a href="https://jacobzelko.com/03102020051547-sars-cov-2">https://jacobzelko.com/03102020051547-sars-cov-2</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; Situation Summary,” 09-Mar-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/summary.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <p>&#91;2&#93; “Statement on the second meeting of the International Health Regulations &#40;2005&#41; Emergency Committee regarding the outbreak of novel coronavirus &#40;2019-nCoV&#41;.” &#91;Online&#93;. Available: https://www.who.int/news-room/detail/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-&#40;2005&#41;-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-&#40;2019-ncov&#41;. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <p>&#91;3&#93; “WHO Director-General’s opening remarks at the media briefing on COVID-19 - 11 March 2020.” &#91;Online&#93;. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19–-11-march-2020. &#91;Accessed: 15-Mar-2020&#93;.</p>
@@ -3163,7 +3206,7 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available </p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>How It Works</li><li>Example Application - ECG Data</li><li>Miscellaneous Notes</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>How It Works</li><li>Example Application - ECG Data</li><li>Miscellaneous Notes</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="overview">Overview</h3>
 <p>The Waveform Database &#40;WFDB&#41; Library is a record management system to handle already existing databases - it itself is not a database but a collection of tools to handle databases that follow the WFDB format. &#91;1&#93; Furthermore, WFDB can be used for viewing, analyzing, and creating recordings of physiological signals &#91;2&#93;.</p>
 <h3 id="how_it_works">How It Works</h3>
@@ -3191,8 +3234,9 @@ f1 ◦ f2</code></pre>
 <li><p>A possible alternative to the WFDB record format is the European Data Format&#43; &#40;EDF&#43;&#41; &#91;see @garciamartinezLoadingPlottingFiltering2017 for more information&#93;.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>WFDB Record</em>. <a href="https://jacobzelko.com/03102020061429-wfdb-format">https://jacobzelko.com/03102020061429-wfdb-format</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
 <p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
 <h2 id="discussion">Discussion: </h2>

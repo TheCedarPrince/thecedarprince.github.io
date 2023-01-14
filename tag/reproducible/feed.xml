@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Today, I spent some time learning about DrWatson.jl. I have always wanted to use the project and now I finally have a reason to work with it&#33; I enjoyed the default layout provided by DrWatson - here are some general thoughts on the matter.</p>
 <p>The project directory provided by DrWatson is automatically setup. The defaults are quite nice and I did not change anything except for ignoring the data files:</p>
 <pre><code class="language-julia">│projectdir          &lt;- Project&#39;s main folder. It is initialized as a Git
@@ -79,8 +79,9 @@
 <pre><code class="language-julia">using DrWatson
 initialize_project&#40;&quot;NeuriViz&quot;; authors &#61; &#91;&quot;Jacob Zelko&quot;, &quot;Zachary P Christensen&quot;&#93;, force &#61; false, git &#61; false, placeholder &#61; true&#41;</code></pre>
 <p>It set up the structure I needed and was quite easy to use. DrWatson was created by George Datseris.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>DrWatson.jl</em>. <a href="https://jacobzelko.com/10262020033701-drwatson-pkg">https://jacobzelko.com/10262020033701-drwatson-pkg</a>. October 10 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Examples</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Examples</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Householder notation is very simple:</p>
 <ol>
 <li><p>Scalars are denoted as lowercase Greek letters: \(\alpha\). \(\beta\), \(\gamma\), ...</p>
@@ -63,8 +63,9 @@
 <li><p>Quadratic/bilinear forms can be written as \(u' * A * v = \beta\) &#40;i.e. a transposed vector times a matrix times a vector yields a scalar&#41;</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Householder Notation</em>. <a href="https://jacobzelko.com/06032020153234-householder-notation">https://jacobzelko.com/06032020153234-householder-notation</a>. June 3 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

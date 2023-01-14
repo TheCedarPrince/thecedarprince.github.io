@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>E. A. Lehnert, &quot;Spatial exploration of the CDC’s Social Vulnerability Index and heat-related health outcomes in Georgia,&quot; International Journal of Disaster Risk Reduction, p. 7, 2020.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Definitions</li><li>Social Vulnerability Index Calculations</li><li>Digression on Black Belt</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Definitions</li><li>Social Vulnerability Index Calculations</li><li>Digression on Black Belt</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I read this paper to find out more about the social vulnerability index and how it can be used in the state of Georgia. It wasn&#39;t particularly insightful although the discussion about calculating SVI for GA and its definition about social vulnerability was helpful.</p>
 <h3 id="definitions">Definitions</h3>
@@ -49,8 +49,9 @@
 <p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index.md">See Note for Details</a></p>
 <h3 id="digression_on_black_belt">Digression on Black Belt</h3>
 <p>I never knew the term for this but historically, where African Americans were heavily enslaved is called the &quot;Black Belt&quot;. The authors found that high SVI and heat-related deaths were often found in these historical communities &#91;32&#93;.</p>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia</em>. <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes</a>. September 8 2022.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -98,7 +99,7 @@
 <h1>Bibliography</h1>
 <p>G. P. Guy et al., &quot;Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates — United States, March 1–December 31, 2020,&quot; MMWR Morb. Mortal. Wkly. Rep., vol. 70, no. 10, pp. 350–354, Mar. 2021, doi: 10.15585/mmwr.mm7010e3.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Definitions and Background</li><li>Equations</li><li>Methods</li><li>Results</li><li>Limitations</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Definitions and Background</li><li>Equations</li><li>Methods</li><li>Results</li><li>Limitations</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="definitions_and_background">Definitions and Background</h3>
 <p><strong>State-issued mask mandates:</strong> Required to wear masks at:</p>
 <ol>
@@ -212,8 +213,9 @@
 <li><p>No differentiating indoor and outdoor dining, ventilation, and following physical distancing and occupancy not investigated.</p>
 </li>
 </ol>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020</em>. <a href="https://jacobzelko.com/06072021210734-mask-mandates-association">https://jacobzelko.com/06072021210734-mask-mandates-association</a>. June 7 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -261,10 +263,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Suicide is defined as the act of purposefully ending one’s own life. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Suicide</em>. <a href="https://jacobzelko.com/07122020192840-suicide">https://jacobzelko.com/07122020192840-suicide</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; M. K. Nock, “Self-injury,” Annu. Rev. Clin. Psychol., vol. 6, pp. 339–363, 2010.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

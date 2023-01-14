@@ -40,13 +40,14 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Loading Files</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Loading Files</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="loading_files">Loading Files</h3>
 <p>To load in files via the R REPL, do:</p>
 <pre><code class="language-r">source&#40;&quot;name_of_file.R&quot;&#41;</code></pre>
 <p>This updates the state of the session and brings into the current session any variables defined within the file.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Manipulating Files in R</em>. <a href="https://jacobzelko.com/02082021203741-R-file-manipulation">https://jacobzelko.com/02082021203741-R-file-manipulation</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

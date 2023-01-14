@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Example of Actual Note</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Example of Actual Note</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This is an <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard.md">example implementation of the Open Knowledge Standard</a> I use when taking notes in Markdown:</p>
 <pre><code class="language-markdown"># &#91;Title&#93;**Date:** &#91;DATE&#93;**Summary:** &#91;ONE SENTENCE SUMMARY&#93;**Keywords:** &#91;KEYWORDS PREPENDED BY #. EXAMPLE: #healthcare&#93;## Note Linked From&#91;REFERENCE TO WHERE THE NOTE WAS LINKED FROM&#93;## Bibliography&#91;BIBLIOGRAPHIC REFERENCE FOR WHERE YOU GOT THE INFORMATION&#93;## Notes&#91;CONTENT OF NOTE&#93;## References:&#91;ADDITIONAL REFERENCES USED IN NOTE&#93;</code></pre>
 <h3 id="example_of_actual_note">Example of Actual Note</h3>
@@ -56,8 +56,9 @@ He emphasized that they do not always hold or are always discrete from one anoth
 2. Questions that are predicted and expected to have answers existing within an already existing research domain.
 3. Further articulating the fundamental facts held in a given domain.## References</code></pre>
 <p>NOTE: As a matter of style, I tend to put sentences each on their own line. This helps me with being able to more quickly pull pieces of information across my knowledge management system.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>My Note Templates</em>. <a href="https://jacobzelko.com/08032021134232-notes-template">https://jacobzelko.com/08032021134232-notes-template</a>. August 3 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

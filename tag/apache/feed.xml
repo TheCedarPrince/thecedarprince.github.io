@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>Launched in 2016</p>
 </li>
@@ -75,8 +75,9 @@
 </ul>
 <p>&#91;1&#93;</p>
 <p>The arrow format allows for larger-than-memory datasets. When writing a dataset to arrow format, the data and metadata is laid in a descriptive layout. The data is written in pre-determined, binary formats by supported type. When reading, Arrow memory maps data from arrow memory. This means the OS gives access to memory which is swapped into RAM upon requests. &#40;Jacob Quinn – correspondence on Apache Arrow mailing list&#41;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Apache Arrow</em>. <a href="https://jacobzelko.com/10262020041544-apache-arrow">https://jacobzelko.com/10262020041544-apache-arrow</a>. October 26 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; Apache Arrow and the Future of Data Frames. 2020.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

@@ -40,11 +40,12 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>A functional gesture is defined as the semantic meaning of an event that triggers a state transition and not as the movement to be performed.  &#91;1&#93; &#91;Twitch Stream User: gwd999&#93;</p>
 <p>its basically computer vision project to recognise hand gestures that carries some meaning &#91;Twitch Stream User: quantum_booty&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Functional Gestures</em>. <a href="https://jacobzelko.com/02072021223949-functional-gestures">https://jacobzelko.com/02072021223949-functional-gestures</a>. February 7 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <p>&#91;1&#93; S. Carrino, M. Caon, O. Abou Khaled, R. Ingold, and E. Mugellini, “Functional Gestures for Human-Environment Interaction,” in Human-Computer Interaction. Interaction Modalities and Techniques, vol. 8007, M. Kurosu, Ed. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 167–176.</p>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"

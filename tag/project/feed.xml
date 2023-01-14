@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li><ol><li><ol><li>Procedures</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li><ol><li><ol><li>Procedures</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3>Motivation</h3>
 <p>I have always found graph theory interesting ever since I was exposed to it back in my undergraduate studies at Georgia Tech. I found out about it through SIR Modeling but personally found the structure of graphs far more fascinating than its application to SIR models. Furthermore, as I intend to be pursuing graduate studies in applied mathematics, why not get started with trying to understand it?</p>
 <h3>Project Goals</h3>
@@ -384,8 +384,9 @@
 <li><p>MATH 4022: Introduction to Graph Theory &#40;taught at Georgia Institute of Technology&#41;</p>
 </li>
 </ul>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Achieving an Undergraduate Level Understanding of Graph Theory</em>. <a href="https://jacobzelko.com/01012023000122-graph-theory-learning">https://jacobzelko.com/01012023000122-graph-theory-learning</a>. December 31 2022.</p>
+<h2 id="references">References:</h2>
 <p>&#91;1&#93; R. Trudeau, Introduction to Graph Theory, Dover. DOVER PUBLICATIONS, INC., 1994.</p>
 <p>&#91;2&#93; N. Hartsfield and Ringel, Pearls in Graph Theory A Comprehensive Introduction. DOVER PUBLICATIONS, INC., 1994.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -435,7 +436,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Today, I spent some time learning about DrWatson.jl. I have always wanted to use the project and now I finally have a reason to work with it&#33; I enjoyed the default layout provided by DrWatson - here are some general thoughts on the matter.</p>
 <p>The project directory provided by DrWatson is automatically setup. The defaults are quite nice and I did not change anything except for ignoring the data files:</p>
 <pre><code class="language-julia">│projectdir          &lt;- Project&#39;s main folder. It is initialized as a Git
@@ -474,8 +475,9 @@
 <pre><code class="language-julia">using DrWatson
 initialize_project&#40;&quot;NeuriViz&quot;; authors &#61; &#91;&quot;Jacob Zelko&quot;, &quot;Zachary P Christensen&quot;&#93;, force &#61; false, git &#61; false, placeholder &#61; true&#41;</code></pre>
 <p>It set up the structure I needed and was quite easy to use. DrWatson was created by George Datseris.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>DrWatson.jl</em>. <a href="https://jacobzelko.com/10262020033701-drwatson-pkg">https://jacobzelko.com/10262020033701-drwatson-pkg</a>. October 10 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

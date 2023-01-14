@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Reading and Loading Files</li><li>Packages</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Reading and Loading Files</li><li>Packages</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="reading_and_loading_files">Reading and Loading Files</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/02082021203741-R-file-manipulation.md">File manipulation</a></p>
@@ -51,8 +51,9 @@
 <li><p><a href="https://jacobzelko.com/02082021205610-renv-package.md">renv</a> - Useful state of the art package for reproducing R projects.</p>
 </li>
 </ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Programming in R</em>. <a href="https://jacobzelko.com/02082021203324-r-programming">https://jacobzelko.com/02082021203324-r-programming</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -100,7 +101,7 @@
 <h1>Bibliography</h1>
 <p>J. Pearl and D. Mackenzie, The book of why: the new science of cause and effect, First edition. New York: Basic Books, 2018.</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Benefits of Causal Analysis</li><li>Critiques of Statistics</li><li>Causal Calculus</li><li>Inference Engine</li><li>Ladder of Causality</li><li>Mini-Turing Test</li><li>Bayesian Analysis</li><li>Causal Diagrams<ol><li>Paths in Path Diagrams<ol><li>Chain junction</li><li>Fork Junction</li><li>Collider Junction</li></ol></li><li>Lessons from Path Diagrams</li></ol></li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Benefits of Causal Analysis</li><li>Critiques of Statistics</li><li>Causal Calculus</li><li>Inference Engine</li><li>Ladder of Causality</li><li>Mini-Turing Test</li><li>Bayesian Analysis</li><li>Causal Diagrams<ol><li>Paths in Path Diagrams<ol><li>Chain junction</li><li>Fork Junction</li><li>Collider Junction</li></ol></li><li>Lessons from Path Diagrams</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>This book shows that data is stupid. Data can record events but cannot answer why any of the events are the way they are.</p>
 <p>Causal inference posits the brain as the most advanced tool for understanding cause and effect.</p>
 <p>Forcing an occurrence means to submit it to one influence to trigger the desired event</p>
@@ -122,7 +123,7 @@
 </ol>
 <h3 id="inference_engine">Inference Engine</h3>
 <p>The inference engine assumes perfect and unlimited data for the given figure:</p>
-<p><img src="../assets/01082021030619-inference-engine.png" alt="" /></p>
+<p><img src="assets/01082021030619-inference-engine.png" alt="" /></p>
 <p><strong>Estimand:</strong> generalized mathematical formula to answer data questions. A statistical quantity estimated from data that can represent an answer to a query.</p>
 <p>A given estimand is computed on the basis of the causal model alone, prior to an examination of the specifics of the data. This gives the inference engine better adaptibility.</p>
 <p><strong>Binary Evaluation of Query:</strong> determines if a query can be answered under an existing causal model.</p>
@@ -173,8 +174,9 @@ A \rightarrow B \leftarrow C
 <li><p>Two people creating differing causal diagrams for the same data and may not arrive at the same result.</p>
 </li>
 </ol>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Book of Why</em>. <a href="https://jacobzelko.com/01072021082043-book-of-why">https://jacobzelko.com/01072021082043-book-of-why</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -222,7 +224,7 @@ A \rightarrow B \leftarrow C
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Notes from Giulia Da Poian&#39;s mini lecture:</li></ol></li><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Notes from Giulia Da Poian&#39;s mini lecture:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="notes_from_giulia_da_poians_mini_lecture">Notes from Giulia Da Poian&#39;s mini lecture:</h3>
 <ul>
 <li><p>The radius of similarity is technically 0.15&#40;standard deviation of the time series&#41;</p>
@@ -236,8 +238,9 @@ A \rightarrow B \leftarrow C
 \[
 S = \frac{log(A)}{log(B)}
 \]
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Multiscale Entropy</em>. <a href="https://jacobzelko.com/10082020005615-multiscale-entropy">https://jacobzelko.com/10082020005615-multiscale-entropy</a>. October 7 2020.</p>
 <h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

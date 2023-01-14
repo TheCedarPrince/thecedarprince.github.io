@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ol>
 <li><p>Pharmaceutical company develops drug</p>
 </li>
@@ -54,8 +54,9 @@
 </li>
 </ol>
 <pre><code class="language-julia">1. Apply warning label to drug2. Possibly withdraws product</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>United States Drug Approval Process</em>. <a href="https://jacobzelko.com/07282021174136-drug-approval">https://jacobzelko.com/07282021174136-drug-approval</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
@@ -103,7 +104,7 @@
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
 <li><p>FDA thought clinical trials for drug testing was:</p>
 </li>
@@ -127,8 +128,9 @@
 </ul>
 <pre><code class="language-julia">- Required industry partnerships 
 - Culminated in the creation of the &#91;Observational Medical Outcomes Partnership &#40;OMOP&#41;&#93;&#40;/07282021181744-origins-omop.md&#41;</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>FDA Amendment Act</em>. <a href="https://jacobzelko.com/07282021175202-fda-risk-prevention">https://jacobzelko.com/07282021175202-fda-risk-prevention</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"

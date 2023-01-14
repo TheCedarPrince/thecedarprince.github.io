@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>EHDEN Academy</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>References</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <p>The Observational Medical Outcomes Partnership &#40;OMOP&#41; was created in 2009 to reach consensus on data types, study designs, and privacy concerns while sharing data.</p>
 <p>The ground truth for OMOP investigations were positive and negative tests regarding drugs. Examples of positive controls were:</p>
 <pre><code class="language-julia">- Events on drug label warnings/precautions
@@ -48,8 +48,9 @@
 <p>Examples of negative controls were:</p>
 <pre><code class="language-julia">- Events not listed on drug labels
 - No powered studies with evidence of potential positive association</code></pre>
-<h2 id="references">References</h2>
-<h2 id="references__2">References</h2>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>The Origins of the Observational Medical Outcomes Partnership &#40;OMOP&#41;</em>. <a href="https://jacobzelko.com/07282021181744-origins-omop">https://jacobzelko.com/07282021181744-origins-omop</a>. July 28 2021.</p>
+<h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
