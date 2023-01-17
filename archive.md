@@ -10,17 +10,17 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
-    	<span class = post-item id = asynchronous-workflow-using-julia-tutorial>
-             		<a href = http://jacobzelko.com/01082023043553-julia-async-workflow/>
+    	<span class = post-item id = 100-million-patients:-julia-for-international-health-studies>
+             		<a href = http://jacobzelko.com/01152023193153-juliacon-study-proposal/>
                       			<strong>
-                               				Asynchronous Workflow Using Julia Tutorial
+                               				100 Million Patients: Julia for International Health Studies
                       			</strong>
-                      			[Jan 7 2023]
+                      			[Jan 15 2023]
              		</a>
              		<br>
-                      			A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once!
+                      			JuliaCon proposal for giving a full length talk on using Julia in an international healthcare study
              		<br>
-                      			#blog #archive #julia #programming #literate #workflow #asynchronous #weave #browser #sync #node
+                      			#archive #juliacon #health #equity #mental #juliahealth
              		<br>
     	</span>
 
@@ -39,6 +39,42 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			An interesting foundation for the notion of 'chunking' in memory and education research
              		<br>
                       			#chunk #memory #bit #unit ##bibliography #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = asynchronous-workflow-using-julia-tutorial>
+             		<a href = http://jacobzelko.com/01082023043553-julia-async-workflow/>
+                      			<strong>
+                               				Asynchronous Workflow Using Julia Tutorial
+                      			</strong>
+                      			[Jan 7 2023]
+             		</a>
+             		<br>
+                      			A thorough tutorial on how to use Julia for asynchronous workflows to do many things, at once!
+             		<br>
+                      			#blog #archive #julia #programming #literate #workflow #asynchronous #weave #browser #sync #node
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = making-math-flashcards-using-spaced-repetition-systems>
+             		<a href = http://jacobzelko.com/01072023041127-making-math-anki/>
+                      			<strong>
+                               				Making Math Flashcards Using Spaced Repetition Systems
+                      			</strong>
+                      			[Jan 6 2023]
+             		</a>
+             		<br>
+                      			Composite guide in using spaced repetition systems in learning maths
+             		<br>
+                      			#math #learning #anki #flashcards #spaced #repetition #proofs #theorems #definitions #project #archive
              		<br>
     	</span>
 
