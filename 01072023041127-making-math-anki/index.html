@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Making Math Flashcards Using Spaced Repetition Systems">
+<meta name="description" content="Composite guide in using spaced repetition systems in learning maths">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Making Math Flashcards Using Spaced Repetition Systems">
+<meta property="og:description" content="Composite guide in using spaced repetition systems in learning maths">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Making Math Flashcards Using Spaced Repetition Systems">
+<meta property="twitter:description" content="Composite guide in using spaced repetition systems in learning maths">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+ 
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Making Math Flashcards Using Spaced Repetition Systems</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content">
+<h1>Making Math Flashcards Using Spaced Repetition Systems</h1>
+<p><strong>Date:</strong> January 6 2023</p>
+<p><strong>Summary:</strong> Composite guide in using spaced repetition systems in learning maths</p>
+<p><strong>Keywords:</strong> #math #learning #anki #flashcards #spaced #repetition #proofs #theorems #definitions #project #archive #blog</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#motivation">Motivation</a></li><li><a href="#principles_in_making_anki_cards_for_maths">Principles in Making Anki Cards for Maths</a></li><li><a href="#card_types">Card Types</a><ol><li><a href="#definitions">Definitions</a></li><li><a href="#theorems">Theorems</a><ol><li><a href="#implication_only_theorems">Implication Only Theorems</a></li><li><a href="#implication_and_equivalence_theorems">Implication and Equivalence Theorems</a></li></ol></li></ol></li><li><a href="#the_ankification_of_proofs">The &quot;Ankification&quot; of Proofs</a><ol><li><a href="#initial_glances_of_a_proof">Initial Glances of a Proof</a></li><li><a href="#building_out_a_conceptual_roadmap_of_a_proof">Building Out a Conceptual Roadmap of a Proof</a></li><li><a href="#consider_the_alternatives_of_a_proof">Consider the Alternatives of a Proof</a></li></ol></li><li><a href="#conclusion">Conclusion</a></li></ol></li><li><a href="#how_to_cite">How To Cite</a></li><li><a href="#references">References:</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="motivation"><a href="#motivation" class="header-anchor">Motivation</a></h3>
+<p>A major goal in my life is to get better with studying maths. As I fully intend to study mathematics more rigorously, a powerful component and tool in my studying toolbox has been Spaced Repetition Systems like Anki or Memrise. In particular, I wanted to know how to use these sort of systems to study and retain math more effectively in my studies – which sometimes face unexpected interruptions. This post serves as a guide to do just that.</p>
+<h3 id="principles_in_making_anki_cards_for_maths"><a href="#principles_in_making_anki_cards_for_maths" class="header-anchor">Principles in Making Anki Cards for Maths</a></h3>
+<p>These principles are curated specifically to think about maths and Anki:</p>
+<ol>
+<li><p>Anki is a complement to learning – it is not the whole process of learning.</p>
+</li>
+</ol>
+<p>With maths, it is required to sit down, to struggle, and fully work through concepts. Anki is at best a complement to help you remember what you have learned or know.  At worst, a distraction that one ends up frustrated with as one is not seeing the progress they want to see.</p>
+<ol start="2">
+<li><p>Add small pieces that are worth remembering to Anki.</p>
+</li>
+</ol>
+<p>Keep <a href="/03092020031618-zettelkasten-principles.md">Anki pieces as atomic as possible &#40;see the linked note and think of them as Anki cards instead of &quot;zettels&quot;&#41;</a>. &#91;1&#93;</p>
+<ol start="3">
+<li><p>Be brutally honest in marking an Anki review. &#91;1&#93;</p>
+</li>
+<li><p>Good cards lead to good results – take the time on making good cards. &#91;1&#93;</p>
+</li>
+<li><p>If having problems with a certain topic or set of questions, break the topic down to the smallest components possible to better understand the overall topic. &#91;2&#93;</p>
+</li>
+</ol>
+<p>Identify the <a href="/07082020163004-ultralearning.md">facts, procedures, and concepts</a> and try to use those in creating smaller supplementary cards to help you with a concept. &#91;3&#93;</p>
+<h3 id="card_types"><a href="#card_types" class="header-anchor">Card Types</a></h3>
+<p>In maths, there are many different types of things to learn. Accordingly, there are a few different types of cards that are useful to make this learning process easier.</p>
+<h4 id="definitions"><a href="#definitions" class="header-anchor">Definitions</a></h4>
+<p>In learning definitions, some useful principles to keep in mind in constructing Anki cards that test definitions are the following:</p>
+<ul>
+<li><p>A definition can usually be broken down across the following parts:</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- The object to be defined
+- Its descriptor (this is a unique definition <span class="hljs-keyword">for</span> this object)
+- Notation conventions <span class="hljs-keyword">for</span> this object
+- Properties associated with the object 
+- <span class="hljs-built_in">Any</span> context that the object may be associated with (e.g. when exploring a set, are we talking about sets with <span class="hljs-keyword">in</span> ZFC <span class="hljs-built_in">Set</span> Theory or within the category of $<span class="hljs-built_in">Set</span>$?) [<span class="hljs-number">4</span>]</code></pre>
+<ul>
+<li><p>There can be many different definitions for the same object</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- In this case, create different cards <span class="hljs-keyword">for</span> each different definition</code></pre>
+<ul>
+<li><p>Use clozes liberally to study each part of a given definition &#91;5&#93;</p>
+</li>
+</ul>
+<h4 id="theorems"><a href="#theorems" class="header-anchor">Theorems</a></h4>
+<p>As identified in &#91;4&#93;, there are typically two types of theorems: <em>Implication Only</em> and <em>Implication and Equivalency</em>.</p>
+<h5 id="implication_only_theorems"><a href="#implication_only_theorems" class="header-anchor">Implication Only Theorems</a></h5>
+<p><em>Implication Only</em> theorems have the quality that the conditions associated with that particular theorem, when satisfied, imply specific conclusions. Similar to <a href="/#Definitions">making cards for definitions</a>, there are some principles that can be followed for these sorts of cards:</p>
+<ul>
+<li><p>An <em>Implication Only</em> theorem can be broken down across the following parts:</p>
+</li>
+</ul>
+<pre><code class="julia hljs">- The theorem name to be defined
+- Its descriptor (the definition <span class="hljs-keyword">for</span> this theorem)
+- <span class="hljs-built_in">Any</span> context that the theorem may be associated with 
+- Notation conventions <span class="hljs-keyword">for</span> this object
+- Conditions of the theorem
+- Conclusions from this theorem</code></pre>
+<h5 id="implication_and_equivalence_theorems"><a href="#implication_and_equivalence_theorems" class="header-anchor">Implication and Equivalence Theorems</a></h5>
+<p><em>Implication and Equivalence</em> theorems possess the virtue where if an associated set of conditions are met, imply that two or more arbitrary statements can be equivalent. &#91;4&#93; Making cards for this type of theorem is <a href="/#implication-only-theorems">almost identical to making cards for definitions</a>. The only key difference is that one should also add fields for the equivalent statements that result from this theorem.</p>
+<h3 id="the_ankification_of_proofs"><a href="#the_ankification_of_proofs" class="header-anchor">The &quot;Ankification&quot; of Proofs</a></h3>
+<p>Michael Nielsen wrote an excellent piece on this process called <a href="/https://cognitivemedium.com/srs-mathematics">&quot;Using spaced repetition systems to see through a piece of mathematics&quot;</a>.  Basically, he proposes the use of Anki to deeply understand and study proofs. Personally for me, I am not yet confident in an approach to draft proofs in Anki form. I <a href="/01162023063211-ankification-proofs.md">took notes on Nielsen&#39;s &quot;Ankification&quot; and processing of a proof</a> and am including some digested thoughts he had on working through proofs.</p>
+<h4 id="initial_glances_of_a_proof"><a href="#initial_glances_of_a_proof" class="header-anchor">Initial Glances of a Proof</a></h4>
+<ul>
+<li><p>Pick out single elements of a proof</p>
+</li>
+<li><p>Convert these elements to Anki cards</p>
+</li>
+</ul>
+<p>As you pick out these elements and create cards, they may be able to be <a href="/#definitions">formulated into definition cards</a>. Or, they may be needed to become their own special sort of card or fact – anything that can help in the learning process.</p>
+<h4 id="building_out_a_conceptual_roadmap_of_a_proof"><a href="#building_out_a_conceptual_roadmap_of_a_proof" class="header-anchor">Building Out a Conceptual Roadmap of a Proof</a></h4>
+<p>A proof is not a linear list of statements.  Per Nielsen, it is much more valuable to think of it as relationships between simple observations.  Each of these connections between observations are not just made for no reason. Rather, determine how to find multiple ways to think of the same observation or come to the same observation that is useful for a proof. At this stage, we are beginning to learn our way comfortably around a proof and finding multiple ways to get to each step in a proof is imperative in building that comfort.</p>
+<h4 id="consider_the_alternatives_of_a_proof"><a href="#consider_the_alternatives_of_a_proof" class="header-anchor">Consider the Alternatives of a Proof</a></h4>
+<p>Once you have built significant comfort with a proof, keep considering different aspects of the proof. Consider the alternatives within this proof – if this assumption were changed or that context was altered, what are the ramifications of this proof? This process can continue endlessly but should only stop when you are wholly confident in your understandings of a give proof.</p>
+<h3 id="conclusion"><a href="#conclusion" class="header-anchor">Conclusion</a></h3>
+<p>To conclude, this short guide is by no means exhaustive. Instead, I made this as a short reference for myself in studying maths using a spaced repetition learning process. I&#39;ll certainly come back to revise this as I continue to work and go through the maths I study to share what works for me.</p>
+<h2 id="how_to_cite"><a href="#how_to_cite" class="header-anchor">How To Cite</a></h2>
+<p>Zelko, Jacob. <em>Making Math Flashcards Using Spaced Repetition Systems</em>. <a href="https://jacobzelko.com/01072023041127-making-math-anki">https://jacobzelko.com/01072023041127-making-math-anki</a>. January 6 2023.</p>
+<h2 id="references"><a href="#references" class="header-anchor">References:</a></h2>
+<p>&#91;1&#93; “&#91;Guide&#93; How to Anki Maths the right way,” 31-Jan-2016. &#91;Online&#93;. Available: https://www.reddit.com/r/Anki/comments/43mf83/guide<em>how</em>to<em>anki</em>maths<em>the</em>right_way/. &#91;Accessed: 09-Jan-2023&#93;.</p>
+<p>&#91;2&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. &#91;Online&#93;. Available: http://cognitivemedium.com/srs-mathematics.</p>
+<p>&#91;3&#93; S. Young, Ultralearning. HarperCollins Publishers, 2019.</p>
+<p>&#91;4&#93; L. Thorburn, “Using Anki for mathematics,” 08-Mar-2020. &#91;Online&#93;. Available: https://www.lukethorburn.com/anki/. &#91;Accessed: 09-Jan-2023&#93;.</p>
+<p>&#91;5&#93; A. Milchior, “How I use Anki to learn mathematics - LessWrong,” 07-Dec-2016. &#91;Online&#93;. Available: https://www.lesswrong.com/posts/8ZugMc4E5959Xh86i/how-i-use-anki-to-learn-mathematics. &#91;Accessed: 09-Jan-2023&#93;.</p>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="dark_dimmed"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: January 17, 2023.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+        
+
+
+    
+  </body>
+</html>

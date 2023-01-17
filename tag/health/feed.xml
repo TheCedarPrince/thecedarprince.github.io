@@ -23,6 +23,65 @@
 
 <item>
   <title>
+    <![CDATA[  100 Million Patients: Julia for International Health Studies  ]]>
+  </title>
+  <link> https://jacobzelko.com/01152023193153-juliacon-study-proposal/index.html </link>
+  <guid> https://jacobzelko.com/01152023193153-juliacon-study-proposal/index.html </guid>
+  <description>
+    <![CDATA[  JuliaCon proposal for giving a full length talk on using Julia in an international healthcare study  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>100 Million Patients: Julia for International Health Studies</h1>
+<p><strong>Date:</strong> January 15 2023</p>
+<p><strong>Summary:</strong> JuliaCon proposal for giving a full length talk on using Julia in an international healthcare study</p>
+<p><strong>Keywords:</strong> #archive #juliacon #health #equity #mental #juliahealth</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Original Submission<ol><li>Abstract</li><li>Proposal</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="original_submission">Original Submission</h3>
+<h4 id="abstract">Abstract</h4>
+<p>This talk explores the use of Julia in a novel observational health research study that explores health equity and mental health in ~100 million patients in an international collaborative effort across more than 4 countries. Contributions and efforts within the JuliaHealth and adjacent communities have made working with this data possible. The approaches and results shared will be valuable for potential researchers and will open new frontiers for high performance computing and health analytics.</p>
+<h4 id="proposal">Proposal</h4>
+<p>Conducting health research studies at scale to understand the health of specific communities and subpopulations has long been a struggle. This has been due to a variety of issues, such as a lack of international standards in the structure of electronic health records, patient claims data, and diagnoses. Moreover, the investigation of questions related to the topic of health equity &#40;that is, the skewed distribution of health resources or services to various subpopulations seeking healthcare&#41; has been largely stalled due to these problems.</p>
+<p>In a previous talk I gave, <a href="https://jacobzelko.com/https://www.youtube.com/watch?v&#61;5XsWUZX6lFM">Using Julia for Observational Health Research</a>, I presented early work on the success of using Julia within the space of observational health research in utilizing the <a href="https://jacobzelko.com/https://jacobzelko.com/02082021170353-cdm-standardized-tables/">OMOP Common Data Model</a>. In that previous work, I conducted a pilot study to characterize prevalence rates in mental health care for <a href="https://jacobzelko.com/https://jacobzelko.com/11042022141714-what-intersectionality-theory/#workable_definitions_of_intersectionality">intersectional subpopulations</a> suffering from bipolar disorder, depression, and/or suicidality. This work utilized novel tooling and approaches created within Julia to successfully analyze data from ~2.5 million Medicaid subscribers within the U.S. state of Georgia. This work earned the <a href="https://jacobzelko.com/https://www.ohdsi.org/2022-collaborator-showcase">highest awards at the top observational health research venue</a>, drove another successful grant proposal, and resulted in <a href="https://jacobzelko.com/https://www.nahdo.org/conference/2022/agenda">multiple invited talks</a>. Buoyed by the interest and success of this pilot work, my team and I have moved this project into the next phase: the examination of more than 100 million patients from more than 4 countries across the globe.</p>
+<p>In this talk, I will present advances within the JuliaHealth community and the broader Julia ecosystem that have made possible such large scale and federated analyses. In particular, novel JuliaHealth tools such as <a href="https://jacobzelko.com/https://juliahealth.org/OMOPCDMCohortCreator.jl/">OMOPCDMCohortCreator.jl</a> will be highlighted to show how to analyze &quot;big&quot; <a href="https://jacobzelko.com/https://jacobzelko.com/10282021140730-real-world-evidence/#united_states_food_and_drug_administration_definitions">real world data</a>, how using Julia can be of huge benefit within this space, and how Julia community members could start using these tools for their own research. As this study now takes place across multiple countries, time will also be spent discussing how Julia lends itself very well to robust analyses using literate programming tools such as <a href="https://jacobzelko.com/https://quarto.org">Quarto</a> or <a href="https://jacobzelko.com/https://github.com/JunoLab/Weave.jl">Weave.jl</a> and versioning processes through <a href="https://jacobzelko.com/https://github.com/JuliaDynamics/DrWatson.jl">DrWatson.jl</a> or <a href="https://jacobzelko.com/https://github.com/iterative/dvc">Data Version Control</a>, which can be utilized to handle each country&#39;s specific needs. Additionally, I will spend some time discussing issues encountered &#40;both technical and anthropological&#41;, ways that the Julia ecosystem could potentially grow to support future work in this research domain, and opportunities for Julia users to get involved. Finally, I will share my personal thoughts on what open questions there are to be addressed in observational health research and how Julia can be a tool to address public health questions and provide insight into questions of health disparities.</p>
+<p>In conclusion, this talk will highlight the real world use of Julia in large-scale health research studies built on real world data. Moreover, it will show the potential of the various ecosystems within Julia to analyze and tackle complex questions within health equity. Through this talk, I invite future Julia users and researchers to join me in pursuing the potential of Julia within the space of observational health research.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>100 Million Patients: Julia for International Health Studies</em>. <a href="https://jacobzelko.com/01152023193153-juliacon-study-proposal">https://jacobzelko.com/01152023193153-juliacon-study-proposal</a>. January 15 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="dark_dimmed"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Health as a Spectrum  ]]>
   </title>
   <link> https://jacobzelko.com/03092020022148-health-spectrum/index.html </link>
