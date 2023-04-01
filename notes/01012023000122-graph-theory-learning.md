@@ -215,10 +215,10 @@ This is based on the Meta Learning step Young described as well as some addition
 | ----:| ----------------------------------------:| ---------:| ---------------------------------------------------------------------:|
 |      | Definition of a graph and its components |  [1], [2] |  Graph components; differences between directed and undirected graphs |
 |      |                Subgraphs and isomorphism |  [1], [2] |             Subgraphs; isomorphism; identify and compare given graphs |
-|      |                          Directed graphs |       [1] | Directed graph; representation using adjacency and incidence matrices |
+|      |                          Directed graphs |       [2] | Directed graph; representation using adjacency and incidence matrices |
 |      |              Graphs and their properties |  [1], [2] |     Properties of graphs; analyze; classify different types of graphs |
 |      |                       Paths and circuits |  [1], [2] |                Paths and circuits; identify and construct given graph |
-|      |             Connectedness and components |       [1] |            Determine if graph is connected; identify graph components |
+|    X |             Connectedness and components |       [1] |            Determine if graph is connected; identify graph components |
 |      |                       Distance in graphs |  [1], [2] |                            Vertex distances; compute vertex distances |
 |      |               Trees and their properties |  [1], [2] |                   Tree definitions; identify trees; distinguish trees |
 |      |            Rooted trees and binary trees |  [1], [2] |                   Rooted trees; construct and manipulate rooted trees |
