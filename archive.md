@@ -10,6 +10,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = learning-what-every-undergraduate-mathematician-should-know-about-proofs>
+             		<a href = http://jacobzelko.com/04012023221538-learning-proofs-beginners/>
+                      			<strong>
+                               				Learning What Every Undergraduate Mathematician Should Know about Proofs
+                      			</strong>
+                      			[Apr 1 2023]
+             		</a>
+             		<br>
+                      			Ultralearning project to learn the equivalent of an undergraduate maths or computer science student understanding of proofs and how to write them.
+             		<br>
+                      			#zettel #archive #project #blog #proof
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = 100-million-patients:-julia-for-international-health-studies>
              		<a href = http://jacobzelko.com/01152023193153-juliacon-study-proposal/>
                       			<strong>
@@ -21,6 +39,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			JuliaCon proposal for giving a full length talk on using Julia in an international healthcare study
              		<br>
                       			#archive #juliacon #health #equity #mental #juliahealth
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = developing-a-robust-computable-phenotype-definition-workflow-to-describe-health-and-disease-in-observational-health-research>
+             		<a href = http://jacobzelko.com/01102023212115-computable-phenotypes/>
+                      			<strong>
+                               				Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research
+                      			</strong>
+                      			[Jan 10 2023]
+             		</a>
+             		<br>
+                      			Considerations and discussion on a workflow for developing computable phenotype definitions to define disease
+             		<br>
+                      			#computable #phenotype #observational #health #blog #equity #archive
              		<br>
     	</span>
 
@@ -74,7 +110,7 @@ The titles, creation dates, summaries, and key words of a note are provided per 
              		<br>
                       			Composite guide in using spaced repetition systems in learning maths
              		<br>
-                      			#math #learning #anki #flashcards #spaced #repetition #proofs #theorems #definitions #project #archive
+                      			#math #learning #anki #flashcards #spaced #repetition #proofs #theorems #definitions #project #archive #blog
              		<br>
     	</span>
 
