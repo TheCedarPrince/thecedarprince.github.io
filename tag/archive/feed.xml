@@ -23,6 +23,181 @@
 
 <item>
   <title>
+    <![CDATA[  Learning What Every Undergraduate Mathematician Should Know about Proofs  ]]>
+  </title>
+  <link> https://jacobzelko.com/04012023221538-learning-proofs-beginners/index.html </link>
+  <guid> https://jacobzelko.com/04012023221538-learning-proofs-beginners/index.html </guid>
+  <description>
+    <![CDATA[  Ultralearning project to learn the equivalent of an undergraduate maths or computer science student understanding of proofs and how to write them.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Learning What Every Undergraduate Mathematician Should Know about Proofs</h1>
+<p><strong>Date:</strong> April 1 2023</p>
+<p><strong>Summary:</strong> Ultralearning project to learn the equivalent of an undergraduate maths or computer science student understanding of proofs and how to write them.</p>
+<p><strong>Keywords:</strong> #zettel #archive #project #blog #proof</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Project Goals<ol><li>What Am I Doing?<ol><li>Concepts</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>As I am personally moving into applied mathematics for my future graduate studies, I realized I had a deficiency. And that deficiency?  How to prove things&#33; &quot;Proof&quot; was always a somewhat scary thing that I encountered in mathematics every once in a while – but at the same time exciting. So, this post aims to allay these fears once and for all&#33;</p>
+<h3 id="project_goals">Project Goals</h3>
+<p>This process is adapted from the <a href="https://jacobzelko.com//07082020163004-ultralearning.md">Ultralearning framework posited by Scott Young</a>.</p>
+<h4 id="what_am_i_doing">What Am I Doing?</h4>
+<p>Gain an undergraduate level of understanding of proofs and proof creation on par with maths and computer science students.</p>
+<h5 id="concepts">Concepts</h5>
+<ul>
+<li><p>Sets and Set Operations</p>
+<ul>
+<li><p>Set Notation</p>
+</li>
+<li><p>Union and Intersection</p>
+</li>
+<li><p>Complement and Subset</p>
+</li>
+<li><p>Power Sets</p>
+</li>
+</ul>
+</li>
+<li><p>Logical Structure in Proofs</p>
+<ul>
+<li><p>Implication and Equivalence</p>
+</li>
+<li><p>Logical Connectives &#40;And, Or, Not&#41;</p>
+</li>
+<li><p>De Morgan&#39;s Laws</p>
+</li>
+<li><p>Contrapositive, Converse, and Negation of Conditional Statements</p>
+</li>
+</ul>
+</li>
+<li><p>Quantifiers</p>
+<ul>
+<li><p>Universal Quantifier &#40;For All&#41;</p>
+</li>
+<li><p>Existential Quantifier &#40;There Exists&#41;</p>
+</li>
+<li><p>Uniqueness Quantifier &#40;There Exists Exactly One&#41;</p>
+</li>
+</ul>
+</li>
+<li><p>Proof Techniques</p>
+<ul>
+<li><p>Direct Proof</p>
+</li>
+<li><p>Proof by Contradiction</p>
+</li>
+<li><p>Proof by Contrapositive</p>
+</li>
+<li><p>Existence Proofs</p>
+</li>
+</ul>
+</li>
+<li><p>Induction and Recursion</p>
+<ul>
+<li><p>Principle of Mathematical Induction</p>
+</li>
+<li><p>Strong Induction</p>
+</li>
+<li><p>Recursive Definitions</p>
+</li>
+</ul>
+</li>
+<li><p>Relations and Functions</p>
+<ul>
+<li><p>Cartesian Product</p>
+</li>
+<li><p>Equivalence Relations</p>
+</li>
+<li><p>Partial and Total Orders</p>
+</li>
+<li><p>Injectivity, Surjectivity, and Bijectivity of Functions</p>
+</li>
+</ul>
+</li>
+<li><p>Cardinality and Countability</p>
+<ul>
+<li><p>Cardinality of Sets</p>
+</li>
+<li><p>Countable and Uncountable Sets</p>
+</li>
+<li><p>Diagonalization Argument</p>
+</li>
+</ul>
+</li>
+<li><p>Advanced Topics</p>
+<ul>
+<li><p>Constructive Mathematics</p>
+</li>
+<li><p>Proof Assistants</p>
+</li>
+<li><p>Zorn&#39;s Lemma and Well-Ordering Principle</p>
+</li>
+<li><p>Completeness Axiom and Real Numbers</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="roadmap">Roadmap</h3>
+<p>This is based on the Meta Learning step Young described as well as some additional tweaks of my own:</p>
+<ul>
+<li><p><strong>Outcomes:</strong> The knowledge and abilities you’ll need to acquire for success.</p>
+</li>
+<li><p><strong>Topic:</strong> The topic to learn</p>
+</li>
+<li><p><strong>Done:</strong> If this task has been completed &#40;X&#41; or not yet &#40;cell is empty&#41;</p>
+</li>
+</ul>
+<table><tr><th align="right">Done</th><th align="right">Topic</th><th align="right">Outcomes</th></tr><tr><td align="right"></td><td align="right">Set Theory</td><td align="right">Understand basic set notation and operations, including subsets, set identities, and Cartesian products.</td></tr><tr><td align="right"></td><td align="right">Logic</td><td align="right">Understand propositional logic, including truth tables, implications, negations, and quantifiers.</td></tr><tr><td align="right"></td><td align="right">Proof Writing</td><td align="right">Develop skills in writing and constructing mathematical proofs, including direct and indirect proofs, proof by contradiction, proof by contrapositive, and proof by mathematical induction.</td></tr><tr><td align="right"></td><td align="right">Number Theory</td><td align="right">Understand basic number theory concepts, including divisibility, modular arithmetic, prime numbers, the fundamental theorem of arithmetic, the Euclidean algorithm, and Diophantine equations.</td></tr><tr><td align="right"></td><td align="right">Combinatorics</td><td align="right">Develop skills in combinatorial counting principles, including permutations, combinations, and the inclusion-exclusion principle.</td></tr><tr><td align="right"></td><td align="right">Analysis</td><td align="right">Develop skills in calculus, including limits, continuity, differentiation, integration, sequences, and series.</td></tr><tr><td align="right"></td><td align="right">Algebra</td><td align="right">Understand algebraic structures, including groups, rings, and fields.</td></tr></table>
+<p>This table describes the very broad topics, resources I&#39;ll use, and the expected learning outcomes for each topic.  As I progress through this table, I will add an &quot;X&quot; to each row I have studied. Furthermore, the table is ordered by level of difficulty. </p>
+<table><tr><th align="right">Done</th><th align="right">Skill Level</th><th align="right">Topic</th><th align="right">Concept</th></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Set Theory</td><td align="right">Sets and Elements</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Set Theory</td><td align="right">Set Notation</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Set Theory</td><td align="right">Subsets and Proper Subsets</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Set Theory</td><td align="right">Set Operations</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Set Theory</td><td align="right">Set Identities</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Set Theory</td><td align="right">Cartesian Products</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Logic</td><td align="right">Propositions and Logical Connectives</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Logic</td><td align="right">Truth Tables</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Logic</td><td align="right">Implication and Equivalence</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Logic</td><td align="right">Negation and De Morgan&#39;s Laws</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Logic</td><td align="right">Quantifiers</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Logic</td><td align="right">Logical Implication</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Proof Techniques</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Direct Proofs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Indirect Proofs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Proof by Contradiction</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Proof by Contrapositive</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Proof by Mathematical Induction</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Strong Induction</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Structural Induction</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Proof by Cases</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Existence and Uniqueness Proofs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Proof Writing</td><td align="right">Counterexamples</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Number Theory</td><td align="right">Divisibility and Modular Arithmetic</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Number Theory</td><td align="right">GCD and LCM</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Number Theory</td><td align="right">Prime Numbers</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Number Theory</td><td align="right">Fundamental Theorem of Arithmetic</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Number Theory</td><td align="right">Euclidean Algorithm</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Number Theory</td><td align="right">Diophantine Equations</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Combinatorics</td><td align="right">Counting Principles</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Combinatorics</td><td align="right">Pigeonhole Principle</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Combinatorics</td><td align="right">Permutations and Combinations</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Combinatorics</td><td align="right">Inclusion-Exclusion Principle</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Combinatorics</td><td align="right">Recurrence Relations</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Combinatorics</td><td align="right">Generating Functions</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Analysis</td><td align="right">Limits and Continuity</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Analysis</td><td align="right">Differentiation</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Analysis</td><td align="right">Integration</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Analysis</td><td align="right">Sequences and Series</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Algebra</td><td align="right">Groups</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Algebra</td><td align="right">Rings and Fields</td></tr></table>
+<p>This table gets more into exact topics and concepts to master. They have an associated difficult level and overall topic. Moreover, this a synthesis of concepts and topics to be covered based on class syllabi from:</p>
+<ul>
+<li><p>MA307: Introduction to Proof &#40;taught by Dan Dugger at University of Oregon&#41;</p>
+</li>
+<li><p>300:T6 Introduction to Mathematical Reasoning &#40;taught by Chloe Urbanski Wawrzyniak at Rutgers University&#41;</p>
+</li>
+<li><p>Introduction to Proof-based Discrete Mathematics &#40;taught by Matthew Gelvin at University of Chicago&#41;</p>
+</li>
+<li><p>MATH 301: Introduction To Proofs &#40;taught by Emily Riehl at John Hopkins University&#41;</p>
+</li>
+</ul>
+<p>Additionally, in the construction of this project, I&#39;d like to thank John Carlos Baez for some of his suggestions&#33;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Learning What Every Undergraduate Mathematician Should Know about Proofs</em>. <a href="https://jacobzelko.com/04012023221538-learning-proofs-beginners">https://jacobzelko.com/04012023221538-learning-proofs-beginners</a>. April 1 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script src="https://giscus.app/client.js"
+    data-repo="TheCedarPrince/thecedarprince.github.io"
+    data-repo-id="R_kgDOHRFrHA"
+    data-category="General"
+    data-category-id="DIC_kwDOHRFrHM4CPGIX"
+    data-mapping="url"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="dark_dimmed"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  100 Million Patients: Julia for International Health Studies  ]]>
   </title>
   <link> https://jacobzelko.com/01152023193153-juliacon-study-proposal/index.html </link>
@@ -775,7 +950,7 @@ end</code></pre>
 <li><p><strong>Done:</strong> If this task has been completed &#40;X&#41; or not yet &#40;cell is empty&#41;</p>
 </li>
 </ul>
-<table><tr><th align="right">Done</th><th align="right">Topic</th><th align="right">Resources</th><th align="right">Outcomes</th></tr><tr><td align="right"></td><td align="right">Definition of a graph and its components</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Graph components; differences between directed and undirected graphs</td></tr><tr><td align="right"></td><td align="right">Subgraphs and isomorphism</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Subgraphs; isomorphism; identify and compare given graphs</td></tr><tr><td align="right"></td><td align="right">Directed graphs</td><td align="right">&#91;1&#93;</td><td align="right">Directed graph; representation using adjacency and incidence matrices</td></tr><tr><td align="right"></td><td align="right">Graphs and their properties</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Properties of graphs; analyze; classify different types of graphs</td></tr><tr><td align="right"></td><td align="right">Paths and circuits</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Paths and circuits; identify and construct given graph</td></tr><tr><td align="right"></td><td align="right">Connectedness and components</td><td align="right">&#91;1&#93;</td><td align="right">Determine if graph is connected; identify graph components</td></tr><tr><td align="right"></td><td align="right">Distance in graphs</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Vertex distances; compute vertex distances</td></tr><tr><td align="right"></td><td align="right">Trees and their properties</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Tree definitions; identify trees; distinguish trees</td></tr><tr><td align="right"></td><td align="right">Rooted trees and binary trees</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Rooted trees; construct and manipulate rooted trees</td></tr><tr><td align="right"></td><td align="right">Adjacency matrices</td><td align="right">&#91;1&#93;</td><td align="right">Adjacency matrix concept; representation of adjacency matrix</td></tr><tr><td align="right"></td><td align="right">Incidence matrices</td><td align="right">&#91;1&#93;</td><td align="right">Incidence matrix concept; representation of incidence graphs</td></tr><tr><td align="right"></td><td align="right">Breadth-first search</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Breadth-first search concept; graph traversal</td></tr><tr><td align="right"></td><td align="right">Depth-first search</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Depth-first search concept; graph traversal</td></tr><tr><td align="right"></td><td align="right">Planar graphs and their properties</td><td align="right">&#91;1&#93;</td><td align="right">Planar graph definition; properties</td></tr><tr><td align="right"></td><td align="right">Euler&#39;s formula</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Euler&#39;s formula; structure of planar graphs</td></tr><tr><td align="right"></td><td align="right">Dual graphs</td><td align="right">&#91;1&#93;</td><td align="right">Dual graph concept; construction of dual graph</td></tr><tr><td align="right"></td><td align="right">Vertex coloring</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Vertex coloring concept; coloring of graph vertices</td></tr><tr><td align="right"></td><td align="right">Edge coloring</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Edge coloring concept; coloring of graph edges</td></tr><tr><td align="right"></td><td align="right">Matchings</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Matching concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Factors</td><td align="right">&#91;1&#93;</td><td align="right">Factor concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Hamiltonian cycles</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Hamiltonian cycle concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Network flows</td><td align="right">&#91;1&#93;</td><td align="right">Network flow concept; modeling and analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and groups</td><td align="right">&#91;2&#93;</td><td align="right">Graph and group theory connection; analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and logic</td><td align="right">&#91;2&#93;</td><td align="right">Graph and logic connection; analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and geometry</td><td align="right">&#91;2&#93;</td><td align="right">Graph and geometry connection; analysis</td></tr></table>
+<table><tr><th align="right">Done</th><th align="right">Topic</th><th align="right">Resources</th><th align="right">Outcomes</th></tr><tr><td align="right"></td><td align="right">Definition of a graph and its components</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Graph components; differences between directed and undirected graphs</td></tr><tr><td align="right"></td><td align="right">Subgraphs and isomorphism</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Subgraphs; isomorphism; identify and compare given graphs</td></tr><tr><td align="right"></td><td align="right">Directed graphs</td><td align="right">&#91;2&#93;</td><td align="right">Directed graph; representation using adjacency and incidence matrices</td></tr><tr><td align="right"></td><td align="right">Graphs and their properties</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Properties of graphs; analyze; classify different types of graphs</td></tr><tr><td align="right"></td><td align="right">Paths and circuits</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Paths and circuits; identify and construct given graph</td></tr><tr><td align="right">X</td><td align="right">Connectedness and components</td><td align="right">&#91;1&#93;</td><td align="right">Determine if graph is connected; identify graph components</td></tr><tr><td align="right"></td><td align="right">Distance in graphs</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Vertex distances; compute vertex distances</td></tr><tr><td align="right"></td><td align="right">Trees and their properties</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Tree definitions; identify trees; distinguish trees</td></tr><tr><td align="right"></td><td align="right">Rooted trees and binary trees</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Rooted trees; construct and manipulate rooted trees</td></tr><tr><td align="right"></td><td align="right">Adjacency matrices</td><td align="right">&#91;1&#93;</td><td align="right">Adjacency matrix concept; representation of adjacency matrix</td></tr><tr><td align="right"></td><td align="right">Incidence matrices</td><td align="right">&#91;1&#93;</td><td align="right">Incidence matrix concept; representation of incidence graphs</td></tr><tr><td align="right"></td><td align="right">Breadth-first search</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Breadth-first search concept; graph traversal</td></tr><tr><td align="right"></td><td align="right">Depth-first search</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Depth-first search concept; graph traversal</td></tr><tr><td align="right"></td><td align="right">Planar graphs and their properties</td><td align="right">&#91;1&#93;</td><td align="right">Planar graph definition; properties</td></tr><tr><td align="right"></td><td align="right">Euler&#39;s formula</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Euler&#39;s formula; structure of planar graphs</td></tr><tr><td align="right"></td><td align="right">Dual graphs</td><td align="right">&#91;1&#93;</td><td align="right">Dual graph concept; construction of dual graph</td></tr><tr><td align="right"></td><td align="right">Vertex coloring</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Vertex coloring concept; coloring of graph vertices</td></tr><tr><td align="right"></td><td align="right">Edge coloring</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Edge coloring concept; coloring of graph edges</td></tr><tr><td align="right"></td><td align="right">Matchings</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Matching concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Factors</td><td align="right">&#91;1&#93;</td><td align="right">Factor concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Hamiltonian cycles</td><td align="right">&#91;1&#93;, &#91;2&#93;</td><td align="right">Hamiltonian cycle concept; identification and construction</td></tr><tr><td align="right"></td><td align="right">Network flows</td><td align="right">&#91;1&#93;</td><td align="right">Network flow concept; modeling and analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and groups</td><td align="right">&#91;2&#93;</td><td align="right">Graph and group theory connection; analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and logic</td><td align="right">&#91;2&#93;</td><td align="right">Graph and logic connection; analysis</td></tr><tr><td align="right"></td><td align="right">Graphs and geometry</td><td align="right">&#91;2&#93;</td><td align="right">Graph and geometry connection; analysis</td></tr></table>
 <p>This table describes the very broad topics, resources I&#39;ll use, and the expected learning outcomes for each topic.  As I progress through this table, I will add an &quot;X&quot; to each row I have studied. Furthermore, the table is ordered by level of difficulty with &quot;Definition of a graph and its components&quot; being the first topic I should learn and &quot;Graphs and geometry&quot; being the more advanced topics I should study. The topics and resources here are based on &#91;1&#93; and &#91;2&#93; with potentially more resources to add in the future.</p>
 <table><tr><th align="right">Done</th><th align="right">Skill Level</th><th align="right">Topic</th><th align="right">Concept</th></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Paths</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Cycles</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Subgraphs</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Fundamental concepts</td><td align="right">Isomorphism</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Trees</td><td align="right">Spanning trees</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Connectivity</td><td align="right">Max-flow Min-cut theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Connectivity</td><td align="right">Menger&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Eulerian and Hamiltonian graphs</td><td align="right">Eulerian and Hamiltonian graphs</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Matchings</td><td align="right">Hall&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Matchings</td><td align="right">Tutte&#39;s 1-factor theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Colorings</td><td align="right">Greedy coloring</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Colorings</td><td align="right">Chromatic polynomial</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Planar graphs</td><td align="right">Euler&#39;s formula</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Planar graphs</td><td align="right">Kuratowski&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Planar graphs</td><td align="right">Equivalents of the 4-color theorem</td></tr><tr><td align="right"></td><td align="right">Beginner</td><td align="right">Ramsey theory</td><td align="right">Ramsey&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Structure of 1-, 2-, 3-connected graphs</td><td align="right">Blocks</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Structure of 1-, 2-, 3-connected graphs</td><td align="right">Ear-decomposition</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Structure of 1-, 2-, 3-connected graphs</td><td align="right">Contractible edges</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Perfect graphs</td><td align="right">Bipartite graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Perfect graphs</td><td align="right">Comparability graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Tutte&#39;s synthesis of 3-connected graphs</td><td align="right">Tutte&#39;s synthesis of 3-connected graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Systems of distinct representatives</td><td align="right">Systems of distinct representatives</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Matching polytope</td><td align="right">Matching polytope</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Chinese postman problem</td><td align="right">Chinese postman problem</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Dual graphs</td><td align="right">Dual graphs</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Graphs on surfaces</td><td align="right">Graphs on surfaces</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Highly chromatic graphs of large girth</td><td align="right">Highly chromatic graphs of large girth</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Vizing&#39;s theorem</td><td align="right">Vizing&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Intermediate</td><td align="right">Erdos-de Bruijn compactness theorem</td><td align="right">Erdos-de Bruijn compactness theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Line graphs of bipartite graphs</td><td align="right">Line graphs of bipartite graphs</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Chordal graphs</td><td align="right">Chordal graphs</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Complements of the above</td><td align="right">Complements of the above</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Perfect Graph Theorem</td><td align="right">Perfect Graph Theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Dilworth&#39;s theorem</td><td align="right">Dilworth&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Applications of Ramsey&#39;s theorem</td><td align="right">Applications of Ramsey&#39;s theorem</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Lower bound for Ramsey numbers</td><td align="right">Lower bound for Ramsey numbers</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Properties of random graphs</td><td align="right">Properties of random graphs</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">Threshold functions</td><td align="right">Threshold functions</td></tr><tr><td align="right"></td><td align="right">Advanced</td><td align="right">0-1 law</td><td align="right">0-1 law</td></tr></table>
 <p>This table gets more into exact topics and concepts to master. They have an associated difficult level and overall topic.  Moreover, this a synthesis of concepts and topics to be covered based on class outlines from:</p>

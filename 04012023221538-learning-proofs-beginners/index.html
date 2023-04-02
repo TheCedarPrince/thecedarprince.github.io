@@ -1,38 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!doctype html>
+<html lang="en">
 
-<rss version="2.0"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:media="http://search.yahoo.com/mrss/"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:georss="http://www.georss.org/georss">
+<head>
 
-  <channel>
-    <title>
-      <![CDATA[  the cedar ledge  ]]>
-    </title>
-    <link> https://jacobzelko.com </link>
-    <description>
-      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
-    </description>
-    <atom:link
-      href="https://jacobzelko.com/feed.xml"
-      rel="self"
-      type="application/rss+xml" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Learning What Every Undergraduate Mathematician Should Know about Proofs">
+<meta name="description" content="Ultralearning project to learn the equivalent of an undergraduate maths or computer science student understanding of proofs and how to write them.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Learning What Every Undergraduate Mathematician Should Know about Proofs">
+<meta property="og:description" content="Ultralearning project to learn the equivalent of an undergraduate maths or computer science student understanding of proofs and how to write them.">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Learning What Every Undergraduate Mathematician Should Know about Proofs">
+<meta property="twitter:description" content="Ultralearning project to learn the equivalent of an undergraduate maths or computer science student understanding of proofs and how to write them.">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+ 
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Learning What Every Undergraduate Mathematician Should Know about Proofs</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
 
 
-<item>
-  <title>
-    <![CDATA[  Learning What Every Undergraduate Mathematician Should Know about Proofs  ]]>
-  </title>
-  <link> https://jacobzelko.com/04012023221538-learning-proofs-beginners/index.html </link>
-  <guid> https://jacobzelko.com/04012023221538-learning-proofs-beginners/index.html </guid>
-  <description>
-    <![CDATA[  Ultralearning project to learn the equivalent of an undergraduate maths or computer science student understanding of proofs and how to write them.  ]]>
-  </description>  
-  
-  <content:encoded>
-    <![CDATA[  
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content">
 <h1>Learning What Every Undergraduate Mathematician Should Know about Proofs</h1>
 <p><strong>Date:</strong> April 1 2023</p>
 <p><strong>Summary:</strong> Ultralearning project to learn the equivalent of an undergraduate maths or computer science student understanding of proofs and how to write them.</p>
@@ -40,14 +95,14 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Project Goals<ol><li>What Am I Doing?<ol><li>Concepts</li></ol></li></ol></li><li>Roadmap</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
-<h3 id="motivation">Motivation</h3>
+<div class="franklin-toc"><ol><li><ol><li><a href="#motivation">Motivation</a></li><li><a href="#project_goals">Project Goals</a><ol><li><a href="#what_am_i_doing">What Am I Doing?</a><ol><li><a href="#concepts">Concepts</a></li></ol></li></ol></li><li><a href="#roadmap">Roadmap</a></li></ol></li><li><a href="#how_to_cite">How To Cite</a></li><li><a href="#references">References:</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="motivation"><a href="#motivation" class="header-anchor">Motivation</a></h3>
 <p>As I am personally moving into applied mathematics for my future graduate studies, I realized I had a deficiency. And that deficiency?  How to prove things&#33; &quot;Proof&quot; was always a somewhat scary thing that I encountered in mathematics every once in a while – but at the same time exciting. So, this post aims to allay these fears once and for all&#33;</p>
-<h3 id="project_goals">Project Goals</h3>
-<p>This process is adapted from the <a href="https://jacobzelko.com//07082020163004-ultralearning.md">Ultralearning framework posited by Scott Young</a>.</p>
-<h4 id="what_am_i_doing">What Am I Doing?</h4>
+<h3 id="project_goals"><a href="#project_goals" class="header-anchor">Project Goals</a></h3>
+<p>This process is adapted from the <a href="//07082020163004-ultralearning.md">Ultralearning framework posited by Scott Young</a>.</p>
+<h4 id="what_am_i_doing"><a href="#what_am_i_doing" class="header-anchor">What Am I Doing?</a></h4>
 <p>Gain an undergraduate level of understanding of proofs and proof creation on par with maths and computer science students.</p>
-<h5 id="concepts">Concepts</h5>
+<h5 id="concepts"><a href="#concepts" class="header-anchor">Concepts</a></h5>
 <ul>
 <li><p>Sets and Set Operations</p>
 <ul>
@@ -140,7 +195,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="roadmap">Roadmap</h3>
+<h3 id="roadmap"><a href="#roadmap" class="header-anchor">Roadmap</a></h3>
 <p>This is based on the Meta Learning step Young described as well as some additional tweaks of my own:</p>
 <ul>
 <li><p><strong>Outcomes:</strong> The knowledge and abilities you’ll need to acquire for success.</p>
@@ -165,10 +220,10 @@
 </li>
 </ul>
 <p>Additionally, in the construction of this project, I&#39;d like to thank John Carlos Baez for some of his suggestions&#33;</p>
-<h2 id="how_to_cite">How To Cite</h2>
+<h2 id="how_to_cite"><a href="#how_to_cite" class="header-anchor">How To Cite</a></h2>
 <p>Zelko, Jacob. <em>Learning What Every Undergraduate Mathematician Should Know about Proofs</em>. <a href="https://jacobzelko.com/04012023221538-learning-proofs-beginners">https://jacobzelko.com/04012023221538-learning-proofs-beginners</a>. April 1 2023.</p>
-<h2 id="references">References:</h2>
-<h2 id="discussion">Discussion: </h2>
+<h2 id="references"><a href="#references" class="header-anchor">References:</a></h2>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
 <script src="https://giscus.app/client.js"
     data-repo="TheCedarPrince/thecedarprince.github.io"
     data-repo-id="R_kgDOHRFrHA"
@@ -184,87 +239,16 @@
     crossorigin="anonymous"
     async>
 </script>
- ]]>
-  </content:encoded>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: April 02, 2023.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
     
-  <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Jacob Zelko</atom:name>
-  </atom:author>
+    
         
-</item>
 
-<item>
-  <title>
-    <![CDATA[  Arithmetic Sums &amp; Series  ]]>
-  </title>
-  <link> https://jacobzelko.com/01052021044121-arithmetic-series/index.html </link>
-  <guid> https://jacobzelko.com/01052021044121-arithmetic-series/index.html </guid>
-  <description>
-    <![CDATA[  A brief overview on what arithmetic series are and some of its underlying math.  ]]>
-  </description>  
-  
-  <content:encoded>
-    <![CDATA[  
-<h1>Arithmetic Sums &amp; Series</h1>
-<p><strong>Date:</strong> January 4 2021</p>
-<p><strong>Summary:</strong> A brief overview on what arithmetic series are and some of its underlying math.</p>
-<p><strong>Keywords:</strong> ##zettel #arithmetic #sums #series #proof  #archive</p>
-<h1>Bibliography</h1>
-<p>Not Available</p>
-<h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>An arithmetic sequence is one which the difference between one term and the next only differs by a constant. One example is this:</p>
-\[
-1+2+3+\cdots+n
-\]
-<p>where the difference between each proceeding term is the constant value, 1.</p>
-<p>An arithmetic series is one in which values in an arithmetic sequence are summed together:</p>
-\[
-\sum_{k=1}^{n} k=1+2+\cdots+n
-\]
-<p>This is a visual proof of the Arithmetic Series algorithm:</p>
-<p><img src="01052021044019-pwow-arithmetic-mean.png" alt="" /></p>
-<p>A formalization of the above is:</p>
-\[
-\sum_{k=1}^{n} = \frac{n(a_{1} + a_{n})}{2}
-\]
-<p>which is equivalent to:</p>
-\[
-\sum_{k=1}^{n} = \frac{a_{n}(a_{1} + a_{n})}{2}
-\]
-<p>The latter formalization is somewhat more common and it works as \(a_{n}\) gives the same values as what the size of the sequence is which is \(n\). From the visual proof, the \(\frac{n}{2}\) constant comes from halving the size of each region.</p>
-<p>&#40;Thanks to Mark Kittisopikul, Yingbo Ma, and Benoit Pasquier for these explanations&#41;</p>
-<h2 id="how_to_cite">How To Cite</h2>
-<p>Zelko, Jacob. <em>Arithmetic Sums &amp; Series</em>. <a href="https://jacobzelko.com/01052021044121-arithmetic-series">https://jacobzelko.com/01052021044121-arithmetic-series</a>. January 4 2021.</p>
-<h2 id="references">References</h2>
-<h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
-  </content:encoded>
+
     
-  <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Jacob Zelko</atom:name>
-  </atom:author>
-        
-</item>
-</channel></rss>
+  </body>
+</html>
