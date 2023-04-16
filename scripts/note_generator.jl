@@ -11,7 +11,7 @@ csl_path = "/home/cedarprince/.pandoc/ieee.csl"
 bibtex_path = "/home/src/Knowledgebase/Zettelkasten/zettel.bib"
 note_path = "/home/src/Projects/NewWebSite/notes"
 
-zettelkasten = "/home/src/Knowledgebase/Zettelkasten/"
+zettelkasten = "/home/src/Knowledgebase/ZK/"
 
 notes = filter(x -> splitext(x)[2] == ".md", readdir(zettelkasten))
 filter!(x -> !(contains(x, "meeting") || contains(x, "reflection") || contains(x, "wn")) && length(x) > 14, notes)
@@ -55,9 +55,9 @@ for zettel in notes
             inline_citations_dict = create_inline_citations(citation_keys, bibtex_path, csl_path)
             file = replace(file, inline_citations_dict...)
 
-            markdown_links = find_markdown_links(file)
-            markdown_links_dict = create_relative_links(markdown_links; prefix="/")
-            file = replace(file, markdown_links_dict...)
+            markdown_links = find_markdown_links(file, group_links = true)
+            relative_links_dict = create_relative_links(markdown_links["relative_links"]; prefix="https://jacobzelko.com/")
+            file = replace(file, relative_links_dict...)
 
             parsed_file = parse(file)
 
