@@ -31,7 +31,7 @@ Table of Contents
 
 ### Motivation
 
-[I was motivated to write this thought while writing my review on Marshall MacLuhan's masterpiece, *Understanding Media: The Extensions of Man*, while ruminating on his idea that I refer to as the "action and reaction".](//05222022225241-understanding-media-extensions.md) [It feels as though there exists an analogy between Einstein's notion of relativity of simultaneity and MacLuhan's idea concept of "action and reaction" – this note attempts to explain that analogous relationship.](//12242022211924-simultaneity-relativity.md)
+[I was motivated to write this thought while writing my review on Marshall MacLuhan's masterpiece, *Understanding Media: The Extensions of Man*, while ruminating on his idea that I refer to as the "action and reaction".](https://jacobzelko.com//05222022225241-understanding-media-extensions) [It feels as though there exists an analogy between Einstein's notion of relativity of simultaneity and MacLuhan's idea concept of "action and reaction" – this note attempts to explain that analogous relationship.](https://jacobzelko.com//12242022211924-simultaneity-relativity)
 
 ### 
 

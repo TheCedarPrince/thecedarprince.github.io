@@ -45,7 +45,7 @@ EHRs are not optimized for secondary uses. They have multiple limitations for re
 
 Errors propagate EHRs and ancillary sources. Data is entered by providers during visitation or memory. [1]
 
-Healthcare standards change over time. Collection standards vary by location. Much data is unstructured and narrative in nature. [Vannevar Bush article "As We May Think"](/01112021180936-we-may-think.md) also has relation to this very same issue. Regarding how clinicians' recall or anyone's recall of an incident from more than a few days ago may be impossible. There are analogies between the two disparate lines of thought: one clinical, the other academic: both overwhelming.
+Healthcare standards change over time. Collection standards vary by location. Much data is unstructured and narrative in nature. [Vannevar Bush article "As We May Think"](https://jacobzelko.com/01112021180936-we-may-think) also has relation to this very same issue. Regarding how clinicians' recall or anyone's recall of an incident from more than a few days ago may be impossible. There are analogies between the two disparate lines of thought: one clinical, the other academic: both overwhelming.
 
 Only a few data fields are common across different EHRs. Most phenotype definitions use combinations of:
 

@@ -31,7 +31,7 @@ Table of Contents
 
 Functional connectivity refers to the functionally integrated relationship between spatially separated brain regions.  Functional connectivity is related to similar patterns of activation in different brain regions regardless of the apparent physical connectedness of the regions. [1], [2]
 
-Functional connectivity is usually measured during resting state [fMRI](/12282020003750-functional-mri.md). [3] This is predicated on the assumption that functional connections in the brain remain constant in a short time over a task or period of data collection. Generally examined items based on temporal similarities during analysis of the brain are:
+Functional connectivity is usually measured during resting state [fMRI](https://jacobzelko.com/12282020003750-functional-mri). [3] This is predicated on the assumption that functional connections in the brain remain constant in a short time over a task or period of data collection. Generally examined items based on temporal similarities during analysis of the brain are:
 
   * Correlation
   * Coherence

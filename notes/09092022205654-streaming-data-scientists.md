@@ -31,7 +31,7 @@ Table of Contents
 
 ### Reading Motivation
 
-Streaming is an immensely important concept I have consistently found. I came to appreciate the concept more deeply by interacting with [TranscodingStreams.jl](/https://juliaio.github.io/TranscodingStreams.jl/stable/) to parse terabytes worth of data out of memory in a JSON format (shudders at the thought of this).
+Streaming is an immensely important concept I have consistently found. I came to appreciate the concept more deeply by interacting with [TranscodingStreams.jl](https://juliaio.github.io/TranscodingStreams.jl/stable/) to parse terabytes worth of data out of memory in a JSON format (shudders at the thought of this).
 
 Once your data is stored in files, data lakes, or data warehouses, it becomes historical data.
 

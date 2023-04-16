@@ -35,7 +35,7 @@ Eugenia Cheng takes a nuanced approach to the discussion around gender. As she r
 
 ### Category Theory as Tool for Thinking on Gender
 
-With this approach, she launches into her core contribution to the discussion on gender which is introducing the mathematics of [category theory](/11082021041951-category-theory-scientists.md) to decouple historical characteristics associated genders from the genders themselves. Cheng argues that this is a better approach to take in gender discussions to think more deeply about traits or characteristics in isolation rather than rooted in gender. You can then critique a characteristic or trait rather than a whole group of people.
+With this approach, she launches into her core contribution to the discussion on gender which is introducing the mathematics of [category theory](https://jacobzelko.com/11082021041951-category-theory-scientists) to decouple historical characteristics associated genders from the genders themselves. Cheng argues that this is a better approach to take in gender discussions to think more deeply about traits or characteristics in isolation rather than rooted in gender. You can then critique a characteristic or trait rather than a whole group of people.
 
 Rather than being a book on mathematics and gender, category theory is used more as a mental model or framework to enact this decoupling. This works well as category theory fundamentally concerns itself about relationships. In her opinion, category theory enables one to think more clearly about about characteristics with a great degree of flexibility.
 
@@ -58,7 +58,7 @@ Overall, I really enjoyed this book! I feel like her point was made pretty early
 
 I think her notion of decoupling is immensely important however I am not sure on her terminology of "ingressive" and "congressive". Whenever anyone overloads terms with additional definitions, it makes me nervous that confusion in discussion can occur. However, since these are not commonly used terms, at least in my experience, it makes me think this may not be as big an issue.
 
-Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the [social determinants of health](/07112020161337-social-determinants-health.md) and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:
+Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the [social determinants of health](https://jacobzelko.com/07112020161337-social-determinants-health) and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:
 
 "The idea of a temporary abstraction also takes into account the thorny issue of intersectionality, and the need to take other forms of power imbalance into account besides those governed by gender, for example race, wealth, sexual orientation, and so on."
 

@@ -31,7 +31,7 @@ Table of Contents
 
 ![](11302020061716.png)
 
-The way sliding window analysis works is to analyze each voxel across an axis and project it to a final array that does not contain the axis upon which analysis took place. In this picture, each [voxel](/11302020054820-voxel.md) across the z-axis at location `[1, 1]`, where `[1, 1]` is a `(x, y)` coordinate pair, is being summed up and divided by the number of values present to produce a simple mean. The voxels being summed are highlighted pink.
+The way sliding window analysis works is to analyze each voxel across an axis and project it to a final array that does not contain the axis upon which analysis took place. In this picture, each [voxel](https://jacobzelko.com/11302020054820-voxel) across the z-axis at location `[1, 1]`, where `[1, 1]` is a `(x, y)` coordinate pair, is being summed up and divided by the number of values present to produce a simple mean. The voxels being summed are highlighted pink.
 
 ![](11302020062728.png)
 

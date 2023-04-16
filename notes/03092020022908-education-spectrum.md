@@ -31,7 +31,7 @@ Table of Contents
 
 My best friend Wesley Samples believes that education – and for that matter, knowledge – falls more along a spectrum than in discrete categories (such as Mathematics and Biology). One can look at biology and find the idea of the golden ratio repeated across nature [1], [2]; example being the *Aeonium Tabuliforme*:
 
-![saucer plant](/03102020015817-aeonium-tabuliforme.jpg)
+![saucer plant](03102020015817-aeonium-tabuliforme.jpg)
 
 There is the idea of the creature being a biological entity motivating questions such as
 
@@ -40,7 +40,7 @@ There is the idea of the creature being a biological entity motivating questions
 
 ### Kuhnian Reasoning on Non-Linearity of Education
 
-Beyond Kuhn's general [musing in the _Structure of Scientific Revolutions](/05152022174848-structure-revolutions.md), his thought can also be linked to the notion that science and education is not linear.
+Beyond Kuhn's general [musing in the _Structure of Scientific Revolutions](https://jacobzelko.com/05152022174848-structure-revolutions), his thought can also be linked to the notion that science and education is not linear.
 ## How To Cite
 
  Zelko, Jacob. _Education as a Spectrum_. [https://jacobzelko.com/03092020022908-education-spectrum](https://jacobzelko.com/03092020022908-education-spectrum). March 9 2020.

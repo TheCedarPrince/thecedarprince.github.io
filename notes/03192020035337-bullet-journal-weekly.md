@@ -29,7 +29,7 @@ Table of Contents
 
 \toc
 
-The weekly plan is very similar to the [monthly plan](/03192020013347-bullet-journal-month.md) but is on a much smaller scale. If anything, it is much more similar to a weekly planner with an added twist of being an exercise in reflection and journaling. The weekly plan comprises of two main parts being:
+The weekly plan is very similar to the [monthly plan](https://jacobzelko.com/03192020013347-bullet-journal-month) but is on a much smaller scale. If anything, it is much more similar to a weekly planner with an added twist of being an exercise in reflection and journaling. The weekly plan comprises of two main parts being:
 
 1. Preview - where you plan for the week ahead
 2. Review - where you reflect on the previous week
@@ -42,7 +42,7 @@ Generally, it is very brief and contains the following:
 2. Major events of the week marked on corresponding day
 3. Review of the previous week in a short form journal
 
-Also, one could also include something like a [habit tracking system](/03192020013347-bullet-journal-month.md) for each week as well.
+Also, one could also include something like a [habit tracking system](https://jacobzelko.com/03192020013347-bullet-journal-month) for each week as well.
 
 ### Preview
 
@@ -51,11 +51,11 @@ Here is encompassed the first two points being:
 1. Major to-do's of the week
 2. Major events of the week marked on corresponding day
 
-This is where you schedule each day of the week based on your schedule. One can use the ["Next Actions" and "Waiting For"](/03192020050207-gtd-implementation.md) list from the [GTD framework](/03192020045854-get-things-done.md) to plan out your to-do's in a much more structured and useful way.
+This is where you schedule each day of the week based on your schedule. One can use the ["Next Actions" and "Waiting For"](https://jacobzelko.com/03192020050207-gtd-implementation) list from the [GTD framework](https://jacobzelko.com/03192020045854-get-things-done) to plan out your to-do's in a much more structured and useful way.
 
 ### Review
 
-Here is where the last point of the layout comes in - a reflection in the form of a [short form journal](/03192020035441-bullet-journal-daily.md##Short-Form-Journaling-Symbols). This is meant to be a brief professional reflection on the week and to reflect on the:
+Here is where the last point of the layout comes in - a reflection in the form of a [short form journal](https://jacobzelko.com/03192020035441-bullet-journal-daily##Short-Form-Journaling-Symbols). This is meant to be a brief professional reflection on the week and to reflect on the:
 
   * Wins for the week
   * What could have been better

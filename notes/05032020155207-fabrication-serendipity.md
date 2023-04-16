@@ -39,7 +39,7 @@ I actually think that the Zettelkasten method by Luhmann is distinctly different
 
 The power of the Zettelkasten comes from these accidental connections. Very similar to how one may spread out pieces of paper on a table and make a new connection, so does this method simulate it in very much the same way.
 
-Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as [knowledge falls across a spectrum.](/03092020022908-education-spectrum.md) (pg. 56)
+Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as [knowledge falls across a spectrum.](https://jacobzelko.com/03092020022908-education-spectrum) (pg. 56)
 ## How To Cite
 
  Zelko, Jacob. _Niklas Luhmann's Card Index: The Fabrication of Serendipity_. [https://jacobzelko.com/05032020155207-fabrication-serendipity](https://jacobzelko.com/05032020155207-fabrication-serendipity). May 3 2020.

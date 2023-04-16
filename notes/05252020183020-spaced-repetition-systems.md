@@ -29,9 +29,9 @@ Table of Contents
 
 \toc
 
-There are multiple algorithms available used for effectively implementing the [spacing effect](/05282020163507-spacing-effect.md). The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm [has been replicated](/05282020172154-replication-ebbinghaus.md) and scrutinized examined multiple times. [1]–[3] Spaced repetition systems are based around proper implementations of such algorithms.
+There are multiple algorithms available used for effectively implementing the [spacing effect](https://jacobzelko.com/05282020163507-spacing-effect). The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm [has been replicated](https://jacobzelko.com/05282020172154-replication-ebbinghaus) and scrutinized examined multiple times. [1]–[3] Spaced repetition systems are based around proper implementations of such algorithms.
 
-Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the [Leitner System which used paper note cards](/05102020220941-leitner-system.md) to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.
+Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the [Leitner System which used paper note cards](https://jacobzelko.com/05102020220941-leitner-system) to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.
 
 With computers, there have been several pieces of software made to automate and keep track of repetitions *for a learner*. A majority of these systems directly adapted the Leitner System from the analog to the digital world. Each software generally has proprietary algorithms that supposedly maximize the spacing effect but are directly inspired by the original work done by Ebbinghaus.
 

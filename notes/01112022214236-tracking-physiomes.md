@@ -53,7 +53,7 @@ Table of Contents
 
 ```
 - Heart Rate
-- [SpO2](/01112022220843-spo2-explained.md)
+- [SpO2](https://jacobzelko.com/01112022220843-spo2-explained)
 - Skin Temperature
 ```
 
@@ -68,12 +68,12 @@ Table of Contents
 
 ```
 - HR
-	- [Basis B1](/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text=the%20best%20prices-,The%20Basis%20B1%20is%20an%20activity%20tracker%20that's%20marketed%20as,burned,%20distance%20walked%20and%20sleep.) - discontinued
-	- [Basis Peak](/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text=the best prices-,The Basis B1 is an activity tracker that's marketed as,burned, distance walked and sleep.) - recalled, discontinued
-	- [Scanadu](/https://techcrunch.com/2016/12/13/fda-orders-scanadu-to-shut-down-support-for-its-scout-device-and-customers-are-mad/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAALiRl2t7ma1bFByNmrMrAP8vVK5_iBXu35z3PuC9UVIY6cll8UaL5w2RWGvOBU68epFCefiwLghsqP3rxoNEGSKtAXSuMXQKrbSDsE4ti9xcfwcnjMtrx46tP89acwwmKKBJTdvCgmVRgo_zwQDSMztMxVAFFvbmhmYcdq8mTvER) - discontinued
+	- [Basis B1](https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text=the%20best%20prices-,The%20Basis%20B1%20is%20an%20activity%20tracker%20that's%20marketed%20as,burned,%20distance%20walked%20and%20sleep.) - discontinued
+	- [Basis Peak](https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text=the best prices-,The Basis B1 is an activity tracker that's marketed as,burned, distance walked and sleep.) - recalled, discontinued
+	- [Scanadu](https://techcrunch.com/2016/12/13/fda-orders-scanadu-to-shut-down-support-for-its-scout-device-and-customers-are-mad/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAALiRl2t7ma1bFByNmrMrAP8vVK5_iBXu35z3PuC9UVIY6cll8UaL5w2RWGvOBU68epFCefiwLghsqP3rxoNEGSKtAXSuMXQKrbSDsE4ti9xcfwcnjMtrx46tP89acwwmKKBJTdvCgmVRgo_zwQDSMztMxVAFFvbmhmYcdq8mTvER) - discontinued
 - Skin Temperature
-	- [Basis B1](/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text=the%20best%20prices-,The%20Basis%20B1%20is%20an%20activity%20tracker%20that's%20marketed%20as,burned,%20distance%20walked%20and%20sleep.) - discontinued
-	- [Basis Peak](/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text=the best prices-,The Basis B1 is an activity tracker that's marketed as,burned, distance walked and sleep.) - recalled, discontinued
+	- [Basis B1](https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text=the%20best%20prices-,The%20Basis%20B1%20is%20an%20activity%20tracker%20that's%20marketed%20as,burned,%20distance%20walked%20and%20sleep.) - discontinued
+	- [Basis Peak](https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text=the best prices-,The Basis B1 is an activity tracker that's marketed as,burned, distance walked and sleep.) - recalled, discontinued
 ```
 
 ### Lyme Disease Found in Subject 1

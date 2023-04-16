@@ -31,9 +31,9 @@ Table of Contents
 
 ### Definitions
 
-Social cohesion is the connectedness and solidarity in populations. This includes the absence of social conflict and presence of social bonds.27 A measure used to quantify social cohesion is trust. [Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective](/08192022115354-health-terrorism-factors.md)
+Social cohesion is the connectedness and solidarity in populations. This includes the absence of social conflict and presence of social bonds.27 A measure used to quantify social cohesion is trust. [Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective](https://jacobzelko.com/08192022115354-health-terrorism-factors)
 
-Social capital are the features of social structures that are resources for community members to create action.27 Social capital acts as a safety net for individuals to protect against losses like physical health, mental health, and life satisfaction.31[Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective](/08192022115354-health-terrorism-factors.md) (See [Features of Social Capital](/08282022135955-social-capital.md) for further insight on what social capital is and its importance)
+Social capital are the features of social structures that are resources for community members to create action.27 Social capital acts as a safety net for individuals to protect against losses like physical health, mental health, and life satisfaction.31[Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective](https://jacobzelko.com/08192022115354-health-terrorism-factors) (See [Features of Social Capital](https://jacobzelko.com/08282022135955-social-capital) for further insight on what social capital is and its importance)
 ## How To Cite
 
  Zelko, Jacob. _Social Determinants Surrounding Terrorism_. [https://jacobzelko.com/08282022134930-social-determinants-terrorism](https://jacobzelko.com/08282022134930-social-determinants-terrorism). August 28 2022.

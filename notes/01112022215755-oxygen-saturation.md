@@ -31,7 +31,7 @@ Table of Contents
 
 ### Overview
 
-  * [What Is Peripheral Capillary Oxygen Saturation (SpO2)](/01112022220843-spo2-explained.md)
+  * [What Is Peripheral Capillary Oxygen Saturation (SpO2)](https://jacobzelko.com/01112022220843-spo2-explained)
 
 ```
 - **Summary:** What SpO2 is and their pros and cons as a biomarker

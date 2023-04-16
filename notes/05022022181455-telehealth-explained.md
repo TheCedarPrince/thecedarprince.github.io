@@ -46,7 +46,7 @@ TODO: Make its own note
   * Emergency Frameworks
 
 ```
-[NOTE](/05022022153220-evaluating-telehealth.md)
+[NOTE](https://jacobzelko.com/05022022153220-evaluating-telehealth)
 - [SPROUT Telehealth Evaluation and Measurement profile] [1]
 	- Utilizes concepts from:
 		- National Quality Forum
@@ -63,7 +63,7 @@ TODO: Make its own note
 		- Health systems
 		- Payer
 - [NATO Multinational Telemedicine System]
-[NOTE](/05022022171845-telehealth-global-emergencies.md)
+[NOTE](https://jacobzelko.com/05022022171845-telehealth-global-emergencies)
 - American Telemedicine Association Emergency and Response framework and infrastructure checklist [2]
 ```
 
@@ -105,7 +105,7 @@ TODO: Make its own note
 
   * [Keys for Successful Interventions]
 
-[NOTE](/05022022171845-telehealth-global-emergencies.md) How to realize a successful telehealth intervention alongside medical professionals according to this paper:
+[NOTE](https://jacobzelko.com/05022022171845-telehealth-global-emergencies) How to realize a successful telehealth intervention alongside medical professionals according to this paper:
 
   * Provide telehealth training
   * Create telehealth accreditation
@@ -122,7 +122,7 @@ Given this definition, one of the most obvious goals of telehealth is to improve
 
 ### Telehealth Strategies or Frameworks
 
-[NOTE](/05022022153220-evaluating-telehealth.md)
+[NOTE](https://jacobzelko.com/05022022153220-evaluating-telehealth)
 
   * SPROUT Telehealth Evaluation and Measurement profile [1]
 
@@ -145,7 +145,7 @@ Given this definition, one of the most obvious goals of telehealth is to improve
 
 ### Challenges in Telehealth
 
-[NOTE](/05022022155118-telehealth.md) [4]
+[NOTE](https://jacobzelko.com/05022022155118-telehealth) [4]
 
   * Current Procedural Terminology Codes
 
@@ -170,7 +170,7 @@ Given this definition, one of the most obvious goals of telehealth is to improve
 		- Developed to identify existing and potential telehealth metrics
 ```
 
-[NOTE](/05022022171845-telehealth-global-emergencies.md)
+[NOTE](https://jacobzelko.com/05022022171845-telehealth-global-emergencies)
 
   * Clinician unwillingness to use telehealth [9]
 
@@ -187,7 +187,7 @@ Given this definition, one of the most obvious goals of telehealth is to improve
 - Some physical examinations
 ```
 
-[NOTE](/05022022144808-state-of-telehealth.md)
+[NOTE](https://jacobzelko.com/05022022144808-state-of-telehealth)
 
   * Reimbursement issues
 
@@ -208,7 +208,7 @@ Given this definition, one of the most obvious goals of telehealth is to improve
 
 ### Opportunities for Telehealth
 
-[NOTE](/05022022171845-telehealth-global-emergencies.md)
+[NOTE](https://jacobzelko.com/05022022171845-telehealth-global-emergencies)
 
   * Advantages of telehealth
 
@@ -219,7 +219,7 @@ Given this definition, one of the most obvious goals of telehealth is to improve
 - Reduce person-to-person contact of disease transmission
 ```
 
-[NOTE](/05022022144808-state-of-telehealth.md)
+[NOTE](https://jacobzelko.com/05022022144808-state-of-telehealth)
 
   * Chronic condition patients
 
@@ -238,7 +238,7 @@ Given this definition, one of the most obvious goals of telehealth is to improve
 
 ### Success in Telehealth Interventions
 
-[NOTE](/05022022171845-telehealth-global-emergencies.md) How to realize a successful telehealth intervention alongside medical professionals according to this paper:
+[NOTE](https://jacobzelko.com/05022022171845-telehealth-global-emergencies) How to realize a successful telehealth intervention alongside medical professionals according to this paper:
 
   * Provide telehealth training
   * Create telehealth accreditation

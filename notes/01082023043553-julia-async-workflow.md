@@ -31,7 +31,7 @@ Table of Contents
 
 ### Motivation
 
-I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent [Revise.jl package (created by Tim Holy)](/https://github.com/timholy/Revise.jl) does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a [Julia Discourse post I provided an answer to](/https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6).
+I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent [Revise.jl package (created by Tim Holy)](https://github.com/timholy/Revise.jl) does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a [Julia Discourse post I provided an answer to](https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6).
 
 ### Set-Up
 
@@ -54,9 +54,9 @@ pkg> add FileWatching, Weave
 
 6. Install node onto your machine.
 
-I suggest using the great tool, [`nvm`, which allows easy management of node versions](/https://github.com/nvm-sh/nvm).
+I suggest using the great tool, [`nvm`, which allows easy management of node versions](https://github.com/nvm-sh/nvm).
 
-7. Install the node package, [`browser-sync`, which allows for syncing of webpages based on updates](/https://www.npmjs.com/package/browser-sync).
+7. Install the node package, [`browser-sync`, which allows for syncing of webpages based on updates](https://www.npmjs.com/package/browser-sync).
 
 Here is the command you can use in your command line: 
 
@@ -64,7 +64,7 @@ Here is the command you can use in your command line:
 npm i -g browser-sync 
 ```
 
-> NOTE: Steps 6 and 7 are not necessary if you are not interested in the [section on literate programming](/#asynchronous-workflow-for-literate-programming)
+> NOTE: Steps 6 and 7 are not necessary if you are not interested in the [section on literate programming](#asynchronous-workflow-for-literate-programming)
 
 
 ### Simple Workflow Process

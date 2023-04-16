@@ -31,11 +31,11 @@ Table of Contents
 
 ### Introduction
 
-This book has had an immense impact in the world of science. From how science is taught to how science is thought about, Kuhn's notions of scientific revolution resonated across nearly all domains of science as well as touching into the arts. The central conceit that Kuhn stated in this book is that the scientific community knows what the world is like. I was recommended this book by my friend, collaborator, and Category Theorist, [Professor James P. Fairbanks](/https://www.jpfairbanks.com/) I can see why it was recommended as it fits in quite nicely to the ensuing philosophical ideas found in [Category Theory](/11082021041951-category-theory-scientists.md).
+This book has had an immense impact in the world of science. From how science is taught to how science is thought about, Kuhn's notions of scientific revolution resonated across nearly all domains of science as well as touching into the arts. The central conceit that Kuhn stated in this book is that the scientific community knows what the world is like. I was recommended this book by my friend, collaborator, and Category Theorist, [Professor James P. Fairbanks](https://www.jpfairbanks.com/) I can see why it was recommended as it fits in quite nicely to the ensuing philosophical ideas found in [Category Theory](https://jacobzelko.com/11082021041951-category-theory-scientists).
 
 ### What Is *Normal Science*?
 
-[Note for atomic concept](/05222022044134-normal-science.md)
+[Note for atomic concept](https://jacobzelko.com/05222022044134-normal-science)
 
 According to Kuhn, *normal science*, is research based on past scientific accomplishments that are considered the foundation for that area of investigation. Generally, this is the area where most scientists spend their time. The research done in normal science can be theoretical or empirical.
 
@@ -53,7 +53,7 @@ Aside from this fundamental aspect of normal science, Kuhn posited that there ar
 
 ### What Was Kuhn's Concept of a Paradigm?
 
-[Note for atomic concept](/05222022044626-kuhnian-paradigm.md)
+[Note for atomic concept](https://jacobzelko.com/05222022044626-kuhnian-paradigm)
 
 Kuhn reintroduced into the modern English lexicon the word, "paradigm". Before his time, the term was rather archaic. A paradigm is the background through which normal science is conducted loosely speaking. Another way of thinking about it is from online user *heynonnynonnie* suggesting that a paradigm is a consensus agreed upon by a group of practitioners of a field.
 
@@ -76,11 +76,11 @@ I will admit, his example of social scientists was at first confusing. But, upon
 
 ### What Causes the Downfall of a Paradigm?
 
-[Note on atomic concept](/05222022044910-downfall-kuhnian-paradigm.md)
+[Note on atomic concept](https://jacobzelko.com/05222022044910-downfall-kuhnian-paradigm)
 
 Normal science certainly is clear, safe, and predictable. But, what if a scientist finds results that do not fit within a paradigm? What if a result, ruling out all possible errors carried forth by a highly scrupulous researcher, is simply unexplainable - an anomaly against the backdrop of a paradigm? To Kuhn, this marks an important inflection point in adopted paradigms.
 
-Novelty in science only emerges with resistance and difficulty because any, as Kuhn wisely points out, researchers who investigate every anomaly will not get much done. But at some point, these anomalies will continue to accumulate to the point of being unignorable to adherents of a paradigm. A sort of malcontent will arise adherents and to [quote Sherlock Holmes, "When you have eliminated the impossible, whatever remains, however improbable, must be the truth."](/07222020181007-famous-quotes.md) And that truth is that an accepted paradigm is no longer sufficient to explain a domain which leads to a period of significant upheaval.
+Novelty in science only emerges with resistance and difficulty because any, as Kuhn wisely points out, researchers who investigate every anomaly will not get much done. But at some point, these anomalies will continue to accumulate to the point of being unignorable to adherents of a paradigm. A sort of malcontent will arise adherents and to [quote Sherlock Holmes, "When you have eliminated the impossible, whatever remains, however improbable, must be the truth."](https://jacobzelko.com/07222020181007-famous-quotes) And that truth is that an accepted paradigm is no longer sufficient to explain a domain which leads to a period of significant upheaval.
 
 Kuhn characterized the downfall of a paradigm in three generic ways:
 
@@ -103,7 +103,7 @@ This problem leads normal science into a rather interesting process of science c
 
 ### "Scientific Revolutions" and the Term "Revolution"
 
-[Note on atomic concept](/05222022045723-scientific-revolutions.md)
+[Note on atomic concept](https://jacobzelko.com/05222022045723-scientific-revolutions)
 
 According to Kuhn, these crises are the requirements for a new paradigm to come forth. This leads to extraordinary science as this episode in a paradigm's life is extraordinary that causes a basic shift in how science is even conducted. This period, coined by Kuhn, is called a "Scientific Revolution".
 
@@ -113,7 +113,7 @@ Although a paradigm may shift how one does science, the world itself does not ch
 
 ### Invoking New Paradigms on Faith
 
-[Note on atomic concept](/05222022045931-new-paradigms.md)
+[Note on atomic concept](https://jacobzelko.com/05222022045931-new-paradigms)
 
 A problem inherit to the development of new paradigms is that to adopt these new paradigms is most certainly an act of faith. Early adherents to a new paradigm must stand against the onslaught of problems that were solved or addressed by  a previous paradigm. They must simply have hope and faith that this new paradigm they have adopted will succeed in the areas where the previous paradigm failed. As Kuhn said:
 
@@ -131,7 +131,7 @@ One small final footnote on new paradigms is an observation by Kuhn: the inventi
 
 ### On the Non-Linearity of Science
 
-[Note on atomic concept](/05222022050357-non-linearity-science.md)
+[Note on atomic concept](https://jacobzelko.com/05222022050357-non-linearity-science)
 
 One thing out of this book is that I very much appreciated and agreed with Kuhn's notion that science is not linear nor is it necessarily the result of a universal truth being uncovered. Rather, it is the confluence of emerging theories that evolve and find they can fit with other theories or paradigms. These newly combined theories then come together to possibly overturn or change the understanding of currently practiced science.
 
@@ -143,7 +143,7 @@ As I wrap up this review of *The Structure of Scientific Revolutions*, here are 
 
 #### Paradigm Shifts in Other Domains
 
-Outside of Science, Technology, Engineering, and Mathematics, Kuhn's notion of paradigm shifts do occur. Such a paradigm shift based on Kuhn's writings in an area such as the social sciences could be - and I am making an educated guess here - something akin to the near modern universal condemnation and outlawing of slavery. However, to this end Kuhn posited that unlike the other natural sciences, there still exist competing schools of thought. A visceral modern example is that social scientists also have to defend their choice of a research problem such as examining race in the context of the [social determinants of health](/07112020161337-social-determinants-health.md) where other existing schools of thought may fiercely disagree on the validity of such endeavors.
+Outside of Science, Technology, Engineering, and Mathematics, Kuhn's notion of paradigm shifts do occur. Such a paradigm shift based on Kuhn's writings in an area such as the social sciences could be - and I am making an educated guess here - something akin to the near modern universal condemnation and outlawing of slavery. However, to this end Kuhn posited that unlike the other natural sciences, there still exist competing schools of thought. A visceral modern example is that social scientists also have to defend their choice of a research problem such as examining race in the context of the [social determinants of health](https://jacobzelko.com/07112020161337-social-determinants-health) where other existing schools of thought may fiercely disagree on the validity of such endeavors.
 
 Furthermore, Kuhn gave the great example that, "the man who argues that philosophy [...] has made no progress emphasizes that there are still Aristotelians, not that Aristotelianism has failed to progress," I am in agreement with Kuhn in that it is not that schools of thought outside Science, Technology, Engineering, and Mathematics are not making progress. It is that their are much more fundamental conflicts in these spaces that have yet to be reconciled in sufficient ways.
 

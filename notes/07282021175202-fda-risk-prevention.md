@@ -51,7 +51,7 @@ Table of Contents
 
 ```
 - Required industry partnerships 
-- Culminated in the creation of the [Observational Medical Outcomes Partnership (OMOP)](/07282021181744-origins-omop.md)
+- Culminated in the creation of the [Observational Medical Outcomes Partnership (OMOP)](https://jacobzelko.com/07282021181744-origins-omop)
 ```
 ## How To Cite
 

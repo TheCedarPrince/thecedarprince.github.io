@@ -54,7 +54,7 @@ All content in the OMOP CDM is a concept. They form relationships with one anoth
 
 1. `CONCEPT` - the concepts in the CDM
 2. `CONCEPT_RELATIONSHIP` - the relationships between concepts
-3. `CONCEPT_ANCESTOR` - hierarchical concept relationships; see [Exploring Ancestors and Descendants of a Concept](/07282021202459-exploring-ancestors-concept.md)
+3. `CONCEPT_ANCESTOR` - hierarchical concept relationships; see [Exploring Ancestors and Descendants of a Concept](https://jacobzelko.com/07282021202459-exploring-ancestors-concept)
 
 #### "Concept" Example
 
@@ -71,7 +71,7 @@ Includes:
   * Drug Ingredients
   * Drug Classes
 
-One can query [drug concepts by name](/07282021211226-drug-concepts.md) easily in OHDSI tools.
+One can query [drug concepts by name](https://jacobzelko.com/07282021211226-drug-concepts) easily in OHDSI tools.
 
 ### Use Cases for the OMOP CDM
 

@@ -29,7 +29,7 @@ Table of Contents
 
 \toc
 
-  * Was formed by [OMOP](/07282021181744-origins-omop.md)
+  * Was formed by [OMOP](https://jacobzelko.com/07282021181744-origins-omop)
   * Based out of Columbia University
 
 ```
@@ -38,7 +38,7 @@ Table of Contents
 
   * International initiative for interdisciplinary, observational-based problem solving
 
-It has a clearly defined set of [goals](/07282021185354-ohdsi-goals.md) to encourage international collaboration on observational health research.
+It has a clearly defined set of [goals](https://jacobzelko.com/07282021185354-ohdsi-goals) to encourage international collaboration on observational health research.
 ## How To Cite
 
  Zelko, Jacob. _Observational Health Data Sciences and Informatics (OHDSI) Origins_. [https://jacobzelko.com/07282021184510-ohdsi-background](https://jacobzelko.com/07282021184510-ohdsi-background). July 28 2021.

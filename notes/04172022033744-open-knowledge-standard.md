@@ -33,7 +33,7 @@ Table of Contents
 
 Knowledge is one of the most nebulous ideas known to mankind since nearly the beginning of time. What may be knowledge to one person may be useless noise to another - this encapsulates the difficulty in defining knowledge. As a result of its many possible meanings, I put forth a rather opinionated proposal for what I term the "Open Knowledge Model".
 
-The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined "knowledge management systems". Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the [ISO 30401](/https://www.iso.org/standard/68683.html) standard.
+The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined "knowledge management systems". Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the [ISO 30401](https://www.iso.org/standard/68683.html) standard.
 
 There are many different knowledge management systems available to someone – from a pen and pencil to various software offerings. Each of these offerings are very unique and accordingly offer benefits and cons. This model remains independent of any such offering but instead prescribes a model to structure information in any of the offerings one chooses to pursue.
 
@@ -77,13 +77,13 @@ It is recommended to never write down the references section manually. Instead, 
 
 To give an example of implementations, here are some examples of implementations:
 
-  * [Markdown Implementation](/08032021134232-notes-template.md)
+  * [Markdown Implementation](https://jacobzelko.com/08032021134232-notes-template)
 
 ### Tools for Working with Model
 
 Here are a list of some tools that have emerged to work with the Open Knowledge Model: 
 
-  * [NoteMate.jl](/https://github.com/TheCedarPrince/NoteMate) - a companion for working with a knowledge management system that adheres to the Open Knowledge Model.
+  * [NoteMate.jl](https://github.com/TheCedarPrince/NoteMate) - a companion for working with a knowledge management system that adheres to the Open Knowledge Model.
 
 Written in Julia and offers parsing from Markdown notes to other target formats.
 

@@ -106,8 +106,8 @@ $$
 log_{m}(n) = \frac{log_{2}(n)}{log_{2}(m)} = Clog_{2}(n) \rightarrow \mathcal{O}(log_{m}(n)) \rightarrow \mathcal{O}(log(n))
 $$
 
-  * It can intuitively be thought of the running time is proportional to the $n$ [Stack Overflow Explanation](/https://stackoverflow.com/a/2307307)
-  * Another way to think about it is that the time goes up linearly while $n$ increases exponentially [Stack Overflow Explanation](/https://stackoverflow.com/a/2307330)
+  * It can intuitively be thought of the running time is proportional to the $n$ [Stack Overflow Explanation](https://stackoverflow.com/a/2307307)
+  * Another way to think about it is that the time goes up linearly while $n$ increases exponentially [Stack Overflow Explanation](https://stackoverflow.com/a/2307330)
 
 An example of this behavior is here:
 
@@ -128,7 +128,7 @@ $$
 
 #### Exercises
 
-*The following exercises can be found [here](/https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)*
+*The following exercises can be found [here](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)*
 
 1. What is the time and space complexity of:
 
@@ -268,7 +268,7 @@ Explanation: Algorithm A could be faster on smaller inputs as compared to algori
 
 ### Amortized Analysis
 
-See [note here for details](/10052021235121-amortized-analysis.md)
+See [note here for details](https://jacobzelko.com/10052021235121-amortized-analysis)
 ## How To Cite
 
  Zelko, Jacob. _Asymptotic Notation_. [https://jacobzelko.com/09242021040445-asymptotic-notation](https://jacobzelko.com/09242021040445-asymptotic-notation). September 28 2021.

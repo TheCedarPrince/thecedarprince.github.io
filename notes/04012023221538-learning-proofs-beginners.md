@@ -35,7 +35,7 @@ As I am personally moving into applied mathematics for my future graduate studie
 
 ### Project Goals
 
-This process is adapted from the [Ultralearning framework posited by Scott Young](//07082020163004-ultralearning.md).
+This process is adapted from the [Ultralearning framework posited by Scott Young](https://jacobzelko.com//07082020163004-ultralearning).
 
 #### What Am I Doing?
 

@@ -29,10 +29,10 @@ Table of Contents
 
 \toc
 
-  * [History of the RDF](/02182022164256-rdf-history.md) - Very brief history of the RDF
-  * [RDF Data Storage Formats](/02182022172731-rdf-file-formats.md) - Types of data storage formats available for RDF
-  * [Overview of the Resource Description Framework (RDF)](/02182022165447-rdf-overview.md) - An overview of the RDF and how it works
-  * [How To Imagine an RDF as an ACSet](/02182022190950-rdf-acset-representation.md) - How RDFs can be conceptualized as an ACSet
+  * [History of the RDF](https://jacobzelko.com/02182022164256-rdf-history) - Very brief history of the RDF
+  * [RDF Data Storage Formats](https://jacobzelko.com/02182022172731-rdf-file-formats) - Types of data storage formats available for RDF
+  * [Overview of the Resource Description Framework (RDF)](https://jacobzelko.com/02182022165447-rdf-overview) - An overview of the RDF and how it works
+  * [How To Imagine an RDF as an ACSet](https://jacobzelko.com/02182022190950-rdf-acset-representation) - How RDFs can be conceptualized as an ACSet
 ## How To Cite
 
  Zelko, Jacob. _The Resource Description Framework (RDF) Explained_. [https://jacobzelko.com/01282022220116-resource-description-framework](https://jacobzelko.com/01282022220116-resource-description-framework). January 28 2022.

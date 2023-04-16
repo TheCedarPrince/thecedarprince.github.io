@@ -36,18 +36,18 @@ Incremental reading follows the general format. [1]
 3. Allocate a comfortable reading time duration per piece with a timed, short break in-between. [^1]
 4. While reading each piece, annotate material that is of interest or difficult to process.
 5. Transfer annotations from each piece to an index card representation (actual or digital).
-6. Pause reading and review collected annotations using a [spaced repetition system](/05252020183020-spaced-repetition-systems.md).
+6. Pause reading and review collected annotations using a [spaced repetition system](https://jacobzelko.com/05252020183020-spaced-repetition-systems).
 7. Once annotations have been thoroughly revised and reviewed, repeat from step 2 until finished with pieces over the next several days.
 
 Incremental reading helps with improving focus and promotes learning while moving uniformly to finish reading. [^2] [2], [3] Ingesting raw annotations into a spaced repetition system enables one to process them without being overwhelmed. On each repetition of a particular annotation, rewriting or modifying that information is crucial in cementing understanding. [^3] After finishing revisions and reviews, this process is repeated until done with reading the pieces.
 
 ### **Footnotes:**
 
-[^1] Ariga and Lleras demonstrated that attention on a particular task can be extended via brief and uncommon respites of a controlled nature. [4]([Click for more details](/06052020031214-brief-breaks.md))
+[^1] Ariga and Lleras demonstrated that attention on a particular task can be extended via brief and uncommon respites of a controlled nature. [4]([Click for more details](https://jacobzelko.com/06052020031214-brief-breaks))
 
-[^2] It is suggested that interleaving material forces one to differentiate between different topics. When pressured under practice, this can heighten one's perception about differentiators. It leads to better embedding of concept abstractions that foster retention and transfer. [2], [3]([Click for more details](/05252020211350-hard-on-self.md))
+[^2] It is suggested that interleaving material forces one to differentiate between different topics. When pressured under practice, this can heighten one's perception about differentiators. It leads to better embedding of concept abstractions that foster retention and transfer. [2], [3]([Click for more details](https://jacobzelko.com/05252020211350-hard-on-self))
 
-[^3] Generating an explanation about a topic rather than just being given a solution can be more effective than the spacing effect. This is called the generation effect. [2]([Click for more details](/05252020211350-hard-on-self.md))
+[^3] Generating an explanation about a topic rather than just being given a solution can be more effective than the spacing effect. This is called the generation effect. [2]([Click for more details](https://jacobzelko.com/05252020211350-hard-on-self))
 ## How To Cite
 
  Zelko, Jacob. _Incremental Reading_. [https://jacobzelko.com/05092020053727-incremental-reading](https://jacobzelko.com/05092020053727-incremental-reading). May 9 2020.

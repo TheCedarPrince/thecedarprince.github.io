@@ -27,7 +27,7 @@ Table of Contents
 
 \toc
 
-`scrcpy` also known as Screen Copy is an [open source package](/https://github.com/Genymobile/scrcpy) that allows one to mirror Android devices to computer screens.
+`scrcpy` also known as Screen Copy is an [open source package](https://github.com/Genymobile/scrcpy) that allows one to mirror Android devices to computer screens.
 
 ### Normal Set up
 

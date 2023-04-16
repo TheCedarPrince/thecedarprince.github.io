@@ -35,7 +35,7 @@ I was suggested this paper by Sarah Gasman of Boston Medical Center. She suggest
 
 ### What Is Intersectionality?
 
-[What Is Intersectionality and Intersectionality Theory?](/11042022141714-what-intersectionality-theory.md) - An overview and summary on what is intersectionality and intersectionality theory as an area of health and health disparities research.
+[What Is Intersectionality and Intersectionality Theory?](https://jacobzelko.com/11042022141714-what-intersectionality-theory) - An overview and summary on what is intersectionality and intersectionality theory as an area of health and health disparities research.
 
 ### Why Are Intersectional Approaches Needed?
 

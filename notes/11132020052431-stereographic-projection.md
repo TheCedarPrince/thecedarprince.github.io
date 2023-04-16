@@ -31,8 +31,8 @@ Table of Contents
 
 ### Note Linked From:
 
-  * [NeuriViz Project](/10152020223819-neuriviz-project.md) - An on-going experiment into developing performant neuroscientific visualizations via Julia.
-  * [NeuriViz Project Notes](/10182020030856-neuriviz-research-notes.md)
+  * [NeuriViz Project](https://jacobzelko.com/10152020223819-neuriviz-project) - An on-going experiment into developing performant neuroscientific visualizations via Julia.
+  * [NeuriViz Project Notes](https://jacobzelko.com/10182020030856-neuriviz-research-notes)
 
 ---
 

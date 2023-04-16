@@ -29,7 +29,7 @@ Table of Contents
 
 \toc
 
-Iterative proportional fitting [1] was used to make POI –> [CBG](/01202021043013-census-groups.md) networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.
+Iterative proportional fitting [1] was used to make POI –> [CBG](https://jacobzelko.com/01202021043013-census-groups) networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.
 
 *THOUGHTS: What is iterative proportional fitting?*
 

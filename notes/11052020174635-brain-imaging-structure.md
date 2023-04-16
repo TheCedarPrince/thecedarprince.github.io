@@ -33,7 +33,7 @@ Table of Contents
 
 A core problem regarding reproducible neuroscience is that there has been no widely adopted standard for describing data from an imaging experiment. This renders sharing and reusing data difficult.[1] Furthermore, it complicates automation and quality assurance.
 
-The BIDS format was inspired by the work done by the [OpenNeuro](/https://openneuro.org/) community to easily share and structure their data regarding pertaining to neuroscientific research. It enables development of automated tools to operate on datasets. [1] Common standards minimize curation! Helps those not involved to effectively understand the data.
+The BIDS format was inspired by the work done by the [OpenNeuro](https://openneuro.org/) community to easily share and structure their data regarding pertaining to neuroscientific research. It enables development of automated tools to operate on datasets. [1] Common standards minimize curation! Helps those not involved to effectively understand the data.
 
 ### Specific data specifications:
 

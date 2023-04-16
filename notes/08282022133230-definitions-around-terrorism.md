@@ -31,7 +31,7 @@ Table of Contents
 
 ### What Is Terrorism?
 
-Terrorism is defined as the use of violence and intimidation in the pursuit of political aims. Terrorism is not an individual experience; it is violence at a population level and worthy of attention in fields focusing on socioecological understanding of social processes and human behavior [Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective](/08192022115354-health-terrorism-factors.md). Often the threat of violence – is enough to accomplish an objective (this holds true often for terrorist groups as well).
+Terrorism is defined as the use of violence and intimidation in the pursuit of political aims. Terrorism is not an individual experience; it is violence at a population level and worthy of attention in fields focusing on socioecological understanding of social processes and human behavior [Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective](https://jacobzelko.com/08192022115354-health-terrorism-factors). Often the threat of violence – is enough to accomplish an objective (this holds true often for terrorist groups as well).
 
 ### Goals of Terrorism
 
@@ -48,7 +48,7 @@ As well as:
 
 ### What Is Violent Radicalization
 
-Violent radicalization the process of adopting or promoting an ideologically based violence to advance political, religious, or social change via an extremist belief system [Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective](/08192022115354-health-terrorism-factors.md).
+Violent radicalization the process of adopting or promoting an ideologically based violence to advance political, religious, or social change via an extremist belief system [Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective](https://jacobzelko.com/08192022115354-health-terrorism-factors).
 ## How To Cite
 
  Zelko, Jacob. _Definitions Concerning Terrorism_. [https://jacobzelko.com/08282022133230-definitions-around-terrorism](https://jacobzelko.com/08282022133230-definitions-around-terrorism). August 28 2022.

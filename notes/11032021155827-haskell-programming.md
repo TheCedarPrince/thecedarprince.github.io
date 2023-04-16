@@ -31,11 +31,11 @@ Table of Contents
 
 ### Packages
 
-[Prelude](/11032021171123-prelude-haskell-library.md) - Haskell's Standard Library
+[Prelude](https://jacobzelko.com/11032021171123-prelude-haskell-library) - Haskell's Standard Library
 
 ### Functions
 
-All functions are [pure](/11082021225843-pure-functions.md) within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.
+All functions are [pure](https://jacobzelko.com/11082021225843-pure-functions) within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.
 
 #### Ar
 

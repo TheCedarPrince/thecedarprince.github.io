@@ -76,7 +76,7 @@ Increased "stickiness" in platelets occurs due to increases in adrenaline in the
 
 The sympatho-adrenal pathway activates, prepares for, or maintains physical exertion. It causes psychological arousal and energy mobilization. It inhibits functions irrelevant to immediatesurvival. Degree of activation depends on stressorand its duration. Thesympatho-adrenal pathway can be switched off rapidly.
 
-The first pathway is the sympatho-adrenal pathway and activates quickly. It consists of the sympathetic branch of the [autonomic nervous system](/12302020174059-autonomic-nervous-system.md). The pathway produces two hormones:
+The first pathway is the sympatho-adrenal pathway and activates quickly. It consists of the sympathetic branch of the [autonomic nervous system](https://jacobzelko.com/12302020174059-autonomic-nervous-system). The pathway produces two hormones:
 
 1. Noradrenaline at nerve endings
 2. Adrenaline directly into the bloodstream by the medulla (or middle part) of the adrenal glands.

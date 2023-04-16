@@ -29,13 +29,13 @@ Table of Contents
 
 \toc
 
-  * [What Is Electrodermal Activity?](/03242020003215-eda-explained.md)
+  * [What Is Electrodermal Activity?](https://jacobzelko.com/03242020003215-eda-explained)
 
 ```
 - **Summary:** What electrodermal activity is and its pros and cons as a biomarker
 ```
 
-  * [Common Causes of Artifact in EDA Signals](/03272020061037-eda-artifacts.md)
+  * [Common Causes of Artifact in EDA Signals](https://jacobzelko.com/03272020061037-eda-artifacts)
 
 ```
 - **Summary:** An overview of common artifacts in EDA signals
@@ -43,21 +43,21 @@ Table of Contents
 
 ### Handling Signal
 
-  * [Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity](/04092020195141-transparent-eda-data.md)
+  * [Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity](https://jacobzelko.com/04092020195141-transparent-eda-data)
 
 ```
 - **Summary:** A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data
 - **Rationale:** FANTASTIC implementation on how to parse through EDA artifact -- very useful with a straight-forward algorithm to use
 ```
 
-  * [Artifact Removal Methods](/03272020062857-artifact-removal.md)
+  * [Artifact Removal Methods](https://jacobzelko.com/03272020062857-artifact-removal)
 
 ```
 - **Summary:** An overview on commonly used signal processing methods to remove artifacts from signals.
 - **Rationale:** Moving average filters seem to hold the most promise in processing EDA.
 ```
 
-  * [Call Center Stress Recognition with Person-Specific Models](/03272020083421-call-center.md)
+  * [Call Center Stress Recognition with Person-Specific Models](https://jacobzelko.com/03272020083421-call-center)
 
 ```
 - **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.

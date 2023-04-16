@@ -31,11 +31,11 @@ Table of Contents
 
 ### General Recommendations
 
-[Organizers should appeal to policymakers and primary users by showing data-driven decision making on key issues](/08032021205910-establish-apcd.md)
+[Organizers should appeal to policymakers and primary users by showing data-driven decision making on key issues](https://jacobzelko.com/08032021205910-establish-apcd)
 
 ### State Specific Recommendations
 
-  * [Virginia](/08032021211753-virginia-apcd.md)
+  * [Virginia](https://jacobzelko.com/08032021211753-virginia-apcd)
 ## How To Cite
 
  Zelko, Jacob. _Recommendations for Creating a New All-Payers Claim Database_. [https://jacobzelko.com/08032021211415-apcd-recommendations](https://jacobzelko.com/08032021211415-apcd-recommendations). August 3 2021.

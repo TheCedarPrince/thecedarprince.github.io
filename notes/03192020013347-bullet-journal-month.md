@@ -47,7 +47,7 @@ Choose what works for you and continue with it; with the major upcoming tasks, I
 
 #### Habit Tracker
 
-Here is an example of a habit tracker that could be included in the [weekly plan for each week](/03192020035337-bullet-journal-weekly.md):
+Here is an example of a habit tracker that could be included in the [weekly plan for each week](https://jacobzelko.com/03192020035337-bullet-journal-weekly):
 
 |            Habit            |  M  | Tu  |  W  | Tr  |  F  | Sa  | Su  |
 |:---------------------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|

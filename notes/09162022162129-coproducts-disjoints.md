@@ -43,7 +43,7 @@ $$
 X \coprod Y := \{a, b, c, d, 1, 2, 3\}
 $$
 
-This also is referred to as the "disjoint union of sets". Although, it is important to note that an important aspect of this notation above is missing from the coproduct which will be explained in the section on a [coproduct of a set and itself](/#coproduct-of-a-set-and-itself).
+This also is referred to as the "disjoint union of sets". Although, it is important to note that an important aspect of this notation above is missing from the coproduct which will be explained in the section on a [coproduct of a set and itself](#coproduct-of-a-set-and-itself).
 
 ### Coproduct of a Set and Itself
 
@@ -55,7 +55,7 @@ $$
 
 In this case, $i_{1}$ and $i_{2}$ are unique inclusion functions that map each set in a coproduct to its disjoint union. The inclusion functions in my opinion, act as a sort of metadata that helps one know where elements of a disjoint union comes from.
 
-> NOTE: The author, David Spivak, in *Category Theory for the Sciences* presented the above notation for a coproduct of $X$ and itself.  Personally, I found this notation very confusing and feel the formal set theory definition explained in the [section on the set theory definition of a coproduct](/#set-theory-definition) to be more useful here.  If we revisited the operation $X \coprod X$, I am more inclined to write the problem and solution as follows:
+> NOTE: The author, David Spivak, in *Category Theory for the Sciences* presented the above notation for a coproduct of $X$ and itself.  Personally, I found this notation very confusing and feel the formal set theory definition explained in the [section on the set theory definition of a coproduct](#set-theory-definition) to be more useful here.  If we revisited the operation $X \coprod X$, I am more inclined to write the problem and solution as follows:
 >
 > Let $X = X_{1} = X_{2}$, the value of $X_{1} \coprod X_{2}$ is:  $X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 3), (d, 4)\}$
 
@@ -68,7 +68,7 @@ $$
 \bigsqcup_{i \in I} A_{i} = \bigcup_{i \in I} \{(x, i): x \in A_{i}\}
 $$
 
-What this says loosely is that given a [family of sets](/09302022033236-family-sets.md) $A$ indexed by the [index set $I$](/09302022040126-indexed-sets.md), a coproduct is a set that enumerates every element in $A_{i}$ with its associated set. Referencing the [example on a coproduct of a set and itself](/#coproduct-of-a-set-and-itself):
+What this says loosely is that given a [family of sets](https://jacobzelko.com/09302022033236-family-sets) $A$ indexed by the [index set $I$](https://jacobzelko.com/09302022040126-indexed-sets), a coproduct is a set that enumerates every element in $A_{i}$ with its associated set. Referencing the [example on a coproduct of a set and itself](#coproduct-of-a-set-and-itself):
 
 Given: $X = \{a, b, c, d\}$
 
@@ -90,7 +90,7 @@ $$
 
 and $\bigsqcup_{i \in I} X_{i}$
 
-Both refer to a disjoint union and both can be read as "the disjoint union of the family of sets $X_{i}$ indexed by the index set, $I$." Here, when we say ["family of sets", they can either be a "set of subsets over a set $X$" or a "set of sets $X$ where each set could be independent of one another."](//09302022033236-family-sets.md)
+Both refer to a disjoint union and both can be read as "the disjoint union of the family of sets $X_{i}$ indexed by the index set, $I$." Here, when we say ["family of sets", they can either be a "set of subsets over a set $X$" or a "set of sets $X$ where each set could be independent of one another."](https://jacobzelko.com//09302022033236-family-sets)
 ## How To Cite
 
  Zelko, Jacob. _Coproducts (Disjoint Unions)_. [https://jacobzelko.com/09162022162129-coproducts-disjoints](https://jacobzelko.com/09162022162129-coproducts-disjoints). September 16 2022.

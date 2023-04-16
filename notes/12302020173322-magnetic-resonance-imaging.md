@@ -27,7 +27,7 @@ Table of Contents
 
 \toc
 
-Magnetic resonance imaging (MRI) uses a magnetic field to realign hydrogen atoms in the body. The realignment generates a magnetic field which is detected and rendered into a 3D image. Yields clearer contrasts between tissues compared to [CT scans](/12302020173101-computed-tomography.md). [1]
+Magnetic resonance imaging (MRI) uses a magnetic field to realign hydrogen atoms in the body. The realignment generates a magnetic field which is detected and rendered into a 3D image. Yields clearer contrasts between tissues compared to [CT scans](https://jacobzelko.com/12302020173101-computed-tomography). [1]
 ## How To Cite
 
  Zelko, Jacob. _Magnetic Resonance Imaging_. [https://jacobzelko.com/12302020173322-magnetic-resonance-imaging](https://jacobzelko.com/12302020173322-magnetic-resonance-imaging). December 30 2020.

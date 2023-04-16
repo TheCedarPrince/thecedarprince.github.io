@@ -49,7 +49,7 @@ Using work by Howard Wainer, Allen and co developed questions that were used to 
 
 ### Ways to Reduce Complexity
 
-Efficient method introduced to analyze rapidly changing functional patterns is by transforming fMRI [BOLD](/12282020020156-brain-biomarkers.md) data to point processes. [1], [2] Achieved by selecting peaks of the BOLD signal in each [voxel](/11302020054820-voxel.md). This reduction of data by > 95%, has been found very similar to inferences of functional connectivity from full signal analysis. [3], [4]
+Efficient method introduced to analyze rapidly changing functional patterns is by transforming fMRI [BOLD](https://jacobzelko.com/12282020020156-brain-biomarkers) data to point processes. [1], [2] Achieved by selecting peaks of the BOLD signal in each [voxel](https://jacobzelko.com/11302020054820-voxel). This reduction of data by > 95%, has been found very similar to inferences of functional connectivity from full signal analysis. [3], [4]
 
 *QUESTION: What is a point process? Why is BOLD important?*
 

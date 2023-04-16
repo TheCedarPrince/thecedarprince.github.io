@@ -74,7 +74,7 @@ A proxy to study terrorism is to study gang violence
 
 At the individual level, gangs and terrorist organizations appeal to individuals who are psychologically deviant, have limited access to socioeconomic opportunities, or are marginalized members of society.39–44 In fact, terrorist groups attract a range of unstable individuals.45
 
-> NOTE: This seems to contradict the paper [Why Do People Become Terrorists](/08232022220130-people-become-terrorists.md) as it notes that instead, it was observed how many of these people who are not fully psychologically deviant but rather of clear mind. Furthermore, in my attempt to reconcile such different observations, I would posit that rather, both explanations and comments are valid but that "unstable individuals" seem to conflate a kind of negative aspect to a person whereas the linked paper avoids the notion of unstable persons and instead explains how most of these people are of clear opinion.
+> NOTE: This seems to contradict the paper [Why Do People Become Terrorists](https://jacobzelko.com/08232022220130-people-become-terrorists) as it notes that instead, it was observed how many of these people who are not fully psychologically deviant but rather of clear mind. Furthermore, in my attempt to reconcile such different observations, I would posit that rather, both explanations and comments are valid but that "unstable individuals" seem to conflate a kind of negative aspect to a person whereas the linked paper avoids the notion of unstable persons and instead explains how most of these people are of clear opinion.
 
 
 Goals generally exclusive to gangs:
@@ -91,7 +91,7 @@ The main difference between gangs and terrorist groups is that gangs are often n
 
 Dutch police actively sought to integrate individuals from Syria by connecting them with a psychiatrist or mentor. Then, they provided assistance to find housing or means to return to school. To round out this reintegration process, they went even further to provide "whatever they needed to fully integrate back into society."67 
 
-This approach, believes that to fight terrorism through policing and/or "profiling" will create real or perceived discrimination, humiliation, and/or marginalization. Other papers have shown [this to be an accurate assessment](/08232022220130-people-become-terrorists.md).
+This approach, believes that to fight terrorism through policing and/or "profiling" will create real or perceived discrimination, humiliation, and/or marginalization. Other papers have shown [this to be an accurate assessment](https://jacobzelko.com/08232022220130-people-become-terrorists).
 
 <!–TODO: Add citations to note–>
 

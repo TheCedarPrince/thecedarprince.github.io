@@ -31,10 +31,10 @@ Table of Contents
 
 ### Moving Average Filters:
 
-  * [Exponential Smoothing](/03272020064312-exponential-smoothing.md)
+  * [Exponential Smoothing](https://jacobzelko.com/03272020064312-exponential-smoothing)
 
       * **Summary:** An overview on how to use the exponential smoothing algorithm.
-  * [Median Filtering](/04252020024813-median-filtering.md)
+  * [Median Filtering](https://jacobzelko.com/04252020024813-median-filtering)
 
       * **Summary:** An overview on how to use and implement a median filter
 ## How To Cite

@@ -33,7 +33,7 @@ Table of Contents
 
 **Phenotype:** a measurable biological, behavioral, or cognitive marker found more often in specific individuals than the general population; the appearance it presents to observers.[1]
 
-[**Phenotyping:**](/./08122022205622-assessing-phenotype-fairness.md) Identifying a set of patients with a particular disease 
+[**Phenotyping:**](https://jacobzelko.com/./08122022205622-assessing-phenotype-fairness) Identifying a set of patients with a particular disease 
 
 **Computable phenotype:** a clinical element that can derived from queries to an EHR or ancillary data sources (such as claims data, or disease registries) using a defined set of data elements and logical expressions.  It does not require chart review or interpretation by a clinician. 
 
