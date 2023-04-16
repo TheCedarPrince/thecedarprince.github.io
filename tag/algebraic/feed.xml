@@ -100,22 +100,13 @@ X &#61; &#91;1, 2, 3, 4&#93;
 <p>Zelko, Jacob. <em>What Is a Topological Space?</em>. <a href="https://jacobzelko.com/09172022051900-what-topology">https://jacobzelko.com/09172022051900-what-topology</a>. September 17 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>  

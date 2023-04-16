@@ -72,27 +72,18 @@ output &#61; y&#40;input, 2, -1, 0, 3&#41;plot&#40;input,
      &#41;
 scatter&#33;&#40;&#40;2, -1&#41;, label&#61;&quot;Point 1&quot;, marker&#61;5&#41;
 scatter&#33;&#40;&#40;0, 3&#41;, label&#61;&quot;Point 2&quot;, marker&#61;5&#41;</code></pre>
-<p><img src="https://jacobzelko.com/052520202121.png" alt="output image" /></p>
+<p><img src="052520202121.png" alt="output image" /></p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Finding a Line Which Contains Two Points</em>. <a href="https://jacobzelko.com/05202020224416-line-two-points">https://jacobzelko.com/05202020224416-line-two-points</a>. May 20 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>  

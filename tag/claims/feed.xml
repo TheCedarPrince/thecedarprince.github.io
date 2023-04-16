@@ -47,22 +47,13 @@
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>  
@@ -100,22 +91,13 @@
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>  
@@ -154,7 +136,7 @@
 </li>
 </ul>
 <p>https://www.cms.gov/apps/glossary/default.asp?Letter&#61;C&amp;Language&#61;English#g136</p>
-<p>In general, there are <a href="https://jacobzelko.com/12092021203839-types-claims.md">several different types of claims</a>.</p>
+<p>In general, there are <a href="https://jacobzelko.com/12092021203839-types-claims">several different types of claims</a>.</p>
 <p>The following diagram depicts how data is generated and passed through a medical billing process:</p>
 <pre><code class="language-mermaid">flowchart TBn1&#91;Medical Staff&#93; --&gt; n2&#91;Medical Services&#93;;
 n3&#91;Patients&#93; --&gt; n2;
@@ -170,22 +152,13 @@ style n6 fill:#8b0000</code></pre>
 <p>Zelko, Jacob. <em>What Are Claims?</em>. <a href="https://jacobzelko.com/02142022220749-claims-summary">https://jacobzelko.com/02142022220749-claims-summary</a>. February 14 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>  
@@ -223,22 +196,13 @@ style n6 fill:#8b0000</code></pre>
 <p>Zelko, Jacob. <em>Medical Claims Files</em>. <a href="https://jacobzelko.com/12092021205237-medical-claims-files">https://jacobzelko.com/12092021205237-medical-claims-files</a>. December 9 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
@@ -276,22 +240,13 @@ style n6 fill:#8b0000</code></pre>
 <p>Zelko, Jacob. <em>Pharmacy Claims Files</em>. <a href="https://jacobzelko.com/12092021212535-dental-claims-files">https://jacobzelko.com/12092021212535-dental-claims-files</a>. December 9 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
@@ -329,22 +284,13 @@ style n6 fill:#8b0000</code></pre>
 <p>Zelko, Jacob. <em>Pharmacy Claims Files</em>. <a href="https://jacobzelko.com/12092021211642-pharmacy-claims-files">https://jacobzelko.com/12092021211642-pharmacy-claims-files</a>. December 9 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
@@ -399,22 +345,13 @@ style n6 fill:#8b0000</code></pre>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; Agency for Healthcare Research and Quality, “All-Payer Claims Databases,” Feb-2018. &#91;Online&#93;. Available: https://www.ahrq.gov/data/apcd/index.html.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>  

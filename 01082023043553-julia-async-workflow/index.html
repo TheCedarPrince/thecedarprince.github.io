@@ -97,7 +97,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li><a href="#motivation">Motivation</a></li><li><a href="#set-up">Set-Up</a></li><li><a href="#simple_workflow_process">Simple Workflow Process</a><ol><li><a href="#blocking_workflow">Blocking Workflow</a></li><li><a href="#asynchronous_workflow">Asynchronous Workflow</a></li></ol></li><li><a href="#asynchronous_workflow_for_literate_programming">Asynchronous Workflow for Literate Programming</a></li><li><a href="#conclusion">Conclusion</a></li></ol></li><li><a href="#how_to_cite">How To Cite</a></li><li><a href="#references">References:</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
 <h3 id="motivation"><a href="#motivation" class="header-anchor">Motivation</a></h3>
-<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="/https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="/https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
+<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
 <h3 id="set-up"><a href="#set-up" class="header-anchor">Set-Up</a></h3>
 <p>Here is how I recommend setting up your Julia environment to follow this tutorial &#40;I assume you have Julia installed correctly&#41;:</p>
 <ol>
@@ -120,15 +120,15 @@
 <li><p>Install node onto your machine.</p>
 </li>
 </ol>
-<p>I suggest using the great tool, <a href="/https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
+<p>I suggest using the great tool, <a href="https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
 <ol start="7">
-<li><p>Install the node package, <a href="/https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
+<li><p>Install the node package, <a href="https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
 </li>
 </ol>
 <p>Here is the command you can use in your command line: </p>
 <pre><code class="sh hljs">npm i -g browser-sync</code></pre>
 <blockquote>
-<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the <a href="/#asynchronous-workflow-for-literate-programming">section on literate programming</a></p>
+<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the <a href="#asynchronous-workflow-for-literate-programming">section on literate programming</a></p>
 </blockquote>
 <h3 id="simple_workflow_process"><a href="#simple_workflow_process" class="header-anchor">Simple Workflow Process</a></h3>
 <p>There are two ways to start this workflow.  One blocking &#40;i.e. you cannot use the Julia REPL while working&#41; and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:</p>
@@ -193,23 +193,16 @@ This is a Julia Markdown file.
 <p>Zelko, Jacob. <em>Asynchronous Workflow Using Julia Tutorial</em>. <a href="https://jacobzelko.com/01082023043553-julia-async-workflow">https://jacobzelko.com/01082023043553-julia-async-workflow</a>. January 7 2023.</p>
 <h2 id="references"><a href="#references" class="header-anchor">References:</a></h2>
 <h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div>
+
 <div class="page-foot">
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: April 02, 2023.
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: April 16, 2023.
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
 </div>
 </div><!-- CONTENT ENDS HERE -->

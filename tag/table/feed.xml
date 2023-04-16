@@ -68,7 +68,7 @@
 </li>
 <li><p><code>CONCEPT_RELATIONSHIP</code> - the relationships between concepts</p>
 </li>
-<li><p><code>CONCEPT_ANCESTOR</code> - hierarchical concept relationships; see <a href="https://jacobzelko.com/07282021202459-exploring-ancestors-concept.md">Exploring Ancestors and Descendants of a Concept</a></p>
+<li><p><code>CONCEPT_ANCESTOR</code> - hierarchical concept relationships; see <a href="https://jacobzelko.com/07282021202459-exploring-ancestors-concept">Exploring Ancestors and Descendants of a Concept</a></p>
 </li>
 </ol>
 <h4 id="concept_example">&quot;Concept&quot; Example</h4>
@@ -89,7 +89,7 @@
 <li><p>Drug Classes</p>
 </li>
 </ul>
-<p>One can query <a href="https://jacobzelko.com/07282021211226-drug-concepts.md">drug concepts by name</a> easily in OHDSI tools.</p>
+<p>One can query <a href="https://jacobzelko.com/07282021211226-drug-concepts">drug concepts by name</a> easily in OHDSI tools.</p>
 <h3 id="use_cases_for_the_omop_cdm">Use Cases for the OMOP CDM</h3>
 <p>The OMOP CDM is implemented to help with Big Health Data collection. We use Big Health Data because it:</p>
 <ol>
@@ -116,22 +116,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; J. M. Overhage, P. B. Ryan, C. G. Reich, A. G. Hartzema, and P. E. Stang, “Validation of a common data model for active safety surveillance research,” J. Am. Med. Inform. Assoc., vol. 19, no. 1, pp. 54–60, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  

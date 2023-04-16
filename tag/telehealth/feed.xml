@@ -64,22 +64,13 @@
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” 24-Mar-2020. &#91;Online&#93;. Available: https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la&#61;en. &#91;Accessed: 02-May-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
@@ -166,22 +157,13 @@
 <p>&#91;2&#93; V. A. Wade, J. A. Eliott, and J. E. Hiller, “Clinician acceptance is the key factor for sustainable telehealth services,” Qual. Health Res., vol. 24, no. 5, pp. 682–694, 2014.</p>
 <p>&#91;3&#93; V. Wade, J. Soar, and L. Gray, “Uptake of telehealth services funded by Medicare in Australia,” Aust. Health Rev., vol. 38, no. 5, pp. 528–532, 2014.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
@@ -248,22 +230,13 @@
 <p>&#91;1&#93; “About telemedicine. Washington, DC: American Telemedicine Association.” &#91;Online&#93;. Available: https://www.americantelemed.org/main/about/&#37;20about-telemedicine/telemedicine-faqs. &#91;Accessed: 02-May-2022&#93;.</p>
 <p>&#91;2&#93; “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
@@ -309,7 +282,7 @@
 <li><p>Emergency Frameworks</p>
 </li>
 </ul>
-<pre><code class="language-julia">&#91;NOTE&#93;&#40;/05022022153220-evaluating-telehealth.md&#41;
+<pre><code class="language-julia">&#91;NOTE&#93;&#40;https://jacobzelko.com/05022022153220-evaluating-telehealth&#41;
 - &#91;SPROUT Telehealth Evaluation and Measurement profile&#93; &#91;1&#93;
 	- Utilizes concepts from:
 		- National Quality Forum
@@ -326,7 +299,7 @@
 		- Health systems
 		- Payer
 - &#91;NATO Multinational Telemedicine System&#93;
-&#91;NOTE&#93;&#40;/05022022171845-telehealth-global-emergencies.md&#41;
+&#91;NOTE&#93;&#40;https://jacobzelko.com/05022022171845-telehealth-global-emergencies&#41;
 - American Telemedicine Association Emergency and Response framework and infrastructure checklist &#91;2&#93;</code></pre>
 <ul>
 <li><p>Quality Assessment</p>
@@ -365,7 +338,7 @@
 <li><p>&#91;Keys for Successful Interventions&#93;</p>
 </li>
 </ul>
-<p><a href="https://jacobzelko.com/05022022171845-telehealth-global-emergencies.md">NOTE</a> How to realize a successful telehealth intervention alongside medical professionals according to this paper:</p>
+<p><a href="https://jacobzelko.com/05022022171845-telehealth-global-emergencies">NOTE</a> How to realize a successful telehealth intervention alongside medical professionals according to this paper:</p>
 <ul>
 <li><p>Provide telehealth training</p>
 </li>
@@ -384,7 +357,7 @@
 <p>Telehealth is the remote delivery of healthcare via telecommunication tools &#91;3&#93; and the transferral of medical information between sites via telecommunications to improve patient health. &#91;4&#93; The term telehealth is often used interchangeably with the term &quot;telemedicine&quot; as well &#91;4&#93;, &#91;5&#93;</p>
 <p>Given this definition, one of the most obvious goals of telehealth is to improve patient health and care. &#91;3&#93; Although this is the obvious and most idealistic goal for telehealth, there are other subtle goals of telehealth. For example, it may be to ease the burden to provider care or to assist with triage &#91;6&#93; or to enable cost savings for health systems or payers. &#91;7&#93;</p>
 <h3 id="telehealth_strategies_or_frameworks">Telehealth Strategies or Frameworks</h3>
-<p><a href="https://jacobzelko.com/05022022153220-evaluating-telehealth.md">NOTE</a></p>
+<p><a href="https://jacobzelko.com/05022022153220-evaluating-telehealth">NOTE</a></p>
 <ul>
 <li><p>SPROUT Telehealth Evaluation and Measurement profile &#91;1&#93;</p>
 </li>
@@ -404,7 +377,7 @@
 	- Health systems
 	- Payer</code></pre>
 <h3 id="challenges_in_telehealth">Challenges in Telehealth</h3>
-<p><a href="https://jacobzelko.com/05022022155118-telehealth.md">NOTE</a> &#91;4&#93;</p>
+<p><a href="https://jacobzelko.com/05022022155118-telehealth">NOTE</a> &#91;4&#93;</p>
 <ul>
 <li><p>Current Procedural Terminology Codes</p>
 </li>
@@ -425,7 +398,7 @@
 <pre><code class="language-julia">- National Quality Forum developing telehealth framework
 	- Telehealth Framework To Support Measure Development 2016 - 2017
 		- Developed to identify existing and potential telehealth metrics</code></pre>
-<p><a href="https://jacobzelko.com/05022022171845-telehealth-global-emergencies.md">NOTE</a></p>
+<p><a href="https://jacobzelko.com/05022022171845-telehealth-global-emergencies">NOTE</a></p>
 <ul>
 <li><p>Clinician unwillingness to use telehealth &#91;9&#93;</p>
 </li>
@@ -440,7 +413,7 @@
 </ul>
 <pre><code class="language-julia">- Such as lab tests
 - Some physical examinations</code></pre>
-<p><a href="https://jacobzelko.com/05022022144808-state-of-telehealth.md">NOTE</a></p>
+<p><a href="https://jacobzelko.com/05022022144808-state-of-telehealth">NOTE</a></p>
 <ul>
 <li><p>Reimbursement issues</p>
 </li>
@@ -457,7 +430,7 @@
 	- Worst for the elderly
 		- Only 58&#37; of persons &gt; 65 years old use Internet &#91;12&#93;</code></pre>
 <h3 id="opportunities_for_telehealth">Opportunities for Telehealth</h3>
-<p><a href="https://jacobzelko.com/05022022171845-telehealth-global-emergencies.md">NOTE</a></p>
+<p><a href="https://jacobzelko.com/05022022171845-telehealth-global-emergencies">NOTE</a></p>
 <ul>
 <li><p>Advantages of telehealth</p>
 </li>
@@ -466,7 +439,7 @@
 - Enable better triage
 - Provide care services when provider locations are unavailable
 - Reduce person-to-person contact of disease transmission</code></pre>
-<p><a href="https://jacobzelko.com/05022022144808-state-of-telehealth.md">NOTE</a></p>
+<p><a href="https://jacobzelko.com/05022022144808-state-of-telehealth">NOTE</a></p>
 <ul>
 <li><p>Chronic condition patients</p>
 </li>
@@ -481,7 +454,7 @@
 <pre><code class="language-julia">- Stroke &#91;15&#93;
 - Pneumonia &#91;16&#93;</code></pre>
 <h3 id="success_in_telehealth_interventions">Success in Telehealth Interventions</h3>
-<p><a href="https://jacobzelko.com/05022022171845-telehealth-global-emergencies.md">NOTE</a> How to realize a successful telehealth intervention alongside medical professionals according to this paper:</p>
+<p><a href="https://jacobzelko.com/05022022171845-telehealth-global-emergencies">NOTE</a> How to realize a successful telehealth intervention alongside medical professionals according to this paper:</p>
 <ul>
 <li><p>Provide telehealth training</p>
 </li>
@@ -516,22 +489,13 @@
 <p>&#91;15&#93; A. Itrat et al., “Telemedicine in prehospital stroke evaluation and thrombolysis: Taking stroke treatment to the doorstep,” JAMA Neurol., vol. 73, no. 2, pp. 162–168, 2016.</p>
 <p>&#91;16&#93; W. T. Summerfelt, S. Sulo, A. Robinson, D. Chess, and K. Catanzano, “Scalable hospital at home with virtual physician visits: Pilot study,” Am J Manag Care, vol. 21, no. 10, pp. 675–84, 2015.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
@@ -624,22 +588,13 @@
 <p>&#91;7&#93; P. Norris et al., Digital divide: Civic engagement, information poverty, and the Internet worldwide. Cambridge university press, 2001.</p>
 <p>&#91;8&#93; A. Perrin and M. Duggan, “Americans’ internet access: 2000-2015,” 2015.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  

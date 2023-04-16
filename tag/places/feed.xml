@@ -41,7 +41,7 @@
 <p>S. Chang et al., &quot;Mobility network models of COVID-19 explain inequities and inform reopening,&quot; Nature, vol. 589, no. 7840, pp. 82–87, Jan. 2021, doi: 10.1038/s41586-020-2923-3.</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>Iterative proportional fitting &#91;1&#93; was used to make POI –&gt; <a href="https://jacobzelko.com/01202021043013-census-groups.md">CBG</a> networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.</p>
+<p>Iterative proportional fitting &#91;1&#93; was used to make POI –&gt; <a href="https://jacobzelko.com/01202021043013-census-groups">CBG</a> networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.</p>
 <p><em>THOUGHTS: What is iterative proportional fitting?</em></p>
 <p>Model fits observed daily case counts from 8 March to 9 May 2020</p>
 <h3 id="points_of_interest">Points of Interest</h3>
@@ -121,22 +121,13 @@
 <p>&#91;11&#93; S. Garg et al., “Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019—COVID-NET, 14 States, March 1–30, 2020,” Morb. Mortal. Wkly. Rep., vol. 69, no. 15, p. 458, 2020.</p>
 <p>&#91;12&#93; C. Wilson, “These graphs show how COVID-19 is ravaging New York City’s low-income neighborhoods,” Time, 2020.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>  

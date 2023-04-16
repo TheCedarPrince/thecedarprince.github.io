@@ -44,7 +44,7 @@
 <h3>Motivation</h3>
 <p>I have always found graph theory interesting ever since I was exposed to it back in my undergraduate studies at Georgia Tech. I found out about it through SIR Modeling but personally found the structure of graphs far more fascinating than its application to SIR models. Furthermore, as I intend to be pursuing graduate studies in applied mathematics, why not get started with trying to understand it?</p>
 <h3>Project Goals</h3>
-<p>This process is adapted from the <a href="https://jacobzelko.com/07082020163004-ultralearning.md">Ultralearning framework posited by Scott Young</a>.</p>
+<p>This process is adapted from the <a href="https://jacobzelko.com/07082020163004-ultralearning">Ultralearning framework posited by Scott Young</a>.</p>
 <h4>What Am I Doing?</h4>
 <p>Gain an undergraduate level of understanding of graph theory on par with maths and computer science students.</p>
 <h5>Concepts</h5>
@@ -390,22 +390,13 @@
 <p>&#91;1&#93; R. Trudeau, Introduction to Graph Theory, Dover. DOVER PUBLICATIONS, INC., 1994.</p>
 <p>&#91;2&#93; N. Hartsfield and Ringel, Pearls in Graph Theory A Comprehensive Introduction. DOVER PUBLICATIONS, INC., 1994.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>  
@@ -453,22 +444,13 @@ G
 <p>Zelko, Jacob. <em>How To Imagine an RDF as an ACSet</em>. <a href="https://jacobzelko.com/02182022190950-rdf-acset-representation">https://jacobzelko.com/02182022190950-rdf-acset-representation</a>. February 18 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
@@ -544,22 +526,13 @@ grass --is colored--&gt; green</code></pre>
 <p>Zelko, Jacob. <em>Overview of the Resource Description Framework &#40;RDF&#41;</em>. <a href="https://jacobzelko.com/02182022165447-rdf-overview">https://jacobzelko.com/02182022165447-rdf-overview</a>. February 18 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>  
@@ -649,22 +622,13 @@ grass --is colored--&gt; green</code></pre>
 <p>Zelko, Jacob. <em>Categorical Data Structures for Technical Computing</em>. <a href="https://jacobzelko.com/10062021162335-ascets-paper">https://jacobzelko.com/10062021162335-ascets-paper</a>. October 6 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>  

@@ -69,7 +69,7 @@
 </li>
 </ul>
 <pre><code class="language-julia">- Heart Rate
-- &#91;SpO2&#93;&#40;/01112022220843-spo2-explained.md&#41;
+- &#91;SpO2&#93;&#40;https://jacobzelko.com/01112022220843-spo2-explained&#41;
 - Skin Temperature</code></pre>
 <ul>
 <li><p>Wearables were shown to:</p>
@@ -82,12 +82,12 @@
 </li>
 </ul>
 <pre><code class="language-julia">- HR
-	- &#91;Basis B1&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the&#37;20best&#37;20prices-,The&#37;20Basis&#37;20B1&#37;20is&#37;20an&#37;20activity&#37;20tracker&#37;20that&#39;s&#37;20marketed&#37;20as,burned,&#37;20distance&#37;20walked&#37;20and&#37;20sleep.&#41; - discontinued
-	- &#91;Basis Peak&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the best prices-,The Basis B1 is an activity tracker that&#39;s marketed as,burned, distance walked and sleep.&#41; - recalled, discontinued
-	- &#91;Scanadu&#93;&#40;/https://techcrunch.com/2016/12/13/fda-orders-scanadu-to-shut-down-support-for-its-scout-device-and-customers-are-mad/?guccounter&#61;1&amp;guce_referrer&#61;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig&#61;AQAAALiRl2t7ma1bFByNmrMrAP8vVK5_iBXu35z3PuC9UVIY6cll8UaL5w2RWGvOBU68epFCefiwLghsqP3rxoNEGSKtAXSuMXQKrbSDsE4ti9xcfwcnjMtrx46tP89acwwmKKBJTdvCgmVRgo_zwQDSMztMxVAFFvbmhmYcdq8mTvER&#41; - discontinued
+	- &#91;Basis B1&#93;&#40;https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the&#37;20best&#37;20prices-,The&#37;20Basis&#37;20B1&#37;20is&#37;20an&#37;20activity&#37;20tracker&#37;20that&#39;s&#37;20marketed&#37;20as,burned,&#37;20distance&#37;20walked&#37;20and&#37;20sleep.&#41; - discontinued
+	- &#91;Basis Peak&#93;&#40;https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the best prices-,The Basis B1 is an activity tracker that&#39;s marketed as,burned, distance walked and sleep.&#41; - recalled, discontinued
+	- &#91;Scanadu&#93;&#40;https://techcrunch.com/2016/12/13/fda-orders-scanadu-to-shut-down-support-for-its-scout-device-and-customers-are-mad/?guccounter&#61;1&amp;guce_referrer&#61;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig&#61;AQAAALiRl2t7ma1bFByNmrMrAP8vVK5_iBXu35z3PuC9UVIY6cll8UaL5w2RWGvOBU68epFCefiwLghsqP3rxoNEGSKtAXSuMXQKrbSDsE4ti9xcfwcnjMtrx46tP89acwwmKKBJTdvCgmVRgo_zwQDSMztMxVAFFvbmhmYcdq8mTvER&#41; - discontinued
 - Skin Temperature
-	- &#91;Basis B1&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the&#37;20best&#37;20prices-,The&#37;20Basis&#37;20B1&#37;20is&#37;20an&#37;20activity&#37;20tracker&#37;20that&#39;s&#37;20marketed&#37;20as,burned,&#37;20distance&#37;20walked&#37;20and&#37;20sleep.&#41; - discontinued
-	- &#91;Basis Peak&#93;&#40;/https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the best prices-,The Basis B1 is an activity tracker that&#39;s marketed as,burned, distance walked and sleep.&#41; - recalled, discontinued</code></pre>
+	- &#91;Basis B1&#93;&#40;https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the&#37;20best&#37;20prices-,The&#37;20Basis&#37;20B1&#37;20is&#37;20an&#37;20activity&#37;20tracker&#37;20that&#39;s&#37;20marketed&#37;20as,burned,&#37;20distance&#37;20walked&#37;20and&#37;20sleep.&#41; - discontinued
+	- &#91;Basis Peak&#93;&#40;https://www.livescience.com/42460-basis-b1-fitness-tracker-review.html#:~:text&#61;the best prices-,The Basis B1 is an activity tracker that&#39;s marketed as,burned, distance walked and sleep.&#41; - recalled, discontinued</code></pre>
 <h3 id="lyme_disease_found_in_subject_1">Lyme Disease Found in Subject 1</h3>
 <ul>
 <li><p>During days 470 - 474 outliers were found in</p>
@@ -108,22 +108,13 @@
 <p>Zelko, Jacob. <em>Digital Health: Tracking Physiomes and Activity Using Wearable Biosensors Reveals Useful Health-Related Information</em>. <a href="https://jacobzelko.com/01112022214236-tracking-physiomes">https://jacobzelko.com/01112022214236-tracking-physiomes</a>. January 11 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  

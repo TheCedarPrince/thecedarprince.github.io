@@ -42,7 +42,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Set-Up</li><li>Simple Workflow Process<ol><li>Blocking Workflow</li><li>Asynchronous Workflow</li></ol></li><li>Asynchronous Workflow for Literate Programming</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
-<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="https://jacobzelko.com/https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="https://jacobzelko.com/https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
+<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
 <h3 id="set-up">Set-Up</h3>
 <p>Here is how I recommend setting up your Julia environment to follow this tutorial &#40;I assume you have Julia installed correctly&#41;:</p>
 <ol>
@@ -65,15 +65,15 @@
 <li><p>Install node onto your machine.</p>
 </li>
 </ol>
-<p>I suggest using the great tool, <a href="https://jacobzelko.com/https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
+<p>I suggest using the great tool, <a href="https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
 <ol start="7">
-<li><p>Install the node package, <a href="https://jacobzelko.com/https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
+<li><p>Install the node package, <a href="https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
 </li>
 </ol>
 <p>Here is the command you can use in your command line: </p>
 <pre><code class="language-sh">npm i -g browser-sync</code></pre>
 <blockquote>
-<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the <a href="https://jacobzelko.com/#asynchronous-workflow-for-literate-programming">section on literate programming</a></p>
+<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the section on literate programming</p>
 </blockquote>
 <h3 id="simple_workflow_process">Simple Workflow Process</h3>
 <p>There are two ways to start this workflow.  One blocking &#40;i.e. you cannot use the Julia REPL while working&#41; and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:</p>
@@ -128,22 +128,13 @@ end</code></pre>
 <p>Zelko, Jacob. <em>Asynchronous Workflow Using Julia Tutorial</em>. <a href="https://jacobzelko.com/01082023043553-julia-async-workflow">https://jacobzelko.com/01082023043553-julia-async-workflow</a>. January 7 2023.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>  
@@ -263,22 +254,13 @@ print&#40;false and not&#40;nil&#41;&#41; -- evaluates to &#96;false&#96;</code>
 <p>Zelko, Jacob. <em>A Beginner&#39;s to Master&#39;s Guide in Learning Lua</em>. <a href="https://jacobzelko.com/10012022184345-learning-lua">https://jacobzelko.com/10012022184345-learning-lua</a>. October 1 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>  
@@ -311,7 +293,7 @@ print&#40;false and not&#40;nil&#41;&#41; -- evaluates to &#96;false&#96;</code>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>General Guide</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_guide">General Guide</h3>
-<p>This is from Fredrik Ekre at the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
+<p>This is from Fredrik Ekre at the <a href="https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
 <p>LanguageServer is somewhat slow to start so it is very useful to use a custom sysimage using PackageCompiler to reduce this time. On my machine I get the first response after 20&#43; seconds, but with a custom sysimage I can execute LS commands instantaneously.</p>
 <p>Here is my setup:</p>
 <ol>
@@ -338,7 +320,7 @@ print&#40;false and not&#40;nil&#41;&#41; -- evaluates to &#96;false&#96;</code>
 <pre><code class="language-sh">julia --project&#61;~/.julia/environments/nvim-lspconfig -e &#39;using Pkg; Pkg.add&#40;&quot;LanguageServer&quot;&#41;&#39;</code></pre>
 <p>And then navigate to the directory at <code>~.julia/environment/nvim-lspconfig</code>.</p>
 <ol start="3">
-<li><p>Copy the following makefile &#40;<a href="https://jacobzelko.com/https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
+<li><p>Copy the following makefile &#40;<a href="https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
 </li>
 </ol>
 <pre><code class="language-make"># MIT License. Copyright &#40;c&#41; 2021 Fredrik Ekre
@@ -478,22 +460,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Setting Up Julia LSP for Neovim</em>. <a href="https://jacobzelko.com/08312022162228-julia-lsp-setup">https://jacobzelko.com/08312022162228-julia-lsp-setup</a>. August 31 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>  
@@ -525,30 +498,21 @@ endef</code></pre>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
-<p>The definition of pure is somewhat of a moving target. Pure can mean many things and when applied to programming functions - even more so. Based on querying the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/can-programming-in-julia-be-pure/71165">Julia community</a>, here was what I understood pure functions to be.</p>
-<p>Based on Milewski&#39;s definition, &quot;A pure function is one in which the same result is always produced with no side effects given the same input.&quot; &#91;1&#93; <a href="https://jacobzelko.com/https://github.com/CameronBieganek">Cameron Bieganek</a> explained how, in Julia specifically, you can write functions that are &quot;probably&quot; pure. However, there is no real guarantee that a function is actually pure, because it depends on the various methods that have been implemented. I like the notion of &quot;probably&quot; pure as it encapsulates a more pragmatic approach to the internals of a given language. It lets one get away without having to necessarily be completely aware of all the internals when discussing purity.</p>
+<p>The definition of pure is somewhat of a moving target. Pure can mean many things and when applied to programming functions - even more so. Based on querying the <a href="https://discourse.julialang.org/t/can-programming-in-julia-be-pure/71165">Julia community</a>, here was what I understood pure functions to be.</p>
+<p>Based on Milewski&#39;s definition, &quot;A pure function is one in which the same result is always produced with no side effects given the same input.&quot; &#91;1&#93; <a href="https://github.com/CameronBieganek">Cameron Bieganek</a> explained how, in Julia specifically, you can write functions that are &quot;probably&quot; pure. However, there is no real guarantee that a function is actually pure, because it depends on the various methods that have been implemented. I like the notion of &quot;probably&quot; pure as it encapsulates a more pragmatic approach to the internals of a given language. It lets one get away without having to necessarily be completely aware of all the internals when discussing purity.</p>
 <p>Finally, pure functions are different from mathematical functions for the reason that mathematical functions map a value to another value. Pure functions written in a programming language involve more than just a mapping. &#91;1&#93;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Pure Functions in Programming</em>. <a href="https://jacobzelko.com/11082021225843-pure-functions">https://jacobzelko.com/11082021225843-pure-functions</a>. November 8 2021.</p>
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; B. Milewski, Category Theory for Programmers, Version v1.3.0-0-g6bb0bc0. 2019.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>  
@@ -581,9 +545,9 @@ endef</code></pre>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="packages">Packages</h3>
-<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library.md">Prelude</a> - Haskell&#39;s Standard Library</p>
+<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">Prelude</a> - Haskell&#39;s Standard Library</p>
 <h3 id="functions">Functions</h3>
-<p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions.md">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
+<p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
 <h4 id="ar">Ar</h4>
 <h3 id="haskell_type_system">Haskell Type System</h3>
 <p>Except only in very seldom cases, type annotations are optional in Haskell.</p>
@@ -655,22 +619,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Notes on Programming in Haskell</em>. <a href="https://jacobzelko.com/11032021155827-haskell-programming">https://jacobzelko.com/11032021155827-haskell-programming</a>. November 3 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
@@ -716,22 +671,13 @@ f1 ◦ f2</code></pre>
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; B. Milewski, Category Theory for Programmers, Version v1.3.0-0-g6bb0bc0. 2019.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
@@ -773,22 +719,13 @@ id x &#61; x</code></pre>
 <p>Zelko, Jacob. <em>Prelude - Haskell&#39;s Standard Library</em>. <a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">https://jacobzelko.com/11032021171123-prelude-haskell-library</a>. November 3 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
@@ -828,22 +765,13 @@ id x &#61; x</code></pre>
 <p>Zelko, Jacob. <em>Manipulating Files in R</em>. <a href="https://jacobzelko.com/02082021203741-R-file-manipulation">https://jacobzelko.com/02082021203741-R-file-manipulation</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
@@ -892,22 +820,13 @@ id x &#61; x</code></pre>
 <p>Zelko, Jacob. <em>renv - Reproducible Environments in R</em>. <a href="https://jacobzelko.com/02082021205610-renv-package">https://jacobzelko.com/02082021205610-renv-package</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
@@ -941,34 +860,25 @@ id x &#61; x</code></pre>
 <div class="franklin-toc"><ol><li><ol><li>Reading and Loading Files</li><li>Packages</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="reading_and_loading_files">Reading and Loading Files</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/02082021203741-R-file-manipulation.md">File manipulation</a></p>
+<li><p><a href="https://jacobzelko.com/02082021203741-R-file-manipulation">File manipulation</a></p>
 </li>
 </ul>
 <h3 id="packages">Packages</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/02082021205610-renv-package.md">renv</a> - Useful state of the art package for reproducing R projects.</p>
+<li><p><a href="https://jacobzelko.com/02082021205610-renv-package">renv</a> - Useful state of the art package for reproducing R projects.</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Programming in R</em>. <a href="https://jacobzelko.com/02082021203324-r-programming">https://jacobzelko.com/02082021203324-r-programming</a>. February 8 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  
@@ -1014,22 +924,13 @@ false</code></pre>
 <p>Zelko, Jacob. <em>Implicit Returns</em>. <a href="https://jacobzelko.com/05192020171152-implicit-return">https://jacobzelko.com/05192020171152-implicit-return</a>. May 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>  
@@ -1063,7 +964,7 @@ false</code></pre>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>I read a Q&amp;A article on Barbara Liskov &#91;1&#93; and the author made a very interesting comparison between Liskov&#39;s work of designing paradigms for creating well structured and crafted code with that of a Poet or Novelist. I have heard of comparisons like this before but I was quite intrigued by the latter – a programmer being compared to a writer. What piqued my interest the most about the article was the following statement,</p>
 <p>&quot;As a computer scientist thinking about code, Liskov had no physical objects to work with. Like a novelist or a poet, <em>she was staring at a blank page</em>.&quot; &#40;emphasis added&#41;</p>
-<p>The end of that statement, &quot;<em>blank page</em>&quot;, reminded me of the book <em>How to Take Smart Notes</em> &#91;2&#93; and my note on the book where Ahrens essentially believes that starting with a <a href="https://jacobzelko.com/03292020180520-smart-notes.md">blank page is the wrong idea in writing</a>. I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the <a href="https://jacobzelko.com/03092020031549-zettelkasten.md">Zettelkasten method</a> where, according to its <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">principles</a>, each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?</p>
+<p>The end of that statement, &quot;<em>blank page</em>&quot;, reminded me of the book <em>How to Take Smart Notes</em> &#91;2&#93; and my note on the book where Ahrens essentially believes that starting with a <a href="https://jacobzelko.com/03292020180520-smart-notes">blank page is the wrong idea in writing</a>. I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the <a href="https://jacobzelko.com/03092020031549-zettelkasten">Zettelkasten method</a> where, according to its <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">principles</a>, each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?</p>
 <p>Upon reflection upon this note some time later, I think I was thinking about the concept of composition and composition of software&#33;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Global Programming Paradigm</em>. <a href="https://jacobzelko.com/04182020162028-global-programming">https://jacobzelko.com/04182020162028-global-programming</a>. April 18 2020.</p>
@@ -1071,22 +972,13 @@ false</code></pre>
 <p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” &#91;Online&#93;. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. &#91;Accessed: 18-Apr-2020&#93;.</p>
 <p>&#91;2&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>  

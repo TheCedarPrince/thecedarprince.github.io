@@ -42,7 +42,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>General Guide</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_guide">General Guide</h3>
-<p>This is from Fredrik Ekre at the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
+<p>This is from Fredrik Ekre at the <a href="https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
 <p>LanguageServer is somewhat slow to start so it is very useful to use a custom sysimage using PackageCompiler to reduce this time. On my machine I get the first response after 20&#43; seconds, but with a custom sysimage I can execute LS commands instantaneously.</p>
 <p>Here is my setup:</p>
 <ol>
@@ -69,7 +69,7 @@
 <pre><code class="language-sh">julia --project&#61;~/.julia/environments/nvim-lspconfig -e &#39;using Pkg; Pkg.add&#40;&quot;LanguageServer&quot;&#41;&#39;</code></pre>
 <p>And then navigate to the directory at <code>~.julia/environment/nvim-lspconfig</code>.</p>
 <ol start="3">
-<li><p>Copy the following makefile &#40;<a href="https://jacobzelko.com/https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
+<li><p>Copy the following makefile &#40;<a href="https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
 </li>
 </ol>
 <pre><code class="language-make"># MIT License. Copyright &#40;c&#41; 2021 Fredrik Ekre
@@ -209,22 +209,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Setting Up Julia LSP for Neovim</em>. <a href="https://jacobzelko.com/08312022162228-julia-lsp-setup">https://jacobzelko.com/08312022162228-julia-lsp-setup</a>. August 31 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>  

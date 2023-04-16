@@ -43,13 +43,13 @@
 <div class="franklin-toc"><ol><li><ol><li>Moving Average Filters:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="moving_average_filters">Moving Average Filters:</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020064312-exponential-smoothing.md">Exponential Smoothing</a></p>
+<li><p><a href="https://jacobzelko.com/03272020064312-exponential-smoothing">Exponential Smoothing</a></p>
 <ul>
 <li><p><strong>Summary:</strong> An overview on how to use the exponential smoothing algorithm.</p>
 </li>
 </ul>
 </li>
-<li><p><a href="https://jacobzelko.com/04252020024813-median-filtering.md">Median Filtering</a></p>
+<li><p><a href="https://jacobzelko.com/04252020024813-median-filtering">Median Filtering</a></p>
 <ul>
 <li><p><strong>Summary:</strong> An overview on how to use and implement a median filter</p>
 </li>
@@ -60,22 +60,13 @@
 <p>Zelko, Jacob. <em>Artifact Removal Methods</em>. <a href="https://jacobzelko.com/03272020062857-artifact-removal">https://jacobzelko.com/03272020062857-artifact-removal</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
@@ -203,22 +194,13 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 <p>Zelko, Jacob. <em>Exponential Smoothing</em>. <a href="https://jacobzelko.com/03272020064312-exponential-smoothing">https://jacobzelko.com/03272020064312-exponential-smoothing</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  

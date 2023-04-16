@@ -43,7 +43,7 @@
 <div class="franklin-toc"><ol><li><ol><li>Overview</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="overview">Overview</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained.md">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
+<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** What SpO2 is and their pros and cons as a biomarker</code></pre>
@@ -51,22 +51,13 @@
 <p>Zelko, Jacob. <em>Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</em>. <a href="https://jacobzelko.com/01112022215755-oxygen-saturation">https://jacobzelko.com/01112022215755-oxygen-saturation</a>. January 11 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
@@ -104,22 +95,13 @@
 <p>Zelko, Jacob. <em>Why everyone should care about &#39;Computable Phenotypes&#39;</em>. <a href="https://jacobzelko.com/12292020005502-care-computable-phenotypes">https://jacobzelko.com/12292020005502-care-computable-phenotypes</a>. December 28 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
@@ -152,30 +134,30 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained.md">What Is Electrodermal Activity?</a></p>
+<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained">What Is Electrodermal Activity?</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** What electrodermal activity is and its pros and cons as a biomarker</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts.md">Common Causes of Artifact in EDA Signals</a></p>
+<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts">Common Causes of Artifact in EDA Signals</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview of common artifacts in EDA signals</code></pre>
 <h3 id="handling_signal">Handling Signal</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data.md">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
+<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data
 - **Rationale:** FANTASTIC implementation on how to parse through EDA artifact -- very useful with a straight-forward algorithm to use</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal.md">Artifact Removal Methods</a></p>
+<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal">Artifact Removal Methods</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview on commonly used signal processing methods to remove artifacts from signals.
 - **Rationale:** Moving average filters seem to hold the most promise in processing EDA.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020083421-call-center.md">Call Center Stress Recognition with Person-Specific Models</a></p>
+<li><p><a href="https://jacobzelko.com/03272020083421-call-center">Call Center Stress Recognition with Person-Specific Models</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.
@@ -184,22 +166,13 @@
 <p>Zelko, Jacob. <em>Electrodermal Activity</em>. <a href="https://jacobzelko.com/03232020235136-electrodermal-activity">https://jacobzelko.com/03232020235136-electrodermal-activity</a>. March 23 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  

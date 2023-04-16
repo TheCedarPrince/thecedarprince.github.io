@@ -41,7 +41,7 @@
 <p>Not available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
-<p><strong>Context-aware applications</strong> are technologies that leverage data collected from real-time environments and contexts and act upon this information to create timely actions. This idea was coined by &#91;1&#93; in his paper <a href="https://jacobzelko.com/03092020035135-kidd-aware-home">The Aware Home: A Living Laboratory for Ubiquitous Computing Research</a></p>
+<p><strong>Context-aware applications</strong> are technologies that leverage data collected from real-time environments and contexts and act upon this information to create timely actions. This idea was coined by &#91;1&#93; in his paper <a href="03092020035135-kidd-aware-home">The Aware Home: A Living Laboratory for Ubiquitous Computing Research</a></p>
 <p>Here is the original quote from @kiddAwareHomeLiving1999:</p>
 <blockquote>
 <p><em>However, progress in the sensing technologies needs to be matched by progress in supporting the rapid development of applications that use sensed information. These applications are what &#91;are&#93; called <strong>context-aware applications</strong>.</em></p>
@@ -51,22 +51,13 @@
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -98,29 +89,20 @@
 <p>Not available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
-<p>The idea of the &quot;Aware Home&quot; was created by Kidd et. al. &#91;1&#93; in 1999. As they wrote in their paper, <a href="https://jacobzelko.com/03092020035135-kidd-aware-home"><em>The Aware Home: A Living Laboratory for Ubiquitous Computing Research</em></a>,</p>
+<p>The idea of the &quot;Aware Home&quot; was created by Kidd et. al. &#91;1&#93; in 1999. As they wrote in their paper, <a href="03092020035135-kidd-aware-home"><em>The Aware Home: A Living Laboratory for Ubiquitous Computing Research</em></a>,</p>
 <p>One of the first examples of an &quot;Aware Home&quot; is the <em>Georgia Tech Aware Home</em></p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Aware Homes</em>. <a href="https://jacobzelko.com/03092020033420-aware-homes">https://jacobzelko.com/03092020033420-aware-homes</a>. December 2 2022.</p>
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -157,7 +139,7 @@
 <p>I am sure for anyone more expert, they could&#39;ve more readily finished such a book. But, although I found MacLuhan&#39;s ideas very fascinating as well as largely approachable, I could only truly approach and appreciate them if I read his work in very small chunks. So, I worked slowly through this book and have not regretted doing so a single moment.  This book was utterly life changing and has wide implications for the modern day despite this book being written nearly 70 years ago.</p>
 <h3 id="the_action_and_the_reaction">The Action and the Reaction</h3>
 <p>MacLuhan puts forth an initial thought of the &quot;action and the reaction&quot;. He mentions how in past ages, actions &#40;particularly the development of novel technologies like of a better plow or even printing press&#41; could be executed with relatively minimal care. Not &quot;minimal&quot; in the sense of a lack of importance but that the impact of an action rippled much more slowly through the world. The action could be followed by a well-thought out or better informed reaction by those the action was affecting.</p>
-<p>However, today, &quot;the action and the reaction occur almost &#91;simultaneously&#93;&quot;. The action and reaction to a technology used to be slow but now is instantly leaving behind those incapable of adapting to the novelty. As MacLuhan observed, this simultaneity prevents an acclimation period for persons as much of humanity continues to &quot;think in the old, fragmented space and time patterns of the pre-electric age.&quot; <a href="https://jacobzelko.com//12242022202340-relativity-information-gaps.md">I intentionally invoke the word &quot;simultaneity&quot; here as I think this concept of &quot;action and reaction&quot; finds analogy within Einstein&#39;s notion of Relativity of Simultaneity</a> TODO: Create note on Relativity of Simultaneity using this link: https://sites.pitt.edu/~jdnorton/teaching/HPS<em>0410/chapters/Special</em>relativity<em>rel</em>sim/index.html and this one: https://sites.pitt.edu/~jdnorton/Goodies/rel<em>of</em>sim/index.html TODO: Create separate note on analogy between Relativity of Simultaneity and Information Dissemination</p>
+<p>However, today, &quot;the action and the reaction occur almost &#91;simultaneously&#93;&quot;. The action and reaction to a technology used to be slow but now is instantly leaving behind those incapable of adapting to the novelty. As MacLuhan observed, this simultaneity prevents an acclimation period for persons as much of humanity continues to &quot;think in the old, fragmented space and time patterns of the pre-electric age.&quot; <a href="https://jacobzelko.com//12242022202340-relativity-information-gaps">I intentionally invoke the word &quot;simultaneity&quot; here as I think this concept of &quot;action and reaction&quot; finds analogy within Einstein&#39;s notion of Relativity of Simultaneity</a> TODO: Create note on Relativity of Simultaneity using this link: https://sites.pitt.edu/~jdnorton/teaching/HPS<em>0410/chapters/Special</em>relativity<em>rel</em>sim/index.html and this one: https://sites.pitt.edu/~jdnorton/Goodies/rel<em>of</em>sim/index.html TODO: Create separate note on analogy between Relativity of Simultaneity and Information Dissemination</p>
 <p>In the past, MacLuhan posits that we used technology to create &quot;extensions&quot; that &quot;extended&quot; parts of our bodies – like a knife extending our teeth or a firearm extending our fists. Not so in the electric era.  Rather, we have &quot;extended our central nervous system itself in a global embrace, abolishing both space and time&#91;.&#93;&quot; MacLuhan believes that we are rapidly approaching the point in society and technology wherein, &quot;the creative process of knowing will be collectively and corporately extended to the whole of human society. &#91;... Where&#93; it is no longer possible to adopt the aloof and dissociated role of the literate Westerner.&quot;</p>
 <p>Everyone&#39;s business is now everyone&#39;s business.</p>
 <h3 id="the_age_of_anxiety">The Age of Anxiety</h3>
@@ -306,22 +288,13 @@
 <p>Zelko, Jacob. <em>Understanding Media: The Extensions of Man</em>. <a href="https://jacobzelko.com/05222022225241-understanding-media-extensions">https://jacobzelko.com/05222022225241-understanding-media-extensions</a>. May 22 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
@@ -361,22 +334,13 @@
 <p>Zelko, Jacob. <em>Raspberry Pi</em>. <a href="https://jacobzelko.com/03102020061135-raspberry-pi">https://jacobzelko.com/03102020061135-raspberry-pi</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -413,22 +377,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” &#91;Online&#93;. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  

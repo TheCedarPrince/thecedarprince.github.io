@@ -42,7 +42,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics on the Preimage of a Subset<ol><li>Example</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
-<p>As I have learned and understood what <a href="https://jacobzelko.com//10152022173643-image-of-sets.md">images</a> are, I am now on my quest to learn what preimages so that I can understand the concept of bundles&#33;</p>
+<p>As I have learned and understood what <a href="https://jacobzelko.com//10152022173643-image-of-sets">images</a> are, I am now on my quest to learn what preimages so that I can understand the concept of bundles&#33;</p>
 <h3 id="basics_on_the_preimage_of_a_subset">Basics on the Preimage of a Subset</h3>
 <p>Given some function \(f : A \rightarrow B\) and the subsets \(C \subseteq A\) and \(D \subseteq B\), then the preimage &#40;or inverse image of a set&#41; is:</p>
 \[
@@ -100,22 +100,13 @@ x^{2} = 25; x = \pm 5
 <p>Zelko, Jacob. <em>The Preimage of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10282022132046-preimage-of-sets">https://jacobzelko.com/10282022132046-preimage-of-sets</a>. October 28 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>  
@@ -155,7 +146,7 @@ x^{2} = 25; x = \pm 5
 \[
 X \coprod Y := \{a, b, c, d, 1, 2, 3\}
 \]
-<p>This also is referred to as the &quot;disjoint union of sets&quot;. Although, it is important to note that an important aspect of this notation above is missing from the coproduct which will be explained in the section on a <a href="https://jacobzelko.com/#coproduct-of-a-set-and-itself">coproduct of a set and itself</a>.</p>
+<p>This also is referred to as the &quot;disjoint union of sets&quot;. Although, it is important to note that an important aspect of this notation above is missing from the coproduct which will be explained in the section on a coproduct of a set and itself.</p>
 <h3 id="coproduct_of_a_set_and_itself">Coproduct of a Set and Itself</h3>
 <p>If given set \(X = \{a, b, c, d\}\), the coproduct of \(X\) and itself would look like this:</p>
 \[
@@ -163,7 +154,7 @@ X \coprod X \cong \{i_{1}a, i_{1}b, i_{1}c, i_{1}d, i_{2}a, i_{2}b, i_{2}c, i_{2
 \]
 <p>In this case, \(i_{1}\) and \(i_{2}\) are unique inclusion functions that map each set in a coproduct to its disjoint union. The inclusion functions in my opinion, act as a sort of metadata that helps one know where elements of a disjoint union comes from.</p>
 <blockquote>
-<p>NOTE: The author, David Spivak, in <em>Category Theory for the Sciences</em> presented the above notation for a coproduct of \(X\) and itself.  Personally, I found this notation very confusing and feel the formal set theory definition explained in the <a href="https://jacobzelko.com/#set-theory-definition">section on the set theory definition of a coproduct</a> to be more useful here.  If we revisited the operation \(X \coprod X\), I am more inclined to write the problem and solution as follows:</p>
+<p>NOTE: The author, David Spivak, in <em>Category Theory for the Sciences</em> presented the above notation for a coproduct of \(X\) and itself.  Personally, I found this notation very confusing and feel the formal set theory definition explained in the section on the set theory definition of a coproduct to be more useful here.  If we revisited the operation \(X \coprod X\), I am more inclined to write the problem and solution as follows:</p>
 <p>Let \(X = X_{1} = X_{2}\), the value of \(X_{1} \coprod X_{2}\) is: \(X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 3), (d, 4)\}\)</p>
 </blockquote>
 <h3 id="set_theory_definition">Set Theory Definition</h3>
@@ -171,7 +162,7 @@ X \coprod X \cong \{i_{1}a, i_{1}b, i_{1}c, i_{1}d, i_{2}a, i_{2}b, i_{2}c, i_{2
 \[
 \bigsqcup_{i \in I} A_{i} = \bigcup_{i \in I} \{(x, i): x \in A_{i}\}
 \]
-<p>What this says loosely is that given a <a href="https://jacobzelko.com/09302022033236-family-sets.md">family of sets</a> \(A\) indexed by the <a href="https://jacobzelko.com/09302022040126-indexed-sets.md">index set \(I\)</a>, a coproduct is a set that enumerates every element in \(A_{i}\) with its associated set. Referencing the <a href="https://jacobzelko.com/#coproduct-of-a-set-and-itself">example on a coproduct of a set and itself</a>:</p>
+<p>What this says loosely is that given a <a href="https://jacobzelko.com/09302022033236-family-sets">family of sets</a> \(A\) indexed by the <a href="https://jacobzelko.com/09302022040126-indexed-sets">index set \(I\)</a>, a coproduct is a set that enumerates every element in \(A_{i}\) with its associated set. Referencing the example on a coproduct of a set and itself:</p>
 <p>Given: \(X = \{a, b, c, d\}\)</p>
 <p>Let \(X = X_{1} = X_{2}\), the value of \(X_{1} \coprod X_{2}\) is: </p>
 \[
@@ -184,27 +175,18 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 \coprod_{i \in I} X_{i}
 \]
 <p>and \(\bigsqcup_{i \in I} X_{i}\)</p>
-<p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets.md">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
+<p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Coproducts &#40;Disjoint Unions&#41;</em>. <a href="https://jacobzelko.com/09162022162129-coproducts-disjoints">https://jacobzelko.com/09162022162129-coproducts-disjoints</a>. September 16 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>  

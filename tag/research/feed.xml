@@ -40,42 +40,33 @@
 <h1>Bibliography</h1>
 <p>Not available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Principles of Zettelkasten</a></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="selecting_notes_for_a_zettelkasten">Selecting Notes for a Zettelkasten</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria.md">Criteria for Creating a Note in the Zettelkasten</a></p>
+<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria">Criteria for Creating a Note in the Zettelkasten</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** Simple criteria for when and how to add notes to the Zettelkasten.
 - **Rationale:** Enumerates a robust system for how to add notes to the Zettelkasten</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03172020033742-antifragility">Antifragility</a></p>
+<li><p><a href="03172020033742-antifragility">Antifragility</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview on Nassim Taleb&#39;s thoughts on Antifragility
 - **Rationale:** Zettelkastens should be antifragile -- i.e. they thrive off of disorder and chaos and adapt to it meaningfully.</code></pre>
-<h3 id="a_href03092020031618-zettelkasten-principlesmdprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></h3>
+<h3 id="a_hrefhttpsjacobzelkocom03092020031618-zettelkasten-principlesprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Principles of Zettelkasten</a></h3>
 <pre><code class="language-julia">- **Summary:** General principles on how to create and use a Zettelkasten</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Zettelkasten</em>. <a href="https://jacobzelko.com/03092020031549-zettelkasten">https://jacobzelko.com/03092020031549-zettelkasten</a>. December 2 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -119,27 +110,18 @@
 <li><p>Monitor specific parts of the house &#40;front door, kitchen, etc.&#41;</p>
 </li>
 </ul>
-<p>This would be using a technology known as <a href="https://jacobzelko.com/03092020071146-context-aware"><em>Context-Aware Applications</em></a> &#40;click for more information&#41;.</p>
+<p>This would be using a technology known as <a href="03092020071146-context-aware"><em>Context-Aware Applications</em></a> &#40;click for more information&#41;.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>The Aware Home: A Living Laboratory for Ubiquitous Computing Research</em>. <a href="https://jacobzelko.com/03092020035135-kidd-aware-home">https://jacobzelko.com/03092020035135-kidd-aware-home</a>. December 2 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -181,29 +163,20 @@
 <p>Embedded into this notion are several concepts such as social context and complexity &#40;Collins and Bilge 2020&#41;</p>
 <h3 id="why_are_intersectional_approaches_needed">Why Are Intersectional Approaches Needed?</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/11042022134535-structural-intersectionality.md">Structural Intersectionality as a New Direction for Health Disparities Research</a> - An introduction to intersectionality theory and medical sociological ideas at play within health disparities research</p>
+<li><p><a href="https://jacobzelko.com/11042022134535-structural-intersectionality">Structural Intersectionality as a New Direction for Health Disparities Research</a> - An introduction to intersectionality theory and medical sociological ideas at play within health disparities research</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>What Is Intersectionality and Intersectionality Theory?</em>. <a href="https://jacobzelko.com/11042022141714-what-intersectionality-theory">https://jacobzelko.com/11042022141714-what-intersectionality-theory</a>. November 4 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>  
@@ -238,7 +211,7 @@
 <h3 id="reading_motivation">Reading Motivation</h3>
 <p>I was suggested this paper by Sarah Gasman of Boston Medical Center. She suggested it as has it holds great relevance to some of my research on health disparities. I must say, this paper was revelatory and plan a future discussion with the study authors due to how incredible it was to my mind.</p>
 <h3 id="what_is_intersectionality">What Is Intersectionality?</h3>
-<p><a href="https://jacobzelko.com/11042022141714-what-intersectionality-theory.md">What Is Intersectionality and Intersectionality Theory?</a> - An overview and summary on what is intersectionality and intersectionality theory as an area of health and health disparities research.</p>
+<p><a href="https://jacobzelko.com/11042022141714-what-intersectionality-theory">What Is Intersectionality and Intersectionality Theory?</a> - An overview and summary on what is intersectionality and intersectionality theory as an area of health and health disparities research.</p>
 <h3 id="why_are_intersectional_approaches_needed">Why Are Intersectional Approaches Needed?</h3>
 <p>Prior literature has shown multiple examples where an understanding of intersectionality is useful in a health context: 	- Racism, sexism, and classism are interlocking, mutually constituted, and reinforcing &#40;Collins 2000; Crenshaw 1991; Dill and Zambrana 2009&#41; 	- Effects of racial, gender, and socioeconomic stratification are nonadditive &#40;meaning that racial, gender, and socioeconomic aspects do not all equally contribute to problems in intersectionality &#91;e.g. gender could have more impact than race considerations in certain situations&#93;&#41;. 	It was observed that the greatest racial inequalities in health were found among women and furthermore seen among those women with higher levels of socioeconomic status &#40;Brown et al. 2016; Cummings and Jackson 2008; Warner and Brown 2011&#41;.</p>
 <h3 id="how_is_health_impacted_by_intersectionality">How Is Health Impacted by Intersectionality?</h3>
@@ -263,22 +236,13 @@
 <p>Zelko, Jacob. <em>Structural Intersectionality as a New Direction for Health Disparities Research</em>. <a href="https://jacobzelko.com/11042022134535-structural-intersectionality">https://jacobzelko.com/11042022134535-structural-intersectionality</a>. November 4 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>  
@@ -343,22 +307,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>Assessing Phenotype Definitions for Algorithmic Fairness</em>. <a href="https://jacobzelko.com/08122022205622-assessing-phenotype-fairness">https://jacobzelko.com/08122022205622-assessing-phenotype-fairness</a>. August 12 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>  
@@ -391,20 +346,20 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
-<p><a href="https://jacobzelko.com/05172021000429-observational-studies.md">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
+<p><a href="https://jacobzelko.com/05172021000429-observational-studies">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
 <p>&#91;Study Packages&#93;</p>
 <h3 id="observational_medical_outcomes_partnership_omop">Observational Medical Outcomes Partnership &#40;OMOP&#41;</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/07282021181744-origins-omop.md">OMOP Origins</a></p>
+<li><p><a href="https://jacobzelko.com/07282021181744-origins-omop">OMOP Origins</a></p>
 </li>
-<li><p><a href="https://jacobzelko.com/02082021170353-cdm-standardized-tables.md">OMOP CDM standardized tables</a></p>
+<li><p><a href="https://jacobzelko.com/02082021170353-cdm-standardized-tables">OMOP CDM standardized tables</a></p>
 </li>
 </ul>
 <h3 id="observational_health_data_sciences_and_informatics_ohdsi">Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/07282021184510-ohdsi-background.md">OHDSI Origins</a></p>
+<li><p><a href="https://jacobzelko.com/07282021184510-ohdsi-background">OHDSI Origins</a></p>
 </li>
-<li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals.md">Goals of OHDSI</a></p>
+<li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals">Goals of OHDSI</a></p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
@@ -412,22 +367,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="references">References</h2>
 <p>&#91;1&#93; G. Hripcsak et al., “Observational health data sciences and informatics &#40;OHDSI&#41;: Opportunities for observational researchers,” Stud. Health Technol. Inform., vol. 216, p. 574, 2015.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>  
@@ -467,22 +413,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>Raspberry Pi</em>. <a href="https://jacobzelko.com/03102020061135-raspberry-pi">https://jacobzelko.com/03102020061135-raspberry-pi</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -519,22 +456,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="references">References</h2>
 <p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” &#91;Online&#93;. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  

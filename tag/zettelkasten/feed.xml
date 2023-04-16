@@ -40,42 +40,33 @@
 <h1>Bibliography</h1>
 <p>Not available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Principles of Zettelkasten</a></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="selecting_notes_for_a_zettelkasten">Selecting Notes for a Zettelkasten</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria.md">Criteria for Creating a Note in the Zettelkasten</a></p>
+<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria">Criteria for Creating a Note in the Zettelkasten</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** Simple criteria for when and how to add notes to the Zettelkasten.
 - **Rationale:** Enumerates a robust system for how to add notes to the Zettelkasten</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03172020033742-antifragility">Antifragility</a></p>
+<li><p><a href="03172020033742-antifragility">Antifragility</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview on Nassim Taleb&#39;s thoughts on Antifragility
 - **Rationale:** Zettelkastens should be antifragile -- i.e. they thrive off of disorder and chaos and adapt to it meaningfully.</code></pre>
-<h3 id="a_href03092020031618-zettelkasten-principlesmdprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></h3>
+<h3 id="a_hrefhttpsjacobzelkocom03092020031618-zettelkasten-principlesprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Principles of Zettelkasten</a></h3>
 <pre><code class="language-julia">- **Summary:** General principles on how to create and use a Zettelkasten</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Zettelkasten</em>. <a href="https://jacobzelko.com/03092020031549-zettelkasten">https://jacobzelko.com/03092020031549-zettelkasten</a>. December 2 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -131,22 +122,13 @@
 <p>Zelko, Jacob. <em>Principles of the Zettelkasten</em>. <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">https://jacobzelko.com/03092020031618-zettelkasten-principles</a>. December 2 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -186,27 +168,18 @@
 <p>&quot;Luhmann&#39;s card index allows the production of new and often unexpected knowledge by relating concepts and thoughts that do not have much in common at first sight &#91;...&#93; &#91;I&#93;t makes &#91;...&#93; serendipity possible in a systemically and theoretically informed way.&quot; &#40;pg. 54&#41;</p>
 </blockquote>
 <p>The power of the Zettelkasten comes from these accidental connections. Very similar to how one may spread out pieces of paper on a table and make a new connection, so does this method simulate it in very much the same way.</p>
-<p>Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as <a href="https://jacobzelko.com/03092020022908-education-spectrum.md">knowledge falls across a spectrum.</a> &#40;pg. 56&#41;</p>
+<p>Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as <a href="https://jacobzelko.com/03092020022908-education-spectrum">knowledge falls across a spectrum.</a> &#40;pg. 56&#41;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity</em>. <a href="https://jacobzelko.com/05032020155207-fabrication-serendipity">https://jacobzelko.com/05032020155207-fabrication-serendipity</a>. May 3 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>  
@@ -263,22 +236,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>  
@@ -319,22 +283,13 @@
 <p>Zelko, Jacob. <em>How to Take Smart Notes</em>. <a href="https://jacobzelko.com/03292020180520-smart-notes">https://jacobzelko.com/03292020180520-smart-notes</a>. March 29 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>  

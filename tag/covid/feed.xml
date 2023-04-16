@@ -96,22 +96,13 @@
 <p>&#91;2&#93; V. A. Wade, J. A. Eliott, and J. E. Hiller, “Clinician acceptance is the key factor for sustainable telehealth services,” Qual. Health Res., vol. 24, no. 5, pp. 682–694, 2014.</p>
 <p>&#91;3&#93; V. Wade, J. Soar, and L. Gray, “Uptake of telehealth services funded by Medicare in Australia,” Aust. Health Rev., vol. 38, no. 5, pp. 528–532, 2014.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>  
@@ -260,22 +251,13 @@
 <p>Zelko, Jacob. <em>Association of State-Issued Mask Mandates and Allowing On-Premises Restaurant Dining with County-Level COVID-19 Case and Death Growth Rates - United States, March 1 - December 31, 2020</em>. <a href="https://jacobzelko.com/06072021210734-mask-mandates-association">https://jacobzelko.com/06072021210734-mask-mandates-association</a>. June 7 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>  
@@ -334,22 +316,13 @@
 <p>&#91;1&#93; “Coronavirus Disease 2019 &#40;COVID-19&#41;-Associated Hospitalization Surveillance Network &#40;COVID-NET&#41; | CDC.” &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html. &#91;Accessed: 08-Jun-2021&#93;.</p>
 <p>&#91;2&#93; S. Garg et al., “Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019—COVID-NET, 14 States, March 1–30, 2020,” Morb. Mortal. Wkly. Rep., vol. 69, no. 15, p. 458, 2020.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>  
@@ -413,7 +386,7 @@
 </li>
 </ol>
 <h4 id="analyzing_for_changes_in_population_movement_patterns">Analyzing for Changes in Population Movement Patterns</h4>
-<p>Counties were broken into rural-urban categories to ensure groupings of counties with similar population sizes. Box plots were constructed for each category to examine the distribution of county mean percentages of devices at home during the pre- and postorder periods associated with each index date. Movement values following a normal distribution was not assumed for all counties and periods.  A clustered Wilcoxon signed rank test was then performed, with counties as clusters, on the constituent counties&#39; median pre- and post-order values associated with each index date. A lower-tailed test was used for dates regarding the start of regional mandates. An upper-tailed test was used for dates recording the end of regional mandates. Strata-level statistical significance was assessed at the 99&#37; confidence level &#40;alpha &#61; 0.01&#41;. <em>Dataset used: <a href="https://jacobzelko.com/https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/documentation/">The U.S. Department of Agriculture&#39;s Rural-Urban Continuum Codes</a> are used to stratify counties in this analysis</em> <strong>QUESTION:</strong> What is a &quot;clustered Wilcoxon signed rank test&quot;?_</p>
+<p>Counties were broken into rural-urban categories to ensure groupings of counties with similar population sizes. Box plots were constructed for each category to examine the distribution of county mean percentages of devices at home during the pre- and postorder periods associated with each index date. Movement values following a normal distribution was not assumed for all counties and periods.  A clustered Wilcoxon signed rank test was then performed, with counties as clusters, on the constituent counties&#39; median pre- and post-order values associated with each index date. A lower-tailed test was used for dates regarding the start of regional mandates. An upper-tailed test was used for dates recording the end of regional mandates. Strata-level statistical significance was assessed at the 99&#37; confidence level &#40;alpha &#61; 0.01&#41;. <em>Dataset used: <a href="https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/documentation/">The U.S. Department of Agriculture&#39;s Rural-Urban Continuum Codes</a> are used to stratify counties in this analysis</em> <strong>QUESTION:</strong> What is a &quot;clustered Wilcoxon signed rank test&quot;?_</p>
 <p>Population movement was inferred via the percentage of individual devices reported each day that were home for each county. A 7-day rolling average was used to smooth each county&#39;s pre- and postorder time series values ***QUESTION:** I wonder how good a metric this observation serves as a proxy of measuring population movement?*</p>
 <h3 id="discussion">Discussion</h3>
 <h4 id="general_insights">General Insights</h4>
@@ -441,22 +414,13 @@
 <p>Zelko, Jacob. <em>Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020</em>. <a href="https://jacobzelko.com/01072021062915-mobility-patterns-gtri">https://jacobzelko.com/01072021062915-mobility-patterns-gtri</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion__2">Discussion</h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
@@ -528,22 +492,13 @@
 <p>&#91;3&#93; L. Bauer, “The COVID-19 Crisis Has Already Left Too Many Children Hungry in America,” 06-May-2020. &#91;Online&#93;. Available: https://www.hamiltonproject.org/blog/the<em>covid</em>19<em>crisis</em>has<em>already</em>left<em>too</em>many<em>children</em>hungry<em>in</em>america. &#91;Accessed: 08-Nov-2020&#93;.</p>
 <p>&#91;4&#93; J. Fields et al., “Design and Operation of the 2020 Household Pulse Survey, 2020,” U.S. Census Bureau, 2020.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  

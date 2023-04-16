@@ -119,9 +119,9 @@ summed_values &#61; sum&#40;mylist&#41;</code></pre>
 log_{m}(n) = \frac{log_{2}(n)}{log_{2}(m)} = Clog_{2}(n) \rightarrow \mathcal{O}(log_{m}(n)) \rightarrow \mathcal{O}(log(n))
 \]
 <ul>
-<li><p>It can intuitively be thought of the running time is proportional to the \(n\) <a href="https://jacobzelko.com/https://stackoverflow.com/a/2307307">Stack Overflow Explanation</a></p>
+<li><p>It can intuitively be thought of the running time is proportional to the \(n\) <a href="https://stackoverflow.com/a/2307307">Stack Overflow Explanation</a></p>
 </li>
-<li><p>Another way to think about it is that the time goes up linearly while \(n\) increases exponentially <a href="https://jacobzelko.com/https://stackoverflow.com/a/2307330">Stack Overflow Explanation</a></p>
+<li><p>Another way to think about it is that the time goes up linearly while \(n\) increases exponentially <a href="https://stackoverflow.com/a/2307330">Stack Overflow Explanation</a></p>
 </li>
 </ul>
 <p>An example of this behavior is here:</p>
@@ -131,7 +131,7 @@ log_{m}(n) = \frac{log_{2}(n)}{log_{2}(m)} = Clog_{2}(n) \rightarrow \mathcal{O}
 f(n) = log_{10}(n^{t})
 \]
 <h4 id="exercises">Exercises</h4>
-<p><em>The following exercises can be found <a href="https://jacobzelko.com/https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/">here</a></em></p>
+<p><em>The following exercises can be found <a href="https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/">here</a></em></p>
 <ol>
 <li><p>What is the time and space complexity of:</p>
 </li>
@@ -238,27 +238,18 @@ end</code></pre>
 <p>Answer: False</p>
 <p>Explanation: Algorithm A could be faster on smaller inputs as compared to algorithm B</p>
 <h3 id="amortized_analysis">Amortized Analysis</h3>
-<p>See <a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">note here for details</a></p>
+<p>See <a href="https://jacobzelko.com/10052021235121-amortized-analysis">note here for details</a></p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Asymptotic Notation</em>. <a href="https://jacobzelko.com/09242021040445-asymptotic-notation">https://jacobzelko.com/09242021040445-asymptotic-notation</a>. September 28 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>  

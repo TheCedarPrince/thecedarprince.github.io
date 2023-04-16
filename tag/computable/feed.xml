@@ -23,6 +23,131 @@
 
 <item>
   <title>
+    <![CDATA[  Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research  ]]>
+  </title>
+  <link> https://jacobzelko.com/01102023212115-computable-phenotypes/index.html </link>
+  <guid> https://jacobzelko.com/01102023212115-computable-phenotypes/index.html </guid>
+  <description>
+    <![CDATA[  Considerations and discussion on a workflow for developing computable phenotype definitions to define disease  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research</h1>
+<p><strong>Date:</strong> April 15 2023</p>
+<p><strong>Summary:</strong> Considerations and discussion on a workflow for developing computable phenotype definitions to define disease</p>
+<p><strong>Keywords:</strong> #computable #phenotype #observational #health #blog #equity #archive</p>
+<h1>Bibliography</h1>
+<p>J. S. Zelko et al., “Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research.” arXiv, Mar. 30, 2023. doi: 10.48550/arXiv.2304.06504.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Background</li><li>What&#39;s the Purpose about This Paper?</li><li>What&#39;s the Process?</li><li>What Are the Trade-offs in Developing a Definition?</li><li>Wrap-Up</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>This small blog post gives a very high level overview of a paper I authored on developing phenotype definitions which are computable and robust to a disease being examined.  <a href="https://arxiv.org/abs/2304.06504">This paper is vailable on arXiv under a CC BY-SA 4.0 license</a>.  Please <a href="https://jacobzelko.com/resources/">reach out to me</a> if you have any issues accessing this paper and I will send you a PDF&#33;</p>
+<h3 id="background">Background</h3>
+<p>While working on some of my notes one day, I realized I had the beginnings of a paper&#33; In particular, I was working on a note about <a href="https://jacobzelko.com//01072021074632-computable-phenotypes">computable phenotypes</a> and thinking about <a href="https://jacobzelko.com//01022021031334-all-payer-claims">All Payer Claims Databases</a>. Additionally, I am in the course of a current endeavor built on a study I conducted last year called, <a href="https://zenodo.org/record/7779877"><em>A Pilot Characterization Study Assessing Health Equity in Mental Healthcare Delivery within the State of Georgia</em></a> which has made me think strongly about the whole concept of developing definitions of disease.</p>
+<p>It just so happened while I was thinking about these ideas, my Georgia Tech Research Institute colleague, Dr. Shenita Freeman, let me know about an upcoming IEEE conference, the <a href="https://web.archive.org/web/20230325190023/http://2023.cbms-conference.org/"><em>2023 IEEE Computer Based Medical Systems conference</em></a>. We both took a look at the opportunity and saw that a paper about computable phenotypes as well as the overall notion of phenotype definitions was a good idea for the conference. I reached out to some collaborators and we were off on writing this paper&#33;</p>
+<h3 id="whats_the_purpose_about_this_paper">What&#39;s the Purpose about This Paper?</h3>
+<p>What if I told you, how we, as researchers, speak about disease is, wrong – or at least, not quite accurate? For example, if I tell you, &quot;I research diabetes&#33;&quot;, well that is great and a noble cause but that doesn&#39;t help with telling people what it is that you are <em>actually</em> doing. As any diabetic knows, there is a huge difference between Type I Diabetes and Type II Diabetes and that doesn&#39;t consider other species of diabetes such as gestational diabetes, etc. So, it seems to me, that we need some sort of rigorous way to talk about disease, right?</p>
+<p>Yes&#33; Many researchers over the years have been defining what are called <a href="https://jacobzelko.com//01072021074632-computable-phenotypes">&quot;phenotypes&quot;</a> which can be things like disease diagnoses &#40;such as Type II Diabetes&#41; and lab measurements &#40;like blood glucose, HbA1C, etc.&#41;. Then, we can build upon these phenotypes into what is called a &quot;phenotype definition&quot;. Simply put, these are a set of instructions that tells us <em>how</em> we are observing these phenotypes. Going back to our rather vague diabetes researcher, they tell us that they are actually investigating Type II Diabetes in geriatric populations within patient data they have access to. Now that is a lot more useful&#33;  A possible phenotype definition for what our researcher friend is doing is: &quot;Patients who are 65 or older with a diagnosis of or related to Type II Diabetes.&quot;</p>
+<p>Our researcher is in much better shape on explaining what they have done.  So good that they are on their way to a research conference to present on findings from this definition&#33; Their fellow researchers, as well as some clinicians, at the conference love what they are doing and want to know how they can reproduce this definition with their own patient datasets. And, our researcher friend has documented the process... Right?</p>
+<p>Definitely&#33; They have prepared it in the form of a computable phenotype definition&#33; They took the diabetes phenotype definition, looked up medical diagnosis codes, and reviewed patient data that is generally to see what could actually be computed on their patient data. Our researcher chose to implement their computable phenotype definition within a query language like SQL but having the computable phenotype definition on hand, other researchers could either adapt the SQL or re-implement it in another approach they prefer.</p>
+<p>And just like that, our researcher now has a much clearer, meaningful, and impactful answer to the question, &quot;What disease are you studying?&quot;</p>
+<h3 id="whats_the_process">What&#39;s the Process?</h3>
+<p><img src="03302023175728-phenotype-workflow-diagram.png" alt="" /></p>
+<p>We spent a lot of time thinking through each step a researcher could potentially take on developing a phenotype definition and this diagram summarized our thinking of the entire process. Additionally, to summarize these steps, we created a checklist that could be followed here for developing a phenotype definition: </p>
+<ul>
+<li><p>&#91; &#93; Intent</p>
+</li>
+<li><p>&#91; &#93; Decide on a motivation to guide phenotype definition construction</p>
+</li>
+<li><p>&#91; &#93; Literature Review</p>
+<ul>
+<li><p>&#91; &#93; Identify phenotypes</p>
+</li>
+<li><p>&#91; &#93; Review or validate selected phenotypes</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Identify Phenotypes</p>
+<ul>
+<li><p>&#91; &#93; Specify phenotypes</p>
+</li>
+<li><p>&#91; &#93; Add constraints</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Translate needs to phenotype definition</p>
+<ul>
+<li><p>&#91; &#93; Define disqualifiers and/or strengtheners</p>
+</li>
+<li><p>&#91; &#93; Combine relevant phenotypes with a logic description</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Develop Computable Phenotype</p>
+<ul>
+<li><p>&#91; &#93; Review what concepts are consistently present in data</p>
+</li>
+<li><p>&#91; &#93; Implement phenotype definition in a computable form</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Execute Definition</p>
+<ul>
+<li><p>&#91; &#93; Execute computable phenotype definition on database</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Assess &amp; Revise</p>
+<ul>
+<li><p>&#91; &#93; Consider assumptions within phenotype definition</p>
+</li>
+<li><p>&#91; &#93; Revise phenotype definition as needed</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Do, Monitor, &amp; Evaluate</p>
+<ul>
+<li><p>&#91; &#93; Answer research question or achieve goal.</p>
+</li>
+<li><p>&#91; &#93; Repeat phenotype definition checklist as appropriate</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>To learn more about this checklist, definitely read the second part of the paper&#33; </p>
+<h3 id="what_are_the_trade-offs_in_developing_a_definition">What Are the Trade-offs in Developing a Definition?</h3>
+<p>The paper further goes into details about some of the trade-offs within developing a phenotype definition.  You may be surprised to hear that there would have to be trade-offs in defining a disease for a population. However, in practice, some counter-intuitive observations emerge:</p>
+<p>The first is what I refer to as the paradox of phenotype definitions. A very well-intentioned but somewhat naive approach when thinking about researching specific subpopulations is to define your phenotype definition as specifically as possible. For example, a possible phenotype definition could be &quot;White male patients with depression between the ages of 40 - 49 living within rural Tennessee counties&quot;. However, with each <a href="https://jacobzelko.com//11042022134535-structural-intersectionality">intersecting feature &#40;&quot;axis&quot;&#41; imposed on a population</a>, the resulting number of patients captured is smaller and smaller. Going back to our example, if you have 1000 males in Tennessee, 100 people between the ages of 40-49, and only 50 people within rural parts of the state, then at best, you&#39;ll only end up with 50 people matching your phenotype definition. The question becomes less of how to make a precise definition and more of balancing the trade-off between if a phenotype definition actually represents the population one is investigating and how useful a phenotype definition in practice will be. </p>
+<p>The second, is how a phenotype definition can differ from a computable phenotype definition. What I mean by that is a team of clinicians who may want to study a specific disease make a very clinically accurate picture of a patient population in a phenotype definition. However, when an informaticist looks at the definition and tries to implement it into a computable phenotype definition, there may be some aspects of the original phenotype definition that do not map well to a software implementation in practice. For more details, I suggest strongly to look at the first part of this paper as this topic is quite extensive.</p>
+<p>Finally, and by no means exhaustive to our list of trade-offs, is the idea of, &quot;Is the data we want to analyze even computable?&quot; An excellent example that had to be cut from the paper for space reasons is the emergence of COVID19. When COVID19 emerged as a threat to humanity, everyone wanted to analyze it and understand it as rapidly as possible. However, the problem was, was that there was a long &#40;in the context of the pandemic&#41; period in which collecting data on COVID19 diagnosis and symptom-type data was not possible. Hospitals would code deaths as related to symptoms exacerbated by COVID19 &#40;myocardial infarction, pneumonia, etc.&#41;, diagnoses related to presented symptoms &#40;bronchitis, stroke, etc.&#41; but never to a formal COVID19 diagnosis. This has since been remedied by emergency measures taken by <a href="https://icd.who.int/en">ICD</a> for medical coding but now, much of the earlier pandemic data, if someone wanted to study COVID19 with any kind of phenotype definition for COVID19, is not accurate. This presents a disconnect between a known problem &#40;COVID19&#41; to be studied and what could actually be studied &#40;the data that is actually available for computation&#41;.</p>
+<h3 id="wrap-up">Wrap-Up</h3>
+<p>In summary, I sincerely believe that this paper is quite useful in many different areas&#33; Especially, this paper can now serve as a sort of touchstone for interdisciplinary teams when discussing these concepts. </p>
+<p>Please let me know if you have any questions and comments or if you notice any egregious errors within the paper in the comments&#33;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research</em>. <a href="https://jacobzelko.com/01102023212115-computable-phenotypes">https://jacobzelko.com/01102023212115-computable-phenotypes</a>. April 15 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  What Are Computable Phenotypes?  ]]>
   </title>
   <link> https://jacobzelko.com/01072021074632-computable-phenotypes/index.html </link>
@@ -43,7 +168,7 @@
 <div class="franklin-toc"><ol><li><ol><li>Operational Definitions</li><li>Computable Phenotypes Definitions<ol><li>Creating Computable Phenotypes</li><li>Characteristics of a Good Phenotype Definitions</li><li>Determining the Validity of a Phenotype Definition</li></ol></li><li>Available Phenotype Definitions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="operational_definitions">Operational Definitions</h3>
 <p><strong>Phenotype:</strong> a measurable biological, behavioral, or cognitive marker found more often in specific individuals than the general population; the appearance it presents to observers.&#91;1&#93;</p>
-<p><a href="https://jacobzelko.com/./08122022205622-assessing-phenotype-fairness.md"><strong>Phenotyping:</strong></a> Identifying a set of patients with a particular disease </p>
+<p><a href="https://jacobzelko.com/./08122022205622-assessing-phenotype-fairness"><strong>Phenotyping:</strong></a> Identifying a set of patients with a particular disease </p>
 <p><strong>Computable phenotype:</strong> a clinical element that can derived from queries to an EHR or ancillary data sources &#40;such as claims data, or disease registries&#41; using a defined set of data elements and logical expressions.  It does not require chart review or interpretation by a clinician. </p>
 <p><strong>Data element:</strong> the unit of data being queried, exchanged, or analyzed. It includes:</p>
 <ul>
@@ -101,22 +226,13 @@
 <p>&#91;1&#93; R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.</p>
 <p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” &#91;Online&#93;. Available: https://cde.nlm.nih.gov/home. &#91;Accessed: 30-Dec-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
@@ -154,22 +270,13 @@
 <p>Zelko, Jacob. <em>Why everyone should care about &#39;Computable Phenotypes&#39;</em>. <a href="https://jacobzelko.com/12292020005502-care-computable-phenotypes">https://jacobzelko.com/12292020005502-care-computable-phenotypes</a>. December 28 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  

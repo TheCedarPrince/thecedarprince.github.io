@@ -43,7 +43,7 @@
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>I read a Q&amp;A article on Barbara Liskov &#91;1&#93; and the author made a very interesting comparison between Liskov&#39;s work of designing paradigms for creating well structured and crafted code with that of a Poet or Novelist. I have heard of comparisons like this before but I was quite intrigued by the latter – a programmer being compared to a writer. What piqued my interest the most about the article was the following statement,</p>
 <p>&quot;As a computer scientist thinking about code, Liskov had no physical objects to work with. Like a novelist or a poet, <em>she was staring at a blank page</em>.&quot; &#40;emphasis added&#41;</p>
-<p>The end of that statement, &quot;<em>blank page</em>&quot;, reminded me of the book <em>How to Take Smart Notes</em> &#91;2&#93; and my note on the book where Ahrens essentially believes that starting with a <a href="https://jacobzelko.com/03292020180520-smart-notes.md">blank page is the wrong idea in writing</a>. I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the <a href="https://jacobzelko.com/03092020031549-zettelkasten.md">Zettelkasten method</a> where, according to its <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">principles</a>, each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?</p>
+<p>The end of that statement, &quot;<em>blank page</em>&quot;, reminded me of the book <em>How to Take Smart Notes</em> &#91;2&#93; and my note on the book where Ahrens essentially believes that starting with a <a href="https://jacobzelko.com/03292020180520-smart-notes">blank page is the wrong idea in writing</a>. I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the <a href="https://jacobzelko.com/03092020031549-zettelkasten">Zettelkasten method</a> where, according to its <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">principles</a>, each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?</p>
 <p>Upon reflection upon this note some time later, I think I was thinking about the concept of composition and composition of software&#33;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Global Programming Paradigm</em>. <a href="https://jacobzelko.com/04182020162028-global-programming">https://jacobzelko.com/04182020162028-global-programming</a>. April 18 2020.</p>
@@ -51,22 +51,13 @@
 <p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” &#91;Online&#93;. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. &#91;Accessed: 18-Apr-2020&#93;.</p>
 <p>&#91;2&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>  
@@ -103,22 +94,13 @@
 <p>Zelko, Jacob. <em>How We Ought to Create</em>. <a href="https://jacobzelko.com/03302020002654-ought-create">https://jacobzelko.com/03302020002654-ought-create</a>. March 30 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>  
@@ -159,22 +141,13 @@
 <p>Zelko, Jacob. <em>How to Take Smart Notes</em>. <a href="https://jacobzelko.com/03292020180520-smart-notes">https://jacobzelko.com/03292020180520-smart-notes</a>. March 29 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>  
@@ -207,17 +180,17 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">Monthly Planning in a Bullet Journal</a></p>
+<li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month">Monthly Planning in a Bullet Journal</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to create a monthly plan when using a bullet journal.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly.md">Weekly Planning in a Bullet Journal</a></p>
+<li><p><a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly">Weekly Planning in a Bullet Journal</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to create a weekly plan when using a bullet journal.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020035441-bullet-journal-daily.md">Daily Planning in a Bullet Journal</a></p>
+<li><p><a href="https://jacobzelko.com/03192020035441-bullet-journal-daily">Daily Planning in a Bullet Journal</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to create a daily plan when using a bullet journal.</code></pre>
@@ -225,22 +198,13 @@
 <p>Zelko, Jacob. <em>Bullet Journal</em>. <a href="https://jacobzelko.com/03192020013253-bullet-journal">https://jacobzelko.com/03192020013253-bullet-journal</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
@@ -350,22 +314,13 @@
 <p>Zelko, Jacob. <em>Daily Planning in a Bullet Journal</em>. <a href="https://jacobzelko.com/03192020035441-bullet-journal-daily">https://jacobzelko.com/03192020035441-bullet-journal-daily</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  

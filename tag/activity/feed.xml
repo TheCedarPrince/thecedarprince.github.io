@@ -47,22 +47,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; R. Carter, S. Aldridge, M. Page, and S. Parker, The Human Brain Book. DK Publishing, 2019.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>  
@@ -95,7 +86,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Functional connectivity refers to the functionally integrated relationship between spatially separated brain regions.  Functional connectivity is related to similar patterns of activation in different brain regions regardless of the apparent physical connectedness of the regions. &#91;1&#93;, &#91;2&#93;</p>
-<p>Functional connectivity is usually measured during resting state <a href="https://jacobzelko.com/12282020003750-functional-mri.md">fMRI</a>. &#91;3&#93; This is predicated on the assumption that functional connections in the brain remain constant in a short time over a task or period of data collection. Generally examined items based on temporal similarities during analysis of the brain are:</p>
+<p>Functional connectivity is usually measured during resting state <a href="https://jacobzelko.com/12282020003750-functional-mri">fMRI</a>. &#91;3&#93; This is predicated on the assumption that functional connections in the brain remain constant in a short time over a task or period of data collection. Generally examined items based on temporal similarities during analysis of the brain are:</p>
 <ul>
 <li><p>Correlation</p>
 </li>
@@ -111,22 +102,13 @@
 <p>&#91;2&#93; K. J. Friston, “Functional and effective connectivity: A review,” Brain Connect., vol. 1, no. 1, pp. 13–36, 2011.</p>
 <p>&#91;3&#93; R. M. Hutchison et al., “Dynamic functional connectivity: Promise, issues, and interpretations,” Neuroimage, vol. 80, pp. 360–378, 2013.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  

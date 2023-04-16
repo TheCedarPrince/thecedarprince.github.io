@@ -42,7 +42,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Set-Up</li><li>Simple Workflow Process<ol><li>Blocking Workflow</li><li>Asynchronous Workflow</li></ol></li><li>Asynchronous Workflow for Literate Programming</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
-<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="https://jacobzelko.com/https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="https://jacobzelko.com/https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
+<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
 <h3 id="set-up">Set-Up</h3>
 <p>Here is how I recommend setting up your Julia environment to follow this tutorial &#40;I assume you have Julia installed correctly&#41;:</p>
 <ol>
@@ -65,15 +65,15 @@
 <li><p>Install node onto your machine.</p>
 </li>
 </ol>
-<p>I suggest using the great tool, <a href="https://jacobzelko.com/https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
+<p>I suggest using the great tool, <a href="https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
 <ol start="7">
-<li><p>Install the node package, <a href="https://jacobzelko.com/https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
+<li><p>Install the node package, <a href="https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
 </li>
 </ol>
 <p>Here is the command you can use in your command line: </p>
 <pre><code class="language-sh">npm i -g browser-sync</code></pre>
 <blockquote>
-<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the <a href="https://jacobzelko.com/#asynchronous-workflow-for-literate-programming">section on literate programming</a></p>
+<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the section on literate programming</p>
 </blockquote>
 <h3 id="simple_workflow_process">Simple Workflow Process</h3>
 <p>There are two ways to start this workflow.  One blocking &#40;i.e. you cannot use the Julia REPL while working&#41; and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:</p>
@@ -128,22 +128,13 @@ end</code></pre>
 <p>Zelko, Jacob. <em>Asynchronous Workflow Using Julia Tutorial</em>. <a href="https://jacobzelko.com/01082023043553-julia-async-workflow">https://jacobzelko.com/01082023043553-julia-async-workflow</a>. January 7 2023.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>  
@@ -176,7 +167,7 @@ end</code></pre>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>General Guide</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_guide">General Guide</h3>
-<p>This is from Fredrik Ekre at the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
+<p>This is from Fredrik Ekre at the <a href="https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
 <p>LanguageServer is somewhat slow to start so it is very useful to use a custom sysimage using PackageCompiler to reduce this time. On my machine I get the first response after 20&#43; seconds, but with a custom sysimage I can execute LS commands instantaneously.</p>
 <p>Here is my setup:</p>
 <ol>
@@ -203,7 +194,7 @@ end</code></pre>
 <pre><code class="language-sh">julia --project&#61;~/.julia/environments/nvim-lspconfig -e &#39;using Pkg; Pkg.add&#40;&quot;LanguageServer&quot;&#41;&#39;</code></pre>
 <p>And then navigate to the directory at <code>~.julia/environment/nvim-lspconfig</code>.</p>
 <ol start="3">
-<li><p>Copy the following makefile &#40;<a href="https://jacobzelko.com/https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
+<li><p>Copy the following makefile &#40;<a href="https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
 </li>
 </ol>
 <pre><code class="language-make"># MIT License. Copyright &#40;c&#41; 2021 Fredrik Ekre
@@ -343,22 +334,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Setting Up Julia LSP for Neovim</em>. <a href="https://jacobzelko.com/08312022162228-julia-lsp-setup">https://jacobzelko.com/08312022162228-julia-lsp-setup</a>. August 31 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>  

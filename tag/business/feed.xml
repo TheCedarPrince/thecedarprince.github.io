@@ -42,17 +42,17 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition">GTD Definition</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A concise definition of what the GTD framework is.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">GTD Implementation</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation">GTD Implementation</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A guide on how GTD is implemented.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review.md">GTD Weekly Reviews</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review">GTD Weekly Reviews</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
@@ -60,22 +60,13 @@
 <p>Zelko, Jacob. <em>Get Things Done</em>. <a href="https://jacobzelko.com/03192020045854-get-things-done">https://jacobzelko.com/03192020045854-get-things-done</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  

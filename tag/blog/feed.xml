@@ -23,6 +23,131 @@
 
 <item>
   <title>
+    <![CDATA[  Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research  ]]>
+  </title>
+  <link> https://jacobzelko.com/01102023212115-computable-phenotypes/index.html </link>
+  <guid> https://jacobzelko.com/01102023212115-computable-phenotypes/index.html </guid>
+  <description>
+    <![CDATA[  Considerations and discussion on a workflow for developing computable phenotype definitions to define disease  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research</h1>
+<p><strong>Date:</strong> April 15 2023</p>
+<p><strong>Summary:</strong> Considerations and discussion on a workflow for developing computable phenotype definitions to define disease</p>
+<p><strong>Keywords:</strong> #computable #phenotype #observational #health #blog #equity #archive</p>
+<h1>Bibliography</h1>
+<p>J. S. Zelko et al., “Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research.” arXiv, Mar. 30, 2023. doi: 10.48550/arXiv.2304.06504.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Background</li><li>What&#39;s the Purpose about This Paper?</li><li>What&#39;s the Process?</li><li>What Are the Trade-offs in Developing a Definition?</li><li>Wrap-Up</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>This small blog post gives a very high level overview of a paper I authored on developing phenotype definitions which are computable and robust to a disease being examined.  <a href="https://arxiv.org/abs/2304.06504">This paper is vailable on arXiv under a CC BY-SA 4.0 license</a>.  Please <a href="https://jacobzelko.com/resources/">reach out to me</a> if you have any issues accessing this paper and I will send you a PDF&#33;</p>
+<h3 id="background">Background</h3>
+<p>While working on some of my notes one day, I realized I had the beginnings of a paper&#33; In particular, I was working on a note about <a href="https://jacobzelko.com//01072021074632-computable-phenotypes">computable phenotypes</a> and thinking about <a href="https://jacobzelko.com//01022021031334-all-payer-claims">All Payer Claims Databases</a>. Additionally, I am in the course of a current endeavor built on a study I conducted last year called, <a href="https://zenodo.org/record/7779877"><em>A Pilot Characterization Study Assessing Health Equity in Mental Healthcare Delivery within the State of Georgia</em></a> which has made me think strongly about the whole concept of developing definitions of disease.</p>
+<p>It just so happened while I was thinking about these ideas, my Georgia Tech Research Institute colleague, Dr. Shenita Freeman, let me know about an upcoming IEEE conference, the <a href="https://web.archive.org/web/20230325190023/http://2023.cbms-conference.org/"><em>2023 IEEE Computer Based Medical Systems conference</em></a>. We both took a look at the opportunity and saw that a paper about computable phenotypes as well as the overall notion of phenotype definitions was a good idea for the conference. I reached out to some collaborators and we were off on writing this paper&#33;</p>
+<h3 id="whats_the_purpose_about_this_paper">What&#39;s the Purpose about This Paper?</h3>
+<p>What if I told you, how we, as researchers, speak about disease is, wrong – or at least, not quite accurate? For example, if I tell you, &quot;I research diabetes&#33;&quot;, well that is great and a noble cause but that doesn&#39;t help with telling people what it is that you are <em>actually</em> doing. As any diabetic knows, there is a huge difference between Type I Diabetes and Type II Diabetes and that doesn&#39;t consider other species of diabetes such as gestational diabetes, etc. So, it seems to me, that we need some sort of rigorous way to talk about disease, right?</p>
+<p>Yes&#33; Many researchers over the years have been defining what are called <a href="https://jacobzelko.com//01072021074632-computable-phenotypes">&quot;phenotypes&quot;</a> which can be things like disease diagnoses &#40;such as Type II Diabetes&#41; and lab measurements &#40;like blood glucose, HbA1C, etc.&#41;. Then, we can build upon these phenotypes into what is called a &quot;phenotype definition&quot;. Simply put, these are a set of instructions that tells us <em>how</em> we are observing these phenotypes. Going back to our rather vague diabetes researcher, they tell us that they are actually investigating Type II Diabetes in geriatric populations within patient data they have access to. Now that is a lot more useful&#33;  A possible phenotype definition for what our researcher friend is doing is: &quot;Patients who are 65 or older with a diagnosis of or related to Type II Diabetes.&quot;</p>
+<p>Our researcher is in much better shape on explaining what they have done.  So good that they are on their way to a research conference to present on findings from this definition&#33; Their fellow researchers, as well as some clinicians, at the conference love what they are doing and want to know how they can reproduce this definition with their own patient datasets. And, our researcher friend has documented the process... Right?</p>
+<p>Definitely&#33; They have prepared it in the form of a computable phenotype definition&#33; They took the diabetes phenotype definition, looked up medical diagnosis codes, and reviewed patient data that is generally to see what could actually be computed on their patient data. Our researcher chose to implement their computable phenotype definition within a query language like SQL but having the computable phenotype definition on hand, other researchers could either adapt the SQL or re-implement it in another approach they prefer.</p>
+<p>And just like that, our researcher now has a much clearer, meaningful, and impactful answer to the question, &quot;What disease are you studying?&quot;</p>
+<h3 id="whats_the_process">What&#39;s the Process?</h3>
+<p><img src="03302023175728-phenotype-workflow-diagram.png" alt="" /></p>
+<p>We spent a lot of time thinking through each step a researcher could potentially take on developing a phenotype definition and this diagram summarized our thinking of the entire process. Additionally, to summarize these steps, we created a checklist that could be followed here for developing a phenotype definition: </p>
+<ul>
+<li><p>&#91; &#93; Intent</p>
+</li>
+<li><p>&#91; &#93; Decide on a motivation to guide phenotype definition construction</p>
+</li>
+<li><p>&#91; &#93; Literature Review</p>
+<ul>
+<li><p>&#91; &#93; Identify phenotypes</p>
+</li>
+<li><p>&#91; &#93; Review or validate selected phenotypes</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Identify Phenotypes</p>
+<ul>
+<li><p>&#91; &#93; Specify phenotypes</p>
+</li>
+<li><p>&#91; &#93; Add constraints</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Translate needs to phenotype definition</p>
+<ul>
+<li><p>&#91; &#93; Define disqualifiers and/or strengtheners</p>
+</li>
+<li><p>&#91; &#93; Combine relevant phenotypes with a logic description</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Develop Computable Phenotype</p>
+<ul>
+<li><p>&#91; &#93; Review what concepts are consistently present in data</p>
+</li>
+<li><p>&#91; &#93; Implement phenotype definition in a computable form</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Execute Definition</p>
+<ul>
+<li><p>&#91; &#93; Execute computable phenotype definition on database</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Assess &amp; Revise</p>
+<ul>
+<li><p>&#91; &#93; Consider assumptions within phenotype definition</p>
+</li>
+<li><p>&#91; &#93; Revise phenotype definition as needed</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Do, Monitor, &amp; Evaluate</p>
+<ul>
+<li><p>&#91; &#93; Answer research question or achieve goal.</p>
+</li>
+<li><p>&#91; &#93; Repeat phenotype definition checklist as appropriate</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>To learn more about this checklist, definitely read the second part of the paper&#33; </p>
+<h3 id="what_are_the_trade-offs_in_developing_a_definition">What Are the Trade-offs in Developing a Definition?</h3>
+<p>The paper further goes into details about some of the trade-offs within developing a phenotype definition.  You may be surprised to hear that there would have to be trade-offs in defining a disease for a population. However, in practice, some counter-intuitive observations emerge:</p>
+<p>The first is what I refer to as the paradox of phenotype definitions. A very well-intentioned but somewhat naive approach when thinking about researching specific subpopulations is to define your phenotype definition as specifically as possible. For example, a possible phenotype definition could be &quot;White male patients with depression between the ages of 40 - 49 living within rural Tennessee counties&quot;. However, with each <a href="https://jacobzelko.com//11042022134535-structural-intersectionality">intersecting feature &#40;&quot;axis&quot;&#41; imposed on a population</a>, the resulting number of patients captured is smaller and smaller. Going back to our example, if you have 1000 males in Tennessee, 100 people between the ages of 40-49, and only 50 people within rural parts of the state, then at best, you&#39;ll only end up with 50 people matching your phenotype definition. The question becomes less of how to make a precise definition and more of balancing the trade-off between if a phenotype definition actually represents the population one is investigating and how useful a phenotype definition in practice will be. </p>
+<p>The second, is how a phenotype definition can differ from a computable phenotype definition. What I mean by that is a team of clinicians who may want to study a specific disease make a very clinically accurate picture of a patient population in a phenotype definition. However, when an informaticist looks at the definition and tries to implement it into a computable phenotype definition, there may be some aspects of the original phenotype definition that do not map well to a software implementation in practice. For more details, I suggest strongly to look at the first part of this paper as this topic is quite extensive.</p>
+<p>Finally, and by no means exhaustive to our list of trade-offs, is the idea of, &quot;Is the data we want to analyze even computable?&quot; An excellent example that had to be cut from the paper for space reasons is the emergence of COVID19. When COVID19 emerged as a threat to humanity, everyone wanted to analyze it and understand it as rapidly as possible. However, the problem was, was that there was a long &#40;in the context of the pandemic&#41; period in which collecting data on COVID19 diagnosis and symptom-type data was not possible. Hospitals would code deaths as related to symptoms exacerbated by COVID19 &#40;myocardial infarction, pneumonia, etc.&#41;, diagnoses related to presented symptoms &#40;bronchitis, stroke, etc.&#41; but never to a formal COVID19 diagnosis. This has since been remedied by emergency measures taken by <a href="https://icd.who.int/en">ICD</a> for medical coding but now, much of the earlier pandemic data, if someone wanted to study COVID19 with any kind of phenotype definition for COVID19, is not accurate. This presents a disconnect between a known problem &#40;COVID19&#41; to be studied and what could actually be studied &#40;the data that is actually available for computation&#41;.</p>
+<h3 id="wrap-up">Wrap-Up</h3>
+<p>In summary, I sincerely believe that this paper is quite useful in many different areas&#33; Especially, this paper can now serve as a sort of touchstone for interdisciplinary teams when discussing these concepts. </p>
+<p>Please let me know if you have any questions and comments or if you notice any egregious errors within the paper in the comments&#33;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research</em>. <a href="https://jacobzelko.com/01102023212115-computable-phenotypes">https://jacobzelko.com/01102023212115-computable-phenotypes</a>. April 15 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Learning What Every Undergraduate Mathematician Should Know about Proofs  ]]>
   </title>
   <link> https://jacobzelko.com/04012023221538-learning-proofs-beginners/index.html </link>
@@ -44,7 +169,7 @@
 <h3 id="motivation">Motivation</h3>
 <p>As I am personally moving into applied mathematics for my future graduate studies, I realized I had a deficiency. And that deficiency?  How to prove things&#33; &quot;Proof&quot; was always a somewhat scary thing that I encountered in mathematics every once in a while – but at the same time exciting. So, this post aims to allay these fears once and for all&#33;</p>
 <h3 id="project_goals">Project Goals</h3>
-<p>This process is adapted from the <a href="https://jacobzelko.com//07082020163004-ultralearning.md">Ultralearning framework posited by Scott Young</a>.</p>
+<p>This process is adapted from the <a href="https://jacobzelko.com//07082020163004-ultralearning">Ultralearning framework posited by Scott Young</a>.</p>
 <h4 id="what_am_i_doing">What Am I Doing?</h4>
 <p>Gain an undergraduate level of understanding of proofs and proof creation on par with maths and computer science students.</p>
 <h5 id="concepts">Concepts</h5>
@@ -169,22 +294,13 @@
 <p>Zelko, Jacob. <em>Learning What Every Undergraduate Mathematician Should Know about Proofs</em>. <a href="https://jacobzelko.com/04012023221538-learning-proofs-beginners">https://jacobzelko.com/04012023221538-learning-proofs-beginners</a>. April 1 2023.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>  
@@ -217,7 +333,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Set-Up</li><li>Simple Workflow Process<ol><li>Blocking Workflow</li><li>Asynchronous Workflow</li></ol></li><li>Asynchronous Workflow for Literate Programming</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
-<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="https://jacobzelko.com/https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="https://jacobzelko.com/https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
+<p>I sometimes find myself wanting to execute a Julia file I have just edited.  This is different than what the excellent <a href="https://github.com/timholy/Revise.jl">Revise.jl package &#40;created by Tim Holy&#41;</a> does in that I want to execute the full file and not just update function definitions. Moreover, I may just want Julia to do something else entirely upon updating a file or directory. This can be very helpful in analysis workflows as well as literate programming. Creating an extended post on my process for this was inspired by a <a href="https://discourse.julialang.org/t/franklin-jl-automatically-evaluate-jl-file-on-change/92580/6">Julia Discourse post I provided an answer to</a>.</p>
 <h3 id="set-up">Set-Up</h3>
 <p>Here is how I recommend setting up your Julia environment to follow this tutorial &#40;I assume you have Julia installed correctly&#41;:</p>
 <ol>
@@ -240,15 +356,15 @@
 <li><p>Install node onto your machine.</p>
 </li>
 </ol>
-<p>I suggest using the great tool, <a href="https://jacobzelko.com/https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
+<p>I suggest using the great tool, <a href="https://github.com/nvm-sh/nvm"><code>nvm</code>, which allows easy management of node versions</a>.</p>
 <ol start="7">
-<li><p>Install the node package, <a href="https://jacobzelko.com/https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
+<li><p>Install the node package, <a href="https://www.npmjs.com/package/browser-sync"><code>browser-sync</code>, which allows for syncing of webpages based on updates</a>.</p>
 </li>
 </ol>
 <p>Here is the command you can use in your command line: </p>
 <pre><code class="language-sh">npm i -g browser-sync</code></pre>
 <blockquote>
-<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the <a href="https://jacobzelko.com/#asynchronous-workflow-for-literate-programming">section on literate programming</a></p>
+<p>NOTE: Steps 6 and 7 are not necessary if you are not interested in the section on literate programming</p>
 </blockquote>
 <h3 id="simple_workflow_process">Simple Workflow Process</h3>
 <p>There are two ways to start this workflow.  One blocking &#40;i.e. you cannot use the Julia REPL while working&#41; and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:</p>
@@ -303,22 +419,13 @@ end</code></pre>
 <p>Zelko, Jacob. <em>Asynchronous Workflow Using Julia Tutorial</em>. <a href="https://jacobzelko.com/01082023043553-julia-async-workflow">https://jacobzelko.com/01082023043553-julia-async-workflow</a>. January 7 2023.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>  
@@ -349,9 +456,11 @@ end</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Principles in Making Anki Cards for Maths</li><li>Card Types<ol><li>Definitions</li><li>Theorems<ol><li>Implication Only Theorems</li><li>Implication and Equivalence Theorems</li></ol></li></ol></li><li>The &quot;Ankification&quot; of Proofs<ol><li>Initial Glances of a Proof</li><li>Building Out a Conceptual Roadmap of a Proof</li><li>Consider the Alternatives of a Proof</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Introduction</li><li>Principles in Making Anki Cards for Maths</li><li>Card Types<ol><li>Definitions</li><li>Properties</li><li>Theorems<ol><li>Implication Only Theorems</li><li>Implication and Equivalence Theorems</li></ol></li></ol></li><li>Self Testing</li><li>The &quot;Ankification&quot; of Proofs<ol><li>Initial Glances of a Proof</li><li>Building Out a Conceptual Roadmap of a Proof</li><li>Consider the Alternatives of a Proof</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>A major goal in my life is to get better with studying maths. As I fully intend to study mathematics more rigorously, a powerful component and tool in my studying toolbox has been Spaced Repetition Systems like Anki or Memrise. In particular, I wanted to know how to use these sort of systems to study and retain math more effectively in my studies – which sometimes face unexpected interruptions. This post serves as a guide to do just that.</p>
+<h3 id="introduction">Introduction</h3>
+<p>TODO: Add this discussion into here How I operate is that Anki is a supplement to my learning and not the whole piece. For example, I use Anki to learn definitions and their properties, but then when I work on proofs, I usually scribble that down into my notes and then try my best at linking together different definitions until I have something pleasant. &#91;11:51 AM&#93;TheCedarPrince: I say “linking” intentionally as my notes are stored within a Zettelkasten where each of the definitions I’ve learned are also found. So then I weave together the notes quickly into longer form pieces or proofs or what have you &#91;11:52 AM&#93;TheCedarPrince: Let me know if you have any questions — happy to hear your thoughts&#33;</p>
 <h3 id="principles_in_making_anki_cards_for_maths">Principles in Making Anki Cards for Maths</h3>
 <p>These principles are curated specifically to think about maths and Anki:</p>
 <ol>
@@ -363,7 +472,7 @@ end</code></pre>
 <li><p>Add small pieces that are worth remembering to Anki.</p>
 </li>
 </ol>
-<p>Keep <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Anki pieces as atomic as possible &#40;see the linked note and think of them as Anki cards instead of &quot;zettels&quot;&#41;</a>. &#91;1&#93;</p>
+<p>Keep <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Anki pieces as atomic as possible &#40;see the linked note and think of them as Anki cards instead of &quot;zettels&quot;&#41;</a>. &#91;1&#93;</p>
 <ol start="3">
 <li><p>Be brutally honest in marking an Anki review. &#91;1&#93;</p>
 </li>
@@ -372,7 +481,7 @@ end</code></pre>
 <li><p>If having problems with a certain topic or set of questions, break the topic down to the smallest components possible to better understand the overall topic. &#91;2&#93;</p>
 </li>
 </ol>
-<p>Identify the <a href="https://jacobzelko.com/07082020163004-ultralearning.md">facts, procedures, and concepts</a> and try to use those in creating smaller supplementary cards to help you with a concept. &#91;3&#93;</p>
+<p>Identify the <a href="https://jacobzelko.com/07082020163004-ultralearning">facts, procedures, and concepts</a> and try to use those in creating smaller supplementary cards to help you with a concept. &#91;3&#93;</p>
 <h3 id="card_types">Card Types</h3>
 <p>In maths, there are many different types of things to learn. Accordingly, there are a few different types of cards that are useful to make this learning process easier.</p>
 <h4 id="definitions">Definitions</h4>
@@ -395,10 +504,13 @@ end</code></pre>
 <li><p>Use clozes liberally to study each part of a given definition &#91;5&#93;</p>
 </li>
 </ul>
+<p>TODO: Include example note outline here</p>
+<h4 id="properties">Properties</h4>
+<p>TODO: Add what I have learned about property cards TODO: Include example note outline here </p>
 <h4 id="theorems">Theorems</h4>
 <p>As identified in &#91;4&#93;, there are typically two types of theorems: <em>Implication Only</em> and <em>Implication and Equivalency</em>.</p>
 <h5 id="implication_only_theorems">Implication Only Theorems</h5>
-<p><em>Implication Only</em> theorems have the quality that the conditions associated with that particular theorem, when satisfied, imply specific conclusions. Similar to <a href="https://jacobzelko.com/#Definitions">making cards for definitions</a>, there are some principles that can be followed for these sorts of cards:</p>
+<p><em>Implication Only</em> theorems have the quality that the conditions associated with that particular theorem, when satisfied, imply specific conclusions. Similar to making cards for definitions, there are some principles that can be followed for these sorts of cards:</p>
 <ul>
 <li><p>An <em>Implication Only</em> theorem can be broken down across the following parts:</p>
 </li>
@@ -410,9 +522,11 @@ end</code></pre>
 - Conditions of the theorem
 - Conclusions from this theorem</code></pre>
 <h5 id="implication_and_equivalence_theorems">Implication and Equivalence Theorems</h5>
-<p><em>Implication and Equivalence</em> theorems possess the virtue where if an associated set of conditions are met, imply that two or more arbitrary statements can be equivalent. &#91;4&#93; Making cards for this type of theorem is <a href="https://jacobzelko.com/#implication-only-theorems">almost identical to making cards for definitions</a>. The only key difference is that one should also add fields for the equivalent statements that result from this theorem.</p>
+<p><em>Implication and Equivalence</em> theorems possess the virtue where if an associated set of conditions are met, imply that two or more arbitrary statements can be equivalent. &#91;4&#93; Making cards for this type of theorem is almost identical to making cards for definitions. The only key difference is that one should also add fields for the equivalent statements that result from this theorem.</p>
+<h3 id="self_testing">Self Testing</h3>
+<p>TODO: Add section based on question cards  TODO: Include example note outline here</p>
 <h3 id="the_ankification_of_proofs">The &quot;Ankification&quot; of Proofs</h3>
-<p>Michael Nielsen wrote an excellent piece on this process called <a href="https://jacobzelko.com/https://cognitivemedium.com/srs-mathematics">&quot;Using spaced repetition systems to see through a piece of mathematics&quot;</a>.  Basically, he proposes the use of Anki to deeply understand and study proofs. Personally for me, I am not yet confident in an approach to draft proofs in Anki form. I <a href="https://jacobzelko.com/01162023063211-ankification-proofs.md">took notes on Nielsen&#39;s &quot;Ankification&quot; and processing of a proof</a> and am including some digested thoughts he had on working through proofs.</p>
+<p>Michael Nielsen wrote an excellent piece on this process called <a href="https://cognitivemedium.com/srs-mathematics">&quot;Using spaced repetition systems to see through a piece of mathematics&quot;</a>.  Basically, he proposes the use of Anki to deeply understand and study proofs. Personally for me, I am not yet confident in an approach to draft proofs in Anki form. I <a href="https://jacobzelko.com/01162023063211-ankification-proofs">took notes on Nielsen&#39;s &quot;Ankification&quot; and processing of a proof</a> and am including some digested thoughts he had on working through proofs.</p>
 <h4 id="initial_glances_of_a_proof">Initial Glances of a Proof</h4>
 <ul>
 <li><p>Pick out single elements of a proof</p>
@@ -420,7 +534,7 @@ end</code></pre>
 <li><p>Convert these elements to Anki cards</p>
 </li>
 </ul>
-<p>As you pick out these elements and create cards, they may be able to be <a href="https://jacobzelko.com/#definitions">formulated into definition cards</a>. Or, they may be needed to become their own special sort of card or fact – anything that can help in the learning process.</p>
+<p>As you pick out these elements and create cards, they may be able to be formulated into definition cards. Or, they may be needed to become their own special sort of card or fact – anything that can help in the learning process.</p>
 <h4 id="building_out_a_conceptual_roadmap_of_a_proof">Building Out a Conceptual Roadmap of a Proof</h4>
 <p>A proof is not a linear list of statements.  Per Nielsen, it is much more valuable to think of it as relationships between simple observations.  Each of these connections between observations are not just made for no reason. Rather, determine how to find multiple ways to think of the same observation or come to the same observation that is useful for a proof. At this stage, we are beginning to learn our way comfortably around a proof and finding multiple ways to get to each step in a proof is imperative in building that comfort.</p>
 <h4 id="consider_the_alternatives_of_a_proof">Consider the Alternatives of a Proof</h4>
@@ -436,22 +550,13 @@ end</code></pre>
 <p>&#91;4&#93; L. Thorburn, “Using Anki for mathematics,” 08-Mar-2020. &#91;Online&#93;. Available: https://www.lukethorburn.com/anki/. &#91;Accessed: 09-Jan-2023&#93;.</p>
 <p>&#91;5&#93; A. Milchior, “How I use Anki to learn mathematics - LessWrong,” 07-Dec-2016. &#91;Online&#93;. Available: https://www.lesswrong.com/posts/8ZugMc4E5959Xh86i/how-i-use-anki-to-learn-mathematics. &#91;Accessed: 09-Jan-2023&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>  
@@ -486,7 +591,7 @@ end</code></pre>
 <h3>Motivation</h3>
 <p>I have always found graph theory interesting ever since I was exposed to it back in my undergraduate studies at Georgia Tech. I found out about it through SIR Modeling but personally found the structure of graphs far more fascinating than its application to SIR models. Furthermore, as I intend to be pursuing graduate studies in applied mathematics, why not get started with trying to understand it?</p>
 <h3>Project Goals</h3>
-<p>This process is adapted from the <a href="https://jacobzelko.com/07082020163004-ultralearning.md">Ultralearning framework posited by Scott Young</a>.</p>
+<p>This process is adapted from the <a href="https://jacobzelko.com/07082020163004-ultralearning">Ultralearning framework posited by Scott Young</a>.</p>
 <h4>What Am I Doing?</h4>
 <p>Gain an undergraduate level of understanding of graph theory on par with maths and computer science students.</p>
 <h5>Concepts</h5>
@@ -832,22 +937,13 @@ end</code></pre>
 <p>&#91;1&#93; R. Trudeau, Introduction to Graph Theory, Dover. DOVER PUBLICATIONS, INC., 1994.</p>
 <p>&#91;2&#93; N. Hartsfield and Ringel, Pearls in Graph Theory A Comprehensive Introduction. DOVER PUBLICATIONS, INC., 1994.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>  
@@ -880,9 +976,9 @@ end</code></pre>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Introduction</li><li>What Is <em>Normal Science</em>?<ol><li>What Are the Characteristics of Normal Science?</li></ol></li><li>What Was Kuhn&#39;s Concept of a Paradigm?<ol><li>What Are the Characteristics of a Paradigm?</li><li>What Are the Benefits of Choosing a Paradigm?</li></ol></li><li>What Causes the Downfall of a Paradigm?<ol><li>What Happens When a Paradigm Is in Crisis?</li><li>Extraordinary Problems</li></ol></li><li>&quot;Scientific Revolutions&quot; and the Term &quot;Revolution&quot;</li><li>Invoking New Paradigms on Faith</li><li>On the Non-Linearity of Science</li><li>Additional Notes<ol><li>Paradigm Shifts in Other Domains</li><li>Non-Kuhnian Revolutions or Domain Transformations</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="introduction">Introduction</h3>
-<p>This book has had an immense impact in the world of science. From how science is taught to how science is thought about, Kuhn&#39;s notions of scientific revolution resonated across nearly all domains of science as well as touching into the arts. The central conceit that Kuhn stated in this book is that the scientific community knows what the world is like. I was recommended this book by my friend, collaborator, and Category Theorist, <a href="https://jacobzelko.com/https://www.jpfairbanks.com/">Professor James P. Fairbanks</a> I can see why it was recommended as it fits in quite nicely to the ensuing philosophical ideas found in <a href="https://jacobzelko.com/11082021041951-category-theory-scientists.md">Category Theory</a>.</p>
+<p>This book has had an immense impact in the world of science. From how science is taught to how science is thought about, Kuhn&#39;s notions of scientific revolution resonated across nearly all domains of science as well as touching into the arts. The central conceit that Kuhn stated in this book is that the scientific community knows what the world is like. I was recommended this book by my friend, collaborator, and Category Theorist, <a href="https://www.jpfairbanks.com/">Professor James P. Fairbanks</a> I can see why it was recommended as it fits in quite nicely to the ensuing philosophical ideas found in <a href="https://jacobzelko.com/11082021041951-category-theory-scientists">Category Theory</a>.</p>
 <h3 id="what_is_normal_science">What Is <em>Normal Science</em>?</h3>
-<p><a href="https://jacobzelko.com/05222022044134-normal-science.md">Note for atomic concept</a></p>
+<p><a href="https://jacobzelko.com/05222022044134-normal-science">Note for atomic concept</a></p>
 <p>According to Kuhn, <em>normal science</em>, is research based on past scientific accomplishments that are considered the foundation for that area of investigation. Generally, this is the area where most scientists spend their time. The research done in normal science can be theoretical or empirical.</p>
 <p>In the book, Kuhn referred to this as &quot;mop-up work&quot; and that this mopping up or &quot;filling out&quot; of science is what most scientists do. Although language such as &quot;mop-up&quot; work can make one think that Kuhn was being pejorative to these so-called &quot;scut scientists&quot;, he did not intend it so. In later versions of this book, he made a response to this point of confusion and clarified that this work still is fascinating and crucial in many ways to the advancement of science.</p>
 <h4 id="what_are_the_characteristics_of_normal_science">What Are the Characteristics of Normal Science?</h4>
@@ -897,7 +993,7 @@ end</code></pre>
 </li>
 </ol>
 <h3 id="what_was_kuhns_concept_of_a_paradigm">What Was Kuhn&#39;s Concept of a Paradigm?</h3>
-<p><a href="https://jacobzelko.com/05222022044626-kuhnian-paradigm.md">Note for atomic concept</a></p>
+<p><a href="https://jacobzelko.com/05222022044626-kuhnian-paradigm">Note for atomic concept</a></p>
 <p>Kuhn reintroduced into the modern English lexicon the word, &quot;paradigm&quot;. Before his time, the term was rather archaic. A paradigm is the background through which normal science is conducted loosely speaking. Another way of thinking about it is from online user <em>heynonnynonnie</em> suggesting that a paradigm is a consensus agreed upon by a group of practitioners of a field.</p>
 <h4 id="what_are_the_characteristics_of_a_paradigm">What Are the Characteristics of a Paradigm?</h4>
 <p>When he used the word, as Kuhn admitted himself, he overloaded the term to mean quite a number of things. To my understanding, this was my gist of a Kuhnian paradigm in that paradigms generally have two core characteristics:</p>
@@ -913,9 +1009,9 @@ end</code></pre>
 <p>A benefit that did not immediately appear to me was the insulating properties of a paradigm. An example that Kuhn suggested is that in the social sciences, one has to frame an avenue of research by its importance to society &#40;such as studying racial discrimination, etc.&#41;. Problems such as these are notoriously difficult to frame and reach a quorum consensus on due to possibly many competing schools of thought or groups. Instead, by keeping a conversation limited to the adherents of a specific paradigm, a researcher can easily keep moving forward through problems without having to strive against competing schools of thought. Furthermore, the insulating power of a paradigms gives a researcher the ability to solely focus on problems they think they can solve or are solvable.</p>
 <p>I will admit, his example of social scientists was at first confusing. But, upon reflection, what made this example make sense is that he later explained his decision to have this as an example due to the fact that there are often many competing paradigms in these areas. This conflict makes progress difficult as many people still argue the fundamentals of these sciences.</p>
 <h3 id="what_causes_the_downfall_of_a_paradigm">What Causes the Downfall of a Paradigm?</h3>
-<p><a href="https://jacobzelko.com/05222022044910-downfall-kuhnian-paradigm.md">Note on atomic concept</a></p>
+<p><a href="https://jacobzelko.com/05222022044910-downfall-kuhnian-paradigm">Note on atomic concept</a></p>
 <p>Normal science certainly is clear, safe, and predictable. But, what if a scientist finds results that do not fit within a paradigm? What if a result, ruling out all possible errors carried forth by a highly scrupulous researcher, is simply unexplainable - an anomaly against the backdrop of a paradigm? To Kuhn, this marks an important inflection point in adopted paradigms.</p>
-<p>Novelty in science only emerges with resistance and difficulty because any, as Kuhn wisely points out, researchers who investigate every anomaly will not get much done. But at some point, these anomalies will continue to accumulate to the point of being unignorable to adherents of a paradigm. A sort of malcontent will arise adherents and to <a href="https://jacobzelko.com/07222020181007-famous-quotes.md">quote Sherlock Holmes, &quot;When you have eliminated the impossible, whatever remains, however improbable, must be the truth.&quot;</a> And that truth is that an accepted paradigm is no longer sufficient to explain a domain which leads to a period of significant upheaval.</p>
+<p>Novelty in science only emerges with resistance and difficulty because any, as Kuhn wisely points out, researchers who investigate every anomaly will not get much done. But at some point, these anomalies will continue to accumulate to the point of being unignorable to adherents of a paradigm. A sort of malcontent will arise adherents and to <a href="https://jacobzelko.com/07222020181007-famous-quotes">quote Sherlock Holmes, &quot;When you have eliminated the impossible, whatever remains, however improbable, must be the truth.&quot;</a> And that truth is that an accepted paradigm is no longer sufficient to explain a domain which leads to a period of significant upheaval.</p>
 <p>Kuhn characterized the downfall of a paradigm in three generic ways:</p>
 <ol>
 <li><p>Awareness of anomaly</p>
@@ -934,12 +1030,12 @@ end</code></pre>
 <h4 id="extraordinary_problems">Extraordinary Problems</h4>
 <p>This problem leads normal science into a rather interesting process of science called &quot;extraordinary science&quot;. Extraordinary science is an offshoot of normal science that exists when a paradigm is in crisis and to address the paradigm in crisis. It is the science that either repairs, questions, or proves the deficiency of an existing paradigm. Important to note about extraordinary science is that they are never known at the outset of a paradigm but only after advanced normal research in the context of a given paradigm.</p>
 <h3 id="scientific_revolutions_and_the_term_revolution">&quot;Scientific Revolutions&quot; and the Term &quot;Revolution&quot;</h3>
-<p><a href="https://jacobzelko.com/05222022045723-scientific-revolutions.md">Note on atomic concept</a></p>
+<p><a href="https://jacobzelko.com/05222022045723-scientific-revolutions">Note on atomic concept</a></p>
 <p>According to Kuhn, these crises are the requirements for a new paradigm to come forth. This leads to extraordinary science as this episode in a paradigm&#39;s life is extraordinary that causes a basic shift in how science is even conducted. This period, coined by Kuhn, is called a &quot;Scientific Revolution&quot;.</p>
 <p>Kuhn was very particular in invoking the term &quot;revolution&quot;. He related the phrase &quot;scientific revolution&quot; analogously to a political revolution. In the same way that a political revolution is often fomented when a political body fails to serve adequately the growing body of its populace, so too are the grounds set for a scientific revolution.</p>
 <p>Although a paradigm may shift how one does science, the world itself does not change. Rather, the way we view and operate in the world does. For the adoptees of a new paradigm, the adoptee must say something to the effect of &quot;I once understood X to be Y, but I was mistaken&quot; and in doing so admit a form of error in looking at reality.</p>
 <h3 id="invoking_new_paradigms_on_faith">Invoking New Paradigms on Faith</h3>
-<p><a href="https://jacobzelko.com/05222022045931-new-paradigms.md">Note on atomic concept</a></p>
+<p><a href="https://jacobzelko.com/05222022045931-new-paradigms">Note on atomic concept</a></p>
 <p>A problem inherit to the development of new paradigms is that to adopt these new paradigms is most certainly an act of faith. Early adherents to a new paradigm must stand against the onslaught of problems that were solved or addressed by  a previous paradigm. They must simply have hope and faith that this new paradigm they have adopted will succeed in the areas where the previous paradigm failed. As Kuhn said:</p>
 <blockquote>
 <p>&quot;A decision of that kind can only be made on faith&quot;</p>
@@ -954,13 +1050,13 @@ end</code></pre>
 <p>In this sense, there is a type of verification or vetting of a new paradigm – an analogy to natural selection as Kuhn pointed out. For a new paradigm to be successful, not only must it address all problems hitherto encountered by prior paradigms, but be able to solve outstanding problems prior paradigms could not and the barrier to adopting this new paradigm must be minimal. &quot;No theory ever solves all &#91;...&#93; puzzles with which it is confronted at a given time; nor are the solutions already achieved often perfect,&quot; is a fitting bookend from Kuhn to remember when encountering new paradigms.</p>
 <p>One small final footnote on new paradigms is an observation by Kuhn: the invention of a paradigm most generally comes from someone very young or new to the field where a paradigm exists that they are trying to change.</p>
 <h3 id="on_the_non-linearity_of_science">On the Non-Linearity of Science</h3>
-<p><a href="https://jacobzelko.com/05222022050357-non-linearity-science.md">Note on atomic concept</a></p>
+<p><a href="https://jacobzelko.com/05222022050357-non-linearity-science">Note on atomic concept</a></p>
 <p>One thing out of this book is that I very much appreciated and agreed with Kuhn&#39;s notion that science is not linear nor is it necessarily the result of a universal truth being uncovered. Rather, it is the confluence of emerging theories that evolve and find they can fit with other theories or paradigms. These newly combined theories then come together to possibly overturn or change the understanding of currently practiced science.</p>
 <p>This fallacious notion of linear knowledge going to a particular truth about the world is based in part on science historians and textbook makers. As textbooks are designed to assist students in learning as much material as possible, the teacher with the textbook maker chooses to formulate a textbook around one particular area of knowledge thereby giving a sense of progress to a domain&#39;s particular truth. As science does not deal with all possible experiments but only those which are doable according to an existing paradigm, so too a textbook must be very judicious in what it presents to a student from its paradigm.</p>
 <h3 id="additional_notes">Additional Notes</h3>
 <p>As I wrap up this review of <em>The Structure of Scientific Revolutions</em>, here are some additional notes that didn&#39;t quite fit in the overall review. I did still find these pertinent as well as helpful in expanding thoughts about paradigms.</p>
 <h4 id="paradigm_shifts_in_other_domains">Paradigm Shifts in Other Domains</h4>
-<p>Outside of Science, Technology, Engineering, and Mathematics, Kuhn&#39;s notion of paradigm shifts do occur. Such a paradigm shift based on Kuhn&#39;s writings in an area such as the social sciences could be - and I am making an educated guess here - something akin to the near modern universal condemnation and outlawing of slavery. However, to this end Kuhn posited that unlike the other natural sciences, there still exist competing schools of thought. A visceral modern example is that social scientists also have to defend their choice of a research problem such as examining race in the context of the <a href="https://jacobzelko.com/07112020161337-social-determinants-health.md">social determinants of health</a> where other existing schools of thought may fiercely disagree on the validity of such endeavors.</p>
+<p>Outside of Science, Technology, Engineering, and Mathematics, Kuhn&#39;s notion of paradigm shifts do occur. Such a paradigm shift based on Kuhn&#39;s writings in an area such as the social sciences could be - and I am making an educated guess here - something akin to the near modern universal condemnation and outlawing of slavery. However, to this end Kuhn posited that unlike the other natural sciences, there still exist competing schools of thought. A visceral modern example is that social scientists also have to defend their choice of a research problem such as examining race in the context of the <a href="https://jacobzelko.com/07112020161337-social-determinants-health">social determinants of health</a> where other existing schools of thought may fiercely disagree on the validity of such endeavors.</p>
 <p>Furthermore, Kuhn gave the great example that, &quot;the man who argues that philosophy &#91;...&#93; has made no progress emphasizes that there are still Aristotelians, not that Aristotelianism has failed to progress,&quot; I am in agreement with Kuhn in that it is not that schools of thought outside Science, Technology, Engineering, and Mathematics are not making progress. It is that their are much more fundamental conflicts in these spaces that have yet to be reconciled in sufficient ways.</p>
 <p>In an online group discussion, the user <em>ish-i-ness</em> furthered this idea to the arts that, &quot;that in the arts you could even say that there is a desire to discover an aesthetic truth, something that is indisputably, objectively beautiful and thought provoking, rather than just a fad that is only interesting because it’s appeals to a particular, subjective set of preferences.&quot; Here, <em>ish-i-ness</em> invokes this notion of aesthetic truth which is associated with Theodore Adorno.</p>
 <h4 id="non-kuhnian_revolutions_or_domain_transformations">Non-Kuhnian Revolutions or Domain Transformations</h4>
@@ -971,22 +1067,13 @@ end</code></pre>
 <p>Zelko, Jacob. <em>The Structure of Scientific Revolutions</em>. <a href="https://jacobzelko.com/05152022174848-structure-revolutions">https://jacobzelko.com/05152022174848-structure-revolutions</a>. May 15 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>  
@@ -1050,22 +1137,13 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <p>Zelko, Jacob. <em>Personal Perspectives on Faith</em>. <a href="https://jacobzelko.com/05072022162026-personal-faith-perspectives">https://jacobzelko.com/05072022162026-personal-faith-perspectives</a>. May 7 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>  
@@ -1099,7 +1177,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>Knowledge is one of the most nebulous ideas known to mankind since nearly the beginning of time. What may be knowledge to one person may be useless noise to another - this encapsulates the difficulty in defining knowledge. As a result of its many possible meanings, I put forth a rather opinionated proposal for what I term the &quot;Open Knowledge Model&quot;.</p>
-<p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://jacobzelko.com/https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
+<p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
 <p>There are many different knowledge management systems available to someone – from a pen and pencil to various software offerings. Each of these offerings are very unique and accordingly offer benefits and cons. This model remains independent of any such offering but instead prescribes a model to structure information in any of the offerings one chooses to pursue.</p>
 <h3 id="model_components">Model Components</h3>
 <p>The model is composed of the following sections:</p>
@@ -1131,13 +1209,13 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h3 id="implementation_examples">Implementation Examples</h3>
 <p>To give an example of implementations, here are some examples of implementations:</p>
 <ul>
-<li><p><a href="https://jacobzelko.com/08032021134232-notes-template.md">Markdown Implementation</a></p>
+<li><p><a href="https://jacobzelko.com/08032021134232-notes-template">Markdown Implementation</a></p>
 </li>
 </ul>
 <h3 id="tools_for_working_with_model">Tools for Working with Model</h3>
 <p>Here are a list of some tools that have emerged to work with the Open Knowledge Model: </p>
 <ul>
-<li><p><a href="https://jacobzelko.com/https://github.com/TheCedarPrince/NoteMate">NoteMate.jl</a> - a companion for working with a knowledge management system that adheres to the Open Knowledge Model.</p>
+<li><p><a href="https://github.com/TheCedarPrince/NoteMate">NoteMate.jl</a> - a companion for working with a knowledge management system that adheres to the Open Knowledge Model.</p>
 </li>
 </ul>
 <p>Written in Julia and offers parsing from Markdown notes to other target formats.</p>
@@ -1147,22 +1225,13 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <p>Zelko, Jacob. <em>The Open Knowledge Model</em>. <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard">https://jacobzelko.com/04172022033744-open-knowledge-standard</a>. April 16 2022.</p>
 <h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1197,7 +1266,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h3 id="introduction">Introduction</h3>
 <p>Eugenia Cheng takes a nuanced approach to the discussion around gender. As she references, some feminists&#39; battle cry is the phrase, &quot;Smash the patriarchy&#33;&quot;. In Cheng&#39;s idea of feminism, she instead looks for language that is less divisive and more inclusive encompassed in her saying, &quot;Let’s transform our world into a more congressively led future.&quot;</p>
 <h3 id="category_theory_as_tool_for_thinking_on_gender">Category Theory as Tool for Thinking on Gender</h3>
-<p>With this approach, she launches into her core contribution to the discussion on gender which is introducing the mathematics of <a href="https://jacobzelko.com/11082021041951-category-theory-scientists.md">category theory</a> to decouple historical characteristics associated genders from the genders themselves. Cheng argues that this is a better approach to take in gender discussions to think more deeply about traits or characteristics in isolation rather than rooted in gender. You can then critique a characteristic or trait rather than a whole group of people.</p>
+<p>With this approach, she launches into her core contribution to the discussion on gender which is introducing the mathematics of <a href="https://jacobzelko.com/11082021041951-category-theory-scientists">category theory</a> to decouple historical characteristics associated genders from the genders themselves. Cheng argues that this is a better approach to take in gender discussions to think more deeply about traits or characteristics in isolation rather than rooted in gender. You can then critique a characteristic or trait rather than a whole group of people.</p>
 <p>Rather than being a book on mathematics and gender, category theory is used more as a mental model or framework to enact this decoupling. This works well as category theory fundamentally concerns itself about relationships. In her opinion, category theory enables one to think more clearly about about characteristics with a great degree of flexibility.</p>
 <h3 id="congressive_versus_ingressive_thinking">Congressive versus Ingressive Thinking</h3>
 <p>Cheng introduced two crucial words into her argument which can describe concepts, behaviors or people: &quot;congressive&quot; and &quot;ingressive&quot;. This is how she defined these terms summarized below:</p>
@@ -1213,29 +1282,20 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h3 id="final_thoughts">Final Thoughts</h3>
 <p>Overall, I really enjoyed this book&#33; I feel like her point was made pretty early on and I appreciated some of the examples. However, as I am acquainted with category theory as well as having read some material on gender studies in the past, I personally was able to skip through various parts.</p>
 <p>I think her notion of decoupling is immensely important however I am not sure on her terminology of &quot;ingressive&quot; and &quot;congressive&quot;. Whenever anyone overloads terms with additional definitions, it makes me nervous that confusion in discussion can occur. However, since these are not commonly used terms, at least in my experience, it makes me think this may not be as big an issue.</p>
-<p>Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the <a href="https://jacobzelko.com/07112020161337-social-determinants-health.md">social determinants of health</a> and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:</p>
+<p>Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the <a href="https://jacobzelko.com/07112020161337-social-determinants-health">social determinants of health</a> and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:</p>
 <p>&quot;The idea of a temporary abstraction also takes into account the thorny issue of intersectionality, and the need to take other forms of power imbalance into account besides those governed by gender, for example race, wealth, sexual orientation, and so on.&quot;</p>
 <p>Overall, good read&#33;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</em>. <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking">https://jacobzelko.com/04162022002725-mathematician-gender-rethinking</a>. April 15 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1278,22 +1338,13 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <p>Zelko, Jacob. <em>Othello</em>. <a href="https://jacobzelko.com/04102022034503-othello">https://jacobzelko.com/04102022034503-othello</a>. April 9 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1325,7 +1376,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Example of Actual Note</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>This is an <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard.md">example implementation of the Open Knowledge Standard</a> I use when taking notes in Markdown:</p>
+<p>This is an <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard">example implementation of the Open Knowledge Standard</a> I use when taking notes in Markdown:</p>
 <pre><code class="language-markdown"># &#91;Title&#93;**Date:** &#91;DATE&#93;**Summary:** &#91;ONE SENTENCE SUMMARY&#93;**Keywords:** &#91;KEYWORDS PREPENDED BY #. EXAMPLE: #healthcare&#93;## Note Linked From&#91;REFERENCE TO WHERE THE NOTE WAS LINKED FROM&#93;## Bibliography&#91;BIBLIOGRAPHIC REFERENCE FOR WHERE YOU GOT THE INFORMATION&#93;## Notes&#91;CONTENT OF NOTE&#93;## References:&#91;ADDITIONAL REFERENCES USED IN NOTE&#93;</code></pre>
 <h3 id="example_of_actual_note">Example of Actual Note</h3>
 <p>What follows is an actual note in my knowledge management system:</p>
@@ -1344,22 +1395,13 @@ He emphasized that they do not always hold or are always discrete from one anoth
 <p>Zelko, Jacob. <em>My Note Templates</em>. <a href="https://jacobzelko.com/08032021134232-notes-template">https://jacobzelko.com/08032021134232-notes-template</a>. August 3 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>  
@@ -1467,22 +1509,13 @@ A \rightarrow B \leftarrow C
 <p>Zelko, Jacob. <em>The Book of Why</em>. <a href="https://jacobzelko.com/01072021082043-book-of-why">https://jacobzelko.com/01072021082043-book-of-why</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
@@ -1530,7 +1563,7 @@ A \rightarrow B \leftarrow C
 <blockquote>
 <p>Linda: &quot;&#91;to Willy ...&#93; Why must everybody conquer the world?&quot;</p>
 </blockquote>
-<p>It is a powerful insight into Linda&#39;s thinking.  To Linda, Willy already has the best things in the world. He just can&#39;t stop to realize it or rather, it is not enough for him to have a loving family. He needs to be big in the eyes of &quot;people&quot;.  This reminds me of my note on <a href="https://jacobzelko.com/07132020022756-media-timothy.md">&quot;False Expertise&quot;</a> where there, the problem is that being exposed enough to material gives you prestige. In this case, Willy thinks being acknowledged by people as a nice guy is enough to ensure endless success.</p>
+<p>It is a powerful insight into Linda&#39;s thinking.  To Linda, Willy already has the best things in the world. He just can&#39;t stop to realize it or rather, it is not enough for him to have a loving family. He needs to be big in the eyes of &quot;people&quot;.  This reminds me of my note on <a href="https://jacobzelko.com/07132020022756-media-timothy">&quot;False Expertise&quot;</a> where there, the problem is that being exposed enough to material gives you prestige. In this case, Willy thinks being acknowledged by people as a nice guy is enough to ensure endless success.</p>
 <h3 id="shattering_of_innocence">Shattering of Innocence</h3>
 <blockquote>
 <p>Willy: &quot;Never mind&#33;  He&#39;s going to give you those points.  I&#39;ll see to it.&quot; Biff: &quot;He wouldn&#39;t listen to you.&quot;</p>
@@ -1557,22 +1590,13 @@ A \rightarrow B \leftarrow C
 <p>Zelko, Jacob. <em>Death of a Salesman</em>. <a href="https://jacobzelko.com/12262020224653-death-salesman">https://jacobzelko.com/12262020224653-death-salesman</a>. July 26 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>  
@@ -1622,22 +1646,13 @@ you surround them with your favor as with a shield.                             
 <p>Zelko, Jacob. <em>Sleep as an Act of Faith</em>. <a href="https://jacobzelko.com/04282020175356-sleep-act">https://jacobzelko.com/04282020175356-sleep-act</a>. April 28 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>  
@@ -1678,22 +1693,13 @@ you surround them with your favor as with a shield.                             
 <p>Zelko, Jacob. <em>How to Take Smart Notes</em>. <a href="https://jacobzelko.com/03292020180520-smart-notes">https://jacobzelko.com/03292020180520-smart-notes</a>. March 29 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>  

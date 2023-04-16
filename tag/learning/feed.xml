@@ -40,9 +40,11 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Principles in Making Anki Cards for Maths</li><li>Card Types<ol><li>Definitions</li><li>Theorems<ol><li>Implication Only Theorems</li><li>Implication and Equivalence Theorems</li></ol></li></ol></li><li>The &quot;Ankification&quot; of Proofs<ol><li>Initial Glances of a Proof</li><li>Building Out a Conceptual Roadmap of a Proof</li><li>Consider the Alternatives of a Proof</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Introduction</li><li>Principles in Making Anki Cards for Maths</li><li>Card Types<ol><li>Definitions</li><li>Properties</li><li>Theorems<ol><li>Implication Only Theorems</li><li>Implication and Equivalence Theorems</li></ol></li></ol></li><li>Self Testing</li><li>The &quot;Ankification&quot; of Proofs<ol><li>Initial Glances of a Proof</li><li>Building Out a Conceptual Roadmap of a Proof</li><li>Consider the Alternatives of a Proof</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>A major goal in my life is to get better with studying maths. As I fully intend to study mathematics more rigorously, a powerful component and tool in my studying toolbox has been Spaced Repetition Systems like Anki or Memrise. In particular, I wanted to know how to use these sort of systems to study and retain math more effectively in my studies – which sometimes face unexpected interruptions. This post serves as a guide to do just that.</p>
+<h3 id="introduction">Introduction</h3>
+<p>TODO: Add this discussion into here How I operate is that Anki is a supplement to my learning and not the whole piece. For example, I use Anki to learn definitions and their properties, but then when I work on proofs, I usually scribble that down into my notes and then try my best at linking together different definitions until I have something pleasant. &#91;11:51 AM&#93;TheCedarPrince: I say “linking” intentionally as my notes are stored within a Zettelkasten where each of the definitions I’ve learned are also found. So then I weave together the notes quickly into longer form pieces or proofs or what have you &#91;11:52 AM&#93;TheCedarPrince: Let me know if you have any questions — happy to hear your thoughts&#33;</p>
 <h3 id="principles_in_making_anki_cards_for_maths">Principles in Making Anki Cards for Maths</h3>
 <p>These principles are curated specifically to think about maths and Anki:</p>
 <ol>
@@ -54,7 +56,7 @@
 <li><p>Add small pieces that are worth remembering to Anki.</p>
 </li>
 </ol>
-<p>Keep <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Anki pieces as atomic as possible &#40;see the linked note and think of them as Anki cards instead of &quot;zettels&quot;&#41;</a>. &#91;1&#93;</p>
+<p>Keep <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Anki pieces as atomic as possible &#40;see the linked note and think of them as Anki cards instead of &quot;zettels&quot;&#41;</a>. &#91;1&#93;</p>
 <ol start="3">
 <li><p>Be brutally honest in marking an Anki review. &#91;1&#93;</p>
 </li>
@@ -63,7 +65,7 @@
 <li><p>If having problems with a certain topic or set of questions, break the topic down to the smallest components possible to better understand the overall topic. &#91;2&#93;</p>
 </li>
 </ol>
-<p>Identify the <a href="https://jacobzelko.com/07082020163004-ultralearning.md">facts, procedures, and concepts</a> and try to use those in creating smaller supplementary cards to help you with a concept. &#91;3&#93;</p>
+<p>Identify the <a href="https://jacobzelko.com/07082020163004-ultralearning">facts, procedures, and concepts</a> and try to use those in creating smaller supplementary cards to help you with a concept. &#91;3&#93;</p>
 <h3 id="card_types">Card Types</h3>
 <p>In maths, there are many different types of things to learn. Accordingly, there are a few different types of cards that are useful to make this learning process easier.</p>
 <h4 id="definitions">Definitions</h4>
@@ -86,10 +88,13 @@
 <li><p>Use clozes liberally to study each part of a given definition &#91;5&#93;</p>
 </li>
 </ul>
+<p>TODO: Include example note outline here</p>
+<h4 id="properties">Properties</h4>
+<p>TODO: Add what I have learned about property cards TODO: Include example note outline here </p>
 <h4 id="theorems">Theorems</h4>
 <p>As identified in &#91;4&#93;, there are typically two types of theorems: <em>Implication Only</em> and <em>Implication and Equivalency</em>.</p>
 <h5 id="implication_only_theorems">Implication Only Theorems</h5>
-<p><em>Implication Only</em> theorems have the quality that the conditions associated with that particular theorem, when satisfied, imply specific conclusions. Similar to <a href="https://jacobzelko.com/#Definitions">making cards for definitions</a>, there are some principles that can be followed for these sorts of cards:</p>
+<p><em>Implication Only</em> theorems have the quality that the conditions associated with that particular theorem, when satisfied, imply specific conclusions. Similar to making cards for definitions, there are some principles that can be followed for these sorts of cards:</p>
 <ul>
 <li><p>An <em>Implication Only</em> theorem can be broken down across the following parts:</p>
 </li>
@@ -101,9 +106,11 @@
 - Conditions of the theorem
 - Conclusions from this theorem</code></pre>
 <h5 id="implication_and_equivalence_theorems">Implication and Equivalence Theorems</h5>
-<p><em>Implication and Equivalence</em> theorems possess the virtue where if an associated set of conditions are met, imply that two or more arbitrary statements can be equivalent. &#91;4&#93; Making cards for this type of theorem is <a href="https://jacobzelko.com/#implication-only-theorems">almost identical to making cards for definitions</a>. The only key difference is that one should also add fields for the equivalent statements that result from this theorem.</p>
+<p><em>Implication and Equivalence</em> theorems possess the virtue where if an associated set of conditions are met, imply that two or more arbitrary statements can be equivalent. &#91;4&#93; Making cards for this type of theorem is almost identical to making cards for definitions. The only key difference is that one should also add fields for the equivalent statements that result from this theorem.</p>
+<h3 id="self_testing">Self Testing</h3>
+<p>TODO: Add section based on question cards  TODO: Include example note outline here</p>
 <h3 id="the_ankification_of_proofs">The &quot;Ankification&quot; of Proofs</h3>
-<p>Michael Nielsen wrote an excellent piece on this process called <a href="https://jacobzelko.com/https://cognitivemedium.com/srs-mathematics">&quot;Using spaced repetition systems to see through a piece of mathematics&quot;</a>.  Basically, he proposes the use of Anki to deeply understand and study proofs. Personally for me, I am not yet confident in an approach to draft proofs in Anki form. I <a href="https://jacobzelko.com/01162023063211-ankification-proofs.md">took notes on Nielsen&#39;s &quot;Ankification&quot; and processing of a proof</a> and am including some digested thoughts he had on working through proofs.</p>
+<p>Michael Nielsen wrote an excellent piece on this process called <a href="https://cognitivemedium.com/srs-mathematics">&quot;Using spaced repetition systems to see through a piece of mathematics&quot;</a>.  Basically, he proposes the use of Anki to deeply understand and study proofs. Personally for me, I am not yet confident in an approach to draft proofs in Anki form. I <a href="https://jacobzelko.com/01162023063211-ankification-proofs">took notes on Nielsen&#39;s &quot;Ankification&quot; and processing of a proof</a> and am including some digested thoughts he had on working through proofs.</p>
 <h4 id="initial_glances_of_a_proof">Initial Glances of a Proof</h4>
 <ul>
 <li><p>Pick out single elements of a proof</p>
@@ -111,7 +118,7 @@
 <li><p>Convert these elements to Anki cards</p>
 </li>
 </ul>
-<p>As you pick out these elements and create cards, they may be able to be <a href="https://jacobzelko.com/#definitions">formulated into definition cards</a>. Or, they may be needed to become their own special sort of card or fact – anything that can help in the learning process.</p>
+<p>As you pick out these elements and create cards, they may be able to be formulated into definition cards. Or, they may be needed to become their own special sort of card or fact – anything that can help in the learning process.</p>
 <h4 id="building_out_a_conceptual_roadmap_of_a_proof">Building Out a Conceptual Roadmap of a Proof</h4>
 <p>A proof is not a linear list of statements.  Per Nielsen, it is much more valuable to think of it as relationships between simple observations.  Each of these connections between observations are not just made for no reason. Rather, determine how to find multiple ways to think of the same observation or come to the same observation that is useful for a proof. At this stage, we are beginning to learn our way comfortably around a proof and finding multiple ways to get to each step in a proof is imperative in building that comfort.</p>
 <h4 id="consider_the_alternatives_of_a_proof">Consider the Alternatives of a Proof</h4>
@@ -127,22 +134,13 @@
 <p>&#91;4&#93; L. Thorburn, “Using Anki for mathematics,” 08-Mar-2020. &#91;Online&#93;. Available: https://www.lukethorburn.com/anki/. &#91;Accessed: 09-Jan-2023&#93;.</p>
 <p>&#91;5&#93; A. Milchior, “How I use Anki to learn mathematics - LessWrong,” 07-Dec-2016. &#91;Online&#93;. Available: https://www.lesswrong.com/posts/8ZugMc4E5959Xh86i/how-i-use-anki-to-learn-mathematics. &#91;Accessed: 09-Jan-2023&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>  
@@ -173,42 +171,33 @@
 <h1>Bibliography</h1>
 <p>Not available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Principles of Zettelkasten</a></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="selecting_notes_for_a_zettelkasten">Selecting Notes for a Zettelkasten</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria.md">Criteria for Creating a Note in the Zettelkasten</a></p>
+<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria">Criteria for Creating a Note in the Zettelkasten</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** Simple criteria for when and how to add notes to the Zettelkasten.
 - **Rationale:** Enumerates a robust system for how to add notes to the Zettelkasten</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03172020033742-antifragility">Antifragility</a></p>
+<li><p><a href="03172020033742-antifragility">Antifragility</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview on Nassim Taleb&#39;s thoughts on Antifragility
 - **Rationale:** Zettelkastens should be antifragile -- i.e. they thrive off of disorder and chaos and adapt to it meaningfully.</code></pre>
-<h3 id="a_href03092020031618-zettelkasten-principlesmdprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></h3>
+<h3 id="a_hrefhttpsjacobzelkocom03092020031618-zettelkasten-principlesprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Principles of Zettelkasten</a></h3>
 <pre><code class="language-julia">- **Summary:** General principles on how to create and use a Zettelkasten</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Zettelkasten</em>. <a href="https://jacobzelko.com/03092020031549-zettelkasten">https://jacobzelko.com/03092020031549-zettelkasten</a>. December 2 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -241,27 +230,18 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p><strong>Flow</strong>: The state of mind where one stops being mentally interrupted and becomes completely absorbed in the task at hand; the enjoyable state between boredom and frustration.</p>
-<p><a href="https://jacobzelko.com/07082020163004-ultralearning.md">Idea attributed to psychologist Mihály Csíkszentmihályi</a></p>
+<p><a href="https://jacobzelko.com/07082020163004-ultralearning">Idea attributed to psychologist Mihály Csíkszentmihályi</a></p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Flow</em>. <a href="https://jacobzelko.com/12302020172825-flow">https://jacobzelko.com/12302020172825-flow</a>. December 30 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>  
@@ -333,22 +313,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; S. Kierkegaard, Kierkegaard’s writings, VI, volume 6: Fear and trembling/repetition. Princeton University Press, 2013.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
@@ -416,22 +387,13 @@
 <p>&#91;3&#93; M. A. McDaniel, P. K. Agarwal, B. J. Huelser, K. B. McDermott, and H. L. Roediger III, “Test-enhanced learning in a middle school science classroom: The effects of quiz frequency and placement.” J. Educ. Psychol., vol. 103, no. 2, p. 399, 2011.</p>
 <p>&#91;4&#93; H. L. Roediger III, P. K. Agarwal, M. A. McDaniel, and K. B. McDermott, “Test-enhanced learning in the classroom: Long-term improvements from quizzing.” J. Exp. Psychol. Appl., vol. 17, no. 4, p. 382, 2011.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
@@ -494,22 +456,13 @@
 <p>Zelko, Jacob. <em>Ultralearning</em>. <a href="https://jacobzelko.com/07082020163004-ultralearning">https://jacobzelko.com/07082020163004-ultralearning</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
@@ -550,22 +503,13 @@
 <p>Zelko, Jacob. <em>Making Things Hard On Yourself, But In A Good Way: Creating Desirable Difficulties To Enhance Learning</em>. <a href="https://jacobzelko.com/05282020164557-desirable-difficulties">https://jacobzelko.com/05282020164557-desirable-difficulties</a>. May 28 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>  
@@ -629,22 +573,13 @@
 <p>&#91;3&#93; J. B. Shea and R. L. Morgan, “Contextual interference effects on the acquisition, retention, and transfer of a motor skill.” J. Exp. Psychol. &#91;Hum. Learn.&#93;, vol. 5, no. 2, p. 179, 1979.</p>
 <p>&#91;4&#93; R. Kerr and B. Booth, “Specific and varied practice of motor skill,” Percept. Mot. Skills, vol. 46, no. 2, pp. 395–401, 1978.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
@@ -676,8 +611,8 @@
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Software Implementations</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>There are multiple algorithms available used for effectively implementing the <a href="https://jacobzelko.com/05282020163507-spacing-effect.md">spacing effect</a>. The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus.md">has been replicated</a> and scrutinized examined multiple times. &#91;1&#93;–&#91;3&#93; Spaced repetition systems are based around proper implementations of such algorithms.</p>
-<p>Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the <a href="https://jacobzelko.com/05102020220941-leitner-system.md">Leitner System which used paper note cards</a> to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.</p>
+<p>There are multiple algorithms available used for effectively implementing the <a href="https://jacobzelko.com/05282020163507-spacing-effect">spacing effect</a>. The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus">has been replicated</a> and scrutinized examined multiple times. &#91;1&#93;–&#91;3&#93; Spaced repetition systems are based around proper implementations of such algorithms.</p>
+<p>Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the <a href="https://jacobzelko.com/05102020220941-leitner-system">Leitner System which used paper note cards</a> to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.</p>
 <p>With computers, there have been several pieces of software made to automate and keep track of repetitions <em>for a learner</em>. A majority of these systems directly adapted the Leitner System from the analog to the digital world. Each software generally has proprietary algorithms that supposedly maximize the spacing effect but are directly inspired by the original work done by Ebbinghaus.</p>
 <p>Whether analog or digital, key features of these systems are as follows:</p>
 <ol>
@@ -698,22 +633,13 @@
 <p>&#91;2&#93; H. Ebbinghaus, “Ueber das gedächtnis,” 1885.</p>
 <p>&#91;3&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
@@ -763,22 +689,13 @@
 <p>Zelko, Jacob. <em>Leitner System</em>. <a href="https://jacobzelko.com/05102020220941-leitner-system">https://jacobzelko.com/05102020220941-leitner-system</a>. May 10 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>  

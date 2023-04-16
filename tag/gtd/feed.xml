@@ -62,22 +62,13 @@
 <p>Zelko, Jacob. <em>GTD Implementation</em>. <a href="https://jacobzelko.com/03192020050207-gtd-implementation">https://jacobzelko.com/03192020050207-gtd-implementation</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
@@ -110,17 +101,17 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition">GTD Definition</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A concise definition of what the GTD framework is.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">GTD Implementation</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation">GTD Implementation</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A guide on how GTD is implemented.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review.md">GTD Weekly Reviews</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review">GTD Weekly Reviews</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
@@ -128,22 +119,13 @@
 <p>Zelko, Jacob. <em>Get Things Done</em>. <a href="https://jacobzelko.com/03192020045854-get-things-done">https://jacobzelko.com/03192020045854-get-things-done</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
@@ -175,7 +157,7 @@
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Layout</li><li>Preview</li><li>Review</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>The weekly plan is very similar to the <a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">monthly plan</a> but is on a much smaller scale. If anything, it is much more similar to a weekly planner with an added twist of being an exercise in reflection and journaling. The weekly plan comprises of two main parts being:</p>
+<p>The weekly plan is very similar to the <a href="https://jacobzelko.com/03192020013347-bullet-journal-month">monthly plan</a> but is on a much smaller scale. If anything, it is much more similar to a weekly planner with an added twist of being an exercise in reflection and journaling. The weekly plan comprises of two main parts being:</p>
 <ol>
 <li><p>Preview - where you plan for the week ahead</p>
 </li>
@@ -192,7 +174,7 @@
 <li><p>Review of the previous week in a short form journal</p>
 </li>
 </ol>
-<p>Also, one could also include something like a <a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">habit tracking system</a> for each week as well.</p>
+<p>Also, one could also include something like a <a href="https://jacobzelko.com/03192020013347-bullet-journal-month">habit tracking system</a> for each week as well.</p>
 <h3 id="preview">Preview</h3>
 <p>Here is encompassed the first two points being:</p>
 <ol>
@@ -201,9 +183,9 @@
 <li><p>Major events of the week marked on corresponding day</p>
 </li>
 </ol>
-<p>This is where you schedule each day of the week based on your schedule. One can use the <a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">&quot;Next Actions&quot; and &quot;Waiting For&quot;</a> list from the <a href="https://jacobzelko.com/03192020045854-get-things-done.md">GTD framework</a> to plan out your to-do&#39;s in a much more structured and useful way.</p>
+<p>This is where you schedule each day of the week based on your schedule. One can use the <a href="https://jacobzelko.com/03192020050207-gtd-implementation">&quot;Next Actions&quot; and &quot;Waiting For&quot;</a> list from the <a href="https://jacobzelko.com/03192020045854-get-things-done">GTD framework</a> to plan out your to-do&#39;s in a much more structured and useful way.</p>
 <h3 id="review">Review</h3>
-<p>Here is where the last point of the layout comes in - a reflection in the form of a <a href="https://jacobzelko.com/03192020035441-bullet-journal-daily.md##Short-Form-Journaling-Symbols">short form journal</a>. This is meant to be a brief professional reflection on the week and to reflect on the:</p>
+<p>Here is where the last point of the layout comes in - a reflection in the form of a <a href="https://jacobzelko.com/03192020035441-bullet-journal-daily##Short-Form-Journaling-Symbols">short form journal</a>. This is meant to be a brief professional reflection on the week and to reflect on the:</p>
 <ul>
 <li><p>Wins for the week</p>
 </li>
@@ -216,22 +198,13 @@
 <p>Zelko, Jacob. <em>Weekly Planning in a Bullet Journal</em>. <a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly">https://jacobzelko.com/03192020035337-bullet-journal-weekly</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  

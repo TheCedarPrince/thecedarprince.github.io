@@ -53,16 +53,16 @@
 </li>
 <li><p>Transfer annotations from each piece to an index card representation &#40;actual or digital&#41;.</p>
 </li>
-<li><p>Pause reading and review collected annotations using a <a href="https://jacobzelko.com/05252020183020-spaced-repetition-systems.md">spaced repetition system</a>.</p>
+<li><p>Pause reading and review collected annotations using a <a href="https://jacobzelko.com/05252020183020-spaced-repetition-systems">spaced repetition system</a>.</p>
 </li>
 <li><p>Once annotations have been thoroughly revised and reviewed, repeat from step 2 until finished with pieces over the next several days.</p>
 </li>
 </ol>
 <p>Incremental reading helps with improving focus and promotes learning while moving uniformly to finish reading. <sup id="fnref:2">[2]</sup> &#91;2&#93;, &#91;3&#93; Ingesting raw annotations into a spaced repetition system enables one to process them without being overwhelmed. On each repetition of a particular annotation, rewriting or modifying that information is crucial in cementing understanding. <sup id="fnref:3">[3]</sup> After finishing revisions and reviews, this process is repeated until done with reading the pieces.</p>
 <h3 id="footnotes"><strong>Footnotes:</strong></h3>
-<p><sup id="fnref:1">[1]</sup> Ariga and Lleras demonstrated that attention on a particular task can be extended via brief and uncommon respites of a controlled nature. <a href="&#91;Click for more details&#93;&#40;/06052020031214-brief-breaks.md&#41;">4</a></p>
-<p><sup id="fnref:2">[2]</sup> It is suggested that interleaving material forces one to differentiate between different topics. When pressured under practice, this can heighten one&#39;s perception about differentiators. It leads to better embedding of concept abstractions that foster retention and transfer. &#91;2&#93;, <a href="&#91;Click for more details&#93;&#40;/05252020211350-hard-on-self.md&#41;">3</a></p>
-<p><sup id="fnref:3">[3]</sup> Generating an explanation about a topic rather than just being given a solution can be more effective than the spacing effect. This is called the generation effect. <a href="&#91;Click for more details&#93;&#40;/05252020211350-hard-on-self.md&#41;">2</a></p>
+<p><sup id="fnref:1">[1]</sup> Ariga and Lleras demonstrated that attention on a particular task can be extended via brief and uncommon respites of a controlled nature. <a href="&#91;Click for more details&#93;&#40;https://jacobzelko.com/06052020031214-brief-breaks&#41;">4</a></p>
+<p><sup id="fnref:2">[2]</sup> It is suggested that interleaving material forces one to differentiate between different topics. When pressured under practice, this can heighten one&#39;s perception about differentiators. It leads to better embedding of concept abstractions that foster retention and transfer. &#91;2&#93;, <a href="&#91;Click for more details&#93;&#40;https://jacobzelko.com/05252020211350-hard-on-self&#41;">3</a></p>
+<p><sup id="fnref:3">[3]</sup> Generating an explanation about a topic rather than just being given a solution can be more effective than the spacing effect. This is called the generation effect. <a href="&#91;Click for more details&#93;&#40;https://jacobzelko.com/05252020211350-hard-on-self&#41;">2</a></p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Incremental Reading</em>. <a href="https://jacobzelko.com/05092020053727-incremental-reading">https://jacobzelko.com/05092020053727-incremental-reading</a>. May 9 2020.</p>
 <h2 id="references">References</h2>
@@ -71,22 +71,13 @@
 <p>&#91;3&#93; J. B. Shea and R. L. Morgan, “Contextual interference effects on the acquisition, retention, and transfer of a motor skill.” J. Exp. Psychol. &#91;Hum. Learn.&#93;, vol. 5, no. 2, p. 179, 1979.</p>
 <p>&#91;4&#93; A. Ariga and A. Lleras, “Brief and rare mental ‘breaks’ keep you focused: Deactivation and reactivation of task goals preempt vigilance decrements,” Cognition, vol. 118, no. 3, pp. 439–443, Mar. 2011, doi: 10.1016/j.cognition.2010.12.007.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>  

@@ -42,7 +42,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li><li>Basics on the Preimage of a Subset<ol><li>Example</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
-<p>As I have learned and understood what <a href="https://jacobzelko.com//10152022173643-image-of-sets.md">images</a> are, I am now on my quest to learn what preimages so that I can understand the concept of bundles&#33;</p>
+<p>As I have learned and understood what <a href="https://jacobzelko.com//10152022173643-image-of-sets">images</a> are, I am now on my quest to learn what preimages so that I can understand the concept of bundles&#33;</p>
 <h3 id="basics_on_the_preimage_of_a_subset">Basics on the Preimage of a Subset</h3>
 <p>Given some function \(f : A \rightarrow B\) and the subsets \(C \subseteq A\) and \(D \subseteq B\), then the preimage &#40;or inverse image of a set&#41; is:</p>
 \[
@@ -100,22 +100,13 @@ x^{2} = 25; x = \pm 5
 <p>Zelko, Jacob. <em>The Preimage of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10282022132046-preimage-of-sets">https://jacobzelko.com/10282022132046-preimage-of-sets</a>. October 28 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>  

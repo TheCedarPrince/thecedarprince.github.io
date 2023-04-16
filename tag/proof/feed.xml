@@ -44,7 +44,7 @@
 <h3 id="motivation">Motivation</h3>
 <p>As I am personally moving into applied mathematics for my future graduate studies, I realized I had a deficiency. And that deficiency?  How to prove things&#33; &quot;Proof&quot; was always a somewhat scary thing that I encountered in mathematics every once in a while – but at the same time exciting. So, this post aims to allay these fears once and for all&#33;</p>
 <h3 id="project_goals">Project Goals</h3>
-<p>This process is adapted from the <a href="https://jacobzelko.com//07082020163004-ultralearning.md">Ultralearning framework posited by Scott Young</a>.</p>
+<p>This process is adapted from the <a href="https://jacobzelko.com//07082020163004-ultralearning">Ultralearning framework posited by Scott Young</a>.</p>
 <h4 id="what_am_i_doing">What Am I Doing?</h4>
 <p>Gain an undergraduate level of understanding of proofs and proof creation on par with maths and computer science students.</p>
 <h5 id="concepts">Concepts</h5>
@@ -169,22 +169,13 @@
 <p>Zelko, Jacob. <em>Learning What Every Undergraduate Mathematician Should Know about Proofs</em>. <a href="https://jacobzelko.com/04012023221538-learning-proofs-beginners">https://jacobzelko.com/04012023221538-learning-proofs-beginners</a>. April 1 2023.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>  
@@ -241,22 +232,13 @@
 <p>Zelko, Jacob. <em>Arithmetic Sums &amp; Series</em>. <a href="https://jacobzelko.com/01052021044121-arithmetic-series">https://jacobzelko.com/01052021044121-arithmetic-series</a>. January 4 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>  

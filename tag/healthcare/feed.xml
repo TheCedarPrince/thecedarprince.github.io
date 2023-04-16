@@ -43,7 +43,7 @@
 <div class="franklin-toc"><ol><li><ol><li>Overview</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="overview">Overview</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained.md">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
+<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** What SpO2 is and their pros and cons as a biomarker</code></pre>
@@ -51,22 +51,13 @@
 <p>Zelko, Jacob. <em>Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</em>. <a href="https://jacobzelko.com/01112022215755-oxygen-saturation">https://jacobzelko.com/01112022215755-oxygen-saturation</a>. January 11 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
@@ -112,7 +103,7 @@
 <h3 id="limitations_of_ehrs">Limitations of EHRs</h3>
 <p>EHRs are not optimized for secondary uses. They have multiple limitations for research &#91;1&#93;, &#91;2&#93; EHR data is recorded during healthcare visitations. As a result, bias can favor those sicker in datasets. This results in what is known as informative censoring &#91;1&#93;, &#91;3&#93;, &#91;4&#93; It is important to distinguish between &quot;not present&quot; in datasets versus &quot;did not assess&quot;.</p>
 <p>Errors propagate EHRs and ancillary sources. Data is entered by providers during visitation or memory. &#91;1&#93;</p>
-<p>Healthcare standards change over time. Collection standards vary by location. Much data is unstructured and narrative in nature. <a href="https://jacobzelko.com/01112021180936-we-may-think.md">Vannevar Bush article &quot;As We May Think&quot;</a> also has relation to this very same issue. Regarding how clinicians&#39; recall or anyone&#39;s recall of an incident from more than a few days ago may be impossible. There are analogies between the two disparate lines of thought: one clinical, the other academic: both overwhelming.</p>
+<p>Healthcare standards change over time. Collection standards vary by location. Much data is unstructured and narrative in nature. <a href="https://jacobzelko.com/01112021180936-we-may-think">Vannevar Bush article &quot;As We May Think&quot;</a> also has relation to this very same issue. Regarding how clinicians&#39; recall or anyone&#39;s recall of an incident from more than a few days ago may be impossible. There are analogies between the two disparate lines of thought: one clinical, the other academic: both overwhelming.</p>
 <p>Only a few data fields are common across different EHRs. Most phenotype definitions use combinations of:</p>
 <ul>
 <li><p>ICD-9 codes</p>
@@ -132,22 +123,13 @@
 <p>&#91;4&#93; N. R. Council et al., The prevention and treatment of missing data in clinical trials. National Academies Press, 2010.</p>
 <p>&#91;5&#93; J. F. Ludvigsson et al., “Use of computerized algorithm to identify individuals in need of testing for celiac disease,” J. Am. Med. Inform. Assoc., vol. 20, no. e2, pp. e306–e310, 2013.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
@@ -188,29 +170,20 @@
 <li><p>Feet</p>
 </li>
 </ul>
-<p>These electrodes complete a circuit across the skin – the skin acts as a variable resistor – and then <a href="https://jacobzelko.com/03242020003215-eda-explained.md">measure changes in skin conductance</a> &#40;see note for more information on what variables EDA monitors&#41;. After the EDA signal is collected from the electrodes, the signal is typically &#40;by convention&#41; decomposed into skin conductance level <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">SCL</a> and skin conductance responses <a href="https://jacobzelko.com/04092020162632-skin-response.md">SCR</a> &#40;click links to see definitions of both&#41;.</p>
+<p>These electrodes complete a circuit across the skin – the skin acts as a variable resistor – and then <a href="https://jacobzelko.com/03242020003215-eda-explained">measure changes in skin conductance</a> &#40;see note for more information on what variables EDA monitors&#41;. After the EDA signal is collected from the electrodes, the signal is typically &#40;by convention&#41; decomposed into skin conductance level <a href="https://jacobzelko.com/04092020161622-skin-conductance">SCL</a> and skin conductance responses <a href="https://jacobzelko.com/04092020162632-skin-response">SCR</a> &#40;click links to see definitions of both&#41;.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>EDA as a Biomarker</em>. <a href="https://jacobzelko.com/04092020153616-eda-biomarker">https://jacobzelko.com/04092020153616-eda-biomarker</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;2&#93; M. van Dooren, J. H. Janssen, et al., “Emotional sweating across the body: Comparing 16 different skin conductance measurement locations,” Physiol. Behav., vol. 106, no. 2, pp. 298–304, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
@@ -243,30 +216,30 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained.md">What Is Electrodermal Activity?</a></p>
+<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained">What Is Electrodermal Activity?</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** What electrodermal activity is and its pros and cons as a biomarker</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts.md">Common Causes of Artifact in EDA Signals</a></p>
+<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts">Common Causes of Artifact in EDA Signals</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview of common artifacts in EDA signals</code></pre>
 <h3 id="handling_signal">Handling Signal</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data.md">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
+<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data
 - **Rationale:** FANTASTIC implementation on how to parse through EDA artifact -- very useful with a straight-forward algorithm to use</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal.md">Artifact Removal Methods</a></p>
+<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal">Artifact Removal Methods</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview on commonly used signal processing methods to remove artifacts from signals.
 - **Rationale:** Moving average filters seem to hold the most promise in processing EDA.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020083421-call-center.md">Call Center Stress Recognition with Person-Specific Models</a></p>
+<li><p><a href="https://jacobzelko.com/03272020083421-call-center">Call Center Stress Recognition with Person-Specific Models</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.
@@ -275,22 +248,13 @@
 <p>Zelko, Jacob. <em>Electrodermal Activity</em>. <a href="https://jacobzelko.com/03232020235136-electrodermal-activity">https://jacobzelko.com/03232020235136-electrodermal-activity</a>. March 23 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  
@@ -321,14 +285,14 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="what_is_sars-cov-2">What is SARS-CoV-2?</h3>
-<p>The SARS-CoV-2 virus is a <a href="https://jacobzelko.com/03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
+<p>The SARS-CoV-2 virus is a <a href="03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
 <p>Early on, many of the patients at the epicenter of the outbreak in Wuhan, Hubei Province, China had some link to a large seafood and live animal market, suggesting animal-to-person spread. Later, a growing number of patients reportedly did not have exposure to animal markets, indicating person-to-person spread. Person-to-person spread was subsequently reported outside Hubei and in countries outside China, including in the United States. &#91;1&#93;</p>
 <p>Currently, the World Health Organization has not classified this situation as a pandemic though this stance is highly contentious. &#91;2&#93;</p>
 <p>UPDATE &#40;MARCH 11th&#41;:_ As of now, this situation is now classified a pandemic by the World Health Organization. &#91;3&#93;</p>
 <p>Here is an image showing its transmission across the world:</p>
-<p><img src="https://jacobzelko.com/03102020050115-covid19-jhu-arcgis.jpg" alt="arcgis-sars" /></p>
+<p><img src="03102020050115-covid19-jhu-arcgis.jpg" alt="arcgis-sars" /></p>
 <h4 id="symptoms">Symptoms</h4>
 <p>The following symptoms may appear 2-14 days after exposure &#40;this is based on what has been seen previously as the incubation period of MERS-CoV viruses &#91;Middle East Respiratory Syndrome Coronavirus&#93;&#41; &#91;4&#93;:</p>
 <ul>
@@ -339,9 +303,9 @@
 <li><p>Shortness of breath</p>
 </li>
 </ul>
-<h4 id="a_href03102020052237-covid19-dyingrisk_of_dying"><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></h4>
+<h4 id="a_href03102020052237-covid19-dyingrisk_of_dying"><a href="03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></h4>
 <p>1 - 2&#37; is the current estimate though it could get higher. &#91;5&#93;</p>
-<h4 id="a_href03102020053006-cdc-respiratory-preventionsprevention_methods"><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></h4>
+<h4 id="a_href03102020053006-cdc-respiratory-preventionsprevention_methods"><a href="03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></h4>
 <ul>
 <li><p>Avoid close contact with people who are sick.</p>
 </li>
@@ -369,22 +333,13 @@
 <p>&#91;5&#93; M. Lipsitch, “Opinion | Why it’s so hard to pin down the risk of dying from coronavirus.” &#91;Online&#93;. Available: https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <p>&#91;6&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Prevention &amp; Treatment,” 15-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -449,22 +404,13 @@
 <p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
 <p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -501,22 +447,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” &#91;Online&#93;. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -550,35 +487,26 @@
 <div class="franklin-toc"><ol><li><ol><li>Thoughts about Health</li><li>Diseases</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="thoughts_about_health">Thoughts about Health</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03092020022148-health-spectrum">Health as a Spectrum</a></p>
+<li><p><a href="03092020022148-health-spectrum">Health as a Spectrum</a></p>
 </li>
 </ul>
 <hr />
 <h3 id="diseases">Diseases</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03102020051547-sars-cov-2">SARS-CoV-2</a></p>
+<li><p><a href="03102020051547-sars-cov-2">SARS-CoV-2</a></p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>The Health Index, Jacob 😷</em>. <a href="https://jacobzelko.com/03092020025554-health-index">https://jacobzelko.com/03092020025554-health-index</a>. March 9 2020.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>  

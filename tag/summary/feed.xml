@@ -40,42 +40,33 @@
 <h1>Bibliography</h1>
 <p>Not available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Selecting Notes for a Zettelkasten</li><li><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Principles of Zettelkasten</a></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="selecting_notes_for_a_zettelkasten">Selecting Notes for a Zettelkasten</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria.md">Criteria for Creating a Note in the Zettelkasten</a></p>
+<li><p><a href="https://jacobzelko.com/03302020005409-note-criteria">Criteria for Creating a Note in the Zettelkasten</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** Simple criteria for when and how to add notes to the Zettelkasten.
 - **Rationale:** Enumerates a robust system for how to add notes to the Zettelkasten</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03172020033742-antifragility">Antifragility</a></p>
+<li><p><a href="03172020033742-antifragility">Antifragility</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview on Nassim Taleb&#39;s thoughts on Antifragility
 - **Rationale:** Zettelkastens should be antifragile -- i.e. they thrive off of disorder and chaos and adapt to it meaningfully.</code></pre>
-<h3 id="a_href03092020031618-zettelkasten-principlesmdprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">Principles of Zettelkasten</a></h3>
+<h3 id="a_hrefhttpsjacobzelkocom03092020031618-zettelkasten-principlesprinciples_of_zettelkasten"><a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">Principles of Zettelkasten</a></h3>
 <pre><code class="language-julia">- **Summary:** General principles on how to create and use a Zettelkasten</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Zettelkasten</em>. <a href="https://jacobzelko.com/03092020031549-zettelkasten">https://jacobzelko.com/03092020031549-zettelkasten</a>. December 2 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -107,29 +98,20 @@
 <p>Not available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
-<p>The idea of the &quot;Aware Home&quot; was created by Kidd et. al. &#91;1&#93; in 1999. As they wrote in their paper, <a href="https://jacobzelko.com/03092020035135-kidd-aware-home"><em>The Aware Home: A Living Laboratory for Ubiquitous Computing Research</em></a>,</p>
+<p>The idea of the &quot;Aware Home&quot; was created by Kidd et. al. &#91;1&#93; in 1999. As they wrote in their paper, <a href="03092020035135-kidd-aware-home"><em>The Aware Home: A Living Laboratory for Ubiquitous Computing Research</em></a>,</p>
 <p>One of the first examples of an &quot;Aware Home&quot; is the <em>Georgia Tech Aware Home</em></p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Aware Homes</em>. <a href="https://jacobzelko.com/03092020033420-aware-homes">https://jacobzelko.com/03092020033420-aware-homes</a>. December 2 2022.</p>
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -171,29 +153,20 @@
 <p>Embedded into this notion are several concepts such as social context and complexity &#40;Collins and Bilge 2020&#41;</p>
 <h3 id="why_are_intersectional_approaches_needed">Why Are Intersectional Approaches Needed?</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/11042022134535-structural-intersectionality.md">Structural Intersectionality as a New Direction for Health Disparities Research</a> - An introduction to intersectionality theory and medical sociological ideas at play within health disparities research</p>
+<li><p><a href="https://jacobzelko.com/11042022134535-structural-intersectionality">Structural Intersectionality as a New Direction for Health Disparities Research</a> - An introduction to intersectionality theory and medical sociological ideas at play within health disparities research</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>What Is Intersectionality and Intersectionality Theory?</em>. <a href="https://jacobzelko.com/11042022141714-what-intersectionality-theory">https://jacobzelko.com/11042022141714-what-intersectionality-theory</a>. November 4 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>  
@@ -256,22 +229,13 @@ X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
 <p>Zelko, Jacob. <em>Fiber Products &#40;Pullbacks&#41;</em>. <a href="https://jacobzelko.com/10312022005339-fiber-product-pullback">https://jacobzelko.com/10312022005339-fiber-product-pullback</a>. October 30 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>  
@@ -368,22 +332,13 @@ im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
 <p>Zelko, Jacob. <em>Images of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10152022173643-image-of-sets">https://jacobzelko.com/10152022173643-image-of-sets</a>. October 15 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>  
@@ -437,22 +392,13 @@ F = \{A, B, C\} = \{\{1, 2, 3\}, \{4, 5, 6\}, \{2, 4, 6\}\}
 <p>Zelko, Jacob. <em>Family of Sets</em>. <a href="https://jacobzelko.com/09302022033236-family-sets">https://jacobzelko.com/09302022033236-family-sets</a>. September 29 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>  
@@ -543,22 +489,13 @@ X &#61; &#91;1, 2, 3, 4&#93;
 <p>Zelko, Jacob. <em>What Is a Topological Space?</em>. <a href="https://jacobzelko.com/09172022051900-what-topology">https://jacobzelko.com/09172022051900-what-topology</a>. September 17 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>  
@@ -598,7 +535,7 @@ X &#61; &#91;1, 2, 3, 4&#93;
 \[
 X \coprod Y := \{a, b, c, d, 1, 2, 3\}
 \]
-<p>This also is referred to as the &quot;disjoint union of sets&quot;. Although, it is important to note that an important aspect of this notation above is missing from the coproduct which will be explained in the section on a <a href="https://jacobzelko.com/#coproduct-of-a-set-and-itself">coproduct of a set and itself</a>.</p>
+<p>This also is referred to as the &quot;disjoint union of sets&quot;. Although, it is important to note that an important aspect of this notation above is missing from the coproduct which will be explained in the section on a coproduct of a set and itself.</p>
 <h3 id="coproduct_of_a_set_and_itself">Coproduct of a Set and Itself</h3>
 <p>If given set \(X = \{a, b, c, d\}\), the coproduct of \(X\) and itself would look like this:</p>
 \[
@@ -606,7 +543,7 @@ X \coprod X \cong \{i_{1}a, i_{1}b, i_{1}c, i_{1}d, i_{2}a, i_{2}b, i_{2}c, i_{2
 \]
 <p>In this case, \(i_{1}\) and \(i_{2}\) are unique inclusion functions that map each set in a coproduct to its disjoint union. The inclusion functions in my opinion, act as a sort of metadata that helps one know where elements of a disjoint union comes from.</p>
 <blockquote>
-<p>NOTE: The author, David Spivak, in <em>Category Theory for the Sciences</em> presented the above notation for a coproduct of \(X\) and itself.  Personally, I found this notation very confusing and feel the formal set theory definition explained in the <a href="https://jacobzelko.com/#set-theory-definition">section on the set theory definition of a coproduct</a> to be more useful here.  If we revisited the operation \(X \coprod X\), I am more inclined to write the problem and solution as follows:</p>
+<p>NOTE: The author, David Spivak, in <em>Category Theory for the Sciences</em> presented the above notation for a coproduct of \(X\) and itself.  Personally, I found this notation very confusing and feel the formal set theory definition explained in the section on the set theory definition of a coproduct to be more useful here.  If we revisited the operation \(X \coprod X\), I am more inclined to write the problem and solution as follows:</p>
 <p>Let \(X = X_{1} = X_{2}\), the value of \(X_{1} \coprod X_{2}\) is: \(X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 3), (d, 4)\}\)</p>
 </blockquote>
 <h3 id="set_theory_definition">Set Theory Definition</h3>
@@ -614,7 +551,7 @@ X \coprod X \cong \{i_{1}a, i_{1}b, i_{1}c, i_{1}d, i_{2}a, i_{2}b, i_{2}c, i_{2
 \[
 \bigsqcup_{i \in I} A_{i} = \bigcup_{i \in I} \{(x, i): x \in A_{i}\}
 \]
-<p>What this says loosely is that given a <a href="https://jacobzelko.com/09302022033236-family-sets.md">family of sets</a> \(A\) indexed by the <a href="https://jacobzelko.com/09302022040126-indexed-sets.md">index set \(I\)</a>, a coproduct is a set that enumerates every element in \(A_{i}\) with its associated set. Referencing the <a href="https://jacobzelko.com/#coproduct-of-a-set-and-itself">example on a coproduct of a set and itself</a>:</p>
+<p>What this says loosely is that given a <a href="https://jacobzelko.com/09302022033236-family-sets">family of sets</a> \(A\) indexed by the <a href="https://jacobzelko.com/09302022040126-indexed-sets">index set \(I\)</a>, a coproduct is a set that enumerates every element in \(A_{i}\) with its associated set. Referencing the example on a coproduct of a set and itself:</p>
 <p>Given: \(X = \{a, b, c, d\}\)</p>
 <p>Let \(X = X_{1} = X_{2}\), the value of \(X_{1} \coprod X_{2}\) is: </p>
 \[
@@ -627,27 +564,18 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 \coprod_{i \in I} X_{i}
 \]
 <p>and \(\bigsqcup_{i \in I} X_{i}\)</p>
-<p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets.md">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
+<p>Both refer to a disjoint union and both can be read as &quot;the disjoint union of the family of sets \(X_{i}\) indexed by the index set, \(I\).&quot; Here, when we say <a href="https://jacobzelko.com//09302022033236-family-sets">&quot;family of sets&quot;, they can either be a &quot;set of subsets over a set \(X\)&quot; or a &quot;set of sets \(X\) where each set could be independent of one another.&quot;</a></p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Coproducts &#40;Disjoint Unions&#41;</em>. <a href="https://jacobzelko.com/09162022162129-coproducts-disjoints">https://jacobzelko.com/09162022162129-coproducts-disjoints</a>. September 16 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>  
@@ -682,27 +610,18 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 <p>SVI data can be retrieved from: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html</p>
 <p>For at least the 2000 version of SVI, the metric is derived from summed percentile rankings at census tract level of fifteen U.S. Census variables shown in the following table: </p>
 <table><tr><th align="left">SVI Theme</th><th align="left">Variables Included</th></tr><tr><td align="left">1. Socioeconomic Status</td><td align="left">&#37; Below Poverty Level</td></tr><tr><td align="left"></td><td align="left">&#37; Unemployed</td></tr><tr><td align="left"></td><td align="left">Per Capita Income</td></tr><tr><td align="left"></td><td align="left">&#37; Age 25 or Older with No High School</td></tr><tr><td align="left">2. Household Composition &amp;</td><td align="left">Diploma</td></tr><tr><td align="left">Disability</td><td align="left">&#37; Age 65 or Older</td></tr><tr><td align="left"></td><td align="left">&#37; Age 17 or Younger</td></tr><tr><td align="left">3. Minority Status &amp; Language</td><td align="left">&#37; Single Parent Household</td></tr><tr><td align="left"></td><td align="left">&#37; Age 5 or Older Speak English &quot;Less than</td></tr><tr><td align="left">4. Housing &amp; Transportation</td><td align="left">Well&quot;</td></tr><tr><td align="left"></td><td align="left">&#37; Multi-Unit Structures</td></tr><tr><td align="left"></td><td align="left">&#37; Mobile Homes</td></tr><tr><td align="left"></td><td align="left">&#37; Crowding &#40;More people than rooms&#41;</td></tr><tr><td align="left"></td><td align="left">&#37; Households without a Vehicle</td></tr><tr><td align="left"></td><td align="left">&#37; In Institutionalized Group Quarters</td></tr></table>
-<p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes.md">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
+<p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Social Vulnerability Index</em>. <a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">https://jacobzelko.com/09082022144933-social-vulnerability-index</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -735,7 +654,7 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>General Guide</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="general_guide">General Guide</h3>
-<p>This is from Fredrik Ekre at the <a href="https://jacobzelko.com/https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
+<p>This is from Fredrik Ekre at the <a href="https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
 <p>LanguageServer is somewhat slow to start so it is very useful to use a custom sysimage using PackageCompiler to reduce this time. On my machine I get the first response after 20&#43; seconds, but with a custom sysimage I can execute LS commands instantaneously.</p>
 <p>Here is my setup:</p>
 <ol>
@@ -762,7 +681,7 @@ X_{1} \coprod X_{2} \cong \{(a, 1), (b, 1), (c, 1), (d, 1), (a, 2), (b, 2), (c, 
 <pre><code class="language-sh">julia --project&#61;~/.julia/environments/nvim-lspconfig -e &#39;using Pkg; Pkg.add&#40;&quot;LanguageServer&quot;&#41;&#39;</code></pre>
 <p>And then navigate to the directory at <code>~.julia/environment/nvim-lspconfig</code>.</p>
 <ol start="3">
-<li><p>Copy the following makefile &#40;<a href="https://jacobzelko.com/https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
+<li><p>Copy the following makefile &#40;<a href="https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
 </li>
 </ol>
 <pre><code class="language-make"># MIT License. Copyright &#40;c&#41; 2021 Fredrik Ekre
@@ -902,22 +821,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Setting Up Julia LSP for Neovim</em>. <a href="https://jacobzelko.com/08312022162228-julia-lsp-setup">https://jacobzelko.com/08312022162228-julia-lsp-setup</a>. August 31 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>  
@@ -950,7 +860,7 @@ endef</code></pre>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>What Is Terrorism?</li><li>Goals of Terrorism</li><li>What Is Violent Radicalization</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="what_is_terrorism">What Is Terrorism?</h3>
-<p>Terrorism is defined as the use of violence and intimidation in the pursuit of political aims. Terrorism is not an individual experience; it is violence at a population level and worthy of attention in fields focusing on socioecological understanding of social processes and human behavior <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a>. Often the threat of violence – is enough to accomplish an objective &#40;this holds true often for terrorist groups as well&#41;.</p>
+<p>Terrorism is defined as the use of violence and intimidation in the pursuit of political aims. Terrorism is not an individual experience; it is violence at a population level and worthy of attention in fields focusing on socioecological understanding of social processes and human behavior <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a>. Often the threat of violence – is enough to accomplish an objective &#40;this holds true often for terrorist groups as well&#41;.</p>
 <h3 id="goals_of_terrorism">Goals of Terrorism</h3>
 <p>Instill a population level of:</p>
 <ul>
@@ -969,27 +879,18 @@ endef</code></pre>
 </li>
 </ul>
 <h3 id="what_is_violent_radicalization">What Is Violent Radicalization</h3>
-<p>Violent radicalization the process of adopting or promoting an ideologically based violence to advance political, religious, or social change via an extremist belief system <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a>.</p>
+<p>Violent radicalization the process of adopting or promoting an ideologically based violence to advance political, religious, or social change via an extremist belief system <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a>.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Definitions Concerning Terrorism</em>. <a href="https://jacobzelko.com/08282022133230-definitions-around-terrorism">https://jacobzelko.com/08282022133230-definitions-around-terrorism</a>. August 28 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
@@ -1026,22 +927,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Overview of What Is Jihad</em>. <a href="https://jacobzelko.com/08282022142544-jihad-definition">https://jacobzelko.com/08282022142544-jihad-definition</a>. August 28 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
@@ -1073,7 +965,7 @@ endef</code></pre>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
-<p>Varying levels of social capital in a population is an important determinant of health in children, adolescents, adults, and aging populations.28,33 <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
+<p>Varying levels of social capital in a population is an important determinant of health in children, adolescents, adults, and aging populations.28,33 <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
 <p>Low levels of social capital, can be a risk factors for population health such as:</p>
 <ol>
 <li><p>Prevention of crime.33,35</p>
@@ -1092,22 +984,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Features of Social Capital</em>. <a href="https://jacobzelko.com/08282022135955-social-capital">https://jacobzelko.com/08282022135955-social-capital</a>. August 28 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
@@ -1170,22 +1053,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>The Picture of Dorian Gray</em>. <a href="https://jacobzelko.com/04202022021854-picture-dorian-gray">https://jacobzelko.com/04202022021854-picture-dorian-gray</a>. April 19 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1219,7 +1093,7 @@ endef</code></pre>
 <div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>Knowledge is one of the most nebulous ideas known to mankind since nearly the beginning of time. What may be knowledge to one person may be useless noise to another - this encapsulates the difficulty in defining knowledge. As a result of its many possible meanings, I put forth a rather opinionated proposal for what I term the &quot;Open Knowledge Model&quot;.</p>
-<p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://jacobzelko.com/https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
+<p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
 <p>There are many different knowledge management systems available to someone – from a pen and pencil to various software offerings. Each of these offerings are very unique and accordingly offer benefits and cons. This model remains independent of any such offering but instead prescribes a model to structure information in any of the offerings one chooses to pursue.</p>
 <h3 id="model_components">Model Components</h3>
 <p>The model is composed of the following sections:</p>
@@ -1251,13 +1125,13 @@ endef</code></pre>
 <h3 id="implementation_examples">Implementation Examples</h3>
 <p>To give an example of implementations, here are some examples of implementations:</p>
 <ul>
-<li><p><a href="https://jacobzelko.com/08032021134232-notes-template.md">Markdown Implementation</a></p>
+<li><p><a href="https://jacobzelko.com/08032021134232-notes-template">Markdown Implementation</a></p>
 </li>
 </ul>
 <h3 id="tools_for_working_with_model">Tools for Working with Model</h3>
 <p>Here are a list of some tools that have emerged to work with the Open Knowledge Model: </p>
 <ul>
-<li><p><a href="https://jacobzelko.com/https://github.com/TheCedarPrince/NoteMate">NoteMate.jl</a> - a companion for working with a knowledge management system that adheres to the Open Knowledge Model.</p>
+<li><p><a href="https://github.com/TheCedarPrince/NoteMate">NoteMate.jl</a> - a companion for working with a knowledge management system that adheres to the Open Knowledge Model.</p>
 </li>
 </ul>
 <p>Written in Julia and offers parsing from Markdown notes to other target formats.</p>
@@ -1267,22 +1141,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>The Open Knowledge Model</em>. <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard">https://jacobzelko.com/04172022033744-open-knowledge-standard</a>. April 16 2022.</p>
 <h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1320,22 +1185,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>What Is Mansplaining?</em>. <a href="https://jacobzelko.com/04162022021058-mansplaining">https://jacobzelko.com/04162022021058-mansplaining</a>. April 15 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1367,28 +1223,19 @@ endef</code></pre>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
-<p>Mentioned in the note <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking.md">X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</a></p>
+<p>Mentioned in the note <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking">X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</a></p>
 <p>One contentious example is body mass index, or BMI. The formula for BMI uses height and weight, so the relationship between height, weight, and BMI is defined and fixed. However, BMI is then taken as a proxy for body fat, which is then in turn taken as a proxy for healthiness, even though those relationships are not fixed or precisely definable</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Body Mass Index &#40;BMI&#41;</em>. <a href="https://jacobzelko.com/04162022022947-body-mass-index">https://jacobzelko.com/04162022022947-body-mass-index</a>. April 15 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1423,7 +1270,7 @@ endef</code></pre>
 <h3 id="introduction">Introduction</h3>
 <p>Eugenia Cheng takes a nuanced approach to the discussion around gender. As she references, some feminists&#39; battle cry is the phrase, &quot;Smash the patriarchy&#33;&quot;. In Cheng&#39;s idea of feminism, she instead looks for language that is less divisive and more inclusive encompassed in her saying, &quot;Let’s transform our world into a more congressively led future.&quot;</p>
 <h3 id="category_theory_as_tool_for_thinking_on_gender">Category Theory as Tool for Thinking on Gender</h3>
-<p>With this approach, she launches into her core contribution to the discussion on gender which is introducing the mathematics of <a href="https://jacobzelko.com/11082021041951-category-theory-scientists.md">category theory</a> to decouple historical characteristics associated genders from the genders themselves. Cheng argues that this is a better approach to take in gender discussions to think more deeply about traits or characteristics in isolation rather than rooted in gender. You can then critique a characteristic or trait rather than a whole group of people.</p>
+<p>With this approach, she launches into her core contribution to the discussion on gender which is introducing the mathematics of <a href="https://jacobzelko.com/11082021041951-category-theory-scientists">category theory</a> to decouple historical characteristics associated genders from the genders themselves. Cheng argues that this is a better approach to take in gender discussions to think more deeply about traits or characteristics in isolation rather than rooted in gender. You can then critique a characteristic or trait rather than a whole group of people.</p>
 <p>Rather than being a book on mathematics and gender, category theory is used more as a mental model or framework to enact this decoupling. This works well as category theory fundamentally concerns itself about relationships. In her opinion, category theory enables one to think more clearly about about characteristics with a great degree of flexibility.</p>
 <h3 id="congressive_versus_ingressive_thinking">Congressive versus Ingressive Thinking</h3>
 <p>Cheng introduced two crucial words into her argument which can describe concepts, behaviors or people: &quot;congressive&quot; and &quot;ingressive&quot;. This is how she defined these terms summarized below:</p>
@@ -1439,29 +1286,20 @@ endef</code></pre>
 <h3 id="final_thoughts">Final Thoughts</h3>
 <p>Overall, I really enjoyed this book&#33; I feel like her point was made pretty early on and I appreciated some of the examples. However, as I am acquainted with category theory as well as having read some material on gender studies in the past, I personally was able to skip through various parts.</p>
 <p>I think her notion of decoupling is immensely important however I am not sure on her terminology of &quot;ingressive&quot; and &quot;congressive&quot;. Whenever anyone overloads terms with additional definitions, it makes me nervous that confusion in discussion can occur. However, since these are not commonly used terms, at least in my experience, it makes me think this may not be as big an issue.</p>
-<p>Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the <a href="https://jacobzelko.com/07112020161337-social-determinants-health.md">social determinants of health</a> and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:</p>
+<p>Finally, it has made me think about where this method of decoupling can be used rigorously. In particular, I am curious about race and concepts such as the <a href="https://jacobzelko.com/07112020161337-social-determinants-health">social determinants of health</a> and how category theoretic approaches can be brought there. I think Cheng even teases readers with this idea so I am curious to see if she revisits the ideas someday:</p>
 <p>&quot;The idea of a temporary abstraction also takes into account the thorny issue of intersectionality, and the need to take other forms of power imbalance into account besides those governed by gender, for example race, wealth, sexual orientation, and so on.&quot;</p>
 <p>Overall, good read&#33;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</em>. <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking">https://jacobzelko.com/04162022002725-mathematician-gender-rethinking</a>. April 15 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1499,22 +1337,13 @@ endef</code></pre>
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1552,22 +1381,13 @@ endef</code></pre>
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1622,22 +1442,13 @@ endef</code></pre>
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; J. Carey, William golding: The man who wrote lord of the flies. Faber &amp; Faber, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1680,22 +1491,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Othello</em>. <a href="https://jacobzelko.com/04102022034503-othello">https://jacobzelko.com/04102022034503-othello</a>. April 9 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>  
@@ -1729,7 +1531,7 @@ endef</code></pre>
 <div class="franklin-toc"><ol><li><ol><li>Overview</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="overview">Overview</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained.md">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
+<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** What SpO2 is and their pros and cons as a biomarker</code></pre>
@@ -1737,22 +1539,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</em>. <a href="https://jacobzelko.com/01112022215755-oxygen-saturation">https://jacobzelko.com/01112022215755-oxygen-saturation</a>. January 11 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
@@ -1790,22 +1583,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Medical Claims Files</em>. <a href="https://jacobzelko.com/12092021205237-medical-claims-files">https://jacobzelko.com/12092021205237-medical-claims-files</a>. December 9 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
@@ -1843,22 +1627,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Pharmacy Claims Files</em>. <a href="https://jacobzelko.com/12092021212535-dental-claims-files">https://jacobzelko.com/12092021212535-dental-claims-files</a>. December 9 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
@@ -1896,22 +1671,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Pharmacy Claims Files</em>. <a href="https://jacobzelko.com/12092021211642-pharmacy-claims-files">https://jacobzelko.com/12092021211642-pharmacy-claims-files</a>. December 9 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
@@ -1957,22 +1723,13 @@ endef</code></pre>
 <p>Zelko, Jacob. <em>Provider Files</em>. <a href="https://jacobzelko.com/12092021213017-provider-files">https://jacobzelko.com/12092021213017-provider-files</a>. December 9 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>  
@@ -2005,9 +1762,9 @@ endef</code></pre>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="packages">Packages</h3>
-<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library.md">Prelude</a> - Haskell&#39;s Standard Library</p>
+<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">Prelude</a> - Haskell&#39;s Standard Library</p>
 <h3 id="functions">Functions</h3>
-<p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions.md">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
+<p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
 <h4 id="ar">Ar</h4>
 <h3 id="haskell_type_system">Haskell Type System</h3>
 <p>Except only in very seldom cases, type annotations are optional in Haskell.</p>
@@ -2079,22 +1836,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Notes on Programming in Haskell</em>. <a href="https://jacobzelko.com/11032021155827-haskell-programming">https://jacobzelko.com/11032021155827-haskell-programming</a>. November 3 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
@@ -2153,22 +1901,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Real-World Data and Real-World Evidence</em>. <a href="https://jacobzelko.com/10282021140730-real-world-evidence">https://jacobzelko.com/10282021140730-real-world-evidence</a>. October 28 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>  
@@ -2217,22 +1956,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Amortized Analysis</em>. <a href="https://jacobzelko.com/10052021235121-amortized-analysis">https://jacobzelko.com/10052021235121-amortized-analysis</a>. October 5 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>  
@@ -2307,22 +2037,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Abstract Data Types</em>. <a href="https://jacobzelko.com/10052021221736-abstract-data-types">https://jacobzelko.com/10052021221736-abstract-data-types</a>. October 5 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>  
@@ -2353,15 +2074,15 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Arrays</li><li>ArrayList<ol><li>Characteristics</li><li>Definitions</li><li>Requirements</li><li><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Arrays</li><li>ArrayList<ol><li>Characteristics</li><li>Definitions</li><li>Requirements</li><li><a href="https://jacobzelko.com/10052021235121-amortized-analysis">Amortized Analysis</a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="arrays">Arrays</h3>
 <p>Arrays are: 	- Statically allocated &#40;they are stored in memory and do not change; values can tho&#41; 	- Contiguous blocks of memory &#40;meaning that they are stored end to end in memory&#41;</p>
-<p>They provide <a href="https://jacobzelko.com/09242021040445-asymptotic-notation.md">constant complexity</a> of \(\mathcal{O}(1)\) when accessing data at a specific index in memory.</p>
+<p>They provide <a href="https://jacobzelko.com/09242021040445-asymptotic-notation">constant complexity</a> of \(\mathcal{O}(1)\) when accessing data at a specific index in memory.</p>
 <p>They are of particular use in storing sequences of related items. However, they are not very efficient when dealing with dynamically changing sizes for elements. If you try to fit \(10\) objects into an array of size \(5\), the array will need to be expanded.</p>
 <h3 id="arraylist">ArrayList</h3>
 <h4 id="characteristics">Characteristics</h4>
 <ul>
-<li><p>A type of <a href="https://jacobzelko.com/10052021221736-abstract-data-types.md">List Abstract Data Type</a> backed by an array.</p>
+<li><p>A type of <a href="https://jacobzelko.com/10052021221736-abstract-data-types">List Abstract Data Type</a> backed by an array.</p>
 </li>
 </ul>
 <pre><code class="language-julia">- Really just a wrapper around arrays</code></pre>
@@ -2394,7 +2115,7 @@ f1 ◦ f2</code></pre>
 <blockquote>
 <p><strong>NOTE:</strong> The empty blocks in the ArrayList sketch contain NULLs</p>
 </blockquote>
-<h4 id="a_href10052021235121-amortized-analysismdamortized_analysis"><a href="https://jacobzelko.com/10052021235121-amortized-analysis.md">Amortized Analysis</a></h4>
+<h4 id="a_hrefhttpsjacobzelkocom10052021235121-amortized-analysisamortized_analysis"><a href="https://jacobzelko.com/10052021235121-amortized-analysis">Amortized Analysis</a></h4>
 <ul>
 <li><p>Examples:</p>
 </li>
@@ -2410,22 +2131,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Data Structures</em>. <a href="https://jacobzelko.com/10012021003603-data-structures">https://jacobzelko.com/10012021003603-data-structures</a>. September 28 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>  
@@ -2492,22 +2204,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Virginia All-Payers Claim Database</em>. <a href="https://jacobzelko.com/08032021211753-virginia-apcd">https://jacobzelko.com/08032021211753-virginia-apcd</a>. August 3 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>  
@@ -2540,29 +2243,20 @@ f1 ◦ f2</code></pre>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/01052021044121-arithmetic-series.md">Arithmetic Sums &amp; Series</a> - A brief overview on what arithmetic series are and some of its underlying math.</p>
+<li><p><a href="https://jacobzelko.com/01052021044121-arithmetic-series">Arithmetic Sums &amp; Series</a> - A brief overview on what arithmetic series are and some of its underlying math.</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Mathematical Sums and Series</em>. <a href="https://jacobzelko.com/01042021224715-sums-series">https://jacobzelko.com/01042021224715-sums-series</a>. January 4 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>  
@@ -2596,35 +2290,26 @@ f1 ◦ f2</code></pre>
 <div class="franklin-toc"><ol><li><ol><li>Common Sorting Algorithms</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="common_sorting_algorithms">Common Sorting Algorithms</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/12192020184137-insertion-sort.md">Insertion Sort</a> -</p>
+<li><p><a href="https://jacobzelko.com/12192020184137-insertion-sort">Insertion Sort</a> -</p>
 </li>
-<li><p><a href="https://jacobzelko.com/12192020184204-merge-sort.md">Merge Sort</a> -</p>
+<li><p><a href="https://jacobzelko.com/12192020184204-merge-sort">Merge Sort</a> -</p>
 </li>
-<li><p><a href="https://jacobzelko.com/12212020214025-bubble-sort.md">Bubble Sort</a> -</p>
+<li><p><a href="https://jacobzelko.com/12212020214025-bubble-sort">Bubble Sort</a> -</p>
 </li>
-<li><p><a href="https://jacobzelko.com/12212020214012-selection-sort.md">Selection Sort</a> - Selection sort utilizes repeated usages of linear searches to sort an input.</p>
+<li><p><a href="https://jacobzelko.com/12212020214012-selection-sort">Selection Sort</a> - Selection sort utilizes repeated usages of linear searches to sort an input.</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Sorting Algorithms</em>. <a href="https://jacobzelko.com/12192020180920-sorting-algorithms">https://jacobzelko.com/12192020180920-sorting-algorithms</a>. December 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>  
@@ -2662,22 +2347,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>What are Voxels</em>. <a href="https://jacobzelko.com/11302020054820-voxel">https://jacobzelko.com/11302020054820-voxel</a>. November 30 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>  
@@ -2711,17 +2387,17 @@ f1 ◦ f2</code></pre>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>In 2014, WHO found that 20&#37; of children aged 15 confirmed having self-harmed within the last year. &#91;1&#93;</p>
 <p>Self-harm is a mental illness that results in causing pain or harm to oneself. &#91;2&#93; Examples include restrictive and binge eating, cutting, hitting, scratching, burning, bleaching of an individual’s body, and other forms of self-mutilation. &#91;3&#93;</p>
-<p>Self-harm generally pertains to non-life threatening actions individuals perform to negatively impact their health. This starts with actions like cutting and wrist slashing. &#91;4&#93; It can then lead to more severe acts of injuring human body tissue &#91;5&#93; and to <a href="https://jacobzelko.com/07122020174529-indirect-self-harm.md">indirect self-harming behavior</a> such as eating disorders &#91;6&#93;</p>
+<p>Self-harm generally pertains to non-life threatening actions individuals perform to negatively impact their health. This starts with actions like cutting and wrist slashing. &#91;4&#93; It can then lead to more severe acts of injuring human body tissue &#91;5&#93; and to <a href="https://jacobzelko.com/07122020174529-indirect-self-harm">indirect self-harming behavior</a> such as eating disorders &#91;6&#93;</p>
 <p>There are many types of self-harming behavior such as:</p>
 <ol>
-<li><p><a href="https://jacobzelko.com/07122020174529-indirect-self-harm.md">Indirect Self-Harm</a></p>
+<li><p><a href="https://jacobzelko.com/07122020174529-indirect-self-harm">Indirect Self-Harm</a></p>
 </li>
-<li><p><a href="https://jacobzelko.com/07122020185239-direct-self-harm.md">Direct Self-Harm</a></p>
+<li><p><a href="https://jacobzelko.com/07122020185239-direct-self-harm">Direct Self-Harm</a></p>
 </li>
-<li><p><a href="https://jacobzelko.com/07082020155623-digital-self-harm.md">Digital Self-Harm</a></p>
+<li><p><a href="https://jacobzelko.com/07082020155623-digital-self-harm">Digital Self-Harm</a></p>
 </li>
 </ol>
-<p>Further complicating discrete categories is that not all people that self-harm are <a href="https://jacobzelko.com/07122020192840-suicide.md">suicidal</a>. &#91;7&#93;</p>
+<p>Further complicating discrete categories is that not all people that self-harm are <a href="https://jacobzelko.com/07122020192840-suicide">suicidal</a>. &#91;7&#93;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>What Is Self-Harm</em>. <a href="https://jacobzelko.com/07082020161946-self-harm">https://jacobzelko.com/07082020161946-self-harm</a>. July 8 2020.</p>
 <h2 id="references">References</h2>
@@ -2733,22 +2409,13 @@ f1 ◦ f2</code></pre>
 <p>&#91;6&#93; C. Zlotnick, J. I. Mattia, and M. Zimmerman, “Clinical correlates of self-mutilation in a sample of general psychiatric patients,” J. Nerv. Ment. Dis., vol. 187, no. 5, pp. 296–301, 1999.</p>
 <p>&#91;7&#93; J. Quigley, S. Rasmussen, and J. Mcalaney, “Normative misperceptions of suicidal and self-harming behaviours in an undergraduate student population,” 2014.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>  
@@ -2782,13 +2449,13 @@ f1 ◦ f2</code></pre>
 <div class="franklin-toc"><ol><li><ol><li>Moving Average Filters:</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="moving_average_filters">Moving Average Filters:</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020064312-exponential-smoothing.md">Exponential Smoothing</a></p>
+<li><p><a href="https://jacobzelko.com/03272020064312-exponential-smoothing">Exponential Smoothing</a></p>
 <ul>
 <li><p><strong>Summary:</strong> An overview on how to use the exponential smoothing algorithm.</p>
 </li>
 </ul>
 </li>
-<li><p><a href="https://jacobzelko.com/04252020024813-median-filtering.md">Median Filtering</a></p>
+<li><p><a href="https://jacobzelko.com/04252020024813-median-filtering">Median Filtering</a></p>
 <ul>
 <li><p><strong>Summary:</strong> An overview on how to use and implement a median filter</p>
 </li>
@@ -2799,22 +2466,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Artifact Removal Methods</em>. <a href="https://jacobzelko.com/03272020062857-artifact-removal">https://jacobzelko.com/03272020062857-artifact-removal</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
@@ -2847,30 +2505,30 @@ f1 ◦ f2</code></pre>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained.md">What Is Electrodermal Activity?</a></p>
+<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained">What Is Electrodermal Activity?</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** What electrodermal activity is and its pros and cons as a biomarker</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts.md">Common Causes of Artifact in EDA Signals</a></p>
+<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts">Common Causes of Artifact in EDA Signals</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview of common artifacts in EDA signals</code></pre>
 <h3 id="handling_signal">Handling Signal</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data.md">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
+<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data
 - **Rationale:** FANTASTIC implementation on how to parse through EDA artifact -- very useful with a straight-forward algorithm to use</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal.md">Artifact Removal Methods</a></p>
+<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal">Artifact Removal Methods</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview on commonly used signal processing methods to remove artifacts from signals.
 - **Rationale:** Moving average filters seem to hold the most promise in processing EDA.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020083421-call-center.md">Call Center Stress Recognition with Person-Specific Models</a></p>
+<li><p><a href="https://jacobzelko.com/03272020083421-call-center">Call Center Stress Recognition with Person-Specific Models</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.
@@ -2879,22 +2537,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Electrodermal Activity</em>. <a href="https://jacobzelko.com/03232020235136-electrodermal-activity">https://jacobzelko.com/03232020235136-electrodermal-activity</a>. March 23 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  
@@ -2927,17 +2576,17 @@ f1 ◦ f2</code></pre>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition">GTD Definition</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A concise definition of what the GTD framework is.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">GTD Implementation</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation">GTD Implementation</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A guide on how GTD is implemented.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review.md">GTD Weekly Reviews</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review">GTD Weekly Reviews</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
@@ -2945,22 +2594,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Get Things Done</em>. <a href="https://jacobzelko.com/03192020045854-get-things-done">https://jacobzelko.com/03192020045854-get-things-done</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
@@ -2993,17 +2633,17 @@ f1 ◦ f2</code></pre>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month.md">Monthly Planning in a Bullet Journal</a></p>
+<li><p><a href="https://jacobzelko.com/03192020013347-bullet-journal-month">Monthly Planning in a Bullet Journal</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to create a monthly plan when using a bullet journal.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly.md">Weekly Planning in a Bullet Journal</a></p>
+<li><p><a href="https://jacobzelko.com/03192020035337-bullet-journal-weekly">Weekly Planning in a Bullet Journal</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to create a weekly plan when using a bullet journal.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020035441-bullet-journal-daily.md">Daily Planning in a Bullet Journal</a></p>
+<li><p><a href="https://jacobzelko.com/03192020035441-bullet-journal-daily">Daily Planning in a Bullet Journal</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to create a daily plan when using a bullet journal.</code></pre>
@@ -3011,22 +2651,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Bullet Journal</em>. <a href="https://jacobzelko.com/03192020013253-bullet-journal">https://jacobzelko.com/03192020013253-bullet-journal</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  
@@ -3066,22 +2697,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Raspberry Pi</em>. <a href="https://jacobzelko.com/03102020061135-raspberry-pi">https://jacobzelko.com/03102020061135-raspberry-pi</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -3112,14 +2734,14 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="what_is_sars-cov-2">What is SARS-CoV-2?</h3>
-<p>The SARS-CoV-2 virus is a <a href="https://jacobzelko.com/03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
+<p>The SARS-CoV-2 virus is a <a href="03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
 <p>Early on, many of the patients at the epicenter of the outbreak in Wuhan, Hubei Province, China had some link to a large seafood and live animal market, suggesting animal-to-person spread. Later, a growing number of patients reportedly did not have exposure to animal markets, indicating person-to-person spread. Person-to-person spread was subsequently reported outside Hubei and in countries outside China, including in the United States. &#91;1&#93;</p>
 <p>Currently, the World Health Organization has not classified this situation as a pandemic though this stance is highly contentious. &#91;2&#93;</p>
 <p>UPDATE &#40;MARCH 11th&#41;:_ As of now, this situation is now classified a pandemic by the World Health Organization. &#91;3&#93;</p>
 <p>Here is an image showing its transmission across the world:</p>
-<p><img src="https://jacobzelko.com/03102020050115-covid19-jhu-arcgis.jpg" alt="arcgis-sars" /></p>
+<p><img src="03102020050115-covid19-jhu-arcgis.jpg" alt="arcgis-sars" /></p>
 <h4 id="symptoms">Symptoms</h4>
 <p>The following symptoms may appear 2-14 days after exposure &#40;this is based on what has been seen previously as the incubation period of MERS-CoV viruses &#91;Middle East Respiratory Syndrome Coronavirus&#93;&#41; &#91;4&#93;:</p>
 <ul>
@@ -3130,9 +2752,9 @@ f1 ◦ f2</code></pre>
 <li><p>Shortness of breath</p>
 </li>
 </ul>
-<h4 id="a_href03102020052237-covid19-dyingrisk_of_dying"><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></h4>
+<h4 id="a_href03102020052237-covid19-dyingrisk_of_dying"><a href="03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></h4>
 <p>1 - 2&#37; is the current estimate though it could get higher. &#91;5&#93;</p>
-<h4 id="a_href03102020053006-cdc-respiratory-preventionsprevention_methods"><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></h4>
+<h4 id="a_href03102020053006-cdc-respiratory-preventionsprevention_methods"><a href="03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></h4>
 <ul>
 <li><p>Avoid close contact with people who are sick.</p>
 </li>
@@ -3160,22 +2782,13 @@ f1 ◦ f2</code></pre>
 <p>&#91;5&#93; M. Lipsitch, “Opinion | Why it’s so hard to pin down the risk of dying from coronavirus.” &#91;Online&#93;. Available: https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <p>&#91;6&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Prevention &amp; Treatment,” 15-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -3240,22 +2853,13 @@ f1 ◦ f2</code></pre>
 <p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
 <p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  

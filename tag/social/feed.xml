@@ -46,29 +46,20 @@
 <h3 id="definitions">Definitions</h3>
 <p>Social vulnerability is defined as the extent to which a community contains social characteristics that may affect the community&#39;s overall resilience &#40;18&#41;. It is affected by 	- Situational factors: Employment, Education, Income, Housing Type &#40;19, 20&#41; 	- Intrinsic factors: Age, Race, and Ethnicity &#40;19, 21&#41;</p>
 <h3 id="social_vulnerability_index_calculations">Social Vulnerability Index Calculations</h3>
-<p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index.md">See Note for Details</a></p>
+<p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">See Note for Details</a></p>
 <h3 id="digression_on_black_belt">Digression on Black Belt</h3>
 <p>I never knew the term for this but historically, where African Americans were heavily enslaved is called the &quot;Black Belt&quot;. The authors found that high SVI and heat-related deaths were often found in these historical communities &#91;32&#93;.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia</em>. <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -103,27 +94,18 @@
 <p>SVI data can be retrieved from: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html</p>
 <p>For at least the 2000 version of SVI, the metric is derived from summed percentile rankings at census tract level of fifteen U.S. Census variables shown in the following table: </p>
 <table><tr><th align="left">SVI Theme</th><th align="left">Variables Included</th></tr><tr><td align="left">1. Socioeconomic Status</td><td align="left">&#37; Below Poverty Level</td></tr><tr><td align="left"></td><td align="left">&#37; Unemployed</td></tr><tr><td align="left"></td><td align="left">Per Capita Income</td></tr><tr><td align="left"></td><td align="left">&#37; Age 25 or Older with No High School</td></tr><tr><td align="left">2. Household Composition &amp;</td><td align="left">Diploma</td></tr><tr><td align="left">Disability</td><td align="left">&#37; Age 65 or Older</td></tr><tr><td align="left"></td><td align="left">&#37; Age 17 or Younger</td></tr><tr><td align="left">3. Minority Status &amp; Language</td><td align="left">&#37; Single Parent Household</td></tr><tr><td align="left"></td><td align="left">&#37; Age 5 or Older Speak English &quot;Less than</td></tr><tr><td align="left">4. Housing &amp; Transportation</td><td align="left">Well&quot;</td></tr><tr><td align="left"></td><td align="left">&#37; Multi-Unit Structures</td></tr><tr><td align="left"></td><td align="left">&#37; Mobile Homes</td></tr><tr><td align="left"></td><td align="left">&#37; Crowding &#40;More people than rooms&#41;</td></tr><tr><td align="left"></td><td align="left">&#37; Households without a Vehicle</td></tr><tr><td align="left"></td><td align="left">&#37; In Institutionalized Group Quarters</td></tr></table>
-<p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes.md">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
+<p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Social Vulnerability Index</em>. <a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">https://jacobzelko.com/09082022144933-social-vulnerability-index</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -156,28 +138,19 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Definitions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="definitions">Definitions</h3>
-<p>Social cohesion is the connectedness and solidarity in populations. This includes the absence of social conflict and presence of social bonds.27 A measure used to quantify social cohesion is trust. <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
-<p>Social capital are the features of social structures that are resources for community members to create action.27 Social capital acts as a safety net for individuals to protect against losses like physical health, mental health, and life satisfaction.31<a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a> &#40;See <a href="https://jacobzelko.com/08282022135955-social-capital.md">Features of Social Capital</a> for further insight on what social capital is and its importance&#41;</p>
+<p>Social cohesion is the connectedness and solidarity in populations. This includes the absence of social conflict and presence of social bonds.27 A measure used to quantify social cohesion is trust. <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
+<p>Social capital are the features of social structures that are resources for community members to create action.27 Social capital acts as a safety net for individuals to protect against losses like physical health, mental health, and life satisfaction.31<a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a> &#40;See <a href="https://jacobzelko.com/08282022135955-social-capital">Features of Social Capital</a> for further insight on what social capital is and its importance&#41;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Social Determinants Surrounding Terrorism</em>. <a href="https://jacobzelko.com/08282022134930-social-determinants-terrorism">https://jacobzelko.com/08282022134930-social-determinants-terrorism</a>. August 28 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
@@ -209,7 +182,7 @@
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
-<p>Varying levels of social capital in a population is an important determinant of health in children, adolescents, adults, and aging populations.28,33 <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
+<p>Varying levels of social capital in a population is an important determinant of health in children, adolescents, adults, and aging populations.28,33 <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
 <p>Low levels of social capital, can be a risk factors for population health such as:</p>
 <ol>
 <li><p>Prevention of crime.33,35</p>
@@ -228,22 +201,13 @@
 <p>Zelko, Jacob. <em>Features of Social Capital</em>. <a href="https://jacobzelko.com/08282022135955-social-capital">https://jacobzelko.com/08282022135955-social-capital</a>. August 28 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
@@ -324,7 +288,7 @@
 <p>A proxy to study terrorism is to study gang violence</p>
 <p>At the individual level, gangs and terrorist organizations appeal to individuals who are psychologically deviant, have limited access to socioeconomic opportunities, or are marginalized members of society.39–44 In fact, terrorist groups attract a range of unstable individuals.45</p>
 <blockquote>
-<p>NOTE: This seems to contradict the paper <a href="https://jacobzelko.com/08232022220130-people-become-terrorists.md">Why Do People Become Terrorists</a> as it notes that instead, it was observed how many of these people who are not fully psychologically deviant but rather of clear mind. Furthermore, in my attempt to reconcile such different observations, I would posit that rather, both explanations and comments are valid but that &quot;unstable individuals&quot; seem to conflate a kind of negative aspect to a person whereas the linked paper avoids the notion of unstable persons and instead explains how most of these people are of clear opinion.</p>
+<p>NOTE: This seems to contradict the paper <a href="https://jacobzelko.com/08232022220130-people-become-terrorists">Why Do People Become Terrorists</a> as it notes that instead, it was observed how many of these people who are not fully psychologically deviant but rather of clear mind. Furthermore, in my attempt to reconcile such different observations, I would posit that rather, both explanations and comments are valid but that &quot;unstable individuals&quot; seem to conflate a kind of negative aspect to a person whereas the linked paper avoids the notion of unstable persons and instead explains how most of these people are of clear opinion.</p>
 </blockquote>
 <p>Goals generally exclusive to gangs:</p>
 <ol>
@@ -342,7 +306,7 @@
 <p>The main difference between gangs and terrorist groups is that gangs are often not politically motivated.47 </p>
 <h3 id="positive_approaches_to_mitigate_radicalization">Positive Approaches to Mitigate Radicalization</h3>
 <p>Dutch police actively sought to integrate individuals from Syria by connecting them with a psychiatrist or mentor. Then, they provided assistance to find housing or means to return to school. To round out this reintegration process, they went even further to provide &quot;whatever they needed to fully integrate back into society.&quot;67 </p>
-<p>This approach, believes that to fight terrorism through policing and/or &quot;profiling&quot; will create real or perceived discrimination, humiliation, and/or marginalization. Other papers have shown <a href="https://jacobzelko.com/08232022220130-people-become-terrorists.md">this to be an accurate assessment</a>.</p>
+<p>This approach, believes that to fight terrorism through policing and/or &quot;profiling&quot; will create real or perceived discrimination, humiliation, and/or marginalization. Other papers have shown <a href="https://jacobzelko.com/08232022220130-people-become-terrorists">this to be an accurate assessment</a>.</p>
 <p>&lt;&#33;–TODO: Add citations to note–&gt;</p>
 <h3 id="problems_with_whiteness_and_terrorism_classifications">Problems with Whiteness and Terrorism Classifications</h3>
 <p>Muslim Americans who come from the Middle East are often classified as &quot;White&quot; by categories set forth by the Office of Management and Budget. However, this is in complete opposition to the fact that a large proportion of Muslim Americans do not identify as &quot;White&quot;. 15 An implicit assumption and implicit problem is that people labeled &quot;White&quot; are assumed to be &quot;racially neutral.&quot;15 </p>
@@ -350,22 +314,13 @@
 <p>Zelko, Jacob. <em>Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</em>. <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">https://jacobzelko.com/08192022115354-health-terrorism-factors</a>. August 19 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>  
@@ -420,22 +375,13 @@
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; J. Carey, William golding: The man who wrote lord of the flies. Faber &amp; Faber, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>  
@@ -480,22 +426,13 @@
 <p>Zelko, Jacob. <em>False Expertise</em>. <a href="https://jacobzelko.com/07132020022756-media-timothy">https://jacobzelko.com/07132020022756-media-timothy</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
@@ -555,7 +492,7 @@
 <p>Heart rate is directly impacted by sympathetic nerve impulses. It is indirectly affected by circulating adrenaline level.</p>
 <p>Increased &quot;stickiness&quot; in platelets occurs due to increases in adrenaline in the blood. Blood tends to become more concentrated and viscous at the same time. Stress-related hormones can increase the output of fibrinogen from the liver. This may add to formation of arterial plaques and increased risks of heart disease and stroke &#91;5&#93;, &#91;6&#93;</p>
 <p>The sympatho-adrenal pathway activates, prepares for, or maintains physical exertion. It causes psychological arousal and energy mobilization. It inhibits functions irrelevant to immediatesurvival. Degree of activation depends on stressorand its duration. Thesympatho-adrenal pathway can be switched off rapidly.</p>
-<p>The first pathway is the sympatho-adrenal pathway and activates quickly. It consists of the sympathetic branch of the <a href="https://jacobzelko.com/12302020174059-autonomic-nervous-system.md">autonomic nervous system</a>. The pathway produces two hormones:</p>
+<p>The first pathway is the sympatho-adrenal pathway and activates quickly. It consists of the sympathetic branch of the <a href="https://jacobzelko.com/12302020174059-autonomic-nervous-system">autonomic nervous system</a>. The pathway produces two hormones:</p>
 <ol>
 <li><p>Noradrenaline at nerve endings</p>
 </li>
@@ -638,22 +575,13 @@
 <p>&#91;10&#93; D. Blane, E. Brunner, and R. Wilkinson, “The evolution of public health policy,” Health Soc. Organ. Health Policy 21st Century, p. 1, 2002.</p>
 <p>&#91;11&#93; E. Widdowson and R. McCance, “A review: New thoughts on growth,” Pediatr. Res., vol. 9, no. 3, pp. 154–156, 1975.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>  
@@ -704,22 +632,13 @@
 <p>Zelko, Jacob. <em>Underestimating Digital Media Harm</em>. <a href="https://jacobzelko.com/05252020221842-digital-media">https://jacobzelko.com/05252020221842-digital-media</a>. May 25 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  

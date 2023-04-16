@@ -52,22 +52,13 @@
 <p>Zelko, Jacob. <em>The Origins of the Observational Medical Outcomes Partnership &#40;OMOP&#41;</em>. <a href="https://jacobzelko.com/07282021181744-origins-omop">https://jacobzelko.com/07282021181744-origins-omop</a>. July 28 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
@@ -121,27 +112,18 @@
 </li>
 </ul>
 <pre><code class="language-julia">- Required industry partnerships 
-- Culminated in the creation of the &#91;Observational Medical Outcomes Partnership &#40;OMOP&#41;&#93;&#40;/07282021181744-origins-omop.md&#41;</code></pre>
+- Culminated in the creation of the &#91;Observational Medical Outcomes Partnership &#40;OMOP&#41;&#93;&#40;https://jacobzelko.com/07282021181744-origins-omop&#41;</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>FDA Amendment Act</em>. <a href="https://jacobzelko.com/07282021175202-fda-risk-prevention">https://jacobzelko.com/07282021175202-fda-risk-prevention</a>. July 28 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  
@@ -174,20 +156,20 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
-<p><a href="https://jacobzelko.com/05172021000429-observational-studies.md">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
+<p><a href="https://jacobzelko.com/05172021000429-observational-studies">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
 <p>&#91;Study Packages&#93;</p>
 <h3 id="observational_medical_outcomes_partnership_omop">Observational Medical Outcomes Partnership &#40;OMOP&#41;</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/07282021181744-origins-omop.md">OMOP Origins</a></p>
+<li><p><a href="https://jacobzelko.com/07282021181744-origins-omop">OMOP Origins</a></p>
 </li>
-<li><p><a href="https://jacobzelko.com/02082021170353-cdm-standardized-tables.md">OMOP CDM standardized tables</a></p>
+<li><p><a href="https://jacobzelko.com/02082021170353-cdm-standardized-tables">OMOP CDM standardized tables</a></p>
 </li>
 </ul>
 <h3 id="observational_health_data_sciences_and_informatics_ohdsi">Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/07282021184510-ohdsi-background.md">OHDSI Origins</a></p>
+<li><p><a href="https://jacobzelko.com/07282021184510-ohdsi-background">OHDSI Origins</a></p>
 </li>
-<li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals.md">Goals of OHDSI</a></p>
+<li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals">Goals of OHDSI</a></p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
@@ -195,22 +177,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; G. Hripcsak et al., “Observational health data sciences and informatics &#40;OHDSI&#41;: Opportunities for observational researchers,” Stud. Health Technol. Inform., vol. 216, p. 574, 2015.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>  
@@ -269,7 +242,7 @@
 </li>
 <li><p><code>CONCEPT_RELATIONSHIP</code> - the relationships between concepts</p>
 </li>
-<li><p><code>CONCEPT_ANCESTOR</code> - hierarchical concept relationships; see <a href="https://jacobzelko.com/07282021202459-exploring-ancestors-concept.md">Exploring Ancestors and Descendants of a Concept</a></p>
+<li><p><code>CONCEPT_ANCESTOR</code> - hierarchical concept relationships; see <a href="https://jacobzelko.com/07282021202459-exploring-ancestors-concept">Exploring Ancestors and Descendants of a Concept</a></p>
 </li>
 </ol>
 <h4 id="concept_example">&quot;Concept&quot; Example</h4>
@@ -290,7 +263,7 @@
 <li><p>Drug Classes</p>
 </li>
 </ul>
-<p>One can query <a href="https://jacobzelko.com/07282021211226-drug-concepts.md">drug concepts by name</a> easily in OHDSI tools.</p>
+<p>One can query <a href="https://jacobzelko.com/07282021211226-drug-concepts">drug concepts by name</a> easily in OHDSI tools.</p>
 <h3 id="use_cases_for_the_omop_cdm">Use Cases for the OMOP CDM</h3>
 <p>The OMOP CDM is implemented to help with Big Health Data collection. We use Big Health Data because it:</p>
 <ol>
@@ -317,22 +290,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; J. M. Overhage, P. B. Ryan, C. G. Reich, A. G. Hartzema, and P. E. Stang, “Validation of a common data model for active safety surveillance research,” J. Am. Med. Inform. Assoc., vol. 19, no. 1, pp. 54–60, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>  

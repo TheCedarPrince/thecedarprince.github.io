@@ -43,7 +43,7 @@
 <div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Model Components</li><li>Digressions and Recommendations for Model<ol><li>Title Block</li><li>Bibliography Block</li><li>Notes</li><li>References</li></ol></li><li>Implementation Examples</li><li>Tools for Working with Model</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>Knowledge is one of the most nebulous ideas known to mankind since nearly the beginning of time. What may be knowledge to one person may be useless noise to another - this encapsulates the difficulty in defining knowledge. As a result of its many possible meanings, I put forth a rather opinionated proposal for what I term the &quot;Open Knowledge Model&quot;.</p>
-<p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://jacobzelko.com/https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
+<p>The Open Knowledge Model is a standard that defines not how to maintain knowledge in what are typically coined &quot;knowledge management systems&quot;. Instead, its focus is on how to structure information that goes directly into such systems. It is fully compatible with the <a href="https://www.iso.org/standard/68683.html">ISO 30401</a> standard.</p>
 <p>There are many different knowledge management systems available to someone – from a pen and pencil to various software offerings. Each of these offerings are very unique and accordingly offer benefits and cons. This model remains independent of any such offering but instead prescribes a model to structure information in any of the offerings one chooses to pursue.</p>
 <h3 id="model_components">Model Components</h3>
 <p>The model is composed of the following sections:</p>
@@ -75,13 +75,13 @@
 <h3 id="implementation_examples">Implementation Examples</h3>
 <p>To give an example of implementations, here are some examples of implementations:</p>
 <ul>
-<li><p><a href="https://jacobzelko.com/08032021134232-notes-template.md">Markdown Implementation</a></p>
+<li><p><a href="https://jacobzelko.com/08032021134232-notes-template">Markdown Implementation</a></p>
 </li>
 </ul>
 <h3 id="tools_for_working_with_model">Tools for Working with Model</h3>
 <p>Here are a list of some tools that have emerged to work with the Open Knowledge Model: </p>
 <ul>
-<li><p><a href="https://jacobzelko.com/https://github.com/TheCedarPrince/NoteMate">NoteMate.jl</a> - a companion for working with a knowledge management system that adheres to the Open Knowledge Model.</p>
+<li><p><a href="https://github.com/TheCedarPrince/NoteMate">NoteMate.jl</a> - a companion for working with a knowledge management system that adheres to the Open Knowledge Model.</p>
 </li>
 </ul>
 <p>Written in Julia and offers parsing from Markdown notes to other target formats.</p>
@@ -91,22 +91,13 @@
 <p>Zelko, Jacob. <em>The Open Knowledge Model</em>. <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard">https://jacobzelko.com/04172022033744-open-knowledge-standard</a>. April 16 2022.</p>
 <h2 id="references__2">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>  
@@ -148,22 +139,13 @@ id x &#61; x</code></pre>
 <p>Zelko, Jacob. <em>Prelude - Haskell&#39;s Standard Library</em>. <a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">https://jacobzelko.com/11032021171123-prelude-haskell-library</a>. November 3 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  
@@ -228,22 +210,13 @@ id x &#61; x</code></pre>
 <p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
 <p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  

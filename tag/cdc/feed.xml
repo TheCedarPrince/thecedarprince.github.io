@@ -46,29 +46,20 @@
 <h3 id="definitions">Definitions</h3>
 <p>Social vulnerability is defined as the extent to which a community contains social characteristics that may affect the community&#39;s overall resilience &#40;18&#41;. It is affected by 	- Situational factors: Employment, Education, Income, Housing Type &#40;19, 20&#41; 	- Intrinsic factors: Age, Race, and Ethnicity &#40;19, 21&#41;</p>
 <h3 id="social_vulnerability_index_calculations">Social Vulnerability Index Calculations</h3>
-<p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index.md">See Note for Details</a></p>
+<p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">See Note for Details</a></p>
 <h3 id="digression_on_black_belt">Digression on Black Belt</h3>
 <p>I never knew the term for this but historically, where African Americans were heavily enslaved is called the &quot;Black Belt&quot;. The authors found that high SVI and heat-related deaths were often found in these historical communities &#91;32&#93;.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia</em>. <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -103,27 +94,18 @@
 <p>SVI data can be retrieved from: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html</p>
 <p>For at least the 2000 version of SVI, the metric is derived from summed percentile rankings at census tract level of fifteen U.S. Census variables shown in the following table: </p>
 <table><tr><th align="left">SVI Theme</th><th align="left">Variables Included</th></tr><tr><td align="left">1. Socioeconomic Status</td><td align="left">&#37; Below Poverty Level</td></tr><tr><td align="left"></td><td align="left">&#37; Unemployed</td></tr><tr><td align="left"></td><td align="left">Per Capita Income</td></tr><tr><td align="left"></td><td align="left">&#37; Age 25 or Older with No High School</td></tr><tr><td align="left">2. Household Composition &amp;</td><td align="left">Diploma</td></tr><tr><td align="left">Disability</td><td align="left">&#37; Age 65 or Older</td></tr><tr><td align="left"></td><td align="left">&#37; Age 17 or Younger</td></tr><tr><td align="left">3. Minority Status &amp; Language</td><td align="left">&#37; Single Parent Household</td></tr><tr><td align="left"></td><td align="left">&#37; Age 5 or Older Speak English &quot;Less than</td></tr><tr><td align="left">4. Housing &amp; Transportation</td><td align="left">Well&quot;</td></tr><tr><td align="left"></td><td align="left">&#37; Multi-Unit Structures</td></tr><tr><td align="left"></td><td align="left">&#37; Mobile Homes</td></tr><tr><td align="left"></td><td align="left">&#37; Crowding &#40;More people than rooms&#41;</td></tr><tr><td align="left"></td><td align="left">&#37; Households without a Vehicle</td></tr><tr><td align="left"></td><td align="left">&#37; In Institutionalized Group Quarters</td></tr></table>
-<p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes.md">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
+<p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Social Vulnerability Index</em>. <a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">https://jacobzelko.com/09082022144933-social-vulnerability-index</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -187,7 +169,7 @@
 </li>
 </ol>
 <h4 id="analyzing_for_changes_in_population_movement_patterns">Analyzing for Changes in Population Movement Patterns</h4>
-<p>Counties were broken into rural-urban categories to ensure groupings of counties with similar population sizes. Box plots were constructed for each category to examine the distribution of county mean percentages of devices at home during the pre- and postorder periods associated with each index date. Movement values following a normal distribution was not assumed for all counties and periods.  A clustered Wilcoxon signed rank test was then performed, with counties as clusters, on the constituent counties&#39; median pre- and post-order values associated with each index date. A lower-tailed test was used for dates regarding the start of regional mandates. An upper-tailed test was used for dates recording the end of regional mandates. Strata-level statistical significance was assessed at the 99&#37; confidence level &#40;alpha &#61; 0.01&#41;. <em>Dataset used: <a href="https://jacobzelko.com/https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/documentation/">The U.S. Department of Agriculture&#39;s Rural-Urban Continuum Codes</a> are used to stratify counties in this analysis</em> <strong>QUESTION:</strong> What is a &quot;clustered Wilcoxon signed rank test&quot;?_</p>
+<p>Counties were broken into rural-urban categories to ensure groupings of counties with similar population sizes. Box plots were constructed for each category to examine the distribution of county mean percentages of devices at home during the pre- and postorder periods associated with each index date. Movement values following a normal distribution was not assumed for all counties and periods.  A clustered Wilcoxon signed rank test was then performed, with counties as clusters, on the constituent counties&#39; median pre- and post-order values associated with each index date. A lower-tailed test was used for dates regarding the start of regional mandates. An upper-tailed test was used for dates recording the end of regional mandates. Strata-level statistical significance was assessed at the 99&#37; confidence level &#40;alpha &#61; 0.01&#41;. <em>Dataset used: <a href="https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/documentation/">The U.S. Department of Agriculture&#39;s Rural-Urban Continuum Codes</a> are used to stratify counties in this analysis</em> <strong>QUESTION:</strong> What is a &quot;clustered Wilcoxon signed rank test&quot;?_</p>
 <p>Population movement was inferred via the percentage of individual devices reported each day that were home for each county. A 7-day rolling average was used to smooth each county&#39;s pre- and postorder time series values ***QUESTION:** I wonder how good a metric this observation serves as a proxy of measuring population movement?*</p>
 <h3 id="discussion">Discussion</h3>
 <h4 id="general_insights">General Insights</h4>
@@ -215,22 +197,13 @@
 <p>Zelko, Jacob. <em>Timing of State and Territorial COVID-19 Stay-at-Home Orders and Changes in Population Movement — United States, March 1–May 31, 2020</em>. <a href="https://jacobzelko.com/01072021062915-mobility-patterns-gtri">https://jacobzelko.com/01072021062915-mobility-patterns-gtri</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion__2">Discussion</h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
@@ -281,22 +254,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; Centers for Disease Control, “Contact Tracing - CDC’s Role and Approach.” 10-Aug-2020.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>  
@@ -349,22 +313,13 @@
 <p>Zelko, Jacob. <em>CDC Respiratory Disease Prevention</em>. <a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions">https://jacobzelko.com/03102020053006-cdc-respiratory-preventions</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  

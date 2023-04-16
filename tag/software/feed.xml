@@ -41,8 +41,8 @@
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Software Implementations</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>There are multiple algorithms available used for effectively implementing the <a href="https://jacobzelko.com/05282020163507-spacing-effect.md">spacing effect</a>. The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus.md">has been replicated</a> and scrutinized examined multiple times. &#91;1&#93;–&#91;3&#93; Spaced repetition systems are based around proper implementations of such algorithms.</p>
-<p>Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the <a href="https://jacobzelko.com/05102020220941-leitner-system.md">Leitner System which used paper note cards</a> to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.</p>
+<p>There are multiple algorithms available used for effectively implementing the <a href="https://jacobzelko.com/05282020163507-spacing-effect">spacing effect</a>. The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus">has been replicated</a> and scrutinized examined multiple times. &#91;1&#93;–&#91;3&#93; Spaced repetition systems are based around proper implementations of such algorithms.</p>
+<p>Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the <a href="https://jacobzelko.com/05102020220941-leitner-system">Leitner System which used paper note cards</a> to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.</p>
 <p>With computers, there have been several pieces of software made to automate and keep track of repetitions <em>for a learner</em>. A majority of these systems directly adapted the Leitner System from the analog to the digital world. Each software generally has proprietary algorithms that supposedly maximize the spacing effect but are directly inspired by the original work done by Ebbinghaus.</p>
 <p>Whether analog or digital, key features of these systems are as follows:</p>
 <ol>
@@ -63,22 +63,13 @@
 <p>&#91;2&#93; H. Ebbinghaus, “Ueber das gedächtnis,” 1885.</p>
 <p>&#91;3&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  

@@ -42,35 +42,26 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/02182022164256-rdf-history.md">History of the RDF</a> - Very brief history of the RDF</p>
+<li><p><a href="https://jacobzelko.com/02182022164256-rdf-history">History of the RDF</a> - Very brief history of the RDF</p>
 </li>
-<li><p><a href="https://jacobzelko.com/02182022172731-rdf-file-formats.md">RDF Data Storage Formats</a> - Types of data storage formats available for RDF</p>
+<li><p><a href="https://jacobzelko.com/02182022172731-rdf-file-formats">RDF Data Storage Formats</a> - Types of data storage formats available for RDF</p>
 </li>
-<li><p><a href="https://jacobzelko.com/02182022165447-rdf-overview.md">Overview of the Resource Description Framework &#40;RDF&#41;</a> - An overview of the RDF and how it works</p>
+<li><p><a href="https://jacobzelko.com/02182022165447-rdf-overview">Overview of the Resource Description Framework &#40;RDF&#41;</a> - An overview of the RDF and how it works</p>
 </li>
-<li><p><a href="https://jacobzelko.com/02182022190950-rdf-acset-representation.md">How To Imagine an RDF as an ACSet</a> - How RDFs can be conceptualized as an ACSet</p>
+<li><p><a href="https://jacobzelko.com/02182022190950-rdf-acset-representation">How To Imagine an RDF as an ACSet</a> - How RDFs can be conceptualized as an ACSet</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>The Resource Description Framework &#40;RDF&#41; Explained</em>. <a href="https://jacobzelko.com/01282022220116-resource-description-framework">https://jacobzelko.com/01282022220116-resource-description-framework</a>. January 28 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>  

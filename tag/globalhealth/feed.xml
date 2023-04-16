@@ -40,14 +40,14 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="what_is_sars-cov-2">What is SARS-CoV-2?</h3>
-<p>The SARS-CoV-2 virus is a <a href="https://jacobzelko.com/03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
+<p>The SARS-CoV-2 virus is a <a href="03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
 <p>Early on, many of the patients at the epicenter of the outbreak in Wuhan, Hubei Province, China had some link to a large seafood and live animal market, suggesting animal-to-person spread. Later, a growing number of patients reportedly did not have exposure to animal markets, indicating person-to-person spread. Person-to-person spread was subsequently reported outside Hubei and in countries outside China, including in the United States. &#91;1&#93;</p>
 <p>Currently, the World Health Organization has not classified this situation as a pandemic though this stance is highly contentious. &#91;2&#93;</p>
 <p>UPDATE &#40;MARCH 11th&#41;:_ As of now, this situation is now classified a pandemic by the World Health Organization. &#91;3&#93;</p>
 <p>Here is an image showing its transmission across the world:</p>
-<p><img src="https://jacobzelko.com/03102020050115-covid19-jhu-arcgis.jpg" alt="arcgis-sars" /></p>
+<p><img src="03102020050115-covid19-jhu-arcgis.jpg" alt="arcgis-sars" /></p>
 <h4 id="symptoms">Symptoms</h4>
 <p>The following symptoms may appear 2-14 days after exposure &#40;this is based on what has been seen previously as the incubation period of MERS-CoV viruses &#91;Middle East Respiratory Syndrome Coronavirus&#93;&#41; &#91;4&#93;:</p>
 <ul>
@@ -58,9 +58,9 @@
 <li><p>Shortness of breath</p>
 </li>
 </ul>
-<h4 id="a_href03102020052237-covid19-dyingrisk_of_dying"><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></h4>
+<h4 id="a_href03102020052237-covid19-dyingrisk_of_dying"><a href="03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></h4>
 <p>1 - 2&#37; is the current estimate though it could get higher. &#91;5&#93;</p>
-<h4 id="a_href03102020053006-cdc-respiratory-preventionsprevention_methods"><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></h4>
+<h4 id="a_href03102020053006-cdc-respiratory-preventionsprevention_methods"><a href="03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></h4>
 <ul>
 <li><p>Avoid close contact with people who are sick.</p>
 </li>
@@ -88,22 +88,13 @@
 <p>&#91;5&#93; M. Lipsitch, “Opinion | Why it’s so hard to pin down the risk of dying from coronavirus.” &#91;Online&#93;. Available: https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <p>&#91;6&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Prevention &amp; Treatment,” 15-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  

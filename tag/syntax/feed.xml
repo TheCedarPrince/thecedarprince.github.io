@@ -42,9 +42,9 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="packages">Packages</h3>
-<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library.md">Prelude</a> - Haskell&#39;s Standard Library</p>
+<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">Prelude</a> - Haskell&#39;s Standard Library</p>
 <h3 id="functions">Functions</h3>
-<p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions.md">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
+<p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
 <h4 id="ar">Ar</h4>
 <h3 id="haskell_type_system">Haskell Type System</h3>
 <p>Except only in very seldom cases, type annotations are optional in Haskell.</p>
@@ -116,22 +116,13 @@ f1 ◦ f2</code></pre>
 <p>Zelko, Jacob. <em>Notes on Programming in Haskell</em>. <a href="https://jacobzelko.com/11032021155827-haskell-programming">https://jacobzelko.com/11032021155827-haskell-programming</a>. November 3 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>  

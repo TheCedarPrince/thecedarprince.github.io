@@ -48,22 +48,13 @@
 <p>Zelko, Jacob. <em>What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;?</em>. <a href="https://jacobzelko.com/01112022220843-spo2-explained">https://jacobzelko.com/01112022220843-spo2-explained</a>. January 11 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
@@ -120,7 +111,7 @@
 </li>
 </ul>
 <p>The use cases of EDA is further explored by <em>Boucsein et. al.</em> in their book, <em>Electrodermal Activity</em>. &#91;11&#93;</p>
-<p>Furthermore, EDA is a generalization of the overall signal – in reality, this signal is often decomposed into <a href="https://jacobzelko.com/04092020162632-skin-response.md">Skin Conductance Response &#40;SCR&#41;</a> and <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">Skin Conductance Level &#40;SCL&#41;</a>.</p>
+<p>Furthermore, EDA is a generalization of the overall signal – in reality, this signal is often decomposed into <a href="https://jacobzelko.com/04092020162632-skin-response">Skin Conductance Response &#40;SCR&#41;</a> and <a href="https://jacobzelko.com/04092020161622-skin-conductance">Skin Conductance Level &#40;SCL&#41;</a>.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>What Is Electrodermal Activity?</em>. <a href="https://jacobzelko.com/03242020003215-eda-explained">https://jacobzelko.com/03242020003215-eda-explained</a>. March 24 2020.</p>
 <h2 id="references">References</h2>
@@ -136,22 +127,13 @@
 <p>&#91;10&#93; M.-H. Savard, J. Savard, A. Caplette-Gingras, H. Ivers, and C. Bastien, “Relationship between objectively recorded hot flashes and sleep disturbances among breast cancer patients: Investigating hot flash characteristics other than frequency,” Menopause, vol. 20, no. 10, pp. 997–1005, 2013.</p>
 <p>&#91;11&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>  

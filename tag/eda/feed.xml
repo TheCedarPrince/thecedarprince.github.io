@@ -50,29 +50,20 @@
 <li><p>Feet</p>
 </li>
 </ul>
-<p>These electrodes complete a circuit across the skin – the skin acts as a variable resistor – and then <a href="https://jacobzelko.com/03242020003215-eda-explained.md">measure changes in skin conductance</a> &#40;see note for more information on what variables EDA monitors&#41;. After the EDA signal is collected from the electrodes, the signal is typically &#40;by convention&#41; decomposed into skin conductance level <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">SCL</a> and skin conductance responses <a href="https://jacobzelko.com/04092020162632-skin-response.md">SCR</a> &#40;click links to see definitions of both&#41;.</p>
+<p>These electrodes complete a circuit across the skin – the skin acts as a variable resistor – and then <a href="https://jacobzelko.com/03242020003215-eda-explained">measure changes in skin conductance</a> &#40;see note for more information on what variables EDA monitors&#41;. After the EDA signal is collected from the electrodes, the signal is typically &#40;by convention&#41; decomposed into skin conductance level <a href="https://jacobzelko.com/04092020161622-skin-conductance">SCL</a> and skin conductance responses <a href="https://jacobzelko.com/04092020162632-skin-response">SCR</a> &#40;click links to see definitions of both&#41;.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>EDA as a Biomarker</em>. <a href="https://jacobzelko.com/04092020153616-eda-biomarker">https://jacobzelko.com/04092020153616-eda-biomarker</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;2&#93; M. van Dooren, J. H. Janssen, et al., “Emotional sweating across the body: Comparing 16 different skin conductance measurement locations,” Physiol. Behav., vol. 106, no. 2, pp. 298–304, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
@@ -109,22 +100,13 @@
 <p>Zelko, Jacob. <em>What Is Skin Conductance Level?</em>. <a href="https://jacobzelko.com/04092020161622-skin-conductance">https://jacobzelko.com/04092020161622-skin-conductance</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
@@ -156,7 +138,7 @@
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>Skin conductance response &#40;SCR&#41; are the fast portions found in the decomposition of the EDA signal. They are then superimposed onto the <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">Skin Conductance Level</a> &#40;click link to see what the SCL is&#41;.</p>
+<p>Skin conductance response &#40;SCR&#41; are the fast portions found in the decomposition of the EDA signal. They are then superimposed onto the <a href="https://jacobzelko.com/04092020161622-skin-conductance">Skin Conductance Level</a> &#40;click link to see what the SCL is&#41;.</p>
 <p>Conventionally &#91;1&#93;–&#91;3&#93;, SCR is classified via the following criterion:</p>
 <ul>
 <li><p>An increase in EDA of at least \(0.05\mu S\) over a period of \(1 - 3\) seconds</p>
@@ -171,22 +153,13 @@
 <p>&#91;2&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;3&#93; F. H. Wilhelm and W. T. Roth, “Ambulatory assessment of clinical anxiety,” Ambul. Assess. Comput.-Assist. Psychol. Psychophysiological Methods Monit. Field Stud., pp. 317–345, 1996.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
@@ -240,22 +213,13 @@
 <p>&#91;2&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;3&#93; F. H. Wilhelm and W. T. Roth, “Ambulatory assessment of clinical anxiety,” Ambul. Assess. Comput.-Assist. Psychol. Psychophysiological Methods Monit. Field Stud., pp. 317–345, 1996.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>  
@@ -307,22 +271,13 @@
 <p>&#91;3&#93; I. R. Kleckner et al., “Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,” IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
 <p>&#91;4&#93; S. for P. R. A. H. C. on E. Measures et al., “Publication recommendations for electrodermal measurements,” Psychophysiology, vol. 49, no. 8, pp. 1017–1034, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  
@@ -359,22 +314,13 @@
 <p>Zelko, Jacob. <em>Call Center Stress Recognition with Person-Specific Models</em>. <a href="https://jacobzelko.com/03272020083421-call-center">https://jacobzelko.com/03272020083421-call-center</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>  

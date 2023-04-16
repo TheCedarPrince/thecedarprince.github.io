@@ -68,22 +68,13 @@
 <p>Zelko, Jacob. <em>Real-World Data and Real-World Evidence</em>. <a href="https://jacobzelko.com/10282021140730-real-world-evidence">https://jacobzelko.com/10282021140730-real-world-evidence</a>. October 28 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>  
@@ -124,7 +115,7 @@
 </li>
 <li><p>After US Food and Drug Administration approval, drug can be sold</p>
 </li>
-<li><p>If <a href="https://jacobzelko.com/07282021175202-fda-risk-prevention.md">negative side effects discovered</a>, FDA takes action</p>
+<li><p>If <a href="https://jacobzelko.com/07282021175202-fda-risk-prevention">negative side effects discovered</a>, FDA takes action</p>
 </li>
 </ol>
 <pre><code class="language-julia">1. Apply warning label to drug2. Possibly withdraws product</code></pre>
@@ -132,22 +123,13 @@
 <p>Zelko, Jacob. <em>United States Drug Approval Process</em>. <a href="https://jacobzelko.com/07282021174136-drug-approval">https://jacobzelko.com/07282021174136-drug-approval</a>. July 28 2021.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>  

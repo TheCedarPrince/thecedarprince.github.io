@@ -46,29 +46,20 @@
 <p>This talk explores the use of Julia in a novel observational health research study that explores health equity and mental health in ~100 million patients in an international collaborative effort across more than 4 countries. Contributions and efforts within the JuliaHealth and adjacent communities have made working with this data possible. The approaches and results shared will be valuable for potential researchers and will open new frontiers for high performance computing and health analytics.</p>
 <h4 id="proposal">Proposal</h4>
 <p>Conducting health research studies at scale to understand the health of specific communities and subpopulations has long been a struggle. This has been due to a variety of issues, such as a lack of international standards in the structure of electronic health records, patient claims data, and diagnoses. Moreover, the investigation of questions related to the topic of health equity &#40;that is, the skewed distribution of health resources or services to various subpopulations seeking healthcare&#41; has been largely stalled due to these problems.</p>
-<p>In a previous talk I gave, <a href="https://jacobzelko.com/https://www.youtube.com/watch?v&#61;5XsWUZX6lFM">Using Julia for Observational Health Research</a>, I presented early work on the success of using Julia within the space of observational health research in utilizing the <a href="https://jacobzelko.com/https://jacobzelko.com/02082021170353-cdm-standardized-tables/">OMOP Common Data Model</a>. In that previous work, I conducted a pilot study to characterize prevalence rates in mental health care for <a href="https://jacobzelko.com/https://jacobzelko.com/11042022141714-what-intersectionality-theory/#workable_definitions_of_intersectionality">intersectional subpopulations</a> suffering from bipolar disorder, depression, and/or suicidality. This work utilized novel tooling and approaches created within Julia to successfully analyze data from ~2.5 million Medicaid subscribers within the U.S. state of Georgia. This work earned the <a href="https://jacobzelko.com/https://www.ohdsi.org/2022-collaborator-showcase">highest awards at the top observational health research venue</a>, drove another successful grant proposal, and resulted in <a href="https://jacobzelko.com/https://www.nahdo.org/conference/2022/agenda">multiple invited talks</a>. Buoyed by the interest and success of this pilot work, my team and I have moved this project into the next phase: the examination of more than 100 million patients from more than 4 countries across the globe.</p>
-<p>In this talk, I will present advances within the JuliaHealth community and the broader Julia ecosystem that have made possible such large scale and federated analyses. In particular, novel JuliaHealth tools such as <a href="https://jacobzelko.com/https://juliahealth.org/OMOPCDMCohortCreator.jl/">OMOPCDMCohortCreator.jl</a> will be highlighted to show how to analyze &quot;big&quot; <a href="https://jacobzelko.com/https://jacobzelko.com/10282021140730-real-world-evidence/#united_states_food_and_drug_administration_definitions">real world data</a>, how using Julia can be of huge benefit within this space, and how Julia community members could start using these tools for their own research. As this study now takes place across multiple countries, time will also be spent discussing how Julia lends itself very well to robust analyses using literate programming tools such as <a href="https://jacobzelko.com/https://quarto.org">Quarto</a> or <a href="https://jacobzelko.com/https://github.com/JunoLab/Weave.jl">Weave.jl</a> and versioning processes through <a href="https://jacobzelko.com/https://github.com/JuliaDynamics/DrWatson.jl">DrWatson.jl</a> or <a href="https://jacobzelko.com/https://github.com/iterative/dvc">Data Version Control</a>, which can be utilized to handle each country&#39;s specific needs. Additionally, I will spend some time discussing issues encountered &#40;both technical and anthropological&#41;, ways that the Julia ecosystem could potentially grow to support future work in this research domain, and opportunities for Julia users to get involved. Finally, I will share my personal thoughts on what open questions there are to be addressed in observational health research and how Julia can be a tool to address public health questions and provide insight into questions of health disparities.</p>
+<p>In a previous talk I gave, <a href="https://www.youtube.com/watch?v&#61;5XsWUZX6lFM">Using Julia for Observational Health Research</a>, I presented early work on the success of using Julia within the space of observational health research in utilizing the <a href="https://jacobzelko.com/02082021170353-cdm-standardized-tables/">OMOP Common Data Model</a>. In that previous work, I conducted a pilot study to characterize prevalence rates in mental health care for <a href="https://jacobzelko.com/11042022141714-what-intersectionality-theory/#workable_definitions_of_intersectionality">intersectional subpopulations</a> suffering from bipolar disorder, depression, and/or suicidality. This work utilized novel tooling and approaches created within Julia to successfully analyze data from ~2.5 million Medicaid subscribers within the U.S. state of Georgia. This work earned the <a href="https://www.ohdsi.org/2022-collaborator-showcase">highest awards at the top observational health research venue</a>, drove another successful grant proposal, and resulted in <a href="https://www.nahdo.org/conference/2022/agenda">multiple invited talks</a>. Buoyed by the interest and success of this pilot work, my team and I have moved this project into the next phase: the examination of more than 100 million patients from more than 4 countries across the globe.</p>
+<p>In this talk, I will present advances within the JuliaHealth community and the broader Julia ecosystem that have made possible such large scale and federated analyses. In particular, novel JuliaHealth tools such as <a href="https://juliahealth.org/OMOPCDMCohortCreator.jl/">OMOPCDMCohortCreator.jl</a> will be highlighted to show how to analyze &quot;big&quot; <a href="https://jacobzelko.com/10282021140730-real-world-evidence/#united_states_food_and_drug_administration_definitions">real world data</a>, how using Julia can be of huge benefit within this space, and how Julia community members could start using these tools for their own research. As this study now takes place across multiple countries, time will also be spent discussing how Julia lends itself very well to robust analyses using literate programming tools such as <a href="https://quarto.org">Quarto</a> or <a href="https://github.com/JunoLab/Weave.jl">Weave.jl</a> and versioning processes through <a href="https://github.com/JuliaDynamics/DrWatson.jl">DrWatson.jl</a> or <a href="https://github.com/iterative/dvc">Data Version Control</a>, which can be utilized to handle each country&#39;s specific needs. Additionally, I will spend some time discussing issues encountered &#40;both technical and anthropological&#41;, ways that the Julia ecosystem could potentially grow to support future work in this research domain, and opportunities for Julia users to get involved. Finally, I will share my personal thoughts on what open questions there are to be addressed in observational health research and how Julia can be a tool to address public health questions and provide insight into questions of health disparities.</p>
 <p>In conclusion, this talk will highlight the real world use of Julia in large-scale health research studies built on real world data. Moreover, it will show the potential of the various ecosystems within Julia to analyze and tackle complex questions within health equity. Through this talk, I invite future Julia users and researchers to join me in pursuing the potential of Julia within the space of observational health research.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>100 Million Patients: Julia for International Health Studies</em>. <a href="https://jacobzelko.com/01152023193153-juliacon-study-proposal">https://jacobzelko.com/01152023193153-juliacon-study-proposal</a>. January 15 2023.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>  
@@ -110,22 +101,13 @@
 <p>Zelko, Jacob. <em>LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic</em>. <a href="https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable">https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -182,22 +164,13 @@
 <p>&#91;7&#93; A. R. Favazza and R. J. Rosenthal, “Diagnostic issues in self-mutilation,” Psychiatr. Serv., vol. 44, no. 2, pp. 134–140, 1993.</p>
 <p>&#91;8&#93; D. Tantam and J. Whittaker, “Personality disorder and self-wounding,” Br. J. Psychiatry, vol. 161, no. 4, pp. 451–464, 1992.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
@@ -235,22 +208,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; M. K. Nock, “Self-injury,” Annu. Rev. Clin. Psychol., vol. 6, pp. 339–363, 2010.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
@@ -301,22 +265,13 @@
 <p>Zelko, Jacob. <em>Underestimating Digital Media Harm</em>. <a href="https://jacobzelko.com/05252020221842-digital-media">https://jacobzelko.com/05252020221842-digital-media</a>. May 25 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
@@ -349,7 +304,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>I have often heard it said that a room or home reflects a person&#39;s state of mind. Ideally, a well-organized mind should map to a nicely ordered room and the logical contrapositive of that statement follows suit. However, what is not immediately understood is the notion of a room or house being an extension of that person&#39;s mental processes.</p>
-<p>For example, a smoker who is attempting to quit smoking often is taught many different sorts of ways to handle cessation. Two such ideas are the notions of a <a href="https://jacobzelko.com/05172020232612-smoking-cessation.md">&quot;butt jar&quot; and a &quot;savings jar&quot;.</a> These are two actual jars that quitters set-up in their home to reinforce the idea of quitting. The &quot;butt jar&quot; contains the butts of cigarettes one smokes with graphic imagery of cancerous organs to associate adverse events with smoking more clearly. The other &quot;savings jar&quot; is a reward system where quitters put the money they would have spent on smoking into the jar. They then can use this money for whatever pleasurable or fun activity they please.</p>
+<p>For example, a smoker who is attempting to quit smoking often is taught many different sorts of ways to handle cessation. Two such ideas are the notions of a <a href="https://jacobzelko.com/05172020232612-smoking-cessation">&quot;butt jar&quot; and a &quot;savings jar&quot;.</a> These are two actual jars that quitters set-up in their home to reinforce the idea of quitting. The &quot;butt jar&quot; contains the butts of cigarettes one smokes with graphic imagery of cancerous organs to associate adverse events with smoking more clearly. The other &quot;savings jar&quot; is a reward system where quitters put the money they would have spent on smoking into the jar. They then can use this money for whatever pleasurable or fun activity they please.</p>
 <p>Here, the jars work as a physical extension of the mind. Furthermore, I once had a professor named Debra Dudick at Corning Community College. Her desk was an absolute mess covered with stacks of papers and books everywhere. A little nook in the corner of her desk was carved out for her computer. Yet, she knew where every single file, book, or reference that she needed was despite the mess. And as the chair of the Engineering Department, she needed speed in her work.</p>
 <p>Somehow, her mind made disparate associations across her desk that actually helped her find what she was looking for. One could reason that due to the extra labor it took to sift through materials, her mind automatically made connections between object and place to facilitate easier finding. This is in opposition to the idea of having everything clean. Instead, the desk became an external mapping of her mind that was only activated when needed.</p>
 <p>The question remains if this is a viable means to extending human thought and to decrease cognitive load. The human mind is not neatly organized, rather, much like an unkempt desk, its connections are far and wide across the brain. So why do we attempt to force our environment in this way?</p>
@@ -357,22 +312,13 @@
 <p>Zelko, Jacob. <em>The Room as an Extension of the Mind</em>. <a href="https://jacobzelko.com/05092020053840-room-mind">https://jacobzelko.com/05092020053840-room-mind</a>. April 28 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>  

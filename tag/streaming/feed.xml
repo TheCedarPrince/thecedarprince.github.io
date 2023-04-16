@@ -42,7 +42,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Reading Motivation</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="reading_motivation">Reading Motivation</h3>
-<p>Streaming is an immensely important concept I have consistently found. I came to appreciate the concept more deeply by interacting with <a href="https://jacobzelko.com/https://juliaio.github.io/TranscodingStreams.jl/stable/">TranscodingStreams.jl</a> to parse terabytes worth of data out of memory in a JSON format &#40;shudders at the thought of this&#41;.</p>
+<p>Streaming is an immensely important concept I have consistently found. I came to appreciate the concept more deeply by interacting with <a href="https://juliaio.github.io/TranscodingStreams.jl/stable/">TranscodingStreams.jl</a> to parse terabytes worth of data out of memory in a JSON format &#40;shudders at the thought of this&#41;.</p>
 <p>Once your data is stored in files, data lakes, or data warehouses, it becomes historical data.</p>
 <p>Streaming data refers to data that is still flowing through a system, e.g. moving from one microservice to another.</p>
 <p>Historical data is often processed in batch jobs — jobs that are kicked off periodically. For example, once a day, you might want to kick off a batch job to generate recommendations for all users. When data is processed in batch jobs, we refer to it as batch processing.</p>
@@ -70,22 +70,13 @@
 <p>Zelko, Jacob. <em>Introduction To Streaming for Data Scientists</em>. <a href="https://jacobzelko.com/09092022205654-streaming-data-scientists">https://jacobzelko.com/09092022205654-streaming-data-scientists</a>. September 9 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>  

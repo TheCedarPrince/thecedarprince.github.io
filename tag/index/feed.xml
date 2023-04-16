@@ -104,22 +104,13 @@ A_{i} = \{i\} \times [0, 1]
 <p>Zelko, Jacob. <em>Indexed Sets &#40;Or How to Index Sets&#41;</em>. <a href="https://jacobzelko.com/09302022040126-indexed-sets">https://jacobzelko.com/09302022040126-indexed-sets</a>. September 30 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>  
@@ -156,29 +147,20 @@ A_{i} = \{i\} \times [0, 1]
 <h3 id="definitions">Definitions</h3>
 <p>Social vulnerability is defined as the extent to which a community contains social characteristics that may affect the community&#39;s overall resilience &#40;18&#41;. It is affected by 	- Situational factors: Employment, Education, Income, Housing Type &#40;19, 20&#41; 	- Intrinsic factors: Age, Race, and Ethnicity &#40;19, 21&#41;</p>
 <h3 id="social_vulnerability_index_calculations">Social Vulnerability Index Calculations</h3>
-<p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index.md">See Note for Details</a></p>
+<p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">See Note for Details</a></p>
 <h3 id="digression_on_black_belt">Digression on Black Belt</h3>
 <p>I never knew the term for this but historically, where African Americans were heavily enslaved is called the &quot;Black Belt&quot;. The authors found that high SVI and heat-related deaths were often found in these historical communities &#91;32&#93;.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia</em>. <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -213,27 +195,18 @@ A_{i} = \{i\} \times [0, 1]
 <p>SVI data can be retrieved from: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html</p>
 <p>For at least the 2000 version of SVI, the metric is derived from summed percentile rankings at census tract level of fifteen U.S. Census variables shown in the following table: </p>
 <table><tr><th align="left">SVI Theme</th><th align="left">Variables Included</th></tr><tr><td align="left">1. Socioeconomic Status</td><td align="left">&#37; Below Poverty Level</td></tr><tr><td align="left"></td><td align="left">&#37; Unemployed</td></tr><tr><td align="left"></td><td align="left">Per Capita Income</td></tr><tr><td align="left"></td><td align="left">&#37; Age 25 or Older with No High School</td></tr><tr><td align="left">2. Household Composition &amp;</td><td align="left">Diploma</td></tr><tr><td align="left">Disability</td><td align="left">&#37; Age 65 or Older</td></tr><tr><td align="left"></td><td align="left">&#37; Age 17 or Younger</td></tr><tr><td align="left">3. Minority Status &amp; Language</td><td align="left">&#37; Single Parent Household</td></tr><tr><td align="left"></td><td align="left">&#37; Age 5 or Older Speak English &quot;Less than</td></tr><tr><td align="left">4. Housing &amp; Transportation</td><td align="left">Well&quot;</td></tr><tr><td align="left"></td><td align="left">&#37; Multi-Unit Structures</td></tr><tr><td align="left"></td><td align="left">&#37; Mobile Homes</td></tr><tr><td align="left"></td><td align="left">&#37; Crowding &#40;More people than rooms&#41;</td></tr><tr><td align="left"></td><td align="left">&#37; Households without a Vehicle</td></tr><tr><td align="left"></td><td align="left">&#37; In Institutionalized Group Quarters</td></tr></table>
-<p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes.md">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
+<p>These variables were determined from an extensive literature review &#91;19,20,23,29, 30&#93;. &lt;&#33;–TODO: Get references from <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">this file</a>–&gt; The SVI is normalized between 0 and 1 with 0 representing low social vulnerability and 1 representing high social vulnerability.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Social Vulnerability Index</em>. <a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">https://jacobzelko.com/09082022144933-social-vulnerability-index</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -265,28 +238,19 @@ A_{i} = \{i\} \times [0, 1]
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
-<p>Mentioned in the note <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking.md">X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</a></p>
+<p>Mentioned in the note <a href="https://jacobzelko.com/04162022002725-mathematician-gender-rethinking">X &#43; Y : A Mathematician’s Manifesto for Rethinking Gender</a></p>
 <p>One contentious example is body mass index, or BMI. The formula for BMI uses height and weight, so the relationship between height, weight, and BMI is defined and fixed. However, BMI is then taken as a proxy for body fat, which is then in turn taken as a proxy for healthiness, even though those relationships are not fixed or precisely definable</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Body Mass Index &#40;BMI&#41;</em>. <a href="https://jacobzelko.com/04162022022947-body-mass-index">https://jacobzelko.com/04162022022947-body-mass-index</a>. April 15 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>  
@@ -329,22 +293,13 @@ A_{i} = \{i\} \times [0, 1]
 <h2 id="references">References:</h2>
 <p>&#91;1&#93; Cuebiq, “Mobility Insights - Cuebiq,” 08-Jun-2021. &#91;Online&#93;. Available: https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic. &#91;Accessed: 08-Jun-2021&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>  
@@ -378,35 +333,26 @@ A_{i} = \{i\} \times [0, 1]
 <div class="franklin-toc"><ol><li><ol><li>Thoughts about Health</li><li>Diseases</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="thoughts_about_health">Thoughts about Health</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03092020022148-health-spectrum">Health as a Spectrum</a></p>
+<li><p><a href="03092020022148-health-spectrum">Health as a Spectrum</a></p>
 </li>
 </ul>
 <hr />
 <h3 id="diseases">Diseases</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03102020051547-sars-cov-2">SARS-CoV-2</a></p>
+<li><p><a href="03102020051547-sars-cov-2">SARS-CoV-2</a></p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>The Health Index, Jacob 😷</em>. <a href="https://jacobzelko.com/03092020025554-health-index">https://jacobzelko.com/03092020025554-health-index</a>. March 9 2020.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>  

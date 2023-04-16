@@ -48,22 +48,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; S. Carrino, M. Caon, O. Abou Khaled, R. Ingold, and E. Mugellini, “Functional Gestures for Human-Environment Interaction,” in Human-Computer Interaction. Interaction Modalities and Techniques, vol. 8007, M. Kurosu, Ed. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 167–176.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>  
@@ -104,28 +95,19 @@
 <li><p>Combine subproblem solutions to one solution for the original problem.</p>
 </li>
 </ol>
-<p>One example of this paradigm is <a href="https://jacobzelko.com/12192020184204-merge-sort.md">Merge Sort</a>.</p>
+<p>One example of this paradigm is <a href="https://jacobzelko.com/12192020184204-merge-sort">Merge Sort</a>.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Divide and Conquer Algorithmic Design</em>. <a href="https://jacobzelko.com/01072021062203-divide-conquer">https://jacobzelko.com/01072021062203-divide-conquer</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; T. Roughgarden, Algorithms illuminated. Part 1: The Basics. San Francisco, CA: Soundlikeyourself Publishing, 2017.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
@@ -164,22 +146,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; T. H. Cormen, Ed., Introduction to algorithms, 3rd ed. Cambridge, Mass: MIT Press, 2009.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
@@ -213,35 +186,26 @@
 <div class="franklin-toc"><ol><li><ol><li>Common Sorting Algorithms</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="common_sorting_algorithms">Common Sorting Algorithms</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/12192020184137-insertion-sort.md">Insertion Sort</a> -</p>
+<li><p><a href="https://jacobzelko.com/12192020184137-insertion-sort">Insertion Sort</a> -</p>
 </li>
-<li><p><a href="https://jacobzelko.com/12192020184204-merge-sort.md">Merge Sort</a> -</p>
+<li><p><a href="https://jacobzelko.com/12192020184204-merge-sort">Merge Sort</a> -</p>
 </li>
-<li><p><a href="https://jacobzelko.com/12212020214025-bubble-sort.md">Bubble Sort</a> -</p>
+<li><p><a href="https://jacobzelko.com/12212020214025-bubble-sort">Bubble Sort</a> -</p>
 </li>
-<li><p><a href="https://jacobzelko.com/12212020214012-selection-sort.md">Selection Sort</a> - Selection sort utilizes repeated usages of linear searches to sort an input.</p>
+<li><p><a href="https://jacobzelko.com/12212020214012-selection-sort">Selection Sort</a> - Selection sort utilizes repeated usages of linear searches to sort an input.</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Sorting Algorithms</em>. <a href="https://jacobzelko.com/12192020180920-sorting-algorithms">https://jacobzelko.com/12192020180920-sorting-algorithms</a>. December 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>  
@@ -279,22 +243,13 @@
 <p>Zelko, Jacob. <em>What are Voxels</em>. <a href="https://jacobzelko.com/11302020054820-voxel">https://jacobzelko.com/11302020054820-voxel</a>. November 30 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>  
@@ -334,27 +289,18 @@
 <p>&quot;Luhmann&#39;s card index allows the production of new and often unexpected knowledge by relating concepts and thoughts that do not have much in common at first sight &#91;...&#93; &#91;I&#93;t makes &#91;...&#93; serendipity possible in a systemically and theoretically informed way.&quot; &#40;pg. 54&#41;</p>
 </blockquote>
 <p>The power of the Zettelkasten comes from these accidental connections. Very similar to how one may spread out pieces of paper on a table and make a new connection, so does this method simulate it in very much the same way.</p>
-<p>Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as <a href="https://jacobzelko.com/03092020022908-education-spectrum.md">knowledge falls across a spectrum.</a> &#40;pg. 56&#41;</p>
+<p>Luhmann employed ambiguity and indecisiveness into the development of the Zettelkasten approach whenever he added a new piece of information to the Zettelkasten. Rather than assigning the piece of information to one discrete category, he enabled that piece of info to naturally attach itself to other pieces of information as <a href="https://jacobzelko.com/03092020022908-education-spectrum">knowledge falls across a spectrum.</a> &#40;pg. 56&#41;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Niklas Luhmann&#39;s Card Index: The Fabrication of Serendipity</em>. <a href="https://jacobzelko.com/05032020155207-fabrication-serendipity">https://jacobzelko.com/05032020155207-fabrication-serendipity</a>. May 3 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>  
@@ -394,22 +340,13 @@
 <p>Zelko, Jacob. <em>Raspberry Pi</em>. <a href="https://jacobzelko.com/03102020061135-raspberry-pi">https://jacobzelko.com/03102020061135-raspberry-pi</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  

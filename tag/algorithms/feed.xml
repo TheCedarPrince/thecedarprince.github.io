@@ -67,22 +67,13 @@ end</code></pre>
 <p>Zelko, Jacob. <em>Selection Sort</em>. <a href="https://jacobzelko.com/12212020214012-selection-sort">https://jacobzelko.com/12212020214012-selection-sort</a>. December 21 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion__2">Discussion</h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>  
@@ -116,35 +107,26 @@ end</code></pre>
 <div class="franklin-toc"><ol><li><ol><li>Common Sorting Algorithms</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="common_sorting_algorithms">Common Sorting Algorithms</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/12192020184137-insertion-sort.md">Insertion Sort</a> -</p>
+<li><p><a href="https://jacobzelko.com/12192020184137-insertion-sort">Insertion Sort</a> -</p>
 </li>
-<li><p><a href="https://jacobzelko.com/12192020184204-merge-sort.md">Merge Sort</a> -</p>
+<li><p><a href="https://jacobzelko.com/12192020184204-merge-sort">Merge Sort</a> -</p>
 </li>
-<li><p><a href="https://jacobzelko.com/12212020214025-bubble-sort.md">Bubble Sort</a> -</p>
+<li><p><a href="https://jacobzelko.com/12212020214025-bubble-sort">Bubble Sort</a> -</p>
 </li>
-<li><p><a href="https://jacobzelko.com/12212020214012-selection-sort.md">Selection Sort</a> - Selection sort utilizes repeated usages of linear searches to sort an input.</p>
+<li><p><a href="https://jacobzelko.com/12212020214012-selection-sort">Selection Sort</a> - Selection sort utilizes repeated usages of linear searches to sort an input.</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Sorting Algorithms</em>. <a href="https://jacobzelko.com/12192020180920-sorting-algorithms">https://jacobzelko.com/12192020180920-sorting-algorithms</a>. December 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>  

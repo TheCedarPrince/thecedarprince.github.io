@@ -50,28 +50,19 @@
 <li><p>Combine subproblem solutions to one solution for the original problem.</p>
 </li>
 </ol>
-<p>One example of this paradigm is <a href="https://jacobzelko.com/12192020184204-merge-sort.md">Merge Sort</a>.</p>
+<p>One example of this paradigm is <a href="https://jacobzelko.com/12192020184204-merge-sort">Merge Sort</a>.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Divide and Conquer Algorithmic Design</em>. <a href="https://jacobzelko.com/01072021062203-divide-conquer">https://jacobzelko.com/01072021062203-divide-conquer</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; T. Roughgarden, Algorithms illuminated. Part 1: The Basics. San Francisco, CA: Soundlikeyourself Publishing, 2017.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  

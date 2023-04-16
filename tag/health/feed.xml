@@ -23,6 +23,131 @@
 
 <item>
   <title>
+    <![CDATA[  Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research  ]]>
+  </title>
+  <link> https://jacobzelko.com/01102023212115-computable-phenotypes/index.html </link>
+  <guid> https://jacobzelko.com/01102023212115-computable-phenotypes/index.html </guid>
+  <description>
+    <![CDATA[  Considerations and discussion on a workflow for developing computable phenotype definitions to define disease  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research</h1>
+<p><strong>Date:</strong> April 15 2023</p>
+<p><strong>Summary:</strong> Considerations and discussion on a workflow for developing computable phenotype definitions to define disease</p>
+<p><strong>Keywords:</strong> #computable #phenotype #observational #health #blog #equity #archive</p>
+<h1>Bibliography</h1>
+<p>J. S. Zelko et al., “Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research.” arXiv, Mar. 30, 2023. doi: 10.48550/arXiv.2304.06504.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Background</li><li>What&#39;s the Purpose about This Paper?</li><li>What&#39;s the Process?</li><li>What Are the Trade-offs in Developing a Definition?</li><li>Wrap-Up</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>This small blog post gives a very high level overview of a paper I authored on developing phenotype definitions which are computable and robust to a disease being examined.  <a href="https://arxiv.org/abs/2304.06504">This paper is vailable on arXiv under a CC BY-SA 4.0 license</a>.  Please <a href="https://jacobzelko.com/resources/">reach out to me</a> if you have any issues accessing this paper and I will send you a PDF&#33;</p>
+<h3 id="background">Background</h3>
+<p>While working on some of my notes one day, I realized I had the beginnings of a paper&#33; In particular, I was working on a note about <a href="https://jacobzelko.com//01072021074632-computable-phenotypes">computable phenotypes</a> and thinking about <a href="https://jacobzelko.com//01022021031334-all-payer-claims">All Payer Claims Databases</a>. Additionally, I am in the course of a current endeavor built on a study I conducted last year called, <a href="https://zenodo.org/record/7779877"><em>A Pilot Characterization Study Assessing Health Equity in Mental Healthcare Delivery within the State of Georgia</em></a> which has made me think strongly about the whole concept of developing definitions of disease.</p>
+<p>It just so happened while I was thinking about these ideas, my Georgia Tech Research Institute colleague, Dr. Shenita Freeman, let me know about an upcoming IEEE conference, the <a href="https://web.archive.org/web/20230325190023/http://2023.cbms-conference.org/"><em>2023 IEEE Computer Based Medical Systems conference</em></a>. We both took a look at the opportunity and saw that a paper about computable phenotypes as well as the overall notion of phenotype definitions was a good idea for the conference. I reached out to some collaborators and we were off on writing this paper&#33;</p>
+<h3 id="whats_the_purpose_about_this_paper">What&#39;s the Purpose about This Paper?</h3>
+<p>What if I told you, how we, as researchers, speak about disease is, wrong – or at least, not quite accurate? For example, if I tell you, &quot;I research diabetes&#33;&quot;, well that is great and a noble cause but that doesn&#39;t help with telling people what it is that you are <em>actually</em> doing. As any diabetic knows, there is a huge difference between Type I Diabetes and Type II Diabetes and that doesn&#39;t consider other species of diabetes such as gestational diabetes, etc. So, it seems to me, that we need some sort of rigorous way to talk about disease, right?</p>
+<p>Yes&#33; Many researchers over the years have been defining what are called <a href="https://jacobzelko.com//01072021074632-computable-phenotypes">&quot;phenotypes&quot;</a> which can be things like disease diagnoses &#40;such as Type II Diabetes&#41; and lab measurements &#40;like blood glucose, HbA1C, etc.&#41;. Then, we can build upon these phenotypes into what is called a &quot;phenotype definition&quot;. Simply put, these are a set of instructions that tells us <em>how</em> we are observing these phenotypes. Going back to our rather vague diabetes researcher, they tell us that they are actually investigating Type II Diabetes in geriatric populations within patient data they have access to. Now that is a lot more useful&#33;  A possible phenotype definition for what our researcher friend is doing is: &quot;Patients who are 65 or older with a diagnosis of or related to Type II Diabetes.&quot;</p>
+<p>Our researcher is in much better shape on explaining what they have done.  So good that they are on their way to a research conference to present on findings from this definition&#33; Their fellow researchers, as well as some clinicians, at the conference love what they are doing and want to know how they can reproduce this definition with their own patient datasets. And, our researcher friend has documented the process... Right?</p>
+<p>Definitely&#33; They have prepared it in the form of a computable phenotype definition&#33; They took the diabetes phenotype definition, looked up medical diagnosis codes, and reviewed patient data that is generally to see what could actually be computed on their patient data. Our researcher chose to implement their computable phenotype definition within a query language like SQL but having the computable phenotype definition on hand, other researchers could either adapt the SQL or re-implement it in another approach they prefer.</p>
+<p>And just like that, our researcher now has a much clearer, meaningful, and impactful answer to the question, &quot;What disease are you studying?&quot;</p>
+<h3 id="whats_the_process">What&#39;s the Process?</h3>
+<p><img src="03302023175728-phenotype-workflow-diagram.png" alt="" /></p>
+<p>We spent a lot of time thinking through each step a researcher could potentially take on developing a phenotype definition and this diagram summarized our thinking of the entire process. Additionally, to summarize these steps, we created a checklist that could be followed here for developing a phenotype definition: </p>
+<ul>
+<li><p>&#91; &#93; Intent</p>
+</li>
+<li><p>&#91; &#93; Decide on a motivation to guide phenotype definition construction</p>
+</li>
+<li><p>&#91; &#93; Literature Review</p>
+<ul>
+<li><p>&#91; &#93; Identify phenotypes</p>
+</li>
+<li><p>&#91; &#93; Review or validate selected phenotypes</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Identify Phenotypes</p>
+<ul>
+<li><p>&#91; &#93; Specify phenotypes</p>
+</li>
+<li><p>&#91; &#93; Add constraints</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Translate needs to phenotype definition</p>
+<ul>
+<li><p>&#91; &#93; Define disqualifiers and/or strengtheners</p>
+</li>
+<li><p>&#91; &#93; Combine relevant phenotypes with a logic description</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Develop Computable Phenotype</p>
+<ul>
+<li><p>&#91; &#93; Review what concepts are consistently present in data</p>
+</li>
+<li><p>&#91; &#93; Implement phenotype definition in a computable form</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Execute Definition</p>
+<ul>
+<li><p>&#91; &#93; Execute computable phenotype definition on database</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Assess &amp; Revise</p>
+<ul>
+<li><p>&#91; &#93; Consider assumptions within phenotype definition</p>
+</li>
+<li><p>&#91; &#93; Revise phenotype definition as needed</p>
+</li>
+</ul>
+</li>
+<li><p>&#91; &#93; Do, Monitor, &amp; Evaluate</p>
+<ul>
+<li><p>&#91; &#93; Answer research question or achieve goal.</p>
+</li>
+<li><p>&#91; &#93; Repeat phenotype definition checklist as appropriate</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>To learn more about this checklist, definitely read the second part of the paper&#33; </p>
+<h3 id="what_are_the_trade-offs_in_developing_a_definition">What Are the Trade-offs in Developing a Definition?</h3>
+<p>The paper further goes into details about some of the trade-offs within developing a phenotype definition.  You may be surprised to hear that there would have to be trade-offs in defining a disease for a population. However, in practice, some counter-intuitive observations emerge:</p>
+<p>The first is what I refer to as the paradox of phenotype definitions. A very well-intentioned but somewhat naive approach when thinking about researching specific subpopulations is to define your phenotype definition as specifically as possible. For example, a possible phenotype definition could be &quot;White male patients with depression between the ages of 40 - 49 living within rural Tennessee counties&quot;. However, with each <a href="https://jacobzelko.com//11042022134535-structural-intersectionality">intersecting feature &#40;&quot;axis&quot;&#41; imposed on a population</a>, the resulting number of patients captured is smaller and smaller. Going back to our example, if you have 1000 males in Tennessee, 100 people between the ages of 40-49, and only 50 people within rural parts of the state, then at best, you&#39;ll only end up with 50 people matching your phenotype definition. The question becomes less of how to make a precise definition and more of balancing the trade-off between if a phenotype definition actually represents the population one is investigating and how useful a phenotype definition in practice will be. </p>
+<p>The second, is how a phenotype definition can differ from a computable phenotype definition. What I mean by that is a team of clinicians who may want to study a specific disease make a very clinically accurate picture of a patient population in a phenotype definition. However, when an informaticist looks at the definition and tries to implement it into a computable phenotype definition, there may be some aspects of the original phenotype definition that do not map well to a software implementation in practice. For more details, I suggest strongly to look at the first part of this paper as this topic is quite extensive.</p>
+<p>Finally, and by no means exhaustive to our list of trade-offs, is the idea of, &quot;Is the data we want to analyze even computable?&quot; An excellent example that had to be cut from the paper for space reasons is the emergence of COVID19. When COVID19 emerged as a threat to humanity, everyone wanted to analyze it and understand it as rapidly as possible. However, the problem was, was that there was a long &#40;in the context of the pandemic&#41; period in which collecting data on COVID19 diagnosis and symptom-type data was not possible. Hospitals would code deaths as related to symptoms exacerbated by COVID19 &#40;myocardial infarction, pneumonia, etc.&#41;, diagnoses related to presented symptoms &#40;bronchitis, stroke, etc.&#41; but never to a formal COVID19 diagnosis. This has since been remedied by emergency measures taken by <a href="https://icd.who.int/en">ICD</a> for medical coding but now, much of the earlier pandemic data, if someone wanted to study COVID19 with any kind of phenotype definition for COVID19, is not accurate. This presents a disconnect between a known problem &#40;COVID19&#41; to be studied and what could actually be studied &#40;the data that is actually available for computation&#41;.</p>
+<h3 id="wrap-up">Wrap-Up</h3>
+<p>In summary, I sincerely believe that this paper is quite useful in many different areas&#33; Especially, this paper can now serve as a sort of touchstone for interdisciplinary teams when discussing these concepts. </p>
+<p>Please let me know if you have any questions and comments or if you notice any egregious errors within the paper in the comments&#33;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Developing a Robust Computable Phenotype Definition Workflow to Describe Health and Disease in Observational Health Research</em>. <a href="https://jacobzelko.com/01102023212115-computable-phenotypes">https://jacobzelko.com/01102023212115-computable-phenotypes</a>. April 15 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  100 Million Patients: Julia for International Health Studies  ]]>
   </title>
   <link> https://jacobzelko.com/01152023193153-juliacon-study-proposal/index.html </link>
@@ -46,29 +171,20 @@
 <p>This talk explores the use of Julia in a novel observational health research study that explores health equity and mental health in ~100 million patients in an international collaborative effort across more than 4 countries. Contributions and efforts within the JuliaHealth and adjacent communities have made working with this data possible. The approaches and results shared will be valuable for potential researchers and will open new frontiers for high performance computing and health analytics.</p>
 <h4 id="proposal">Proposal</h4>
 <p>Conducting health research studies at scale to understand the health of specific communities and subpopulations has long been a struggle. This has been due to a variety of issues, such as a lack of international standards in the structure of electronic health records, patient claims data, and diagnoses. Moreover, the investigation of questions related to the topic of health equity &#40;that is, the skewed distribution of health resources or services to various subpopulations seeking healthcare&#41; has been largely stalled due to these problems.</p>
-<p>In a previous talk I gave, <a href="https://jacobzelko.com/https://www.youtube.com/watch?v&#61;5XsWUZX6lFM">Using Julia for Observational Health Research</a>, I presented early work on the success of using Julia within the space of observational health research in utilizing the <a href="https://jacobzelko.com/https://jacobzelko.com/02082021170353-cdm-standardized-tables/">OMOP Common Data Model</a>. In that previous work, I conducted a pilot study to characterize prevalence rates in mental health care for <a href="https://jacobzelko.com/https://jacobzelko.com/11042022141714-what-intersectionality-theory/#workable_definitions_of_intersectionality">intersectional subpopulations</a> suffering from bipolar disorder, depression, and/or suicidality. This work utilized novel tooling and approaches created within Julia to successfully analyze data from ~2.5 million Medicaid subscribers within the U.S. state of Georgia. This work earned the <a href="https://jacobzelko.com/https://www.ohdsi.org/2022-collaborator-showcase">highest awards at the top observational health research venue</a>, drove another successful grant proposal, and resulted in <a href="https://jacobzelko.com/https://www.nahdo.org/conference/2022/agenda">multiple invited talks</a>. Buoyed by the interest and success of this pilot work, my team and I have moved this project into the next phase: the examination of more than 100 million patients from more than 4 countries across the globe.</p>
-<p>In this talk, I will present advances within the JuliaHealth community and the broader Julia ecosystem that have made possible such large scale and federated analyses. In particular, novel JuliaHealth tools such as <a href="https://jacobzelko.com/https://juliahealth.org/OMOPCDMCohortCreator.jl/">OMOPCDMCohortCreator.jl</a> will be highlighted to show how to analyze &quot;big&quot; <a href="https://jacobzelko.com/https://jacobzelko.com/10282021140730-real-world-evidence/#united_states_food_and_drug_administration_definitions">real world data</a>, how using Julia can be of huge benefit within this space, and how Julia community members could start using these tools for their own research. As this study now takes place across multiple countries, time will also be spent discussing how Julia lends itself very well to robust analyses using literate programming tools such as <a href="https://jacobzelko.com/https://quarto.org">Quarto</a> or <a href="https://jacobzelko.com/https://github.com/JunoLab/Weave.jl">Weave.jl</a> and versioning processes through <a href="https://jacobzelko.com/https://github.com/JuliaDynamics/DrWatson.jl">DrWatson.jl</a> or <a href="https://jacobzelko.com/https://github.com/iterative/dvc">Data Version Control</a>, which can be utilized to handle each country&#39;s specific needs. Additionally, I will spend some time discussing issues encountered &#40;both technical and anthropological&#41;, ways that the Julia ecosystem could potentially grow to support future work in this research domain, and opportunities for Julia users to get involved. Finally, I will share my personal thoughts on what open questions there are to be addressed in observational health research and how Julia can be a tool to address public health questions and provide insight into questions of health disparities.</p>
+<p>In a previous talk I gave, <a href="https://www.youtube.com/watch?v&#61;5XsWUZX6lFM">Using Julia for Observational Health Research</a>, I presented early work on the success of using Julia within the space of observational health research in utilizing the <a href="https://jacobzelko.com/02082021170353-cdm-standardized-tables/">OMOP Common Data Model</a>. In that previous work, I conducted a pilot study to characterize prevalence rates in mental health care for <a href="https://jacobzelko.com/11042022141714-what-intersectionality-theory/#workable_definitions_of_intersectionality">intersectional subpopulations</a> suffering from bipolar disorder, depression, and/or suicidality. This work utilized novel tooling and approaches created within Julia to successfully analyze data from ~2.5 million Medicaid subscribers within the U.S. state of Georgia. This work earned the <a href="https://www.ohdsi.org/2022-collaborator-showcase">highest awards at the top observational health research venue</a>, drove another successful grant proposal, and resulted in <a href="https://www.nahdo.org/conference/2022/agenda">multiple invited talks</a>. Buoyed by the interest and success of this pilot work, my team and I have moved this project into the next phase: the examination of more than 100 million patients from more than 4 countries across the globe.</p>
+<p>In this talk, I will present advances within the JuliaHealth community and the broader Julia ecosystem that have made possible such large scale and federated analyses. In particular, novel JuliaHealth tools such as <a href="https://juliahealth.org/OMOPCDMCohortCreator.jl/">OMOPCDMCohortCreator.jl</a> will be highlighted to show how to analyze &quot;big&quot; <a href="https://jacobzelko.com/10282021140730-real-world-evidence/#united_states_food_and_drug_administration_definitions">real world data</a>, how using Julia can be of huge benefit within this space, and how Julia community members could start using these tools for their own research. As this study now takes place across multiple countries, time will also be spent discussing how Julia lends itself very well to robust analyses using literate programming tools such as <a href="https://quarto.org">Quarto</a> or <a href="https://github.com/JunoLab/Weave.jl">Weave.jl</a> and versioning processes through <a href="https://github.com/JuliaDynamics/DrWatson.jl">DrWatson.jl</a> or <a href="https://github.com/iterative/dvc">Data Version Control</a>, which can be utilized to handle each country&#39;s specific needs. Additionally, I will spend some time discussing issues encountered &#40;both technical and anthropological&#41;, ways that the Julia ecosystem could potentially grow to support future work in this research domain, and opportunities for Julia users to get involved. Finally, I will share my personal thoughts on what open questions there are to be addressed in observational health research and how Julia can be a tool to address public health questions and provide insight into questions of health disparities.</p>
 <p>In conclusion, this talk will highlight the real world use of Julia in large-scale health research studies built on real world data. Moreover, it will show the potential of the various ecosystems within Julia to analyze and tackle complex questions within health equity. Through this talk, I invite future Julia users and researchers to join me in pursuing the potential of Julia within the space of observational health research.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>100 Million Patients: Julia for International Health Studies</em>. <a href="https://jacobzelko.com/01152023193153-juliacon-study-proposal">https://jacobzelko.com/01152023193153-juliacon-study-proposal</a>. January 15 2023.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>  
@@ -100,27 +216,18 @@
 <p>Not available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>I have been trying to understand what health actually is.  After much thinking, I have come to the conclusion that health can be thought of as a spectrum.  This is similar to the idea that <a href="https://jacobzelko.com/03092020022908-education-spectrum">education is a spectrum</a>.</p>
+<p>I have been trying to understand what health actually is.  After much thinking, I have come to the conclusion that health can be thought of as a spectrum.  This is similar to the idea that <a href="03092020022908-education-spectrum">education is a spectrum</a>.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Health as a Spectrum</em>. <a href="https://jacobzelko.com/03092020022148-health-spectrum">https://jacobzelko.com/03092020022148-health-spectrum</a>. December 2 2022.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>  
@@ -162,29 +269,20 @@
 <p>Embedded into this notion are several concepts such as social context and complexity &#40;Collins and Bilge 2020&#41;</p>
 <h3 id="why_are_intersectional_approaches_needed">Why Are Intersectional Approaches Needed?</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/11042022134535-structural-intersectionality.md">Structural Intersectionality as a New Direction for Health Disparities Research</a> - An introduction to intersectionality theory and medical sociological ideas at play within health disparities research</p>
+<li><p><a href="https://jacobzelko.com/11042022134535-structural-intersectionality">Structural Intersectionality as a New Direction for Health Disparities Research</a> - An introduction to intersectionality theory and medical sociological ideas at play within health disparities research</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>What Is Intersectionality and Intersectionality Theory?</em>. <a href="https://jacobzelko.com/11042022141714-what-intersectionality-theory">https://jacobzelko.com/11042022141714-what-intersectionality-theory</a>. November 4 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>  
@@ -221,29 +319,20 @@
 <h3 id="definitions">Definitions</h3>
 <p>Social vulnerability is defined as the extent to which a community contains social characteristics that may affect the community&#39;s overall resilience &#40;18&#41;. It is affected by 	- Situational factors: Employment, Education, Income, Housing Type &#40;19, 20&#41; 	- Intrinsic factors: Age, Race, and Ethnicity &#40;19, 21&#41;</p>
 <h3 id="social_vulnerability_index_calculations">Social Vulnerability Index Calculations</h3>
-<p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index.md">See Note for Details</a></p>
+<p><a href="https://jacobzelko.com/09082022144933-social-vulnerability-index">See Note for Details</a></p>
 <h3 id="digression_on_black_belt">Digression on Black Belt</h3>
 <p>I never knew the term for this but historically, where African Americans were heavily enslaved is called the &quot;Black Belt&quot;. The authors found that high SVI and heat-related deaths were often found in these historical communities &#91;32&#93;.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Spatial exploration of the CDC&#39;s Social Vulnerability Index and heat-related health outcomes in Georgia</em>. <a href="https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes">https://jacobzelko.com/09082022132106-spatial-vulnerability-outcomes</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -285,22 +374,13 @@
 <p>Zelko, Jacob. <em>LGBTQ Populations: Psychologically Vulnerable Communities in the COVID-19 Pandemic</em>. <a href="https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable">https://jacobzelko.com/09082022132720-lgbtq-psychologically-vulnerable</a>. September 8 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>  
@@ -333,28 +413,19 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Definitions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="definitions">Definitions</h3>
-<p>Social cohesion is the connectedness and solidarity in populations. This includes the absence of social conflict and presence of social bonds.27 A measure used to quantify social cohesion is trust. <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
-<p>Social capital are the features of social structures that are resources for community members to create action.27 Social capital acts as a safety net for individuals to protect against losses like physical health, mental health, and life satisfaction.31<a href="https://jacobzelko.com/08192022115354-health-terrorism-factors.md">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a> &#40;See <a href="https://jacobzelko.com/08282022135955-social-capital.md">Features of Social Capital</a> for further insight on what social capital is and its importance&#41;</p>
+<p>Social cohesion is the connectedness and solidarity in populations. This includes the absence of social conflict and presence of social bonds.27 A measure used to quantify social cohesion is trust. <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a></p>
+<p>Social capital are the features of social structures that are resources for community members to create action.27 Social capital acts as a safety net for individuals to protect against losses like physical health, mental health, and life satisfaction.31<a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</a> &#40;See <a href="https://jacobzelko.com/08282022135955-social-capital">Features of Social Capital</a> for further insight on what social capital is and its importance&#41;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Social Determinants Surrounding Terrorism</em>. <a href="https://jacobzelko.com/08282022134930-social-determinants-terrorism">https://jacobzelko.com/08282022134930-social-determinants-terrorism</a>. August 28 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>  
@@ -435,7 +506,7 @@
 <p>A proxy to study terrorism is to study gang violence</p>
 <p>At the individual level, gangs and terrorist organizations appeal to individuals who are psychologically deviant, have limited access to socioeconomic opportunities, or are marginalized members of society.39–44 In fact, terrorist groups attract a range of unstable individuals.45</p>
 <blockquote>
-<p>NOTE: This seems to contradict the paper <a href="https://jacobzelko.com/08232022220130-people-become-terrorists.md">Why Do People Become Terrorists</a> as it notes that instead, it was observed how many of these people who are not fully psychologically deviant but rather of clear mind. Furthermore, in my attempt to reconcile such different observations, I would posit that rather, both explanations and comments are valid but that &quot;unstable individuals&quot; seem to conflate a kind of negative aspect to a person whereas the linked paper avoids the notion of unstable persons and instead explains how most of these people are of clear opinion.</p>
+<p>NOTE: This seems to contradict the paper <a href="https://jacobzelko.com/08232022220130-people-become-terrorists">Why Do People Become Terrorists</a> as it notes that instead, it was observed how many of these people who are not fully psychologically deviant but rather of clear mind. Furthermore, in my attempt to reconcile such different observations, I would posit that rather, both explanations and comments are valid but that &quot;unstable individuals&quot; seem to conflate a kind of negative aspect to a person whereas the linked paper avoids the notion of unstable persons and instead explains how most of these people are of clear opinion.</p>
 </blockquote>
 <p>Goals generally exclusive to gangs:</p>
 <ol>
@@ -453,7 +524,7 @@
 <p>The main difference between gangs and terrorist groups is that gangs are often not politically motivated.47 </p>
 <h3 id="positive_approaches_to_mitigate_radicalization">Positive Approaches to Mitigate Radicalization</h3>
 <p>Dutch police actively sought to integrate individuals from Syria by connecting them with a psychiatrist or mentor. Then, they provided assistance to find housing or means to return to school. To round out this reintegration process, they went even further to provide &quot;whatever they needed to fully integrate back into society.&quot;67 </p>
-<p>This approach, believes that to fight terrorism through policing and/or &quot;profiling&quot; will create real or perceived discrimination, humiliation, and/or marginalization. Other papers have shown <a href="https://jacobzelko.com/08232022220130-people-become-terrorists.md">this to be an accurate assessment</a>.</p>
+<p>This approach, believes that to fight terrorism through policing and/or &quot;profiling&quot; will create real or perceived discrimination, humiliation, and/or marginalization. Other papers have shown <a href="https://jacobzelko.com/08232022220130-people-become-terrorists">this to be an accurate assessment</a>.</p>
 <p>&lt;&#33;–TODO: Add citations to note–&gt;</p>
 <h3 id="problems_with_whiteness_and_terrorism_classifications">Problems with Whiteness and Terrorism Classifications</h3>
 <p>Muslim Americans who come from the Middle East are often classified as &quot;White&quot; by categories set forth by the Office of Management and Budget. However, this is in complete opposition to the fact that a large proportion of Muslim Americans do not identify as &quot;White&quot;. 15 An implicit assumption and implicit problem is that people labeled &quot;White&quot; are assumed to be &quot;racially neutral.&quot;15 </p>
@@ -461,22 +532,13 @@
 <p>Zelko, Jacob. <em>Social Determinants of Health, Violent Radicalization, and Terrorism: A Public Health Perspective</em>. <a href="https://jacobzelko.com/08192022115354-health-terrorism-factors">https://jacobzelko.com/08192022115354-health-terrorism-factors</a>. August 19 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>  
@@ -541,22 +603,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>Assessing Phenotype Definitions for Algorithmic Fairness</em>. <a href="https://jacobzelko.com/08122022205622-assessing-phenotype-fairness">https://jacobzelko.com/08122022205622-assessing-phenotype-fairness</a>. August 12 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>  
@@ -595,22 +648,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;?</em>. <a href="https://jacobzelko.com/01112022220843-spo2-explained">https://jacobzelko.com/01112022220843-spo2-explained</a>. January 11 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
@@ -644,7 +688,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <div class="franklin-toc"><ol><li><ol><li>Overview</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="overview">Overview</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained.md">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
+<li><p><a href="https://jacobzelko.com/01112022220843-spo2-explained">What Is Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** What SpO2 is and their pros and cons as a biomarker</code></pre>
@@ -652,22 +696,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>Peripheral Capillary Oxygen Saturation &#40;SpO2&#41;</em>. <a href="https://jacobzelko.com/01112022215755-oxygen-saturation">https://jacobzelko.com/01112022215755-oxygen-saturation</a>. January 11 2022.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>  
@@ -701,7 +736,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <div class="franklin-toc"><ol><li><ol><li>Operational Definitions</li><li>Computable Phenotypes Definitions<ol><li>Creating Computable Phenotypes</li><li>Characteristics of a Good Phenotype Definitions</li><li>Determining the Validity of a Phenotype Definition</li></ol></li><li>Available Phenotype Definitions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="operational_definitions">Operational Definitions</h3>
 <p><strong>Phenotype:</strong> a measurable biological, behavioral, or cognitive marker found more often in specific individuals than the general population; the appearance it presents to observers.&#91;1&#93;</p>
-<p><a href="https://jacobzelko.com/./08122022205622-assessing-phenotype-fairness.md"><strong>Phenotyping:</strong></a> Identifying a set of patients with a particular disease </p>
+<p><a href="https://jacobzelko.com/./08122022205622-assessing-phenotype-fairness"><strong>Phenotyping:</strong></a> Identifying a set of patients with a particular disease </p>
 <p><strong>Computable phenotype:</strong> a clinical element that can derived from queries to an EHR or ancillary data sources &#40;such as claims data, or disease registries&#41; using a defined set of data elements and logical expressions.  It does not require chart review or interpretation by a clinician. </p>
 <p><strong>Data element:</strong> the unit of data being queried, exchanged, or analyzed. It includes:</p>
 <ul>
@@ -759,22 +794,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>&#91;1&#93; R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.</p>
 <p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” &#91;Online&#93;. Available: https://cde.nlm.nih.gov/home. &#91;Accessed: 30-Dec-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
@@ -856,22 +882,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>&#91;1&#93; J. Stacey and M. Mehta, “Using EHR data extraction to streamline the clinical trial process,” Clin. Res., vol. 4, pp. 2–7, 2017.</p>
 <p>&#91;2&#93; M. Stapff, “Use of electronic health data in clinical development,” Pharm. Ind, vol. 79, no. 2, pp. 204–210, 2017.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
@@ -912,22 +929,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>&#91;2&#93; S. A. Larson, K. C. Lakin, L. Anderson, N. Kwak Lee, J. H. Lee, and D. Anderson, “Prevalence of mental retardation and developmental disabilities: Estimates from the 1994/1995 National Health Interview Survey Disability Supplements,” Am. J. Ment. Retard., vol. 106, no. 3, pp. 231–252, 2001.</p>
 <p>&#91;3&#93; G. T. Fujiura, “Continuum of intellectual disability: Demographic evidence for the ‘forgotten generation’,” Ment. Retard., vol. 41, no. 6, pp. 420–429, 2003.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>  
@@ -965,22 +973,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="references">References</h2>
 <p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
@@ -1040,7 +1039,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Heart rate is directly impacted by sympathetic nerve impulses. It is indirectly affected by circulating adrenaline level.</p>
 <p>Increased &quot;stickiness&quot; in platelets occurs due to increases in adrenaline in the blood. Blood tends to become more concentrated and viscous at the same time. Stress-related hormones can increase the output of fibrinogen from the liver. This may add to formation of arterial plaques and increased risks of heart disease and stroke &#91;5&#93;, &#91;6&#93;</p>
 <p>The sympatho-adrenal pathway activates, prepares for, or maintains physical exertion. It causes psychological arousal and energy mobilization. It inhibits functions irrelevant to immediatesurvival. Degree of activation depends on stressorand its duration. Thesympatho-adrenal pathway can be switched off rapidly.</p>
-<p>The first pathway is the sympatho-adrenal pathway and activates quickly. It consists of the sympathetic branch of the <a href="https://jacobzelko.com/12302020174059-autonomic-nervous-system.md">autonomic nervous system</a>. The pathway produces two hormones:</p>
+<p>The first pathway is the sympatho-adrenal pathway and activates quickly. It consists of the sympathetic branch of the <a href="https://jacobzelko.com/12302020174059-autonomic-nervous-system">autonomic nervous system</a>. The pathway produces two hormones:</p>
 <ol>
 <li><p>Noradrenaline at nerve endings</p>
 </li>
@@ -1123,22 +1122,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>&#91;10&#93; D. Blane, E. Brunner, and R. Wilkinson, “The evolution of public health policy,” Health Soc. Organ. Health Policy 21st Century, p. 1, 2002.</p>
 <p>&#91;11&#93; E. Widdowson and R. McCance, “A review: New thoughts on growth,” Pediatr. Res., vol. 9, no. 3, pp. 154–156, 1975.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>  
@@ -1194,22 +1184,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>&#91;4&#93; A. Meltzer and J. Van de Water, “The role of the immune system in autism spectrum disorder,” Neuropsychopharmacology, vol. 42, no. 1, pp. 284–298, 2017.</p>
 <p>&#91;5&#93; Q. Ye, B. Wang, and J. Mao, “Cytokine storm in COVID-19 and treatment,” J. Infect., 2020.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>  
@@ -1260,22 +1241,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>Underestimating Digital Media Harm</em>. <a href="https://jacobzelko.com/05252020221842-digital-media">https://jacobzelko.com/05252020221842-digital-media</a>. May 25 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
@@ -1308,7 +1280,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Methodology</li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>In this particular study, a cohort of 971 individuals were involved in smoking cessation sessions hosted at smoking cessation clinics between 1986 and 1990. The intervention developed at these sessions for a participant involved attending eight 90 minute group sessions over a period of 4 months. The biggest of the groups reached 110 attendees. 3 months after a group quit date, 39.3&#37; of cohort self-reported as non-smoking. Thereafter, 32.1&#37; and 26.0&#37; of the cohort at 6 and 12 months respectively reported non-smoking. Finally, at an 8 year check-in, 33.9&#37; of the cohort were reached. 47.7&#37; reported not currently smoking &#40;16.2 of total cohort&#41;. &#91;pg. 725&#93;</p>
-<p>33.9&#37; and 66.1&#37; of the cohort were male and female respectively. Participants averaged an age of 39.9. &#91;pg. 729&#93; Interestingly, it was found that the motivation for the cohort came from oneself with 81.2&#37; saying they wanted to quit. 3.4&#37; said they were motivated by others and 14.5&#37; said they were motivated by themselves and others. &#91;pg. 730&#93; The participants who were not successful in quitting smoking for 3 months reported not being prepared to quit. &#91;pg. 737&#93; The success rates that were reported were reasonably not significantly biased to positive or negative outcomes due to a loose balance between those who started with both <a href="https://jacobzelko.com/05182020005014-smoking-recovery-indicators.md">great and poor quitting conditions</a> &#40;linked to related quitting factors&#41;. &#91;pg. 732&#93; Race was not accounted for in this study.</p>
+<p>33.9&#37; and 66.1&#37; of the cohort were male and female respectively. Participants averaged an age of 39.9. &#91;pg. 729&#93; Interestingly, it was found that the motivation for the cohort came from oneself with 81.2&#37; saying they wanted to quit. 3.4&#37; said they were motivated by others and 14.5&#37; said they were motivated by themselves and others. &#91;pg. 730&#93; The participants who were not successful in quitting smoking for 3 months reported not being prepared to quit. &#91;pg. 737&#93; The success rates that were reported were reasonably not significantly biased to positive or negative outcomes due to a loose balance between those who started with both <a href="https://jacobzelko.com/05182020005014-smoking-recovery-indicators">great and poor quitting conditions</a> &#40;linked to related quitting factors&#41;. &#91;pg. 732&#93; Race was not accounted for in this study.</p>
 <h3 id="methodology">Methodology</h3>
 <p>Each session included topics such as education about the negative consequences of smoking, how to self monitor, and strategies for modifying behavior to disassociate smoking from pleasure. &quot;Butt jars&quot; were used to create aversive sensations to smoking via association with pictures of cancerous organs. In contrast, non-smoking behavior was rewarded in the idea of a &quot;money jar&quot;. The money jar contains the money a participant would have used for smoking and is instead set aside to be used to finance enjoyable activity. &#91;pg. 728&#93;</p>
 <h3 id="conclusion">Conclusion</h3>
@@ -1317,22 +1289,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>Eight-Year Follow-Up Of A Community-Based Large Group Behavioral Smoking Cessation Intervention</em>. <a href="https://jacobzelko.com/05172020232612-smoking-cessation">https://jacobzelko.com/05172020232612-smoking-cessation</a>. May 17 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>  
@@ -1389,7 +1352,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 </li>
 </ul>
 <p>The use cases of EDA is further explored by <em>Boucsein et. al.</em> in their book, <em>Electrodermal Activity</em>. &#91;11&#93;</p>
-<p>Furthermore, EDA is a generalization of the overall signal – in reality, this signal is often decomposed into <a href="https://jacobzelko.com/04092020162632-skin-response.md">Skin Conductance Response &#40;SCR&#41;</a> and <a href="https://jacobzelko.com/04092020161622-skin-conductance.md">Skin Conductance Level &#40;SCL&#41;</a>.</p>
+<p>Furthermore, EDA is a generalization of the overall signal – in reality, this signal is often decomposed into <a href="https://jacobzelko.com/04092020162632-skin-response">Skin Conductance Response &#40;SCR&#41;</a> and <a href="https://jacobzelko.com/04092020161622-skin-conductance">Skin Conductance Level &#40;SCL&#41;</a>.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>What Is Electrodermal Activity?</em>. <a href="https://jacobzelko.com/03242020003215-eda-explained">https://jacobzelko.com/03242020003215-eda-explained</a>. March 24 2020.</p>
 <h2 id="references">References</h2>
@@ -1405,22 +1368,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>&#91;10&#93; M.-H. Savard, J. Savard, A. Caplette-Gingras, H. Ivers, and C. Bastien, “Relationship between objectively recorded hot flashes and sleep disturbances among breast cancer patients: Investigating hot flash characteristics other than frequency,” Menopause, vol. 20, no. 10, pp. 997–1005, 2013.</p>
 <p>&#91;11&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>  
@@ -1453,30 +1407,30 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Handling Signal</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained.md">What Is Electrodermal Activity?</a></p>
+<li><p><a href="https://jacobzelko.com/03242020003215-eda-explained">What Is Electrodermal Activity?</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** What electrodermal activity is and its pros and cons as a biomarker</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts.md">Common Causes of Artifact in EDA Signals</a></p>
+<li><p><a href="https://jacobzelko.com/03272020061037-eda-artifacts">Common Causes of Artifact in EDA Signals</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview of common artifacts in EDA signals</code></pre>
 <h3 id="handling_signal">Handling Signal</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data.md">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
+<li><p><a href="https://jacobzelko.com/04092020195141-transparent-eda-data">Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A simple, transparent, flexible, and automated quality assessment procedure for ambulatory EDA data
 - **Rationale:** FANTASTIC implementation on how to parse through EDA artifact -- very useful with a straight-forward algorithm to use</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal.md">Artifact Removal Methods</a></p>
+<li><p><a href="https://jacobzelko.com/03272020062857-artifact-removal">Artifact Removal Methods</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** An overview on commonly used signal processing methods to remove artifacts from signals.
 - **Rationale:** Moving average filters seem to hold the most promise in processing EDA.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03272020083421-call-center.md">Call Center Stress Recognition with Person-Specific Models</a></p>
+<li><p><a href="https://jacobzelko.com/03272020083421-call-center">Call Center Stress Recognition with Person-Specific Models</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** Assessment of stress in call center employees using skin conductance sensors to measure SCR/EDA.
@@ -1485,22 +1439,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>Electrodermal Activity</em>. <a href="https://jacobzelko.com/03232020235136-electrodermal-activity">https://jacobzelko.com/03232020235136-electrodermal-activity</a>. March 23 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>  
@@ -1531,14 +1476,14 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>What is SARS-CoV-2?<ol><li>Symptoms</li><li><a href="03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></li><li><a href="03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="what_is_sars-cov-2">What is SARS-CoV-2?</h3>
-<p>The SARS-CoV-2 virus is a <a href="https://jacobzelko.com/03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
+<p>The SARS-CoV-2 virus is a <a href="03102020054429-coronavirus-definition">betacoronavirus</a>, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. The sequences from U.S. patients are similar to the one that China initially posted, suggesting a likely single, recent emergence of this virus from an animal reservoir.</p>
 <p>Early on, many of the patients at the epicenter of the outbreak in Wuhan, Hubei Province, China had some link to a large seafood and live animal market, suggesting animal-to-person spread. Later, a growing number of patients reportedly did not have exposure to animal markets, indicating person-to-person spread. Person-to-person spread was subsequently reported outside Hubei and in countries outside China, including in the United States. &#91;1&#93;</p>
 <p>Currently, the World Health Organization has not classified this situation as a pandemic though this stance is highly contentious. &#91;2&#93;</p>
 <p>UPDATE &#40;MARCH 11th&#41;:_ As of now, this situation is now classified a pandemic by the World Health Organization. &#91;3&#93;</p>
 <p>Here is an image showing its transmission across the world:</p>
-<p><img src="https://jacobzelko.com/03102020050115-covid19-jhu-arcgis.jpg" alt="arcgis-sars" /></p>
+<p><img src="03102020050115-covid19-jhu-arcgis.jpg" alt="arcgis-sars" /></p>
 <h4 id="symptoms">Symptoms</h4>
 <p>The following symptoms may appear 2-14 days after exposure &#40;this is based on what has been seen previously as the incubation period of MERS-CoV viruses &#91;Middle East Respiratory Syndrome Coronavirus&#93;&#41; &#91;4&#93;:</p>
 <ul>
@@ -1549,9 +1494,9 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <li><p>Shortness of breath</p>
 </li>
 </ul>
-<h4 id="a_href03102020052237-covid19-dyingrisk_of_dying"><a href="https://jacobzelko.com/03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></h4>
+<h4 id="a_href03102020052237-covid19-dyingrisk_of_dying"><a href="03102020052237-covid19-dying"><strong>Risk of dying:</strong></a></h4>
 <p>1 - 2&#37; is the current estimate though it could get higher. &#91;5&#93;</p>
-<h4 id="a_href03102020053006-cdc-respiratory-preventionsprevention_methods"><a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></h4>
+<h4 id="a_href03102020053006-cdc-respiratory-preventionsprevention_methods"><a href="03102020053006-cdc-respiratory-preventions"><strong>Prevention Methods:</strong></a></h4>
 <ul>
 <li><p>Avoid close contact with people who are sick.</p>
 </li>
@@ -1579,22 +1524,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>&#91;5&#93; M. Lipsitch, “Opinion | Why it’s so hard to pin down the risk of dying from coronavirus.” &#91;Online&#93;. Available: https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <p>&#91;6&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Prevention &amp; Treatment,” 15-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -1631,22 +1567,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>Coronavirus Definition</em>. <a href="https://jacobzelko.com/03102020054429-coronavirus-definition">https://jacobzelko.com/03102020054429-coronavirus-definition</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -1686,22 +1613,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>Risk of Dying from COVID19</em>. <a href="https://jacobzelko.com/03102020052237-covid19-dying">https://jacobzelko.com/03102020052237-covid19-dying</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -1754,22 +1672,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>CDC Respiratory Disease Prevention</em>. <a href="https://jacobzelko.com/03102020053006-cdc-respiratory-preventions">https://jacobzelko.com/03102020053006-cdc-respiratory-preventions</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -1806,22 +1715,13 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="references">References</h2>
 <p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” &#91;Online&#93;. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. &#91;Accessed: 10-Mar-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>  
@@ -1855,35 +1755,26 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <div class="franklin-toc"><ol><li><ol><li>Thoughts about Health</li><li>Diseases</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="thoughts_about_health">Thoughts about Health</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03092020022148-health-spectrum">Health as a Spectrum</a></p>
+<li><p><a href="03092020022148-health-spectrum">Health as a Spectrum</a></p>
 </li>
 </ul>
 <hr />
 <h3 id="diseases">Diseases</h3>
 <ul>
-<li><p><a href="https://jacobzelko.com/03102020051547-sars-cov-2">SARS-CoV-2</a></p>
+<li><p><a href="03102020051547-sars-cov-2">SARS-CoV-2</a></p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>The Health Index, Jacob 😷</em>. <a href="https://jacobzelko.com/03092020025554-health-index">https://jacobzelko.com/03092020025554-health-index</a>. March 9 2020.</p>
 <h2 id="references">References:</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>  

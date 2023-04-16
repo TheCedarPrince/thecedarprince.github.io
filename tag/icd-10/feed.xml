@@ -43,7 +43,7 @@
 <div class="franklin-toc"><ol><li><ol><li>Operational Definitions</li><li>Computable Phenotypes Definitions<ol><li>Creating Computable Phenotypes</li><li>Characteristics of a Good Phenotype Definitions</li><li>Determining the Validity of a Phenotype Definition</li></ol></li><li>Available Phenotype Definitions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <h3 id="operational_definitions">Operational Definitions</h3>
 <p><strong>Phenotype:</strong> a measurable biological, behavioral, or cognitive marker found more often in specific individuals than the general population; the appearance it presents to observers.&#91;1&#93;</p>
-<p><a href="https://jacobzelko.com/./08122022205622-assessing-phenotype-fairness.md"><strong>Phenotyping:</strong></a> Identifying a set of patients with a particular disease </p>
+<p><a href="https://jacobzelko.com/./08122022205622-assessing-phenotype-fairness"><strong>Phenotyping:</strong></a> Identifying a set of patients with a particular disease </p>
 <p><strong>Computable phenotype:</strong> a clinical element that can derived from queries to an EHR or ancillary data sources &#40;such as claims data, or disease registries&#41; using a defined set of data elements and logical expressions.  It does not require chart review or interpretation by a clinician. </p>
 <p><strong>Data element:</strong> the unit of data being queried, exchanged, or analyzed. It includes:</p>
 <ul>
@@ -101,22 +101,13 @@
 <p>&#91;1&#93; R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.</p>
 <p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” &#91;Online&#93;. Available: https://cde.nlm.nih.gov/home. &#91;Accessed: 30-Dec-2020&#93;.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  

@@ -97,7 +97,7 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li><a href="#general_guide">General Guide</a></li></ol></li><li><a href="#how_to_cite">How To Cite</a></li><li><a href="#references">References</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
 <h3 id="general_guide"><a href="#general_guide" class="header-anchor">General Guide</a></h3>
-<p>This is from Fredrik Ekre at the <a href="/https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
+<p>This is from Fredrik Ekre at the <a href="https://discourse.julialang.org/t/neovim-languageserver-jl/37286/72?u&#61;thecedarprince">Julia Discourse</a> with some minimal changes and notes from me:</p>
 <p>LanguageServer is somewhat slow to start so it is very useful to use a custom sysimage using PackageCompiler to reduce this time. On my machine I get the first response after 20&#43; seconds, but with a custom sysimage I can execute LS commands instantaneously.</p>
 <p>Here is my setup:</p>
 <ol>
@@ -124,7 +124,7 @@
 <pre><code class="sh hljs">julia --project=~/.julia/environments/nvim-lspconfig -e <span class="hljs-string">&#x27;using Pkg; Pkg.add(&quot;LanguageServer&quot;)&#x27;</span></code></pre>
 <p>And then navigate to the directory at <code>~.julia/environment/nvim-lspconfig</code>.</p>
 <ol start="3">
-<li><p>Copy the following makefile &#40;<a href="/https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
+<li><p>Copy the following makefile &#40;<a href="https://github.com/fredrikekre/.dotfiles/blob/master/.julia/environments/nvim-lspconfig/Makefile">courtesy of Fredrik Ekre</a>&#41; the <code>nvim-lspconfig</code> directory with the name <code>makefile</code>:</p>
 </li>
 </ol>
 <pre><code class="make hljs"><span class="hljs-comment"># MIT License. Copyright (c) 2021 Fredrik Ekre</span>
@@ -300,23 +300,16 @@ end <span class="hljs-comment"># module</span>
 <p>Zelko, Jacob. <em>Setting Up Julia LSP for Neovim</em>. <a href="https://jacobzelko.com/08312022162228-julia-lsp-setup">https://jacobzelko.com/08312022162228-julia-lsp-setup</a>. August 31 2022.</p>
 <h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
 <h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div>
+
 <div class="page-foot">
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: April 02, 2023.
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: April 16, 2023.
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
 </div>
 </div><!-- CONTENT ENDS HERE -->

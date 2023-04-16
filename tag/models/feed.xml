@@ -41,7 +41,7 @@
 <p>S. Chang et al., &quot;Mobility network models of COVID-19 explain inequities and inform reopening,&quot; Nature, vol. 589, no. 7840, pp. 82–87, Jan. 2021, doi: 10.1038/s41586-020-2923-3.</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Points of Interest</li><li>Counterfactual Mobility Network</li><li>Limitations</li><li>Conclusions</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>Iterative proportional fitting &#91;1&#93; was used to make POI –&gt; <a href="https://jacobzelko.com/01202021043013-census-groups.md">CBG</a> networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.</p>
+<p>Iterative proportional fitting &#91;1&#93; was used to make POI –&gt; <a href="https://jacobzelko.com/01202021043013-census-groups">CBG</a> networks from SafeGraph data. SafeGraph mobility data was validated against Google mobility data.</p>
 <p><em>THOUGHTS: What is iterative proportional fitting?</em></p>
 <p>Model fits observed daily case counts from 8 March to 9 May 2020</p>
 <h3 id="points_of_interest">Points of Interest</h3>
@@ -121,22 +121,13 @@
 <p>&#91;11&#93; S. Garg et al., “Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019—COVID-NET, 14 States, March 1–30, 2020,” Morb. Mortal. Wkly. Rep., vol. 69, no. 15, p. 458, 2020.</p>
 <p>&#91;12&#93; C. Wilson, “These graphs show how COVID-19 is ravaging New York City’s low-income neighborhoods,” Time, 2020.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>  
@@ -170,7 +161,7 @@
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <p>I read a Q&amp;A article on Barbara Liskov &#91;1&#93; and the author made a very interesting comparison between Liskov&#39;s work of designing paradigms for creating well structured and crafted code with that of a Poet or Novelist. I have heard of comparisons like this before but I was quite intrigued by the latter – a programmer being compared to a writer. What piqued my interest the most about the article was the following statement,</p>
 <p>&quot;As a computer scientist thinking about code, Liskov had no physical objects to work with. Like a novelist or a poet, <em>she was staring at a blank page</em>.&quot; &#40;emphasis added&#41;</p>
-<p>The end of that statement, &quot;<em>blank page</em>&quot;, reminded me of the book <em>How to Take Smart Notes</em> &#91;2&#93; and my note on the book where Ahrens essentially believes that starting with a <a href="https://jacobzelko.com/03292020180520-smart-notes.md">blank page is the wrong idea in writing</a>. I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the <a href="https://jacobzelko.com/03092020031549-zettelkasten.md">Zettelkasten method</a> where, according to its <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles.md">principles</a>, each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?</p>
+<p>The end of that statement, &quot;<em>blank page</em>&quot;, reminded me of the book <em>How to Take Smart Notes</em> &#91;2&#93; and my note on the book where Ahrens essentially believes that starting with a <a href="https://jacobzelko.com/03292020180520-smart-notes">blank page is the wrong idea in writing</a>. I wonder if the same could be true about programming. In effect, does a global approach to building software make more sense than to artificially package each and every piece of software separately? Could an approach like the <a href="https://jacobzelko.com/03092020031549-zettelkasten">Zettelkasten method</a> where, according to its <a href="https://jacobzelko.com/03092020031618-zettelkasten-principles">principles</a>, each thought is kept to itself and then linked to different associated pieces of knowledge, map to software development?</p>
 <p>Upon reflection upon this note some time later, I think I was thinking about the concept of composition and composition of software&#33;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Global Programming Paradigm</em>. <a href="https://jacobzelko.com/04182020162028-global-programming">https://jacobzelko.com/04182020162028-global-programming</a>. April 18 2020.</p>
@@ -178,22 +169,13 @@
 <p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” &#91;Online&#93;. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. &#91;Accessed: 18-Apr-2020&#93;.</p>
 <p>&#91;2&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>  
@@ -226,17 +208,17 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition.md">GTD Definition</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050130-gtd-definition">GTD Definition</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A concise definition of what the GTD framework is.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation.md">GTD Implementation</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050207-gtd-implementation">GTD Implementation</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** A guide on how GTD is implemented.</code></pre>
 <ul>
-<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review.md">GTD Weekly Reviews</a></p>
+<li><p><a href="https://jacobzelko.com/03192020050249-gtd-weekly-review">GTD Weekly Reviews</a></p>
 </li>
 </ul>
 <pre><code class="language-julia">- **Summary:** How to conduct weekly reviews using GTD.</code></pre>
@@ -244,22 +226,13 @@
 <p>Zelko, Jacob. <em>Get Things Done</em>. <a href="https://jacobzelko.com/03192020045854-get-things-done">https://jacobzelko.com/03192020045854-get-things-done</a>. March 19 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>  

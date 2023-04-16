@@ -95,22 +95,13 @@
 <h2 id="references">References</h2>
 <p>&#91;1&#93; J. A. McGeoch, “The psychology of human learning.” 1942.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>  
@@ -142,12 +133,12 @@
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Associated terminology:<ol><li>Footnotes:</li></ol></li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>The spacing effect accounts for the fact that learning is improved when studying is spread out over time. It was first discovered and described by Hermann Ebbinghaus during 1880 - 1885. &#91;1&#93; His findings were later accurately reproduced and documented by <em>Murre &amp; Dros</em>. &#91;2&#93; <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus.md">&#40;Click for results of that study here&#41;</a></p>
+<p>The spacing effect accounts for the fact that learning is improved when studying is spread out over time. It was first discovered and described by Hermann Ebbinghaus during 1880 - 1885. &#91;1&#93; His findings were later accurately reproduced and documented by <em>Murre &amp; Dros</em>. &#91;2&#93; <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus">&#40;Click for results of that study here&#41;</a></p>
 <p>The spacing effect has not been very well utilized in US-based education institutes despite its multitudinous benefits. &#91;3&#93; Cepeda et al. determined that in a memory based challenge, spaced based learning outperformed massed learning ~96&#37; of the time. &#91;4&#93; This coincides with the deficient processing view posited by Hintzman that stated how massed repetition leads to a lack of attention in later reviews. &#91;5&#93;</p>
-<p>According to <em>Pyc and Rawson</em>, labored but correct recall while practicing improves memory. Spacing items of recall produce greater effort during retrieval and enables thorough conversion of the item to memory. <sup id="fnref:1">[1]</sup> &#91;6&#93; Semantic processing of information during repetitions assists in making that information more <a href="https://jacobzelko.com/03172020033742-antifragility.md">anti-fragile, to borrow from Nassim Taleb,</a> during reviews. This causes performance in later memory testing to be unaffected by changes in such things like the type of font used when presented information. <sup id="fnref:2">[2]</sup> &#91;7&#93; </p>
+<p>According to <em>Pyc and Rawson</em>, labored but correct recall while practicing improves memory. Spacing items of recall produce greater effort during retrieval and enables thorough conversion of the item to memory. <sup id="fnref:1">[1]</sup> &#91;6&#93; Semantic processing of information during repetitions assists in making that information more <a href="https://jacobzelko.com/03172020033742-antifragility">anti-fragile, to borrow from Nassim Taleb,</a> during reviews. This causes performance in later memory testing to be unaffected by changes in such things like the type of font used when presented information. <sup id="fnref:2">[2]</sup> &#91;7&#93; </p>
 <p>However, a confounding factor in the idea of the spacing effect is the encoding variability theory. This theory states that one&#39;s performance on a memory test is related to overlaps amongst current contextualized material both during testing and while encoding. According to this view, spaced repetition typically entails some variability in presentation contexts. Yet, this results in a positive outcome being that there are then more retrieval cues associated with that material. &#91;8&#93;</p>
 <p>However, there are concerns about the spacing effect that have impeded its overall adoption into educational formats. <em>Dempster</em> made a case examining potential rationales for the lack of adoption in a review of the current state of the spacing effect &#40;though the study is old over 30 years old, it still remains that education systems do not incorporate the spacing effect&#41;. &#91;3&#93; His biggest point of concern was the lack of studies that showed effective classroom utilization of the method.</p>
-<p>Despite such misgivings, it is still a phenomenon that have given rise to many benefits and potential applications for at least personal education. Principle of which is in the form of<a href="https://jacobzelko.com/05252020183020-spaced-repetition-systems.md">spaced repetition systems.</a> These systems have determined the best spacing algorithms for a learner to use the spacing effect to assist in learning diverse educational material.</p>
+<p>Despite such misgivings, it is still a phenomenon that have given rise to many benefits and potential applications for at least personal education. Principle of which is in the form of<a href="https://jacobzelko.com/05252020183020-spaced-repetition-systems">spaced repetition systems.</a> These systems have determined the best spacing algorithms for a learner to use the spacing effect to assist in learning diverse educational material.</p>
 <h3 id="associated_terminology">Associated terminology:</h3>
 <p>Lag: the length of time between learning repetitions. &#91;9&#93;</p>
 <h4 id="footnotes">Footnotes:</h4>
@@ -166,22 +157,13 @@
 <p>&#91;8&#93; S. M. Cormier, Basic processes of learning, cognition, and motivation. Psychology Press, 2014.</p>
 <p>&#91;9&#93; M. J. Kahana and M. W. Howard, “Spacing and lag effects in free recall of pure lists,” Psychon. Bull. Rev., vol. 12, no. 1, pp. 159–164, 2005.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>  
@@ -245,22 +227,13 @@
 <p>&#91;3&#93; J. B. Shea and R. L. Morgan, “Contextual interference effects on the acquisition, retention, and transfer of a motor skill.” J. Exp. Psychol. &#91;Hum. Learn.&#93;, vol. 5, no. 2, p. 179, 1979.</p>
 <p>&#91;4&#93; R. Kerr and B. Booth, “Specific and varied practice of motor skill,” Percept. Mot. Skills, vol. 46, no. 2, pp. 395–401, 1978.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  
@@ -292,8 +265,8 @@
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Software Implementations</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>There are multiple algorithms available used for effectively implementing the <a href="https://jacobzelko.com/05282020163507-spacing-effect.md">spacing effect</a>. The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus.md">has been replicated</a> and scrutinized examined multiple times. &#91;1&#93;–&#91;3&#93; Spaced repetition systems are based around proper implementations of such algorithms.</p>
-<p>Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the <a href="https://jacobzelko.com/05102020220941-leitner-system.md">Leitner System which used paper note cards</a> to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.</p>
+<p>There are multiple algorithms available used for effectively implementing the <a href="https://jacobzelko.com/05282020163507-spacing-effect">spacing effect</a>. The earliest algorithm comes from the original discoverer of the spacing effect, Hermann Ebbinghaus. The algorithm <a href="https://jacobzelko.com/05282020172154-replication-ebbinghaus">has been replicated</a> and scrutinized examined multiple times. &#91;1&#93;–&#91;3&#93; Spaced repetition systems are based around proper implementations of such algorithms.</p>
+<p>Before the advent of computers, it was very difficult to implement such a system. The best system to take advantage of this effect was the <a href="https://jacobzelko.com/05102020220941-leitner-system">Leitner System which used paper note cards</a> to assist with remembering information. However, this was still a somewhat fragile system and difficult to manage.</p>
 <p>With computers, there have been several pieces of software made to automate and keep track of repetitions <em>for a learner</em>. A majority of these systems directly adapted the Leitner System from the analog to the digital world. Each software generally has proprietary algorithms that supposedly maximize the spacing effect but are directly inspired by the original work done by Ebbinghaus.</p>
 <p>Whether analog or digital, key features of these systems are as follows:</p>
 <ol>
@@ -314,22 +287,13 @@
 <p>&#91;2&#93; H. Ebbinghaus, “Ueber das gedächtnis,” 1885.</p>
 <p>&#91;3&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>  

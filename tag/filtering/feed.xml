@@ -110,27 +110,18 @@ gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
     plot&#33;&#40;downsampled_input, downsampled_signal, linewidth &#61; 3, color &#61; :black,
           label &#61; &quot;Downsampled Median Signal&quot;&#41;end</code></pre>
 <h4 id="output">Output</h4>
-<p><img src="https://jacobzelko.com/04252020025710.png" alt="median_filter" /></p>
+<p><img src="04252020025710.png" alt="median_filter" /></p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Median Filtering</em>. <a href="https://jacobzelko.com/04252020024813-median-filtering">https://jacobzelko.com/04252020024813-median-filtering</a>. April 25 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>  

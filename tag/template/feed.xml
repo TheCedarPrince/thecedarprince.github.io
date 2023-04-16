@@ -41,7 +41,7 @@
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Example of Actual Note</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>This is an <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard.md">example implementation of the Open Knowledge Standard</a> I use when taking notes in Markdown:</p>
+<p>This is an <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard">example implementation of the Open Knowledge Standard</a> I use when taking notes in Markdown:</p>
 <pre><code class="language-markdown"># &#91;Title&#93;**Date:** &#91;DATE&#93;**Summary:** &#91;ONE SENTENCE SUMMARY&#93;**Keywords:** &#91;KEYWORDS PREPENDED BY #. EXAMPLE: #healthcare&#93;## Note Linked From&#91;REFERENCE TO WHERE THE NOTE WAS LINKED FROM&#93;## Bibliography&#91;BIBLIOGRAPHIC REFERENCE FOR WHERE YOU GOT THE INFORMATION&#93;## Notes&#91;CONTENT OF NOTE&#93;## References:&#91;ADDITIONAL REFERENCES USED IN NOTE&#93;</code></pre>
 <h3 id="example_of_actual_note">Example of Actual Note</h3>
 <p>What follows is an actual note in my knowledge management system:</p>
@@ -60,22 +60,13 @@ He emphasized that they do not always hold or are always discrete from one anoth
 <p>Zelko, Jacob. <em>My Note Templates</em>. <a href="https://jacobzelko.com/08032021134232-notes-template">https://jacobzelko.com/08032021134232-notes-template</a>. August 3 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>  

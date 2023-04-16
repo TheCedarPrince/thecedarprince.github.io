@@ -60,22 +60,13 @@
 <p>&#91;2&#93; S. Makeig et al., “Functionally independent components of the late positive event-related potential during visual spatial attention,” J. Neurosci., vol. 19, no. 7, pp. 2665–2680, 1999.</p>
 <p>&#91;3&#93; H.-M. Park, H.-Y. Jung, T.-W. Lee, and S.-Y. Lee, “Subband-based blind signal separation for noisy speech recognition,” Electron. Lett., vol. 35, no. 23, pp. 2011–2012, 1999.</p>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>  
@@ -108,29 +99,20 @@
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
 <ul>
-<li><p><a href="https://jacobzelko.com/01052021044121-arithmetic-series.md">Arithmetic Sums &amp; Series</a> - A brief overview on what arithmetic series are and some of its underlying math.</p>
+<li><p><a href="https://jacobzelko.com/01052021044121-arithmetic-series">Arithmetic Sums &amp; Series</a> - A brief overview on what arithmetic series are and some of its underlying math.</p>
 </li>
 </ul>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Mathematical Sums and Series</em>. <a href="https://jacobzelko.com/01042021224715-sums-series">https://jacobzelko.com/01042021224715-sums-series</a>. January 4 2021.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>  
@@ -162,7 +144,7 @@
 <p>Not Available</p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>There are a few <a href="https://jacobzelko.com/05132020135855-linear-vectors.md">definitions of a vector</a>. For this overview, I will use the definition that a vector is that which has the algebra of a vector space. The operations for vectors are straight-forward:</p>
+<p>There are a few <a href="https://jacobzelko.com/05132020135855-linear-vectors">definitions of a vector</a>. For this overview, I will use the definition that a vector is that which has the algebra of a vector space. The operations for vectors are straight-forward:</p>
 <ol>
 <li><p>Vector Addition</p>
 </li>
@@ -186,22 +168,13 @@ v + w = \begin{bmatrix} v_{1}\\ v_{2} \end{bmatrix} + \begin{bmatrix} w_{1}\\ w_
 <p>Zelko, Jacob. <em>Vector Algebra</em>. <a href="https://jacobzelko.com/06172020134504-vector-algebra">https://jacobzelko.com/06172020134504-vector-algebra</a>. June 17 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>  
@@ -287,22 +260,13 @@ cv + dw = 1\begin{bmatrix} 1\\ 1 \end{bmatrix} + 1\begin{bmatrix} 2\\ 3 \end{bma
 <p>Zelko, Jacob. <em>Linear Combination</em>. <a href="https://jacobzelko.com/05132020134039-linear-combination">https://jacobzelko.com/05132020134039-linear-combination</a>. May 13 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>  
@@ -346,22 +310,13 @@ cv + dw = 1\begin{bmatrix} 1\\ 1 \end{bmatrix} + 1\begin{bmatrix} 2\\ 3 \end{bma
 <p>Zelko, Jacob. <em>Vectors</em>. <a href="https://jacobzelko.com/05132020135855-linear-vectors">https://jacobzelko.com/05132020135855-linear-vectors</a>. May 13 2020.</p>
 <h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
-<script src="https://giscus.app/client.js"
-    data-repo="TheCedarPrince/thecedarprince.github.io"
-    data-repo-id="R_kgDOHRFrHA"
-    data-category="General"
-    data-category-id="DIC_kwDOHRFrHM4CPGIX"
-    data-mapping="url"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark_dimmed"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-</script>
- ]]>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+    <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+    <a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div> ]]>
   </content:encoded>
     
   <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>  
