@@ -58,5 +58,4 @@ The main sections are broken up as follows:
 
 Yes.
 I collect analytics using [GoatCounter](https://www.goatcounter.com) which has a very [stringent privacy policy including **not tracking users**](https://www.goatcounter.com/help/privacy).
-Any comments pass through [giscus](https://github.com/giscus/giscus) which [does not store or collect any information from visitors](https://github.com/giscus/giscus/blob/c0177074ec2409acce454e2168918d5597796896/PRIVACY-POLICY.md).
-Any comment made on any post is mirrored onto the [site's GitHub Discussons section](https://github.com/TheCedarPrince/thecedarprince.github.io/discussions).
+Any comments pass through [Talkyard](https://blog-comments.talkyard.io) which [does some data collection but only to support commenting; you can comment anonymously](https://comments-for-jacobzelko-com.talkyard.net/-/terms-of-use).
