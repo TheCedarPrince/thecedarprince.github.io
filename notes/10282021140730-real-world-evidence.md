@@ -41,24 +41,21 @@ The United States Food and Drug Administration found this definition from Congre
 
 Some examples include:
 
-```
-- Electronic health records
-- Claims and billing activities
-- Product and disease registries 
-- Patient-generated data including in home-use settings 
-- Mobile device data
-```
-
-  * **Real-world evidence** is "clinical evidence regarding the usage and potential benefits or risks of a medical product derived from analysis of real-world evidence."
+  * Electronic health records
+  * Claims and billing activities
+  * Product and disease registries
+  * Patient-generated data including in home-use settings
+  * Mobile device data
+  * **Real-world evidence** is "clinical evidence regarding the usage and potential benefits or risks of a medical product derived from analysis of real-world data."
 
 Some examples include:
 
-```
-- Randomized trials 
-	- Large simple trials
-	- Pragmatic trials
-	- Observational studies (prospective and/or retrospective).
-```
+  * Randomized trials 
+
+      * Large simple trials
+      * Pragmatic trials
+
+          * Observational studies (prospective and/or retrospective).
 ## How To Cite
 
  Zelko, Jacob. _Real-World Data and Real-World Evidence_. [https://jacobzelko.com/10282021140730-real-world-evidence](https://jacobzelko.com/10282021140730-real-world-evidence). October 28 2021.
