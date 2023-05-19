@@ -76,7 +76,7 @@ function divisors(n)
 end
 ```
 
-With this function defined, now, I am going to calculate some deficient and deficient numbers (since perfect numbers are hard to calculate, I am going to look up a few to explore).  To do that, we will use the following snippet to find $1000$ abundant and deficient numbers:
+With this function defined, now, I am going to calculate some abundant and deficient numbers (since perfect numbers are hard to calculate, I am going to look up a few to explore).  To do that, we will use the following snippet to find $1000$ abundant and deficient numbers:
 
 ```julia
 i = 1 
