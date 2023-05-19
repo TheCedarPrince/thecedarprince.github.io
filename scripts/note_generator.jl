@@ -47,15 +47,16 @@ for zettel in notes
 
     records_note_info = filter(row -> row.filename == zettel, records)
 
+    # if the note is entirely new or the last time edited on file system does not match recorded last edit
     if isempty(records_note_info) || last_edit_time != first(records_note_info.edit_time)
-
+        # parse the file
         try
 
-            citation_keys = find_citation_groups(file)
-            inline_citations_dict = create_inline_citations(citation_keys, bibtex_path, csl_path)
+            citation_keys = find_citation_groups(file) # the citation format is [@sevorisdoe; @jacobzelko] or [@somebody], BetterBibTex citation key
+            inline_citations_dict = create_inline_citations(citation_keys, bibtex_path, csl_path)  # For IEEE, the mapping would be [@sevorisdoe; @jacobzelko] => [1, 2]
             file = replace(file, inline_citations_dict...)
 
-            markdown_links = find_markdown_links(file, group_links = true)
+            markdown_links = find_markdown_links(file, group_links = true) # undestands [Another note](othernote.md) format link only?
             relative_links_dict = create_relative_links(markdown_links["relative_links"]; prefix="https://jacobzelko.com/")
             file = replace(file, relative_links_dict...)
 
@@ -83,9 +84,13 @@ for zettel in notes
 
             if !ismissing(keywords) && occursin("archive", keywords)
 
+                # store known information in NoteMate struct
                 note = Note(title, date, summary, keywords, bibliography_section, references_section, notes_section, basename(zettel), zettelkasten * zettel, csl_path, bibtex_path)
 
+                # begin parse to target representation
+                # in this case, Franklin markdown
                 franklin_note = create_franklin_note(note)
+
 
                 page = ""
                 page = page * generate_franklin_template(title=franklin_note.title, slug=franklin_note.slug, tags=franklin_note.tags, description=franklin_note.description, rss_title=franklin_note.rss_title, rss_description=franklin_note.rss_description, rss_pubdate=franklin_note.rss_pubdate)

@@ -10,6 +10,42 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = a-fun-exploration-of-perfect,-abundant,-and-deficient-numbers>
+             		<a href = http://jacobzelko.com/05102023043333-perfect-abundant-deficit/>
+                      			<strong>
+                               				A Fun Exploration of Perfect, Abundant, and Deficient Numbers
+                      			</strong>
+                      			[May 10 2023]
+             		</a>
+             		<br>
+                      			A computational treatment and exploration of abundant and deficient numbers
+             		<br>
+                      			#blog #abundant #deficient #number #theory #julia #programming #perfect #aliquot #sequence #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = julia-for-biologists>
+             		<a href = http://jacobzelko.com/04212023233455-julia-biologists/>
+                      			<strong>
+                               				Julia for Biologists
+                      			</strong>
+                      			[Apr 21 2023]
+             		</a>
+             		<br>
+                      			Paper why Julia can be a perfect tool for biology-based research.
+             		<br>
+                      			#archive ##bibliography #biology #julia
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = developing-a-robust-computable-phenotype-definition-workflow-to-describe-health-and-disease-in-observational-health-research>
              		<a href = http://jacobzelko.com/01102023212115-computable-phenotypes/>
                       			<strong>
@@ -21,6 +57,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			Considerations and discussion on a workflow for developing computable phenotype definitions to define disease
              		<br>
                       			#computable #phenotype #observational #health #blog #equity #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = chapter-1:-sentential-logic>
+             		<a href = http://jacobzelko.com/04122023013725-sentential-logic/>
+                      			<strong>
+                               				Chapter 1: Sentential Logic
+                      			</strong>
+                      			[Apr 12 2023]
+             		</a>
+             		<br>
+                      			TODO
+             		<br>
+                      			#archive #proofs #logic #discrete #mathematics #deductive #reasoning
              		<br>
     	</span>
 
