@@ -6,6 +6,7 @@
     --block-background: hsl(0, 0%, 94%);
     --output-background: hsl(0, 0%, 98%);
     --small: 14px;
+    --medium: 16px;
     --normal: 19px;
     --text-color: hsv(0, 0%, 20%);
 }
@@ -18,6 +19,15 @@ html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: var(--normal);
     color: var(--text-color);
+}
+
+/* ==================================================================
+    FONT FOR CODE BLOCKS
+================================================================== */
+
+@font-face {
+    font-family: JuliaMono-Medium;
+    src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Medium.woff2");
 }
 
 /* ==================================================================
@@ -343,7 +353,8 @@ body {
 code {
     padding: 0.1em 0.2em;
     border-radius: 2px;
-    font-size: var(--small);
+    font-size: var(--medium);
+    font-family: JuliaMono-Medium;
 }
 
 /* .franklin-content code { */
