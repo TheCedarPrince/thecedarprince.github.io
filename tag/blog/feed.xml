@@ -59,7 +59,7 @@
 	    end
 	end	append&#33;&#40;d, t&#41;
     end    return sort&#33;&#40;d&#41;end</code></pre>
-<p>With this function defined, now, I am going to calculate some deficient and deficient numbers &#40;since perfect numbers are hard to calculate, I am going to look up a few to explore&#41;.  To do that, we will use the following snippet to find \(1000\) abundant and deficient numbers:</p>
+<p>With this function defined, now, I am going to calculate some abundant and deficient numbers &#40;since perfect numbers are hard to calculate, I am going to look up a few to explore&#41;.  To do that, we will use the following snippet to find \(1000\) abundant and deficient numbers:</p>
 <pre><code class="language-julia">i &#61; 1 
 deficient_numbers &#61; &#91;&#93;
 abundant_numbers &#61; &#91;&#93;
