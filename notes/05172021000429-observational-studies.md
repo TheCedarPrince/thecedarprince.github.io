@@ -1,55 +1,45 @@
 +++
-title = "Observational Research Studies"
+title = "Observational Health Research Studies"
 slug = "05172021000429-observational-studies"
-tags = ["zettel", "observational", "research", "study", "ohdsi", "archive"]
-rss_title = "Observational Research Studies"
+tags = ["observational", "research", "study", "ohdsi", "archive"]
+description = "Basic terminology of observational health studies"
+rss_title = "Observational Health Research Studies"
+rss_description = "Basic terminology of observational health studies"
 rss_pubdate = Date(2021, 5, 16)
 +++
 
 
 
-Observational Research Studies
+Observational Health Research Studies
 =========
 
 **Date:** May 16 2021
 
-**Summary:** 
+**Summary:** Basic terminology of observational health studies
 
-**Keywords:** ##zettel #observational #research #study #ohdsi #archive
+**Keywords:** #observational #research #study #ohdsi #archive
 
 Bibliography
 ==========
 
-Not Available
+Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. [Online]. Available: https://ohdsi.github.io/TheBookOfOhdsi/
 
 Table of Contents
 =========
 
 \toc
 
-### Prior to Research Studies
+### Motivation
 
-Before beginning an observational research study, it is important to lay down a rigorous and robust framework for how the study is to be conducted. This keeps questioning on a guided path that leads to direct and actionable results. [1]
+Building an understanding of how observational studies are defined generally.
 
-### Protocol Creation
+### Characteristics
 
-#### Guidelines
-
-1. Study population ought be explained to where others could reproduce it.
-2. Methods or statistical methods must be described fully.
-3. Expected outcomes ought be fully enumerated.
-
-#### Tools for Protocol Management
-
-|           Tool |                          Description | Source |
-| --------------:| ------------------------------------:| ------:|
-| studyProtocols | OHDSI sandbox for managing Protocols |        |
+Observational study: a study where patients are observed; no intervention of any kind is not introduced. 
 ## How To Cite
 
- Zelko, Jacob. _Observational Research Studies_. [https://jacobzelko.com/05172021000429-observational-studies](https://jacobzelko.com/05172021000429-observational-studies). May 16 2021.
+ Zelko, Jacob. _Observational Health Research Studies_. [https://jacobzelko.com/05172021000429-observational-studies](https://jacobzelko.com/05172021000429-observational-studies). May 16 2021.
 ## References
-
-[1] Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.
 ## Discussion: 
 
 {{ addcomments }}
