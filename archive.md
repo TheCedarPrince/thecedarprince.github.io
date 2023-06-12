@@ -10,6 +10,330 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = open-network-studies>
+             		<a href = http://jacobzelko.com/05302023183944-open-network-studies/>
+                      			<strong>
+                               				Open Network Studies
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			An overview of the different types of network studies that exist
+             		<br>
+                      			#ohdsi #network #studies #transparency #data #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = what-are-study-packages?>
+             		<a href = http://jacobzelko.com/05302023184217-study-packages/>
+                      			<strong>
+                               				What Are Study Packages?
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			How OHDSI defines study packages as well as generally what these are
+             		<br>
+                      			#study #package #ohdsi #ohdsi #transparency #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = what-are-patient-cohorts?>
+             		<a href = http://jacobzelko.com/05302023184442-ohdsi-cohorts/>
+                      			<strong>
+                               				What Are Patient Cohorts?
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			An overview of patient cohorts
+             		<br>
+                      			#patient #cohort #observational #health #research #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = general-guidelines-for-network-study-development>
+             		<a href = http://jacobzelko.com/05302023184624-general-study-guidelines/>
+                      			<strong>
+                               				General Guidelines for Network Study Development
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Guidelines that various groups have developed for working within the context of network studies
+             		<br>
+                      			#guideline #network #study #ohdsi #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = study-design-suggestions>
+             		<a href = http://jacobzelko.com/05302023184827-study-design-ohdsi/>
+                      			<strong>
+                               				Study Design Suggestions
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Suggestions on creating a network study design
+             		<br>
+                      			#study #design #suggestion #network #observational #health #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = ohdsi-protocol-suggestions>
+             		<a href = http://jacobzelko.com/05302023185043-ohdsi-protocol-study/>
+                      			<strong>
+                               				OHDSI Protocol Suggestions
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Overview of OHDSI suggestions for an OHDSI protocol
+             		<br>
+                      			#ohdsi #protocol #network #science #design #suggestion #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = checking-design-of-a-study>
+             		<a href = http://jacobzelko.com/05302023185223-checking-study-design/>
+                      			<strong>
+                               				Checking Design of a Study
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Some suggested techniques on designing a study protocol
+             		<br>
+                      			#analysis #sensitivity #network #study #design #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = finalizing-an-ohdsi-study-design>
+             		<a href = http://jacobzelko.com/05302023185737-finalizing-ohdsi-study/>
+                      			<strong>
+                               				Finalizing an OHDSI Study Design
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Outline for how to finalize OHDSI studies
+             		<br>
+                      			#ohdsi #collaborator #network #study #protocol #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = study-package-requirements>
+             		<a href = http://jacobzelko.com/05302023185922-study-package-requirements/>
+                      			<strong>
+                               				Study Package Requirements
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			What general requirements are made for network study packages
+             		<br>
+                      			#study #package #ohdsi #requirement #network #cdm #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = study-package-deficiencies>
+             		<a href = http://jacobzelko.com/05302023190833-study-package-deficiencies/>
+                      			<strong>
+                               				Study Package Deficiencies
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Existing deficiencies within study packages for network studies
+             		<br>
+                      			#package #deficiency #study #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = quality-of-study-data>
+             		<a href = http://jacobzelko.com/05302023193327-study-data-quality/>
+                      			<strong>
+                               				Quality of Study Data
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Recommendations and thoughts surrounding data quality for network studies
+             		<br>
+                      			#study #data #quality #network #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = reviewing-quality-of-study-code>
+             		<a href = http://jacobzelko.com/05302023195603-study-code-quality/>
+                      			<strong>
+                               				Reviewing Quality of Study Code
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Recommendations on ensuring code quality of network study packages
+             		<br>
+                      			#network #study #package #code #quality #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = revising-and-managing-cohorts>
+             		<a href = http://jacobzelko.com/05302023195713-cohort-revisions/>
+                      			<strong>
+                               				Revising and Managing Cohorts
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			How to review and revise cohorts in an observational health study
+             		<br>
+                      			#cohort #observational #health #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = site-collaboration-in-network-studies>
+             		<a href = http://jacobzelko.com/05302023200241-site-collaboration/>
+                      			<strong>
+                               				Site Collaboration in Network Studies
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			An overview on how sites participate as collaborators in a network study
+             		<br>
+                      			#site #collaboration #network #study #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = roles-in-a-network-study-collaboration>
+             		<a href = http://jacobzelko.com/05302023200347-roles-network-study/>
+                      			<strong>
+                               				Roles in a Network Study Collaboration
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Roles that can be found across network studies
+             		<br>
+                      			#role #network #study #collaboration #lead #analyst #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = deficiencies-in-a-study-collaboration>
+             		<a href = http://jacobzelko.com/05302023200536-study-collaboration-deficiencies/>
+                      			<strong>
+                               				Deficiencies in a Study Collaboration
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			An overview on some of the deficiences of a network study collaboration
+             		<br>
+                      			#network #study #collaboration #deficiency #observational #health #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = requirements-for-running-network-collaborations>
+             		<a href = http://jacobzelko.com/05302023202626-site-collaboration-requirements/>
+                      			<strong>
+                               				Requirements for Running Network Collaborations
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Common requirements in running an observational health network study
+             		<br>
+                      			#requirement #network #study #observational #health #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = pursuing-venues-for-publication>
+             		<a href = http://jacobzelko.com/05302023203344-pursuing-publication-venues/>
+                      			<strong>
+                               				Pursuing Venues for Publication
+                      			</strong>
+                      			[May 30 2023]
+             		</a>
+             		<br>
+                      			Identified venues I have found for a variety of different fields as well as resources
+             		<br>
+                      			#publication #venue #research #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = a-fun-exploration-of-perfect,-abundant,-and-deficient-numbers>
              		<a href = http://jacobzelko.com/05102023043333-perfect-abundant-deficit/>
                       			<strong>
@@ -2134,6 +2458,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = ohdsi-study-packages>
+             		<a href = http://jacobzelko.com/05172021002851-ohdsi-study-packages/>
+                      			<strong>
+                               				OHDSI Study Packages
+                      			</strong>
+                      			[May 16 2021]
+             		</a>
+             		<br>
+                      			missing
+             		<br>
+                      			##zettel #reproducible #science #ohdsi #research #study #package #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = the-book-of-ohdsi>
              		<a href = http://jacobzelko.com/05172021000348-book-of-ohdsi/>
                       			<strong>
@@ -2152,35 +2494,17 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
-    	<span class = post-item id = observational-research-studies>
+    	<span class = post-item id = observational-health-research-studies>
              		<a href = http://jacobzelko.com/05172021000429-observational-studies/>
                       			<strong>
-                               				Observational Research Studies
+                               				Observational Health Research Studies
                       			</strong>
                       			[May 16 2021]
              		</a>
              		<br>
-                      			missing
+                      			Basic terminology of observational health studies
              		<br>
-                      			##zettel #observational #research #study #ohdsi #archive
-             		<br>
-    	</span>
-
-    	<br>
-
-    	<br>
-
-    	<span class = post-item id = ohdsi-study-packages>
-             		<a href = http://jacobzelko.com/05172021002851-ohdsi-study-packages/>
-                      			<strong>
-                               				OHDSI Study Packages
-                      			</strong>
-                      			[May 16 2021]
-             		</a>
-             		<br>
-                      			missing
-             		<br>
-                      			##zettel #reproducible #science #ohdsi #research #study #package #archive
+                      			#observational #research #study #ohdsi #archive
              		<br>
     	</span>
 
@@ -3502,24 +3826,6 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
-    	<span class = post-item id = against-method>
-             		<a href = http://jacobzelko.com/07122020043224-against-method/>
-                      			<strong>
-                               				Against Method
-                      			</strong>
-                      			[Jul 12 2020]
-             		</a>
-             		<br>
-                      			The use of anarchy as a philosophical approach to learning anything.
-             		<br>
-                      			##bibliography #education #philosophy #learning #archive #book
-             		<br>
-    	</span>
-
-    	<br>
-
-    	<br>
-
     	<span class = post-item id = make-it-stick:-the-science-of-successful-learning>
              		<a href = http://jacobzelko.com/07122020164149-make-it-stick/>
                       			<strong>
@@ -3639,6 +3945,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			How Timothy speaks truth to today about false expertise abounding from social media
              		<br>
                       			##zettel #social #media #polarization #knowledge #1timothy #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = against-method>
+             		<a href = http://jacobzelko.com/07122020043224-against-method/>
+                      			<strong>
+                               				Against Method
+                      			</strong>
+                      			[Jul 12 2020]
+             		</a>
+             		<br>
+                      			The use of anarchy as a philosophical approach to learning anything.
+             		<br>
+                      			##bibliography #education #philosophy #learning #archive #book #project
              		<br>
     	</span>
 
