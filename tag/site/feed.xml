@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Site Collaboration in Network Studies  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023200241-site-collaboration/index.html </link>
+  <guid> https://jacobzelko.com/05302023200241-site-collaboration/index.html </guid>
+  <description>
+    <![CDATA[  An overview on how sites participate as collaborators in a network study  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Site Collaboration in Network Studies</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview on how sites participate as collaborators in a network study</p>
+<p><strong>Keywords:</strong> #site #collaboration #network #study #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Site Collaboration across Specific Communities<ol><li>OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Collaboration in network studies are often quite thorough and involved. This looks at how different communities encourage and participate within network studies.</p>
+<h3 id="site_collaboration_across_specific_communities">Site Collaboration across Specific Communities</h3>
+<h4 id="ohdsi">OHDSI</h4>
+<ul>
+<li><p>Site participation is voluntary</p>
+<ul>
+<li><p>No obligations</p>
+</li>
+</ul>
+</li>
+<li><p>Data from all participating sites remain at the site</p>
+<ul>
+<li><p>Only aggregate results shared across sites</p>
+</li>
+<li><p>No patient level pooling happens across sites</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Site Collaboration in Network Studies</em>. <a href="https://jacobzelko.com/05302023200241-site-collaboration">https://jacobzelko.com/05302023200241-site-collaboration</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

@@ -23,6 +23,382 @@
 
 <item>
   <title>
+    <![CDATA[  Open Network Studies  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023183944-open-network-studies/index.html </link>
+  <guid> https://jacobzelko.com/05302023183944-open-network-studies/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the different types of network studies that exist  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Open Network Studies</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview of the different types of network studies that exist</p>
+<p><strong>Keywords:</strong> #ohdsi #network #studies #transparency #data #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Characteristics of an OHDSI Open Network Study</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Seeking to understand further the different types of network studies that exist.</p>
+<h3 id="characteristics_of_an_ohdsi_open_network_study">Characteristics of an OHDSI Open Network Study</h3>
+<p>Open OHDSI Network Study: a fully transparent research endeavor shared within the OHDSI research network.</p>
+<ul>
+<li><p>Every single aspect of the study, within reason, are made publicly available on the OHDSI GitHub:</p>
+<ul>
+<li><p>Documentation</p>
+</li>
+<li><p>Study Code</p>
+</li>
+<li><p>Results</p>
+</li>
+</ul>
+</li>
+<li><p>Study protocol describing scope and intent of study</p>
+</li>
+<li><p>Any developed software being OMOP CDM compliant</p>
+</li>
+<li><p>OHDSI Community Calls attendance encouraged</p>
+</li>
+<li><p>Aggregate study results made available in OHDSI GitHub</p>
+</li>
+<li><p>Publish study R Shiny Applications to data.ohdsi.org</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Open Network Studies</em>. <a href="https://jacobzelko.com/05302023183944-open-network-studies">https://jacobzelko.com/05302023183944-open-network-studies</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Are Study Packages?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023184217-study-packages/index.html </link>
+  <guid> https://jacobzelko.com/05302023184217-study-packages/index.html </guid>
+  <description>
+    <![CDATA[  How OHDSI defines study packages as well as generally what these are  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Study Packages?</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> How OHDSI defines study packages as well as generally what these are</p>
+<p><strong>Keywords:</strong> #study #package #ohdsi #ohdsi #transparency #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>OHDSI Understanding of Study Packages<ol><li>Commentary</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Building understanding of study packages across different contexts.</p>
+<h3 id="ohdsi_understanding_of_study_packages">OHDSI Understanding of Study Packages</h3>
+<p>How OHDSI understands study packages: A completely traceable and reproducible process in the form of software. &#91;1&#93;</p>
+<h4 id="commentary">Commentary</h4>
+<p>With the current trajectory of the OHDSI community, I am worried that the ambitions of &quot;traceability&quot; and &quot;reproducibility&quot; are slowly becoming less a focus within the community despite being so heavily touted. There are several concerns I personally have about this goal such as:</p>
+<ul>
+<li><p>The interface between technically advanced and beginner users of studies is becoming more muddled</p>
+<ul>
+<li><p>I feel this is to the detriment of the study package overall</p>
+</li>
+</ul>
+</li>
+<li><p>More study package dependencies are shifting to opaque approaches and traceability is strongly hindered</p>
+</li>
+<li><p>Implementation within R is detrimental to the overall goal of reproducibility</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Are Study Packages?</em>. <a href="https://jacobzelko.com/05302023184217-study-packages">https://jacobzelko.com/05302023184217-study-packages</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  General Guidelines for Network Study Development  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023184624-general-study-guidelines/index.html </link>
+  <guid> https://jacobzelko.com/05302023184624-general-study-guidelines/index.html </guid>
+  <description>
+    <![CDATA[  Guidelines that various groups have developed for working within the context of network studies  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>General Guidelines for Network Study Development</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Guidelines that various groups have developed for working within the context of network studies</p>
+<p><strong>Keywords:</strong> #guideline #network #study #ohdsi #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>General Community Guidelines for Network Studies<ol><li>OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Network studies are a strange thing. They both are not well documented and at the same time starting to somewhat move towards mainstream discussions of large scale analytics.</p>
+<h3 id="general_community_guidelines_for_network_studies">General Community Guidelines for Network Studies</h3>
+<h4 id="ohdsi">OHDSI</h4>
+<p>General principles for network studies: &#91;1&#93;</p>
+<ul>
+<li><p>Fundamental is to describe one&#39;s research question fully</p>
+</li>
+<li><p>Specify approach in executing study</p>
+</li>
+<li><p>No requirement to share study across entire OHDSI network</p>
+</li>
+<li><p>Can limit study to:</p>
+<ul>
+<li><p>Only few sites</p>
+</li>
+<li><p>Home site</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>General Guidelines for Network Study Development</em>. <a href="https://jacobzelko.com/05302023184624-general-study-guidelines">https://jacobzelko.com/05302023184624-general-study-guidelines</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Finalizing an OHDSI Study Design  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023185737-finalizing-ohdsi-study/index.html </link>
+  <guid> https://jacobzelko.com/05302023185737-finalizing-ohdsi-study/index.html </guid>
+  <description>
+    <![CDATA[  Outline for how to finalize OHDSI studies  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Finalizing an OHDSI Study Design</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Outline for how to finalize OHDSI studies</p>
+<p><strong>Keywords:</strong> #ohdsi #collaborator #network #study #protocol #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Outline</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>How OHDSI network study designs generally come to a conclusion</p>
+<h3 id="outline">Outline</h3>
+<ul>
+<li><p>Has detailed cohort definitions</p>
+</li>
+<li><p>Study design information concluded</p>
+</li>
+<li><p>Review protocol with collaborators</p>
+<ul>
+<li><p>In practice, this review needs to be a lot more guided</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Finalizing an OHDSI Study Design</em>. <a href="https://jacobzelko.com/05302023185737-finalizing-ohdsi-study">https://jacobzelko.com/05302023185737-finalizing-ohdsi-study</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Study Package Requirements  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023185922-study-package-requirements/index.html </link>
+  <guid> https://jacobzelko.com/05302023185922-study-package-requirements/index.html </guid>
+  <description>
+    <![CDATA[  What general requirements are made for network study packages  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Study Package Requirements</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> What general requirements are made for network study packages</p>
+<p><strong>Keywords:</strong> #study #package #ohdsi #requirement #network #cdm #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Requirements by Community<ol><li>OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to know what the most common requirements are for study packages in a network study context. This is a small overview of known requirements broken down by community.</p>
+<h3 id="requirements_by_community">Requirements by Community</h3>
+<h4 id="ohdsi">OHDSI</h4>
+<p>Network studies conducted within the context of OHDSI are premised that all data assets across all participating sites adhere to the OMOP Common Data Model. Furthermore, all said data assets need to have mappings or relationships made utilizing the OMOP standardized vocabularies. This vocabulary subsumes standard concepts across a variety of different vocabularies to enable consistency in investigations across partner sites.</p>
+<p>It is additionally suggested that all participating sites record information about the ETL processed used to map any data asset into the OMOP Common Data Model to ensure clear understanding of how data sources are used. In practice, I personally do not see this discussion happening very often sadly. It is definitely a point of concern to make this a more regular part of networked studies. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Study Package Requirements</em>. <a href="https://jacobzelko.com/05302023185922-study-package-requirements">https://jacobzelko.com/05302023185922-study-package-requirements</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  OHDSI Protocol Suggestions  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023185043-ohdsi-protocol-study/index.html </link>
+  <guid> https://jacobzelko.com/05302023185043-ohdsi-protocol-study/index.html </guid>
+  <description>
+    <![CDATA[  Overview of OHDSI suggestions for an OHDSI protocol  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>OHDSI Protocol Suggestions</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Overview of OHDSI suggestions for an OHDSI protocol</p>
+<p><strong>Keywords:</strong> #ohdsi #protocol #network #science #design #suggestion #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>General Details</li><li>Outline of What a Protocol Should Include</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to more clearly define and delineate how OHDSI suggests a protocol design.</p>
+<h3 id="general_details">General Details</h3>
+<p>A study&#39;s plan should be well-documented prior to executing a study.</p>
+<h3 id="outline_of_what_a_protocol_should_include">Outline of What a Protocol Should Include</h3>
+<ul>
+<li><p>Primary study question</p>
+</li>
+<li><p>Approach to answer study question</p>
+</li>
+<li><p>Study population&#40;s&#41;:</p>
+<ul>
+<li><p>Well-defined</p>
+</li>
+<li><p>Should be able to be reproduced by others</p>
+</li>
+</ul>
+</li>
+<li><p>Methods such as:</p>
+<ul>
+<li><p>Statistical procedures</p>
+</li>
+</ul>
+</li>
+<li><p>Expected study results:</p>
+<ul>
+<li><p>Metrics that are used to answer the question</p>
+</li>
+<li><p>Tables</p>
+</li>
+<li><p>Plots</p>
+</li>
+</ul>
+</li>
+<li><p>Pre-Study Assessment</p>
+<ul>
+<li><p>Feasibility assessment</p>
+</li>
+<li><p>Statistical power of a study</p>
+</li>
+</ul>
+</li>
+<li><p>Anticipated time line</p>
+</li>
+<li><p>Study Milestones</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>OHDSI Protocol Suggestions</em>. <a href="https://jacobzelko.com/05302023185043-ohdsi-protocol-study">https://jacobzelko.com/05302023185043-ohdsi-protocol-study</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Goals of OHDSI  ]]>
   </title>
   <link> https://jacobzelko.com/07282021185354-ohdsi-goals/index.html </link>
@@ -284,10 +660,25 @@ knitr::kable&#40;result&#41;</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
-<p><a href="https://jacobzelko.com/05172021000429-observational-studies">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
-<p>&#91;Study Packages&#93;</p>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Background</li><li>Study Types</li><li>Study Packages</li><li>Cohorts</li><li>OHDSI Guiding Principles for Studies</li><li>Feasibility</li><li>Site Collaboration</li><li>Pursuing Publication</li><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li><li>Misc</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>The Book of OHDSI, to quote my friend and mentor Kristin Kostka, is &quot;an act of God&quot; that it came to be in how thorough and useful a resource it is for the OHDSI community. Over the past couple years, I have read multiple parts of this book over and over again for my work and research. In general, this book is a useful resource for OHDSI but I do find it to be sometimes limited in utility for the greater observational health community. These are my notes on the book along with various commentary.</p>
+<h3 id="background">Background</h3>
+<p>Here we aim to provide a general step­by­step guide to the design and implementation of an observational study with the OHDSI tools Note: In this case, this is the critical flaw of this book when tells i y about studies. It limits itself to only thinking within the context of the available HADES Tools when there is SO much more going on&#33; </p>
+<h3 id="study_types">Study Types</h3>
+<p><a href="https://jacobzelko.com/05302023183944-open-network-studies">Open Network Studies</a> <a href="https://jacobzelko.com/05172021000429-observational-studies">Observational research studies</a> </p>
+<h3 id="study_packages">Study Packages</h3>
+<p><a href="https://jacobzelko.com/05302023184217-study-packages">Study Packages</a> <a href="https://jacobzelko.com/05302023185922-study-package-requirements">Requirements</a> <a href="https://jacobzelko.com/05302023190833-study-package-deficiencies">Deficiencies</a> <a href="https://jacobzelko.com/05302023193327-study-data-quality">Data Quality</a> <a href="https://jacobzelko.com/05302023195603-study-code-quality">Code Quality</a></p>
+<h3 id="cohorts">Cohorts</h3>
+<p><a href="https://jacobzelko.com/05302023184442-ohdsi-cohorts">Cohorts</a> <a href="https://jacobzelko.com/05302023195713-cohort-revisions">Revisions</a></p>
+<h3 id="ohdsi_guiding_principles_for_studies">OHDSI Guiding Principles for Studies</h3>
+<p><a href="https://jacobzelko.com/05302023184624-general-study-guidelines">General Guidelines</a> <a href="https://jacobzelko.com/05302023184827-study-design-ohdsi">Study Design</a> <a href="https://jacobzelko.com/05302023185043-ohdsi-protocol-study">Protocols</a> <a href="https://jacobzelko.com/05302023185223-checking-study-design">Reviewing Study Design</a> <a href="https://jacobzelko.com/05302023185737-finalizing-ohdsi-study">Finalizing Study Creation</a></p>
+<h3 id="feasibility">Feasibility</h3>
+<p><a href="https://jacobzelko.com/05302023200034-feasibility-assessment-approach">Checking Feasibility Approach</a></p>
+<h3 id="site_collaboration">Site Collaboration</h3>
+<p><a href="https://jacobzelko.com/05302023200241-site-collaboration">Background</a> <a href="https://jacobzelko.com/05302023200347-roles-network-study">Roles</a> <a href="https://jacobzelko.com/05302023200536-study-collaboration-deficiencies">Deficiencies</a> <a href="https://jacobzelko.com/05302023202626-site-collaboration-requirements">Requirements</a></p>
+<h3 id="pursuing_publication">Pursuing Publication</h3>
+<p><a href="https://jacobzelko.com/05302023203344-pursuing-publication-venues">Resources</a></p>
 <h3 id="observational_medical_outcomes_partnership_omop">Observational Medical Outcomes Partnership &#40;OMOP&#41;</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/07282021181744-origins-omop">OMOP Origins</a></p>
@@ -302,10 +693,56 @@ knitr::kable&#40;result&#41;</code></pre>
 <li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals">Goals of OHDSI</a></p>
 </li>
 </ul>
+<h3 id="misc">Misc</h3>
+<p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>The Book of OHDSI</em>. <a href="https://jacobzelko.com/05172021000348-book-of-ohdsi">https://jacobzelko.com/05172021000348-book-of-ohdsi</a>. May 16 2021.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; G. Hripcsak et al., “Observational health data sciences and informatics &#40;OHDSI&#41;: Opportunities for observational researchers,” Stud. Health Technol. Inform., vol. 216, p. 574, 2015.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Observational Health Research Studies  ]]>
+  </title>
+  <link> https://jacobzelko.com/05172021000429-observational-studies/index.html </link>
+  <guid> https://jacobzelko.com/05172021000429-observational-studies/index.html </guid>
+  <description>
+    <![CDATA[  Basic terminology of observational health studies  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Observational Health Research Studies</h1>
+<p><strong>Date:</strong> May 16 2021</p>
+<p><strong>Summary:</strong> Basic terminology of observational health studies</p>
+<p><strong>Keywords:</strong> #observational #research #study #ohdsi #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Characteristics</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Building an understanding of how observational studies are defined generally.</p>
+<h3 id="characteristics">Characteristics</h3>
+<p>Observational study: a study where patients are observed; no intervention of any kind is not introduced. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Observational Health Research Studies</em>. <a href="https://jacobzelko.com/05172021000429-observational-studies">https://jacobzelko.com/05172021000429-observational-studies</a>. May 16 2021.</p>
+<h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>

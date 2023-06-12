@@ -23,6 +23,123 @@
 
 <item>
   <title>
+    <![CDATA[  Open Network Studies  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023183944-open-network-studies/index.html </link>
+  <guid> https://jacobzelko.com/05302023183944-open-network-studies/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the different types of network studies that exist  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Open Network Studies</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview of the different types of network studies that exist</p>
+<p><strong>Keywords:</strong> #ohdsi #network #studies #transparency #data #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Characteristics of an OHDSI Open Network Study</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Seeking to understand further the different types of network studies that exist.</p>
+<h3 id="characteristics_of_an_ohdsi_open_network_study">Characteristics of an OHDSI Open Network Study</h3>
+<p>Open OHDSI Network Study: a fully transparent research endeavor shared within the OHDSI research network.</p>
+<ul>
+<li><p>Every single aspect of the study, within reason, are made publicly available on the OHDSI GitHub:</p>
+<ul>
+<li><p>Documentation</p>
+</li>
+<li><p>Study Code</p>
+</li>
+<li><p>Results</p>
+</li>
+</ul>
+</li>
+<li><p>Study protocol describing scope and intent of study</p>
+</li>
+<li><p>Any developed software being OMOP CDM compliant</p>
+</li>
+<li><p>OHDSI Community Calls attendance encouraged</p>
+</li>
+<li><p>Aggregate study results made available in OHDSI GitHub</p>
+</li>
+<li><p>Publish study R Shiny Applications to data.ohdsi.org</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Open Network Studies</em>. <a href="https://jacobzelko.com/05302023183944-open-network-studies">https://jacobzelko.com/05302023183944-open-network-studies</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Quality of Study Data  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023193327-study-data-quality/index.html </link>
+  <guid> https://jacobzelko.com/05302023193327-study-data-quality/index.html </guid>
+  <description>
+    <![CDATA[  Recommendations and thoughts surrounding data quality for network studies  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Quality of Study Data</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Recommendations and thoughts surrounding data quality for network studies</p>
+<p><strong>Keywords:</strong> #study #data #quality #network #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Study Preparation</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>These are general points of feedback on ensuring the quality of data used in a network study context</p>
+<h3 id="study_preparation">Study Preparation</h3>
+<ol>
+<li><p>Review the quality of the data</p>
+</li>
+<li><p>Thoroughly understand data elements such as:</p>
+</li>
+</ol>
+<p>a. What fields are populated</p>
+<p>b. What care settings are present</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Quality of Study Data</em>. <a href="https://jacobzelko.com/05302023193327-study-data-quality">https://jacobzelko.com/05302023193327-study-data-quality</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Introduction To Streaming for Data Scientists  ]]>
   </title>
   <link> https://jacobzelko.com/09092022205654-streaming-data-scientists/index.html </link>

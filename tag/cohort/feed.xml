@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  What Are Patient Cohorts?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023184442-ohdsi-cohorts/index.html </link>
+  <guid> https://jacobzelko.com/05302023184442-ohdsi-cohorts/index.html </guid>
+  <description>
+    <![CDATA[  An overview of patient cohorts  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Patient Cohorts?</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview of patient cohorts</p>
+<p><strong>Keywords:</strong> #patient #cohort #observational #health #research #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Definitions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to have a more clear understanding on how patient cohorts are defined in general.</p>
+<h3 id="definitions">Definitions</h3>
+<p>Within observational health research, person groups that have a characteristics of interest.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Are Patient Cohorts?</em>. <a href="https://jacobzelko.com/05302023184442-ohdsi-cohorts">https://jacobzelko.com/05302023184442-ohdsi-cohorts</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Revising and Managing Cohorts  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023195713-cohort-revisions/index.html </link>
+  <guid> https://jacobzelko.com/05302023195713-cohort-revisions/index.html </guid>
+  <description>
+    <![CDATA[  How to review and revise cohorts in an observational health study  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Revising and Managing Cohorts</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> How to review and revise cohorts in an observational health study</p>
+<p><strong>Keywords:</strong> #cohort #observational #health #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Cohort Review</li><li>Cohort Management</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>This note works as an overview on how to develop and revise robust cohorts within the context of observational health research.</p>
+<h3 id="cohort_review">Cohort Review</h3>
+<ul>
+<li><p>Review associated literature</p>
+</li>
+<li><p>Inquire on advice from relevant clinical and technical experts</p>
+</li>
+<li><p>Use the <a href="https://jacobzelko.com/01102023212115-computable-phenotypes">Phenotype Workflow</a> to more clearly understand how to powerfully build a cohort based on a cohort</p>
+</li>
+</ul>
+<h3 id="cohort_management">Cohort Management</h3>
+<p>A disease definition library could be of great benefit to standardize how cohorts are generated consistently in a network study context. An example is the PhenotypeLibrary initiative from within OHDSI.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Revising and Managing Cohorts</em>. <a href="https://jacobzelko.com/05302023195713-cohort-revisions">https://jacobzelko.com/05302023195713-cohort-revisions</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Pursuing Venues for Publication  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023203344-pursuing-publication-venues/index.html </link>
+  <guid> https://jacobzelko.com/05302023203344-pursuing-publication-venues/index.html </guid>
+  <description>
+    <![CDATA[  Identified venues I have found for a variety of different fields as well as resources  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Pursuing Venues for Publication</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Identified venues I have found for a variety of different fields as well as resources</p>
+<p><strong>Keywords:</strong> #publication #venue #research #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>General Resources</li><li>Network Science</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to have a consistent resource about where to publish materials for research and other publication artifacts. This is a short list that takes inspiration from multiple different influences in my life such as Dr. Gari Clifford, Dr. Jon Duke, Dr. John Carlos Baez, and others who had identified such meaningful lists of resources.</p>
+<h3 id="general_resources">General Resources</h3>
+<ul>
+<li><p>JANE: Journal/Author Name Estimator - takes a given abstract and scans publications for relevance and fit.</p>
+</li>
+</ul>
+<h3 id="network_science">Network Science</h3>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Pursuing Venues for Publication</em>. <a href="https://jacobzelko.com/05302023203344-pursuing-publication-venues">https://jacobzelko.com/05302023203344-pursuing-publication-venues</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

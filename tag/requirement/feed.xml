@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Requirements for Running Network Collaborations  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023202626-site-collaboration-requirements/index.html </link>
+  <guid> https://jacobzelko.com/05302023202626-site-collaboration-requirements/index.html </guid>
+  <description>
+    <![CDATA[  Common requirements in running an observational health network study  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Requirements for Running Network Collaborations</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Common requirements in running an observational health network study</p>
+<p><strong>Keywords:</strong> #requirement #network #study #observational #health #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>General Overview</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I was curious what often is required to run a network study and this was an encapsulation of what I had found.</p>
+<h3 id="general_overview">General Overview</h3>
+<ul>
+<li><p>Most collaborating organizations in a network study do not require data sharing agreements</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Requirements for Running Network Collaborations</em>. <a href="https://jacobzelko.com/05302023202626-site-collaboration-requirements">https://jacobzelko.com/05302023202626-site-collaboration-requirements</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Study Package Requirements  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023185922-study-package-requirements/index.html </link>
+  <guid> https://jacobzelko.com/05302023185922-study-package-requirements/index.html </guid>
+  <description>
+    <![CDATA[  What general requirements are made for network study packages  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Study Package Requirements</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> What general requirements are made for network study packages</p>
+<p><strong>Keywords:</strong> #study #package #ohdsi #requirement #network #cdm #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Requirements by Community<ol><li>OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to know what the most common requirements are for study packages in a network study context. This is a small overview of known requirements broken down by community.</p>
+<h3 id="requirements_by_community">Requirements by Community</h3>
+<h4 id="ohdsi">OHDSI</h4>
+<p>Network studies conducted within the context of OHDSI are premised that all data assets across all participating sites adhere to the OMOP Common Data Model. Furthermore, all said data assets need to have mappings or relationships made utilizing the OMOP standardized vocabularies. This vocabulary subsumes standard concepts across a variety of different vocabularies to enable consistency in investigations across partner sites.</p>
+<p>It is additionally suggested that all participating sites record information about the ETL processed used to map any data asset into the OMOP Common Data Model to ensure clear understanding of how data sources are used. In practice, I personally do not see this discussion happening very often sadly. It is definitely a point of concern to make this a more regular part of networked studies. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Study Package Requirements</em>. <a href="https://jacobzelko.com/05302023185922-study-package-requirements">https://jacobzelko.com/05302023185922-study-package-requirements</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

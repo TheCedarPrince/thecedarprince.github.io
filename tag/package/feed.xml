@@ -23,6 +23,204 @@
 
 <item>
   <title>
+    <![CDATA[  Study Package Deficiencies  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023190833-study-package-deficiencies/index.html </link>
+  <guid> https://jacobzelko.com/05302023190833-study-package-deficiencies/index.html </guid>
+  <description>
+    <![CDATA[  Existing deficiencies within study packages for network studies  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Study Package Deficiencies</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Existing deficiencies within study packages for network studies</p>
+<p><strong>Keywords:</strong> #package #deficiency #study #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Deficiences Found across Communities<ol><li>OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to know what the different deficiencies exist for study packages in a network study context. This is a small overview of known deficiencies broken down by community.</p>
+<h3 id="deficiences_found_across_communities">Deficiences Found across Communities</h3>
+<h4 id="ohdsi">OHDSI</h4>
+<p>With standardization across sites using the OMOP CDM, this has dramatically improved the amount of ways <a href="https://jacobzelko.com/10282021140730-real-world-evidence">real world data</a> can be used across disciplines. With that, the current tools developed within OHDSI for OMOP CDM data analysis are often not sufficient for all desired or imagined analyses. This leads to the need of creating novel tools and resources that each collaboration may require.</p>
+<p><a href="https://jacobzelko.com/05302023185922-study-package-requirements">It is additionally suggested that all participating sites record information about the ETL processed used to map any data asset into the OMOP Common Data Model to ensure clear understanding of how data sources are used.</a> In practice, I personally do not see this discussion happening very often sadly. It is definitely a point of concern to make this a more regular part of networked studies. &#91;1&#93;</p>
+<p>Additionally, when working with claims data, there are <a href="https://jacobzelko.com/06082023203531-claims-data-limitations">several limitations about claims data</a> to be wary of.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Study Package Deficiencies</em>. <a href="https://jacobzelko.com/05302023190833-study-package-deficiencies">https://jacobzelko.com/05302023190833-study-package-deficiencies</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Reviewing Quality of Study Code  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023195603-study-code-quality/index.html </link>
+  <guid> https://jacobzelko.com/05302023195603-study-code-quality/index.html </guid>
+  <description>
+    <![CDATA[  Recommendations on ensuring code quality of network study packages  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Reviewing Quality of Study Code</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Recommendations on ensuring code quality of network study packages</p>
+<p><strong>Keywords:</strong> #network #study #package #code #quality #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Code Review</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to collect general thoughts and insights about code quality of study packages as I find them. </p>
+<h3 id="code_review">Code Review</h3>
+<p>The code used in a network package should be reviewed that it performs as expected. This can be done by testing it within one&#39;s own local environment and that the study runs as expected. Additionally, any generated results from the study should be reviewed by clinical experts and stakeholders to ensure the accuracy of results generated from a given study package.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Reviewing Quality of Study Code</em>. <a href="https://jacobzelko.com/05302023195603-study-code-quality">https://jacobzelko.com/05302023195603-study-code-quality</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Are Study Packages?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023184217-study-packages/index.html </link>
+  <guid> https://jacobzelko.com/05302023184217-study-packages/index.html </guid>
+  <description>
+    <![CDATA[  How OHDSI defines study packages as well as generally what these are  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Study Packages?</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> How OHDSI defines study packages as well as generally what these are</p>
+<p><strong>Keywords:</strong> #study #package #ohdsi #ohdsi #transparency #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>OHDSI Understanding of Study Packages<ol><li>Commentary</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Building understanding of study packages across different contexts.</p>
+<h3 id="ohdsi_understanding_of_study_packages">OHDSI Understanding of Study Packages</h3>
+<p>How OHDSI understands study packages: A completely traceable and reproducible process in the form of software. &#91;1&#93;</p>
+<h4 id="commentary">Commentary</h4>
+<p>With the current trajectory of the OHDSI community, I am worried that the ambitions of &quot;traceability&quot; and &quot;reproducibility&quot; are slowly becoming less a focus within the community despite being so heavily touted. There are several concerns I personally have about this goal such as:</p>
+<ul>
+<li><p>The interface between technically advanced and beginner users of studies is becoming more muddled</p>
+<ul>
+<li><p>I feel this is to the detriment of the study package overall</p>
+</li>
+</ul>
+</li>
+<li><p>More study package dependencies are shifting to opaque approaches and traceability is strongly hindered</p>
+</li>
+<li><p>Implementation within R is detrimental to the overall goal of reproducibility</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Are Study Packages?</em>. <a href="https://jacobzelko.com/05302023184217-study-packages">https://jacobzelko.com/05302023184217-study-packages</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Study Package Requirements  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023185922-study-package-requirements/index.html </link>
+  <guid> https://jacobzelko.com/05302023185922-study-package-requirements/index.html </guid>
+  <description>
+    <![CDATA[  What general requirements are made for network study packages  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Study Package Requirements</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> What general requirements are made for network study packages</p>
+<p><strong>Keywords:</strong> #study #package #ohdsi #requirement #network #cdm #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Requirements by Community<ol><li>OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to know what the most common requirements are for study packages in a network study context. This is a small overview of known requirements broken down by community.</p>
+<h3 id="requirements_by_community">Requirements by Community</h3>
+<h4 id="ohdsi">OHDSI</h4>
+<p>Network studies conducted within the context of OHDSI are premised that all data assets across all participating sites adhere to the OMOP Common Data Model. Furthermore, all said data assets need to have mappings or relationships made utilizing the OMOP standardized vocabularies. This vocabulary subsumes standard concepts across a variety of different vocabularies to enable consistency in investigations across partner sites.</p>
+<p>It is additionally suggested that all participating sites record information about the ETL processed used to map any data asset into the OMOP Common Data Model to ensure clear understanding of how data sources are used. In practice, I personally do not see this discussion happening very often sadly. It is definitely a point of concern to make this a more regular part of networked studies. &#91;1&#93;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Study Package Requirements</em>. <a href="https://jacobzelko.com/05302023185922-study-package-requirements">https://jacobzelko.com/05302023185922-study-package-requirements</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Prelude - Haskell&#39;s Standard Library  ]]>
   </title>
   <link> https://jacobzelko.com/11032021171123-prelude-haskell-library/index.html </link>

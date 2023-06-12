@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Reviewing Quality of Study Code  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023195603-study-code-quality/index.html </link>
+  <guid> https://jacobzelko.com/05302023195603-study-code-quality/index.html </guid>
+  <description>
+    <![CDATA[  Recommendations on ensuring code quality of network study packages  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Reviewing Quality of Study Code</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Recommendations on ensuring code quality of network study packages</p>
+<p><strong>Keywords:</strong> #network #study #package #code #quality #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Code Review</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to collect general thoughts and insights about code quality of study packages as I find them. </p>
+<h3 id="code_review">Code Review</h3>
+<p>The code used in a network package should be reviewed that it performs as expected. This can be done by testing it within one&#39;s own local environment and that the study runs as expected. Additionally, any generated results from the study should be reviewed by clinical experts and stakeholders to ensure the accuracy of results generated from a given study package.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Reviewing Quality of Study Code</em>. <a href="https://jacobzelko.com/05302023195603-study-code-quality">https://jacobzelko.com/05302023195603-study-code-quality</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

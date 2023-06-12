@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Study Design Suggestions  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023184827-study-design-ohdsi/index.html </link>
+  <guid> https://jacobzelko.com/05302023184827-study-design-ohdsi/index.html </guid>
+  <description>
+    <![CDATA[  Suggestions on creating a network study design  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Study Design Suggestions</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Suggestions on creating a network study design</p>
+<p><strong>Keywords:</strong> #study #design #suggestion #network #observational #health #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Things To Avoid</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>These are some best practices found across a variety of resources that describe how to structure an observational health study.</p>
+<h3>Things To Do</h3>
+<ul>
+<li><p>Pre-specify elements of an observational study such as its:</p>
+<ul>
+<li><p>Design</p>
+</li>
+<li><p>Parameters</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="things_to_avoid">Things To Avoid</h3>
+<ul>
+<li><p>Do not evolve your approach for a desired result</p>
+<ul>
+<li><p>This can happen consciously or unconsciously</p>
+</li>
+<li><p>Known as p-hacking</p>
+</li>
+<li><p>Real world data can give the feeling of limitless opportunities</p>
+<ul>
+<li><p>Could lead to unclear lines of inquiry</p>
+</li>
+<li><p>Difficult to explain</p>
+</li>
+<li><p>Harder to reproduce</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>The above avoidance suggestions does have some strong caveats however. In the context of a network study, there exists a tension between the idealized, &quot;in theory&quot; idea of a study design and the &quot;in practice&quot; study design. In practice, an idealized design may fail, not scientifically, but due to implementation details that were not foreseen. Furthermore, when considering an international audience, there could even be a serious design failure when not considering regional or country level differences.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Study Design Suggestions</em>. <a href="https://jacobzelko.com/05302023184827-study-design-ohdsi">https://jacobzelko.com/05302023184827-study-design-ohdsi</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  OHDSI Protocol Suggestions  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023185043-ohdsi-protocol-study/index.html </link>
+  <guid> https://jacobzelko.com/05302023185043-ohdsi-protocol-study/index.html </guid>
+  <description>
+    <![CDATA[  Overview of OHDSI suggestions for an OHDSI protocol  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>OHDSI Protocol Suggestions</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Overview of OHDSI suggestions for an OHDSI protocol</p>
+<p><strong>Keywords:</strong> #ohdsi #protocol #network #science #design #suggestion #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>General Details</li><li>Outline of What a Protocol Should Include</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to more clearly define and delineate how OHDSI suggests a protocol design.</p>
+<h3 id="general_details">General Details</h3>
+<p>A study&#39;s plan should be well-documented prior to executing a study.</p>
+<h3 id="outline_of_what_a_protocol_should_include">Outline of What a Protocol Should Include</h3>
+<ul>
+<li><p>Primary study question</p>
+</li>
+<li><p>Approach to answer study question</p>
+</li>
+<li><p>Study population&#40;s&#41;:</p>
+<ul>
+<li><p>Well-defined</p>
+</li>
+<li><p>Should be able to be reproduced by others</p>
+</li>
+</ul>
+</li>
+<li><p>Methods such as:</p>
+<ul>
+<li><p>Statistical procedures</p>
+</li>
+</ul>
+</li>
+<li><p>Expected study results:</p>
+<ul>
+<li><p>Metrics that are used to answer the question</p>
+</li>
+<li><p>Tables</p>
+</li>
+<li><p>Plots</p>
+</li>
+</ul>
+</li>
+<li><p>Pre-Study Assessment</p>
+<ul>
+<li><p>Feasibility assessment</p>
+</li>
+<li><p>Statistical power of a study</p>
+</li>
+</ul>
+</li>
+<li><p>Anticipated time line</p>
+</li>
+<li><p>Study Milestones</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>OHDSI Protocol Suggestions</em>. <a href="https://jacobzelko.com/05302023185043-ohdsi-protocol-study">https://jacobzelko.com/05302023185043-ohdsi-protocol-study</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

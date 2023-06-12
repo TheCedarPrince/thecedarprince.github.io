@@ -23,6 +23,98 @@
 
 <item>
   <title>
+    <![CDATA[  What Are Patient Cohorts?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023184442-ohdsi-cohorts/index.html </link>
+  <guid> https://jacobzelko.com/05302023184442-ohdsi-cohorts/index.html </guid>
+  <description>
+    <![CDATA[  An overview of patient cohorts  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Patient Cohorts?</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview of patient cohorts</p>
+<p><strong>Keywords:</strong> #patient #cohort #observational #health #research #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Definitions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to have a more clear understanding on how patient cohorts are defined in general.</p>
+<h3 id="definitions">Definitions</h3>
+<p>Within observational health research, person groups that have a characteristics of interest.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Are Patient Cohorts?</em>. <a href="https://jacobzelko.com/05302023184442-ohdsi-cohorts">https://jacobzelko.com/05302023184442-ohdsi-cohorts</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Pursuing Venues for Publication  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023203344-pursuing-publication-venues/index.html </link>
+  <guid> https://jacobzelko.com/05302023203344-pursuing-publication-venues/index.html </guid>
+  <description>
+    <![CDATA[  Identified venues I have found for a variety of different fields as well as resources  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Pursuing Venues for Publication</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Identified venues I have found for a variety of different fields as well as resources</p>
+<p><strong>Keywords:</strong> #publication #venue #research #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>General Resources</li><li>Network Science</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to have a consistent resource about where to publish materials for research and other publication artifacts. This is a short list that takes inspiration from multiple different influences in my life such as Dr. Gari Clifford, Dr. Jon Duke, Dr. John Carlos Baez, and others who had identified such meaningful lists of resources.</p>
+<h3 id="general_resources">General Resources</h3>
+<ul>
+<li><p>JANE: Journal/Author Name Estimator - takes a given abstract and scans publications for relevance and fit.</p>
+</li>
+</ul>
+<h3 id="network_science">Network Science</h3>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Pursuing Venues for Publication</em>. <a href="https://jacobzelko.com/05302023203344-pursuing-publication-venues">https://jacobzelko.com/05302023203344-pursuing-publication-venues</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Zettelkasten  ]]>
   </title>
   <link> https://jacobzelko.com/03092020031549-zettelkasten/index.html </link>
@@ -334,10 +426,25 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
-<p><a href="https://jacobzelko.com/05172021000429-observational-studies">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
-<p>&#91;Study Packages&#93;</p>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Background</li><li>Study Types</li><li>Study Packages</li><li>Cohorts</li><li>OHDSI Guiding Principles for Studies</li><li>Feasibility</li><li>Site Collaboration</li><li>Pursuing Publication</li><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li><li>Misc</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>The Book of OHDSI, to quote my friend and mentor Kristin Kostka, is &quot;an act of God&quot; that it came to be in how thorough and useful a resource it is for the OHDSI community. Over the past couple years, I have read multiple parts of this book over and over again for my work and research. In general, this book is a useful resource for OHDSI but I do find it to be sometimes limited in utility for the greater observational health community. These are my notes on the book along with various commentary.</p>
+<h3 id="background">Background</h3>
+<p>Here we aim to provide a general step­by­step guide to the design and implementation of an observational study with the OHDSI tools Note: In this case, this is the critical flaw of this book when tells i y about studies. It limits itself to only thinking within the context of the available HADES Tools when there is SO much more going on&#33; </p>
+<h3 id="study_types">Study Types</h3>
+<p><a href="https://jacobzelko.com/05302023183944-open-network-studies">Open Network Studies</a> <a href="https://jacobzelko.com/05172021000429-observational-studies">Observational research studies</a> </p>
+<h3 id="study_packages">Study Packages</h3>
+<p><a href="https://jacobzelko.com/05302023184217-study-packages">Study Packages</a> <a href="https://jacobzelko.com/05302023185922-study-package-requirements">Requirements</a> <a href="https://jacobzelko.com/05302023190833-study-package-deficiencies">Deficiencies</a> <a href="https://jacobzelko.com/05302023193327-study-data-quality">Data Quality</a> <a href="https://jacobzelko.com/05302023195603-study-code-quality">Code Quality</a></p>
+<h3 id="cohorts">Cohorts</h3>
+<p><a href="https://jacobzelko.com/05302023184442-ohdsi-cohorts">Cohorts</a> <a href="https://jacobzelko.com/05302023195713-cohort-revisions">Revisions</a></p>
+<h3 id="ohdsi_guiding_principles_for_studies">OHDSI Guiding Principles for Studies</h3>
+<p><a href="https://jacobzelko.com/05302023184624-general-study-guidelines">General Guidelines</a> <a href="https://jacobzelko.com/05302023184827-study-design-ohdsi">Study Design</a> <a href="https://jacobzelko.com/05302023185043-ohdsi-protocol-study">Protocols</a> <a href="https://jacobzelko.com/05302023185223-checking-study-design">Reviewing Study Design</a> <a href="https://jacobzelko.com/05302023185737-finalizing-ohdsi-study">Finalizing Study Creation</a></p>
+<h3 id="feasibility">Feasibility</h3>
+<p><a href="https://jacobzelko.com/05302023200034-feasibility-assessment-approach">Checking Feasibility Approach</a></p>
+<h3 id="site_collaboration">Site Collaboration</h3>
+<p><a href="https://jacobzelko.com/05302023200241-site-collaboration">Background</a> <a href="https://jacobzelko.com/05302023200347-roles-network-study">Roles</a> <a href="https://jacobzelko.com/05302023200536-study-collaboration-deficiencies">Deficiencies</a> <a href="https://jacobzelko.com/05302023202626-site-collaboration-requirements">Requirements</a></p>
+<h3 id="pursuing_publication">Pursuing Publication</h3>
+<p><a href="https://jacobzelko.com/05302023203344-pursuing-publication-venues">Resources</a></p>
 <h3 id="observational_medical_outcomes_partnership_omop">Observational Medical Outcomes Partnership &#40;OMOP&#41;</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/07282021181744-origins-omop">OMOP Origins</a></p>
@@ -352,10 +459,56 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals">Goals of OHDSI</a></p>
 </li>
 </ul>
+<h3 id="misc">Misc</h3>
+<p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>The Book of OHDSI</em>. <a href="https://jacobzelko.com/05172021000348-book-of-ohdsi">https://jacobzelko.com/05172021000348-book-of-ohdsi</a>. May 16 2021.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; G. Hripcsak et al., “Observational health data sciences and informatics &#40;OHDSI&#41;: Opportunities for observational researchers,” Stud. Health Technol. Inform., vol. 216, p. 574, 2015.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Observational Health Research Studies  ]]>
+  </title>
+  <link> https://jacobzelko.com/05172021000429-observational-studies/index.html </link>
+  <guid> https://jacobzelko.com/05172021000429-observational-studies/index.html </guid>
+  <description>
+    <![CDATA[  Basic terminology of observational health studies  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Observational Health Research Studies</h1>
+<p><strong>Date:</strong> May 16 2021</p>
+<p><strong>Summary:</strong> Basic terminology of observational health studies</p>
+<p><strong>Keywords:</strong> #observational #research #study #ohdsi #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Characteristics</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Building an understanding of how observational studies are defined generally.</p>
+<h3 id="characteristics">Characteristics</h3>
+<p>Observational study: a study where patients are observed; no intervention of any kind is not introduced. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Observational Health Research Studies</em>. <a href="https://jacobzelko.com/05172021000429-observational-studies">https://jacobzelko.com/05172021000429-observational-studies</a>. May 16 2021.</p>
+<h2 id="references">References</h2>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>

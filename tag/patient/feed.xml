@@ -23,6 +23,50 @@
 
 <item>
   <title>
+    <![CDATA[  What Are Patient Cohorts?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023184442-ohdsi-cohorts/index.html </link>
+  <guid> https://jacobzelko.com/05302023184442-ohdsi-cohorts/index.html </guid>
+  <description>
+    <![CDATA[  An overview of patient cohorts  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Patient Cohorts?</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview of patient cohorts</p>
+<p><strong>Keywords:</strong> #patient #cohort #observational #health #research #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Definitions</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to have a more clear understanding on how patient cohorts are defined in general.</p>
+<h3 id="definitions">Definitions</h3>
+<p>Within observational health research, person groups that have a characteristics of interest.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Are Patient Cohorts?</em>. <a href="https://jacobzelko.com/05302023184442-ohdsi-cohorts">https://jacobzelko.com/05302023184442-ohdsi-cohorts</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  What Are Claims?  ]]>
   </title>
   <link> https://jacobzelko.com/02142022220749-claims-summary/index.html </link>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Study Package Deficiencies  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023190833-study-package-deficiencies/index.html </link>
+  <guid> https://jacobzelko.com/05302023190833-study-package-deficiencies/index.html </guid>
+  <description>
+    <![CDATA[  Existing deficiencies within study packages for network studies  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Study Package Deficiencies</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Existing deficiencies within study packages for network studies</p>
+<p><strong>Keywords:</strong> #package #deficiency #study #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Deficiences Found across Communities<ol><li>OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to know what the different deficiencies exist for study packages in a network study context. This is a small overview of known deficiencies broken down by community.</p>
+<h3 id="deficiences_found_across_communities">Deficiences Found across Communities</h3>
+<h4 id="ohdsi">OHDSI</h4>
+<p>With standardization across sites using the OMOP CDM, this has dramatically improved the amount of ways <a href="https://jacobzelko.com/10282021140730-real-world-evidence">real world data</a> can be used across disciplines. With that, the current tools developed within OHDSI for OMOP CDM data analysis are often not sufficient for all desired or imagined analyses. This leads to the need of creating novel tools and resources that each collaboration may require.</p>
+<p><a href="https://jacobzelko.com/05302023185922-study-package-requirements">It is additionally suggested that all participating sites record information about the ETL processed used to map any data asset into the OMOP Common Data Model to ensure clear understanding of how data sources are used.</a> In practice, I personally do not see this discussion happening very often sadly. It is definitely a point of concern to make this a more regular part of networked studies. &#91;1&#93;</p>
+<p>Additionally, when working with claims data, there are <a href="https://jacobzelko.com/06082023203531-claims-data-limitations">several limitations about claims data</a> to be wary of.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Study Package Deficiencies</em>. <a href="https://jacobzelko.com/05302023190833-study-package-deficiencies">https://jacobzelko.com/05302023190833-study-package-deficiencies</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Deficiencies in a Study Collaboration  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023200536-study-collaboration-deficiencies/index.html </link>
+  <guid> https://jacobzelko.com/05302023200536-study-collaboration-deficiencies/index.html </guid>
+  <description>
+    <![CDATA[  An overview on some of the deficiences of a network study collaboration  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Deficiencies in a Study Collaboration</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview on some of the deficiences of a network study collaboration</p>
+<p><strong>Keywords:</strong> #network #study #collaboration #deficiency #observational #health #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Overarching Themes</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Although I believe strongly network studies are a good idea, it is also worth countering my intuition to know about what are the deficiencies that can be found in network studies. These are some notes on those deficiences.</p>
+<h3 id="overarching_themes">Overarching Themes</h3>
+<ul>
+<li><p>Social Determinants of Health information is not well represented within a observational health network study</p>
+</li>
+<li><p>Concept sets used in the creation of a cohort definition need to be handled with care</p>
+<ul>
+<li><p>Must be thought of holistically</p>
+</li>
+<li><p>Susceptible to biasing overall study</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Deficiencies in a Study Collaboration</em>. <a href="https://jacobzelko.com/05302023200536-study-collaboration-deficiencies">https://jacobzelko.com/05302023200536-study-collaboration-deficiencies</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

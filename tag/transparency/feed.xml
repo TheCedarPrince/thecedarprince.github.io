@@ -23,6 +23,131 @@
 
 <item>
   <title>
+    <![CDATA[  Open Network Studies  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023183944-open-network-studies/index.html </link>
+  <guid> https://jacobzelko.com/05302023183944-open-network-studies/index.html </guid>
+  <description>
+    <![CDATA[  An overview of the different types of network studies that exist  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Open Network Studies</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview of the different types of network studies that exist</p>
+<p><strong>Keywords:</strong> #ohdsi #network #studies #transparency #data #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Characteristics of an OHDSI Open Network Study</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Seeking to understand further the different types of network studies that exist.</p>
+<h3 id="characteristics_of_an_ohdsi_open_network_study">Characteristics of an OHDSI Open Network Study</h3>
+<p>Open OHDSI Network Study: a fully transparent research endeavor shared within the OHDSI research network.</p>
+<ul>
+<li><p>Every single aspect of the study, within reason, are made publicly available on the OHDSI GitHub:</p>
+<ul>
+<li><p>Documentation</p>
+</li>
+<li><p>Study Code</p>
+</li>
+<li><p>Results</p>
+</li>
+</ul>
+</li>
+<li><p>Study protocol describing scope and intent of study</p>
+</li>
+<li><p>Any developed software being OMOP CDM compliant</p>
+</li>
+<li><p>OHDSI Community Calls attendance encouraged</p>
+</li>
+<li><p>Aggregate study results made available in OHDSI GitHub</p>
+</li>
+<li><p>Publish study R Shiny Applications to data.ohdsi.org</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Open Network Studies</em>. <a href="https://jacobzelko.com/05302023183944-open-network-studies">https://jacobzelko.com/05302023183944-open-network-studies</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  What Are Study Packages?  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023184217-study-packages/index.html </link>
+  <guid> https://jacobzelko.com/05302023184217-study-packages/index.html </guid>
+  <description>
+    <![CDATA[  How OHDSI defines study packages as well as generally what these are  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Are Study Packages?</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> How OHDSI defines study packages as well as generally what these are</p>
+<p><strong>Keywords:</strong> #study #package #ohdsi #ohdsi #transparency #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available </p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>OHDSI Understanding of Study Packages<ol><li>Commentary</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Building understanding of study packages across different contexts.</p>
+<h3 id="ohdsi_understanding_of_study_packages">OHDSI Understanding of Study Packages</h3>
+<p>How OHDSI understands study packages: A completely traceable and reproducible process in the form of software. &#91;1&#93;</p>
+<h4 id="commentary">Commentary</h4>
+<p>With the current trajectory of the OHDSI community, I am worried that the ambitions of &quot;traceability&quot; and &quot;reproducibility&quot; are slowly becoming less a focus within the community despite being so heavily touted. There are several concerns I personally have about this goal such as:</p>
+<ul>
+<li><p>The interface between technically advanced and beginner users of studies is becoming more muddled</p>
+<ul>
+<li><p>I feel this is to the detriment of the study package overall</p>
+</li>
+</ul>
+</li>
+<li><p>More study package dependencies are shifting to opaque approaches and traceability is strongly hindered</p>
+</li>
+<li><p>Implementation within R is detrimental to the overall goal of reproducibility</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Are Study Packages?</em>. <a href="https://jacobzelko.com/05302023184217-study-packages">https://jacobzelko.com/05302023184217-study-packages</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Tools for Improving Health Care Value Part 1: How States Establish an APCD and Make it Functional  ]]>
   </title>
   <link> https://jacobzelko.com/08032021205910-establish-apcd/index.html </link>

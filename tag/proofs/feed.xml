@@ -23,6 +23,87 @@
 
 <item>
   <title>
+    <![CDATA[  Chapter 1: Sentential Logic  ]]>
+  </title>
+  <link> https://jacobzelko.com/04122023013725-sentential-logic/index.html </link>
+  <guid> https://jacobzelko.com/04122023013725-sentential-logic/index.html </guid>
+  <description>
+    <![CDATA[  TODO  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Chapter 1: Sentential Logic</h1>
+<p><strong>Date:</strong> April 12 2023</p>
+<p><strong>Summary:</strong> TODO</p>
+<p><strong>Keywords:</strong> #archive #proofs #logic #discrete #mathematics #deductive #reasoning</p>
+<h1>Bibliography</h1>
+<p>TODO</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><ol><li>Deductive Reasoning</li><li>Premises</li><li>Connective Symbols</li><li>Conjunction, Disjunction, and Negation</li><li>Well-Formed Formulas</li><li>Truth Tables</li><li>Equivalent Formulas</li><li>Tautologies</li><li>Contradictions</li><li>Variables</li><li>Free Variables</li><li>Bound Variables</li><li>Sets</li><li>Truth Set</li><li>Elementhood Test</li><li>Set Operations</li><li>Not Sure Section</li><li>Conditional Statements</li><li>Converses and Contrapositives</li><li>Biconditional Statements</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h4 id="deductive_reasoning">Deductive Reasoning</h4>
+<p>TODO: Finish creating note for this topic TODO: Create Anki flashcards from note <a href="https://jacobzelko.com/04192023062415-deductive-reasoning">See Note</a></p>
+<h4 id="premises">Premises</h4>
+<p><a href="https://jacobzelko.com/04222023200544-premises">See Note</a></p>
+<h4 id="connective_symbols">Connective Symbols</h4>
+<p><a href="https://jacobzelko.com/04222023201022-connective-symbols">See Note</a></p>
+<h4 id="conjunction_disjunction_and_negation">Conjunction, Disjunction, and Negation</h4>
+<p>TODO: Finish creating note for this topic TODO: Create Anki flashcards from note <a href="https://jacobzelko.com/04222023201456-conjunction">See Note</a></p>
+<h4 id="well-formed_formulas">Well-Formed Formulas</h4>
+<p>TODO: Finish creating note for this topic TODO: Create Anki flashcards from note <a href="https://jacobzelko.com/04222023201708-well-formed-formulas">See Note</a></p>
+<h4 id="truth_tables">Truth Tables</h4>
+<p><a href="https://jacobzelko.com/04222023202013-truth-tables">See Note</a></p>
+<h4 id="equivalent_formulas">Equivalent Formulas</h4>
+<p><a href="https://jacobzelko.com/04222023202244-equivalent-formulas">See Note</a></p>
+<h4 id="tautologies">Tautologies</h4>
+<p><a href="https://jacobzelko.com/04222023202658-tautologies">See Note</a></p>
+<h4 id="contradictions">Contradictions</h4>
+<p><a href="https://jacobzelko.com/04222023202728-contradictions">See Note</a></p>
+<h4 id="variables">Variables</h4>
+<p><a href="https://jacobzelko.com/05222023043713-variables">See Note</a></p>
+<h4 id="free_variables">Free Variables</h4>
+<p><a href="https://jacobzelko.com/05222023045230-free-variables">See Note</a></p>
+<h4 id="bound_variables">Bound Variables</h4>
+<p><a href="https://jacobzelko.com/05222023045410-bound-variables">See Note</a></p>
+<h4 id="sets">Sets</h4>
+<p><a href="https://jacobzelko.com/02212022050947-sets">See Note</a></p>
+<h4 id="truth_set">Truth Set</h4>
+<p><a href="https://jacobzelko.com/05222023163748-truth-set">See Note</a></p>
+<h4 id="elementhood_test">Elementhood Test</h4>
+<p><a href="https://jacobzelko.com/05222023163907-elementhood-test">See Note</a></p>
+<h4 id="set_operations">Set Operations</h4>
+<p><a href="https://jacobzelko.com/05222023050716-set-operations">See Note</a></p>
+<p>TODO: Add this theorem somewhere</p>
+<h4 id="not_sure_section">Not Sure Section</h4>
+<p>Theorem 1.4.7. For any sets A and B, &#40;A ∪ B&#41; &#92; B ⊆ A. Proof. We must show that if something is an element of &#40;A ∪ B&#41; &#92; B, then it must also be an element of A, so suppose that x ∈ &#40;A ∪ B&#41; &#92; B. This means that x ∈ A ∪ B and x ∈ B, or in other words x ∈ A ∨ x ∈ B and x ∈ B. But notice that these statements have the logical form P ∨ Q and ¬Q, and this is precisely the form of the premises of our very first example of a deductive argument in Section 1.1&#33; As we saw in that example, from these premises we can conclude that x ∈ A must be true. Thus, anything that is an element of &#40;A ∪ B&#41; &#92; B must also be an element of A, so &#40;A ∪ B&#41; &#92; B ⊆ A.</p>
+<h4 id="conditional_statements">Conditional Statements</h4>
+<p><a href="https://jacobzelko.com/05222023164417-condition-statements">See Note</a> <a href="https://jacobzelko.com/05222023183737-conditional-statement-laws">See Note</a></p>
+<h4 id="converses_and_contrapositives">Converses and Contrapositives</h4>
+<p><a href="https://jacobzelko.com/05222023164529-converses-contrapositives">See Note</a></p>
+<h4 id="biconditional_statements">Biconditional Statements</h4>
+<p><a href="https://jacobzelko.com/05222023164641-biconditional-statements">See Note</a></p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Chapter 1: Sentential Logic</em>. <a href="https://jacobzelko.com/04122023013725-sentential-logic">https://jacobzelko.com/04122023013725-sentential-logic</a>. April 12 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Making Math Flashcards Using Spaced Repetition Systems  ]]>
   </title>
   <link> https://jacobzelko.com/01072023041127-making-math-anki/index.html </link>

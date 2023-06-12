@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  General Guidelines for Network Study Development  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023184624-general-study-guidelines/index.html </link>
+  <guid> https://jacobzelko.com/05302023184624-general-study-guidelines/index.html </guid>
+  <description>
+    <![CDATA[  Guidelines that various groups have developed for working within the context of network studies  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>General Guidelines for Network Study Development</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Guidelines that various groups have developed for working within the context of network studies</p>
+<p><strong>Keywords:</strong> #guideline #network #study #ohdsi #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>General Community Guidelines for Network Studies<ol><li>OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Network studies are a strange thing. They both are not well documented and at the same time starting to somewhat move towards mainstream discussions of large scale analytics.</p>
+<h3 id="general_community_guidelines_for_network_studies">General Community Guidelines for Network Studies</h3>
+<h4 id="ohdsi">OHDSI</h4>
+<p>General principles for network studies: &#91;1&#93;</p>
+<ul>
+<li><p>Fundamental is to describe one&#39;s research question fully</p>
+</li>
+<li><p>Specify approach in executing study</p>
+</li>
+<li><p>No requirement to share study across entire OHDSI network</p>
+</li>
+<li><p>Can limit study to:</p>
+<ul>
+<li><p>Only few sites</p>
+</li>
+<li><p>Home site</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>General Guidelines for Network Study Development</em>. <a href="https://jacobzelko.com/05302023184624-general-study-guidelines">https://jacobzelko.com/05302023184624-general-study-guidelines</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

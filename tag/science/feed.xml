@@ -23,6 +23,93 @@
 
 <item>
   <title>
+    <![CDATA[  OHDSI Protocol Suggestions  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023185043-ohdsi-protocol-study/index.html </link>
+  <guid> https://jacobzelko.com/05302023185043-ohdsi-protocol-study/index.html </guid>
+  <description>
+    <![CDATA[  Overview of OHDSI suggestions for an OHDSI protocol  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>OHDSI Protocol Suggestions</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Overview of OHDSI suggestions for an OHDSI protocol</p>
+<p><strong>Keywords:</strong> #ohdsi #protocol #network #science #design #suggestion #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>General Details</li><li>Outline of What a Protocol Should Include</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I wanted to more clearly define and delineate how OHDSI suggests a protocol design.</p>
+<h3 id="general_details">General Details</h3>
+<p>A study&#39;s plan should be well-documented prior to executing a study.</p>
+<h3 id="outline_of_what_a_protocol_should_include">Outline of What a Protocol Should Include</h3>
+<ul>
+<li><p>Primary study question</p>
+</li>
+<li><p>Approach to answer study question</p>
+</li>
+<li><p>Study population&#40;s&#41;:</p>
+<ul>
+<li><p>Well-defined</p>
+</li>
+<li><p>Should be able to be reproduced by others</p>
+</li>
+</ul>
+</li>
+<li><p>Methods such as:</p>
+<ul>
+<li><p>Statistical procedures</p>
+</li>
+</ul>
+</li>
+<li><p>Expected study results:</p>
+<ul>
+<li><p>Metrics that are used to answer the question</p>
+</li>
+<li><p>Tables</p>
+</li>
+<li><p>Plots</p>
+</li>
+</ul>
+</li>
+<li><p>Pre-Study Assessment</p>
+<ul>
+<li><p>Feasibility assessment</p>
+</li>
+<li><p>Statistical power of a study</p>
+</li>
+</ul>
+</li>
+<li><p>Anticipated time line</p>
+</li>
+<li><p>Study Milestones</p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>OHDSI Protocol Suggestions</em>. <a href="https://jacobzelko.com/05302023185043-ohdsi-protocol-study">https://jacobzelko.com/05302023185043-ohdsi-protocol-study</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  What is   ]]>
   </title>
   <link> https://jacobzelko.com/05222022044134-normal-science/index.html </link>

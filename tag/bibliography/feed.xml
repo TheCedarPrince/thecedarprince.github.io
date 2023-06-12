@@ -1066,10 +1066,25 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
-<p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
-<p><a href="https://jacobzelko.com/05172021000429-observational-studies">Observational research studies</a> are a cornerstone of OHDSI-based research.</p>
-<p>&#91;Study Packages&#93;</p>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Background</li><li>Study Types</li><li>Study Packages</li><li>Cohorts</li><li>OHDSI Guiding Principles for Studies</li><li>Feasibility</li><li>Site Collaboration</li><li>Pursuing Publication</li><li>Observational Medical Outcomes Partnership &#40;OMOP&#41;</li><li>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;</li><li>Misc</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>The Book of OHDSI, to quote my friend and mentor Kristin Kostka, is &quot;an act of God&quot; that it came to be in how thorough and useful a resource it is for the OHDSI community. Over the past couple years, I have read multiple parts of this book over and over again for my work and research. In general, this book is a useful resource for OHDSI but I do find it to be sometimes limited in utility for the greater observational health community. These are my notes on the book along with various commentary.</p>
+<h3 id="background">Background</h3>
+<p>Here we aim to provide a general step­by­step guide to the design and implementation of an observational study with the OHDSI tools Note: In this case, this is the critical flaw of this book when tells i y about studies. It limits itself to only thinking within the context of the available HADES Tools when there is SO much more going on&#33; </p>
+<h3 id="study_types">Study Types</h3>
+<p><a href="https://jacobzelko.com/05302023183944-open-network-studies">Open Network Studies</a> <a href="https://jacobzelko.com/05172021000429-observational-studies">Observational research studies</a> </p>
+<h3 id="study_packages">Study Packages</h3>
+<p><a href="https://jacobzelko.com/05302023184217-study-packages">Study Packages</a> <a href="https://jacobzelko.com/05302023185922-study-package-requirements">Requirements</a> <a href="https://jacobzelko.com/05302023190833-study-package-deficiencies">Deficiencies</a> <a href="https://jacobzelko.com/05302023193327-study-data-quality">Data Quality</a> <a href="https://jacobzelko.com/05302023195603-study-code-quality">Code Quality</a></p>
+<h3 id="cohorts">Cohorts</h3>
+<p><a href="https://jacobzelko.com/05302023184442-ohdsi-cohorts">Cohorts</a> <a href="https://jacobzelko.com/05302023195713-cohort-revisions">Revisions</a></p>
+<h3 id="ohdsi_guiding_principles_for_studies">OHDSI Guiding Principles for Studies</h3>
+<p><a href="https://jacobzelko.com/05302023184624-general-study-guidelines">General Guidelines</a> <a href="https://jacobzelko.com/05302023184827-study-design-ohdsi">Study Design</a> <a href="https://jacobzelko.com/05302023185043-ohdsi-protocol-study">Protocols</a> <a href="https://jacobzelko.com/05302023185223-checking-study-design">Reviewing Study Design</a> <a href="https://jacobzelko.com/05302023185737-finalizing-ohdsi-study">Finalizing Study Creation</a></p>
+<h3 id="feasibility">Feasibility</h3>
+<p><a href="https://jacobzelko.com/05302023200034-feasibility-assessment-approach">Checking Feasibility Approach</a></p>
+<h3 id="site_collaboration">Site Collaboration</h3>
+<p><a href="https://jacobzelko.com/05302023200241-site-collaboration">Background</a> <a href="https://jacobzelko.com/05302023200347-roles-network-study">Roles</a> <a href="https://jacobzelko.com/05302023200536-study-collaboration-deficiencies">Deficiencies</a> <a href="https://jacobzelko.com/05302023202626-site-collaboration-requirements">Requirements</a></p>
+<h3 id="pursuing_publication">Pursuing Publication</h3>
+<p><a href="https://jacobzelko.com/05302023203344-pursuing-publication-venues">Resources</a></p>
 <h3 id="observational_medical_outcomes_partnership_omop">Observational Medical Outcomes Partnership &#40;OMOP&#41;</h3>
 <ul>
 <li><p><a href="https://jacobzelko.com/07282021181744-origins-omop">OMOP Origins</a></p>
@@ -1084,6 +1099,8 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <li><p><a href="https://jacobzelko.com/07282021185354-ohdsi-goals">Goals of OHDSI</a></p>
 </li>
 </ul>
+<h3 id="misc">Misc</h3>
+<p>Observational Health Data Sciences and Informatics &#40;OHDSI&#41;: open community improving health by generating evidence to better health decisions and care. &#91;1&#93;</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>The Book of OHDSI</em>. <a href="https://jacobzelko.com/05172021000348-book-of-ohdsi">https://jacobzelko.com/05172021000348-book-of-ohdsi</a>. May 16 2021.</p>
 <h2 id="references">References</h2>

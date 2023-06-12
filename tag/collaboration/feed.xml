@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Site Collaboration in Network Studies  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023200241-site-collaboration/index.html </link>
+  <guid> https://jacobzelko.com/05302023200241-site-collaboration/index.html </guid>
+  <description>
+    <![CDATA[  An overview on how sites participate as collaborators in a network study  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Site Collaboration in Network Studies</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview on how sites participate as collaborators in a network study</p>
+<p><strong>Keywords:</strong> #site #collaboration #network #study #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Site Collaboration across Specific Communities<ol><li>OHDSI</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Collaboration in network studies are often quite thorough and involved. This looks at how different communities encourage and participate within network studies.</p>
+<h3 id="site_collaboration_across_specific_communities">Site Collaboration across Specific Communities</h3>
+<h4 id="ohdsi">OHDSI</h4>
+<ul>
+<li><p>Site participation is voluntary</p>
+<ul>
+<li><p>No obligations</p>
+</li>
+</ul>
+</li>
+<li><p>Data from all participating sites remain at the site</p>
+<ul>
+<li><p>Only aggregate results shared across sites</p>
+</li>
+<li><p>No patient level pooling happens across sites</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Site Collaboration in Network Studies</em>. <a href="https://jacobzelko.com/05302023200241-site-collaboration">https://jacobzelko.com/05302023200241-site-collaboration</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Roles in a Network Study Collaboration  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023200347-roles-network-study/index.html </link>
+  <guid> https://jacobzelko.com/05302023200347-roles-network-study/index.html </guid>
+  <description>
+    <![CDATA[  Roles that can be found across network studies  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Roles in a Network Study Collaboration</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> Roles that can be found across network studies</p>
+<p><strong>Keywords:</strong> #role #network #study #collaboration #lead #analyst #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Local Roles in an OHDSI Network Study<ol><li>Study Lead<ol><li>Responsibilities</li></ol></li><li>Publication Lead<ol><li>Responsibilities</li></ol></li></ol></li><li>External Roles in an OHDSI Network Study</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>An overview of various roles within ongoing network studies.</p>
+<h3 id="local_roles_in_an_ohdsi_network_study">Local Roles in an OHDSI Network Study</h3>
+<h4>Data Analyst</h4>
+<h5>Responsibilities</h5>
+<ul>
+<li><p>Executes a study package</p>
+</li>
+<li><p>Reviews the output of a study package</p>
+<ul>
+<li><p>Ensures no sensitive information has been transmitted</p>
+</li>
+</ul>
+</li>
+<li><p>Complies with local governance policies</p>
+<ul>
+<li><p>Includes method of results sharing</p>
+</li>
+<li><p>Adhering to approval process for publications</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="study_lead">Study Lead</h4>
+<p>Every study requires a study lead within the OHDSI network. This lead can be any collaborator across the OHDSI community.</p>
+<h5 id="responsibilities">Responsibilities</h5>
+<ul>
+<li><p>Leads coordination in collaboration with:</p>
+<ul>
+<li><p>Collaborating researchers</p>
+</li>
+<li><p>External data partners</p>
+</li>
+<li><p>Directs collaborators to</p>
+<ul>
+<li><p>Study protocol</p>
+</li>
+<li><p>Study package</p>
+<ul>
+<li><p>How to execute study package</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Review data quality reports across sites</p>
+<ul>
+<li><p>Explores and manages site level variation</p>
+</li>
+<li><p>Spearheads feasibility assessments across sites</p>
+</li>
+</ul>
+</li>
+<li><p>Publicizes study</p>
+<ul>
+<li><p>Announces in OHDSI community calls</p>
+</li>
+<li><p>Invites collaborators to participate in study</p>
+</li>
+</ul>
+</li>
+<li><p>Ensure reported sites adhere to local guidelines</p>
+</li>
+<li><p>Communicates how results should be received from sites</p>
+<ul>
+<li><p>Time frames for returning results</p>
+</li>
+</ul>
+</li>
+<li><p>Perform aggregation of results across sites to perform meta analysis</p>
+</li>
+<li><p>Monitor site participation</p>
+<ul>
+<li><p>Remove obstacles to running study package</p>
+</li>
+<li><p>Checking in with various sites on progress</p>
+</li>
+<li><p>Update study protocol per collaborator requirements</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="publication_lead">Publication Lead</h4>
+<h5 id="responsibilities__2">Responsibilities</h5>
+<ul>
+<li><p>Internal process are adhered to during preparation of artifacts</p>
+</li>
+<li><p>Prepare research artifacts</p>
+</li>
+<li><p>Coordinates over submission timeline for a given artifact</p>
+</li>
+</ul>
+<h3 id="external_roles_in_an_ohdsi_network_study">External Roles in an OHDSI Network Study</h3>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Roles in a Network Study Collaboration</em>. <a href="https://jacobzelko.com/05302023200347-roles-network-study">https://jacobzelko.com/05302023200347-roles-network-study</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Deficiencies in a Study Collaboration  ]]>
+  </title>
+  <link> https://jacobzelko.com/05302023200536-study-collaboration-deficiencies/index.html </link>
+  <guid> https://jacobzelko.com/05302023200536-study-collaboration-deficiencies/index.html </guid>
+  <description>
+    <![CDATA[  An overview on some of the deficiences of a network study collaboration  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Deficiencies in a Study Collaboration</h1>
+<p><strong>Date:</strong> May 30 2023</p>
+<p><strong>Summary:</strong> An overview on some of the deficiences of a network study collaboration</p>
+<p><strong>Keywords:</strong> #network #study #collaboration #deficiency #observational #health #archive</p>
+<h1>Bibliography</h1>
+<p>Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021. &#91;Online&#93;. Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Overarching Themes</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Although I believe strongly network studies are a good idea, it is also worth countering my intuition to know about what are the deficiencies that can be found in network studies. These are some notes on those deficiences.</p>
+<h3 id="overarching_themes">Overarching Themes</h3>
+<ul>
+<li><p>Social Determinants of Health information is not well represented within a observational health network study</p>
+</li>
+<li><p>Concept sets used in the creation of a cohort definition need to be handled with care</p>
+<ul>
+<li><p>Must be thought of holistically</p>
+</li>
+<li><p>Susceptible to biasing overall study</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Deficiencies in a Study Collaboration</em>. <a href="https://jacobzelko.com/05302023200536-study-collaboration-deficiencies">https://jacobzelko.com/05302023200536-study-collaboration-deficiencies</a>. May 30 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>
