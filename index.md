@@ -47,6 +47,8 @@ The main sections are broken up as follows:
 
 - [Archive](/archive/) - every page on this website - mostly works in progress.
 
+- [Open Projects](/projects/) - open projects that I am happy to mentor or support.
+
 - [Resources](/resources/) - resources on interacting with me, this website, and more.
 
     - [Contact](/resources/#contact-me) - chat with me on collaborations, consulting, etc.
