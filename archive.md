@@ -10,6 +10,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = notes-on-managing-open-source-organizations>
+             		<a href = http://jacobzelko.com/06202023182947-notes-open-orgs/>
+                      			<strong>
+                               				Notes on Managing Open Source Organizations
+                      			</strong>
+                      			[Jun 20 2023]
+             		</a>
+             		<br>
+                      			A collected overview on various comments from Julia organization organizers on how to effectively build up an open source organization
+             		<br>
+                      			#github #open #source #community #organization #blog #archive #julia
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = open-network-studies>
              		<a href = http://jacobzelko.com/05302023183944-open-network-studies/>
                       			<strong>
@@ -2458,24 +2476,6 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
-    	<span class = post-item id = ohdsi-study-packages>
-             		<a href = http://jacobzelko.com/05172021002851-ohdsi-study-packages/>
-                      			<strong>
-                               				OHDSI Study Packages
-                      			</strong>
-                      			[May 16 2021]
-             		</a>
-             		<br>
-                      			missing
-             		<br>
-                      			##zettel #reproducible #science #ohdsi #research #study #package #archive
-             		<br>
-    	</span>
-
-    	<br>
-
-    	<br>
-
     	<span class = post-item id = the-book-of-ohdsi>
              		<a href = http://jacobzelko.com/05172021000348-book-of-ohdsi/>
                       			<strong>
@@ -2505,6 +2505,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			Basic terminology of observational health studies
              		<br>
                       			#observational #research #study #ohdsi #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = ohdsi-study-packages>
+             		<a href = http://jacobzelko.com/05172021002851-ohdsi-study-packages/>
+                      			<strong>
+                               				OHDSI Study Packages
+                      			</strong>
+                      			[May 16 2021]
+             		</a>
+             		<br>
+                      			missing
+             		<br>
+                      			##zettel #reproducible #science #ohdsi #research #study #package #archive
              		<br>
     	</span>
 
@@ -3826,6 +3844,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = against-method>
+             		<a href = http://jacobzelko.com/07122020043224-against-method/>
+                      			<strong>
+                               				Against Method
+                      			</strong>
+                      			[Jul 12 2020]
+             		</a>
+             		<br>
+                      			The use of anarchy as a philosophical approach to learning anything.
+             		<br>
+                      			##bibliography #education #philosophy #learning #archive #book #project
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = make-it-stick:-the-science-of-successful-learning>
              		<a href = http://jacobzelko.com/07122020164149-make-it-stick/>
                       			<strong>
@@ -3945,24 +3981,6 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			How Timothy speaks truth to today about false expertise abounding from social media
              		<br>
                       			##zettel #social #media #polarization #knowledge #1timothy #archive
-             		<br>
-    	</span>
-
-    	<br>
-
-    	<br>
-
-    	<span class = post-item id = against-method>
-             		<a href = http://jacobzelko.com/07122020043224-against-method/>
-                      			<strong>
-                               				Against Method
-                      			</strong>
-                      			[Jul 12 2020]
-             		</a>
-             		<br>
-                      			The use of anarchy as a philosophical approach to learning anything.
-             		<br>
-                      			##bibliography #education #philosophy #learning #archive #book #project
              		<br>
     	</span>
 

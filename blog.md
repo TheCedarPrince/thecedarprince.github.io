@@ -11,6 +11,24 @@ The titles, date, summaries, and key words of a blog are provided per entry
 
     	<br>
 
+    	<span class = post-item id = notes-on-managing-open-source-organizations>
+             		<a href = http://jacobzelko.com/06202023182947-notes-open-orgs/>
+                      			<strong>
+                               				Notes on Managing Open Source Organizations
+                      			</strong>
+                      			[Jun 20 2023]
+             		</a>
+             		<br>
+                      			A collected overview on various comments from Julia organization organizers on how to effectively build up an open source organization
+             		<br>
+                      			#github #open #source #community #organization #blog #archive #julia
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = a-fun-exploration-of-perfect,-abundant,-and-deficient-numbers>
              		<a href = http://jacobzelko.com/05102023043333-perfect-abundant-deficit/>
                       			<strong>
