@@ -47,7 +47,7 @@ There may be increased risk from COVID-19 for individuals living in congregate 
  Zelko, Jacob. _Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State_. [https://jacobzelko.com/07192020031136-covid-outcomes-disabilities](https://jacobzelko.com/07192020031136-covid-outcomes-disabilities). July 18 2020.
 ## References
 
-[1] Office for People with Developmental Disabilities, “Revised Staffing Guidance for Management of COVID-19,” 12-Jun-2020. [Online]. Available: https://opwdd.ny.gov/system/files/documents/2020/06/6.12.2020-opwdd*covid19*staffguidance_updated-symptoms.pdf. [Accessed: 14-Jul-2020].
+[1] Office for People with Developmental Disabilities, “Revised Staffing Guidance for Management of COVID-19,” Jun. 12, 2020. https://opwdd.ny.gov/system/files/documents/2020/06/6.12.2020-opwdd*covid19*staffguidance_updated-symptoms.pdf (accessed Jul. 14, 2020).
 
 [2] V. Prasher and M. Janicki, Physical health of adults with intellectual disabilities. John Wiley & Sons, 2008.
 
@@ -63,11 +63,11 @@ There may be increased risk from COVID-19 for individuals living in congregate 
 
 [8] J. Solis, C. Franco-Paredes, A. F. Henao-Martínez, M. Krsak, and S. M. Zimmer, “Structural vulnerability in the united states revealed in three waves of novel coronavirus disease (covid-19),” Am. J. Trop. Med. Hyg., p. tpmd200391, 2020.
 
-[9] CDC, “Communities, Schools, Workplaces, & Events,” 30-Apr-2020. [Online]. Available: https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html. [Accessed: 15-Jul-2020].
+[9] CDC, “Communities, Schools, Workplaces, & Events,” Apr. 30, 2020. https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html (accessed Jul. 15, 2020).
 
 [10] D. Braddock, R. Hemp, E. Tanis, J. Wu, and L. Haffer, “The state of the states in intellectual and developmental disabilities, 2017 washington,” DC Am. Assoc. Intellect. Dev. Disabil., 2017.
 
-[11] Centers for Disease Control, “COVID-19 Guidance for Shared or Congregate Housing | CDC,” 25-Apr-2020. [Online]. Available: https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html. [Accessed: 22-Jul-2020].
+[11] Centers for Disease Control, “COVID-19 Guidance for Shared or Congregate Housing | CDC,” Apr. 25, 2020. https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html (accessed Jul. 22, 2020).
 ## Discussion: 
 
 {{ addcomments }}

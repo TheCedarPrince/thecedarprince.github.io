@@ -51,7 +51,7 @@ General principles for network studies: [1]
  Zelko, Jacob. _General Guidelines for Network Study Development_. [https://jacobzelko.com/05302023184624-general-study-guidelines](https://jacobzelko.com/05302023184624-general-study-guidelines). May 30 2023.
 ## References:
 
-[1] Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.
+[1] Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.Available: https://ohdsi.github.io/TheBookOfOhdsi/
 ## Discussion: 
 
 {{ addcomments }}

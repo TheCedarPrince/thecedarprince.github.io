@@ -66,7 +66,7 @@ For 40-64, 18 - 39 year-olds, >= 3 weeks after statewide mask mandates: weekly h
  Zelko, Jacob. _Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020_. [https://jacobzelko.com/06072021214725-decline-hospitilizations-mask](https://jacobzelko.com/06072021214725-decline-hospitilizations-mask). June 7 2021.
 ## References:
 
-[1] “Coronavirus Disease 2019 (COVID-19)-Associated Hospitalization Surveillance Network (COVID-NET) | CDC.” [Online]. Available: https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html. [Accessed: 08-Jun-2021].
+[1] “Coronavirus Disease 2019 (COVID-19)-Associated Hospitalization Surveillance Network (COVID-NET) | CDC.” https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html (accessed Jun. 08, 2021).
 
 [2] S. Garg et al., “Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019—COVID-NET, 14 States, March 1–30, 2020,” Morb. Mortal. Wkly. Rep., vol. 69, no. 15, p. 458, 2020.
 ## Discussion: 

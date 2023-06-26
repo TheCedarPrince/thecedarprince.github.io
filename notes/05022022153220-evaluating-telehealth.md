@@ -52,7 +52,7 @@ Table of Contents
  Zelko, Jacob. _Strategies for Evaluating Telehealth_. [https://jacobzelko.com/05022022153220-evaluating-telehealth](https://jacobzelko.com/05022022153220-evaluating-telehealth). May 2 2022.
 ## References:
 
-[1] Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” 24-Mar-2020. [Online]. Available: https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la=en. [Accessed: 02-May-2022].
+[1] Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” Mar. 24, 2020. https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la=en (accessed May 02, 2022).
 ## Discussion: 
 
 {{ addcomments }}

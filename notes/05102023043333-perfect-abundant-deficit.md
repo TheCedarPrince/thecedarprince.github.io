@@ -76,7 +76,7 @@ function divisors(n)
 end
 ```
 
-With this function defined, now, I am going to calculate some abundant and deficient numbers (since perfect numbers are hard to calculate, I am going to look up a few to explore).  To do that, we will use the following snippet to find $1000$ abundant and deficient numbers:
+With this function defined, now, I am going to calculate some deficient and deficient numbers (since perfect numbers are hard to calculate, I am going to look up a few to explore).  To do that, we will use the following snippet to find $1000$ abundant and deficient numbers:
 
 ```julia
 i = 1 
@@ -397,6 +397,89 @@ Again, I really cannot discern any relatable pattern as well as significance tha
 This was a small exploration that I wanted to do of these numbers to see if I could find any patterns or significance within aspects of these numbers.  It seems like there may be some present within the factors of abundant and deficient numbers, but when looking at their corresponding aliquot sequences, I am unable to determine anything from a computational sense.  To that end, I was also curious about how effective computation can be in helping to derive or provide hints about what may underlie these numbers. In short, it would appear that computation is quite helpful to give rise to initial questions. For example, I'd be curious to what extent the patterns I noticed within abundant and deficient numbers prolong for and if they are actually legitimate observations. At that point, one could then start applying basic data science skills to group, explore, and summarize potential trends within these numbers.
 
 For now, my curiosity is sated and it might be worth a return to in the future. One thing this blog post did make me think about is analogies. The idea of deficient, perfect, and abundant numbers are really fascinating as it lends itself to analogs within set theory relationships (like many-to-one -> deficient number, one-to-one -> perfect number, one-to-many -> abundant number). I wonder if it could be used as analogy outside of mathematics strictly and in terms like healthcare (sub-type of a disease -> deficient number, canonical disease diagnosis -> perfect number, disease family -> abundant number). Might be worth further exploration in the future.
+
+### Addendums
+
+#### Discussion on Julia Implementation
+
+There was a [nice discussion](https://discourse.julialang.org/t/blog-post-a-fun-exploration-of-perfect-abundant-and-deficient-numbers/99168/4) from within the Julia Discourse about this post talking about implementation details of some of the functions I was using and how to handle large numbers in computation. In particular, there was suggestion on using types like `BigInt` or `BigFloat` to handle these large numbers (such as the 8th perfect number). Interestingly, to calculate divisors, one user (gtgt) suggested the following approach which was quite beyond my thinking to calculate divisors for a given value. Here was their approach:
+
+> You can use the fact that if $n = \prod p_{i}^{e_{i}}$ then $\sigma{n} = \prod \frac{p_{i}^{e_{i} - 1} - 1}{p_{i} - 1}$ to avoid allocating a vector to store the divisors.
+
+
+This was then followed by a programming implementation:
+
+```julia
+using Primes
+
+function sum_divisors(n)
+    s = one(n)
+    for (p, e) in Primes.factor(n)
+         s *= (p^(e + 1) - 1) ÷ (p - 1)
+    end
+    s
+end
+
+function get_abundant_and_deficient_numbers(n::T) where T <: Integer
+    # get the first n abundant and deficient numbers
+    n_abundants = 0
+    n_deficients = 0
+
+    abundants = sizehint!(T[], n)
+    deficients = sizehint!(T[], n)
+
+    k = 1
+    while n_abundants < n || n_deficients < n
+         σ = sum_divisors(k)
+         if σ > 2k && n_abundants < n
+             n_abundants += 1
+             push!(abundants, k)
+        elseif σ < 2k && n_deficients < n
+             n_deficients += 1
+             push!(deficients, k)
+        end
+
+        k += 1
+    end
+
+    abundants, deficients
+end
+```
+
+I haven't had a chance to test that new implementation but I would imagine, being that it is far more type stable, that it would be more efficient. However, I still feel like we need to have safeguards for large number computation.
+
+#### Categorical Understandings of Number Species
+
+Within the Category Theory Zulip community, [there was another great discussion](https://categorytheory.zulipchat.com/#narrow/stream/266967-general.3A-mathematics/topic/.5BBlog.5D.20Exploration.20of.20Perfect.2C.20Abundant.2C.20and.20Deficient.20Nums) about viewing these number species through the lens of categories.
+
+David Egolf and John Carlos Baez had some fantastic ideas within that discussion that I'll excerpt here: 
+
+> David: [I] wonder if the concepts of "deficient", "perfect" and "abundant" generalize to certain kinds of categories. I suppose what we would need is:
+>
+>   * a way to say if one object is a divisor of another object
+>   * a way to add objects
+>   * a way to compare the size of objects
+
+
+> If we have the three things above available to us, then we can
+
+
+describe an object $A$ as "abundant" if the sum of its divisor  objects is larger than $A$.
+
+> [...] Here's an initial idea for "categorifying" the above list of three requirements, in a category with coproducts: 
+>
+>   * Say that $A$ divides $B$ if the coproduct of $A$ with itself some finite number of times is isomorphic to $B$
+>   * Let the sum of two objects be their coproduct (so the sum is defined up to isomorphism)
+>   * Say that $A \leq B$ if there is a monomorphism from $A$ to $B$
+>
+> Applying this to the category of finite sets I think gives us something similar to the usual notions of divisiblity, addition, and ordering for the natural numbers. Another approach for divisibility might be, in a category with products:
+>
+>   * Say that $A$ divides $B$ if there exists some $C$ so that the product of $A$ and $C$ is isomorphic to $B$
+>
+> John: Both these approaches work, in the sense that starting from the category of finite sets and functions we get the usual concept of divisibility for natural numbers.
+
+
+I encourage you to go see the rest of that discussion there if you found this perspective interesting! There was a lot more spoken of there, but I found this really fascinating. For me, my category theoretic skills still are not up to par just yet to track everything David and John are saying, so I am leaving these excerpts here for future reference to perhaps come back to this.
 ## How To Cite
 
  Zelko, Jacob. _A Fun Exploration of Perfect, Abundant, and Deficient Numbers_. [https://jacobzelko.com/05102023043333-perfect-abundant-deficit](https://jacobzelko.com/05102023043333-perfect-abundant-deficit). May 10 2023.

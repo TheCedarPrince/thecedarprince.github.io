@@ -37,7 +37,7 @@ its basically computer vision project to recognise hand gestures that carries so
  Zelko, Jacob. _Functional Gestures_. [https://jacobzelko.com/02072021223949-functional-gestures](https://jacobzelko.com/02072021223949-functional-gestures). February 7 2021.
 ## References
 
-[1] S. Carrino, M. Caon, O. Abou Khaled, R. Ingold, and E. Mugellini, “Functional Gestures for Human-Environment Interaction,” in Human-Computer Interaction. Interaction Modalities and Techniques, vol. 8007, M. Kurosu, Ed. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 167–176.
+[1] S. Carrino, M. Caon, O. Abou Khaled, R. Ingold, and E. Mugellini, “Functional Gestures for Human-Environment Interaction,” in Human-Computer Interaction. Interaction Modalities and Techniques, vol. 8007, M. Kurosu, Ed. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 167–176. doi: 10.1007/978-3-642-39330-3_18.
 ## Discussion: 
 
 {{ addcomments }}

@@ -37,7 +37,7 @@ An estimated 2.6 - 4 million people with intellectual and developmental disabili
  Zelko, Jacob. _Intellectual and Developmental Disability_. [https://jacobzelko.com/07192020025408-intellectual-developmental-disability](https://jacobzelko.com/07192020025408-intellectual-developmental-disability). July 18 2020.
 ## References
 
-[1] CDC, “Developmental Disabilities | CDC,” 26-Sep-2019. [Online]. Available: https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html. [Accessed: 14-Jul-2020].
+[1] CDC, “Developmental Disabilities | CDC,” Sep. 26, 2019. https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html (accessed Jul. 14, 2020).
 
 [2] S. A. Larson, K. C. Lakin, L. Anderson, N. Kwak Lee, J. H. Lee, and D. Anderson, “Prevalence of mental retardation and developmental disabilities: Estimates from the 1994/1995 National Health Interview Survey Disability Supplements,” Am. J. Ment. Retard., vol. 106, no. 3, pp. 231–252, 2001.
 

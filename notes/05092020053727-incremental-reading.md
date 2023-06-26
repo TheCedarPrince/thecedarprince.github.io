@@ -53,7 +53,7 @@ Incremental reading helps with improving focus and promotes learning while movin
  Zelko, Jacob. _Incremental Reading_. [https://jacobzelko.com/05092020053727-incremental-reading](https://jacobzelko.com/05092020053727-incremental-reading). May 9 2020.
 ## References
 
-[1] Master How To Learn, “Demonstration: My Workflow of Incremental Reading,” 09-Dec-2018. [Online]. Available: https://www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/. [Accessed: 19-May-2020].
+[1] Master How To Learn, “Demonstration: My Workflow of Incremental Reading,” Dec. 09, 2018. https://www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/ (accessed May 19, 2020).
 
 [2] E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.
 

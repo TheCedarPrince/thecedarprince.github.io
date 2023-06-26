@@ -89,7 +89,7 @@ This paper contains a plethora of resources regarding phenotype definitions:
 
 [1] R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.
 
-[2] “NIH Common Data Elements (CDE) Repository.” [Online]. Available: https://cde.nlm.nih.gov/home. [Accessed: 30-Dec-2020].
+[2] “NIH Common Data Elements (CDE) Repository.” https://cde.nlm.nih.gov/home (accessed Dec. 30, 2020).
 ## Discussion: 
 
 {{ addcomments }}

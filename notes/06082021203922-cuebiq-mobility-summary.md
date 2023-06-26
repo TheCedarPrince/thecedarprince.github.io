@@ -45,7 +45,7 @@ Cuebiq collects 1st party location data from over twenty five million active use
  Zelko, Jacob. _Cuebiq Mobility Data Summary_. [https://jacobzelko.com/06082021203922-cuebiq-mobility-summary](https://jacobzelko.com/06082021203922-cuebiq-mobility-summary). June 8 2021.
 ## References:
 
-[1] Cuebiq, “Mobility Insights - Cuebiq,” 08-Jun-2021. [Online]. Available: https://www.cuebiq.com/visitation-insights-covid19/?utm*source=nyt&utm*medium=article&utm_campaign=organic. [Accessed: 08-Jun-2021].
+[1] Cuebiq, “Mobility Insights - Cuebiq,” Jun. 08, 2021. https://www.cuebiq.com/visitation-insights-covid19/?utm*source=nyt&utm*medium=article&utm_campaign=organic (accessed Jun. 08, 2021).
 ## Discussion: 
 
 {{ addcomments }}

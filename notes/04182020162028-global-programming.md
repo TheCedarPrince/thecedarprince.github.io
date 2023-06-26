@@ -41,7 +41,7 @@ Upon reflection upon this note some time later, I think I was thinking about the
  Zelko, Jacob. _Global Programming Paradigm_. [https://jacobzelko.com/04182020162028-global-programming](https://jacobzelko.com/04182020162028-global-programming). April 18 2020.
 ## References
 
-[1] S. D’Agostino, “The Architect of Modern Algorithms.” [Online]. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. [Accessed: 18-Apr-2020].
+[1] S. D’Agostino, “The Architect of Modern Algorithms.” https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/ (accessed Apr. 18, 2020).
 
 [2] S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.
 ## Discussion: 

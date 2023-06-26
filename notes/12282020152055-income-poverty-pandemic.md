@@ -68,9 +68,9 @@ Disruptions such as:
 
 [2] B. D. Meyer, W. K. Mok, and J. X. Sullivan, “Household surveys in crisis,” J. Econ. Perspect., vol. 29, no. 4, pp. 199–226, 2015.
 
-[3] L. Bauer, “The COVID-19 Crisis Has Already Left Too Many Children Hungry in America,” 06-May-2020. [Online]. Available: https://www.hamiltonproject.org/blog/the*covid*19*crisis*has*already*left*too*many*children*hungry*in*america. [Accessed: 08-Nov-2020].
+[3] L. Bauer, “The COVID-19 Crisis Has Already Left Too Many Children Hungry in America,” May 06, 2020. https://www.hamiltonproject.org/blog/the*covid*19*crisis*has*already*left*too*many*children*hungry*in*america (accessed Nov. 08, 2020).
 
-[4] J. Fields et al., “Design and Operation of the 2020 Household Pulse Survey, 2020,” U.S. Census Bureau, 2020.
+[4] J. Fields et al., “Design and Operation of the 2020 Household Pulse Survey, 2020,” U.S. Census Bureau, 2020. Accessed: Nov. 08, 2020. [Online]. Available: https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2020*HPS*Background.pdf
 ## Discussion: 
 
 {{ addcomments }}

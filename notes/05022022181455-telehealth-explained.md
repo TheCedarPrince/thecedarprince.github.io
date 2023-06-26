@@ -251,21 +251,21 @@ Given this definition, one of the most obvious goals of telehealth is to improve
  Zelko, Jacob. _What Is Telehealth?_. [https://jacobzelko.com/05022022181455-telehealth-explained](https://jacobzelko.com/05022022181455-telehealth-explained). May 2 2022.
 ## References:
 
-[1] Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” 24-Mar-2020. [Online]. Available: https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la=en. [Accessed: 02-May-2022].
+[1] Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” Mar. 24, 2020. https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la=en (accessed May 02, 2022).
 
 [2] C. R. Doarn and R. C. Merrell, “Telemedicine and e-health in disaster response,” vol. 20. Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA, pp. 605–606, 2014.
 
 [3] E. R. Dorsey and E. J. Topol, “State of Telehealth,” N Engl J Med, vol. 375, no. 2, pp. 154–161, Jul. 2016, doi: 10.1056/NEJMra1601705.
 
-[4] R. Tuckson, M. Edmunds, and M. Hodgkins, “Telehealth,” New England Journal of Medicine, Oct. 2017.
+[4] R. Tuckson, M. Edmunds, and M. Hodgkins, “Telehealth,” New England Journal of Medicine, Oct. 2017. Accessed: Apr. 29, 2022. [Online]. Available: https://www.nejm.org/doi/pdf/10.1056/NEJMsr1503323?articleTools=true
 
-[5] “About telemedicine. Washington, DC: American Telemedicine Association.” [Online]. Available: https://www.americantelemed.org/main/about/%20about-telemedicine/telemedicine-faqs. [Accessed: 02-May-2022].
+[5] “About telemedicine. Washington, DC: American Telemedicine Association.” https://www.americantelemed.org/main/about/%20about-telemedicine/telemedicine-faqs (accessed May 02, 2022).
 
 [6] A. C. Smith et al., “Telehealth for global emergencies: Implications for coronavirus disease 2019 (COVID-19),” J Telemed Telecare, vol. 26, no. 5, pp. 309–313, Jun. 2020, doi: 10.1177/1357633X20916567.
 
 [7] J. Chuo, M. L. Macy, and S. A. Lorch, “Strategies for Evaluating Telehealth,” Pediatrics, vol. 146, no. 5, p. e20201781, Nov. 2020, doi: 10.1542/peds.2020-1781.
 
-[8] “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013.
+[8] “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013. Accessed: May 02, 2022. [Online]. Available: http://www.fsmb.org/policy/advocacy-policy/interstate-model-proposed-medical-lic
 
 [9] V. A. Wade, J. A. Eliott, and J. E. Hiller, “Clinician acceptance is the key factor for sustainable telehealth services,” Qual. Health Res., vol. 24, no. 5, pp. 682–694, 2014.
 

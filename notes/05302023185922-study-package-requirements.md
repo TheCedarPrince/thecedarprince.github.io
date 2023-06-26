@@ -45,7 +45,7 @@ It is additionally suggested that all participating sites record information abo
  Zelko, Jacob. _Study Package Requirements_. [https://jacobzelko.com/05302023185922-study-package-requirements](https://jacobzelko.com/05302023185922-study-package-requirements). May 30 2023.
 ## References:
 
-[1] Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.
+[1] Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.Available: https://ohdsi.github.io/TheBookOfOhdsi/
 ## Discussion: 
 
 {{ addcomments }}

@@ -46,7 +46,7 @@ Beyond Kuhn's general [musing in the _Structure of Scientific Revolutions](https
  Zelko, Jacob. _Education as a Spectrum_. [https://jacobzelko.com/03092020022908-education-spectrum](https://jacobzelko.com/03092020022908-education-spectrum). March 9 2020.
 ## References:
 
-[1] Golden ratio discovered in a quantum world. Eurekalert.org, 2010.
+[1] Golden ratio discovered in a quantum world. Eurekalert.org, 2010.Available: http://www.eurekalert.org/pub_releases/2010-01/haog-grd010510.php
 
 [2] R. Padovan, “Proportion: Science, Philosophy, Architecture,” Nexus Netw. J., vol. 4, no. 1, pp. 113–122, 2002, doi: 10.1007/s00004-001-0008-7.
 ## Discussion: 

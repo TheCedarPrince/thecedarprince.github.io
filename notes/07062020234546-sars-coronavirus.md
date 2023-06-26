@@ -47,7 +47,7 @@ Some patients showed a biphasic course, with apparent recovery followed by worse
  Zelko, Jacob. _SARS Coronavirae_. [https://jacobzelko.com/07062020234546-sars-coronavirus](https://jacobzelko.com/07062020234546-sars-coronavirus). July 6 2020.
 ## References
 
-[1] S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.
+[1] S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.
 ## Discussion: 
 
 {{ addcomments }}

@@ -47,9 +47,9 @@ Coronavirus is acquired via air-borne particles (fecal matter, droplets, etc.) u
  Zelko, Jacob. _Information about Common Coronaviruses_. [https://jacobzelko.com/07062020233904-common-coronavirus](https://jacobzelko.com/07062020233904-common-coronavirus). July 6 2020.
 ## References
 
-[1] J. S. M. Peiris, “Coronaviruses,” in Medical Microbiology, Elsevier, 2012, pp. 587–593.
+[1] J. S. M. Peiris, “Coronaviruses,” in Medical Microbiology, Elsevier, 2012, pp. 587–593. doi: 10.1016/B978-0-7020-4089-4.00072-X.
 
-[2] S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.
+[2] S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.
 ## Discussion: 
 
 {{ addcomments }}

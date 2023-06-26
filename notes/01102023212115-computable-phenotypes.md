@@ -53,7 +53,7 @@ And just like that, our researcher now has a much clearer, meaningful, and impac
 
 ### What's the Process?
 
-![](/assets/03302023175728-phenotype-workflow-diagram.png)
+![](03302023175728-phenotype-workflow-diagram.png)
 
 We spent a lot of time thinking through each step a researcher could potentially take on developing a phenotype definition and this diagram summarized our thinking of the entire process. Additionally, to summarize these steps, we created a checklist that could be followed here for developing a phenotype definition: 
 

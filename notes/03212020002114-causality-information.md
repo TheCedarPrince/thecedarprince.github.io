@@ -66,7 +66,7 @@ Though one can argue that there is guessing at place in either situation I think
 
 [2] B. J. Rhodes and T. Starner, “Remembrance Agent: A Continuously Running Automated Information Retrieval System,” p. 4.
 
-[3] L. Fridman, “Judea Pearl: Causal Reasoning, Counterfactuals, Bayesian Networks, and the Path to AGI | MIT | Artificial Intelligence Podcast,” 11-Dec-2019. [Online]. Available: https://lexfridman.com/judea-pearl/. [Accessed: 21-Mar-2020].
+[3] L. Fridman, “Judea Pearl: Causal Reasoning, Counterfactuals, Bayesian Networks, and the Path to AGI | MIT | Artificial Intelligence Podcast,” Dec. 11, 2019. https://lexfridman.com/judea-pearl/ (accessed Mar. 21, 2020).
 
 [4] J. Pearl, Causality Models, Reasoning and Inference by Judea Pearl. 2009.
 ## Discussion: 

@@ -35,7 +35,7 @@ Primary to treating SARS-CoV was the use of ventilator machines. Treatments such
  Zelko, Jacob. _Treatments for SARS-CoV_. [https://jacobzelko.com/07122020195122-sars-cov-treatments](https://jacobzelko.com/07122020195122-sars-cov-treatments). July 12 2020.
 ## References
 
-[1] S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.
+[1] S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.
 ## Discussion: 
 
 {{ addcomments }}

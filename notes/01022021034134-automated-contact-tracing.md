@@ -55,7 +55,7 @@ The effectiveness of automated contact tracing in reducing disease transmission 
  Zelko, Jacob. _Automated And Partly Automated Contact Tracing: A Systematic Review To Inform The Control Of COVID-19_. [https://jacobzelko.com/01022021034134-automated-contact-tracing](https://jacobzelko.com/01022021034134-automated-contact-tracing). January 1 2021.
 ## References
 
-[1] World Health Organization, “COVID-19 Strategy Update,” World Health Organization, Apr. 2020.
+[1] World Health Organization, “COVID-19 Strategy Update,” World Health Organization, Apr. 2020. Accessed: Nov. 09, 2020. [Online]. Available: https://www.who.int/docs/default-source/coronaviruse/covid-strategy-update-14april2020.pdf?sfvrsn=29da3ba0_19&download=true
 
 [2] L. O. Danquah et al., “Use of a mobile application for Ebola contact tracing and monitoring in northern Sierra Leone: A proof-of-concept study,” BMC Infect. Dis., vol. 19, no. 1, p. 810, 2019.
 
@@ -65,15 +65,15 @@ The effectiveness of automated contact tracing in reducing disease transmission 
 
 [5] J. A. Sacks et al., “Introduction of mobile health tools to support Ebola surveillance and contact tracing in Guinea,” Glob. Health Sci. Pract., vol. 3, no. 4, pp. 646–659, 2015.
 
-[6] M. Burgess, “Why the NHS Covid-19 contact tracing app failed,” Wired UK, 19-Jun-2020.
+[6] M. Burgess, “Why the NHS Covid-19 contact tracing app failed,” Wired UK, Jun. 19, 2020. Accessed: Nov. 09, 2020. [Online]. Available: https://www.wired.co.uk/article/nhs-tracing-app-scrapped-apple-google-uk
 
-[7] Ada Lovelace Institute, “Ada Lovelace Institute Rapid Evidence Review: Exit through the App Store?” Ada Lovelace Institute, Apr. 2020.
+[7] Ada Lovelace Institute, “Ada Lovelace Institute Rapid Evidence Review: Exit through the App Store?” Ada Lovelace Institute, Apr. 2020. Accessed: Nov. 09, 2020. [Online]. Available: https://www.adalovelaceinstitute.org/wp-content/uploads/2020/04/Ada-Lovelace-Institute-Rapid-Evidence-Review-Exit-through-the-App-Store-April-2020-2.pdf
 
 [8] M. Klenk, H. Duijf, and C. Engels, “Ethics of digital contact tracing and COVID-19: Who is (not) free to go?” Available SSRN 3595394, 2020.
 
-[9] H. Cho, D. Ippolito, and Y. W. Yu, “Contact tracing mobile apps for COVID-19: Privacy considerations and related trade-offs,” 2020.
+[9] H. Cho, D. Ippolito, and Y. W. Yu, “Contact tracing mobile apps for COVID-19: Privacy considerations and related trade-offs,” 2020.Available: https://arxiv.org/abs/2003.11511
 
-[10] S. Venkataramakrishnan, “Contact-tracing apps must not be used for mass surveillance, warn experts,” 20-Apr-2020. [Online]. Available: https://www.ft.com/content/074fa83b-1b95-47ba-86d2-4b71dafe3425. [Accessed: 09-Nov-2020].
+[10] S. Venkataramakrishnan, “Contact-tracing apps must not be used for mass surveillance, warn experts,” Apr. 20, 2020. https://www.ft.com/content/074fa83b-1b95-47ba-86d2-4b71dafe3425 (accessed Nov. 09, 2020).
 
 [11] R. Hinch et al., “Effective configurations of a digital contact tracing app: A report to NHSX,” En InApr 2020 Available Here Url Httpsgithub ComBDI-Pathog.-19instanttracingblobmasterReport, 2020.
 
@@ -89,7 +89,7 @@ The effectiveness of automated contact tracing in reducing disease transmission 
 
 [17] M. N. Lochlainn et al., “Key predictors of attending hospital with COVID19: An association study from the COVID Symptom Tracker App in 2,618,948 individuals,” medRxiv, 2020.
 
-[18] J. Chan et al., “Pact: Privacy sensitive protocols and mechanisms for mobile contact tracing,” 2020.
+[18] J. Chan et al., “Pact: Privacy sensitive protocols and mechanisms for mobile contact tracing,” 2020.Available: https://arxiv.org/abs/2004.03544
 ## Discussion: 
 
 {{ addcomments }}

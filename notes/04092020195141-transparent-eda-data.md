@@ -59,7 +59,7 @@ If the data did not adhere to these rules, it was classified as artifact.
  Zelko, Jacob. _Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity_. [https://jacobzelko.com/04092020195141-transparent-eda-data](https://jacobzelko.com/04092020195141-transparent-eda-data). April 9 2020.
 ## References
 
-[1] W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.
+[1] W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012. doi: 10.1007/978-1-4614-1126-0.
 
 [2] R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.
 
