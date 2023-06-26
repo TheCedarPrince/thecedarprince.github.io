@@ -7,11 +7,11 @@ import Markdown:
     plain
 using NoteMate
 
-csl_path = "/home/cedarprince/.pandoc/ieee.csl"
-bibtex_path = "/home/src/Knowledgebase/Zettelkasten/zettel.bib"
-note_path = "/home/src/Projects/NewWebSite/notes"
+csl_path = "/home/thecedarprince/Knowledgebase/ZK/ieee.csl"
+bibtex_path = "/home/thecedarprince/Knowledgebase/ZK/zettel.bib"
+note_path = "/home/thecedarprince/Projects/Website/notes/"
 
-zettelkasten = "/home/src/Knowledgebase/ZK/"
+zettelkasten = "/home/thecedarprince/Knowledgebase/ZK/"
 
 notes = filter(x -> splitext(x)[2] == ".md", readdir(zettelkasten))
 filter!(x -> !(contains(x, "meeting") || contains(x, "reflection") || contains(x, "wn")) && length(x) > 14, notes)
@@ -30,15 +30,15 @@ blacklist_files = [
 
 notes = setdiff(notes, blacklist_files)
 
-if !ispath("/home/src/Projects/NewWebSite/scripts/note_records.csv")
-    open("/home/src/Projects/NewWebSite/scripts/note_records.csv", "w") do f
+if !ispath("/home/thecedarprince/Projects/Website/scripts/note_records.csv")
+    open("/home/thecedarprince/Projects/Website/scripts/note_records.csv", "w") do f
         write(f, "filename,title,keywords,summary,creation_date,edit_time\n")
     end
 end
 
-records = CSV.read("/home/src/Projects/NewWebSite/scripts/note_records.csv", DataFrame)
+records = CSV.read("/home/thecedarprince/Projects/Website/scripts/note_records.csv", DataFrame)
 
-authors = CSV.read("/home/src/Projects/NewWebSite/scripts/authorship_records.csv", DataFrame)
+authors = CSV.read("/home/thecedarprince/Projects/Website/scripts/authorship_records.csv", DataFrame)
 
 for zettel in notes
 
@@ -52,11 +52,11 @@ for zettel in notes
         # parse the file
         try
 
-            citation_keys = find_citation_groups(file) # the citation format is [@sevorisdoe; @jacobzelko] or [@somebody], BetterBibTex citation key
-            inline_citations_dict = create_inline_citations(citation_keys, bibtex_path, csl_path)  # For IEEE, the mapping would be [@sevorisdoe; @jacobzelko] => [1, 2]
+            citation_keys = find_citation_groups(file)
+            inline_citations_dict = create_inline_citations(citation_keys, bibtex_path, csl_path)
             file = replace(file, inline_citations_dict...)
 
-            markdown_links = find_markdown_links(file, group_links = true) # undestands [Another note](othernote.md) format link only?
+            markdown_links = find_markdown_links(file, group_links = true)
             relative_links_dict = create_relative_links(markdown_links["relative_links"]; prefix="https://jacobzelko.com/")
             file = replace(file, relative_links_dict...)
 
@@ -91,10 +91,8 @@ for zettel in notes
                 # in this case, Franklin markdown
                 franklin_note = create_franklin_note(note)
 
-
                 page = ""
                 page = page * generate_franklin_template(title=franklin_note.title, slug=franklin_note.slug, tags=franklin_note.tags, description=franklin_note.description, rss_title=franklin_note.rss_title, rss_description=franklin_note.rss_description, rss_pubdate=franklin_note.rss_pubdate)
-
 
                 page = page * generate_note_summary(franklin_note)
                 page = page * generate_bibliography(franklin_note)
@@ -133,4 +131,4 @@ undated.creation_date = DateTime.(undated.creation_date, d_f)
 records = vcat(dated, undated)
 records.creation_date = DateTime.(records.creation_date)
 
-CSV.write("/home/src/Projects/NewWebSite/scripts/note_records.csv", records)
+CSV.write("/home/thecedarprince/Projects/Website/scripts/note_records.csv", records)

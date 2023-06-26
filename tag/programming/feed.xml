@@ -40,7 +40,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>What Are These Numbers?</li><li>Examining Divisors of These Numbers<ol><li>Abundant Numbers</li><li>Deficient Numbers</li></ol></li><li>Any Connection to Aliquot Sequences?<ol><li>Aliquot Sequences of Abundant Numbers</li><li>Aliquot Sequences of Deficient Numbers</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>What Are These Numbers?</li><li>Examining Divisors of These Numbers<ol><li>Abundant Numbers</li><li>Deficient Numbers</li></ol></li><li>Any Connection to Aliquot Sequences?<ol><li>Aliquot Sequences of Abundant Numbers</li><li>Aliquot Sequences of Deficient Numbers</li></ol></li><li>Conclusion</li><li>Addendums<ol><li>Discussion on Julia Implementation</li><li>Categorical Understandings of Number Species</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>I was at the gym working out when I started thinking about locker numbers in the men&#39;s locker room. I was reminded of perfect numbers and was thinking about perfect number examples. I started testing random numbers in my mind and noticed numbers which had divisors that summed up to greater than their number and also less than their number. I had no idea about the existence of abundant and deficient numbers and got curious about these numbers and to see what characteristics I could find about them.</p>
 <h3 id="what_are_these_numbers">What Are These Numbers?</h3>
@@ -59,7 +59,7 @@
 	    end
 	end	append&#33;&#40;d, t&#41;
     end    return sort&#33;&#40;d&#41;end</code></pre>
-<p>With this function defined, now, I am going to calculate some abundant and deficient numbers &#40;since perfect numbers are hard to calculate, I am going to look up a few to explore&#41;.  To do that, we will use the following snippet to find \(1000\) abundant and deficient numbers:</p>
+<p>With this function defined, now, I am going to calculate some deficient and deficient numbers &#40;since perfect numbers are hard to calculate, I am going to look up a few to explore&#41;.  To do that, we will use the following snippet to find \(1000\) abundant and deficient numbers:</p>
 <pre><code class="language-julia">i &#61; 1 
 deficient_numbers &#61; &#91;&#93;
 abundant_numbers &#61; &#91;&#93;
@@ -274,6 +274,72 @@ ks &#61; collect&#40;keys&#40;deficient_aliquot_terms&#41;&#41;;barplot&#40;ks&#
 <h3 id="conclusion">Conclusion</h3>
 <p>This was a small exploration that I wanted to do of these numbers to see if I could find any patterns or significance within aspects of these numbers.  It seems like there may be some present within the factors of abundant and deficient numbers, but when looking at their corresponding aliquot sequences, I am unable to determine anything from a computational sense.  To that end, I was also curious about how effective computation can be in helping to derive or provide hints about what may underlie these numbers. In short, it would appear that computation is quite helpful to give rise to initial questions. For example, I&#39;d be curious to what extent the patterns I noticed within abundant and deficient numbers prolong for and if they are actually legitimate observations. At that point, one could then start applying basic data science skills to group, explore, and summarize potential trends within these numbers.</p>
 <p>For now, my curiosity is sated and it might be worth a return to in the future. One thing this blog post did make me think about is analogies. The idea of deficient, perfect, and abundant numbers are really fascinating as it lends itself to analogs within set theory relationships &#40;like many-to-one -&gt; deficient number, one-to-one -&gt; perfect number, one-to-many -&gt; abundant number&#41;. I wonder if it could be used as analogy outside of mathematics strictly and in terms like healthcare &#40;sub-type of a disease -&gt; deficient number, canonical disease diagnosis -&gt; perfect number, disease family -&gt; abundant number&#41;. Might be worth further exploration in the future.</p>
+<h3 id="addendums">Addendums</h3>
+<h4 id="discussion_on_julia_implementation">Discussion on Julia Implementation</h4>
+<p>There was a <a href="https://discourse.julialang.org/t/blog-post-a-fun-exploration-of-perfect-abundant-and-deficient-numbers/99168/4">nice discussion</a> from within the Julia Discourse about this post talking about implementation details of some of the functions I was using and how to handle large numbers in computation. In particular, there was suggestion on using types like <code>BigInt</code> or <code>BigFloat</code> to handle these large numbers &#40;such as the 8th perfect number&#41;. Interestingly, to calculate divisors, one user &#40;gtgt&#41; suggested the following approach which was quite beyond my thinking to calculate divisors for a given value. Here was their approach:</p>
+<blockquote>
+<p>You can use the fact that if \(n = \prod p_{i}^{e_{i}}\) then \(\sigma{n} = \prod \frac{p_{i}^{e_{i} - 1} - 1}{p_{i} - 1}\) to avoid allocating a vector to store the divisors.</p>
+</blockquote>
+<p>This was then followed by a programming implementation:</p>
+<pre><code class="language-julia">using Primesfunction sum_divisors&#40;n&#41;
+    s &#61; one&#40;n&#41;
+    for &#40;p, e&#41; in Primes.factor&#40;n&#41;
+         s *&#61; &#40;p^&#40;e &#43; 1&#41; - 1&#41; ÷ &#40;p - 1&#41;
+    end
+    s
+endfunction get_abundant_and_deficient_numbers&#40;n::T&#41; where T &lt;: Integer
+    # get the first n abundant and deficient numbers
+    n_abundants &#61; 0
+    n_deficients &#61; 0    abundants &#61; sizehint&#33;&#40;T&#91;&#93;, n&#41;
+    deficients &#61; sizehint&#33;&#40;T&#91;&#93;, n&#41;    k &#61; 1
+    while n_abundants &lt; n || n_deficients &lt; n
+         σ &#61; sum_divisors&#40;k&#41;
+         if σ &gt; 2k &amp;&amp; n_abundants &lt; n
+             n_abundants &#43;&#61; 1
+             push&#33;&#40;abundants, k&#41;
+        elseif σ &lt; 2k &amp;&amp; n_deficients &lt; n
+             n_deficients &#43;&#61; 1
+             push&#33;&#40;deficients, k&#41;
+        end        k &#43;&#61; 1
+    end    abundants, deficients
+end</code></pre>
+<p>I haven&#39;t had a chance to test that new implementation but I would imagine, being that it is far more type stable, that it would be more efficient. However, I still feel like we need to have safeguards for large number computation.</p>
+<h4 id="categorical_understandings_of_number_species">Categorical Understandings of Number Species</h4>
+<p>Within the Category Theory Zulip community, <a href="https://categorytheory.zulipchat.com/#narrow/stream/266967-general.3A-mathematics/topic/.5BBlog.5D.20Exploration.20of.20Perfect.2C.20Abundant.2C.20and.20Deficient.20Nums">there was another great discussion</a> about viewing these number species through the lens of categories.</p>
+<p>David Egolf and John Carlos Baez had some fantastic ideas within that discussion that I&#39;ll excerpt here: </p>
+<blockquote>
+<p>David: &#91;I&#93; wonder if the concepts of &quot;deficient&quot;, &quot;perfect&quot; and &quot;abundant&quot; generalize to certain kinds of categories. I suppose what we would need is:</p>
+<ul>
+<li><p>a way to say if one object is a divisor of another object</p>
+</li>
+<li><p>a way to add objects</p>
+</li>
+<li><p>a way to compare the size of objects</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>If we have the three things above available to us, then we can</p>
+</blockquote>
+<p>describe an object \(A\) as &quot;abundant&quot; if the sum of its divisor  objects is larger than \(A\).</p>
+<blockquote>
+<p>&#91;...&#93; Here&#39;s an initial idea for &quot;categorifying&quot; the above list of three requirements, in a category with coproducts: </p>
+<ul>
+<li><p>Say that \(A\) divides \(B\) if the coproduct of \(A\) with itself some finite number of times is isomorphic to \(B\)</p>
+</li>
+<li><p>Let the sum of two objects be their coproduct &#40;so the sum is defined up to isomorphism&#41;</p>
+</li>
+<li><p>Say that \(A \leq B\) if there is a monomorphism from \(A\) to \(B\)</p>
+</li>
+</ul>
+<p>Applying this to the category of finite sets I think gives us something similar to the usual notions of divisiblity, addition, and ordering for the natural numbers. Another approach for divisibility might be, in a category with products:</p>
+<ul>
+<li><p>Say that \(A\) divides \(B\) if there exists some \(C\) so that the product of \(A\) and \(C\) is isomorphic to \(B\)</p>
+</li>
+</ul>
+<p>John: Both these approaches work, in the sense that starting from the category of finite sets and functions we get the usual concept of divisibility for natural numbers.</p>
+</blockquote>
+<p>I encourage you to go see the rest of that discussion there if you found this perspective interesting&#33; There was a lot more spoken of there, but I found this really fascinating. For me, my category theoretic skills still are not up to par just yet to track everything David and John are saying, so I am leaving these excerpts here for future reference to perhaps come back to this.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>A Fun Exploration of Perfect, Abundant, and Deficient Numbers</em>. <a href="https://jacobzelko.com/05102023043333-perfect-abundant-deficit">https://jacobzelko.com/05102023043333-perfect-abundant-deficit</a>. May 10 2023.</p>
 <h2 id="references">References:</h2>
@@ -1220,7 +1286,7 @@ false</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Global Programming Paradigm</em>. <a href="https://jacobzelko.com/04182020162028-global-programming">https://jacobzelko.com/04182020162028-global-programming</a>. April 18 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” &#91;Online&#93;. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. &#91;Accessed: 18-Apr-2020&#93;.</p>
+<p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/ &#40;accessed Apr. 18, 2020&#41;.</p>
 <p>&#91;2&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>

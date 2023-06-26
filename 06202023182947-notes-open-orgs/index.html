@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adapted from Seth Axen's @sethaxen-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Notes on Managing Open Source Organizations">
+<meta name="description" content="A collected overview on various comments from Julia organization organizers on how to effectively build up an open source organization">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Notes on Managing Open Source Organizations">
+<meta property="og:description" content="A collected overview on various comments from Julia organization organizers on how to effectively build up an open source organization">
+<meta property="og:image" content="https://jacobzelko.com/assets/profile.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="Jacob_Zelko">
+<meta property="twitter:title" content="Notes on Managing Open Source Organizations">
+<meta property="twitter:description" content="A collected overview on various comments from Julia organization organizers on how to effectively build up an open source organization">
+<meta property="twitter:image" content="https://jacobzelko.com/assets/profile.png">
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+ 
+    <link rel="stylesheet" href="/css/franklin.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="icon" href="/assets/favicon.ico"> 
+    <title>Notes on Managing Open Source Organizations</title> 
+
+    <!--SUPPORT FOR DARKMODE-JS-->
+    <script src="/libs/darkmode/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget()
+        {
+            const options = {
+                bottom: '32px', /* default: '32px' */
+                right: '32px', /* default: '32px' */
+                left: 'unset', /* default: 'unset' */
+                time: '.0s', /* default: '0.3s' */
+                mixColor: '#fff', /* default: '#fff' */
+                backgroundColor: '#fff', /* default: '#fff' */
+                buttonColorDark: '#100f2c', /* default: '#100f2c' */
+                buttonColorLight: '#fff', /* default: '#fff' */
+                saveInCookies: true, /* default: true, */
+                label: '🌓', /* default: '' */
+                autoMatchOsTheme: true /* default: true */
+            };
+            new Darkmode(options).showWidget();
+        };
+        window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+    </script>
+
+    <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
+    <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!--SUPPORT FOR LUNR-->
+    <script src="/libs/lunr/lunr.min.js"></script>
+    <script src="/libs/lunr/lunr_index.js"></script>
+    <script src="/libs/lunr/lunrclient.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+    <div class="blog-name"><a href="/">the cedar ledge</a></div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/projects">Open Projects</a></li>
+        </ul>
+        <img src="/assets/hamburger.png" id="menu-icon">
+    </nav>
+    </div>
+</header>
+ <div align="center">
+       <form id="lunrSearchForm" name="lunrSearchForm">
+           <input class="search-input" name="q" placeholder="Enter search term" type="text">
+           <input type="submit" value="Search" formaction="/search/index.html">
+       </form>
+</div>
+   
+    <!-- Content appended here -->
+<div class="franklin-content">
+<h1>Notes on Managing Open Source Organizations</h1>
+<p><strong>Date:</strong> June 20 2023</p>
+<p><strong>Summary:</strong> A collected overview on various comments from Julia organization organizers on how to effectively build up an open source organization</p>
+<p><strong>Keywords:</strong> #github #open #source #community #organization #blog #archive #julia</p>
+<h1>Bibliography</h1>
+<p>J. Zelko, “Julia Orgs, How Do You Manage Logistics?,” Julia Programming Language, Jun. 16, 2023. https://discourse.julialang.org/t/julia-orgs-how-do-you-manage-logistics/100430 &#40;accessed Jun. 20, 2023&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li><a href="#motivation">Motivation</a></li><li><a href="#structure_organization_for_sustainability">Structure Organization for Sustainability</a></li><li><a href="#organization_guidelines">Organization Guidelines</a></li><li><a href="#managing_package_development">Managing Package Development</a></li><li><a href="#community_outreach_and_communication">Community Outreach and Communication</a></li></ol></li><li><a href="#how_to_cite">How To Cite</a></li><li><a href="#references">References:</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<h3 id="motivation"><a href="#motivation" class="header-anchor">Motivation</a></h3>
+<p>As I have been involved with and have started various open source organizations in the past, I wanted to learn more about how other organizations within the Julia community manage this. In particular, as I am getting more serious about <a href="https://discourse.julialang.org/t/interest-on-starting-a-juliahealth-workgroup/97999">bolstering JuliaHealth</a>, I want to make sure to do this as effectively as possible. These were some comments and notes from folks within the Julia Community who made suggestions on how to approach this effectively.</p>
+<h3 id="structure_organization_for_sustainability"><a href="#structure_organization_for_sustainability" class="header-anchor">Structure Organization for Sustainability</a></h3>
+<ul>
+<li><p>Limit dependency on any one person – Jakob Nissen, George Datseris</p>
+</li>
+<li><p>All repositories and shared documents should have write access for multiple people, ensuring continuity even if some contributors are unavailable – Jakob Nissen, Guillaume Dalle</p>
+</li>
+<li><p>Furthermore, packages should be designed with longevity in mind, as maintenance can be a significant challenge – Jakob Nissen, Georgia Datseris</p>
+</li>
+<li><p>Build trust with frequent contributors – George Datseris</p>
+<ul>
+<li><p>Could review their PRs more leniently</p>
+</li>
+<li><p>Provide detailed reviews for newcomers</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="organization_guidelines"><a href="#organization_guidelines" class="header-anchor">Organization Guidelines</a></h3>
+<ul>
+<li><p>Think about what is the criteria &#40;such as reviews or approvals&#41; before action on a pull request is taken – Guillaume Dalle</p>
+</li>
+<li><p>Setting clear timeframes for feedback should be established – Guillaume Dalle</p>
+</li>
+<li><p>Allocate review time &#40;around 70-80&#37;&#41; to evaluating design aspects, logical connections between input-output arguments, and documentation of features – George Datseris</p>
+</li>
+<li><p>Adapt the intensity of a PR review based on its potential impact to a package – George Datseris</p>
+<ul>
+<li><p>PRs with package wide consequences should receive thorough evaluations</p>
+</li>
+<li><p>PRs that are independent of existing code could be reviewed more quickly</p>
+</li>
+<li><p>Bug fixes that affect small parts of the package could be reviewed faster</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="managing_package_development"><a href="#managing_package_development" class="header-anchor">Managing Package Development</a></h3>
+<ul>
+<li><p>Use GitHub issues to outline development roadmaps for a given package – Guillaume Dalle</p>
+</li>
+<li><p>Use labels to prioritize GitHub issues as important and relevant to a given package – Guillaume Dalle</p>
+</li>
+<li><p>Prioritize discussions within GitHub issues to foster transparency and consolidate discussions in location – George Datseris</p>
+</li>
+<li><p>Maintain source code simplicity – George Datseris</p>
+</li>
+</ul>
+<h3 id="community_outreach_and_communication"><a href="#community_outreach_and_communication" class="header-anchor">Community Outreach and Communication</a></h3>
+<ul>
+<li><p>Avoid making promises about deliverables or timelines – Jakob Nissen</p>
+</li>
+<li><p>Community calls for triage discussions or long-term package orientation can help build community – Guillaume Dalle</p>
+</li>
+<li><p>Actively invite individuals to join the organization – George Datseris</p>
+<ul>
+<li><p>Provide them with administrative rights to relevant GitHub teams and repositories to foster participation</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how_to_cite"><a href="#how_to_cite" class="header-anchor">How To Cite</a></h2>
+<p>Zelko, Jacob. <em>Notes on Managing Open Source Organizations</em>. <a href="https://jacobzelko.com/06202023182947-notes-open-orgs">https://jacobzelko.com/06202023182947-notes-open-orgs</a>. June 20 2023.</p>
+<h2 id="references"><a href="#references" class="header-anchor">References:</a></h2>
+<h2 id="discussion"><a href="#discussion" class="header-anchor">Discussion: </a></h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div>
+
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: June 26, 2023.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+    
+        
+
+
+    
+  </body>
+</html>

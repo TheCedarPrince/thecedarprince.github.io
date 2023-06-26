@@ -292,11 +292,11 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Making Math Flashcards Using Spaced Repetition Systems</em>. <a href="https://jacobzelko.com/01072023041127-making-math-anki">https://jacobzelko.com/01072023041127-making-math-anki</a>. January 6 2023.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; “&#91;Guide&#93; How to Anki Maths the right way,” 31-Jan-2016. &#91;Online&#93;. Available: https://www.reddit.com/r/Anki/comments/43mf83/guide<em>how</em>to<em>anki</em>maths<em>the</em>right_way/. &#91;Accessed: 09-Jan-2023&#93;.</p>
-<p>&#91;2&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. &#91;Online&#93;. Available: http://cognitivemedium.com/srs-mathematics.</p>
+<p>&#91;1&#93; “&#91;Guide&#93; How to Anki Maths the right way,” Jan. 31, 2016. https://www.reddit.com/r/Anki/comments/43mf83/guide<em>how</em>to<em>anki</em>maths<em>the</em>right_way/ &#40;accessed Jan. 09, 2023&#41;.</p>
+<p>&#91;2&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. http://cognitivemedium.com/srs-mathematics</p>
 <p>&#91;3&#93; S. Young, Ultralearning. HarperCollins Publishers, 2019.</p>
-<p>&#91;4&#93; L. Thorburn, “Using Anki for mathematics,” 08-Mar-2020. &#91;Online&#93;. Available: https://www.lukethorburn.com/anki/. &#91;Accessed: 09-Jan-2023&#93;.</p>
-<p>&#91;5&#93; A. Milchior, “How I use Anki to learn mathematics - LessWrong,” 07-Dec-2016. &#91;Online&#93;. Available: https://www.lesswrong.com/posts/8ZugMc4E5959Xh86i/how-i-use-anki-to-learn-mathematics. &#91;Accessed: 09-Jan-2023&#93;.</p>
+<p>&#91;4&#93; L. Thorburn, “Using Anki for mathematics,” Mar. 08, 2020. https://www.lukethorburn.com/anki/ &#40;accessed Jan. 09, 2023&#41;.</p>
+<p>&#91;5&#93; A. Milchior, “How I use Anki to learn mathematics - LessWrong,” Dec. 07, 2016. https://www.lesswrong.com/posts/8ZugMc4E5959Xh86i/how-i-use-anki-to-learn-mathematics &#40;accessed Jan. 09, 2023&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -769,6 +769,82 @@ initialize_project&#40;&quot;NeuriViz&quot;; authors &#61; &#91;&quot;Jacob Zelk
   </content:encoded>
     
   <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Against Method  ]]>
+  </title>
+  <link> https://jacobzelko.com/07122020043224-against-method/index.html </link>
+  <guid> https://jacobzelko.com/07122020043224-against-method/index.html </guid>
+  <description>
+    <![CDATA[  The use of anarchy as a philosophical approach to learning anything.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Against Method</h1>
+<p><strong>Date:</strong> July 12 2020</p>
+<p><strong>Summary:</strong> The use of anarchy as a philosophical approach to learning anything.</p>
+<p><strong>Keywords:</strong> ##bibliography #education #philosophy #learning #archive #book #project</p>
+<h1>Bibliography</h1>
+<p>P. Feyerabend, <em>Against method</em>, 3rd ed. London ; New York: Verso, 1993.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>General Themes</li><li>Limits of Current Education</li></ol></li><li>How To Cite</li><li>References</li><li>Discussion: </li></ol></div>
+<h3 id="general_themes">General Themes</h3>
+<p>The goal of Against Method is to show that all methodologies have limits.</p>
+<p>&quot;Passion&quot;, in Kierkegaard&#39;s sense, should encourage playful exploration of ideas. This passion results in behavior that facilitates circumstances and ideas which can produce a logical framework regarding an idea. &#91;1&#93;  Feyerabend contends that people rely on too narrow and fixed frameworks to understand the world. Only one principle that guides learning under any circumstance of human development is the principle &quot;anything goes.&quot;</p>
+<blockquote>
+<p>_His central thesis somewhat reminds me of the teaching about everything being permissible but not everything being beneficial.</p>
+</blockquote>
+<p>I wonder how the two can be related fully._</p>
+<p>Knowledge according to Feyerabend is not a harmonious convergence towards an ideal. Rather, it is an ocean of alternatives that forces ideas into succinct articulation. Each idea competitively contributes to the development of consciousness. This makes a lot of sense. Rather than ideas being fixed in the mind, they are ever open to change and influence. Unanimity of opinion works for tyranny contends Feyerabend. Variety however is needed for objective knowledge.</p>
+<p><strong>Autonomy Principle:</strong> facts exist and are independent of whether one considers alternatives to the theory to be tested.</p>
+<p><strong>Theoretical numerical disagreement:</strong> A theory determines a predicted value. What is obtained in reality differs from the prediction.</p>
+<h3 id="limits_of_current_education">Limits of Current Education</h3>
+<p>Scientific education has the aim of making concepts more accessible at the cost of strict and unchangeable rules.  An essential part of training inhibits intuitions that might lead to a blurring of boundaries. It does this by simplifying its participants in the following manner:</p>
+<ol>
+<li><p>A domain of research is defined.</p>
+</li>
+</ol>
+<p>The domain is separated from the rest of history.</p>
+<ol start="2">
+<li><p>This domain is then given a &#39;logic&#39; of its own.</p>
+</li>
+<li><p>Training in such &#39;logic&#39; then conditions the domain&#39;s disciples.</p>
+</li>
+</ol>
+<p>It makes their actions more uniform and it freezes large parts of the historical process as well.</p>
+<ol start="4">
+<li><p>Stable &#39;facts&#39;  independent of opinion, belief, and cultural background arise and persevere despite the vicissitudes of</p>
+</li>
+</ol>
+<p>history.</p>
+<p>Makes me think of Godel&#39;s principle that there is a limit to what can be proved within a given domain given the tools of that domain.</p>
+<blockquote>
+<p>Relevant Quote:  &quot;A person&#39;s religion, for example, or his metaphysics, or his sense of humour must not have the slightest connection with his scientific activity.</p>
+</blockquote>
+<p>His imagination is restrained, and even his language ceases to be his own.&quot;</p>
+<p>The <strong>consistency condition</strong> of modern academia demands new hypotheses to agree with accepted theories. It preserves the older theory but not the better theory. Theories should only be changed when a theory disagrees with facts. Discussion of incompatible facts will lead to progress. Discussion of incompatible hypotheses will not.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Against Method</em>. <a href="https://jacobzelko.com/07122020043224-against-method">https://jacobzelko.com/07122020043224-against-method</a>. July 12 2020.</p>
+<h2 id="references">References</h2>
+<p>&#91;1&#93; S. Kierkegaard, Kierkegaard’s writings, VI, volume 6: Fear and trembling/repetition. Princeton University Press, 2013.</p>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>  
   
   
   <atom:author>

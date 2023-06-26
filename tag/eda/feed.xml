@@ -203,7 +203,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</em>. <a href="https://jacobzelko.com/04092020195141-transparent-eda-data">https://jacobzelko.com/04092020195141-transparent-eda-data</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
+<p>&#91;1&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012. doi: 10.1007/978-1-4614-1126-0.</p>
 <p>&#91;2&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;3&#93; F. H. Wilhelm and W. T. Roth, “Ambulatory assessment of clinical anxiety,” Ambul. Assess. Comput.-Assist. Psychol. Psychophysiological Methods Monit. Field Stud., pp. 317–345, 1996.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -259,7 +259,7 @@
 <p>Zelko, Jacob. <em>Common Causes of Artifact in EDA Signals</em>. <a href="https://jacobzelko.com/03272020061037-eda-artifacts">https://jacobzelko.com/03272020061037-eda-artifacts</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; C. Tronstad, G. K. Johnsen, S. Grimnes, and Ø. G. Martinsen, “A study on electrode gels for skin conductance measurements,” Physiol. Meas., vol. 31, no. 10, p. 1395, 2010.</p>
-<p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, 2015, pp. 1934–1937, doi: 10.1109/EMBC.2015.7318762.</p>
+<p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, Aug. 2015, pp. 1934–1937. doi: 10.1109/EMBC.2015.7318762.</p>
 <p>&#91;3&#93; I. R. Kleckner et al., “Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,” IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
 <p>&#91;4&#93; S. for P. R. A. H. C. on E. Measures et al., “Publication recommendations for electrodermal measurements,” Psychophysiology, vol. 49, no. 8, pp. 1017–1034, 2012.</p>
 <h2 id="discussion">Discussion: </h2>

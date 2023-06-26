@@ -2,7 +2,7 @@ using CSV
 using DataFrames
 using Dates
 
-records = CSV.read("/home/src/Projects/NewWebSite/scripts/note_records.csv", DataFrame)
+records = CSV.read("/home/thecedarprince/Projects/Website/scripts/note_records.csv", DataFrame)
 
 sort!(records, :creation_date, rev = true)
 

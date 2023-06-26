@@ -327,7 +327,7 @@
 <p>Definitely&#33; They have prepared it in the form of a computable phenotype definition&#33; They took the diabetes phenotype definition, looked up medical diagnosis codes, and reviewed patient data that is generally to see what could actually be computed on their patient data. Our researcher chose to implement their computable phenotype definition within a query language like SQL but having the computable phenotype definition on hand, other researchers could either adapt the SQL or re-implement it in another approach they prefer.</p>
 <p>And just like that, our researcher now has a much clearer, meaningful, and impactful answer to the question, &quot;What disease are you studying?&quot;</p>
 <h3 id="whats_the_process">What&#39;s the Process?</h3>
-<p><img src="https://jacobzelko.com/assets/03302023175728-phenotype-workflow-diagram.png" alt="" /></p>
+<p><img src="03302023175728-phenotype-workflow-diagram.png" alt="" /></p>
 <p>We spent a lot of time thinking through each step a researcher could potentially take on developing a phenotype definition and this diagram summarized our thinking of the entire process. Additionally, to summarize these steps, we created a checklist that could be followed here for developing a phenotype definition: </p>
 <ul>
 <li><p>&#91; &#93; Intent</p>
@@ -1044,7 +1044,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>Zelko, Jacob. <em>What Are Computable Phenotypes?</em>. <a href="https://jacobzelko.com/01072021074632-computable-phenotypes">https://jacobzelko.com/01072021074632-computable-phenotypes</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.</p>
-<p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” &#91;Online&#93;. Available: https://cde.nlm.nih.gov/home. &#91;Accessed: 30-Dec-2020&#93;.</p>
+<p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” https://cde.nlm.nih.gov/home &#40;accessed Dec. 30, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -1173,7 +1173,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Intellectual and Developmental Disability</em>. <a href="https://jacobzelko.com/07192020025408-intellectual-developmental-disability">https://jacobzelko.com/07192020025408-intellectual-developmental-disability</a>. July 18 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; CDC, “Developmental Disabilities | CDC,” 26-Sep-2019. &#91;Online&#93;. Available: https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html. &#91;Accessed: 14-Jul-2020&#93;.</p>
+<p>&#91;1&#93; CDC, “Developmental Disabilities | CDC,” Sep. 26, 2019. https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html &#40;accessed Jul. 14, 2020&#41;.</p>
 <p>&#91;2&#93; S. A. Larson, K. C. Lakin, L. Anderson, N. Kwak Lee, J. H. Lee, and D. Anderson, “Prevalence of mental retardation and developmental disabilities: Estimates from the 1994/1995 National Health Interview Survey Disability Supplements,” Am. J. Ment. Retard., vol. 106, no. 3, pp. 231–252, 2001.</p>
 <p>&#91;3&#93; G. T. Fujiura, “Continuum of intellectual disability: Demographic evidence for the ‘forgotten generation’,” Ment. Retard., vol. 41, no. 6, pp. 420–429, 2003.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -1217,7 +1217,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Treatments for SARS-CoV</em>. <a href="https://jacobzelko.com/07122020195122-sars-cov-treatments">https://jacobzelko.com/07122020195122-sars-cov-treatments</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -1422,7 +1422,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="references">References</h2>
 <p>&#91;1&#93; M. Marmot and R. Wilkinson, Social Determinants of Health, 2nd ed. Oxford University Press, 2006.</p>
 <p>&#91;2&#93; A. M. Depino, “Peripheral and central inflammation in autism spectrum disorders,” Mol. Cell. Neurosci., vol. 53, pp. 69–76, 2013.</p>
-<p>&#91;3&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;3&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <p>&#91;4&#93; A. Meltzer and J. Van de Water, “The role of the immune system in autism spectrum disorder,” Neuropsychopharmacology, vol. 42, no. 1, pp. 284–298, 2017.</p>
 <p>&#91;5&#93; Q. Ye, B. Wang, and J. Mao, “Cytokine storm in COVID-19 and treatment,” J. Infect., 2020.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -1602,7 +1602,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <p>&#91;8&#93; A. E. Meuret et al., “Do unexpected panic attacks occur spontaneously?” Biol. Psychiatry, vol. 70, no. 10, pp. 985–991, 2011.</p>
 <p>&#91;9&#93; R. G. O’Connell, M. A. Bellgrove, P. M. Dockree, and I. H. Robertson, “Reduced electrodermal response to errors predicts poor sustained attention performance in attention deficit hyperactivity disorder,” Neuroreport, vol. 15, no. 16, pp. 2535–2538, 2004.</p>
 <p>&#91;10&#93; M.-H. Savard, J. Savard, A. Caplette-Gingras, H. Ivers, and C. Bastien, “Relationship between objectively recorded hot flashes and sleep disturbances among breast cancer patients: Investigating hot flash characteristics other than frequency,” Menopause, vol. 20, no. 10, pp. 997–1005, 2013.</p>
-<p>&#91;11&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
+<p>&#91;11&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012. doi: 10.1007/978-1-4614-1126-0.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -1749,12 +1749,12 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>SARS-CoV-2</em>. <a href="https://jacobzelko.com/03102020051547-sars-cov-2">https://jacobzelko.com/03102020051547-sars-cov-2</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; Situation Summary,” 09-Mar-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/summary.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
-<p>&#91;2&#93; “Statement on the second meeting of the International Health Regulations &#40;2005&#41; Emergency Committee regarding the outbreak of novel coronavirus &#40;2019-nCoV&#41;.” &#91;Online&#93;. Available: https://www.who.int/news-room/detail/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-&#40;2005&#41;-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-&#40;2019-ncov&#41;. &#91;Accessed: 10-Mar-2020&#93;.</p>
-<p>&#91;3&#93; “WHO Director-General’s opening remarks at the media briefing on COVID-19 - 11 March 2020.” &#91;Online&#93;. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19–-11-march-2020. &#91;Accessed: 15-Mar-2020&#93;.</p>
-<p>&#91;4&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Symptoms,” 29-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
-<p>&#91;5&#93; M. Lipsitch, “Opinion | Why it’s so hard to pin down the risk of dying from coronavirus.” &#91;Online&#93;. Available: https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/. &#91;Accessed: 10-Mar-2020&#93;.</p>
-<p>&#91;6&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Prevention &amp; Treatment,” 15-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<p>&#91;1&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; Situation Summary,” Mar. 09, 2020. https://www.cdc.gov/coronavirus/2019-ncov/summary.html &#40;accessed Mar. 10, 2020&#41;.</p>
+<p>&#91;2&#93; “Statement on the second meeting of the International Health Regulations &#40;2005&#41; Emergency Committee regarding the outbreak of novel coronavirus &#40;2019-nCoV&#41;.” https://www.who.int/news-room/detail/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-&#40;2005&#41;-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-&#40;2019-ncov&#41; &#40;accessed Mar. 10, 2020&#41;.</p>
+<p>&#91;3&#93; “WHO Director-General’s opening remarks at the media briefing on COVID-19 - 11 March 2020.” https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19–-11-march-2020 &#40;accessed Mar. 15, 2020&#41;.</p>
+<p>&#91;4&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Symptoms,” Feb. 29, 2020. https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html &#40;accessed Mar. 10, 2020&#41;.</p>
+<p>&#91;5&#93; M. Lipsitch, “Opinion | Why it’s so hard to pin down the risk of dying from coronavirus.” https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/ &#40;accessed Mar. 10, 2020&#41;.</p>
+<p>&#91;6&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Prevention &amp; Treatment,” Feb. 15, 2020. https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html &#40;accessed Mar. 10, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -1937,7 +1937,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Open Wearables Initiative</em>. <a href="https://jacobzelko.com/03102020004043-open-wearables-initiative">https://jacobzelko.com/03102020004043-open-wearables-initiative</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” &#91;Online&#93;. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0 &#40;accessed Mar. 10, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>

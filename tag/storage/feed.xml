@@ -144,7 +144,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Apache Arrow</em>. <a href="https://jacobzelko.com/10262020041544-apache-arrow">https://jacobzelko.com/10262020041544-apache-arrow</a>. October 26 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Apache Arrow and the Future of Data Frames. 2020.</p>
+<p>&#91;1&#93; Apache Arrow and the Future of Data Frames, &#40;2020&#41;.Available: https://www.youtube.com/watch?v&#61;fyj4FyH3XdU&amp;t&#61;281s</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -325,8 +325,8 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>WFDB Record</em>. <a href="https://jacobzelko.com/03102020061429-wfdb-format">https://jacobzelko.com/03102020061429-wfdb-format</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
-<p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
+<p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” Mar. 08, 2019. https://www.physionet.org/physiotools/wpg/wpg.pdf &#40;accessed Mar. 17, 2020&#41;.</p>
+<p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28. doi: 10.1007/978-3-319-65355-6_2.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>

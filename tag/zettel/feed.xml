@@ -598,7 +598,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Context-Aware Applications</em>. <a href="https://jacobzelko.com/03092020071146-context-aware">https://jacobzelko.com/03092020071146-context-aware</a>. December 2 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198.</p>
+<p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198. doi: 10.1007/10705432_17.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -1205,7 +1205,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Functional Gestures</em>. <a href="https://jacobzelko.com/02072021223949-functional-gestures">https://jacobzelko.com/02072021223949-functional-gestures</a>. February 7 2021.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. Carrino, M. Caon, O. Abou Khaled, R. Ingold, and E. Mugellini, “Functional Gestures for Human-Environment Interaction,” in Human-Computer Interaction. Interaction Modalities and Techniques, vol. 8007, M. Kurosu, Ed. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 167–176.</p>
+<p>&#91;1&#93; S. Carrino, M. Caon, O. Abou Khaled, R. Ingold, and E. Mugellini, “Functional Gestures for Human-Environment Interaction,” in Human-Computer Interaction. Interaction Modalities and Techniques, vol. 8007, M. Kurosu, Ed. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 167–176. doi: 10.1007/978-3-642-39330-3_18.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -1715,7 +1715,7 @@
 <p>Zelko, Jacob. <em>What Are Computable Phenotypes?</em>. <a href="https://jacobzelko.com/01072021074632-computable-phenotypes">https://jacobzelko.com/01072021074632-computable-phenotypes</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.</p>
-<p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” &#91;Online&#93;. Available: https://cde.nlm.nih.gov/home. &#91;Accessed: 30-Dec-2020&#93;.</p>
+<p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” https://cde.nlm.nih.gov/home &#40;accessed Dec. 30, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -1835,7 +1835,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>All-Payer Claims Database</em>. <a href="https://jacobzelko.com/01022021031334-all-payer-claims">https://jacobzelko.com/01022021031334-all-payer-claims</a>. January 1 2021.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Agency for Healthcare Research and Quality, “All-Payer Claims Databases,” Feb-2018. &#91;Online&#93;. Available: https://www.ahrq.gov/data/apcd/index.html.</p>
+<p>&#91;1&#93; Agency for Healthcare Research and Quality, “All-Payer Claims Databases,” Feb. 2018. https://www.ahrq.gov/data/apcd/index.html</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -2222,7 +2222,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Contact Tracing</em>. <a href="https://jacobzelko.com/12282020023843-contact-tracing">https://jacobzelko.com/12282020023843-contact-tracing</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Centers for Disease Control, “Contact Tracing - CDC’s Role and Approach.” 10-Aug-2020.</p>
+<p>&#91;1&#93; Centers for Disease Control, “Contact Tracing - CDC’s Role and Approach.” Aug. 10, 2020.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -2631,7 +2631,7 @@ end</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Apache Arrow</em>. <a href="https://jacobzelko.com/10262020041544-apache-arrow">https://jacobzelko.com/10262020041544-apache-arrow</a>. October 26 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Apache Arrow and the Future of Data Frames. 2020.</p>
+<p>&#91;1&#93; Apache Arrow and the Future of Data Frames, &#40;2020&#41;.Available: https://www.youtube.com/watch?v&#61;fyj4FyH3XdU&amp;t&#61;281s</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -2891,7 +2891,7 @@ S = \frac{log(A)}{log(B)}
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Intellectual and Developmental Disability</em>. <a href="https://jacobzelko.com/07192020025408-intellectual-developmental-disability">https://jacobzelko.com/07192020025408-intellectual-developmental-disability</a>. July 18 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; CDC, “Developmental Disabilities | CDC,” 26-Sep-2019. &#91;Online&#93;. Available: https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html. &#91;Accessed: 14-Jul-2020&#93;.</p>
+<p>&#91;1&#93; CDC, “Developmental Disabilities | CDC,” Sep. 26, 2019. https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html &#40;accessed Jul. 14, 2020&#41;.</p>
 <p>&#91;2&#93; S. A. Larson, K. C. Lakin, L. Anderson, N. Kwak Lee, J. H. Lee, and D. Anderson, “Prevalence of mental retardation and developmental disabilities: Estimates from the 1994/1995 National Health Interview Survey Disability Supplements,” Am. J. Ment. Retard., vol. 106, no. 3, pp. 231–252, 2001.</p>
 <p>&#91;3&#93; G. T. Fujiura, “Continuum of intellectual disability: Demographic evidence for the ‘forgotten generation’,” Ment. Retard., vol. 41, no. 6, pp. 420–429, 2003.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -3139,7 +3139,7 @@ S = \frac{log(A)}{log(B)}
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Treatments for SARS-CoV</em>. <a href="https://jacobzelko.com/07122020195122-sars-cov-treatments">https://jacobzelko.com/07122020195122-sars-cov-treatments</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -3197,7 +3197,7 @@ S = \frac{log(A)}{log(B)}
 <h2 id="references">References</h2>
 <p>&#91;1&#93; M. Marmot and R. Wilkinson, Social Determinants of Health, 2nd ed. Oxford University Press, 2006.</p>
 <p>&#91;2&#93; A. M. Depino, “Peripheral and central inflammation in autism spectrum disorders,” Mol. Cell. Neurosci., vol. 53, pp. 69–76, 2013.</p>
-<p>&#91;3&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;3&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <p>&#91;4&#93; A. Meltzer and J. Van de Water, “The role of the immune system in autism spectrum disorder,” Neuropsychopharmacology, vol. 42, no. 1, pp. 284–298, 2017.</p>
 <p>&#91;5&#93; Q. Ye, B. Wang, and J. Mao, “Cytokine storm in COVID-19 and treatment,” J. Infect., 2020.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -3302,7 +3302,7 @@ S = \frac{log(A)}{log(B)}
 <p>&#91;4&#93; H. Graff and R. Mallin, “The syndrome of the wrist cutter,” Am. J. Psychiatry, vol. 124, no. 1, pp. 36–42, 1967.</p>
 <p>&#91;5&#93; E. D. Klonsky, T. F. Oltmanns, and E. Turkheimer, “Deliberate self-harm in a nonclinical population: Prevalence and psychological correlates,” Am. J. Psychiatry, vol. 160, no. 8, pp. 1501–1508, 2003.</p>
 <p>&#91;6&#93; C. Zlotnick, J. I. Mattia, and M. Zimmerman, “Clinical correlates of self-mutilation in a sample of general psychiatric patients,” J. Nerv. Ment. Dis., vol. 187, no. 5, pp. 296–301, 1999.</p>
-<p>&#91;7&#93; J. Quigley, S. Rasmussen, and J. Mcalaney, “Normative misperceptions of suicidal and self-harming behaviours in an undergraduate student population,” 2014.</p>
+<p>&#91;7&#93; J. Quigley, S. Rasmussen, and J. Mcalaney, “Normative misperceptions of suicidal and self-harming behaviours in an undergraduate student population,” Apr. 2014.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -3350,8 +3350,8 @@ S = \frac{log(A)}{log(B)}
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Information about Common Coronaviruses</em>. <a href="https://jacobzelko.com/07062020233904-common-coronavirus">https://jacobzelko.com/07062020233904-common-coronavirus</a>. July 6 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; J. S. M. Peiris, “Coronaviruses,” in Medical Microbiology, Elsevier, 2012, pp. 587–593.</p>
-<p>&#91;2&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;1&#93; J. S. M. Peiris, “Coronaviruses,” in Medical Microbiology, Elsevier, 2012, pp. 587–593. doi: 10.1016/B978-0-7020-4089-4.00072-X.</p>
+<p>&#91;2&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -3408,7 +3408,7 @@ S = \frac{log(A)}{log(B)}
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>SARS Coronavirae</em>. <a href="https://jacobzelko.com/07062020234546-sars-coronavirus">https://jacobzelko.com/07062020234546-sars-coronavirus</a>. July 6 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -4137,7 +4137,7 @@ cv + dw = 1\begin{bmatrix} 1\\ 1 \end{bmatrix} + 1\begin{bmatrix} 2\\ 3 \end{bma
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Incremental Reading</em>. <a href="https://jacobzelko.com/05092020053727-incremental-reading">https://jacobzelko.com/05092020053727-incremental-reading</a>. May 9 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Master How To Learn, “Demonstration: My Workflow of Incremental Reading,” 09-Dec-2018. &#91;Online&#93;. Available: https://www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/. &#91;Accessed: 19-May-2020&#93;.</p>
+<p>&#91;1&#93; Master How To Learn, “Demonstration: My Workflow of Incremental Reading,” Dec. 09, 2018. https://www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/ &#40;accessed May 19, 2020&#41;.</p>
 <p>&#91;2&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>
 <p>&#91;3&#93; J. B. Shea and R. L. Morgan, “Contextual interference effects on the acquisition, retention, and transfer of a motor skill.” J. Exp. Psychol. &#91;Hum. Learn.&#93;, vol. 5, no. 2, p. 179, 1979.</p>
 <p>&#91;4&#93; A. Ariga and A. Lleras, “Brief and rare mental ‘breaks’ keep you focused: Deactivation and reactivation of task goals preempt vigilance decrements,” Cognition, vol. 118, no. 3, pp. 439–443, Mar. 2011, doi: 10.1016/j.cognition.2010.12.007.</p>
@@ -4487,7 +4487,7 @@ gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Global Programming Paradigm</em>. <a href="https://jacobzelko.com/04182020162028-global-programming">https://jacobzelko.com/04182020162028-global-programming</a>. April 18 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” &#91;Online&#93;. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. &#91;Accessed: 18-Apr-2020&#93;.</p>
+<p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/ &#40;accessed Apr. 18, 2020&#41;.</p>
 <p>&#91;2&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
@@ -5037,7 +5037,7 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 <p>Zelko, Jacob. <em>Common Causes of Artifact in EDA Signals</em>. <a href="https://jacobzelko.com/03272020061037-eda-artifacts">https://jacobzelko.com/03272020061037-eda-artifacts</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; C. Tronstad, G. K. Johnsen, S. Grimnes, and Ø. G. Martinsen, “A study on electrode gels for skin conductance measurements,” Physiol. Meas., vol. 31, no. 10, p. 1395, 2010.</p>
-<p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, 2015, pp. 1934–1937, doi: 10.1109/EMBC.2015.7318762.</p>
+<p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, Aug. 2015, pp. 1934–1937. doi: 10.1109/EMBC.2015.7318762.</p>
 <p>&#91;3&#93; I. R. Kleckner et al., “Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,” IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
 <p>&#91;4&#93; S. for P. R. A. H. C. on E. Measures et al., “Publication recommendations for electrodermal measurements,” Psychophysiology, vol. 49, no. 8, pp. 1017–1034, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -5116,7 +5116,7 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 <p>&#91;8&#93; A. E. Meuret et al., “Do unexpected panic attacks occur spontaneously?” Biol. Psychiatry, vol. 70, no. 10, pp. 985–991, 2011.</p>
 <p>&#91;9&#93; R. G. O’Connell, M. A. Bellgrove, P. M. Dockree, and I. H. Robertson, “Reduced electrodermal response to errors predicts poor sustained attention performance in attention deficit hyperactivity disorder,” Neuroreport, vol. 15, no. 16, pp. 2535–2538, 2004.</p>
 <p>&#91;10&#93; M.-H. Savard, J. Savard, A. Caplette-Gingras, H. Ivers, and C. Bastien, “Relationship between objectively recorded hot flashes and sleep disturbances among breast cancer patients: Investigating hot flash characteristics other than frequency,” Menopause, vol. 20, no. 10, pp. 997–1005, 2013.</p>
-<p>&#91;11&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
+<p>&#91;11&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012. doi: 10.1007/978-1-4614-1126-0.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -5171,7 +5171,7 @@ Action 3: Person identifies chance of rain.Information Retrieved: There is a 75&
 <h2 id="references">References</h2>
 <p>&#91;1&#93; B. J. Rhodes and P. Maes, “Just-in-time information retrieval agents,” IBM Syst. J., vol. 39, no. 3.4, pp. 685–704, 2000, doi: 10.1147/sj.393.0685.</p>
 <p>&#91;2&#93; B. J. Rhodes and T. Starner, “Remembrance Agent: A Continuously Running Automated Information Retrieval System,” p. 4.</p>
-<p>&#91;3&#93; L. Fridman, “Judea Pearl: Causal Reasoning, Counterfactuals, Bayesian Networks, and the Path to AGI | MIT | Artificial Intelligence Podcast,” 11-Dec-2019. &#91;Online&#93;. Available: https://lexfridman.com/judea-pearl/. &#91;Accessed: 21-Mar-2020&#93;.</p>
+<p>&#91;3&#93; L. Fridman, “Judea Pearl: Causal Reasoning, Counterfactuals, Bayesian Networks, and the Path to AGI | MIT | Artificial Intelligence Podcast,” Dec. 11, 2019. https://lexfridman.com/judea-pearl/ &#40;accessed Mar. 21, 2020&#41;.</p>
 <p>&#91;4&#93; J. Pearl, Causality Models, Reasoning and Inference by Judea Pearl. 2009.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
@@ -5942,7 +5942,7 @@ Action 3: Person identifies chance of rain.Information Retrieved: There is a 75&
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Open Wearables Initiative</em>. <a href="https://jacobzelko.com/03102020004043-open-wearables-initiative">https://jacobzelko.com/03102020004043-open-wearables-initiative</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” &#91;Online&#93;. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0 &#40;accessed Mar. 10, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -5994,7 +5994,7 @@ Action 3: Person identifies chance of rain.Information Retrieved: There is a 75&
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Education as a Spectrum</em>. <a href="https://jacobzelko.com/03092020022908-education-spectrum">https://jacobzelko.com/03092020022908-education-spectrum</a>. March 9 2020.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Golden ratio discovered in a quantum world. Eurekalert.org, 2010.</p>
+<p>&#91;1&#93; Golden ratio discovered in a quantum world. Eurekalert.org, 2010.Available: http://www.eurekalert.org/pub_releases/2010-01/haog-grd010510.php</p>
 <p>&#91;2&#93; R. Padovan, “Proportion: Science, Philosophy, Architecture,” Nexus Netw. J., vol. 4, no. 1, pp. 113–122, 2002, doi: 10.1007/s00004-001-0008-7.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>

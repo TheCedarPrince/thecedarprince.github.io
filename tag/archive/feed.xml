@@ -23,6 +23,108 @@
 
 <item>
   <title>
+    <![CDATA[  Notes on Managing Open Source Organizations  ]]>
+  </title>
+  <link> https://jacobzelko.com/06202023182947-notes-open-orgs/index.html </link>
+  <guid> https://jacobzelko.com/06202023182947-notes-open-orgs/index.html </guid>
+  <description>
+    <![CDATA[  A collected overview on various comments from Julia organization organizers on how to effectively build up an open source organization  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Notes on Managing Open Source Organizations</h1>
+<p><strong>Date:</strong> June 20 2023</p>
+<p><strong>Summary:</strong> A collected overview on various comments from Julia organization organizers on how to effectively build up an open source organization</p>
+<p><strong>Keywords:</strong> #github #open #source #community #organization #blog #archive #julia</p>
+<h1>Bibliography</h1>
+<p>J. Zelko, “Julia Orgs, How Do You Manage Logistics?,” Julia Programming Language, Jun. 16, 2023. https://discourse.julialang.org/t/julia-orgs-how-do-you-manage-logistics/100430 &#40;accessed Jun. 20, 2023&#41;.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Structure Organization for Sustainability</li><li>Organization Guidelines</li><li>Managing Package Development</li><li>Community Outreach and Communication</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>As I have been involved with and have started various open source organizations in the past, I wanted to learn more about how other organizations within the Julia community manage this. In particular, as I am getting more serious about <a href="https://discourse.julialang.org/t/interest-on-starting-a-juliahealth-workgroup/97999">bolstering JuliaHealth</a>, I want to make sure to do this as effectively as possible. These were some comments and notes from folks within the Julia Community who made suggestions on how to approach this effectively.</p>
+<h3 id="structure_organization_for_sustainability">Structure Organization for Sustainability</h3>
+<ul>
+<li><p>Limit dependency on any one person – Jakob Nissen, George Datseris</p>
+</li>
+<li><p>All repositories and shared documents should have write access for multiple people, ensuring continuity even if some contributors are unavailable – Jakob Nissen, Guillaume Dalle</p>
+</li>
+<li><p>Furthermore, packages should be designed with longevity in mind, as maintenance can be a significant challenge – Jakob Nissen, Georgia Datseris</p>
+</li>
+<li><p>Build trust with frequent contributors – George Datseris</p>
+<ul>
+<li><p>Could review their PRs more leniently</p>
+</li>
+<li><p>Provide detailed reviews for newcomers</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="organization_guidelines">Organization Guidelines</h3>
+<ul>
+<li><p>Think about what is the criteria &#40;such as reviews or approvals&#41; before action on a pull request is taken – Guillaume Dalle</p>
+</li>
+<li><p>Setting clear timeframes for feedback should be established – Guillaume Dalle</p>
+</li>
+<li><p>Allocate review time &#40;around 70-80&#37;&#41; to evaluating design aspects, logical connections between input-output arguments, and documentation of features – George Datseris</p>
+</li>
+<li><p>Adapt the intensity of a PR review based on its potential impact to a package – George Datseris</p>
+<ul>
+<li><p>PRs with package wide consequences should receive thorough evaluations</p>
+</li>
+<li><p>PRs that are independent of existing code could be reviewed more quickly</p>
+</li>
+<li><p>Bug fixes that affect small parts of the package could be reviewed faster</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="managing_package_development">Managing Package Development</h3>
+<ul>
+<li><p>Use GitHub issues to outline development roadmaps for a given package – Guillaume Dalle</p>
+</li>
+<li><p>Use labels to prioritize GitHub issues as important and relevant to a given package – Guillaume Dalle</p>
+</li>
+<li><p>Prioritize discussions within GitHub issues to foster transparency and consolidate discussions in location – George Datseris</p>
+</li>
+<li><p>Maintain source code simplicity – George Datseris</p>
+</li>
+</ul>
+<h3 id="community_outreach_and_communication">Community Outreach and Communication</h3>
+<ul>
+<li><p>Avoid making promises about deliverables or timelines – Jakob Nissen</p>
+</li>
+<li><p>Community calls for triage discussions or long-term package orientation can help build community – Guillaume Dalle</p>
+</li>
+<li><p>Actively invite individuals to join the organization – George Datseris</p>
+<ul>
+<li><p>Provide them with administrative rights to relevant GitHub teams and repositories to foster participation</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Notes on Managing Open Source Organizations</em>. <a href="https://jacobzelko.com/06202023182947-notes-open-orgs">https://jacobzelko.com/06202023182947-notes-open-orgs</a>. June 20 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Site Collaboration in Network Studies  ]]>
   </title>
   <link> https://jacobzelko.com/05302023200241-site-collaboration/index.html </link>
@@ -111,7 +213,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Study Package Deficiencies</em>. <a href="https://jacobzelko.com/05302023190833-study-package-deficiencies">https://jacobzelko.com/05302023190833-study-package-deficiencies</a>. May 30 2023.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -355,7 +457,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>What Are Study Packages?</em>. <a href="https://jacobzelko.com/05302023184217-study-packages">https://jacobzelko.com/05302023184217-study-packages</a>. May 30 2023.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -738,7 +840,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>General Guidelines for Network Study Development</em>. <a href="https://jacobzelko.com/05302023184624-general-study-guidelines">https://jacobzelko.com/05302023184624-general-study-guidelines</a>. May 30 2023.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -999,7 +1101,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Study Package Requirements</em>. <a href="https://jacobzelko.com/05302023185922-study-package-requirements">https://jacobzelko.com/05302023185922-study-package-requirements</a>. May 30 2023.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.</p>
+<p>&#91;1&#93; Observational Health Data Sciences and Informatics Collaborative, The Book of OHDSI. OHDSI, 2021.Available: https://ohdsi.github.io/TheBookOfOhdsi/</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -1123,7 +1225,7 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>What Are These Numbers?</li><li>Examining Divisors of These Numbers<ol><li>Abundant Numbers</li><li>Deficient Numbers</li></ol></li><li>Any Connection to Aliquot Sequences?<ol><li>Aliquot Sequences of Abundant Numbers</li><li>Aliquot Sequences of Deficient Numbers</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>What Are These Numbers?</li><li>Examining Divisors of These Numbers<ol><li>Abundant Numbers</li><li>Deficient Numbers</li></ol></li><li>Any Connection to Aliquot Sequences?<ol><li>Aliquot Sequences of Abundant Numbers</li><li>Aliquot Sequences of Deficient Numbers</li></ol></li><li>Conclusion</li><li>Addendums<ol><li>Discussion on Julia Implementation</li><li>Categorical Understandings of Number Species</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
 <p>I was at the gym working out when I started thinking about locker numbers in the men&#39;s locker room. I was reminded of perfect numbers and was thinking about perfect number examples. I started testing random numbers in my mind and noticed numbers which had divisors that summed up to greater than their number and also less than their number. I had no idea about the existence of abundant and deficient numbers and got curious about these numbers and to see what characteristics I could find about them.</p>
 <h3 id="what_are_these_numbers">What Are These Numbers?</h3>
@@ -1142,7 +1244,7 @@
 	    end
 	end	append&#33;&#40;d, t&#41;
     end    return sort&#33;&#40;d&#41;end</code></pre>
-<p>With this function defined, now, I am going to calculate some abundant and deficient numbers &#40;since perfect numbers are hard to calculate, I am going to look up a few to explore&#41;.  To do that, we will use the following snippet to find \(1000\) abundant and deficient numbers:</p>
+<p>With this function defined, now, I am going to calculate some deficient and deficient numbers &#40;since perfect numbers are hard to calculate, I am going to look up a few to explore&#41;.  To do that, we will use the following snippet to find \(1000\) abundant and deficient numbers:</p>
 <pre><code class="language-julia">i &#61; 1 
 deficient_numbers &#61; &#91;&#93;
 abundant_numbers &#61; &#91;&#93;
@@ -1357,6 +1459,72 @@ ks &#61; collect&#40;keys&#40;deficient_aliquot_terms&#41;&#41;;barplot&#40;ks&#
 <h3 id="conclusion">Conclusion</h3>
 <p>This was a small exploration that I wanted to do of these numbers to see if I could find any patterns or significance within aspects of these numbers.  It seems like there may be some present within the factors of abundant and deficient numbers, but when looking at their corresponding aliquot sequences, I am unable to determine anything from a computational sense.  To that end, I was also curious about how effective computation can be in helping to derive or provide hints about what may underlie these numbers. In short, it would appear that computation is quite helpful to give rise to initial questions. For example, I&#39;d be curious to what extent the patterns I noticed within abundant and deficient numbers prolong for and if they are actually legitimate observations. At that point, one could then start applying basic data science skills to group, explore, and summarize potential trends within these numbers.</p>
 <p>For now, my curiosity is sated and it might be worth a return to in the future. One thing this blog post did make me think about is analogies. The idea of deficient, perfect, and abundant numbers are really fascinating as it lends itself to analogs within set theory relationships &#40;like many-to-one -&gt; deficient number, one-to-one -&gt; perfect number, one-to-many -&gt; abundant number&#41;. I wonder if it could be used as analogy outside of mathematics strictly and in terms like healthcare &#40;sub-type of a disease -&gt; deficient number, canonical disease diagnosis -&gt; perfect number, disease family -&gt; abundant number&#41;. Might be worth further exploration in the future.</p>
+<h3 id="addendums">Addendums</h3>
+<h4 id="discussion_on_julia_implementation">Discussion on Julia Implementation</h4>
+<p>There was a <a href="https://discourse.julialang.org/t/blog-post-a-fun-exploration-of-perfect-abundant-and-deficient-numbers/99168/4">nice discussion</a> from within the Julia Discourse about this post talking about implementation details of some of the functions I was using and how to handle large numbers in computation. In particular, there was suggestion on using types like <code>BigInt</code> or <code>BigFloat</code> to handle these large numbers &#40;such as the 8th perfect number&#41;. Interestingly, to calculate divisors, one user &#40;gtgt&#41; suggested the following approach which was quite beyond my thinking to calculate divisors for a given value. Here was their approach:</p>
+<blockquote>
+<p>You can use the fact that if \(n = \prod p_{i}^{e_{i}}\) then \(\sigma{n} = \prod \frac{p_{i}^{e_{i} - 1} - 1}{p_{i} - 1}\) to avoid allocating a vector to store the divisors.</p>
+</blockquote>
+<p>This was then followed by a programming implementation:</p>
+<pre><code class="language-julia">using Primesfunction sum_divisors&#40;n&#41;
+    s &#61; one&#40;n&#41;
+    for &#40;p, e&#41; in Primes.factor&#40;n&#41;
+         s *&#61; &#40;p^&#40;e &#43; 1&#41; - 1&#41; ÷ &#40;p - 1&#41;
+    end
+    s
+endfunction get_abundant_and_deficient_numbers&#40;n::T&#41; where T &lt;: Integer
+    # get the first n abundant and deficient numbers
+    n_abundants &#61; 0
+    n_deficients &#61; 0    abundants &#61; sizehint&#33;&#40;T&#91;&#93;, n&#41;
+    deficients &#61; sizehint&#33;&#40;T&#91;&#93;, n&#41;    k &#61; 1
+    while n_abundants &lt; n || n_deficients &lt; n
+         σ &#61; sum_divisors&#40;k&#41;
+         if σ &gt; 2k &amp;&amp; n_abundants &lt; n
+             n_abundants &#43;&#61; 1
+             push&#33;&#40;abundants, k&#41;
+        elseif σ &lt; 2k &amp;&amp; n_deficients &lt; n
+             n_deficients &#43;&#61; 1
+             push&#33;&#40;deficients, k&#41;
+        end        k &#43;&#61; 1
+    end    abundants, deficients
+end</code></pre>
+<p>I haven&#39;t had a chance to test that new implementation but I would imagine, being that it is far more type stable, that it would be more efficient. However, I still feel like we need to have safeguards for large number computation.</p>
+<h4 id="categorical_understandings_of_number_species">Categorical Understandings of Number Species</h4>
+<p>Within the Category Theory Zulip community, <a href="https://categorytheory.zulipchat.com/#narrow/stream/266967-general.3A-mathematics/topic/.5BBlog.5D.20Exploration.20of.20Perfect.2C.20Abundant.2C.20and.20Deficient.20Nums">there was another great discussion</a> about viewing these number species through the lens of categories.</p>
+<p>David Egolf and John Carlos Baez had some fantastic ideas within that discussion that I&#39;ll excerpt here: </p>
+<blockquote>
+<p>David: &#91;I&#93; wonder if the concepts of &quot;deficient&quot;, &quot;perfect&quot; and &quot;abundant&quot; generalize to certain kinds of categories. I suppose what we would need is:</p>
+<ul>
+<li><p>a way to say if one object is a divisor of another object</p>
+</li>
+<li><p>a way to add objects</p>
+</li>
+<li><p>a way to compare the size of objects</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>If we have the three things above available to us, then we can</p>
+</blockquote>
+<p>describe an object \(A\) as &quot;abundant&quot; if the sum of its divisor  objects is larger than \(A\).</p>
+<blockquote>
+<p>&#91;...&#93; Here&#39;s an initial idea for &quot;categorifying&quot; the above list of three requirements, in a category with coproducts: </p>
+<ul>
+<li><p>Say that \(A\) divides \(B\) if the coproduct of \(A\) with itself some finite number of times is isomorphic to \(B\)</p>
+</li>
+<li><p>Let the sum of two objects be their coproduct &#40;so the sum is defined up to isomorphism&#41;</p>
+</li>
+<li><p>Say that \(A \leq B\) if there is a monomorphism from \(A\) to \(B\)</p>
+</li>
+</ul>
+<p>Applying this to the category of finite sets I think gives us something similar to the usual notions of divisiblity, addition, and ordering for the natural numbers. Another approach for divisibility might be, in a category with products:</p>
+<ul>
+<li><p>Say that \(A\) divides \(B\) if there exists some \(C\) so that the product of \(A\) and \(C\) is isomorphic to \(B\)</p>
+</li>
+</ul>
+<p>John: Both these approaches work, in the sense that starting from the category of finite sets and functions we get the usual concept of divisibility for natural numbers.</p>
+</blockquote>
+<p>I encourage you to go see the rest of that discussion there if you found this perspective interesting&#33; There was a lot more spoken of there, but I found this really fascinating. For me, my category theoretic skills still are not up to par just yet to track everything David and John are saying, so I am leaving these excerpts here for future reference to perhaps come back to this.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>A Fun Exploration of Perfect, Abundant, and Deficient Numbers</em>. <a href="https://jacobzelko.com/05102023043333-perfect-abundant-deficit">https://jacobzelko.com/05102023043333-perfect-abundant-deficit</a>. May 10 2023.</p>
 <h2 id="references">References:</h2>
@@ -1409,7 +1577,7 @@ ks &#61; collect&#40;keys&#40;deficient_aliquot_terms&#41;&#41;;barplot&#40;ks&#
 <p>Definitely&#33; They have prepared it in the form of a computable phenotype definition&#33; They took the diabetes phenotype definition, looked up medical diagnosis codes, and reviewed patient data that is generally to see what could actually be computed on their patient data. Our researcher chose to implement their computable phenotype definition within a query language like SQL but having the computable phenotype definition on hand, other researchers could either adapt the SQL or re-implement it in another approach they prefer.</p>
 <p>And just like that, our researcher now has a much clearer, meaningful, and impactful answer to the question, &quot;What disease are you studying?&quot;</p>
 <h3 id="whats_the_process">What&#39;s the Process?</h3>
-<p><img src="https://jacobzelko.com/assets/03302023175728-phenotype-workflow-diagram.png" alt="" /></p>
+<p><img src="03302023175728-phenotype-workflow-diagram.png" alt="" /></p>
 <p>We spent a lot of time thinking through each step a researcher could potentially take on developing a phenotype definition and this diagram summarized our thinking of the entire process. Additionally, to summarize these steps, we created a checklist that could be followed here for developing a phenotype definition: </p>
 <ul>
 <li><p>&#91; &#93; Intent</p>
@@ -1961,7 +2129,7 @@ end</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>How Big Is a Chunk?</em>. <a href="https://jacobzelko.com/01072023205813-memory-chunks">https://jacobzelko.com/01072023205813-memory-chunks</a>. January 7 2023.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. &#91;Online&#93;. Available: http://cognitivemedium.com/srs-mathematics.</p>
+<p>&#91;1&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. http://cognitivemedium.com/srs-mathematics</p>
 <p>&#91;2&#93; G. A. Miller, “The magical number seven, plus or minus two: Some limits on our capacity for processing information.” Psychol. Rev., vol. 63, no. 2, p. 81, 1956.</p>
 <p>&#91;3&#93; W. G. Chase and H. A. Simon, “The mind’s eye in chess,” in Visual information processing, Elsevier, 1973, pp. 215–281.</p>
 <p>&#91;4&#93; H. A. Simon and W. G. Chase, “American scientist,” Scientist, vol. 61, no. 4, pp. 394–403, 1973.</p>
@@ -2089,11 +2257,11 @@ end</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Making Math Flashcards Using Spaced Repetition Systems</em>. <a href="https://jacobzelko.com/01072023041127-making-math-anki">https://jacobzelko.com/01072023041127-making-math-anki</a>. January 6 2023.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; “&#91;Guide&#93; How to Anki Maths the right way,” 31-Jan-2016. &#91;Online&#93;. Available: https://www.reddit.com/r/Anki/comments/43mf83/guide<em>how</em>to<em>anki</em>maths<em>the</em>right_way/. &#91;Accessed: 09-Jan-2023&#93;.</p>
-<p>&#91;2&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. &#91;Online&#93;. Available: http://cognitivemedium.com/srs-mathematics.</p>
+<p>&#91;1&#93; “&#91;Guide&#93; How to Anki Maths the right way,” Jan. 31, 2016. https://www.reddit.com/r/Anki/comments/43mf83/guide<em>how</em>to<em>anki</em>maths<em>the</em>right_way/ &#40;accessed Jan. 09, 2023&#41;.</p>
+<p>&#91;2&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. http://cognitivemedium.com/srs-mathematics</p>
 <p>&#91;3&#93; S. Young, Ultralearning. HarperCollins Publishers, 2019.</p>
-<p>&#91;4&#93; L. Thorburn, “Using Anki for mathematics,” 08-Mar-2020. &#91;Online&#93;. Available: https://www.lukethorburn.com/anki/. &#91;Accessed: 09-Jan-2023&#93;.</p>
-<p>&#91;5&#93; A. Milchior, “How I use Anki to learn mathematics - LessWrong,” 07-Dec-2016. &#91;Online&#93;. Available: https://www.lesswrong.com/posts/8ZugMc4E5959Xh86i/how-i-use-anki-to-learn-mathematics. &#91;Accessed: 09-Jan-2023&#93;.</p>
+<p>&#91;4&#93; L. Thorburn, “Using Anki for mathematics,” Mar. 08, 2020. https://www.lukethorburn.com/anki/ &#40;accessed Jan. 09, 2023&#41;.</p>
+<p>&#91;5&#93; A. Milchior, “How I use Anki to learn mathematics - LessWrong,” Dec. 07, 2016. https://www.lesswrong.com/posts/8ZugMc4E5959Xh86i/how-i-use-anki-to-learn-mathematics &#40;accessed Jan. 09, 2023&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -2688,7 +2856,7 @@ end</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Context-Aware Applications</em>. <a href="https://jacobzelko.com/03092020071146-context-aware">https://jacobzelko.com/03092020071146-context-aware</a>. December 2 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198.</p>
+<p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198. doi: 10.1007/10705432_17.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -2731,7 +2899,7 @@ end</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Aware Homes</em>. <a href="https://jacobzelko.com/03092020033420-aware-homes">https://jacobzelko.com/03092020033420-aware-homes</a>. December 2 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198.</p>
+<p>&#91;1&#93; C. D. Kidd et al., “The Aware Home: A Living Laboratory for Ubiquitous Computing Research,” in Cooperative Buildings. Integrating Information, Organizations, and Architecture, vol. 1670, N. A. Streitz, J. Siegel, V. Hartkopf, and S. Konomi, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 1999, pp. 191–198. doi: 10.1007/10705432_17.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -5558,7 +5726,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Strategies for Evaluating Telehealth</em>. <a href="https://jacobzelko.com/05022022153220-evaluating-telehealth">https://jacobzelko.com/05022022153220-evaluating-telehealth</a>. May 2 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” 24-Mar-2020. &#91;Online&#93;. Available: https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la&#61;en. &#91;Accessed: 02-May-2022&#93;.</p>
+<p>&#91;1&#93; Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” Mar. 24, 2020. https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la&#61;en &#40;accessed May 02, 2022&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -5719,8 +5887,8 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Telehealth</em>. <a href="https://jacobzelko.com/05022022155118-telehealth">https://jacobzelko.com/05022022155118-telehealth</a>. May 2 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; “About telemedicine. Washington, DC: American Telemedicine Association.” &#91;Online&#93;. Available: https://www.americantelemed.org/main/about/&#37;20about-telemedicine/telemedicine-faqs. &#91;Accessed: 02-May-2022&#93;.</p>
-<p>&#91;2&#93; “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013.</p>
+<p>&#91;1&#93; “About telemedicine. Washington, DC: American Telemedicine Association.” https://www.americantelemed.org/main/about/&#37;20about-telemedicine/telemedicine-faqs &#40;accessed May 02, 2022&#41;.</p>
+<p>&#91;2&#93; “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013. Accessed: May 02, 2022. &#91;Online&#93;. Available: http://www.fsmb.org/policy/advocacy-policy/interstate-model-proposed-medical-lic</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -5962,14 +6130,14 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>What Is Telehealth?</em>. <a href="https://jacobzelko.com/05022022181455-telehealth-explained">https://jacobzelko.com/05022022181455-telehealth-explained</a>. May 2 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” 24-Mar-2020. &#91;Online&#93;. Available: https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la&#61;en. &#91;Accessed: 02-May-2022&#93;.</p>
+<p>&#91;1&#93; Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” Mar. 24, 2020. https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la&#61;en &#40;accessed May 02, 2022&#41;.</p>
 <p>&#91;2&#93; C. R. Doarn and R. C. Merrell, “Telemedicine and e-health in disaster response,” vol. 20. Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA, pp. 605–606, 2014.</p>
 <p>&#91;3&#93; E. R. Dorsey and E. J. Topol, “State of Telehealth,” N Engl J Med, vol. 375, no. 2, pp. 154–161, Jul. 2016, doi: 10.1056/NEJMra1601705.</p>
-<p>&#91;4&#93; R. Tuckson, M. Edmunds, and M. Hodgkins, “Telehealth,” New England Journal of Medicine, Oct. 2017.</p>
-<p>&#91;5&#93; “About telemedicine. Washington, DC: American Telemedicine Association.” &#91;Online&#93;. Available: https://www.americantelemed.org/main/about/&#37;20about-telemedicine/telemedicine-faqs. &#91;Accessed: 02-May-2022&#93;.</p>
+<p>&#91;4&#93; R. Tuckson, M. Edmunds, and M. Hodgkins, “Telehealth,” New England Journal of Medicine, Oct. 2017. Accessed: Apr. 29, 2022. &#91;Online&#93;. Available: https://www.nejm.org/doi/pdf/10.1056/NEJMsr1503323?articleTools&#61;true</p>
+<p>&#91;5&#93; “About telemedicine. Washington, DC: American Telemedicine Association.” https://www.americantelemed.org/main/about/&#37;20about-telemedicine/telemedicine-faqs &#40;accessed May 02, 2022&#41;.</p>
 <p>&#91;6&#93; A. C. Smith et al., “Telehealth for global emergencies: Implications for coronavirus disease 2019 &#40;COVID-19&#41;,” J Telemed Telecare, vol. 26, no. 5, pp. 309–313, Jun. 2020, doi: 10.1177/1357633X20916567.</p>
 <p>&#91;7&#93; J. Chuo, M. L. Macy, and S. A. Lorch, “Strategies for Evaluating Telehealth,” Pediatrics, vol. 146, no. 5, p. e20201781, Nov. 2020, doi: 10.1542/peds.2020-1781.</p>
-<p>&#91;8&#93; “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013.</p>
+<p>&#91;8&#93; “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013. Accessed: May 02, 2022. &#91;Online&#93;. Available: http://www.fsmb.org/policy/advocacy-policy/interstate-model-proposed-medical-lic</p>
 <p>&#91;9&#93; V. A. Wade, J. A. Eliott, and J. E. Hiller, “Clinician acceptance is the key factor for sustainable telehealth services,” Qual. Health Res., vol. 24, no. 5, pp. 682–694, 2014.</p>
 <p>&#91;10&#93; V. Wade, J. Soar, and L. Gray, “Uptake of telehealth services funded by Medicare in Australia,” Aust. Health Rev., vol. 38, no. 5, pp. 528–532, 2014.</p>
 <p>&#91;11&#93; P. Norris et al., Digital divide: Civic engagement, information poverty, and the Internet worldwide. Cambridge university press, 2001.</p>
@@ -6415,7 +6583,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Rejected Claims</em>. <a href="https://jacobzelko.com/04112022133137-rejected-claims">https://jacobzelko.com/04112022133137-rejected-claims</a>. April 11 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
+<p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/ &#40;accessed Apr. 11, 2022&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -6457,7 +6625,7 @@ and whoever lives by believing in me will never die.Do you believe this?&quot;- 
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Denied Claims</em>. <a href="https://jacobzelko.com/04112022133109-denied-claims">https://jacobzelko.com/04112022133109-denied-claims</a>. April 11 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” &#91;Online&#93;. Available: https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/. &#91;Accessed: 11-Apr-2022&#93;.</p>
+<p>&#91;1&#93; Jonathan Gerber, “What Is The Difference Between Denied Claims And Rejected Claims?” https://www.medcorinc.com/what-is-the-difference-between-denied-claims-and-rejected-claims/ &#40;accessed Apr. 11, 2022&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -9256,7 +9424,7 @@ knitr::kable&#40;result&#41;</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Cuebiq Mobility Data Summary</em>. <a href="https://jacobzelko.com/06082021203922-cuebiq-mobility-summary">https://jacobzelko.com/06082021203922-cuebiq-mobility-summary</a>. June 8 2021.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Cuebiq, “Mobility Insights - Cuebiq,” 08-Jun-2021. &#91;Online&#93;. Available: https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic. &#91;Accessed: 08-Jun-2021&#93;.</p>
+<p>&#91;1&#93; Cuebiq, “Mobility Insights - Cuebiq,” Jun. 08, 2021. https://www.cuebiq.com/visitation-insights-covid19/?utm<em>source&#61;nyt&amp;utm</em>medium&#61;article&amp;utm_campaign&#61;organic &#40;accessed Jun. 08, 2021&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -9471,7 +9639,7 @@ knitr::kable&#40;result&#41;</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Decline in COVID-19 Hospitalization Growth Rates Associated with Statewide Mask Mandates — 10 States, March–October 2020</em>. <a href="https://jacobzelko.com/06072021214725-decline-hospitilizations-mask">https://jacobzelko.com/06072021214725-decline-hospitilizations-mask</a>. June 7 2021.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; “Coronavirus Disease 2019 &#40;COVID-19&#41;-Associated Hospitalization Surveillance Network &#40;COVID-NET&#41; | CDC.” &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html. &#91;Accessed: 08-Jun-2021&#93;.</p>
+<p>&#91;1&#93; “Coronavirus Disease 2019 &#40;COVID-19&#41;-Associated Hospitalization Surveillance Network &#40;COVID-NET&#41; | CDC.” https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html &#40;accessed Jun. 08, 2021&#41;.</p>
 <p>&#91;2&#93; S. Garg et al., “Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019—COVID-NET, 14 States, March 1–30, 2020,” Morb. Mortal. Wkly. Rep., vol. 69, no. 15, p. 458, 2020.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
@@ -10201,7 +10369,7 @@ knitr::kable&#40;result&#41;</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Functional Gestures</em>. <a href="https://jacobzelko.com/02072021223949-functional-gestures">https://jacobzelko.com/02072021223949-functional-gestures</a>. February 7 2021.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. Carrino, M. Caon, O. Abou Khaled, R. Ingold, and E. Mugellini, “Functional Gestures for Human-Environment Interaction,” in Human-Computer Interaction. Interaction Modalities and Techniques, vol. 8007, M. Kurosu, Ed. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 167–176.</p>
+<p>&#91;1&#93; S. Carrino, M. Caon, O. Abou Khaled, R. Ingold, and E. Mugellini, “Functional Gestures for Human-Environment Interaction,” in Human-Computer Interaction. Interaction Modalities and Techniques, vol. 8007, M. Kurosu, Ed. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 167–176. doi: 10.1007/978-3-642-39330-3_18.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -11163,7 +11331,7 @@ A \rightarrow B \leftarrow C
 <p>Zelko, Jacob. <em>What Are Computable Phenotypes?</em>. <a href="https://jacobzelko.com/01072021074632-computable-phenotypes">https://jacobzelko.com/01072021074632-computable-phenotypes</a>. January 7 2021.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; R. Richesson and M. Smerek, “Electronic health records-based phenotyping,” Rethink. Clin. Trials Living Textb. Pragmatic Clin. Trials, vol. 2016, 2014.</p>
-<p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” &#91;Online&#93;. Available: https://cde.nlm.nih.gov/home. &#91;Accessed: 30-Dec-2020&#93;.</p>
+<p>&#91;2&#93; “NIH Common Data Elements &#40;CDE&#41; Repository.” https://cde.nlm.nih.gov/home &#40;accessed Dec. 30, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -11370,7 +11538,7 @@ A \rightarrow B \leftarrow C
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>All-Payer Claims Database</em>. <a href="https://jacobzelko.com/01022021031334-all-payer-claims">https://jacobzelko.com/01022021031334-all-payer-claims</a>. January 1 2021.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Agency for Healthcare Research and Quality, “All-Payer Claims Databases,” Feb-2018. &#91;Online&#93;. Available: https://www.ahrq.gov/data/apcd/index.html.</p>
+<p>&#91;1&#93; Agency for Healthcare Research and Quality, “All-Payer Claims Databases,” Feb. 2018. https://www.ahrq.gov/data/apcd/index.html</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -11668,8 +11836,8 @@ A \rightarrow B \leftarrow C
 <h2 id="references">References</h2>
 <p>&#91;1&#93; S. Flood, M. King, R. Rodgers, S. Ruggles, and J. Warren, “Integrated public use microdata series, current population survey: Version 7.0 &#91;dataset&#93;. Minneapolis, MN: Integrated public use microdata; 2020.”</p>
 <p>&#91;2&#93; B. D. Meyer, W. K. Mok, and J. X. Sullivan, “Household surveys in crisis,” J. Econ. Perspect., vol. 29, no. 4, pp. 199–226, 2015.</p>
-<p>&#91;3&#93; L. Bauer, “The COVID-19 Crisis Has Already Left Too Many Children Hungry in America,” 06-May-2020. &#91;Online&#93;. Available: https://www.hamiltonproject.org/blog/the<em>covid</em>19<em>crisis</em>has<em>already</em>left<em>too</em>many<em>children</em>hungry<em>in</em>america. &#91;Accessed: 08-Nov-2020&#93;.</p>
-<p>&#91;4&#93; J. Fields et al., “Design and Operation of the 2020 Household Pulse Survey, 2020,” U.S. Census Bureau, 2020.</p>
+<p>&#91;3&#93; L. Bauer, “The COVID-19 Crisis Has Already Left Too Many Children Hungry in America,” May 06, 2020. https://www.hamiltonproject.org/blog/the<em>covid</em>19<em>crisis</em>has<em>already</em>left<em>too</em>many<em>children</em>hungry<em>in</em>america &#40;accessed Nov. 08, 2020&#41;.</p>
+<p>&#91;4&#93; J. Fields et al., “Design and Operation of the 2020 Household Pulse Survey, 2020,” U.S. Census Bureau, 2020. Accessed: Nov. 08, 2020. &#91;Online&#93;. Available: https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2020<em>HPS</em>Background.pdf</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -12072,7 +12240,7 @@ A \rightarrow B \leftarrow C
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Contact Tracing</em>. <a href="https://jacobzelko.com/12282020023843-contact-tracing">https://jacobzelko.com/12282020023843-contact-tracing</a>. December 27 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Centers for Disease Control, “Contact Tracing - CDC’s Role and Approach.” 10-Aug-2020.</p>
+<p>&#91;1&#93; Centers for Disease Control, “Contact Tracing - CDC’s Role and Approach.” Aug. 10, 2020.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -12574,7 +12742,7 @@ end</code></pre>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Apache Arrow</em>. <a href="https://jacobzelko.com/10262020041544-apache-arrow">https://jacobzelko.com/10262020041544-apache-arrow</a>. October 26 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Apache Arrow and the Future of Data Frames. 2020.</p>
+<p>&#91;1&#93; Apache Arrow and the Future of Data Frames, &#40;2020&#41;.Available: https://www.youtube.com/watch?v&#61;fyj4FyH3XdU&amp;t&#61;281s</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -12943,7 +13111,7 @@ S = \frac{log(A)}{log(B)}
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State</em>. <a href="https://jacobzelko.com/07192020031136-covid-outcomes-disabilities">https://jacobzelko.com/07192020031136-covid-outcomes-disabilities</a>. July 18 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Office for People with Developmental Disabilities, “Revised Staffing Guidance for Management of COVID-19,” 12-Jun-2020. &#91;Online&#93;. Available: https://opwdd.ny.gov/system/files/documents/2020/06/6.12.2020-opwdd<em>covid19</em>staffguidance_updated-symptoms.pdf. &#91;Accessed: 14-Jul-2020&#93;.</p>
+<p>&#91;1&#93; Office for People with Developmental Disabilities, “Revised Staffing Guidance for Management of COVID-19,” Jun. 12, 2020. https://opwdd.ny.gov/system/files/documents/2020/06/6.12.2020-opwdd<em>covid19</em>staffguidance_updated-symptoms.pdf &#40;accessed Jul. 14, 2020&#41;.</p>
 <p>&#91;2&#93; V. Prasher and M. Janicki, Physical health of adults with intellectual disabilities. John Wiley &amp; Sons, 2008.</p>
 <p>&#91;3&#93; Centers for Disease Control, “Preliminary Estimates of the Prevalence of Selected Underlying Health Conditions Among Patients with Coronavirus Disease 2019 — United States, February 12–March 28, 2020.” MMWR Morb Mortal Wkly Rep, 2020.</p>
 <p>&#91;4&#93; M. A. Turk, S. D. Landes, M. K. Formica, and K. D. Goss, “Intellectual and developmental disability and COVID-19 case-fatality trends: TriNetX analysis,” Disability and Health Journal, p. 100942, May 2020, doi: 10.1016/j.dhjo.2020.100942.</p>
@@ -12951,9 +13119,9 @@ S = \frac{log(A)}{log(B)}
 <p>&#91;6&#93; G. L. Krahn, D. K. Walker, and R. Correa-De-Araujo, “Persons with disabilities as an unrecognized health disparity population,” Am. J. Public Health, vol. 105, no. S2, pp. S198–S206, 2015.</p>
 <p>&#91;7&#93; P. Chidambaram, “State reporting of cases and deaths due to COVID-19 in long-term care facilities,” San Franc. Kais. Fam. Found., 2020.</p>
 <p>&#91;8&#93; J. Solis, C. Franco-Paredes, A. F. Henao-Martínez, M. Krsak, and S. M. Zimmer, “Structural vulnerability in the united states revealed in three waves of novel coronavirus disease &#40;covid-19&#41;,” Am. J. Trop. Med. Hyg., p. tpmd200391, 2020.</p>
-<p>&#91;9&#93; CDC, “Communities, Schools, Workplaces, &amp; Events,” 30-Apr-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html. &#91;Accessed: 15-Jul-2020&#93;.</p>
+<p>&#91;9&#93; CDC, “Communities, Schools, Workplaces, &amp; Events,” Apr. 30, 2020. https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html &#40;accessed Jul. 15, 2020&#41;.</p>
 <p>&#91;10&#93; D. Braddock, R. Hemp, E. Tanis, J. Wu, and L. Haffer, “The state of the states in intellectual and developmental disabilities, 2017 washington,” DC Am. Assoc. Intellect. Dev. Disabil., 2017.</p>
-<p>&#91;11&#93; Centers for Disease Control, “COVID-19 Guidance for Shared or Congregate Housing | CDC,” 25-Apr-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html. &#91;Accessed: 22-Jul-2020&#93;.</p>
+<p>&#91;11&#93; Centers for Disease Control, “COVID-19 Guidance for Shared or Congregate Housing | CDC,” Apr. 25, 2020. https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html &#40;accessed Jul. 22, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -13082,7 +13250,7 @@ S = \frac{log(A)}{log(B)}
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Intellectual and Developmental Disability</em>. <a href="https://jacobzelko.com/07192020025408-intellectual-developmental-disability">https://jacobzelko.com/07192020025408-intellectual-developmental-disability</a>. July 18 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; CDC, “Developmental Disabilities | CDC,” 26-Sep-2019. &#91;Online&#93;. Available: https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html. &#91;Accessed: 14-Jul-2020&#93;.</p>
+<p>&#91;1&#93; CDC, “Developmental Disabilities | CDC,” Sep. 26, 2019. https://www.cdc.gov/ncbddd/developmentaldisabilities/index.html &#40;accessed Jul. 14, 2020&#41;.</p>
 <p>&#91;2&#93; S. A. Larson, K. C. Lakin, L. Anderson, N. Kwak Lee, J. H. Lee, and D. Anderson, “Prevalence of mental retardation and developmental disabilities: Estimates from the 1994/1995 National Health Interview Survey Disability Supplements,” Am. J. Ment. Retard., vol. 106, no. 3, pp. 231–252, 2001.</p>
 <p>&#91;3&#93; G. T. Fujiura, “Continuum of intellectual disability: Demographic evidence for the ‘forgotten generation’,” Ment. Retard., vol. 41, no. 6, pp. 420–429, 2003.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -13424,7 +13592,7 @@ S = \frac{log(A)}{log(B)}
 <h1>Against Method</h1>
 <p><strong>Date:</strong> July 12 2020</p>
 <p><strong>Summary:</strong> The use of anarchy as a philosophical approach to learning anything.</p>
-<p><strong>Keywords:</strong> ##bibliography #education #philosophy #learning #archive #book</p>
+<p><strong>Keywords:</strong> ##bibliography #education #philosophy #learning #archive #book #project</p>
 <h1>Bibliography</h1>
 <p>P. Feyerabend, <em>Against method</em>, 3rd ed. London ; New York: Verso, 1993.</p>
 <h1>Table of Contents</h1>
@@ -13509,7 +13677,7 @@ S = \frac{log(A)}{log(B)}
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Treatments for SARS-CoV</em>. <a href="https://jacobzelko.com/07122020195122-sars-cov-treatments">https://jacobzelko.com/07122020195122-sars-cov-treatments</a>. July 12 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -13853,7 +14021,7 @@ S = \frac{log(A)}{log(B)}
 <h2 id="references">References</h2>
 <p>&#91;1&#93; M. Marmot and R. Wilkinson, Social Determinants of Health, 2nd ed. Oxford University Press, 2006.</p>
 <p>&#91;2&#93; A. M. Depino, “Peripheral and central inflammation in autism spectrum disorders,” Mol. Cell. Neurosci., vol. 53, pp. 69–76, 2013.</p>
-<p>&#91;3&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;3&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <p>&#91;4&#93; A. Meltzer and J. Van de Water, “The role of the immune system in autism spectrum disorder,” Neuropsychopharmacology, vol. 42, no. 1, pp. 284–298, 2017.</p>
 <p>&#91;5&#93; Q. Ye, B. Wang, and J. Mao, “Cytokine storm in COVID-19 and treatment,” J. Infect., 2020.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -14024,7 +14192,7 @@ S = \frac{log(A)}{log(B)}
 <p>&#91;4&#93; H. Graff and R. Mallin, “The syndrome of the wrist cutter,” Am. J. Psychiatry, vol. 124, no. 1, pp. 36–42, 1967.</p>
 <p>&#91;5&#93; E. D. Klonsky, T. F. Oltmanns, and E. Turkheimer, “Deliberate self-harm in a nonclinical population: Prevalence and psychological correlates,” Am. J. Psychiatry, vol. 160, no. 8, pp. 1501–1508, 2003.</p>
 <p>&#91;6&#93; C. Zlotnick, J. I. Mattia, and M. Zimmerman, “Clinical correlates of self-mutilation in a sample of general psychiatric patients,” J. Nerv. Ment. Dis., vol. 187, no. 5, pp. 296–301, 1999.</p>
-<p>&#91;7&#93; J. Quigley, S. Rasmussen, and J. Mcalaney, “Normative misperceptions of suicidal and self-harming behaviours in an undergraduate student population,” 2014.</p>
+<p>&#91;7&#93; J. Quigley, S. Rasmussen, and J. Mcalaney, “Normative misperceptions of suicidal and self-harming behaviours in an undergraduate student population,” Apr. 2014.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -14072,8 +14240,8 @@ S = \frac{log(A)}{log(B)}
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Information about Common Coronaviruses</em>. <a href="https://jacobzelko.com/07062020233904-common-coronavirus">https://jacobzelko.com/07062020233904-common-coronavirus</a>. July 6 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; J. S. M. Peiris, “Coronaviruses,” in Medical Microbiology, Elsevier, 2012, pp. 587–593.</p>
-<p>&#91;2&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;1&#93; J. S. M. Peiris, “Coronaviruses,” in Medical Microbiology, Elsevier, 2012, pp. 587–593. doi: 10.1016/B978-0-7020-4089-4.00072-X.</p>
+<p>&#91;2&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -14130,7 +14298,7 @@ S = \frac{log(A)}{log(B)}
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>SARS Coronavirae</em>. <a href="https://jacobzelko.com/07062020234546-sars-coronavirus">https://jacobzelko.com/07062020234546-sars-coronavirus</a>. July 6 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95.</p>
+<p>&#91;1&#93; S. N. J. Korsman, G. U. van Zyl, L. Nutt, M. I. Andersson, and W. Preiser, “Human coronaviruses,” in Virology, Elsevier, 2012, pp. 94–95. doi: 10.1016/B978-0-443-07367-0.00040-9.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -15301,7 +15469,7 @@ cv + dw = 1\begin{bmatrix} 1\\ 1 \end{bmatrix} + 1\begin{bmatrix} 2\\ 3 \end{bma
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Incremental Reading</em>. <a href="https://jacobzelko.com/05092020053727-incremental-reading">https://jacobzelko.com/05092020053727-incremental-reading</a>. May 9 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Master How To Learn, “Demonstration: My Workflow of Incremental Reading,” 09-Dec-2018. &#91;Online&#93;. Available: https://www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/. &#91;Accessed: 19-May-2020&#93;.</p>
+<p>&#91;1&#93; Master How To Learn, “Demonstration: My Workflow of Incremental Reading,” Dec. 09, 2018. https://www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/ &#40;accessed May 19, 2020&#41;.</p>
 <p>&#91;2&#93; E. L. Bjork, R. A. Bjork, et al., “Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning,” Psychol. Real World Essays Illus. Fundam. Contrib. Soc., vol. 2, no. 59–68, 2011.</p>
 <p>&#91;3&#93; J. B. Shea and R. L. Morgan, “Contextual interference effects on the acquisition, retention, and transfer of a motor skill.” J. Exp. Psychol. &#91;Hum. Learn.&#93;, vol. 5, no. 2, p. 179, 1979.</p>
 <p>&#91;4&#93; A. Ariga and A. Lleras, “Brief and rare mental ‘breaks’ keep you focused: Deactivation and reactivation of task goals preempt vigilance decrements,” Cognition, vol. 118, no. 3, pp. 439–443, Mar. 2011, doi: 10.1016/j.cognition.2010.12.007.</p>
@@ -15651,7 +15819,7 @@ gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Global Programming Paradigm</em>. <a href="https://jacobzelko.com/04182020162028-global-programming">https://jacobzelko.com/04182020162028-global-programming</a>. April 18 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” &#91;Online&#93;. Available: https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/. &#91;Accessed: 18-Apr-2020&#93;.</p>
+<p>&#91;1&#93; S. D’Agostino, “The Architect of Modern Algorithms.” https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/ &#40;accessed Apr. 18, 2020&#41;.</p>
 <p>&#91;2&#93; S. Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers. 2017.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
@@ -15852,7 +16020,7 @@ gr&#40;&#41;let    # CHOOSE WINDOW AND INPUT VALUES OVER WHICH TO CALCULATE
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</em>. <a href="https://jacobzelko.com/04092020195141-transparent-eda-data">https://jacobzelko.com/04092020195141-transparent-eda-data</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
+<p>&#91;1&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012. doi: 10.1007/978-1-4614-1126-0.</p>
 <p>&#91;2&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;3&#93; F. H. Wilhelm and W. T. Roth, “Ambulatory assessment of clinical anxiety,” Ambul. Assess. Comput.-Assist. Psychol. Psychophysiological Methods Monit. Field Stud., pp. 317–345, 1996.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -16402,7 +16570,7 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 <p>Zelko, Jacob. <em>Common Causes of Artifact in EDA Signals</em>. <a href="https://jacobzelko.com/03272020061037-eda-artifacts">https://jacobzelko.com/03272020061037-eda-artifacts</a>. March 27 2020.</p>
 <h2 id="references">References</h2>
 <p>&#91;1&#93; C. Tronstad, G. K. Johnsen, S. Grimnes, and Ø. G. Martinsen, “A study on electrode gels for skin conductance measurements,” Physiol. Meas., vol. 31, no. 10, p. 1395, 2010.</p>
-<p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, 2015, pp. 1934–1937, doi: 10.1109/EMBC.2015.7318762.</p>
+<p>&#91;2&#93; S. Taylor, N. Jaques, Weixuan Chen, S. Fedor, A. Sano, and R. Picard, “Automatic identification of artifacts in electrodermal activity data,” in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society &#40;EMBC&#41;, Aug. 2015, pp. 1934–1937. doi: 10.1109/EMBC.2015.7318762.</p>
 <p>&#91;3&#93; I. R. Kleckner et al., “Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity Data,” IEEE Trans. Biomed. Eng., vol. 65, no. 7, pp. 1460–1467, Jul. 2018, doi: 10.1109/TBME.2017.2758643.</p>
 <p>&#91;4&#93; S. for P. R. A. H. C. on E. Measures et al., “Publication recommendations for electrodermal measurements,” Psychophysiology, vol. 49, no. 8, pp. 1017–1034, 2012.</p>
 <h2 id="discussion">Discussion: </h2>
@@ -16522,7 +16690,7 @@ gr&#40;&#41;let    # Choose Smoothing Factor, α, And Input Values Over Which To
 <p>&#91;8&#93; A. E. Meuret et al., “Do unexpected panic attacks occur spontaneously?” Biol. Psychiatry, vol. 70, no. 10, pp. 985–991, 2011.</p>
 <p>&#91;9&#93; R. G. O’Connell, M. A. Bellgrove, P. M. Dockree, and I. H. Robertson, “Reduced electrodermal response to errors predicts poor sustained attention performance in attention deficit hyperactivity disorder,” Neuroreport, vol. 15, no. 16, pp. 2535–2538, 2004.</p>
 <p>&#91;10&#93; M.-H. Savard, J. Savard, A. Caplette-Gingras, H. Ivers, and C. Bastien, “Relationship between objectively recorded hot flashes and sleep disturbances among breast cancer patients: Investigating hot flash characteristics other than frequency,” Menopause, vol. 20, no. 10, pp. 997–1005, 2013.</p>
-<p>&#91;11&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
+<p>&#91;11&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012. doi: 10.1007/978-1-4614-1126-0.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -16646,7 +16814,7 @@ Action 3: Person identifies chance of rain.Information Retrieved: There is a 75&
 <h2 id="references">References</h2>
 <p>&#91;1&#93; B. J. Rhodes and P. Maes, “Just-in-time information retrieval agents,” IBM Syst. J., vol. 39, no. 3.4, pp. 685–704, 2000, doi: 10.1147/sj.393.0685.</p>
 <p>&#91;2&#93; B. J. Rhodes and T. Starner, “Remembrance Agent: A Continuously Running Automated Information Retrieval System,” p. 4.</p>
-<p>&#91;3&#93; L. Fridman, “Judea Pearl: Causal Reasoning, Counterfactuals, Bayesian Networks, and the Path to AGI | MIT | Artificial Intelligence Podcast,” 11-Dec-2019. &#91;Online&#93;. Available: https://lexfridman.com/judea-pearl/. &#91;Accessed: 21-Mar-2020&#93;.</p>
+<p>&#91;3&#93; L. Fridman, “Judea Pearl: Causal Reasoning, Counterfactuals, Bayesian Networks, and the Path to AGI | MIT | Artificial Intelligence Podcast,” Dec. 11, 2019. https://lexfridman.com/judea-pearl/ &#40;accessed Mar. 21, 2020&#41;.</p>
 <p>&#91;4&#93; J. Pearl, Causality Models, Reasoning and Inference by Judea Pearl. 2009.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
@@ -17466,12 +17634,12 @@ Action 3: Person identifies chance of rain.Information Retrieved: There is a 75&
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>SARS-CoV-2</em>. <a href="https://jacobzelko.com/03102020051547-sars-cov-2">https://jacobzelko.com/03102020051547-sars-cov-2</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; Situation Summary,” 09-Mar-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/summary.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
-<p>&#91;2&#93; “Statement on the second meeting of the International Health Regulations &#40;2005&#41; Emergency Committee regarding the outbreak of novel coronavirus &#40;2019-nCoV&#41;.” &#91;Online&#93;. Available: https://www.who.int/news-room/detail/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-&#40;2005&#41;-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-&#40;2019-ncov&#41;. &#91;Accessed: 10-Mar-2020&#93;.</p>
-<p>&#91;3&#93; “WHO Director-General’s opening remarks at the media briefing on COVID-19 - 11 March 2020.” &#91;Online&#93;. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19–-11-march-2020. &#91;Accessed: 15-Mar-2020&#93;.</p>
-<p>&#91;4&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Symptoms,” 29-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
-<p>&#91;5&#93; M. Lipsitch, “Opinion | Why it’s so hard to pin down the risk of dying from coronavirus.” &#91;Online&#93;. Available: https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/. &#91;Accessed: 10-Mar-2020&#93;.</p>
-<p>&#91;6&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Prevention &amp; Treatment,” 15-Feb-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<p>&#91;1&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; Situation Summary,” Mar. 09, 2020. https://www.cdc.gov/coronavirus/2019-ncov/summary.html &#40;accessed Mar. 10, 2020&#41;.</p>
+<p>&#91;2&#93; “Statement on the second meeting of the International Health Regulations &#40;2005&#41; Emergency Committee regarding the outbreak of novel coronavirus &#40;2019-nCoV&#41;.” https://www.who.int/news-room/detail/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-&#40;2005&#41;-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-&#40;2019-ncov&#41; &#40;accessed Mar. 10, 2020&#41;.</p>
+<p>&#91;3&#93; “WHO Director-General’s opening remarks at the media briefing on COVID-19 - 11 March 2020.” https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19–-11-march-2020 &#40;accessed Mar. 15, 2020&#41;.</p>
+<p>&#91;4&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Symptoms,” Feb. 29, 2020. https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html &#40;accessed Mar. 10, 2020&#41;.</p>
+<p>&#91;5&#93; M. Lipsitch, “Opinion | Why it’s so hard to pin down the risk of dying from coronavirus.” https://www.washingtonpost.com/opinions/2020/03/06/why-its-so-hard-pin-down-risk-dying-coronavirus/ &#40;accessed Mar. 10, 2020&#41;.</p>
+<p>&#91;6&#93; CDC and CDC, “Coronavirus Disease 2019 &#40;COVID-19&#41; – Prevention &amp; Treatment,” Feb. 15, 2020. https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html &#40;accessed Mar. 10, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -17681,8 +17849,8 @@ Action 3: Person identifies chance of rain.Information Retrieved: There is a 75&
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>WFDB Record</em>. <a href="https://jacobzelko.com/03102020061429-wfdb-format">https://jacobzelko.com/03102020061429-wfdb-format</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” 08-Mar-2019. &#91;Online&#93;. Available: https://www.physionet.org/physiotools/wpg/wpg.pdf. &#91;Accessed: 17-Mar-2020&#93;.</p>
-<p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28.</p>
+<p>&#91;1&#93; G. Moody, “WFDB Programmer’s Guide,” Mar. 08, 2019. https://www.physionet.org/physiotools/wpg/wpg.pdf &#40;accessed Mar. 17, 2020&#41;.</p>
+<p>&#91;2&#93; C. A. García Martínez et al., “Loading, Plotting, and Filtering RR Intervals,” in Heart Rate Variability Analysis with the R package RHRV, Cham: Springer International Publishing, 2017, pp. 15–28. doi: 10.1007/978-3-319-65355-6_2.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -17723,7 +17891,7 @@ Action 3: Person identifies chance of rain.Information Retrieved: There is a 75&
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Open Wearables Initiative</em>. <a href="https://jacobzelko.com/03102020004043-open-wearables-initiative">https://jacobzelko.com/03102020004043-open-wearables-initiative</a>. March 10 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” &#91;Online&#93;. Available: http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0. &#91;Accessed: 10-Mar-2020&#93;.</p>
+<p>&#91;1&#93; A. C. T. Editors, “The Open Wearables Initiative Soliciting Algorithms and Datasets.” http://www.appliedclinicaltrialsonline.com/open-wearables-initiative-soliciting-algorithms-and-datasets-0 &#40;accessed Mar. 10, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -17775,7 +17943,7 @@ Action 3: Person identifies chance of rain.Information Retrieved: There is a 75&
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Education as a Spectrum</em>. <a href="https://jacobzelko.com/03092020022908-education-spectrum">https://jacobzelko.com/03092020022908-education-spectrum</a>. March 9 2020.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Golden ratio discovered in a quantum world. Eurekalert.org, 2010.</p>
+<p>&#91;1&#93; Golden ratio discovered in a quantum world. Eurekalert.org, 2010.Available: http://www.eurekalert.org/pub_releases/2010-01/haog-grd010510.php</p>
 <p>&#91;2&#93; R. Padovan, “Proportion: Science, Philosophy, Architecture,” Nexus Netw. J., vol. 4, no. 1, pp. 113–122, 2002, doi: 10.1007/s00004-001-0008-7.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>

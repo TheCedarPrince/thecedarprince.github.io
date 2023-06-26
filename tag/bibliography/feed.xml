@@ -66,7 +66,7 @@
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>How Big Is a Chunk?</em>. <a href="https://jacobzelko.com/01072023205813-memory-chunks">https://jacobzelko.com/01072023205813-memory-chunks</a>. January 7 2023.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. &#91;Online&#93;. Available: http://cognitivemedium.com/srs-mathematics.</p>
+<p>&#91;1&#93; M. Nielsen, “Using spaced repetition systems to see through a piece of mathematics,” 2019. http://cognitivemedium.com/srs-mathematics</p>
 <p>&#91;2&#93; G. A. Miller, “The magical number seven, plus or minus two: Some limits on our capacity for processing information.” Psychol. Rev., vol. 63, no. 2, p. 81, 1956.</p>
 <p>&#91;3&#93; W. G. Chase and H. A. Simon, “The mind’s eye in chess,” in Visual information processing, Elsevier, 1973, pp. 215–281.</p>
 <p>&#91;4&#93; H. A. Simon and W. G. Chase, “American scientist,” Scientist, vol. 61, no. 4, pp. 394–403, 1973.</p>
@@ -573,7 +573,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Strategies for Evaluating Telehealth</em>. <a href="https://jacobzelko.com/05022022153220-evaluating-telehealth">https://jacobzelko.com/05022022153220-evaluating-telehealth</a>. May 2 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” 24-Mar-2020. &#91;Online&#93;. Available: https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la&#61;en. &#91;Accessed: 02-May-2022&#93;.</p>
+<p>&#91;1&#93; Macy, Michelle L., Dana Aronson Schinasi, David McSwain, and John Chuo, “SPROUT COVID-19 Measure Framework,” Mar. 24, 2020. https://research.musc.edu/-/sm/research/resources/sctr/f/sprout-telehealth-measurement-framework-for-covid-19.ashx?la&#61;en &#40;accessed May 02, 2022&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -734,8 +734,8 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Telehealth</em>. <a href="https://jacobzelko.com/05022022155118-telehealth">https://jacobzelko.com/05022022155118-telehealth</a>. May 2 2022.</p>
 <h2 id="references">References:</h2>
-<p>&#91;1&#93; “About telemedicine. Washington, DC: American Telemedicine Association.” &#91;Online&#93;. Available: https://www.americantelemed.org/main/about/&#37;20about-telemedicine/telemedicine-faqs. &#91;Accessed: 02-May-2022&#93;.</p>
-<p>&#91;2&#93; “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013.</p>
+<p>&#91;1&#93; “About telemedicine. Washington, DC: American Telemedicine Association.” https://www.americantelemed.org/main/about/&#37;20about-telemedicine/telemedicine-faqs &#40;accessed May 02, 2022&#41;.</p>
+<p>&#91;2&#93; “Understanding the Medical Licensure Compact,” Federation of State Medical Boards, 2013. Accessed: May 02, 2022. &#91;Online&#93;. Available: http://www.fsmb.org/policy/advocacy-policy/interstate-model-proposed-medical-lic</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -1765,8 +1765,8 @@ A \rightarrow B \leftarrow C
 <h2 id="references">References</h2>
 <p>&#91;1&#93; S. Flood, M. King, R. Rodgers, S. Ruggles, and J. Warren, “Integrated public use microdata series, current population survey: Version 7.0 &#91;dataset&#93;. Minneapolis, MN: Integrated public use microdata; 2020.”</p>
 <p>&#91;2&#93; B. D. Meyer, W. K. Mok, and J. X. Sullivan, “Household surveys in crisis,” J. Econ. Perspect., vol. 29, no. 4, pp. 199–226, 2015.</p>
-<p>&#91;3&#93; L. Bauer, “The COVID-19 Crisis Has Already Left Too Many Children Hungry in America,” 06-May-2020. &#91;Online&#93;. Available: https://www.hamiltonproject.org/blog/the<em>covid</em>19<em>crisis</em>has<em>already</em>left<em>too</em>many<em>children</em>hungry<em>in</em>america. &#91;Accessed: 08-Nov-2020&#93;.</p>
-<p>&#91;4&#93; J. Fields et al., “Design and Operation of the 2020 Household Pulse Survey, 2020,” U.S. Census Bureau, 2020.</p>
+<p>&#91;3&#93; L. Bauer, “The COVID-19 Crisis Has Already Left Too Many Children Hungry in America,” May 06, 2020. https://www.hamiltonproject.org/blog/the<em>covid</em>19<em>crisis</em>has<em>already</em>left<em>too</em>many<em>children</em>hungry<em>in</em>america &#40;accessed Nov. 08, 2020&#41;.</p>
+<p>&#91;4&#93; J. Fields et al., “Design and Operation of the 2020 Household Pulse Survey, 2020,” U.S. Census Bureau, 2020. Accessed: Nov. 08, 2020. &#91;Online&#93;. Available: https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2020<em>HPS</em>Background.pdf</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -2094,7 +2094,7 @@ A \rightarrow B \leftarrow C
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Covid-19 Outcomes Among People With Intellectual And Developmental Disability Living In Residential Group Homes In New York State</em>. <a href="https://jacobzelko.com/07192020031136-covid-outcomes-disabilities">https://jacobzelko.com/07192020031136-covid-outcomes-disabilities</a>. July 18 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; Office for People with Developmental Disabilities, “Revised Staffing Guidance for Management of COVID-19,” 12-Jun-2020. &#91;Online&#93;. Available: https://opwdd.ny.gov/system/files/documents/2020/06/6.12.2020-opwdd<em>covid19</em>staffguidance_updated-symptoms.pdf. &#91;Accessed: 14-Jul-2020&#93;.</p>
+<p>&#91;1&#93; Office for People with Developmental Disabilities, “Revised Staffing Guidance for Management of COVID-19,” Jun. 12, 2020. https://opwdd.ny.gov/system/files/documents/2020/06/6.12.2020-opwdd<em>covid19</em>staffguidance_updated-symptoms.pdf &#40;accessed Jul. 14, 2020&#41;.</p>
 <p>&#91;2&#93; V. Prasher and M. Janicki, Physical health of adults with intellectual disabilities. John Wiley &amp; Sons, 2008.</p>
 <p>&#91;3&#93; Centers for Disease Control, “Preliminary Estimates of the Prevalence of Selected Underlying Health Conditions Among Patients with Coronavirus Disease 2019 — United States, February 12–March 28, 2020.” MMWR Morb Mortal Wkly Rep, 2020.</p>
 <p>&#91;4&#93; M. A. Turk, S. D. Landes, M. K. Formica, and K. D. Goss, “Intellectual and developmental disability and COVID-19 case-fatality trends: TriNetX analysis,” Disability and Health Journal, p. 100942, May 2020, doi: 10.1016/j.dhjo.2020.100942.</p>
@@ -2102,9 +2102,9 @@ A \rightarrow B \leftarrow C
 <p>&#91;6&#93; G. L. Krahn, D. K. Walker, and R. Correa-De-Araujo, “Persons with disabilities as an unrecognized health disparity population,” Am. J. Public Health, vol. 105, no. S2, pp. S198–S206, 2015.</p>
 <p>&#91;7&#93; P. Chidambaram, “State reporting of cases and deaths due to COVID-19 in long-term care facilities,” San Franc. Kais. Fam. Found., 2020.</p>
 <p>&#91;8&#93; J. Solis, C. Franco-Paredes, A. F. Henao-Martínez, M. Krsak, and S. M. Zimmer, “Structural vulnerability in the united states revealed in three waves of novel coronavirus disease &#40;covid-19&#41;,” Am. J. Trop. Med. Hyg., p. tpmd200391, 2020.</p>
-<p>&#91;9&#93; CDC, “Communities, Schools, Workplaces, &amp; Events,” 30-Apr-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html. &#91;Accessed: 15-Jul-2020&#93;.</p>
+<p>&#91;9&#93; CDC, “Communities, Schools, Workplaces, &amp; Events,” Apr. 30, 2020. https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html &#40;accessed Jul. 15, 2020&#41;.</p>
 <p>&#91;10&#93; D. Braddock, R. Hemp, E. Tanis, J. Wu, and L. Haffer, “The state of the states in intellectual and developmental disabilities, 2017 washington,” DC Am. Assoc. Intellect. Dev. Disabil., 2017.</p>
-<p>&#91;11&#93; Centers for Disease Control, “COVID-19 Guidance for Shared or Congregate Housing | CDC,” 25-Apr-2020. &#91;Online&#93;. Available: https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html. &#91;Accessed: 22-Jul-2020&#93;.</p>
+<p>&#91;11&#93; Centers for Disease Control, “COVID-19 Guidance for Shared or Congregate Housing | CDC,” Apr. 25, 2020. https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html &#40;accessed Jul. 22, 2020&#41;.</p>
 <h2 id="discussion">Discussion: </h2>
 <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
 <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
@@ -2240,7 +2240,7 @@ A \rightarrow B \leftarrow C
 <h1>Against Method</h1>
 <p><strong>Date:</strong> July 12 2020</p>
 <p><strong>Summary:</strong> The use of anarchy as a philosophical approach to learning anything.</p>
-<p><strong>Keywords:</strong> ##bibliography #education #philosophy #learning #archive #book</p>
+<p><strong>Keywords:</strong> ##bibliography #education #philosophy #learning #archive #book #project</p>
 <h1>Bibliography</h1>
 <p>P. Feyerabend, <em>Against method</em>, 3rd ed. London ; New York: Verso, 1993.</p>
 <h1>Table of Contents</h1>
@@ -3133,7 +3133,7 @@ A \rightarrow B \leftarrow C
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Simple, Transparent, and Flexible Automated Quality Assessment Procedures for Ambulatory Electrodermal Activity</em>. <a href="https://jacobzelko.com/04092020195141-transparent-eda-data">https://jacobzelko.com/04092020195141-transparent-eda-data</a>. April 9 2020.</p>
 <h2 id="references">References</h2>
-<p>&#91;1&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012.</p>
+<p>&#91;1&#93; W. Boucsein, Electrodermal Activity. Boston, MA: Springer US, 2012. doi: 10.1007/978-1-4614-1126-0.</p>
 <p>&#91;2&#93; R. Kocielnik, N. Sidorova, F. M. Maggi, M. Ouwerkerk, and J. H. Westerink, “Smart technologies for long-term stress monitoring at work,” in Proceedings of the 26th IEEE international symposium on computer-based medical systems, 2013, pp. 53–58.</p>
 <p>&#91;3&#93; F. H. Wilhelm and W. T. Roth, “Ambulatory assessment of clinical anxiety,” Ambul. Assess. Comput.-Assist. Psychol. Psychophysiological Methods Monit. Field Stud., pp. 317–345, 1996.</p>
 <h2 id="discussion">Discussion: </h2>
