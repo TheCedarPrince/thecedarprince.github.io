@@ -11,6 +11,24 @@ The titles, date, summaries, and key words of a blog are provided per entry
 
     	<br>
 
+    	<span class = post-item id = lessons-learned-from-how-i-use-anki>
+             		<a href = http://jacobzelko.com/07092023212334-how-i-anki/>
+                      			<strong>
+                               				Lessons Learned from How I Use Anki
+                      			</strong>
+                      			[Jul 9 2023]
+             		</a>
+             		<br>
+                      			Some insights into how I use Anki and suggestions on how to get started
+             		<br>
+                      			#anki #blog #archive #anki #spaced #repetition #learning
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = notes-on-managing-open-source-organizations>
              		<a href = http://jacobzelko.com/06202023182947-notes-open-orgs/>
                       			<strong>
