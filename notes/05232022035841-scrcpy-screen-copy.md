@@ -46,7 +46,7 @@ Table of Contents
 5. Unplug your device
 6. Run `scrcpy` as usual
 
-I recommend using this command: `scrcpy --bit-rate 2M --max-size 800`
+I recommend using this command: `scrcpy --video-bit-rate 20M --max-size 1600`
 ## How To Cite
 
  Zelko, Jacob. _Scrcpy Screen Copy_. [https://jacobzelko.com/05232022035841-scrcpy-screen-copy](https://jacobzelko.com/05232022035841-scrcpy-screen-copy). May 22 2022.
