@@ -23,6 +23,170 @@
 
 <item>
   <title>
+    <![CDATA[  Lessons Learned from How I Use Anki  ]]>
+  </title>
+  <link> https://jacobzelko.com/07092023212334-how-i-anki/index.html </link>
+  <guid> https://jacobzelko.com/07092023212334-how-i-anki/index.html </guid>
+  <description>
+    <![CDATA[  Some insights into how I use Anki and suggestions on how to get started  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Lessons Learned from How I Use Anki</h1>
+<p><strong>Date:</strong> July 9 2023</p>
+<p><strong>Summary:</strong> Some insights into how I use Anki and suggestions on how to get started</p>
+<p><strong>Keywords:</strong> #anki #blog #archive #anki #spaced #repetition #learning</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>How To Get Started with Anki</li><li>Effective Anki Philosophies</li><li>Other Personal Strategies<ol><li>What about Add-Ons?</li></ol></li><li>Advanced Techniques<ol><li>Incremental Understanding</li><li>Anki for Mathematics?</li></ol></li><li>Concluding Thoughts</li><li>Footnotes</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>Recently, I was sharing with a few online communities &#40;namely the Neorg and Anki Discord Servers&#41; my success with Anki. I was somewhat surprised at how many people were both curious and excited about what I was up to and how I was learning things with Anki. After writing up some advice across the servers, I decided it best to coalesce my thoughts here on how I use Anki for mathematics, languages, and incremental reading.</p>
+<h3 id="how_to_get_started_with_anki">How To Get Started with Anki</h3>
+<p><a href="https://apps.ankiweb.net/">Anki is perhaps one of the greatest learning tools made</a>. To quickly summarize, Anki is a software for creating digital flashcards and then quizzes you throughout the day, everyday on cards according to how well you can recall each card.  To get started with Anki, here are some tips I would give to myself if I had to start over again and to anyone curious about getting started with Anki:</p>
+<ul>
+<li><p><strong>Skim the official Anki documentation</strong>: Familiarize yourself with Anki&#39;s features and functionalities by skimming through the official Anki documentation available at <a href="https://docs.ankiweb.net/getting-started.html">Anki Getting Started</a>. &#40;Another good reference, although unofficial and may become outdated, is: <a href="https://leananki.com/how-to-use-anki-tutorial/">How to Use Anki</a> by Lean Anki&#41;.</p>
+</li>
+<li><p><strong>Start with simple cards</strong>: Begin your Anki journey by creating straightforward flashcards to ensure better comprehension and recall.</p>
+</li>
+</ul>
+<p>The basic and cloze default templates are great to use and cover a wide range of use cases you may have.</p>
+<ul>
+<li><p><strong>Gradually increase the number of new cards per day</strong>: I would not recommend several new cards a day as you get started.</p>
+</li>
+</ul>
+<p>If you start with 100 new cards on day one, that means the next day you would have to study 100 new cards AND 100 reviews of your day old new cards at minimum. In practice, this will hike up your number of reviews between the two days to well over 300 cards potentially.</p>
+<ul>
+<li><p><strong>Using Pre-made decks is OK</strong>: If you are unsure about how to make decks or are low on time, you can <a href="https://ankiweb.net/shared/decks/">use pre-made decks</a></p>
+</li>
+<li><p><strong>Learning deck options can be quite helpful...</strong>: In particular, settings like <a href="https://docs.ankiweb.net/deck-options.html">Daily Limits, Display Order, Timer, and Subdecks</a> are worth learning about as a beginner.</p>
+</li>
+</ul>
+<p>This can help prevent feeling overwhelmed.</p>
+<ul>
+<li><p><strong>...but, Stick with the default algorithm settings</strong>: Avoid unnecessary tinkering and utilize Anki&#39;s default algorithm, which is designed for optimal card review timing.</p>
+</li>
+</ul>
+<p>These are Deck Options like New Cards, Lapses, or other Advanced fields and scheduling. <sup id="fnref:1">[1]</sup></p>
+<p>To emphasize the last point, while there are numerous Anki resources offering &quot;best settings for success&quot; such as on YouTube or blog posts &#40;even this one – go do Anki&#33;&#41;, be cautious not to get caught up in <a href="https://calebschoepp.com/blog/2022/productivity-porn/">&quot;productivity porn&quot;</a>.  Focus on consistent usage of Anki and trust in the effectiveness of the default scheduler and most of the review settings. </p>
+<h3 id="effective_anki_philosophies">Effective Anki Philosophies</h3>
+<p>These are philosophies I have found useful when I work with Anki. Feel free to incorporate, ignore, or use them:</p>
+<ul>
+<li><p><strong>Add content you want to learn</strong>: Only add content to Anki you truly, genuinely want to learn – ask yourself, &quot;Am I comfortable with reviewing this content over the next year?&quot;</p>
+</li>
+</ul>
+<p>If you even hesitate a moment, <strong>DO NOT ADD IT</strong>. <sup id="fnref:2">[2]</sup></p>
+<ul>
+<li><p><strong>When you have dead time...</strong>: Waiting in a line for a tea at a cafe?</p>
+</li>
+</ul>
+<p>Review Anki. Have a break between a PvP session while playing Destiny 2? Review Anki. Stationary biking at the gym? Review Anki.</p>
+<ul>
+<li><p><strong>One card, one fact</strong>: Keep one fact per review card you make.</p>
+</li>
+<li><p><strong>Follow the 20 principles of knowledge formulation</strong>: Read the <a href="https://supermemo.guru/wiki/20_rules_of_knowledge_formulation">20 Rules of Knowledge Formulation</a>.</p>
+</li>
+</ul>
+<p>Learn, live, ~~loathe~~ love it.</p>
+<ul>
+<li><p><strong><a href="https://www.youtube.com/watch?v&#61;C-m3RtoguAQ">&quot;I... Declare... Bankruptcy&#33;&#33;&#33;&quot; – Michael Scott, King of Anki</a></strong>: If you are feeling overwhelmed by how many reviews you have to do each day, it is alright to declare what I call &quot;Anki Bankruptcy&quot; and temporarily stop adding new cards to review each day.</p>
+</li>
+</ul>
+<p>Do this until you feel more motivated or your review count is back to a comfortable level. <sup id="fnref:3">[3]</sup></p>
+<h3 id="other_personal_strategies">Other Personal Strategies</h3>
+<p>These are my highly personal review strategies. They may be wrong, but they help me consistently manage all my Anki reviews:</p>
+<ul>
+<li><p><strong>Embrace a simplified review process</strong>: Streamline your card reviews by focusing solely on the &quot;good&quot; or &quot;again&quot; key, simplifying decision-making and promoting efficient learning.</p>
+</li>
+<li><p><strong>Prioritize well-being and take breaks</strong>: Ensure your physical and mental well-being by prioritizing breaks and engaging in activities that rejuvenate you.</p>
+</li>
+<li><p><strong>Adjust Deck Settings</strong>: Create different deck profiles, such as &quot;Hard Studies&quot; for challenging subjects or &quot;No New Cards&quot; when you need a temporary break.</p>
+</li>
+<li><p><strong>Regularly review statistics</strong>: I monitor my progress by reviewing Anki&#39;s statistics every day.</p>
+</li>
+</ul>
+<p>This helps me track performance and if I may need to reduce or increase the intensity of my recent Anki sessions.</p>
+<ul>
+<li><p><strong>Organize with decks and subdecks</strong>: I categorize my flashcards into decks and subdecks based on subjects or topics of interest broadly.</p>
+</li>
+</ul>
+<h4 id="what_about_add-ons">What about Add-Ons?</h4>
+<p>I do use a couple Anki Add-ons&#33; I tend to more focus on aesthetics and statistics for my Anki set-up. Here are some that I always use:</p>
+<ul>
+<li><p><a href="https://ankiweb.net/shared/info/308574457">Anki-redesign</a> - A new lightweight look for Anki</p>
+</li>
+<li><p><a href="https://ankiweb.net/shared/info/738807903">More Overview Stats 2.1</a> - This addon adds more information to the deck overview statistics.</p>
+</li>
+<li><p><a href="https://ankiweb.net/shared/info/1556734708">More Decks Stats and Time Left</a> - This addon shows extra information of the due cards and returns the expected time to finalize &#40;Due&#43;New&#41;.</p>
+</li>
+<li><p><a href="https://ankiweb.net/shared/info/1771074083">Review Heatmap</a> - Adds a heatmap graph to Anki&#39;s main window which visualizes past and future card review activity.</p>
+</li>
+</ul>
+<h3 id="advanced_techniques">Advanced Techniques</h3>
+<p>These are advanced techniques that I am experimenting with. Reader be warned&#33;</p>
+<h4 id="incremental_understanding">Incremental Understanding</h4>
+<p>I didn&#39;t find Anki particularly well-suited for <a href="https://www.wikiwand.com/en/Incremental_reading">Incremental Reading</a> and instead created an iterative process I call &quot;Incremental Understanding&quot;. What the process entails is this:</p>
+<ol>
+<li><p>I pull content from what I read such as a paragraph or a few lines.</p>
+</li>
+<li><p>For each chunk of information, I add that to a card that only has three sections: the content, associated thoughts, and their reference.</p>
+</li>
+<li><p>As I review each of these cards, I edit them into my own language. &#40;I max out how much I spend on each card per review to 3 minutes&#41;</p>
+</li>
+<li><p>I repeat steps 1 - 3, until each card I feel is sufficiently described in my own language and then I suspend and tag the card for transfer into my personal notes.</p>
+</li>
+<li><p>For each note that is tagged for transfer, I then move and stitch them into my personal notes</p>
+</li>
+</ol>
+<p>To make steps 3 and 4 easier, I use the <a href="https://ankiweb.net/shared/info/1429363228">Tag Toggler Add On</a>. For 5, this is an intentionally manual process that, although labor intensive, forces me to think how this new content fits into my knowledge base and any existing notes I have.</p>
+<h4 id="anki_for_mathematics">Anki for Mathematics?</h4>
+<p>It&#39;s an evolving process, but I have written a <a href="https://jacobzelko.com/01072023041127-making-math-anki/">separate dedicated blog post</a> dedicated to the processes I have been developing for this.</p>
+<h3 id="concluding_thoughts">Concluding Thoughts</h3>
+<p>I hope this small guide on getting started with and using Anki was helpful&#33; Again, these are my own personal notes and takes on how to use the tool. To that end, if you have any suggestions, thoughts, or feedback, please let me know&#33;</p>
+<h3 id="footnotes">Footnotes</h3>
+<p><table class="fndef" id="fndef:1">
+    <tr>
+        <td class="fndef-backref">[1]</td>
+        <td class="fndef-content">Even for me, I do not mess around with the default algorithm much at all.</td>
+    </tr>
+</table>
+ I find it does a great job as is and I have only recently even thought about messing around with the <a href="https://github.com/open-spaced-repetition/fsrs4anki/wiki">FSRS algorithm</a>. </p>
+<p><table class="fndef" id="fndef:2">
+    <tr>
+        <td class="fndef-backref">[2]</td>
+        <td class="fndef-content">If you are not careful, you can create &quot;Anki Anxiety&quot; where, instead of being excited about learning something via Anki, you dread the reviews you have to do every day for information you are not too excited about.</td>
+    </tr>
+</table>
+ <table class="fndef" id="fndef:3">
+    <tr>
+        <td class="fndef-backref">[3]</td>
+        <td class="fndef-content">Aside from <em>The  Office</em>, I actually got this idea from Danika Dakika from the Anki Discord server; it was a game changer for me so a huge thank you to Danika&#33;</td>
+    </tr>
+</table>
+</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Lessons Learned from How I Use Anki</em>. <a href="https://jacobzelko.com/07092023212334-how-i-anki">https://jacobzelko.com/07092023212334-how-i-anki</a>. July 9 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Making Math Flashcards Using Spaced Repetition Systems  ]]>
   </title>
   <link> https://jacobzelko.com/01072023041127-making-math-anki/index.html </link>
