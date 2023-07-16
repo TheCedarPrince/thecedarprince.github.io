@@ -1016,7 +1016,7 @@ I = [-1, 1]
 \[
 A_{i} = \{i\} \times [0, 1]
 \]
-<p>, where \(A_{i}\) is a subset of \(\mathbb R^{2}\) &#40;i.e. \(A_{i} \subseteq R^{2}\)&#41;.</p>
+<p>, where \(A_{i}\) is a subset of \(\R^{2}\) &#40;i.e. \(A_{i} \subseteq R^{2}\)&#41;.</p>
 <p>If we ask what is the union of \(A_{i}\), given that \(I\) is uncountably infinite, the answer would be: </p>
 \[
 \bigcup_{i \in I} A_{i} = [-1, 1] \times [0, 1]

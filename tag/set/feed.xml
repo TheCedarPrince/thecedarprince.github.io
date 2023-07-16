@@ -72,7 +72,7 @@ im(f(W)) = f(W) = \{f(x) | x \in W \}
 <p>If we have two sets, \(X\) and \(Y\), and a subset \(W \subseteq X\) &#40;a subset of \(X\)&#41; while also having a function that maps values of \(X\) to \(Y\) and we want to know the image of the subset, \(W\), we can have \(f\) operate on each element \(x \in W\). This generates the image of \(W\)&#33;</p>
 </blockquote>
 <h4 id="example__2">Example</h4>
-<p>Let \(X = \mathbb R\), \(Y = +\mathbb R\), \(W = \{1, 2, 3, 4, 5\}\) and \(f : x \rightarrow x^{2}\). What is the image of \(W\) under \(f\)?</p>
+<p>Let \(X = \R\), \(Y = +\R\), \(W = \{1, 2, 3, 4, 5\}\) and \(f : x \rightarrow x^{2}\). What is the image of \(W\) under \(f\)?</p>
 <p>Using the generic definition:</p>
 \[
 im(f(W)) = f(W) = \{f(x) | x \in W \}
@@ -92,7 +92,7 @@ im(f) = \{f(x) | x \in X\} \subseteq Y
 </blockquote>
 <p>This explanation may look familiar as the image of a function is actually synonymous to a function&#39;s range&#33; 😱 Typically though, to be a bit more rigorous, the word <em>range</em> is not used in this setting but rather <em>image</em>.</p>
 <h4 id="example__3">Example</h4>
-<p>Let \(X = \mathbb R\), \(Y = +\mathbb R\), and \(f : x \rightarrow x^{2}\). What is the image of \(f\)?</p>
+<p>Let \(X = \R\), \(Y = +\R\), and \(f : x \rightarrow x^{2}\). What is the image of \(f\)?</p>
 <p>Using the generic definition:</p>
 \[
 im(f) = \{f(x) | x \in X\} \subseteq Y
@@ -101,7 +101,7 @@ im(f) = \{f(x) | x \in X\} \subseteq Y
 \[
 im(f) = \{0, ..., .01, ..., 25, ..., \infin\} \subseteq Y
 \]
-<p>In this example, based on the definition we have for an \(im(f)\), the \(im(f)\) is all possible outputs that \(f\) can generate which is the <em>range</em> \(+\mathbb R\).</p>
+<p>In this example, based on the definition we have for an \(im(f)\), the \(im(f)\) is all possible outputs that \(f\) can generate which is the <em>range</em> \(+\R\).</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Images of Elements, Sets, and Functions</em>. <a href="https://jacobzelko.com/10152022173643-image-of-sets">https://jacobzelko.com/10152022173643-image-of-sets</a>. October 15 2022.</p>
 <h2 id="references">References:</h2>
@@ -273,7 +273,7 @@ I = [-1, 1]
 \[
 A_{i} = \{i\} \times [0, 1]
 \]
-<p>, where \(A_{i}\) is a subset of \(\mathbb R^{2}\) &#40;i.e. \(A_{i} \subseteq R^{2}\)&#41;.</p>
+<p>, where \(A_{i}\) is a subset of \(\R^{2}\) &#40;i.e. \(A_{i} \subseteq R^{2}\)&#41;.</p>
 <p>If we ask what is the union of \(A_{i}\), given that \(I\) is uncountably infinite, the answer would be: </p>
 \[
 \bigcup_{i \in I} A_{i} = [-1, 1] \times [0, 1]

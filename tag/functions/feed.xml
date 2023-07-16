@@ -55,7 +55,7 @@ f^{-1}(D) = \{x \in A : f(x) = D\}
 \]
 <p>Notice the subtle notation change I introduced where I said \(=\) instead of \(\in\) which, although interchangeable here, reads more clearly in my mind. Essentially, you say the condition for this set to be any element, \(x\), that satisfies the equation, \(f(x) = D\). To me, my brain translates that condition into a fun challenge rather than an abstract \(\in D\) which reads less concretely.</p>
 <h4 id="example">Example</h4>
-<p>Let \(X = \mathbb R\), \(Y = \mathbb R\), \(V = \{1, 4, 9, 16, 25\}\) which we know the fact that \(V \subseteq Y\), and \(f : x \rightarrow x^{2}\).</p>
+<p>Let \(X = \R\), \(Y = \R\), \(V = \{1, 4, 9, 16, 25\}\) which we know the fact that \(V \subseteq Y\), and \(f : x \rightarrow x^{2}\).</p>
 <p>Using the definition:</p>
 \[
 f^{-1}(V) = \{x \in X : f(x) \in V\}
