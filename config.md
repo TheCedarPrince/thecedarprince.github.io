@@ -4,7 +4,7 @@ Add here global page variables to use throughout your website.
 +++
 author = "Jacob Zelko"
 mintoclevel = 2
-image = "https://jacobzelko.com/assets/profile.png"
+image = "https://jacobzelko.com/assets/tcp.png"
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
@@ -24,5 +24,4 @@ rss_full_content = true
 <!--
 Add here global latex commands to use throughout your pages.
 -->
-\newcommand{\R}{\mathbb R}
-\newcommand{\scal}[1]{\langle #1 \rangle}
+\newcommand{\profileimage}[2]{~~~<img src="#1" alt="#2" class="center"/>~~~}
