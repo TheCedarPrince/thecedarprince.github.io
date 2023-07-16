@@ -3,11 +3,9 @@ title = "Home"
 tags = ["home", "about"]
 +++
 
-# 
+# Hello! | ¡Hola! | Hallo! | !مرحبا -- Welcome to _the cedar ledge_! 👋
 
 \profileimage{/assets/jacob.jpg}{zelko}
-
-# Hello! | ¡Hola! | Hallo! | !مرحبا -- Welcome to _the cedar ledge_! :wave:
 
 My name is Jacob Scott Zelko!
 I am currently pursuing my MS in Applied Mathematics at Northeastern University (NEU) and am a trainee of [NEU's Roux Institute](https://roux.northeastern.edu).
