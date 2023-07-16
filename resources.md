@@ -1,15 +1,13 @@
 @def title = "Resources"
 
-<!--TODO: Revamp this-->
-<!--TODO: Change to links section-->
-
 # Contact Me 🙋‍♂
 
 Thank you for taking the time to visit my website!
 The _best way_ to contact me is via my email which is [jacobszelko@gmail.com](mailto:jacobszelko@gmail).
 I welcome any inquiry about chatting around common interests, possible collaborations, or consultancy requests.
+Also, if you want to know what I am up to, please subscribe to my newsletter: 
 
-<!--TODO: Add email newsletter subscription widget-->
+{{addnewsletter}}
 
 # RSS :satellite:
 
@@ -23,5 +21,14 @@ I have a variety of possible feeds available to meet your needs:
 
 # Where To Find Me :mag:
 
-<!--TODO: Add media links-->
-<!--TODO: add to Index section-->
+These locations are where I have an established presence:
+
+- [Twitter](https://twitter.com/Jacob_Zelko)
+
+- [GitHub](https://github.com/TheCedarPrince)
+
+- Discord: TheCedarPrince#8941
+
+- Julia Language Slack: TheCedarPrince
+
+- Category Theory Slack: Jacob Zelko
