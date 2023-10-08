@@ -23,6 +23,131 @@
 
 <item>
   <title>
+    <![CDATA[  Resources for Learning the Julia Programming Language  ]]>
+  </title>
+  <link> https://jacobzelko.com/10082023195125-julia-learning-resources/index.html </link>
+  <guid> https://jacobzelko.com/10082023195125-julia-learning-resources/index.html </guid>
+  <description>
+    <![CDATA[  A non-exhaustive list of recommendations for how I suggest learning Julia to language newcomers  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Resources for Learning the Julia Programming Language</h1>
+<p><strong>Date:</strong> October 8 2023</p>
+<p><strong>Summary:</strong> A non-exhaustive list of recommendations for how I suggest learning Julia to language newcomers</p>
+<p><strong>Keywords:</strong> #julia #programming #beginners #recommendations #learning #archive #blog</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Before Programming with Julia, Let&#39;s Set It Up</li><li>Julia Programming for New Programmers</li><li>Quickly Picking Up Julia Programming</li><li>What Is a Julian?</li><li>Building Up Expertise in Julia Programming</li><li>Domain Specific Workflows in Julia<ol><li>Working with Data</li><li>Plotting</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3>Motivation</h3>
+<p>I saw an interesting post on <a href="https://bsky.app/profile/naturepoker.bsky.social/post/3kb7gi65xqm2a">BlueSky recently</a> that got me thinking about Julia learning resources. I tend to give out a lot of advice about how to go about learning Julia but I realized I have never really centralized one place where I keep that information. This blog post talks about my personal opinions both within the Julia ecosystem and recommendations for how to learn Julia.</p>
+<h3 id="before_programming_with_julia_lets_set_it_up">Before Programming with Julia, Let&#39;s Set It Up</h3>
+<p>The fantastic initiative, <a href="modernjuliaworkflows.github.io/">Modern Julia Workflows</a>, spearheaded by Guillaume Dalle and co has a number of sections that can help with getting set-up fast &#40;I&#39;ll be referring to their work quite a bit throughout this post&#41;. In particular, here are the sections I&#39;d recommend to get set-up fastest:</p>
+<ol>
+<li><p><a href="https://modernjuliaworkflows.github.io/pages/writing/#installation">How to install Julia on your computer</a></p>
+</li>
+<li><p><a href="https://modernjuliaworkflows.github.io/pages/writing/#installation">What you need to write Julia</a>.</p>
+</li>
+</ol>
+<p>A special note on this from me is that you really do not need much – you could use something like NotePad on Windows, textedit on OSX, or KWrite on *nix systems. I like the stance Dalle takes in recommending VSCode however as this gives you the best mileage whether you are a beginner or expert programmer.</p>
+<p>Suggestion 2 here will most likely take you the longest if you have never worked with a text editor before &#40;a piece of software to create and edit most different types of files&#41;. So, no worries and enjoy the learning here&#33;</p>
+<h3 id="julia_programming_for_new_programmers">Julia Programming for New Programmers</h3>
+<p>If you are completely new to programming in general, I&#39;d recommend the course, <a href="https://juliaacademy.com/p/julia-programming-for-nervous-beginners">Julia Programming for Nervous Beginners</a>, by Dr. Henri Laurie. It really eases you through how to start with programming and uses Julia as that learning tool. Otherwise, skip to the next section.</p>
+<h3 id="quickly_picking_up_julia_programming">Quickly Picking Up Julia Programming</h3>
+<p>To pick up Julia programming, I recommend <a href="https://juliaacademy.com/p/intro-to-julia">Introduction to Julia &#40;for programmers&#41;</a> by Dr. Jane Herriman. This will get you going with Julia the fastest – especially if you already know some programming.</p>
+<h3 id="what_is_a_julian">What Is a Julian?</h3>
+<p>Before continuing your Julia adventure, it is worth a pause to discuss a couple aspects of Julia that one may not immediately recognize but are crucial in a productive Julia workflow. Otherwise, one may end up despairing over the supposed virtues of Julia. Here are some specific pieces:</p>
+<ol>
+<li><p>Julia is a REPL-centric workflow.</p>
+</li>
+</ol>
+<p>If you are unfamiliar with what a REPL is, please see <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#repl">this reference for details</a> but in short, the Julia REPL is a continuous loop that accepts all valid inputs. From loading a file, experimenting with code, or calling functions, the REPL serves as a scratchpad to iteratively build your overall Julia software instantly.</p>
+<ol start="2">
+<li><p>Julia is compiled – packages and functions will take a moment to load for use.</p>
+</li>
+</ol>
+<p>This builds on the previous point, but yes, as Julia is compiled, any package or function you want to use may execute slightly longer initially but then will be compiled for the duration of your work session. This is why you want your Julia workflow to be REPL-centric as you can get around this issue.</p>
+<ol start="3">
+<li><p>Julians organize Julia software into &quot;projects&quot; or packages.</p>
+</li>
+</ol>
+<p>Whether you are writing a collection of small scripts to analyze some data or developing a completely new software package, to effectively maneuver through your Julia code, make liberal use of <a href="">Pkg.jl</a>.  Dalle has an excellent reference that talks about this concept of <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#local_packages">project environments</a> as well as how to build your own <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#local_packages">local package</a>.</p>
+<ol start="4">
+<li><p>Working within Julia can be extremely efficient – if you know how.</p>
+</li>
+</ol>
+<p>This is a circular statement as it naturally raises the question of, &quot;how do I actually build a concrete Julia workflow?&quot; Thankfully, <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#development_workflow">much has been written about this</a></p>
+<ol start="5">
+<li><p>Julians want to help you.</p>
+</li>
+</ol>
+<p>What is wonderful about the Julia community is that, in contrast to perhaps alternative internet communities, the bulk of Julians greatly enjoy helping not only other Julians but other programmers in general &#40;there has been numerous occasions where I have seen Julians help other language users become even more proficient in their workflows&#41;. This is an <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#getting_help">invaluable assortment</a> of where to find your fellow Julians.</p>
+<p>I hope this section does not come off as overtly prescriptive, but I have seen the notion of &quot;you are holding the tool wrong&quot; or &quot;what is Julian&quot; &#40;i.e. how do proficient Julia users do X&#41; pop up too many times for new Julians or those experimenting with the language. I hope with this nudging guidance here, a new Julian can more clearly understand the &quot;why&quot; of what other more proficient Julians recommend.</p>
+<h3 id="building_up_expertise_in_julia_programming">Building Up Expertise in Julia Programming</h3>
+<p>At this stage, we can now move from the beginner to intermediate Julian stage. Here, I think the world of Julia quite truly opens up to the new user. To delve deeper into Julia, here are some resources I would personally recommend:</p>
+<ul>
+<li><p>Believe it or not, the <a href="https://docs.julialang.org/">Julia documentation</a> is actually really nice to read and accessible.</p>
+</li>
+</ul>
+<p>Now, I don&#39;t just say this as I have helped write some of it, but I do truly think it worth looking through to get a better feel for aspects of Julia one may not consider.  I would suggest starting with the Manual section of the documentation.</p>
+<ul>
+<li><p>Check out the <a href="https://computationalthinking.mit.edu/Fall22/">MIT Computational Thinking Course</a> to have a more hands-on introduction to scientific computing.</p>
+</li>
+</ul>
+<p>I have never personally gone through it, but I hear it highly praised.</p>
+<ul>
+<li><p>Try solving problems on <a href="https://exercism.io/tracks/julia">Exercism.io</a> to practice and improve your skills.</p>
+</li>
+</ul>
+<p>I am a mentor here although don&#39;t have as much time anymore to help review. I still find this to be a really great place to further your learning and to get better at programming Julia – you&#39;ll often get feedback from expert Julia users which, in itself, is extremely valuable.</p>
+<h3 id="domain_specific_workflows_in_julia">Domain Specific Workflows in Julia</h3>
+<p>I will probably spin out the following sub-sections into their own blogs, but here are some selected domain specific workflows I have used or become familiar with that I use regularly within Julia.</p>
+<h4 id="working_with_data">Working with Data</h4>
+<p>This admittedly broad workflow encompasses much, but the most important packages in this space are:</p>
+<ul>
+<li><p><a href="https://dataframes.juliadata.org/stable/">DataFrames.jl</a>: This package provides a powerful data manipulation and analysis tool for Julia, similar to the pandas library in Python. </p>
+<ul>
+<li><p>Additionally, the author of the package, Bogumił Kamiński, is an extremely prolific blogger who shares many different ways of using DataFrames.jl.</p>
+</li>
+</ul>
+<p>I highly suggest <a href="https://bkamins.github.io">his blog</a>.</p>
+</li>
+<li><p><a href="https://csv.juliadata.org/stable/">CSV.jl</a>: Utility library for working with CSV and other delimited files in the Julia programming language</p>
+</li>
+<li><p><a href="https://github.com/ronisbr/TerminalPager.jl">TerminalPager.jl</a>: a REPL-based Julia variable and documentation explorer</p>
+</li>
+</ul>
+<h4 id="plotting">Plotting</h4>
+<p>When I first started within Julia, this was the only area I felt that was sorely lacking within the ecosystem. However, I am happy to say that this is no longer the case&#33; In my mind, the best Julia plotting package is <a href="https://makie.org">Makie.jl</a>. It is an interactive data visualization and plotting ecosystem that has support for multiple backends ranging from publication quality static images, 3D images, to fully interactive plots and visualizations. I use it whenever I can.</p>
+<h3 id="conclusion">Conclusion</h3>
+<blockquote>
+<p><strong>NOTE:</strong> This blog post is a continuous work in progress.</p>
+</blockquote>
+<p>As this blog post is a continuous work in progress, please feel free to comment below on questions about how I could improve it or explain more. That said, my goal with this blog post was not to cover every aspect of the Julia ecosystem but how to quickly go from knowing nothing about programming to becoming a self-sufficient Julian. May this concise guide help you in your way to achieving all that you want within Julia.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Resources for Learning the Julia Programming Language</em>. <a href="https://jacobzelko.com/10082023195125-julia-learning-resources">https://jacobzelko.com/10082023195125-julia-learning-resources</a>. October 8 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  A Fun Exploration of Perfect, Abundant, and Deficient Numbers  ]]>
   </title>
   <link> https://jacobzelko.com/05102023043333-perfect-abundant-deficit/index.html </link>
@@ -874,11 +999,12 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Pattern Matching</li><li>Syntax<ol><li>Loops and Recursion</li><li>Guards</li><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li><li>Examples<ol><li>Print &quot;Hello World&#33;&quot;</li><li>Reload a Loaded File</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="packages">Packages</h3>
-<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">Prelude</a> - Haskell&#39;s Standard Library</p>
+<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">Prelude</a> - Haskell&#39;s Standard Library <a href="https://jacobzelko.com/10022023022918-data-haskell-library">Data</a> - Common abstract data type manipulations for use within Haskell</p>
 <h3 id="functions">Functions</h3>
 <p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
+<p>Haskell functions are lazy.  They do not evaluate until needed.</p>
 <h4 id="ar">Ar</h4>
 <h3 id="haskell_type_system">Haskell Type System</h3>
 <p>Except only in very seldom cases, type annotations are optional in Haskell.</p>
@@ -896,7 +1022,26 @@ f44 &#40;&#41; &#61; 44-- Function invocation
 f44 &#40;&#41; -- Returns the value 44</code></pre>
 <h4 id="type_coercion">Type Coercion</h4>
 <p>Haskell provides <code>unsafeCoerce</code> to bypass the type system.</p>
+<h3 id="pattern_matching">Pattern Matching</h3>
+<p>Example:</p>
+<pre><code class="language-haskell">is_zero 0 &#61; True
+is_zero _ &#61; False</code></pre>
 <h3 id="syntax">Syntax</h3>
+<h4 id="loops_and_recursion">Loops and Recursion</h4>
+<p>Loops do not exist in Haskell&#33; Rather, to do looping, one must use recursion. Here is a Haskell example that calculates the factorial of a number:</p>
+<pre><code class="language-haskell">fac n &#61; do
+  if n &lt;&#61; 1
+    then 1
+  else
+    n * fac &#40;n - 1&#41;</code></pre>
+<h4 id="guards">Guards</h4>
+<p>Requires a boolean expression that determines the definition of a function. Used most often in recursion. Example:</p>
+<pre><code class="language-haskell">-- Generates a list from a given series of terms
+asc :: Int -&gt; Int -&gt; &#91;Int&#93;
+asc n m 
+  | m &lt; n &#61; &#91;&#93;
+  | m &#61;&#61; n &#61; &#91;m&#93;
+  | m &gt; n &#61; n : asc &#40;n &#43; 1&#41; m</code></pre>
 <h4 id="types">Types</h4>
 <p>All concrete types start with a capital letter. Names of type variables start with a lowercase letter.</p>
 <h4 id="functions__2">Functions</h4>
@@ -908,10 +1053,10 @@ f44 &#40;&#41; -- Returns the value 44</code></pre>
 <pre><code class="language-julia">-- Defining a function within ghci
 -- Requires the use of multiple lines as denoted
 -- by :&#123; ... :&#125; 
-« Prelude » λ: :&#123;
+« Prelude » λ&gt; :&#123;
 Prelude| add :: Integer -&gt; Integer -&gt; Integer -- Function declaration
 Prelude| add x y &#61; x &#43; y -- Function definition
-Prelude| :&#125;« Prelude » λ: &#40;add 5 3&#41; -- Compute sum of two numbers
+Prelude| :&#125;« Prelude » λ&gt; &#40;add 5 3&#41; -- Compute sum of two numbers
 8</code></pre>
 <h5 id="defining_function_in_a_script">Defining Function in a Script</h5>
 <pre><code class="language-haskell">-- Creating function declaration
@@ -946,6 +1091,26 @@ f1 ◦ f2</code></pre>
 <p>Haskell defines extensional equality loosely where</p>
 <pre><code class="language-haskell">mappend s1 s2 &#61; &#40;&#43;&#43;&#41; s1 s2</code></pre>
 <p>is saying that the output of the function of the left is equivalent to the output of the function on the right. This is also known as point-wise equality as the arguments &#40;points&#41; are defined.</p>
+<h3 id="examples">Examples</h3>
+<h4 id="print_hello_world">Print &quot;Hello World&#33;&quot;</h4>
+<p>This goes in a script called <code>hello.hs</code></p>
+<pre><code class="language-haskell">main &#61; do
+    putStrLn &quot;Hello World&#33;&quot;</code></pre>
+<p>To load it within <code>ghci</code>, open <code>ghci</code> within the same repository that houses the script then run in <code>gchi</code>:</p>
+<ol>
+<li><p><code>:load &quot;hello.hs&quot;</code></p>
+</li>
+<li><p><code>:main</code></p>
+</li>
+</ol>
+<p>And here would be the respective output one should see</p>
+<pre><code class="language-julia">λ&gt; :load &quot;hello.hs&quot;
+&#91;1 of 1&#93; Compiling Main             &#40; hello.hs, interpreted &#41;
+Ok, one module loaded.
+λ&gt; :main
+Hello World&#33;</code></pre>
+<h4 id="reload_a_loaded_file">Reload a Loaded File</h4>
+<p>To reload a previously loaded file after you make changes to the file, run <code>:reload</code>.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Notes on Programming in Haskell</em>. <a href="https://jacobzelko.com/11032021155827-haskell-programming">https://jacobzelko.com/11032021155827-haskell-programming</a>. November 3 2021.</p>
 <h2 id="references">References:</h2>
@@ -985,7 +1150,32 @@ f1 ◦ f2</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Paradigm</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>Paradigm</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<ul>
+<li><p>There is an interest in pure &#40;mathematical&#41; functions</p>
+<ul>
+<li><p>Functions that some input and output but nothing else</p>
+</li>
+</ul>
+</li>
+<li><p>Immutable data </p>
+<ul>
+<li><p>Data types cannot be changed in-place</p>
+</li>
+</ul>
+</li>
+<li><p>Less side effects</p>
+</li>
+<li><p>Declarative</p>
+</li>
+<li><p>Easier to verify</p>
+<ul>
+<li><p>Can mathematically prove an implementation</p>
+</li>
+</ul>
+</li>
+</ul>
 <h3 id="paradigm">Paradigm</h3>
 <p>The approach of asking programming questions that functional programmers take is much more overarching. &#91;1&#93; Examples are:</p>
 <ol>

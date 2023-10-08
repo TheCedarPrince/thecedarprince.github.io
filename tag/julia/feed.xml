@@ -23,6 +23,131 @@
 
 <item>
   <title>
+    <![CDATA[  Resources for Learning the Julia Programming Language  ]]>
+  </title>
+  <link> https://jacobzelko.com/10082023195125-julia-learning-resources/index.html </link>
+  <guid> https://jacobzelko.com/10082023195125-julia-learning-resources/index.html </guid>
+  <description>
+    <![CDATA[  A non-exhaustive list of recommendations for how I suggest learning Julia to language newcomers  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Resources for Learning the Julia Programming Language</h1>
+<p><strong>Date:</strong> October 8 2023</p>
+<p><strong>Summary:</strong> A non-exhaustive list of recommendations for how I suggest learning Julia to language newcomers</p>
+<p><strong>Keywords:</strong> #julia #programming #beginners #recommendations #learning #archive #blog</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Before Programming with Julia, Let&#39;s Set It Up</li><li>Julia Programming for New Programmers</li><li>Quickly Picking Up Julia Programming</li><li>What Is a Julian?</li><li>Building Up Expertise in Julia Programming</li><li>Domain Specific Workflows in Julia<ol><li>Working with Data</li><li>Plotting</li></ol></li><li>Conclusion</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3>Motivation</h3>
+<p>I saw an interesting post on <a href="https://bsky.app/profile/naturepoker.bsky.social/post/3kb7gi65xqm2a">BlueSky recently</a> that got me thinking about Julia learning resources. I tend to give out a lot of advice about how to go about learning Julia but I realized I have never really centralized one place where I keep that information. This blog post talks about my personal opinions both within the Julia ecosystem and recommendations for how to learn Julia.</p>
+<h3 id="before_programming_with_julia_lets_set_it_up">Before Programming with Julia, Let&#39;s Set It Up</h3>
+<p>The fantastic initiative, <a href="modernjuliaworkflows.github.io/">Modern Julia Workflows</a>, spearheaded by Guillaume Dalle and co has a number of sections that can help with getting set-up fast &#40;I&#39;ll be referring to their work quite a bit throughout this post&#41;. In particular, here are the sections I&#39;d recommend to get set-up fastest:</p>
+<ol>
+<li><p><a href="https://modernjuliaworkflows.github.io/pages/writing/#installation">How to install Julia on your computer</a></p>
+</li>
+<li><p><a href="https://modernjuliaworkflows.github.io/pages/writing/#installation">What you need to write Julia</a>.</p>
+</li>
+</ol>
+<p>A special note on this from me is that you really do not need much – you could use something like NotePad on Windows, textedit on OSX, or KWrite on *nix systems. I like the stance Dalle takes in recommending VSCode however as this gives you the best mileage whether you are a beginner or expert programmer.</p>
+<p>Suggestion 2 here will most likely take you the longest if you have never worked with a text editor before &#40;a piece of software to create and edit most different types of files&#41;. So, no worries and enjoy the learning here&#33;</p>
+<h3 id="julia_programming_for_new_programmers">Julia Programming for New Programmers</h3>
+<p>If you are completely new to programming in general, I&#39;d recommend the course, <a href="https://juliaacademy.com/p/julia-programming-for-nervous-beginners">Julia Programming for Nervous Beginners</a>, by Dr. Henri Laurie. It really eases you through how to start with programming and uses Julia as that learning tool. Otherwise, skip to the next section.</p>
+<h3 id="quickly_picking_up_julia_programming">Quickly Picking Up Julia Programming</h3>
+<p>To pick up Julia programming, I recommend <a href="https://juliaacademy.com/p/intro-to-julia">Introduction to Julia &#40;for programmers&#41;</a> by Dr. Jane Herriman. This will get you going with Julia the fastest – especially if you already know some programming.</p>
+<h3 id="what_is_a_julian">What Is a Julian?</h3>
+<p>Before continuing your Julia adventure, it is worth a pause to discuss a couple aspects of Julia that one may not immediately recognize but are crucial in a productive Julia workflow. Otherwise, one may end up despairing over the supposed virtues of Julia. Here are some specific pieces:</p>
+<ol>
+<li><p>Julia is a REPL-centric workflow.</p>
+</li>
+</ol>
+<p>If you are unfamiliar with what a REPL is, please see <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#repl">this reference for details</a> but in short, the Julia REPL is a continuous loop that accepts all valid inputs. From loading a file, experimenting with code, or calling functions, the REPL serves as a scratchpad to iteratively build your overall Julia software instantly.</p>
+<ol start="2">
+<li><p>Julia is compiled – packages and functions will take a moment to load for use.</p>
+</li>
+</ol>
+<p>This builds on the previous point, but yes, as Julia is compiled, any package or function you want to use may execute slightly longer initially but then will be compiled for the duration of your work session. This is why you want your Julia workflow to be REPL-centric as you can get around this issue.</p>
+<ol start="3">
+<li><p>Julians organize Julia software into &quot;projects&quot; or packages.</p>
+</li>
+</ol>
+<p>Whether you are writing a collection of small scripts to analyze some data or developing a completely new software package, to effectively maneuver through your Julia code, make liberal use of <a href="">Pkg.jl</a>.  Dalle has an excellent reference that talks about this concept of <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#local_packages">project environments</a> as well as how to build your own <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#local_packages">local package</a>.</p>
+<ol start="4">
+<li><p>Working within Julia can be extremely efficient – if you know how.</p>
+</li>
+</ol>
+<p>This is a circular statement as it naturally raises the question of, &quot;how do I actually build a concrete Julia workflow?&quot; Thankfully, <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#development_workflow">much has been written about this</a></p>
+<ol start="5">
+<li><p>Julians want to help you.</p>
+</li>
+</ol>
+<p>What is wonderful about the Julia community is that, in contrast to perhaps alternative internet communities, the bulk of Julians greatly enjoy helping not only other Julians but other programmers in general &#40;there has been numerous occasions where I have seen Julians help other language users become even more proficient in their workflows&#41;. This is an <a href="https://modernjuliaworkflows.github.io/pages/writing/writing/#getting_help">invaluable assortment</a> of where to find your fellow Julians.</p>
+<p>I hope this section does not come off as overtly prescriptive, but I have seen the notion of &quot;you are holding the tool wrong&quot; or &quot;what is Julian&quot; &#40;i.e. how do proficient Julia users do X&#41; pop up too many times for new Julians or those experimenting with the language. I hope with this nudging guidance here, a new Julian can more clearly understand the &quot;why&quot; of what other more proficient Julians recommend.</p>
+<h3 id="building_up_expertise_in_julia_programming">Building Up Expertise in Julia Programming</h3>
+<p>At this stage, we can now move from the beginner to intermediate Julian stage. Here, I think the world of Julia quite truly opens up to the new user. To delve deeper into Julia, here are some resources I would personally recommend:</p>
+<ul>
+<li><p>Believe it or not, the <a href="https://docs.julialang.org/">Julia documentation</a> is actually really nice to read and accessible.</p>
+</li>
+</ul>
+<p>Now, I don&#39;t just say this as I have helped write some of it, but I do truly think it worth looking through to get a better feel for aspects of Julia one may not consider.  I would suggest starting with the Manual section of the documentation.</p>
+<ul>
+<li><p>Check out the <a href="https://computationalthinking.mit.edu/Fall22/">MIT Computational Thinking Course</a> to have a more hands-on introduction to scientific computing.</p>
+</li>
+</ul>
+<p>I have never personally gone through it, but I hear it highly praised.</p>
+<ul>
+<li><p>Try solving problems on <a href="https://exercism.io/tracks/julia">Exercism.io</a> to practice and improve your skills.</p>
+</li>
+</ul>
+<p>I am a mentor here although don&#39;t have as much time anymore to help review. I still find this to be a really great place to further your learning and to get better at programming Julia – you&#39;ll often get feedback from expert Julia users which, in itself, is extremely valuable.</p>
+<h3 id="domain_specific_workflows_in_julia">Domain Specific Workflows in Julia</h3>
+<p>I will probably spin out the following sub-sections into their own blogs, but here are some selected domain specific workflows I have used or become familiar with that I use regularly within Julia.</p>
+<h4 id="working_with_data">Working with Data</h4>
+<p>This admittedly broad workflow encompasses much, but the most important packages in this space are:</p>
+<ul>
+<li><p><a href="https://dataframes.juliadata.org/stable/">DataFrames.jl</a>: This package provides a powerful data manipulation and analysis tool for Julia, similar to the pandas library in Python. </p>
+<ul>
+<li><p>Additionally, the author of the package, Bogumił Kamiński, is an extremely prolific blogger who shares many different ways of using DataFrames.jl.</p>
+</li>
+</ul>
+<p>I highly suggest <a href="https://bkamins.github.io">his blog</a>.</p>
+</li>
+<li><p><a href="https://csv.juliadata.org/stable/">CSV.jl</a>: Utility library for working with CSV and other delimited files in the Julia programming language</p>
+</li>
+<li><p><a href="https://github.com/ronisbr/TerminalPager.jl">TerminalPager.jl</a>: a REPL-based Julia variable and documentation explorer</p>
+</li>
+</ul>
+<h4 id="plotting">Plotting</h4>
+<p>When I first started within Julia, this was the only area I felt that was sorely lacking within the ecosystem. However, I am happy to say that this is no longer the case&#33; In my mind, the best Julia plotting package is <a href="https://makie.org">Makie.jl</a>. It is an interactive data visualization and plotting ecosystem that has support for multiple backends ranging from publication quality static images, 3D images, to fully interactive plots and visualizations. I use it whenever I can.</p>
+<h3 id="conclusion">Conclusion</h3>
+<blockquote>
+<p><strong>NOTE:</strong> This blog post is a continuous work in progress.</p>
+</blockquote>
+<p>As this blog post is a continuous work in progress, please feel free to comment below on questions about how I could improve it or explain more. That said, my goal with this blog post was not to cover every aspect of the Julia ecosystem but how to quickly go from knowing nothing about programming to becoming a self-sufficient Julian. May this concise guide help you in your way to achieving all that you want within Julia.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Resources for Learning the Julia Programming Language</em>. <a href="https://jacobzelko.com/10082023195125-julia-learning-resources">https://jacobzelko.com/10082023195125-julia-learning-resources</a>. October 8 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Notes on Managing Open Source Organizations  ]]>
   </title>
   <link> https://jacobzelko.com/06202023182947-notes-open-orgs/index.html </link>

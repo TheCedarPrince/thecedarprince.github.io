@@ -97,11 +97,12 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li><a href="#packages">Packages</a></li><li><a href="#functions">Functions</a><ol><li><a href="#ar">Ar</a></li></ol></li><li><a href="#haskell_type_system">Haskell Type System</a><ol><li><a href="#bool"><code>Bool</code></a></li><li><a href="#char"><code>Char</code></a></li><li><a href="#string"><code>String</code></a></li><li><a href="#8979721170172830534"><code>&#40;&#41;</code></a></li><li><a href="#type_coercion">Type Coercion</a></li></ol></li><li><a href="#syntax">Syntax</a><ol><li><a href="#types">Types</a></li><li><a href="#functions__2">Functions</a><ol><li><a href="#defining_function_in_ghci">Defining Function in <code>ghci</code></a></li><li><a href="#defining_function_in_a_script">Defining Function in a Script</a></li><li><a href="#variable_wildcards">Variable Wildcards</a></li></ol></li><li><a href="#function_composition">Function Composition</a></li><li><a href="#double_colons">Double colons</a></li><li><a href="#infix_operators">Infix Operators</a></li></ol></li><li><a href="#equality">Equality</a><ol><li><a href="#functional_equality">Functional Equality</a></li><li><a href="#extensional_equality">Extensional Equality</a></li></ol></li></ol></li><li><a href="#how_to_cite">How To Cite</a></li><li><a href="#references">References:</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li><a href="#packages">Packages</a></li><li><a href="#functions">Functions</a><ol><li><a href="#ar">Ar</a></li></ol></li><li><a href="#haskell_type_system">Haskell Type System</a><ol><li><a href="#bool"><code>Bool</code></a></li><li><a href="#char"><code>Char</code></a></li><li><a href="#string"><code>String</code></a></li><li><a href="#8979721170172830534"><code>&#40;&#41;</code></a></li><li><a href="#type_coercion">Type Coercion</a></li></ol></li><li><a href="#pattern_matching">Pattern Matching</a></li><li><a href="#syntax">Syntax</a><ol><li><a href="#loops_and_recursion">Loops and Recursion</a></li><li><a href="#guards">Guards</a></li><li><a href="#types">Types</a></li><li><a href="#functions__2">Functions</a><ol><li><a href="#defining_function_in_ghci">Defining Function in <code>ghci</code></a></li><li><a href="#defining_function_in_a_script">Defining Function in a Script</a></li><li><a href="#variable_wildcards">Variable Wildcards</a></li></ol></li><li><a href="#function_composition">Function Composition</a></li><li><a href="#double_colons">Double colons</a></li><li><a href="#infix_operators">Infix Operators</a></li></ol></li><li><a href="#equality">Equality</a><ol><li><a href="#functional_equality">Functional Equality</a></li><li><a href="#extensional_equality">Extensional Equality</a></li></ol></li><li><a href="#examples">Examples</a><ol><li><a href="#print_hello_world">Print &quot;Hello World&#33;&quot;</a></li><li><a href="#reload_a_loaded_file">Reload a Loaded File</a></li></ol></li></ol></li><li><a href="#how_to_cite">How To Cite</a></li><li><a href="#references">References:</a></li><li><a href="#discussion">Discussion: </a></li></ol></div>
 <h3 id="packages"><a href="#packages" class="header-anchor">Packages</a></h3>
-<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">Prelude</a> - Haskell&#39;s Standard Library</p>
+<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">Prelude</a> - Haskell&#39;s Standard Library <a href="https://jacobzelko.com/10022023022918-data-haskell-library">Data</a> - Common abstract data type manipulations for use within Haskell</p>
 <h3 id="functions"><a href="#functions" class="header-anchor">Functions</a></h3>
 <p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
+<p>Haskell functions are lazy.  They do not evaluate until needed.</p>
 <h4 id="ar"><a href="#ar" class="header-anchor">Ar</a></h4>
 <h3 id="haskell_type_system"><a href="#haskell_type_system" class="header-anchor">Haskell Type System</a></h3>
 <p>Except only in very seldom cases, type annotations are optional in Haskell.</p>
@@ -125,7 +126,26 @@
 <span class="hljs-title">f44</span> () <span class="hljs-comment">-- Returns the value 44</span></code></pre>
 <h4 id="type_coercion"><a href="#type_coercion" class="header-anchor">Type Coercion</a></h4>
 <p>Haskell provides <code>unsafeCoerce</code> to bypass the type system.</p>
+<h3 id="pattern_matching"><a href="#pattern_matching" class="header-anchor">Pattern Matching</a></h3>
+<p>Example:</p>
+<pre><code class="haskell hljs"><span class="hljs-title">is_zero</span> <span class="hljs-number">0</span> = <span class="hljs-type">True</span>
+<span class="hljs-title">is_zero</span> _ = <span class="hljs-type">False</span></code></pre>
 <h3 id="syntax"><a href="#syntax" class="header-anchor">Syntax</a></h3>
+<h4 id="loops_and_recursion"><a href="#loops_and_recursion" class="header-anchor">Loops and Recursion</a></h4>
+<p>Loops do not exist in Haskell&#33; Rather, to do looping, one must use recursion. Here is a Haskell example that calculates the factorial of a number:</p>
+<pre><code class="haskell hljs"><span class="hljs-title">fac</span> n = <span class="hljs-keyword">do</span>
+  <span class="hljs-keyword">if</span> n &lt;= <span class="hljs-number">1</span>
+    <span class="hljs-keyword">then</span> <span class="hljs-number">1</span>
+  <span class="hljs-keyword">else</span>
+    n * fac (n - <span class="hljs-number">1</span>)</code></pre>
+<h4 id="guards"><a href="#guards" class="header-anchor">Guards</a></h4>
+<p>Requires a boolean expression that determines the definition of a function. Used most often in recursion. Example:</p>
+<pre><code class="haskell hljs"><span class="hljs-comment">-- Generates a list from a given series of terms</span>
+<span class="hljs-title">asc</span> :: <span class="hljs-type">Int</span> -&gt; <span class="hljs-type">Int</span> -&gt; [<span class="hljs-type">Int</span>]
+<span class="hljs-title">asc</span> n m 
+  | m &lt; n = []
+  | m == n = [m]
+  | m &gt; n = n : asc (n + <span class="hljs-number">1</span>) m</code></pre>
 <h4 id="types"><a href="#types" class="header-anchor">Types</a></h4>
 <p>All concrete types start with a capital letter. Names of type variables start with a lowercase letter.</p>
 <h4 id="functions__2"><a href="#functions__2" class="header-anchor">Functions</a></h4>
@@ -137,12 +157,12 @@
 <pre><code class="julia hljs">-- Defining a <span class="hljs-keyword">function</span> within ghci
 -- Requires the use of multiple lines as denoted
 -- by :{ ... :} 
-« Prelude » λ: :{
+« Prelude » λ&gt; :{
 Prelude| add :: <span class="hljs-built_in">Integer</span> -&gt; <span class="hljs-built_in">Integer</span> -&gt; <span class="hljs-built_in">Integer</span> -- <span class="hljs-built_in">Function</span> declaration
 Prelude| add x y = x + y -- <span class="hljs-built_in">Function</span> definition
 Prelude| :}
 
-« Prelude » λ: (add <span class="hljs-number">5</span> <span class="hljs-number">3</span>) -- Compute sum of two numbers
+« Prelude » λ&gt; (add <span class="hljs-number">5</span> <span class="hljs-number">3</span>) -- Compute sum of two numbers
 <span class="hljs-number">8</span></code></pre>
 <h5 id="defining_function_in_a_script"><a href="#defining_function_in_a_script" class="header-anchor">Defining Function in a Script</a></h5>
 <pre><code class="haskell hljs"><span class="hljs-comment">-- Creating function declaration</span>
@@ -185,6 +205,26 @@ Prelude| :}
 <p>Haskell defines extensional equality loosely where</p>
 <pre><code class="haskell hljs"><span class="hljs-title">mappend</span> s1 s2 = (++) s1 s2</code></pre>
 <p>is saying that the output of the function of the left is equivalent to the output of the function on the right. This is also known as point-wise equality as the arguments &#40;points&#41; are defined.</p>
+<h3 id="examples"><a href="#examples" class="header-anchor">Examples</a></h3>
+<h4 id="print_hello_world"><a href="#print_hello_world" class="header-anchor">Print &quot;Hello World&#33;&quot;</a></h4>
+<p>This goes in a script called <code>hello.hs</code></p>
+<pre><code class="haskell hljs"><span class="hljs-title">main</span> = <span class="hljs-keyword">do</span>
+    putStrLn <span class="hljs-string">&quot;Hello World!&quot;</span></code></pre>
+<p>To load it within <code>ghci</code>, open <code>ghci</code> within the same repository that houses the script then run in <code>gchi</code>:</p>
+<ol>
+<li><p><code>:load &quot;hello.hs&quot;</code></p>
+</li>
+<li><p><code>:main</code></p>
+</li>
+</ol>
+<p>And here would be the respective output one should see</p>
+<pre><code class="julia hljs">λ&gt; :load <span class="hljs-string">&quot;hello.hs&quot;</span>
+[<span class="hljs-number">1</span> of <span class="hljs-number">1</span>] Compiling Main             ( hello.hs, interpreted )
+Ok, one <span class="hljs-keyword">module</span> loaded.
+λ&gt; :main
+Hello World!</code></pre>
+<h4 id="reload_a_loaded_file"><a href="#reload_a_loaded_file" class="header-anchor">Reload a Loaded File</a></h4>
+<p>To reload a previously loaded file after you make changes to the file, run <code>:reload</code>.</p>
 <h2 id="how_to_cite"><a href="#how_to_cite" class="header-anchor">How To Cite</a></h2>
 <p>Zelko, Jacob. <em>Notes on Programming in Haskell</em>. <a href="https://jacobzelko.com/11032021155827-haskell-programming">https://jacobzelko.com/11032021155827-haskell-programming</a>. November 3 2021.</p>
 <h2 id="references"><a href="#references" class="header-anchor">References:</a></h2>
@@ -196,7 +236,7 @@ Prelude| :}
 </div>
 
 <div class="page-foot">
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: July 16, 2023.
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: October 08, 2023.
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
 </div>
 </div><!-- CONTENT ENDS HERE -->

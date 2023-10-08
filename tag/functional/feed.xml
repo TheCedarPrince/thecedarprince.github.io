@@ -84,7 +84,32 @@
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Paradigm</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Overview</li><li>Paradigm</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="overview">Overview</h3>
+<ul>
+<li><p>There is an interest in pure &#40;mathematical&#41; functions</p>
+<ul>
+<li><p>Functions that some input and output but nothing else</p>
+</li>
+</ul>
+</li>
+<li><p>Immutable data </p>
+<ul>
+<li><p>Data types cannot be changed in-place</p>
+</li>
+</ul>
+</li>
+<li><p>Less side effects</p>
+</li>
+<li><p>Declarative</p>
+</li>
+<li><p>Easier to verify</p>
+<ul>
+<li><p>Can mathematically prove an implementation</p>
+</li>
+</ul>
+</li>
+</ul>
 <h3 id="paradigm">Paradigm</h3>
 <p>The approach of asking programming questions that functional programmers take is much more overarching. &#91;1&#93; Examples are:</p>
 <ol>

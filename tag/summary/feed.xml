@@ -1706,11 +1706,12 @@ endef</code></pre>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
-<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Syntax<ol><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<div class="franklin-toc"><ol><li><ol><li>Packages</li><li>Functions<ol><li>Ar</li></ol></li><li>Haskell Type System<ol><li><code>Bool</code></li><li><code>Char</code></li><li><code>String</code></li><li><code>&#40;&#41;</code></li><li>Type Coercion</li></ol></li><li>Pattern Matching</li><li>Syntax<ol><li>Loops and Recursion</li><li>Guards</li><li>Types</li><li>Functions<ol><li>Defining Function in <code>ghci</code></li><li>Defining Function in a Script</li><li>Variable Wildcards</li></ol></li><li>Function Composition</li><li>Double colons</li><li>Infix Operators</li></ol></li><li>Equality<ol><li>Functional Equality</li><li>Extensional Equality</li></ol></li><li>Examples<ol><li>Print &quot;Hello World&#33;&quot;</li><li>Reload a Loaded File</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="packages">Packages</h3>
-<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">Prelude</a> - Haskell&#39;s Standard Library</p>
+<p><a href="https://jacobzelko.com/11032021171123-prelude-haskell-library">Prelude</a> - Haskell&#39;s Standard Library <a href="https://jacobzelko.com/10022023022918-data-haskell-library">Data</a> - Common abstract data type manipulations for use within Haskell</p>
 <h3 id="functions">Functions</h3>
 <p>All functions are <a href="https://jacobzelko.com/11082021225843-pure-functions">pure</a> within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.</p>
+<p>Haskell functions are lazy.  They do not evaluate until needed.</p>
 <h4 id="ar">Ar</h4>
 <h3 id="haskell_type_system">Haskell Type System</h3>
 <p>Except only in very seldom cases, type annotations are optional in Haskell.</p>
@@ -1728,7 +1729,26 @@ f44 &#40;&#41; &#61; 44-- Function invocation
 f44 &#40;&#41; -- Returns the value 44</code></pre>
 <h4 id="type_coercion">Type Coercion</h4>
 <p>Haskell provides <code>unsafeCoerce</code> to bypass the type system.</p>
+<h3 id="pattern_matching">Pattern Matching</h3>
+<p>Example:</p>
+<pre><code class="language-haskell">is_zero 0 &#61; True
+is_zero _ &#61; False</code></pre>
 <h3 id="syntax">Syntax</h3>
+<h4 id="loops_and_recursion">Loops and Recursion</h4>
+<p>Loops do not exist in Haskell&#33; Rather, to do looping, one must use recursion. Here is a Haskell example that calculates the factorial of a number:</p>
+<pre><code class="language-haskell">fac n &#61; do
+  if n &lt;&#61; 1
+    then 1
+  else
+    n * fac &#40;n - 1&#41;</code></pre>
+<h4 id="guards">Guards</h4>
+<p>Requires a boolean expression that determines the definition of a function. Used most often in recursion. Example:</p>
+<pre><code class="language-haskell">-- Generates a list from a given series of terms
+asc :: Int -&gt; Int -&gt; &#91;Int&#93;
+asc n m 
+  | m &lt; n &#61; &#91;&#93;
+  | m &#61;&#61; n &#61; &#91;m&#93;
+  | m &gt; n &#61; n : asc &#40;n &#43; 1&#41; m</code></pre>
 <h4 id="types">Types</h4>
 <p>All concrete types start with a capital letter. Names of type variables start with a lowercase letter.</p>
 <h4 id="functions__2">Functions</h4>
@@ -1740,10 +1760,10 @@ f44 &#40;&#41; -- Returns the value 44</code></pre>
 <pre><code class="language-julia">-- Defining a function within ghci
 -- Requires the use of multiple lines as denoted
 -- by :&#123; ... :&#125; 
-« Prelude » λ: :&#123;
+« Prelude » λ&gt; :&#123;
 Prelude| add :: Integer -&gt; Integer -&gt; Integer -- Function declaration
 Prelude| add x y &#61; x &#43; y -- Function definition
-Prelude| :&#125;« Prelude » λ: &#40;add 5 3&#41; -- Compute sum of two numbers
+Prelude| :&#125;« Prelude » λ&gt; &#40;add 5 3&#41; -- Compute sum of two numbers
 8</code></pre>
 <h5 id="defining_function_in_a_script">Defining Function in a Script</h5>
 <pre><code class="language-haskell">-- Creating function declaration
@@ -1778,6 +1798,26 @@ f1 ◦ f2</code></pre>
 <p>Haskell defines extensional equality loosely where</p>
 <pre><code class="language-haskell">mappend s1 s2 &#61; &#40;&#43;&#43;&#41; s1 s2</code></pre>
 <p>is saying that the output of the function of the left is equivalent to the output of the function on the right. This is also known as point-wise equality as the arguments &#40;points&#41; are defined.</p>
+<h3 id="examples">Examples</h3>
+<h4 id="print_hello_world">Print &quot;Hello World&#33;&quot;</h4>
+<p>This goes in a script called <code>hello.hs</code></p>
+<pre><code class="language-haskell">main &#61; do
+    putStrLn &quot;Hello World&#33;&quot;</code></pre>
+<p>To load it within <code>ghci</code>, open <code>ghci</code> within the same repository that houses the script then run in <code>gchi</code>:</p>
+<ol>
+<li><p><code>:load &quot;hello.hs&quot;</code></p>
+</li>
+<li><p><code>:main</code></p>
+</li>
+</ol>
+<p>And here would be the respective output one should see</p>
+<pre><code class="language-julia">λ&gt; :load &quot;hello.hs&quot;
+&#91;1 of 1&#93; Compiling Main             &#40; hello.hs, interpreted &#41;
+Ok, one module loaded.
+λ&gt; :main
+Hello World&#33;</code></pre>
+<h4 id="reload_a_loaded_file">Reload a Loaded File</h4>
+<p>To reload a previously loaded file after you make changes to the file, run <code>:reload</code>.</p>
 <h2 id="how_to_cite">How To Cite</h2>
 <p>Zelko, Jacob. <em>Notes on Programming in Haskell</em>. <a href="https://jacobzelko.com/11032021155827-haskell-programming">https://jacobzelko.com/11032021155827-haskell-programming</a>. November 3 2021.</p>
 <h2 id="references">References:</h2>

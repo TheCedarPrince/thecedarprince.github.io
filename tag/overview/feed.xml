@@ -23,6 +23,56 @@
 
 <item>
   <title>
+    <![CDATA[  What Is Jevons Paradox?  ]]>
+  </title>
+  <link> https://jacobzelko.com/08112023144820-jevons-paradox-explained/index.html </link>
+  <guid> https://jacobzelko.com/08112023144820-jevons-paradox-explained/index.html </guid>
+  <description>
+    <![CDATA[  An overview of Jevon&#39;s Paradox and selected examples  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>What Is Jevons Paradox?</h1>
+<p><strong>Date:</strong> August 11 2023</p>
+<p><strong>Summary:</strong> An overview of Jevon&#39;s Paradox and selected examples</p>
+<p><strong>Keywords:</strong> #economics #climate #paradox #overview #archive</p>
+<h1>Bibliography</h1>
+<p>&quot;Jevons paradox,&quot; Wikipedia. Jul. 05, 2023. Accessed: Aug. 11, 2023. &#91;Online&#93;. Available: https://en.wikipedia.org/w/index.php?title&#61;Jevons_paradox&amp;oldid&#61;1163586515</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Overview</li><li>Examples</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>I first came across this paradox within high school history courses. It never left my mind as I found it such a bizarre and counter-intuitive result that had great implications when trying to help or improve situations. In a way, it has been a guiding principle in my life to think through interventions.</p>
+<h3 id="overview">Overview</h3>
+<blockquote>
+<p>When technological progress or government policy increases efficiency of resource usage, but the falling cost of this resource results in increases of its usage, rather than a reduction. bauerBookReviewPerspectives2009?, yorkUnderstandingJevonsParadox2016?</p>
+</blockquote>
+<p>Put more plainly, the paradox emerges when you improve the efficiency of a resource to decrease its use but instead, the improved efficiency increases the demand of the resource.</p>
+<h3 id="examples">Examples</h3>
+<p>The most canonical example comes from environmental economics wherein a city with a vehicle traffic problem wants to reduce traffic in their city. To remedy this problem, they think that increasing the number of lanes in their main city highway will reduce traffic. So, they build additional lanes. But rather than improve traffic, traffic becomes even worse as a result of more people wanting to drive through the city. schneiderCityLabUniversityInduced2018?</p>
+<p>Where Jevons first observed this was in the mid-1800&#39;s. He saw that when James Watt created a steam engine that greatly improved the efficiency of coal-ran steam engines, it made using coal very cost effective. As a result, Jevons observed that the use of coal, rather than staying the same or going down, increased as people wanted to use coal more often. jevonsCoalQuestionInquiry1866? Thus, the inception of Jevons Paradox. </p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>What Is Jevons Paradox?</em>. <a href="https://jacobzelko.com/08112023144820-jevons-paradox-explained">https://jacobzelko.com/08112023144820-jevons-paradox-explained</a>. August 11 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Overview of the Resource Description Framework &#40;RDF&#41;  ]]>
   </title>
   <link> https://jacobzelko.com/02182022165447-rdf-overview/index.html </link>
