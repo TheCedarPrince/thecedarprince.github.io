@@ -38,9 +38,7 @@ I saw an interesting post on [BlueSky recently](https://bsky.app/profile/naturep
 The fantastic initiative, [Modern Julia Workflows](modernjuliaworkflows.github.io/), spearheaded by Guillaume Dalle and co has a number of sections that can help with getting set-up fast (I'll be referring to their work quite a bit throughout this post). In particular, here are the sections I'd recommend to get set-up fastest:
 
 1. [How to install Julia on your computer](https://modernjuliaworkflows.github.io/pages/writing/#installation)
-2. [What you need to write Julia](https://modernjuliaworkflows.github.io/pages/writing/#installation).
-
-A special note on this from me is that you really do not need much – you could use something like NotePad on Windows, textedit on OSX, or KWrite on *nix systems. I like the stance Dalle takes in recommending VSCode however as this gives you the best mileage whether you are a beginner or expert programmer.
+2. [What you need to write Julia](https://modernjuliaworkflows.github.io/pages/writing/#installation). A special note on this from me is that you really do not need much – you could use something like NotePad on Windows, textedit on OSX, or KWrite on *nix systems. I like the stance Dalle takes in recommending VSCode however as this gives you the best mileage whether you are a beginner or expert programmer.
 
 Suggestion 2 here will most likely take you the longest if you have never worked with a text editor before (a piece of software to create and edit most different types of files). So, no worries and enjoy the learning here!
 
@@ -56,25 +54,11 @@ To pick up Julia programming, I recommend [Introduction to Julia (for programmer
 
 Before continuing your Julia adventure, it is worth a pause to discuss a couple aspects of Julia that one may not immediately recognize but are crucial in a productive Julia workflow. Otherwise, one may end up despairing over the supposed virtues of Julia. Here are some specific pieces:
 
-1. Julia is a REPL-centric workflow.
-
-If you are unfamiliar with what a REPL is, please see [this reference for details](https://modernjuliaworkflows.github.io/pages/writing/writing/#repl) but in short, the Julia REPL is a continuous loop that accepts all valid inputs. From loading a file, experimenting with code, or calling functions, the REPL serves as a scratchpad to iteratively build your overall Julia software instantly.
-
-2. Julia is compiled – packages and functions will take a moment to load for use.
-
-This builds on the previous point, but yes, as Julia is compiled, any package or function you want to use may execute slightly longer initially but then will be compiled for the duration of your work session. This is why you want your Julia workflow to be REPL-centric as you can get around this issue.
-
-3. Julians organize Julia software into "projects" or packages.
-
-Whether you are writing a collection of small scripts to analyze some data or developing a completely new software package, to effectively maneuver through your Julia code, make liberal use of [Pkg.jl]().  Dalle has an excellent reference that talks about this concept of [project environments](https://modernjuliaworkflows.github.io/pages/writing/writing/#local_packages) as well as how to build your own [local package](https://modernjuliaworkflows.github.io/pages/writing/writing/#local_packages).
-
-4. Working within Julia can be extremely efficient – if you know how.
-
-This is a circular statement as it naturally raises the question of, "how do I actually build a concrete Julia workflow?" Thankfully, [much has been written about this](https://modernjuliaworkflows.github.io/pages/writing/writing/#development_workflow)
-
-5. Julians want to help you.
-
-What is wonderful about the Julia community is that, in contrast to perhaps alternative internet communities, the bulk of Julians greatly enjoy helping not only other Julians but other programmers in general (there has been numerous occasions where I have seen Julians help other language users become even more proficient in their workflows). This is an [invaluable assortment](https://modernjuliaworkflows.github.io/pages/writing/writing/#getting_help) of where to find your fellow Julians.
+1. Julia is a REPL-centric workflow. If you are unfamiliar with what a REPL is, please see [this reference for details](https://modernjuliaworkflows.github.io/pages/writing/writing/#repl) but in short, the Julia REPL is a continuous loop that accepts all valid inputs. From loading a file, experimenting with code, or calling functions, the REPL serves as a scratchpad to iteratively build your overall Julia software instantly.
+2. Julia is compiled – packages and functions will take a moment to load for use. This builds on the previous point, but yes, as Julia is compiled, any package or function you want to use may execute slightly longer initially but then will be compiled for the duration of your work session. This is why you want your Julia workflow to be REPL-centric as you can get around this issue.
+3. Julians organize Julia software into "projects" or packages. Whether you are writing a collection of small scripts to analyze some data or developing a completely new software package, to effectively maneuver through your Julia code, make liberal use of [Pkg.jl]().  Dalle has an excellent reference that talks about this concept of [project environments](https://modernjuliaworkflows.github.io/pages/writing/writing/#local_packages) as well as how to build your own [local package](https://modernjuliaworkflows.github.io/pages/writing/writing/#local_packages).
+4. Working within Julia can be extremely efficient – if you know how. This is a circular statement as it naturally raises the question of, "how do I actually build a concrete Julia workflow?" Thankfully, [much has been written about this](https://modernjuliaworkflows.github.io/pages/writing/writing/#development_workflow)
+5. Julians want to help you. What is wonderful about the Julia community is that, in contrast to perhaps alternative internet communities, the bulk of Julians greatly enjoy helping not only other Julians but other programmers in general (there has been numerous occasions where I have seen Julians help other language users become even more proficient in their workflows). This is an [invaluable assortment](https://modernjuliaworkflows.github.io/pages/writing/writing/#getting_help) of where to find your fellow Julians.
 
 I hope this section does not come off as overtly prescriptive, but I have seen the notion of "you are holding the tool wrong" or "what is Julian" (i.e. how do proficient Julia users do X) pop up too many times for new Julians or those experimenting with the language. I hope with this nudging guidance here, a new Julian can more clearly understand the "why" of what other more proficient Julians recommend.
 
@@ -82,17 +66,9 @@ I hope this section does not come off as overtly prescriptive, but I have seen t
 
 At this stage, we can now move from the beginner to intermediate Julian stage. Here, I think the world of Julia quite truly opens up to the new user. To delve deeper into Julia, here are some resources I would personally recommend:
 
-  * Believe it or not, the [Julia documentation](https://docs.julialang.org/) is actually really nice to read and accessible.
-
-Now, I don't just say this as I have helped write some of it, but I do truly think it worth looking through to get a better feel for aspects of Julia one may not consider.  I would suggest starting with the Manual section of the documentation.
-
-  * Check out the [MIT Computational Thinking Course](https://computationalthinking.mit.edu/Fall22/) to have a more hands-on introduction to scientific computing.
-
-I have never personally gone through it, but I hear it highly praised.
-
-  * Try solving problems on [Exercism.io](https://exercism.io/tracks/julia) to practice and improve your skills.
-
-I am a mentor here although don't have as much time anymore to help review. I still find this to be a really great place to further your learning and to get better at programming Julia – you'll often get feedback from expert Julia users which, in itself, is extremely valuable.
+  * Believe it or not, the [Julia documentation](https://docs.julialang.org/) is actually really nice to read and accessible. Now, I don't just say this as I have helped write some of it, but I do truly think it worth looking through to get a better feel for aspects of Julia one may not consider.  I would suggest starting with the Manual section of the documentation.
+  * Check out the [MIT Computational Thinking Course](https://computationalthinking.mit.edu/Fall22/) to have a more hands-on introduction to scientific computing. I have never personally gone through it, but I hear it highly praised.
+  * Try solving problems on [Exercism.io](https://exercism.io/tracks/julia) to practice and improve your skills.  I am a mentor here although don't have as much time anymore to help review. I still find this to be a really great place to further your learning and to get better at programming Julia – you'll often get feedback from expert Julia users which, in itself, is extremely valuable.
 
 ### Domain Specific Workflows in Julia
 
@@ -106,7 +82,8 @@ This admittedly broad workflow encompasses much, but the most important packages
 
       * Additionally, the author of the package, Bogumił Kamiński, is an extremely prolific blogger who shares many different ways of using DataFrames.jl.
 
-    I highly suggest [his blog](https://bkamins.github.io).
+I highly suggest [his blog](https://bkamins.github.io). 
+
   * [CSV.jl](https://csv.juliadata.org/stable/): Utility library for working with CSV and other delimited files in the Julia programming language
   * [TerminalPager.jl](https://github.com/ronisbr/TerminalPager.jl): a REPL-based Julia variable and documentation explorer
 
