@@ -10,6 +10,42 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = resources-for-learning-the-julia-programming-language>
+             		<a href = http://jacobzelko.com/10082023195125-julia-learning-resources/>
+                      			<strong>
+                               				Resources for Learning the Julia Programming Language
+                      			</strong>
+                      			[Oct 8 2023]
+             		</a>
+             		<br>
+                      			A non-exhaustive list of recommendations for how I suggest learning Julia to language newcomers
+             		<br>
+                      			#julia #programming #beginners #recommendations #learning #archive #blog
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = what-is-jevons-paradox?>
+             		<a href = http://jacobzelko.com/08112023144820-jevons-paradox-explained/>
+                      			<strong>
+                               				What Is Jevons Paradox?
+                      			</strong>
+                      			[Aug 11 2023]
+             		</a>
+             		<br>
+                      			An overview of Jevon's Paradox and selected examples
+             		<br>
+                      			#economics #climate #paradox #overview #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = lessons-learned-from-how-i-use-anki>
              		<a href = http://jacobzelko.com/07092023212334-how-i-anki/>
                       			<strong>
@@ -1936,24 +1972,6 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
-    	<span class = post-item id = notes-on-programming-in-haskell>
-             		<a href = http://jacobzelko.com/11032021155827-haskell-programming/>
-                      			<strong>
-                               				Notes on Programming in Haskell
-                      			</strong>
-                      			[Nov 3 2021]
-             		</a>
-             		<br>
-                      			My notes on an overview and summary on how to use Haskell
-             		<br>
-                      			#syntax ##summary #haskell #programming #languages #archive
-             		<br>
-    	</span>
-
-    	<br>
-
-    	<br>
-
     	<span class = post-item id = prelude---haskell's-standard-library>
              		<a href = http://jacobzelko.com/11032021171123-prelude-haskell-library/>
                       			<strong>
@@ -1965,6 +1983,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			An overview of important components from Haskell's standard
              		<br>
                       			#library #package #standard #prelude #haskell #programming #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = notes-on-programming-in-haskell>
+             		<a href = http://jacobzelko.com/11032021155827-haskell-programming/>
+                      			<strong>
+                               				Notes on Programming in Haskell
+                      			</strong>
+                      			[Nov 3 2021]
+             		</a>
+             		<br>
+                      			My notes on an overview and summary on how to use Haskell
+             		<br>
+                      			#syntax ##summary #haskell #programming #languages #archive
              		<br>
     	</span>
 

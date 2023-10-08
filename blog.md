@@ -11,6 +11,24 @@ The titles, date, summaries, and key words of a blog are provided per entry
 
     	<br>
 
+    	<span class = post-item id = resources-for-learning-the-julia-programming-language>
+             		<a href = http://jacobzelko.com/10082023195125-julia-learning-resources/>
+                      			<strong>
+                               				Resources for Learning the Julia Programming Language
+                      			</strong>
+                      			[Oct 8 2023]
+             		</a>
+             		<br>
+                      			A non-exhaustive list of recommendations for how I suggest learning Julia to language newcomers
+             		<br>
+                      			#julia #programming #beginners #recommendations #learning #archive #blog
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = lessons-learned-from-how-i-use-anki>
              		<a href = http://jacobzelko.com/07092023212334-how-i-anki/>
                       			<strong>
