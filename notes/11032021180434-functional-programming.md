@@ -29,6 +29,20 @@ Table of Contents
 
 \toc
 
+### Overview
+
+  * There is an interest in pure (mathematical) functions
+
+      * Functions that some input and output but nothing else
+  * Immutable data 
+
+      * Data types cannot be changed in-place
+  * Less side effects
+  * Declarative
+  * Easier to verify
+
+      * Can mathematically prove an implementation
+
 ### Paradigm
 
 The approach of asking programming questions that functional programmers take is much more overarching. [1] Examples are:

@@ -31,11 +31,13 @@ Table of Contents
 
 ### Packages
 
-[Prelude](https://jacobzelko.com/11032021171123-prelude-haskell-library) - Haskell's Standard Library
+[Prelude](https://jacobzelko.com/11032021171123-prelude-haskell-library) - Haskell's Standard Library [Data](https://jacobzelko.com/10022023022918-data-haskell-library) - Common abstract data type manipulations for use within Haskell
 
 ### Functions
 
 All functions are [pure](https://jacobzelko.com/11082021225843-pure-functions) within Haskell. This means that the same result is always produced with no side effects given the same input to a Haskell function.
+
+Haskell functions are lazy.  They do not evaluate until needed.
 
 #### Ar
 
@@ -76,7 +78,41 @@ f44 () -- Returns the value 44
 
 Haskell provides `unsafeCoerce` to bypass the type system.
 
+### Pattern Matching
+
+Example:
+
+```haskell
+is_zero 0 = True
+is_zero _ = False
+```
+
 ### Syntax
+
+#### Loops and Recursion
+
+Loops do not exist in Haskell! Rather, to do looping, one must use recursion. Here is a Haskell example that calculates the factorial of a number:
+
+```haskell
+fac n = do
+  if n <= 1
+    then 1
+  else
+    n * fac (n - 1)
+```
+
+#### Guards
+
+Requires a boolean expression that determines the definition of a function. Used most often in recursion. Example:
+
+```haskell
+-- Generates a list from a given series of terms
+asc :: Int -> Int -> [Int]
+asc n m 
+  | m < n = []
+  | m == n = [m]
+  | m > n = n : asc (n + 1) m
+```
 
 #### Types
 
@@ -100,12 +136,12 @@ One of the strangest quirks about Haskell functions is that arguments are neithe
 -- Defining a function within ghci
 -- Requires the use of multiple lines as denoted
 -- by :{ ... :} 
-« Prelude » λ: :{
+« Prelude » λ> :{
 Prelude| add :: Integer -> Integer -> Integer -- Function declaration
 Prelude| add x y = x + y -- Function definition
 Prelude| :}
 
-« Prelude » λ: (add 5 3) -- Compute sum of two numbers
+« Prelude » λ> (add 5 3) -- Compute sum of two numbers
 8
 ```
 
@@ -190,6 +226,36 @@ mappend s1 s2 = (++) s1 s2
 ```
 
 is saying that the output of the function of the left is equivalent to the output of the function on the right. This is also known as point-wise equality as the arguments (points) are defined.
+
+### Examples
+
+#### Print "Hello World!"
+
+This goes in a script called `hello.hs`
+
+```haskell
+main = do
+    putStrLn "Hello World!"
+```
+
+To load it within `ghci`, open `ghci` within the same repository that houses the script then run in `gchi`:
+
+1. `:load "hello.hs"`
+2. `:main`
+
+And here would be the respective output one should see
+
+```
+λ> :load "hello.hs"
+[1 of 1] Compiling Main             ( hello.hs, interpreted )
+Ok, one module loaded.
+λ> :main
+Hello World!
+```
+
+#### Reload a Loaded File
+
+To reload a previously loaded file after you make changes to the file, run `:reload`.
 ## How To Cite
 
  Zelko, Jacob. _Notes on Programming in Haskell_. [https://jacobzelko.com/11032021155827-haskell-programming](https://jacobzelko.com/11032021155827-haskell-programming). November 3 2021.
