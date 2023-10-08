@@ -99,8 +99,8 @@ This is based on the Meta Learning step Young described as well as some addition
 
 | Done |         Topic |                                                                                                                                                                                       Outcomes |
 | ----:| -------------:| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|      |    Set Theory |                                                                                       Understand basic set notation and operations, including subsets, set identities, and Cartesian products. |
-|      |         Logic |                                                                                              Understand propositional logic, including truth tables, implications, negations, and quantifiers. |
+|    X |    Set Theory |                                                                                       Understand basic set notation and operations, including subsets, set identities, and Cartesian products. |
+|    X |         Logic |                                                                                              Understand propositional logic, including truth tables, implications, negations, and quantifiers. |
 |      | Proof Writing |    Develop skills in writing and constructing mathematical proofs, including direct and indirect proofs, proof by contradiction, proof by contrapositive, and proof by mathematical induction. |
 |      | Number Theory | Understand basic number theory concepts, including divisibility, modular arithmetic, prime numbers, the fundamental theorem of arithmetic, the Euclidean algorithm, and Diophantine equations. |
 |      | Combinatorics |                                                              Develop skills in combinatorial counting principles, including permutations, combinations, and the inclusion-exclusion principle. |
@@ -111,19 +111,19 @@ This table describes the very broad topics, resources I'll use, and the expected
 
 | Done |  Skill Level |         Topic |                              Concept |
 | ----:| ------------:| -------------:| ------------------------------------:|
-|      |     Beginner |    Set Theory |                    Sets and Elements |
-|      |     Beginner |    Set Theory |                         Set Notation |
-|      |     Beginner |    Set Theory |           Subsets and Proper Subsets |
-|      |     Beginner |    Set Theory |                       Set Operations |
-|      |     Beginner |    Set Theory |                       Set Identities |
+|    X |     Beginner |    Set Theory |                       Set Identities |
+|    X |     Beginner |    Set Theory |                         Set Notation |
+|    X |     Beginner |    Set Theory |                       Set Operations |
+|    X |     Beginner |    Set Theory |                    Sets and Elements |
+|    X |     Beginner |    Set Theory |           Subsets and Proper Subsets |
 |      |     Beginner |    Set Theory |                   Cartesian Products |
-|      |     Beginner |         Logic | Propositions and Logical Connectives |
-|      |     Beginner |         Logic |                         Truth Tables |
-|      |     Beginner |         Logic |          Implication and Equivalence |
-|      |     Beginner |         Logic |        Negation and De Morgan's Laws |
-|      |     Beginner |         Logic |                          Quantifiers |
-|      |     Beginner |         Logic |                  Logical Implication |
-|      | Intermediate | Proof Writing |                     Proof Techniques |
+|    X |     Beginner |         Logic | Propositions and Logical Connectives |
+|    X |     Beginner |         Logic |                         Truth Tables |
+|    X |     Beginner |         Logic |          Implication and Equivalence |
+|    X |     Beginner |         Logic |        Negation and De Morgan's Laws |
+|    X |     Beginner |         Logic |                          Quantifiers |
+|    X |     Beginner |         Logic |                  Logical Implication |
+|    X | Intermediate | Proof Writing |                     Proof Techniques |
 |      | Intermediate | Proof Writing |                        Direct Proofs |
 |      | Intermediate | Proof Writing |                      Indirect Proofs |
 |      | Intermediate | Proof Writing |               Proof by Contradiction |
