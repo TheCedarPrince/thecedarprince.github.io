@@ -29,6 +29,24 @@ The titles, date, summaries, and key words of a blog are provided per entry
 
     	<br>
 
+    	<span class = post-item id = step-by-step-guide-to-moving-your-github-repository-to-a-github-organization>
+             		<a href = http://jacobzelko.com/08232023150902-moving-repository-organization/>
+                      			<strong>
+                               				Step by Step Guide to Moving Your GitHub Repository to a GitHub Organization
+                      			</strong>
+                      			[Aug 23 2023]
+             		</a>
+             		<br>
+                      			How to move your GitHub repository into a GitHub organization
+             		<br>
+                      			#github #organization #repository #permissions #git #blog #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = lessons-learned-from-how-i-use-anki>
              		<a href = http://jacobzelko.com/07092023212334-how-i-anki/>
                       			<strong>
