@@ -129,6 +129,101 @@
 
 <item>
   <title>
+    <![CDATA[  Step by Step Guide to Moving Your GitHub Repository to a GitHub Organization  ]]>
+  </title>
+  <link> https://jacobzelko.com/08232023150902-moving-repository-organization/index.html </link>
+  <guid> https://jacobzelko.com/08232023150902-moving-repository-organization/index.html </guid>
+  <description>
+    <![CDATA[  How to move your GitHub repository into a GitHub organization  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Step by Step Guide to Moving Your GitHub Repository to a GitHub Organization</h1>
+<p><strong>Date:</strong> August 23 2023</p>
+<p><strong>Summary:</strong> How to move your GitHub repository into a GitHub organization</p>
+<p><strong>Keywords:</strong> #github #organization #repository #permissions #git #blog #archive</p>
+<h1>Bibliography</h1>
+<p>Not Available</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Assumptions</li><li>Steps for the Repository Owner</li><li>Steps for Organization Owner<ol><li>Optional Step: Transfer Repository Back to Owner</li></ol></li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>As I am the head of a few GitHub organizations now, I figured it would be useful to have a nice step by step guide for helping individuals move their repositories into organizations that I help manage.</p>
+<h3 id="assumptions">Assumptions</h3>
+<p>The following assumptions are made in this tutorial:</p>
+<ol>
+<li><p>You have a GitHub profile</p>
+</li>
+<li><p>You have a repository you wish to transfer</p>
+</li>
+<li><p>The GitHub organization you wish to transfer the repository to is called &quot;JuliaHealth&quot;</p>
+</li>
+</ol>
+<h3 id="steps_for_the_repository_owner">Steps for the Repository Owner</h3>
+<ol>
+<li><p>Initiate the Transfer</p>
+</li>
+</ol>
+<p>a. Log in to your GitHub account.</p>
+<p>b. Open the repository you want to transfer</p>
+<p>c. Click on &quot;Settings&quot; and then select &quot;Options&quot; from the left sidebar.</p>
+<p>d. Scroll down to the &quot;Danger Zone&quot; section and click &quot;Transfer Ownership.&quot;</p>
+<p>e. Confirm by entering your password.</p>
+<p>f. Choose &quot;JuliaHealth&quot; from the dropdown.</p>
+<p>g. Click &quot;I understand, transfer this repository.&quot;</p>
+<ol start="2">
+<li><p>Verify Repository Transfer</p>
+</li>
+</ol>
+<p>a. Go to the <a href="https://github.com/JuliaHealth">JuliaHealth GitHub organization home page</a></p>
+<p>b. You should see the repository on the home page</p>
+<p>At this stage, let the Organization admins know that the repository is transferred to the organization. If there were any issues, reach out to JuliaHealth admins for help here.</p>
+<h3 id="steps_for_organization_owner">Steps for Organization Owner</h3>
+<ol>
+<li><p>Adjust transferred repository permissions to allow owners full permission to repository</p>
+</li>
+</ol>
+<p>a. Open the transferred repository within your organization.</p>
+<p>b. Navigate to &quot;Settings.&quot;</p>
+<p>c. Click on &quot;Manage access.&quot;</p>
+<p>d. Add the original owner&#39;s GitHub account as a collaborator or provide them with the necessary access.</p>
+<ol start="2">
+<li><p>Inform the original repository owner of permissions</p>
+</li>
+</ol>
+<h4 id="optional_step_transfer_repository_back_to_owner">Optional Step: Transfer Repository Back to Owner</h4>
+<p>If the original owner wants to remove the repository from the organization:</p>
+<ol>
+<li><p>Go to the repository&#39;s &quot;Settings&quot; within the organization.</p>
+</li>
+<li><p>Scroll down to the &quot;Danger Zone&quot; section and click &quot;Transfer Ownership.&quot;</p>
+</li>
+<li><p>Opt to transfer the repository back to their personal account.</p>
+</li>
+</ol>
+<p>Additionally, depending on the permissions given by the Organization admins, the repository owners may be able to transfer the package back to themselves as well at any time.</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Step by Step Guide to Moving Your GitHub Repository to a GitHub Organization</em>. <a href="https://jacobzelko.com/08232023150902-moving-repository-organization">https://jacobzelko.com/08232023150902-moving-repository-organization</a>. August 23 2023.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  What Is Jevons Paradox?  ]]>
   </title>
   <link> https://jacobzelko.com/08112023144820-jevons-paradox-explained/index.html </link>
