@@ -45,25 +45,24 @@ The following assumptions are made in this tutorial:
 
 1. Initiate the Transfer
 
-a. Log in to your GitHub account.
+    a. Log in to your GitHub account.
 
-b. Open the repository you want to transfer
+    b. Open the repository you want to transfer
 
-c. Click on "Settings" and then select "Options" from the left sidebar.
+    c. Click on "Settings" and then select "Options" from the left sidebar.
 
-d. Scroll down to the "Danger Zone" section and click "Transfer Ownership."
+    d. Scroll down to the "Danger Zone" section and click "Transfer Ownership."
 
-e. Confirm by entering your password.
+    e. Confirm by entering your password.
 
-f. Choose "JuliaHealth" from the dropdown.
+    f. Choose "JuliaHealth" from the dropdown.
 
-g. Click "I understand, transfer this repository."
-
+    g. Click "I understand, transfer this repository."
 2. Verify Repository Transfer
 
-a. Go to the [JuliaHealth GitHub organization home page](https://github.com/JuliaHealth)
+    a. Go to the [JuliaHealth GitHub organization home page](https://github.com/JuliaHealth)
 
-b. You should see the repository on the home page
+    b. You should see the repository on the home page
 
 At this stage, let the Organization admins know that the repository is transferred to the organization. If there were any issues, reach out to JuliaHealth admins for help here.
 
@@ -71,14 +70,13 @@ At this stage, let the Organization admins know that the repository is transferr
 
 1. Adjust transferred repository permissions to allow owners full permission to repository
 
-a. Open the transferred repository within your organization.
+    a. Open the transferred repository within your organization.
 
-b. Navigate to "Settings."
+    b. Navigate to "Settings."
 
-c. Click on "Manage access."
+    c. Click on "Manage access."
 
-d. Add the original owner's GitHub account as a collaborator or provide them with the necessary access.
-
+    d. Add the original owner's GitHub account as a collaborator or provide them with the necessary access.
 2. Inform the original repository owner of permissions
 
 #### Optional Step: Transfer Repository Back to Owner
