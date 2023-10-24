@@ -8,6 +8,7 @@
     hascode}} {{insert head_highlight.html }} {{end}}
     <link rel="stylesheet" href="/css/franklin.css">
     <link rel="stylesheet" href="/css/basic.css">
+    <link rel="stylesheet" href="/css/action.css">
     <link rel="icon" href="/assets/favicon.ico"> {{isdef title}}
     <title>{{fill title}}</title> {{end}}
 
@@ -42,9 +43,28 @@
     <script src="/libs/lunr/lunr_index.js"></script>
     <script src="/libs/lunr/lunrclient.min.js"></script>
 
+    <!--FLOATING HELP BUTTON-->
+    <div class="action">
+      <button></button>
+      <ul>
+        <li><a href="#">Top of Page</a></li>
+        <li><a href="#discussion">Discussion</a></li> 
+        <hr>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/archive">Archive</a></li>
+        <li><a href="/resources">Contact</a></li>
+        <li><a href="/hiring">Hiring</a></li>
+        <li><a href="/projects">Open Projects</a></li>
+      </ul>
+    </div>
+
+    <script src="/libs/action.js"></script>
+
 </head>
 
 
 <body>
     {{insert header.html}} {{addsearchbar}}
+
     <!-- Content appended here -->
