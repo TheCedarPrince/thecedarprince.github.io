@@ -1,4 +1,4 @@
-@def title = "Resources"
+@def title = "Contact"
 
 # Contact Me 🙋‍♂
 
