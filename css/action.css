@@ -1,0 +1,69 @@
+/*
+ * Copyright (c) 2023 by Illia (https://codepen.io/Barto_i/pen/gOMNqRO)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+.action {
+  position: fixed; /* Use fixed positioning for the button */
+  bottom: 100px;
+  right: 32px;
+  width: 57px;
+  height: 57px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 999; /* Adjust z-index as needed */
+}
+
+.action button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-image: url("../assets/hamburger.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background
+  justify-content: center;
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #00000;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.action.active button {
+  transform: rotate(270deg);
+}
+
+.action ul {
+  position: absolute;
+  bottom: 55px;
+  background-color: #fff;
+  min-width: 100px;
+  display: grid;
+  grid-gap: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  left: -110px; /* Adjust the left position to make it appear on the left side */
+}
+
+.action.active ul {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s;
+  bottom: 65px;
+}
