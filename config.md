@@ -24,4 +24,4 @@ rss_full_content = true
 <!--
 Add here global latex commands to use throughout your pages.
 -->
-\newcommand{\profileimage}[2]{~~~<img src="#1" alt="#2" class="center"/>~~~}
+\newcommand{\profileimage}[2]{~~~<img src="#1" alt="#2" class="profileimage"/>~~~}
