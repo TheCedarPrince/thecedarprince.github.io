@@ -11,6 +11,24 @@ The titles, date, summaries, and key words of a blog are provided per entry
 
     	<br>
 
+    	<span class = post-item id = early-impressions-of-bluesky>
+             		<a href = http://jacobzelko.com/11242023193535-impressions-bluesky/>
+                      			<strong>
+                               				Early Impressions of Bluesky
+                      			</strong>
+                      			[Nov 24 2023]
+             		</a>
+             		<br>
+                      			Initial impressions on a few months of Bluesky usage
+             		<br>
+                      			#social #media #bluesky #twitter #microblogging #blog #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = resources-for-learning-the-julia-programming-language>
              		<a href = http://jacobzelko.com/10082023195125-julia-learning-resources/>
                       			<strong>
