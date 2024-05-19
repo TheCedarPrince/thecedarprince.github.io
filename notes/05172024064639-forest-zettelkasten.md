@@ -22,7 +22,7 @@ Thoughts on Forester: A Scientist's Zettelkasten
 Bibliography
 ==========
 
-Jon Sterling. Forester. https://github.com/jonsterling/ocaml-forester
+Jon Sterling. Forester. [https://github.com/jonsterling/ocaml-forester](https://github.com/jonsterling/ocaml-forester)
 
 Table of Contents
 =========
@@ -117,21 +117,13 @@ Although I quite like Forester, I am a bit hesitant to transfer over to it mysel
 
 Additionally, there are a few features that I feel just aren't quite "there yet". Particularly, the following:
 
-  * The syntax for `tree` files, although a great start, is missing some things I find important.
+  * The syntax for `tree` files, although a great start, is missing some things I find important. This includes more ergonomic syntax for including images, code blocks, quote blocks, etc. that I rely on within markdown.
 
-This includes more ergonomic syntax for including images, code blocks, quote blocks, etc. that I rely on within markdown.
+  * The wrapping around HTML elements doesn't feel quite complete. As an example, to include an image on a page, I can write something like `\<html:img>[src]{photo.png}` which is easy enough. But what if I want to inject more attributes to the HTML element here, such as the `max-width` of the image? That was not clear to me in my readings of the source code and syntax reference.
 
-  * The wrapping around HTML elements doesn't feel quite complete.
+  * Although I thought that the transclusion methods of Forester by default are great, it does not appear to me how one can reference sections of a note via transclusion. For example, within my markdown set-up, not only can I reference other notes, I can also link to the direct section within a particular note. I have not seen any such "section referencing" capabilities available in Forester if I just want to transclude "part" of a note.
 
-As an example, to include an image on a page, I can write something like `\<html:img>[src]{photo.png}` which is easy enough. But what if I want to inject more attributes to the HTML element here, such as the `max-width` of the image? That was not clear to me in my readings of the source code and syntax reference.
-
-  * Although I thought that the transclusion methods of Forester by default are great, it does not appear to me how one can reference sections of a note via transclusion.
-
-For example, within my markdown set-up, not only can I reference other notes, I can also link to the direct section within a particular note. I have not seen any such "section referencing" capabilities available in Forester if I just want to transclude "part" of a note.
-
-  * Lack of interoperability with other note types or note systems.
-
-As I mentioned, I still have $\approx 600$ markdown notes within my personal Zettelkasten so being able to go between other note types is crucial. What's more, related to this problem, is that markdown or $\LaTeX$ is far more ubiquitous and accessible across multiple platforms if I need to preview or reference something on the spot. I haven't yet seen this available with `tree` files yet.
+  * Lack of interoperability with other note types or note systems. As I mentioned, I still have $\approx 600$ markdown notes within my personal Zettelkasten so being able to go between other note types is crucial. What's more, related to this problem, is that markdown or $\LaTeX$ is far more ubiquitous and accessible across multiple platforms if I need to preview or reference something on the spot. I haven't yet seen this available with `tree` files yet. 
 
 With that all to say, if I had started my personal Zettelkasten journey with Forester, I think I probably would've figured out ways to get around all these issues. As of now, these issues prevent me from wanting to move my entire Zettelkasten over to the system.
 
