@@ -23,6 +23,191 @@
 
 <item>
   <title>
+    <![CDATA[  Thoughts on Forester: A Scientist&#39;s Zettelkasten  ]]>
+  </title>
+  <link> https://jacobzelko.com/05172024064639-forest-zettelkasten/index.html </link>
+  <guid> https://jacobzelko.com/05172024064639-forest-zettelkasten/index.html </guid>
+  <description>
+    <![CDATA[  Some preliminary and early thoughts on Forester, a robust tool for scientists and mathematicians in developing and working with one&#39;s own Zettelkasten.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Thoughts on Forester: A Scientist&#39;s Zettelkasten</h1>
+<p><strong>Date:</strong> May 17 2024</p>
+<p><strong>Summary:</strong> Some preliminary and early thoughts on Forester, a robust tool for scientists and mathematicians in developing and working with one&#39;s own Zettelkasten.</p>
+<p><strong>Keywords:</strong> #blog #forester #sterling #zettelkasten #tool #thought #open #source #note #archive</p>
+<h1>Bibliography</h1>
+<p>Jon Sterling. Forester. https://github.com/jonsterling/ocaml-forester</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Transclusions Done Right</li><li>Overall Impressions</li><li>Developing a Forester Workflow</li><li>Thoughts for Now</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<p>In discussion with my friend and mentor, <a href="https://jacobzelko.com/05192024173906-evan-patterson">Dr. Evan Patterson</a>, I was introduced to a tool created by Dr. Jon Sterling called Forester. These are some of my early thoughts on trying out Forester for my own research and workflow.</p>
+<h3 id="transclusions_done_right">Transclusions Done Right</h3>
+<p>In my mind, it feels to me that Forester really nailed how transclusions should work in a Zettelkasten type of workflow. In my mind, it is the perfect ambient environment for quickly building and stringing ideas together in coherent and yet atomic ways. Here&#39;s an example of it in action:</p>
+<p><img src="assets/05182024220110-forester-transclude.gif" alt="" /></p>
+<blockquote>
+<p><strong>Forester Transclusion:</strong> As one can see, the transclusion is snappy, encourages from its foundation the creation of small pieces of information as different files, and is easy to put together.</p>
+</blockquote>
+<p>What I also didn&#39;t really highlight is that it has great support for various kinds of backlinks that I haven&#39;t really had a chance to explore yet. I think backlinking is another crucial element of Zettelkastens and this is another thing that Forester&#39;s transclusion approach got right. Finally, I haven&#39;t tested this yet, but apparently handling of citations via \(\mathbf{BibTeX}\) and some of Forester&#39;s unique markup syntax enables citations to get rendered &quot;automatically&quot; between transcluded notes meaning that I would personally not have to worry about creating a bibliography for a note that has several transclusions in it as long as the source notes themselves have the relevant and needed citations.</p>
+<h3 id="overall_impressions">Overall Impressions</h3>
+<p>I played around with Forester for several hours and had quite some fun with the tool. The syntax was relatively straightforward to pick up thanks to the <a href="https://www.jonmsterling.com/jms-007N.xml">published markup syntax guide</a> and a <a href="https://forest.localcharts.org/lc-0002.xml">nice write-up from Owen Lynch</a>. It wraps around HTML elements using a strange combination of XML and XSTL – interestingly, the tool itself was written in OCaml and this served as my first introduction to ML-style languages. Here&#39;s an example of the mark-up which is, quite pointedly, called <code>tree</code> files:</p>
+<pre><code class="language-julia">\title&#123;Jacob S. Zelko Personal Details&#125;
+\taxon&#123;bio&#125;
+\date&#123;2024-05-16&#125;
+\import&#123;macros&#125;\&lt;html:div&gt;&#91;style&#93;&#123;
+  width: 50\&#37;; 
+  height: 400px; 
+  background-image: url&#40;&#39;jz.jpg&#39;&#41;; 
+  background-size: contain; 
+  background-repeat: no-repeat;
+&#125;&#123;&#125;\p&#123;&#125;\p&#123;
+  My name is Jacob Scott Zelko&#33; 
+  I am currently pursuing my MS in Applied Mathematics at Northeastern University &#40;NEU&#41; 
+  and am a trainee of NEU&#39;s Roux Institute.
+&#125;</code></pre>
+<p>As one can see, the syntax is relatively straightforward &#40;although I had to do an &quot;ugly&quot; hack to get image rendering to work&#41;. It feels very \(\LaTeX\)-ish in the sense that all the curly braces have come back – with a vengeance&#33; One is able to create their own macros similar to how you can in various programming languages as well as within \(\LaTeX\) and inject HTML directly into your documents similar to how you can with Markdown. In fact, to me, it feels a hybrid between Markdown and \(\LaTeX\) Although the syntax is a bit gnarly, where it really shines is it&#39;s handling of mathematical notation directly in your browser. Thanks to a macro and <code>sty</code> file Owen created for the platform, <a href="https://forest.localcharts.org">LocalCharts</a>, I can readily render and draw commutative diagrams simply and easily directly within my notes:</p>
+<pre><code class="language-julia">\p&#123;
+  \quiver&#123;    \begin&#123;tikzcd&#125;
+      &amp;&amp; X \\
+      \\
+      A &amp;&amp; &#123;A \times B&#125; &amp;&amp; B
+      \arrow&#91;&quot;&#123;p_1&#125;&quot;&#39;, from&#61;1-3, to&#61;3-1&#93;
+      \arrow&#91;&quot;u&quot;&#39;, dashed, from&#61;1-3, to&#61;3-3&#93;
+      \arrow&#91;&quot;&#123;p_2&#125;&quot;, from&#61;1-3, to&#61;3-5&#93;
+      \arrow&#91;&quot;&#123;\pi_1&#125;&quot;&#39;, from&#61;3-3, to&#61;3-1&#93;
+      \arrow&#91;&quot;&#123;\pi_2&#125;&quot;&#39;, from&#61;3-3, to&#61;3-5&#93;
+    \end&#123;tikzcd&#125;  &#125;
+&#125;</code></pre>
+<blockquote>
+<p>Note: the macro <code>quiver</code> is what allows me to create this <code>tikzcd</code> diagram directly in my notes. Aside from the <code>p</code> and <code>quiver</code> notation, the commutative diagram <code>tikz</code> code I wrote here is strictly \(\LaTeX\) – finally, full Tikz support in the browser and easily done too&#33;</p>
+</blockquote>
+<p>One thing that I should also mention is the first rate support Forester does have for mathematics typesetting. Out of the box, it supports most of \(\LaTeX\) math formatting and enables one to quickly and easily render mathematics equations or notation where necessary. To my understanding, it&#39;s way of rendering is much richer than MathJax or \(\KaTeX\) but I am unsure of all the internals of how the math is rendered.</p>
+<h3 id="developing_a_forester_workflow">Developing a Forester Workflow</h3>
+<p>As Forester is still quite new, it is understandable if the workflow isn&#39;t quite sorted yet. I personally felt that this was one of the more underdeveloped aspects of the Forester ecosystem. After reviewing available tools, I settled on this approach:</p>
+<ul>
+<li><p><strong>Writing</strong>: using my <a href="https://github.com/TheCedarPrince/Service">Neovim configuration</a> to write notes quickly.</p>
+</li>
+<li><p><strong>Live Updates</strong>: <a href="https://github.com/kentookura">Kento Okura</a> created a really nice Forester tool called &quot;<a href="https://github.com/kentookura/forest-server">forest-server</a>&quot; in Rust that allows previews and builds to happen instantly.</p>
+</li>
+<li><p><strong>Preview</strong>: I use the <a href="https://vivaldi.com">Vivaldi browser</a> to do a live preview of my notes changing and updating in real time.</p>
+</li>
+</ul>
+<p>Here&#39;s an example of the workflow in action:</p>
+<p><img src="assets/05192024172349-forester-preview.gif" alt="" /></p>
+<p>The key command here I use is the function <code>forest watch 1234 -- &quot;build forest.toml&quot;</code> in the base of my &quot;forest&quot;. As I save my file, the command to build the forest is triggered and updates the note rather quickly. There is some flashing going on with the updating that I do not know how to fix – can be a bit jarring but is mostly fine.</p>
+<h3 id="thoughts_for_now">Thoughts for Now</h3>
+<p>Although I quite like Forester, I am a bit hesitant to transfer over to it myself for all my Zettelkasten needs. One of the biggest reasons for this is that my own Zettelkasten at this point has nearly \(600\) notes all written in markdown. To translate them over, I could write a parser for <a href="https://jacobzelko.com/NoteMate.jl/dev/">NoteMate.jl</a> that would allow ready translation from my <a href="04172022033744-open-knowledge-standard.md">note style</a> to a <code>tree</code> file.</p>
+<p>Additionally, there are a few features that I feel just aren&#39;t quite &quot;there yet&quot;. Particularly, the following:</p>
+<ul>
+<li><p>The syntax for <code>tree</code> files, although a great start, is missing some things I find important.</p>
+</li>
+</ul>
+<p>This includes more ergonomic syntax for including images, code blocks, quote blocks, etc. that I rely on within markdown.</p>
+<ul>
+<li><p>The wrapping around HTML elements doesn&#39;t feel quite complete.</p>
+</li>
+</ul>
+<p>As an example, to include an image on a page, I can write something like <code>\&lt;html:img&gt;&#91;src&#93;&#123;photo.png&#125;</code> which is easy enough. But what if I want to inject more attributes to the HTML element here, such as the <code>max-width</code> of the image? That was not clear to me in my readings of the source code and syntax reference.</p>
+<ul>
+<li><p>Although I thought that the transclusion methods of Forester by default are great, it does not appear to me how one can reference sections of a note via transclusion.</p>
+</li>
+</ul>
+<p>For example, within my markdown set-up, not only can I reference other notes, I can also link to the direct section within a particular note. I have not seen any such &quot;section referencing&quot; capabilities available in Forester if I just want to transclude &quot;part&quot; of a note.</p>
+<ul>
+<li><p>Lack of interoperability with other note types or note systems.</p>
+</li>
+</ul>
+<p>As I mentioned, I still have \(\approx 600\) markdown notes within my personal Zettelkasten so being able to go between other note types is crucial. What&#39;s more, related to this problem, is that markdown or \(\LaTeX\) is far more ubiquitous and accessible across multiple platforms if I need to preview or reference something on the spot. I haven&#39;t yet seen this available with <code>tree</code> files yet.</p>
+<p>With that all to say, if I had started my personal Zettelkasten journey with Forester, I think I probably would&#39;ve figured out ways to get around all these issues. As of now, these issues prevent me from wanting to move my entire Zettelkasten over to the system.</p>
+<p>However, with that said, I think I actually will try giving Forester more of a test with some of my mathematics studies and research. It&#39;s first rate support for mathematics is superb and although the workflow is quite minimal at the time, while writing some notes in the <code>tree</code> files, I was beginning to see just how natural and ergonomic it was to write within the system. Depending on how things go with my experiments with Forester, I may end up having to write a parser of some kind in the near future&#33;</p>
+<p>If you use or have used Forester, please let me know your experience with it and comment below – would love to hear about your experiences&#33;</p>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Thoughts on Forester: A Scientist&#39;s Zettelkasten</em>. <a href="https://jacobzelko.com/05172024064639-forest-zettelkasten">https://jacobzelko.com/05172024064639-forest-zettelkasten</a>. May 17 2024.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Category Theory  ]]>
+  </title>
+  <link> https://jacobzelko.com/01132024210133-category-theory-awodey/index.html </link>
+  <guid> https://jacobzelko.com/01132024210133-category-theory-awodey/index.html </guid>
+  <description>
+    <![CDATA[  An introduction to category theory designed to help students with some mathematics knowledge  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Category Theory</h1>
+<p><strong>Date:</strong> January 13 2024</p>
+<p><strong>Summary:</strong> An introduction to category theory designed to help students with some mathematics knowledge</p>
+<p><strong>Keywords:</strong> #category #theory #textbook #archive #introduction</p>
+<h1>Bibliography</h1>
+<p>S. Awodey, Category theory, vol. 52. OUP Oxford, 2010.</p>
+<h1>Table of Contents</h1>
+<div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Chapters</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
+<h3 id="motivation">Motivation</h3>
+<h3 id="chapters">Chapters</h3>
+<ul>
+<li><p><a href="https://jacobzelko.com/01132024210326-what-category-theory">Chapter 1: Categories</a> - what is category theory?</p>
+</li>
+<li><p><a href="https://jacobzelko.com/04272024030435-abstract-structures-awodey">Chapter 2: Abstract Structures</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/04272024031824-duality-awodey">Chapter 3: Duality</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/04272024032015-groups-categories-awodey">Chapter 4: Groups and Categories</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/04272024162212-limits-colimits-awodey">Chapter 5: Limits and Colimits</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/04272024162247-exponentials-awodey">Chapter 6: Exponentials</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/04272024162317-naturality-awodey">Chapter 7: Naturality</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/04272024162401-categories-diagrams-awodey">Chapter 8: Categories of Diagrams</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/04272024162435-adjoints-awodey">Chapter 9: Adjoints</a></p>
+</li>
+<li><p><a href="https://jacobzelko.com/04272024162513-monads-algebras-awodey">Chapter 10: Monads and Algebras</a></p>
+</li>
+</ul>
+<h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob. <em>Category Theory</em>. <a href="https://jacobzelko.com/01132024210133-category-theory-awodey">https://jacobzelko.com/01132024210133-category-theory-awodey</a>. January 13 2024.</p>
+<h2 id="references">References:</h2>
+<h2 id="discussion">Discussion: </h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Early Impressions of Bluesky  ]]>
   </title>
   <link> https://jacobzelko.com/11242023193535-impressions-bluesky/index.html </link>
@@ -3807,7 +3992,7 @@ X{x}_{Z}Y := \{(x, w, y) | f(x) = w = g(y)\}
 <h1>The Preimage of Elements, Sets, and Functions</h1>
 <p><strong>Date:</strong> October 28 2022</p>
 <p><strong>Summary:</strong> How the preimage appears in elements, sets, and functions</p>
-<p><strong>Keywords:</strong> #archive #sets #preimage #elements #functions</p>
+<p><strong>Keywords:</strong> #archive #sets #preimage #elements #functions #inverse #image</p>
 <h1>Bibliography</h1>
 <p>Not Available</p>
 <h1>Table of Contents</h1>
