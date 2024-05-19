@@ -45,7 +45,7 @@
 <p>In discussion with my friend and mentor, <a href="https://jacobzelko.com/05192024173906-evan-patterson">Dr. Evan Patterson</a>, I was introduced to a tool created by Dr. Jon Sterling called Forester. These are some of my early thoughts on trying out Forester for my own research and workflow.</p>
 <h3 id="transclusions_done_right">Transclusions Done Right</h3>
 <p>In my mind, it feels to me that Forester really nailed how transclusions should work in a Zettelkasten type of workflow. In my mind, it is the perfect ambient environment for quickly building and stringing ideas together in coherent and yet atomic ways. Here&#39;s an example of it in action:</p>
-<p><img src="assets/05182024220110-forester-transclude.gif" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/05182024220110-forester-transclude.gif" alt="" /></p>
 <blockquote>
 <p><strong>Forester Transclusion:</strong> As one can see, the transclusion is snappy, encourages from its foundation the creation of small pieces of information as different files, and is easy to put together.</p>
 </blockquote>
@@ -94,7 +94,7 @@
 </li>
 </ul>
 <p>Here&#39;s an example of the workflow in action:</p>
-<p><img src="assets/05192024172349-forester-preview.gif" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/05192024172349-forester-preview.gif" alt="" /></p>
 <p>The key command here I use is the function <code>forest watch 1234 -- &quot;build forest.toml&quot;</code> in the base of my &quot;forest&quot;. As I save my file, the command to build the forest is triggered and updates the note rather quickly. There is some flashing going on with the updating that I do not know how to fix – can be a bit jarring but is mostly fine.</p>
 <h3 id="thoughts_for_now">Thoughts for Now</h3>
 <p>Although I quite like Forester, I am a bit hesitant to transfer over to it myself for all my Zettelkasten needs. One of the biggest reasons for this is that my own Zettelkasten at this point has nearly \(600\) notes all written in markdown. To translate them over, I could write a parser for <a href="https://jacobzelko.com/NoteMate.jl/dev/">NoteMate.jl</a> that would allow ready translation from my <a href="04172022033744-open-knowledge-standard.md">note style</a> to a <code>tree</code> file.</p>

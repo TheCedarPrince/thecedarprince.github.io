@@ -45,7 +45,7 @@
 <p>In discussion with my friend and mentor, <a href="https://jacobzelko.com/05192024173906-evan-patterson">Dr. Evan Patterson</a>, I was introduced to a tool created by Dr. Jon Sterling called Forester. These are some of my early thoughts on trying out Forester for my own research and workflow.</p>
 <h3 id="transclusions_done_right">Transclusions Done Right</h3>
 <p>In my mind, it feels to me that Forester really nailed how transclusions should work in a Zettelkasten type of workflow. In my mind, it is the perfect ambient environment for quickly building and stringing ideas together in coherent and yet atomic ways. Here&#39;s an example of it in action:</p>
-<p><img src="assets/05182024220110-forester-transclude.gif" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/05182024220110-forester-transclude.gif" alt="" /></p>
 <blockquote>
 <p><strong>Forester Transclusion:</strong> As one can see, the transclusion is snappy, encourages from its foundation the creation of small pieces of information as different files, and is easy to put together.</p>
 </blockquote>
@@ -94,7 +94,7 @@
 </li>
 </ul>
 <p>Here&#39;s an example of the workflow in action:</p>
-<p><img src="assets/05192024172349-forester-preview.gif" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/05192024172349-forester-preview.gif" alt="" /></p>
 <p>The key command here I use is the function <code>forest watch 1234 -- &quot;build forest.toml&quot;</code> in the base of my &quot;forest&quot;. As I save my file, the command to build the forest is triggered and updates the note rather quickly. There is some flashing going on with the updating that I do not know how to fix – can be a bit jarring but is mostly fine.</p>
 <h3 id="thoughts_for_now">Thoughts for Now</h3>
 <p>Although I quite like Forester, I am a bit hesitant to transfer over to it myself for all my Zettelkasten needs. One of the biggest reasons for this is that my own Zettelkasten at this point has nearly \(600\) notes all written in markdown. To translate them over, I could write a parser for <a href="https://jacobzelko.com/NoteMate.jl/dev/">NoteMate.jl</a> that would allow ready translation from my <a href="04172022033744-open-knowledge-standard.md">note style</a> to a <code>tree</code> file.</p>
@@ -1370,7 +1370,7 @@ end</code></pre>
 </blockquote>
 <h3 id="simple_workflow_process">Simple Workflow Process</h3>
 <p>There are two ways to start this workflow.  One blocking &#40;i.e. you cannot use the Julia REPL while working&#41; and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:</p>
-<p><img src="assets/01082023043553-watching-example.gif" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/01082023043553-watching-example.gif" alt="" /></p>
 <h4 id="blocking_workflow">Blocking Workflow</h4>
 <p>This creates a synchronous task in your Julia REPL that can then run whatever command you want while you monitor a specific file &#40;or folder&#41;. In this case, I am making the task print a statement that says “Change Detected&#33;” to my REPL whenever there is a change in the file called “tmp.jmd”.</p>
 <pre><code class="language-julia">using FileWatchingwhile true 
@@ -1387,7 +1387,7 @@ end</code></pre>
 <p>From here, you could then still interact with this REPL while this task is running in the background. Furthermore, you can change the line that says <code>println&#40;&quot;Change Detected&#33;&quot;&#41;</code> to whatever command &#40;or commands&#41; you want to trigger.</p>
 <h3 id="asynchronous_workflow_for_literate_programming">Asynchronous Workflow for Literate Programming</h3>
 <p>This workflow allows one to work with a Julia Markdown document with <code>Weave.jl</code> to preview your work in real time.  There a few steps to start the workflow but here is how it looks when in operation:</p>
-<p><img src="assets/01082023043553-weave-example.gif" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/01082023043553-weave-example.gif" alt="" /></p>
 <p>First, execute the following snippet in your Julia REPL to start the asynchronous process to watch for changes and tell Julia to weave the file we will modify:</p>
 <pre><code class="language-julia">using FileWatching
 using Weave@async while true 
@@ -2438,7 +2438,7 @@ He emphasized that they do not always hold or are always discrete from one anoth
 </ol>
 <h3 id="inference_engine">Inference Engine</h3>
 <p>The inference engine assumes perfect and unlimited data for the given figure:</p>
-<p><img src="assets/01082021030619-inference-engine.png" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/01082021030619-inference-engine.png" alt="" /></p>
 <p><strong>Estimand:</strong> generalized mathematical formula to answer data questions. A statistical quantity estimated from data that can represent an answer to a query.</p>
 <p>A given estimand is computed on the basis of the causal model alone, prior to an examination of the specifics of the data. This gives the inference engine better adaptibility.</p>
 <p><strong>Binary Evaluation of Query:</strong> determines if a query can be answered under an existing causal model.</p>

@@ -522,7 +522,7 @@ end</code></pre>
 </blockquote>
 <h3 id="simple_workflow_process">Simple Workflow Process</h3>
 <p>There are two ways to start this workflow.  One blocking &#40;i.e. you cannot use the Julia REPL while working&#41; and another spawning an asynchronous background process to enable you to work with the same REPL. Here is gif showing these workflows in action:</p>
-<p><img src="assets/01082023043553-watching-example.gif" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/01082023043553-watching-example.gif" alt="" /></p>
 <h4 id="blocking_workflow">Blocking Workflow</h4>
 <p>This creates a synchronous task in your Julia REPL that can then run whatever command you want while you monitor a specific file &#40;or folder&#41;. In this case, I am making the task print a statement that says “Change Detected&#33;” to my REPL whenever there is a change in the file called “tmp.jmd”.</p>
 <pre><code class="language-julia">using FileWatchingwhile true 
@@ -539,7 +539,7 @@ end</code></pre>
 <p>From here, you could then still interact with this REPL while this task is running in the background. Furthermore, you can change the line that says <code>println&#40;&quot;Change Detected&#33;&quot;&#41;</code> to whatever command &#40;or commands&#41; you want to trigger.</p>
 <h3 id="asynchronous_workflow_for_literate_programming">Asynchronous Workflow for Literate Programming</h3>
 <p>This workflow allows one to work with a Julia Markdown document with <code>Weave.jl</code> to preview your work in real time.  There a few steps to start the workflow but here is how it looks when in operation:</p>
-<p><img src="assets/01082023043553-weave-example.gif" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/01082023043553-weave-example.gif" alt="" /></p>
 <p>First, execute the following snippet in your Julia REPL to start the asynchronous process to watch for changes and tell Julia to weave the file we will modify:</p>
 <pre><code class="language-julia">using FileWatching
 using Weave@async while true 

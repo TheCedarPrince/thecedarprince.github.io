@@ -1407,7 +1407,7 @@ P_0(Y=0 \mid \hat{Y}=0)=P_1(Y=0 \mid \hat{Y}=0)
 </ol>
 <h3 id="inference_engine">Inference Engine</h3>
 <p>The inference engine assumes perfect and unlimited data for the given figure:</p>
-<p><img src="assets/01082021030619-inference-engine.png" alt="" /></p>
+<p><img src="https://jacobzelko.com/assets/01082021030619-inference-engine.png" alt="" /></p>
 <p><strong>Estimand:</strong> generalized mathematical formula to answer data questions. A statistical quantity estimated from data that can represent an answer to a query.</p>
 <p>A given estimand is computed on the basis of the causal model alone, prior to an examination of the specifics of the data. This gives the inference engine better adaptibility.</p>
 <p><strong>Binary Evaluation of Query:</strong> determines if a query can be answered under an existing causal model.</p>
