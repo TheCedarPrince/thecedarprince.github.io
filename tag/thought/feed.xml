@@ -38,7 +38,7 @@
 <p><strong>Summary:</strong> Some preliminary and early thoughts on Forester, a robust tool for scientists and mathematicians in developing and working with one&#39;s own Zettelkasten.</p>
 <p><strong>Keywords:</strong> #blog #forester #sterling #zettelkasten #tool #thought #open #source #note #archive</p>
 <h1>Bibliography</h1>
-<p>Jon Sterling. Forester. https://github.com/jonsterling/ocaml-forester</p>
+<p>Jon Sterling. Forester. <a href="https://github.com/jonsterling/ocaml-forester">https://github.com/jonsterling/ocaml-forester</a></p>
 <h1>Table of Contents</h1>
 <div class="franklin-toc"><ol><li><ol><li>Motivation</li><li>Transclusions Done Right</li><li>Overall Impressions</li><li>Developing a Forester Workflow</li><li>Thoughts for Now</li></ol></li><li>How To Cite</li><li>References:</li><li>Discussion: </li></ol></div>
 <h3 id="motivation">Motivation</h3>
@@ -100,25 +100,15 @@
 <p>Although I quite like Forester, I am a bit hesitant to transfer over to it myself for all my Zettelkasten needs. One of the biggest reasons for this is that my own Zettelkasten at this point has nearly \(600\) notes all written in markdown. To translate them over, I could write a parser for <a href="https://jacobzelko.com/NoteMate.jl/dev/">NoteMate.jl</a> that would allow ready translation from my <a href="04172022033744-open-knowledge-standard.md">note style</a> to a <code>tree</code> file.</p>
 <p>Additionally, there are a few features that I feel just aren&#39;t quite &quot;there yet&quot;. Particularly, the following:</p>
 <ul>
-<li><p>The syntax for <code>tree</code> files, although a great start, is missing some things I find important.</p>
+<li><p>The syntax for <code>tree</code> files, although a great start, is missing some things I find important. This includes more ergonomic syntax for including images, code blocks, quote blocks, etc. that I rely on within markdown.</p>
+</li>
+<li><p>The wrapping around HTML elements doesn&#39;t feel quite complete. As an example, to include an image on a page, I can write something like <code>\&lt;html:img&gt;&#91;src&#93;&#123;photo.png&#125;</code> which is easy enough. But what if I want to inject more attributes to the HTML element here, such as the <code>max-width</code> of the image? That was not clear to me in my readings of the source code and syntax reference.</p>
+</li>
+<li><p>Although I thought that the transclusion methods of Forester by default are great, it does not appear to me how one can reference sections of a note via transclusion. For example, within my markdown set-up, not only can I reference other notes, I can also link to the direct section within a particular note. I have not seen any such &quot;section referencing&quot; capabilities available in Forester if I just want to transclude &quot;part&quot; of a note.</p>
+</li>
+<li><p>Lack of interoperability with other note types or note systems. As I mentioned, I still have \(\approx 600\) markdown notes within my personal Zettelkasten so being able to go between other note types is crucial. What&#39;s more, related to this problem, is that markdown or \(\LaTeX\) is far more ubiquitous and accessible across multiple platforms if I need to preview or reference something on the spot. I haven&#39;t yet seen this available with <code>tree</code> files yet. </p>
 </li>
 </ul>
-<p>This includes more ergonomic syntax for including images, code blocks, quote blocks, etc. that I rely on within markdown.</p>
-<ul>
-<li><p>The wrapping around HTML elements doesn&#39;t feel quite complete.</p>
-</li>
-</ul>
-<p>As an example, to include an image on a page, I can write something like <code>\&lt;html:img&gt;&#91;src&#93;&#123;photo.png&#125;</code> which is easy enough. But what if I want to inject more attributes to the HTML element here, such as the <code>max-width</code> of the image? That was not clear to me in my readings of the source code and syntax reference.</p>
-<ul>
-<li><p>Although I thought that the transclusion methods of Forester by default are great, it does not appear to me how one can reference sections of a note via transclusion.</p>
-</li>
-</ul>
-<p>For example, within my markdown set-up, not only can I reference other notes, I can also link to the direct section within a particular note. I have not seen any such &quot;section referencing&quot; capabilities available in Forester if I just want to transclude &quot;part&quot; of a note.</p>
-<ul>
-<li><p>Lack of interoperability with other note types or note systems.</p>
-</li>
-</ul>
-<p>As I mentioned, I still have \(\approx 600\) markdown notes within my personal Zettelkasten so being able to go between other note types is crucial. What&#39;s more, related to this problem, is that markdown or \(\LaTeX\) is far more ubiquitous and accessible across multiple platforms if I need to preview or reference something on the spot. I haven&#39;t yet seen this available with <code>tree</code> files yet.</p>
 <p>With that all to say, if I had started my personal Zettelkasten journey with Forester, I think I probably would&#39;ve figured out ways to get around all these issues. As of now, these issues prevent me from wanting to move my entire Zettelkasten over to the system.</p>
 <p>However, with that said, I think I actually will try giving Forester more of a test with some of my mathematics studies and research. It&#39;s first rate support for mathematics is superb and although the workflow is quite minimal at the time, while writing some notes in the <code>tree</code> files, I was beginning to see just how natural and ergonomic it was to write within the system. Depending on how things go with my experiments with Forester, I may end up having to write a parser of some kind in the near future&#33;</p>
 <p>If you use or have used Forester, please let me know your experience with it and comment below – would love to hear about your experiences&#33;</p>
