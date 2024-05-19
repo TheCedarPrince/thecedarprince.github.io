@@ -11,6 +11,24 @@ The titles, date, summaries, and key words of a blog are provided per entry
 
     	<br>
 
+    	<span class = post-item id = thoughts-on-forester:-a-scientist's-zettelkasten>
+             		<a href = http://jacobzelko.com/05172024064639-forest-zettelkasten/>
+                      			<strong>
+                               				Thoughts on Forester: A Scientist's Zettelkasten
+                      			</strong>
+                      			[May 17 2024]
+             		</a>
+             		<br>
+                      			Some preliminary and early thoughts on Forester, a robust tool for scientists and mathematicians in developing and working with one's own Zettelkasten.
+             		<br>
+                      			#blog #forester #sterling #zettelkasten #tool #thought #open #source #note #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = early-impressions-of-bluesky>
              		<a href = http://jacobzelko.com/11242023193535-impressions-bluesky/>
                       			<strong>

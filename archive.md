@@ -10,6 +10,42 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = thoughts-on-forester:-a-scientist's-zettelkasten>
+             		<a href = http://jacobzelko.com/05172024064639-forest-zettelkasten/>
+                      			<strong>
+                               				Thoughts on Forester: A Scientist's Zettelkasten
+                      			</strong>
+                      			[May 17 2024]
+             		</a>
+             		<br>
+                      			Some preliminary and early thoughts on Forester, a robust tool for scientists and mathematicians in developing and working with one's own Zettelkasten.
+             		<br>
+                      			#blog #forester #sterling #zettelkasten #tool #thought #open #source #note #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = category-theory>
+             		<a href = http://jacobzelko.com/01132024210133-category-theory-awodey/>
+                      			<strong>
+                               				Category Theory
+                      			</strong>
+                      			[Jan 13 2024]
+             		</a>
+             		<br>
+                      			An introduction to category theory designed to help students with some mathematics knowledge
+             		<br>
+                      			#category #theory #textbook #archive #introduction
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = early-impressions-of-bluesky>
              		<a href = http://jacobzelko.com/11242023193535-impressions-bluesky/>
                       			<strong>
@@ -460,24 +496,6 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
-    	<span class = post-item id = julia-for-biologists>
-             		<a href = http://jacobzelko.com/04212023233455-julia-biologists/>
-                      			<strong>
-                               				Julia for Biologists
-                      			</strong>
-                      			[Apr 21 2023]
-             		</a>
-             		<br>
-                      			Paper why Julia can be a perfect tool for biology-based research.
-             		<br>
-                      			#archive ##bibliography #biology #julia
-             		<br>
-    	</span>
-
-    	<br>
-
-    	<br>
-
     	<span class = post-item id = developing-a-robust-computable-phenotype-definition-workflow-to-describe-health-and-disease-in-observational-health-research>
              		<a href = http://jacobzelko.com/01102023212115-computable-phenotypes/>
                       			<strong>
@@ -848,7 +866,7 @@ The titles, creation dates, summaries, and key words of a note are provided per 
              		<br>
                       			How the preimage appears in elements, sets, and functions
              		<br>
-                      			#archive #sets #preimage #elements #functions
+                      			#archive #sets #preimage #elements #functions #inverse #image
              		<br>
     	</span>
 
@@ -1270,6 +1288,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
+    	<span class = post-item id = scrcpy-screen-copy>
+             		<a href = http://jacobzelko.com/05232022035841-scrcpy-screen-copy/>
+                      			<strong>
+                               				Scrcpy Screen Copy
+                      			</strong>
+                      			[May 22 2022]
+             		</a>
+             		<br>
+                      			missing
+             		<br>
+                      			#howto #screen #share #foss #android #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
     	<span class = post-item id = what-is->
              		<a href = http://jacobzelko.com/05222022044134-normal-science/>
                       			<strong>
@@ -1371,24 +1407,6 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			An overview on this excellent book on media philosophy and media's intersection with society and its affects on people and community as well as eerie premonitions for the future of a technological age.
              		<br>
                       			##book #review #media #extensions #anxiety #society #medium #global #village #technology #archive
-             		<br>
-    	</span>
-
-    	<br>
-
-    	<br>
-
-    	<span class = post-item id = scrcpy-screen-copy>
-             		<a href = http://jacobzelko.com/05232022035841-scrcpy-screen-copy/>
-                      			<strong>
-                               				Scrcpy Screen Copy
-                      			</strong>
-                      			[May 22 2022]
-             		</a>
-             		<br>
-                      			missing
-             		<br>
-                      			#howto #screen #share #foss #android #archive
              		<br>
     	</span>
 
@@ -2008,24 +2026,6 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
     	<br>
 
-    	<span class = post-item id = prelude---haskell's-standard-library>
-             		<a href = http://jacobzelko.com/11032021171123-prelude-haskell-library/>
-                      			<strong>
-                               				Prelude - Haskell's Standard Library
-                      			</strong>
-                      			[Nov 3 2021]
-             		</a>
-             		<br>
-                      			An overview of important components from Haskell's standard
-             		<br>
-                      			#library #package #standard #prelude #haskell #programming #archive
-             		<br>
-    	</span>
-
-    	<br>
-
-    	<br>
-
     	<span class = post-item id = notes-on-programming-in-haskell>
              		<a href = http://jacobzelko.com/11032021155827-haskell-programming/>
                       			<strong>
@@ -2037,6 +2037,24 @@ The titles, creation dates, summaries, and key words of a note are provided per 
                       			My notes on an overview and summary on how to use Haskell
              		<br>
                       			#syntax ##summary #haskell #programming #languages #archive
+             		<br>
+    	</span>
+
+    	<br>
+
+    	<br>
+
+    	<span class = post-item id = prelude---haskell's-standard-library>
+             		<a href = http://jacobzelko.com/11032021171123-prelude-haskell-library/>
+                      			<strong>
+                               				Prelude - Haskell's Standard Library
+                      			</strong>
+                      			[Nov 3 2021]
+             		</a>
+             		<br>
+                      			An overview of important components from Haskell's standard
+             		<br>
+                      			#library #package #standard #prelude #haskell #programming #archive
              		<br>
     	</span>
 
