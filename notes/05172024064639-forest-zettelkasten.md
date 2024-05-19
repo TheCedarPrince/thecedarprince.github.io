@@ -37,7 +37,7 @@ In discussion with my friend and mentor, [Dr. Evan Patterson](https://jacobzelko
 
 In my mind, it feels to me that Forester really nailed how transclusions should work in a Zettelkasten type of workflow. In my mind, it is the perfect ambient environment for quickly building and stringing ideas together in coherent and yet atomic ways. Here's an example of it in action:
 
-![](assets/05182024220110-forester-transclude.gif)
+![](https://jacobzelko.com/assets/05182024220110-forester-transclude.gif)
 
 > **Forester Transclusion:** As one can see, the transclusion is snappy, encourages from its foundation the creation of small pieces of information as different files, and is easy to put together.
 
@@ -107,7 +107,7 @@ As Forester is still quite new, it is understandable if the workflow isn't quite
 
 Here's an example of the workflow in action:
 
-![](assets/05192024172349-forester-preview.gif)
+![](https://jacobzelko.com/assets/05192024172349-forester-preview.gif)
 
 The key command here I use is the function `forest watch 1234 -- "build forest.toml"` in the base of my "forest". As I save my file, the command to build the forest is triggered and updates the note rather quickly. There is some flashing going on with the updating that I do not know how to fix – can be a bit jarring but is mostly fine.
 
