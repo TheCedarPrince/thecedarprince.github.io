@@ -1,20 +1,17 @@
-using CSV
-using DataFrames
-using Dates
-
 """
     {{ addcomments }}
 
-TODO: Add set-up information for this 
-
-Add a comment widget, managed by giscus <https://giscus.app>.
+Add a comment widget, managed by Talkyard <https://talkyard.io>. The discussion id is
+derived from the current page's own source path (e.g. `notes/aaa-0277` -> `aaa-0277`)
+so every page gets its own persistent discussion thread instead of sharing one blank id.
 """
 function hfun_addcomments()
+    discussion_id = basename(locvar(:fd_rpath))
 
     html_string = """
     <script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
     <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
-    <div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+    <div class="talkyard-comments" data-discussion-id="$(discussion_id)" style="margin-top: 45px;">
         <noscript>Please enable Javascript to view comments.</noscript>
     </div>
     """
