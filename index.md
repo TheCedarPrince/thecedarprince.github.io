@@ -40,11 +40,9 @@ The main sections are broken up as follows:
 
 - [Blog](/blog/) - long-form and self-contained pieces.
 
-- [Archive](/archive/) - every page on this website - mostly works in progress.
+- [Notes](/notes/) - every page on this website - mostly works in progress.
 
-- [Hiring](/hiring/) - my personal hiring options and my curriculum vitae
-
-- [Open Projects](/projects/) - open projects that I am happy to mentor or support.
+- [Projects](/projects/) - open projects that I am happy to mentor or support.
 
 - [Resources](/resources/) - resources on interacting with me, this website, and more.
 

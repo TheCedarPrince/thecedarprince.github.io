@@ -11,17 +11,17 @@ The titles, date, summaries, and key words of a blog are provided per entry
 
 	<br>
 
-	<span class = post-item id = what-mathematicians-mean-when-they-say-syntax-vs.-semantics>
-         		<a href = /notes/aaa-0046/>
+	<span class = post-item id = translational-applied-category-theory>
+         		<a href = /notes/aaa-0281/>
                   			<strong>
-                           				What Mathematicians Mean When They Say Syntax vs. Semantics
+                           				Translational Applied Category Theory
                   			</strong>
-                  			[August 14, 2024]
+                  			[August 6, 2026]
          		</a>
          		<br>
-                  			Ideas about what syntax versus semantics
+                  			Translational applied category theory (TACT) and how it differs from applied category theory
          		<br>
-                  			language, mathematics, terminology
+                  			translational, science, applied, category, theory
          		<br>
 	</span>
 
