@@ -38,24 +38,19 @@
     <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
     <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
-    <!--SUPPORT FOR LUNR-->
-    <script src="/libs/lunr/lunr.min.js"></script>
-    <script src="/libs/lunr/lunr_index.js"></script>
-    <script src="/libs/lunr/lunrclient.min.js"></script>
+    <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-component-ui.js" type="module"></script>
 
-    <!--FLOATING HELP BUTTON-->
-    <div class="action">
+    <div class="action" data-pagefind-ignore>
       <button></button>
       <ul>
         <li><a href="#">Top of Page</a></li>
         <li><a href="#discussion">Discussion</a></li> 
         <hr>
-        <li><a href="/">Home</a></li>
         <li><a href="/blog">Blog</a></li>
-        <li><a href="/archive">Archive</a></li>
-        <li><a href="/resources">Contact</a></li>
-        <li><a href="/hiring">Hiring</a></li>
-        <li><a href="/projects">Open Projects</a></li>
+        <li><a href="/notes">Notes</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/ideas">Ideas</a></li>
       </ul>
     </div>
 
@@ -64,7 +59,9 @@
 </head>
 
 
-<body>
-    {{insert header.html}} {{addsearchbar}}
+<body data-pagefind-body>
+    <div data-pagefind-ignore>
+        {{insert header.html}} {{addsearchbar}}
+    </div>
 
     <!-- Content appended here -->
