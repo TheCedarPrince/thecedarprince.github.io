@@ -720,12 +720,62 @@ body.darkmode--activated {
     --pf-modal-backdrop: rgba(0, 0, 0, 0.7);
 }
 
-.resultCount {
-    color: #808080;
+/* ==================================================================
+    PYGMENTS (for languages highlight.js can't do, e.g. Idris)
+    Produced by minted.4ht + highlight_post.py. Matches the
+    .hljs / Gruvbox theme above, scoped to darkmode-js's toggle class
+    (this site doesn't use prefers-color-scheme).
+================================================================== */
+
+.highlight {
+    display: block;
+    background: var(--output-background, hsl(0, 0%, 98%));
+    border-radius: 10px;
+    font-size: var(--small);
+    line-height: 1.35em;
+    padding: 0.8em 1em;
+    overflow-x: auto;
 }
 
-.result-query {
-    font-weight: bold;
+.highlight code {
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    font-size: inherit;
 }
 
-#lunrSearchForm {}
+/* Token colors, light mode */
+.highlight .c, .highlight .c1, .highlight .cm { color: #767676; font-style: italic; } /* comment */
+.highlight .k, .highlight .kr, .highlight .kd { color: #a626a4; }                     /* keyword */
+.highlight .kt { color: #986801; }                                                    /* type */
+.highlight .nf, .highlight .nc { color: #4078f2; }                                    /* function/class name */
+.highlight .nb, .highlight .nv { color: #004de6; }                                    /* builtin/variable */
+.highlight .na { color: #986801; }                                                    /* attribute */
+.highlight .s, .highlight .s1, .highlight .s2 { color: #50a14f; }                      /* string */
+.highlight .mi, .highlight .mf { color: #a626a4; }                                    /* number */
+.highlight .o, .highlight .ow { color: inherit; }                                     /* operator */
+
+/* Token colors, dark mode -- mirrors the Gruvbox palette used for .hljs above */
+body.darkmode--activated .highlight {
+    background: var(--output-background);
+}
+body.darkmode--activated .highlight .c,
+body.darkmode--activated .highlight .c1,
+body.darkmode--activated .highlight .cm { color: #928374; font-style: italic; }       /* Gruvbox Gray */
+body.darkmode--activated .highlight .k,
+body.darkmode--activated .highlight .kr,
+body.darkmode--activated .highlight .kd { color: #fb4934; }                           /* Gruvbox Red */
+body.darkmode--activated .highlight .kt,
+body.darkmode--activated .highlight .na { color: #fabd2f; }                           /* Gruvbox Yellow */
+body.darkmode--activated .highlight .nf,
+body.darkmode--activated .highlight .nc { color: #8ec07c; }                           /* Gruvbox Aqua */
+body.darkmode--activated .highlight .nb,
+body.darkmode--activated .highlight .nv { color: #83a598; }                           /* Gruvbox Blue */
+body.darkmode--activated .highlight .s,
+body.darkmode--activated .highlight .s1,
+body.darkmode--activated .highlight .s2 { color: #b8bb26; }                           /* Gruvbox Green */
+body.darkmode--activated .highlight .mi,
+body.darkmode--activated .highlight .mf { color: #d3869b; }                           /* Gruvbox Purple */
+body.darkmode--activated .highlight .o,
+body.darkmode--activated .highlight .ow { color: inherit; }
+
