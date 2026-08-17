@@ -457,12 +457,37 @@ code {
     DARKMODE STYLING
 ================================================================== */
 
-/* 
+/* ==================================================================
+    DARKMODE STYLING
+================================================================== */
 
-NOTE: The following settings copy the Gruvbox style (dark) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox) design -- additionally, credit to Fredrik Ekre for this Franklin adaptation.
+/*
 
+Gruvbox-inspired dark palette (c) Pavel Pertsev (https://github.com/morhetz/gruvbox),
+Franklin adaptation credit: Fredrik Ekre.
+
+Rather than relying on darkmode-js's default white-layer mix-blend-mode
+inversion (which just flips white->black and leaves no room for
+intentional contrast), we define our own dark tokens and apply them
+directly. This also means the "too dark" / "blends into background"
+issues go away, since panels are now a lighter step than the page bg.
 */
- 
+
+body.darkmode--activated {
+    --page-background: #282828;   /* gruvbox bg0 */
+    --block-background: #3c3836;  /* gruvbox bg1 - one step lighter than page */
+    --output-background: #32302f; /* gruvbox bg0_s - subtle step for code output */
+    --text-color: #ebdbb2;        /* gruvbox fg1 */
+    --link-color: #83a598;        /* gruvbox blue */
+    --border-color: #504945;      /* gruvbox bg2 */
+}
+
+html.darkmode--activated,
+body.darkmode--activated {
+    background-color: var(--page-background);
+    transition: background-color 0.3s ease;
+}
+
 .darkmode--activated p,
 .darkmode--activated h1,
 .darkmode--activated h2,
@@ -472,17 +497,67 @@ NOTE: The following settings copy the Gruvbox style (dark) (c) Pavel Pertsev (or
 .darkmode--activated span,
 .darkmode--activated li,
 .darkmode--activated td,
+.darkmode--activated th,
 .darkmode--activated ol {
-    color: #ECEFF4;
+    color: var(--text-color);
 }
 
+/* Headings: swap the light-grey rules to something visible on dark bg */
+.darkmode--activated .franklin-content h1,
+.darkmode--activated .franklin-content h2 {
+    border-color: var(--border-color);
+}
+
+/* Links */
+.darkmode--activated a {
+    color: var(--link-color);
+}
+
+/* Tables */
+.darkmode--activated .franklin-content th,
+.darkmode--activated .franklin-content td {
+    border-color: var(--border-color);
+}
+
+/* Blockquotes / notes - now a visible step lighter than the page */
+.darkmode--activated blockquote {
+    background-color: var(--block-background);
+    border-left-color: #7c6f64;
+}
+
+/* colbox-blue note boxes */
+.darkmode--activated .franklin-content .colbox-blue {
+    background-color: var(--block-background);
+    border-left-color: #83a598;
+}
+
+/* Math images (make4ht/dvisvgm output) render black-on-transparent by
+   default and would be nearly invisible against the dark background.
+   Since this site's dark mode is deliberate, hand-picked tokens rather
+   than a blanket invert layer (see note above), this is one targeted
+   invert specifically for math renders -- not a general rule, and not
+   reliant on the disabled darkmode-layer/prefers-color-scheme
+   mechanisms this site intentionally doesn't use. */
+.darkmode--activated .franklin-content .math-display img {
+    filter: invert(1);
+}
+
+/* Code blocks / output */
 .darkmode--activated .hljs,
 .darkmode--activated .hljs-subst {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #282828;
-  color: #ebdbb2;
+    background: var(--output-background);
+    color: #ebdbb2;
+}
+
+.darkmode--activated .code-output {
+    background: var(--output-background);
+    border-color: var(--border-color);
+}
+
+/* Footer + horizontal rules, so they don't vanish against the new bg */
+.darkmode--activated .page-foot {
+    border-top-color: var(--border-color);
+    color: #928374;
 }
 
 /* Gruvbox Red */
@@ -498,7 +573,6 @@ NOTE: The following settings copy the Gruvbox style (dark) (c) Pavel Pertsev (or
 .darkmode--activated .hljs-built_in,
 .darkmode--activated .hljs-emphasis,
 .darkmode--activated .hljs-name,
-.darkmode--activated a,
 .darkmode--activated .hljs-quote,
 .darkmode--activated .hljs-strong,
 .darkmode--activated .hljs-title,
