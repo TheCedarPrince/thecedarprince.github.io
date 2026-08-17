@@ -651,13 +651,26 @@ body.darkmode--activated {
   font-weight: bold;
 }
 
-.darkmode--activated blockquote {
-    background-color: #282828;
-}
-
 .darkmode-toggle {
     z-index: 500;
 }
+
+/*
+darkmode-js normally fakes dark mode with a mix-blend-mode: difference
+layer that inverts the whole page. We're doing real theming above
+instead, so neutralize that layer/background entirely -- otherwise it
+double-inverts our explicit colors (part of why things looked "off").
+The toggle button + localStorage/OS-preference detection still work
+fine; only the animated invert-wipe visual is disabled.
+*/
+.darkmode-layer {
+    display: none !important;
+}
+
+.darkmode-background {
+    background: var(--page-background, #fff) !important;
+}
+
 
 /* ==================================================================
     LUNR STYLING
