@@ -670,4 +670,62 @@ begin:"^[-\\*]{3,}",end:"$"},i,{begin:/^\[[^\n]+\]:/,returnBegin:!0,contains:[{
 className:"symbol",begin:/\[/,end:/\]/,excludeBegin:!0,excludeEnd:!0},{
 className:"link",begin:/:\s*/,end:/$/,excludeBegin:!0}]}]}}})());
 hljs.registerLanguage("julia-repl",function(a){return{c:[{cN:"meta",b:/^julia>/,r:10,starts:{e:/^(?![ ]{6})/,sL:"julia"}},{cN:"metas",b:/^shell>/,r:10,starts:{e:/^(?![ ]{6})/,sL:"bash"}},{cN:"metap",b:/^\(.*\)\spkg>/,r:10,starts:{e:/^(?![ ]{6})/,sL:"julia"}}]}});
+hljs.registerLanguage("idris2", function (hljs) {
+  const KEYWORDS = [
+    "module", "import", "where", "data", "record", "interface",
+    "implementation", "class", "instance", "do", "let", "in", "case",
+    "of", "if", "then", "else", "total", "partial", "covering", "mutual",
+    "namespace", "using", "parameters", "postulate", "rewrite", "with",
+    "auto", "default", "public", "export", "private",
+    "infixl", "infixr", "infix", "prefix", "forall"
+  ].join(" ");
+  const LITERALS = ["True", "False"].join(" ");
 
+  const DOC_COMMENT = {
+    className: "comment",
+    begin: /\|\|\|/,
+    end: /$/,
+    relevance: 0
+  };
+
+  const LINE_COMMENT = hljs.COMMENT("--", "$");
+
+  const BLOCK_COMMENT = {
+    className: "comment",
+    begin: /\{-/,
+    end: /-\}/,
+    contains: ["self"]
+  };
+
+  const CHAR = {
+    className: "string",
+    begin: /'/,
+    end: /'/,
+    illegal: /\n/,
+    contains: [hljs.BACKSLASH_ESCAPE]
+  };
+
+  return {
+    name: "Idris2",
+    aliases: ["idris", "idr"],
+    keywords: { keyword: KEYWORDS, literal: LITERALS },
+    contains: [
+      DOC_COMMENT,
+      LINE_COMMENT,
+      BLOCK_COMMENT,
+      hljs.QUOTE_STRING_MODE,
+      CHAR,
+      hljs.C_NUMBER_MODE,
+      {
+        className: "title",
+        begin: /^[a-z_][A-Za-z0-9_']*(?=\s*:(?!:))/,
+        relevance: 0
+      },
+      {
+        className: "type",
+        begin: /\b[A-Z][A-Za-z0-9_']*\b/,
+        relevance: 0
+      }
+    ]
+  };
+});
