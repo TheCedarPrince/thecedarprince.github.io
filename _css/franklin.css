@@ -330,6 +330,31 @@ td {
 }
 
 /* ==================================================================
+    MAKE4HT MATH IMAGES
+
+    make4ht (via dvisvgm) renders LaTeX display-math as an <img> inside
+    a div.math-display wrapper, sized to its own natural dimensions.
+    The blanket ".franklin-content img" rule above is meant for regular
+    content photos/figures and forces every image to 95% of the column
+    width regardless of its actual size -- for a small inline-sized math
+    render, that blows it up far past its intended size. This overrides
+    width/padding back to the image's own natural size specifically for
+    math images, without touching the general image rule above. Applies
+    site-wide, to every note, since make4ht always emits this same
+    class regardless of which note it came from.
+================================================================== */
+
+.franklin-content .math-display img,
+.franklin-content img.math {
+    width: auto;
+    height: .85em;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    display: inline-block;
+}
+
+/* ==================================================================
     KATEX
 ================================================================== */
 
