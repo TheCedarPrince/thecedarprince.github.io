@@ -673,19 +673,51 @@ fine; only the animated invert-wipe visual is disabled.
 
 
 /* ==================================================================
-    LUNR STYLING
+    PAGEFIND SEARCH (Component UI: click or press Ctrl+K / Cmd+K)
 ================================================================== */
 
-.result-title a {
-    text-decoration: none;
+.site-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25em 0;
+    padding: 0 12.5%;
 }
 
-.result-title a:hover {
-    text-decoration: underline;
+@media (max-width: 600px) {
+    .site-search {
+        padding: 0 6%;
+    }
 }
 
-.result-preview {
-    color: #808080;
+:root {
+    --pf-text: var(--text-color);
+    --pf-text-secondary: #666666;
+    --pf-text-muted: #767676;
+    --pf-background: #ffffff;
+    --pf-border: lightgrey;
+    --pf-border-focus: #004de6;
+    --pf-hover: #f2f2f2;
+    --pf-mark: #004de6;
+    --pf-outline-focus: #004de6;
+    --pf-font: Helvetica, Arial, sans-serif;
+    --pf-border-radius: 10px;
+}
+
+/* Gruvbox-matched dark mode, mirroring the darkmode--activated tokens above.
+   Custom properties inherit through the shadow DOM, so this reaches the
+   Pagefind components without needing the data-pf-theme attribute. */
+body.darkmode--activated {
+    --pf-text: #ebdbb2;
+    --pf-text-secondary: #bdae93;
+    --pf-text-muted: #928374;
+    --pf-background: #282828;
+    --pf-border: #504945;
+    --pf-border-focus: #83a598;
+    --pf-hover: #3c3836;
+    --pf-mark: #fabd2f;
+    --pf-outline-focus: #83a598;
+    --pf-modal-backdrop: rgba(0, 0, 0, 0.7);
 }
 
 .resultCount {
