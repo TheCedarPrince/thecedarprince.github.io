@@ -672,12 +672,12 @@ className:"link",begin:/:\s*/,end:/$/,excludeBegin:!0}]}]}}})());
 hljs.registerLanguage("julia-repl",function(a){return{c:[{cN:"meta",b:/^julia>/,r:10,starts:{e:/^(?![ ]{6})/,sL:"julia"}},{cN:"metas",b:/^shell>/,r:10,starts:{e:/^(?![ ]{6})/,sL:"bash"}},{cN:"metap",b:/^\(.*\)\spkg>/,r:10,starts:{e:/^(?![ ]{6})/,sL:"julia"}}]}});
 hljs.registerLanguage("idris2", function (hljs) {
   const KEYWORDS = [
-    "module", "import", "where", "data", "record", "interface",
-    "implementation", "class", "instance", "do", "let", "in", "case",
-    "of", "if", "then", "else", "total", "partial", "covering", "mutual",
-    "namespace", "using", "parameters", "postulate", "rewrite", "with",
-    "auto", "default", "public", "export", "private",
-    "infixl", "infixr", "infix", "prefix", "forall"
+    "module", "namespace", "import", "data", "record", "interface",
+    "implementation", "where", "public", "abstract", "private", "export",
+    "parameters", "mutual", "using", "total", "partial", "covering",
+    "auto", "impossible", "default", "constructor", "do", "case", "of",
+    "rewrite", "with", "proof", "let", "in", "forall", "if", "then",
+    "else", "prefix", "infix", "infixl", "infixr"
   ].join(" ");
   const LITERALS = ["True", "False"].join(" ");
 
@@ -705,6 +705,17 @@ hljs.registerLanguage("idris2", function (hljs) {
     contains: [hljs.BACKSLASH_ESCAPE]
   };
 
+  // %hide, %logging, %language, etc. -- rather than enumerate the vim
+  // source's full fixed list, match any %-prefixed identifier so new
+  // pragmas don't silently fall through unhighlighted.
+  const PRAGMA = { className: "meta", begin: /%[a-zA-Z_][a-zA-Z0-9_]*/ };
+
+  // Elaborator-reflection metavariables, e.g. ?hole
+  const METAVAR = { className: "meta", begin: /\?[a-zA-Z_][A-Za-z0-9_']*/ };
+
+  // Backtick-quoted infix identifiers, e.g. `div` in `x `div` y`
+  const BACKTICK = { className: "operator", begin: /`[A-Za-z][A-Za-z0-9_']*`/ };
+
   return {
     name: "Idris2",
     aliases: ["idris", "idr"],
@@ -713,6 +724,9 @@ hljs.registerLanguage("idris2", function (hljs) {
       DOC_COMMENT,
       LINE_COMMENT,
       BLOCK_COMMENT,
+      PRAGMA,
+      METAVAR,
+      BACKTICK,
       hljs.QUOTE_STRING_MODE,
       CHAR,
       hljs.C_NUMBER_MODE,
@@ -726,6 +740,68 @@ hljs.registerLanguage("idris2", function (hljs) {
         begin: /\b[A-Z][A-Za-z0-9_']*\b/,
         relevance: 0
       }
+    ]
+  };
+});
+hljs.registerLanguage("catala", function (hljs) {
+  const KEYWORDS = [
+    "scope", "depends", "on", "declaration", "includes", "list", "of",
+    "optional", "content", "type", "structure", "enumeration", "context",
+    "rule", "under", "condition", "data", "consequence", "fulfilled",
+    "equals", "assertion", "definition", "state", "label", "exception",
+    "anything", "empty", "match", "with", "pattern", "but", "replace",
+    "fixed", "by", "down", "up", "varies", "we", "have", "let", "in",
+    "such", "that", "exists", "for", "all", "if", "then", "else",
+    "initial", "among", "is", "maximum", "minimum", "combine", "map",
+    "each", "to", "initially", "sort", "increasing", "decreasing",
+    "order", "and", "impossible", "not", "or", "xor", "month", "year",
+    "day", "input", "output", "internal"
+  ].join(" ");
+
+  // From the official vim grammar's Type group.
+  const TYPES = [
+    "integer", "boolean", "date", "duration", "money", "code_location",
+    "decimal", "number", "sum"
+  ].join(" ");
+
+  const LITERALS = ["true", "false"].join(" ");
+
+  // Suffixed arithmetic/comparison operators (Catala suffixes an operator
+  // with ".", "@", "^", or "$" to indicate decimal/money/duration/date
+  // operands), plus "->", "=", "$", "%".
+  const OPERATOR = {
+    className: "operator",
+    begin: /->|[+\-*/][.@^$]?|!|[<>]=?[.@^$]?|=|\$|%/,
+    relevance: 0
+  };
+
+  // Structure/enumeration/scope names -- colored as "type", matching the
+  // vim grammar's cc_id -> Type link, not as a function/title color.
+  const TYPE_NAME = {
+    className: "type",
+    begin: /\b[A-ZÉÈÀÂÙÎÔÊŒÇ][A-Za-zÉÈÀÂÙÎÔÊŒÇéèàâùîôêœç0-9_']*\b/,
+    relevance: 0
+  };
+
+  return {
+    name: "Catala",
+    aliases: ["catala_en"],
+    case_insensitive: false,
+    keywords: { keyword: KEYWORDS, type: TYPES, literal: LITERALS },
+    contains: [
+      hljs.COMMENT(/#(?!\[)/, "$"),
+      {
+        className: "meta",
+        begin: /#\[/,
+        end: /\]/,
+        contains: [hljs.QUOTE_STRING_MODE]
+      },
+      hljs.QUOTE_STRING_MODE,
+      { className: "number", begin: /\|[0-9]+-[0-9]+-[0-9]+\|/ },       // date literal
+      { className: "number", begin: /\$[0-9][0-9,]*(\.[0-9]+)?/ },      // money literal
+      { className: "number", begin: /\b[0-9][0-9,]*(\.[0-9]+)?%?/ },     // plain number / percent
+      OPERATOR,
+      TYPE_NAME
     ]
   };
 });
