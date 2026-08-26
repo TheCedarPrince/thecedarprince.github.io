@@ -2,7 +2,7 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "Jacob Zelko"
+author = "Jacob S. Zelko"
 mintoclevel = 2
 image = "https://jacobzelko.com/assets/tcp.png"
 
@@ -10,7 +10,7 @@ image = "https://jacobzelko.com/assets/tcp.png"
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
-ignore = ["node_modules/"]
+ignore = ["node_modules/", "deploy/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 website_title = "the cedar ledge"

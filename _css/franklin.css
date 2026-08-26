@@ -330,6 +330,31 @@ td {
 }
 
 /* ==================================================================
+    MAKE4HT MATH IMAGES
+
+    make4ht (via dvisvgm) renders LaTeX display-math as an <img> inside
+    a div.math-display wrapper, sized to its own natural dimensions.
+    The blanket ".franklin-content img" rule above is meant for regular
+    content photos/figures and forces every image to 95% of the column
+    width regardless of its actual size -- for a small inline-sized math
+    render, that blows it up far past its intended size. This overrides
+    width/padding back to the image's own natural size specifically for
+    math images, without touching the general image rule above. Applies
+    site-wide, to every note, since make4ht always emits this same
+    class regardless of which note it came from.
+================================================================== */
+
+.franklin-content .math-display img,
+.franklin-content img.math {
+    width: auto;
+    height: .85em;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    display: inline-block;
+}
+
+/* ==================================================================
     KATEX
 ================================================================== */
 
@@ -432,12 +457,37 @@ code {
     DARKMODE STYLING
 ================================================================== */
 
-/* 
+/* ==================================================================
+    DARKMODE STYLING
+================================================================== */
 
-NOTE: The following settings copy the Gruvbox style (dark) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox) design -- additionally, credit to Fredrik Ekre for this Franklin adaptation.
+/*
 
+Gruvbox-inspired dark palette (c) Pavel Pertsev (https://github.com/morhetz/gruvbox),
+Franklin adaptation credit: Fredrik Ekre.
+
+Rather than relying on darkmode-js's default white-layer mix-blend-mode
+inversion (which just flips white->black and leaves no room for
+intentional contrast), we define our own dark tokens and apply them
+directly. This also means the "too dark" / "blends into background"
+issues go away, since panels are now a lighter step than the page bg.
 */
- 
+
+body.darkmode--activated {
+    --page-background: #282828;   /* gruvbox bg0 */
+    --block-background: #3c3836;  /* gruvbox bg1 - one step lighter than page */
+    --output-background: #32302f; /* gruvbox bg0_s - subtle step for code output */
+    --text-color: #ebdbb2;        /* gruvbox fg1 */
+    --link-color: #83a598;        /* gruvbox blue */
+    --border-color: #504945;      /* gruvbox bg2 */
+}
+
+html.darkmode--activated,
+body.darkmode--activated {
+    background-color: var(--page-background);
+    transition: background-color 0.3s ease;
+}
+
 .darkmode--activated p,
 .darkmode--activated h1,
 .darkmode--activated h2,
@@ -447,17 +497,67 @@ NOTE: The following settings copy the Gruvbox style (dark) (c) Pavel Pertsev (or
 .darkmode--activated span,
 .darkmode--activated li,
 .darkmode--activated td,
+.darkmode--activated th,
 .darkmode--activated ol {
-    color: #ECEFF4;
+    color: var(--text-color);
 }
 
+/* Headings: swap the light-grey rules to something visible on dark bg */
+.darkmode--activated .franklin-content h1,
+.darkmode--activated .franklin-content h2 {
+    border-color: var(--border-color);
+}
+
+/* Links */
+.darkmode--activated a {
+    color: var(--link-color);
+}
+
+/* Tables */
+.darkmode--activated .franklin-content th,
+.darkmode--activated .franklin-content td {
+    border-color: var(--border-color);
+}
+
+/* Blockquotes / notes - now a visible step lighter than the page */
+.darkmode--activated blockquote {
+    background-color: var(--block-background);
+    border-left-color: #7c6f64;
+}
+
+/* colbox-blue note boxes */
+.darkmode--activated .franklin-content .colbox-blue {
+    background-color: var(--block-background);
+    border-left-color: #83a598;
+}
+
+/* Math images (make4ht/dvisvgm output) render black-on-transparent by
+   default and would be nearly invisible against the dark background.
+   Since this site's dark mode is deliberate, hand-picked tokens rather
+   than a blanket invert layer (see note above), this is one targeted
+   invert specifically for math renders -- not a general rule, and not
+   reliant on the disabled darkmode-layer/prefers-color-scheme
+   mechanisms this site intentionally doesn't use. */
+.darkmode--activated .franklin-content .math-display img {
+    filter: invert(1);
+}
+
+/* Code blocks / output */
 .darkmode--activated .hljs,
 .darkmode--activated .hljs-subst {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #282828;
-  color: #ebdbb2;
+    background: var(--output-background);
+    color: #ebdbb2;
+}
+
+.darkmode--activated .code-output {
+    background: var(--output-background);
+    border-color: var(--border-color);
+}
+
+/* Footer + horizontal rules, so they don't vanish against the new bg */
+.darkmode--activated .page-foot {
+    border-top-color: var(--border-color);
+    color: #928374;
 }
 
 /* Gruvbox Red */
@@ -473,7 +573,6 @@ NOTE: The following settings copy the Gruvbox style (dark) (c) Pavel Pertsev (or
 .darkmode--activated .hljs-built_in,
 .darkmode--activated .hljs-emphasis,
 .darkmode--activated .hljs-name,
-.darkmode--activated a,
 .darkmode--activated .hljs-quote,
 .darkmode--activated .hljs-strong,
 .darkmode--activated .hljs-title,
@@ -552,36 +651,131 @@ NOTE: The following settings copy the Gruvbox style (dark) (c) Pavel Pertsev (or
   font-weight: bold;
 }
 
-.darkmode--activated blockquote {
-    background-color: #282828;
-}
-
 .darkmode-toggle {
     z-index: 500;
 }
 
+/*
+darkmode-js normally fakes dark mode with a mix-blend-mode: difference
+layer that inverts the whole page. We're doing real theming above
+instead, so neutralize that layer/background entirely -- otherwise it
+double-inverts our explicit colors (part of why things looked "off").
+The toggle button + localStorage/OS-preference detection still work
+fine; only the animated invert-wipe visual is disabled.
+*/
+.darkmode-layer {
+    display: none !important;
+}
+
+.darkmode-background {
+    background: var(--page-background, #fff) !important;
+}
+
+
 /* ==================================================================
-    LUNR STYLING
+    PAGEFIND SEARCH (Component UI: click or press Ctrl+K / Cmd+K)
 ================================================================== */
 
-.result-title a {
-    text-decoration: none;
+.site-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25em 0;
+    padding: 0 12.5%;
 }
 
-.result-title a:hover {
-    text-decoration: underline;
+@media (max-width: 600px) {
+    .site-search {
+        padding: 0 6%;
+    }
 }
 
-.result-preview {
-    color: #808080;
+:root {
+    --pf-text: var(--text-color);
+    --pf-text-secondary: #666666;
+    --pf-text-muted: #767676;
+    --pf-background: #ffffff;
+    --pf-border: lightgrey;
+    --pf-border-focus: #004de6;
+    --pf-hover: #f2f2f2;
+    --pf-mark: #004de6;
+    --pf-outline-focus: #004de6;
+    --pf-font: Helvetica, Arial, sans-serif;
+    --pf-border-radius: 10px;
 }
 
-.resultCount {
-    color: #808080;
+/* Gruvbox-matched dark mode, mirroring the darkmode--activated tokens above.
+   Custom properties inherit through the shadow DOM, so this reaches the
+   Pagefind components without needing the data-pf-theme attribute. */
+body.darkmode--activated {
+    --pf-text: #ebdbb2;
+    --pf-text-secondary: #bdae93;
+    --pf-text-muted: #928374;
+    --pf-background: #282828;
+    --pf-border: #504945;
+    --pf-border-focus: #83a598;
+    --pf-hover: #3c3836;
+    --pf-mark: #fabd2f;
+    --pf-outline-focus: #83a598;
+    --pf-modal-backdrop: rgba(0, 0, 0, 0.7);
 }
 
-.result-query {
-    font-weight: bold;
+/* ==================================================================
+    PYGMENTS (for languages highlight.js can't do, e.g. Idris)
+    Produced by minted.4ht + highlight_post.py. Matches the
+    .hljs / Gruvbox theme above, scoped to darkmode-js's toggle class
+    (this site doesn't use prefers-color-scheme).
+================================================================== */
+
+.highlight {
+    display: block;
+    background: var(--output-background, hsl(0, 0%, 98%));
+    border-radius: 10px;
+    font-size: var(--small);
+    line-height: 1.35em;
+    padding: 0.8em 1em;
+    overflow-x: auto;
 }
 
-#lunrSearchForm {}
+.highlight code {
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    font-size: inherit;
+}
+
+/* Token colors, light mode */
+.highlight .c, .highlight .c1, .highlight .cm { color: #767676; font-style: italic; } /* comment */
+.highlight .k, .highlight .kr, .highlight .kd { color: #a626a4; }                     /* keyword */
+.highlight .kt { color: #986801; }                                                    /* type */
+.highlight .nf, .highlight .nc { color: #4078f2; }                                    /* function/class name */
+.highlight .nb, .highlight .nv { color: #004de6; }                                    /* builtin/variable */
+.highlight .na { color: #986801; }                                                    /* attribute */
+.highlight .s, .highlight .s1, .highlight .s2 { color: #50a14f; }                      /* string */
+.highlight .mi, .highlight .mf { color: #a626a4; }                                    /* number */
+.highlight .o, .highlight .ow { color: inherit; }                                     /* operator */
+
+/* Token colors, dark mode -- mirrors the Gruvbox palette used for .hljs above */
+body.darkmode--activated .highlight {
+    background: var(--output-background);
+}
+body.darkmode--activated .highlight .c,
+body.darkmode--activated .highlight .c1,
+body.darkmode--activated .highlight .cm { color: #928374; font-style: italic; }       /* Gruvbox Gray */
+body.darkmode--activated .highlight .k,
+body.darkmode--activated .highlight .kr,
+body.darkmode--activated .highlight .kd { color: #fb4934; }                           /* Gruvbox Red */
+body.darkmode--activated .highlight .kt,
+body.darkmode--activated .highlight .na { color: #fabd2f; }                           /* Gruvbox Yellow */
+body.darkmode--activated .highlight .nf,
+body.darkmode--activated .highlight .nc { color: #8ec07c; }                           /* Gruvbox Aqua */
+body.darkmode--activated .highlight .nb,
+body.darkmode--activated .highlight .nv { color: #83a598; }                           /* Gruvbox Blue */
+body.darkmode--activated .highlight .s,
+body.darkmode--activated .highlight .s1,
+body.darkmode--activated .highlight .s2 { color: #b8bb26; }                           /* Gruvbox Green */
+body.darkmode--activated .highlight .mi,
+body.darkmode--activated .highlight .mf { color: #d3869b; }                           /* Gruvbox Purple */
+body.darkmode--activated .highlight .o,
+body.darkmode--activated .highlight .ow { color: inherit; }
+
