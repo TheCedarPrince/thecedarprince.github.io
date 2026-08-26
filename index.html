@@ -18,14 +18,19 @@
 
 <meta property="og:image" content="https://jacobzelko.com/assets/tcp.png">
 
+
+
+
+
+
 <!-- Twitter -->
 <meta property="twitter:card" content="summary">
 <meta property="twitter:creator" content="Jacob_Zelko">
 <meta property="twitter:title" content="Home">
 
 <meta property="twitter:image" content="https://jacobzelko.com/assets/tcp.png">
-   <link rel="stylesheet" href="/libs/highlight/github.min.css">
- 
+  <link rel="stylesheet" href="/libs/highlight/github.min.css">
+
     <link rel="stylesheet" href="/css/franklin.css">
     <link rel="stylesheet" href="/css/basic.css">
     <link rel="stylesheet" href="/css/action.css">
@@ -58,24 +63,19 @@
     <!--SUPPORT FOR ANALYTICS FROM GOATCOUNTER-->
     <script data-goatcounter="https://thecedarledge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
-    <!--SUPPORT FOR LUNR-->
-    <script src="/libs/lunr/lunr.min.js"></script>
-    <script src="/libs/lunr/lunr_index.js"></script>
-    <script src="/libs/lunr/lunrclient.min.js"></script>
+    <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-component-ui.js" type="module"></script>
 
-    <!--FLOATING HELP BUTTON-->
-    <div class="action">
+    <div class="action" data-pagefind-ignore>
       <button></button>
       <ul>
         <li><a href="#">Top of Page</a></li>
         <li><a href="#discussion">Discussion</a></li> 
         <hr>
-        <li><a href="/">Home</a></li>
         <li><a href="/blog">Blog</a></li>
-        <li><a href="/archive">Archive</a></li>
-        <li><a href="/resources">Contact</a></li>
-        <li><a href="/hiring">Hiring</a></li>
-        <li><a href="/projects">Open Projects</a></li>
+        <li><a href="/notes">Notes</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/ideas">Ideas</a></li>
       </ul>
     </div>
 
@@ -84,78 +84,83 @@
 </head>
 
 
-<body>
-    <header>
+<body data-pagefind-body>
+    <div data-pagefind-ignore>
+        <header>
     <div class="blog-name"><a href="/">the cedar ledge</a></div>
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
             <li><a href="/blog">Blog</a></li>
-            <li><a href="/archive">Archive</a></li>
-            <li><a href="/resources">Contact</a></li>
-            <li><a href="/hiring">Hiring</a></li>
-            <li><a href="/projects">Open Projects</a></li>
+            <li><a href="/notes">Notes</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/ideas">Ideas</a></li>
         </ul>
         <img src="/assets/hamburger.png" id="menu-icon">
     </nav>
     </div>
 </header>
- <div align="center">
-       <form id="lunrSearchForm" name="lunrSearchForm">
-           <input class="search-input" name="q" placeholder="Enter search term" type="text">
-           <input type="submit" value="Search" formaction="/search/index.html">
-       </form>
+ <div class="site-search">
+    <pagefind-config excerpt-length="60"></pagefind-config>
+    <pagefind-modal-trigger placeholder="Search"></pagefind-modal-trigger>
+    <pagefind-modal></pagefind-modal>
 </div>
-   
+
+    </div>
 
     <!-- Content appended here -->
 <div class="franklin-content">
-<h1>Hello&#33; | ¡Hola&#33; | Hallo&#33; | &#33;مرحبا – Welcome to <em>the cedar ledge</em>&#33; 👋</h1>
+<h1 id="hello_hola_hallo_مرحبا_welcome_to_the_cedar_ledge"><a href="#hello_hola_hallo_مرحبا_welcome_to_the_cedar_ledge" class="header-anchor">Hello&#33; | ¡Hola&#33; | Hallo&#33; | &#33;مرحبا – Welcome to <em>the cedar ledge</em>&#33; 👋</a></h1>
 <img src=" /assets/jacob.jpg" alt=" zelko" class="profileimage"/>
-<p>My name is Jacob Scott Zelko&#33; I am currently pursuing my MS in Applied Mathematics at Northeastern University &#40;NEU&#41; and am a trainee of <a href="https://roux.northeastern.edu">NEU&#39;s Roux Institute</a>. Additionally, I am the present Chief of Global Health Informatics at the <a href="https://www.onefact.org">Brooklyn-based non-profit, the OneFact Foundation</a>.</p>
-<p>My research career has focused primarily and broadly on population health. In particular, <a href="https://jacobzelko.com/01052023041609-pilot-study-characterization/">chronic mental illness &#40;i.e. depression, suicidality, and bipolar disorder&#41;</a>, social determinants of health and <a href="https://jacobzelko.com/01102023212115-computable-phenotypes/">health disparities within intersectional populations</a>, chronic illness, and neurocognitive disabilities. As a convergence of my interests, I am very interested in how we can use mathematical structures &#40;such as categories or topologies&#41; to establish meaningful relationships between non-traditional health data sources to gain greater insights into population health. To bridge these worlds, I have been heavily involved with observational health research methods using <a href="https://jacobzelko.com/10282021140730-real-world-evidence/">&quot;Real World Data&quot;</a> and am an active member of both <a href="https://www.ohdsi.org">the OHDSI </a> and <a href="https://johncarlosbaez.wordpress.com/2020/03/25/category-theory-community-server/">Category Theory</a> communities.</p>
-<p>Finally, I do have vested interests in what I call my &quot;lower priority&quot; research interests. This includes things such as open and reproducible science, <a href="https://jacobzelko.com/04172022033744-open-knowledge-standard/">knowledge representation</a> and <a href="https://jacobzelko.com/NoteMate/dev/">knowledge management</a>, <a href="https://github.com/JuliaCommunity/CommunityFund">diversity and inclusion efforts within STEAM</a>, domestic extremism &#40;within US contexts&#41;, and as a <a href="05072022162026-personal-faith-perspectives">practicing Christian</a>, the intersection of faith communities and science.</p>
-<p>In the past, I worked for a couple years at <a href="https://gtri.gatech.edu/">Georgia Tech Research Institute</a> in the excellent HEAT Division as a Health Data Analytics and Informatics Researcher headed by <a href="https://www.cc.gatech.edu/people/jon-duke">Dr. Jon Duke</a> and as a Research Engineer for the <a href="https://www.cdc.gov/">Centers for Disease Control</a>. While in my undergrad, I also worked at <a href="https://med.emory.edu/departments/biomedical-informatics/index.html">Emory University&#39;s Department of Biomedical Informatics</a> as a Data Information Specialist. I graduated <a href="https://www.bme.gatech.edu/">Georgia Institute of Technology</a> with a BS in Biomedical Engineering &#91;also completed coursework in biomedical informatics and medical anthropology&#93; and completed an AS in Engineering Science at <a href="https://www.corning-cc.edu/academics/engineering-science/index.php">Corning Community College</a>.</p>
+
+<p style="text-align:center;">
+  <a href="https://bsky.app/profile/thecedarprince.bsky.social">
+    <img src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" style="height:20px; width:auto; display:inline;">
+  </a>
+  <a href="https://github.com/TheCedarPrince">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" style="height:20px; width:auto; display:inline;">
+  </a>
+  <a href="mailto:jacobszelko@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" style="height:20px; width:auto; display:inline;">
+  </a>
+  <a href="https://scholar.google.com/citations?user=hNlNUewAAAAJ&hl=en">
+    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" style="height:20px; width:auto; display:inline;">
+  </a>
+</p>
+
+<p>My name is Jacob Scott Zelko&#33; I am currently a <a href="https://planting.space">Software Engineer at PlantingSpace</a> and <a href="https://cephil.ca">Research Affiliate at University of Saskatchewan&#39;s Computational Epidemiology and Public Health Informatics Lab &#40;CEPHIL&#41;</a> Additionally, I am the leader of the open source and open science community, <a href="juliahealth.org">JuliaHealth</a>.</p>
+<p>My interests lie at the intersection of population health dynamics, applied category theory, knowledge representation, and open source. In particular, I am interested in how we can apply relational thinking approaches from pure mathematics to establish meaningful relationships between non-traditional health data sources to gain greater insights into population health. I have been actively involved within the <a href="https://www.ohdsi.org">OHDSI Community</a>, <a href="https://johncarlosbaez.wordpress.com/2020/03/25/category-theory-community-server/">Category Theory Zulip</a> , and <a href="https://julialang.org/slack/">Julia Programming Language Slack</a>.</p>
+<p>In the past, I worked for a couple years at <a href="https://gtri.gatech.edu/">Georgia Tech Research Institute</a> in the excellent HEAT Division as a Health Data Analytics and Informatics Researcher headed by <a href="https://www.cc.gatech.edu/people/jon-duke">Dr. Jon Duke</a> and as a Research Engineer for the <a href="https://www.cdc.gov/">Centers for Disease Control</a>. While in my undergrad, I also worked at <a href="https://med.emory.edu/departments/biomedical-informatics/index.html">Emory University&#39;s Department of Biomedical Informatics</a> as a Data Information Specialist. I graduated from <a href="https://cos.northeastern.edu/nucos-department/mathematics/">Northeastern University</a> with an MS in Applied Mathematics, <a href="https://www.bme.gatech.edu/">Georgia Institute of Technology</a> with a BS in Biomedical Engineering &#91;also completed coursework in biomedical informatics and medical anthropology&#93;, and an AS in Engineering Science at <a href="https://www.corning-cc.edu/academics/engineering-science/index.php">Corning Community College</a>.</p>
+<p>If you want to know what I am up to, please subscribe to my newsletter:</p>
 	<iframe
 scrolling="no"
 style="width:100%!important;height:220px;border:1px #ccc solid !important"
 src="https://buttondown.email/thecedarprince?as_embed=true"
 ></iframe><br /><br />
 	
-<h1 id="what_about_fun_stuff_like_hobbies"><a href="#what_about_fun_stuff_like_hobbies" class="header-anchor">What about Fun Stuff Like Hobbies? 🎸</a></h1>
-<p>These days, I greatly enjoy working out regularly – weights, running, and free-body&#33; I love reading and have been on a bit of a philosophy kick reading the works of <a href="https://jacobzelko.com/07122020043224-against-method/">Feyerabend</a>, <a href="https://jacobzelko.com/11202022210340-fear-trembling/">Kierkegaard</a>, and <a href="https://jacobzelko.com/05222022225241-understanding-media-extensions/">MacLuhan</a> – these certainly take some time to read&#33; Otherwise, as the leader of the <a href="https://juliahealth.org">JuliaHealth workgroup</a>, I am trying to think through how to continue building open source tools for health informatics research – let me know if you want to collaborate&#33; Additionally, I am a <a href="https://www.twitch.tv/thecedarprince">Twitch streamer</a> and teach software engineering, programming, and development patterns. Finally, my more eclectic and smaller hobbies include blogging, electric and acoustic guitar, traveling, and hanging out with friends over a cuppa tea.</p>
 <h1 id="how_to_navigate_the_cedar_ledge"><a href="#how_to_navigate_the_cedar_ledge" class="header-anchor">How to Navigate <em>the cedar ledge</em>? 💻</a></h1>
 <p>This website not only consists of blog posts, but is also my knowledge base. The main sections are broken up as follows:</p>
 <ul>
-<li><p><a href="/blog/">Blog</a> - long-form and self-contained pieces.</p>
+<li><p><a href="/blog/">Blog</a> - long-form, self-contained, and more complete pieces.</p>
 </li>
-<li><p><a href="/archive/">Archive</a> - every page on this website - mostly works in progress.</p>
+<li><p><a href="/notes/">Notes</a> - my public notes that are generally works in progress.</p>
 </li>
-<li><p><a href="/hiring/">Hiring</a> - my personal hiring options and my curriculum vitae</p>
+<li><p><a href="/projects/">Projects</a> - open projects that I am happy to mentor or support.</p>
 </li>
-<li><p><a href="/projects/">Open Projects</a> - open projects that I am happy to mentor or support.</p>
-</li>
-<li><p><a href="/resources/">Resources</a> - resources on interacting with me, this website, and more.</p>
-<ul>
-<li><p><a href="/resources/#contact-me">Contact</a> - chat with me on collaborations, consulting, etc.</p>
-</li>
-<li><p><a href="/resources/#rss">RSS</a> - RSS feed options for this site.</p>
+<li><p><a href="/ideas/">Ideas</a> - ideas that you are welcome to peruse.</p>
 </li>
 </ul>
-</li>
-</ul>
-<h2 id="is_my_privacy_safe"><a href="#is_my_privacy_safe" class="header-anchor">Is My Privacy Safe? 🔒</a></h2>
+<h1 id="how_to_contact_me"><a href="#how_to_contact_me" class="header-anchor">How To Contact Me?</a></h1>
+<p>The best way to contact me is via my email which is <a href="mailto:jacobszelko@gmail.com">jacobszelko@gmail.com</a>.  I welcome inquiry around my notes or blog posts, possible collaborations based on my <a href="/projects">projects</a> or <a href="/ideas">ideas</a>, or consultancy requests. </p>
+<h1 id="hobbies"><a href="#hobbies" class="header-anchor">Hobbies&#33; 🎸</a></h1>
+<p>These days, I greatly enjoy working out regularly – weights, running, and free-body&#33; I love reading and have been on a bit of a literature kick reading the works of Dostoyevsky, Faulkner, and other Southern Gothic literature – these certainly take some time to read&#33; Finally, my more eclectic and smaller hobbies include blogging, electric and acoustic guitar, violin, traveling, and hanging out with friends over a cuppa tea.</p>
+<h1 id="is_my_privacy_safe"><a href="#is_my_privacy_safe" class="header-anchor">Is My Privacy Safe? 🔒</a></h1>
 <p>Yes. I collect analytics using <a href="https://www.goatcounter.com">GoatCounter</a> which has a very <a href="https://www.goatcounter.com/help/privacy">stringent privacy policy including <strong>not tracking users</strong></a>. Any comments pass through <a href="https://blog-comments.talkyard.io">Talkyard</a> which <a href="https://comments-for-jacobzelko-com.talkyard.net/-/terms-of-use">does some data collection but only to support commenting; you can comment anonymously</a>.</p>
 <div class="page-foot">
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob Zelko. Last modified: May 19, 2024.
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jacob S. Zelko. Last modified: August 26, 2026.
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
 </div>
-</div><!-- CONTENT ENDS HERE -->
-    
-    
-        
-
-
-    
+</div>	<script src="/libs/highlight/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
+	<script src="/libs/highlight/mint-highlight.js"></script>
   </body>
 </html>

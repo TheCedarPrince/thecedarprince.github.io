@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  the cedar ledge  ]]>
+    </title>
+    <link> https://jacobzelko.com </link>
+    <description>
+      <![CDATA[  Jacob S. Zelko&#39;s personal website  ]]>
+    </description>
+    <atom:link
+      href="https://jacobzelko.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Exploring Catala  ]]>
+  </title>
+  <link> https://jacobzelko.com/notes/aaa-0287/index.html </link>
+  <guid> https://jacobzelko.com/notes/aaa-0287/index.html </guid>
+  <description>
+    <![CDATA[  An exploration of the Catala language to explore how to encode exceptions  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<link rel="stylesheet" href="aaa-0287.css">
+<h3 class="sectionHead"><span class="titlemark">1   </span><a id="x1-10001"></a>Exploring Catala</h3><div class="flushleft"><p class="noindent"><span class="cmbx-10">Keywords: </span>law, catala
+</p></div><p class="noindent"><span class="cmbx-10">Summary: </span>An exploration of the Catala language to explore how to encode
+exceptions
+</p><p class="noindent">Per the <a href="https://catala-lang.org">Catala language website</a>:
+</p><blockquote><p class="noindent"><span class="cmti-10">Catala  is  a  domain-specific  language  designed  by  researchers  in</span><span class="cmti-10">Computer  Science  and  Law,  for  precisely  deriving  algorithms</span><span class="cmti-10">producing automated legal decisions.</span></p><footer></footer></blockquote><h4 class="subsectionHead"><span class="titlemark">1.1   </span><a id="x1-20001.1"></a>Introductory Catala Code</h4><p class="noindent">This Catala program is copied directly from the documentation of Catala and is the
+“hello world” of Catala. It outputs the integer <img alt="42  " class="math" src="aaa-0287-d25e1211386494455a2cc605710dc600.svg"></img> as the Answer to the Ultimate
+Question of Life, the Universe, and Everything:
+</p><p class="noindent"></p><div class="minted-block" data-lang="catala_en"><p></p><pre class="fancyvrb" id="fancyvrb1"><a id="x1-2002r1"></a><span class="cmtt-10">declaration</span><span class="cmtt-10"> scope</span><span class="cmtt-10"> HelloWorld:</span> 
+<a id="x1-2004r2"></a><span class="cmtt-10"> </span><span class="cmtt-10"> output</span><span class="cmtt-10"> answer_everything</span><span class="cmtt-10"> content</span><span class="cmtt-10"> integer</span> 
+<a id="x1-2006r3"></a> 
+<a id="x1-2008r4"></a><span class="cmtt-10">scope</span><span class="cmtt-10"> HelloWorld:</span> 
+<a id="x1-2010r5"></a><span class="cmtt-10"> </span><span class="cmtt-10"> definition</span><span class="cmtt-10"> answer_everything</span><span class="cmtt-10"> equals</span><span class="cmtt-10"> 42</span></pre><p class="noindent"></p></div><p></p><blockquote><p class="noindent"><span class="cmti-10">Interestingly, this section of code comes from a tex file! Catala is</span><span class="cmti-10">built around literate programming and this section is actually a valid</span><span class="cmti-10">Catala file.</span></p><footer></footer></blockquote><h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob S. <em>Exploring Catala</em>. <a href="https://jacobzelko.com/notes/aaa-0287/">https://jacobzelko.com/notes/aaa-0287/</a>. August 24, 2026.</p>
+<h2 id="discussion">Discussion:</h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="aaa-0287.md" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob S. Zelko</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>
