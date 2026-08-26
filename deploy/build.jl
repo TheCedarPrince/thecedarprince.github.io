@@ -6,6 +6,7 @@ using DuckDB
 const NOTES_REPO    = joinpath(expanduser("~"), "Knowledgebase/TEXZK/")
 const FRANKLIN_REPO = "../../Website"
 const UTILITY_FILES = [
+    "minted.4ht",
     "functions.tex",
     "build.lua",
     "zk.sty",
@@ -18,11 +19,6 @@ const UTILITY_FILES = [
 
 const DB_PATH = joinpath(@__DIR__, "zkbuild.duckdb")
 const LOG_IO  = open(joinpath(@__DIR__, "build.log"), "w")
-
-# --- archive.md / blog.md generation ------------------------------------
-# Site-specific (not part of NoteBuilder.jl): the DuckDB-backed successor to
-# the old archive_generator.jl/blog_generator.jl scripts. Queries the notes
-# table directly rather than reaching into NoteBuilder's internals.
 
 function _notes_for_pages(db)::Vector{Note}
     result = DBInterface.execute(db,
@@ -71,7 +67,7 @@ end
 """
     _post_item(note, notes_dir) -> String
 
-Render one `archive.md`/`blog.md` listing entry, matching the legacy `post-item`
+Render one `notes.md`/`blog.md` listing entry, matching the legacy `post-item`
 markup (unquoted attributes and all) from the old `archive_generator.jl`. The `id=`
 slug intentionally stays title-based (not `note.id`) to match that legacy convention.
 """
@@ -82,22 +78,20 @@ function _post_item(note::Note, notes_dir::AbstractString)::String
     d        = note.date
     date_str = "$(Dates.monthname(d)) $(Dates.day(d)), $(Dates.year(d))"
     summary  = something(note.summary, "")
-    tags_str = join(filter(t -> lowercase(t) ∉ SPECIAL_TAGS, note.tags), ", ")
+    tags_str = join(titlecase.(filter(t -> lowercase(t) ∉ NoteBuilder.SPECIAL_TAGS, note.tags)), ", ")
 
     """
     	<br>
 
     	<span class = post-item id = $(slug)>
              		<a href = $(href)>
+                                        [$(date_str)] 
                       			<strong>
                                				$(title)
                       			</strong>
-                      			[$(date_str)]
              		</a>
              		<br>
                       			$(summary)
-             		<br>
-                      			$(tags_str)
              		<br>
     	</span>
 
@@ -109,7 +103,7 @@ end
 """
     build_pages!(db, franklin_repo; notes_dir="notes") -> NamedTuple
 
-Regenerate `archive.md` (every published note) and `blog.md` (published notes tagged
+Regenerate `notes.md` (every published note) and `blog.md` (published notes tagged
 `"blog"`). Hidden notes need no separate filtering since `delete_notes!` already
 removes them from the table by the time this runs. Each file is diffed against what's
 currently on disk and left untouched if nothing changed.
@@ -123,9 +117,9 @@ function build_pages!(
     sort!(published, by = n -> n.date, rev = true)
     blog_notes = filter(n -> "blog" in lowercase.(n.tags), published)
 
-    archive_content = _pages_content(published, notes_dir;
-        title    = "Archive",
-        tags_def = "[\"archive\", \"zettelkasten\"]",
+    notes_content = _pages_content(published, notes_dir;
+        title    = "Notes",
+        tags_def = "[\"notes\", \"zettelkasten\"]",
         intro    = "My open zettelkasten archive of notes.\n" *
                    "The titles, creation dates, summaries, and key words of a note are provided per entry.")
 
@@ -135,11 +129,11 @@ function build_pages!(
         intro    = "My blog posts ordered by date.\n" *
                    "The titles, date, summaries, and key words of a blog are provided per entry")
 
-    archive_written = _write_if_changed(joinpath(franklin_repo, "archive.md"), archive_content)
+    notes_written = _write_if_changed(joinpath(franklin_repo, "notes.md"), notes_content)
     blog_written     = _write_if_changed(joinpath(franklin_repo, "blog.md"), blog_content)
 
-    return (archive_written = archive_written, blog_written = blog_written,
-            archive_n = length(published), blog_n = length(blog_notes))
+    return (notes_written = notes_written, blog_written = blog_written,
+            notes_n = length(published), blog_n = length(blog_notes))
 end
 # -------------------------------------------------------------------------
 
@@ -191,10 +185,10 @@ log("Stage 6 — tombstone: $(length(tombstoned)) removed")
 write_database(notes, db)
 log("Stage 7 — write_database")
 
-# 8 — regenerate archive.md / blog.md
+# 8 — regenerate notes.md / blog.md
 pages = build_pages!(db, FRANKLIN_REPO)
-log("Stage 8 — build_pages!: archive $(pages.archive_n) entries " *
-    "($(pages.archive_written ? "regenerated" : "unchanged")), " *
+log("Stage 8 — build_pages!: notes $(pages.notes_n) entries " *
+    "($(pages.notes_written ? "regenerated" : "unchanged")), " *
     "blog $(pages.blog_n) entries ($(pages.blog_written ? "regenerated" : "unchanged"))")
 
 DBInterface.close!(conn)
