@@ -10,6 +10,22 @@ The titles, creation dates, summaries, and key words of a note are provided per 
 
 	<br>
 
+	<span class = post-item id = data-fabrics-act-2025-proposal>
+         		<a href = /notes/aaa-0292/>
+                                    [September 28, 2026] 
+                  			<strong>
+                           				Data Fabrics ACT 2025 Proposal
+                  			</strong>
+         		</a>
+         		<br>
+                  			Original proposal about data fabrics for ACT 2025.
+         		<br>
+	</span>
+
+	<br>
+
+	<br>
+
 	<span class = post-item id = exploring-catala>
          		<a href = /notes/aaa-0287/>
                                     [August 24, 2026] 
