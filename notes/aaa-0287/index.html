@@ -121,7 +121,81 @@ Question of Life, the Universe, and Everything:
 <a id="x1-2004r2"></a><span class="cmtt-10"> </span><span class="cmtt-10"> output</span><span class="cmtt-10"> answer_everything</span><span class="cmtt-10"> content</span><span class="cmtt-10"> integer</span> 
 <a id="x1-2006r3"></a> 
 <a id="x1-2008r4"></a><span class="cmtt-10">scope</span><span class="cmtt-10"> HelloWorld:</span> 
-<a id="x1-2010r5"></a><span class="cmtt-10"> </span><span class="cmtt-10"> definition</span><span class="cmtt-10"> answer_everything</span><span class="cmtt-10"> equals</span><span class="cmtt-10"> 42</span></pre><p class="noindent"></p></div><p></p><blockquote><p class="noindent"><span class="cmti-10">Interestingly, this section of code comes from a tex file! Catala is</span><span class="cmti-10">built around literate programming and this section is actually a valid</span><span class="cmti-10">Catala file.</span></p><footer></footer></blockquote>
+<a id="x1-2010r5"></a><span class="cmtt-10"> </span><span class="cmtt-10"> definition</span><span class="cmtt-10"> answer_everything</span><span class="cmtt-10"> equals</span><span class="cmtt-10"> 42</span></pre><p class="noindent"></p></div><p></p><blockquote><p class="noindent"><span class="cmti-10">Interestingly, this section of code comes from a tex file! Catala is</span><span class="cmti-10">built around literate programming and this section is actually a valid</span><span class="cmti-10">Catala file.</span></p><footer></footer></blockquote><h4 class="subsectionHead"><span class="titlemark">1.2   </span><a id="x1-30001.2"></a>Article 1</h4><p class="noindent">The income tax for an individual is defined as a fixed percentage of the individual’s
+income over a year.
+</p><blockquote><p class="noindent"><span class="cmti-10">The content of article 1 assumes a lot of implicit context: there exists</span><span class="cmti-10">an individual with an income, as well as an income tax that the</span><span class="cmti-10">individual has to pay each year.</span></p><footer></footer></blockquote><p class="noindent"></p><div class="minted-block" data-lang="catala_en"><p></p><pre class="fancyvrb" id="fancyvrb2"><a id="x1-3002r1"></a><span class="cmtt-10">declaration</span><span class="cmtt-10"> structure</span><span class="cmtt-10"> Individual:</span> 
+<a id="x1-3004r2"></a><span class="cmtt-10"> </span><span class="cmtt-10"> data</span><span class="cmtt-10"> income</span><span class="cmtt-10"> content</span><span class="cmtt-10"> money</span> 
+<a id="x1-3006r3"></a><span class="cmtt-10"> </span><span class="cmtt-10"> data</span><span class="cmtt-10"> number_of_children</span><span class="cmtt-10"> content</span><span class="cmtt-10"> integer</span></pre><p class="noindent"></p></div><p></p><p class="noindent"></p><div class="minted-block" data-lang="catala_en"><p></p><pre class="fancyvrb" id="fancyvrb3"><a id="x1-3008r1"></a><span class="cmtt-10">declaration</span><span class="cmtt-10"> scope</span><span class="cmtt-10"> IncomeTaxComputation:</span> 
+<a id="x1-3010r2"></a><span class="cmtt-10"> </span><span class="cmtt-10"> input</span><span class="cmtt-10"> individual</span><span class="cmtt-10"> content</span><span class="cmtt-10"> Individual</span> 
+<a id="x1-3012r3"></a><span class="cmtt-10"> </span><span class="cmtt-10"> internal</span><span class="cmtt-10"> tax_rate</span><span class="cmtt-10"> content</span><span class="cmtt-10"> decimal</span> 
+<a id="x1-3014r4"></a><span class="cmtt-10"> </span><span class="cmtt-10"> output</span><span class="cmtt-10"> income_tax</span><span class="cmtt-10"> content</span><span class="cmtt-10"> money</span></pre><p class="noindent"></p></div><p></p><p class="noindent"></p><h4 class="subsectionHead"><span class="titlemark">1.3   </span><a id="x1-40001.3"></a>Article 2</h4><p class="noindent"></p><div class="minted-block" data-lang="catala_en"><p></p><pre class="fancyvrb" id="fancyvrb4"><a id="x1-4002r1"></a><span class="cmtt-10">scope</span><span class="cmtt-10"> IncomeTaxComputation:</span> 
+<a id="x1-4004r2"></a><span class="cmtt-10"> </span><span class="cmtt-10"> definition</span><span class="cmtt-10"> tax_rate</span><span class="cmtt-10"> equals</span><span class="cmtt-10"> 20%</span> 
+<a id="x1-4006r3"></a><span class="cmtt-10"> </span><span class="cmtt-10"> definition</span><span class="cmtt-10"> income_tax</span><span class="cmtt-10"> equals</span><span class="cmtt-10"> tax_rate</span><span class="cmtt-10"> *</span><span class="cmtt-10"> individual.income</span></pre><p class="noindent"></p></div><p></p><p class="noindent"></p><h4 class="subsectionHead"><span class="titlemark">1.4   </span><a id="x1-50001.4"></a>Test</h4><p class="noindent"></p><div class="minted-block" data-lang="catala_en"><p></p><pre class="fancyvrb" id="fancyvrb5"><a id="x1-5002r1"></a><span class="cmtt-10">declaration</span><span class="cmtt-10"> scope</span><span class="cmtt-10"> Test:</span> 
+<a id="x1-5004r2"></a><span class="cmtt-10"> </span><span class="cmtt-10"> output</span><span class="cmtt-10"> computation</span><span class="cmtt-10"> content</span><span class="cmtt-10"> IncomeTaxComputation</span> 
+<a id="x1-5006r3"></a> 
+<a id="x1-5008r4"></a><span class="cmtt-10">scope</span><span class="cmtt-10"> Test:</span> 
+<a id="x1-5010r5"></a><span class="cmtt-10"> </span><span class="cmtt-10"> definition</span><span class="cmtt-10"> computation</span><span class="cmtt-10"> equals</span> 
+<a id="x1-5012r6"></a> 
+<a id="x1-5014r7"></a><span class="cmtt-10"> </span><span class="cmtt-10"> output</span><span class="cmtt-10"> of</span><span class="cmtt-10"> IncomeTaxComputation</span><span class="cmtt-10"> with</span><span class="cmtt-10"> {</span> 
+<a id="x1-5016r8"></a> 
+<a id="x1-5018r9"></a><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> --</span><span class="cmtt-10"> individual:</span> 
+<a id="x1-5020r10"></a> 
+<a id="x1-5022r11"></a><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> Individual</span><span class="cmtt-10"> {</span> 
+<a id="x1-5024r12"></a> 
+<a id="x1-5026r13"></a><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> --</span><span class="cmtt-10"> income:</span><span class="cmtt-10"> $20,000</span> 
+<a id="x1-5028r14"></a>        <span class="cmtt-10"> --</span><span class="cmtt-10"> number_of_children:</span><span class="cmtt-10"> 0</span> 
+<a id="x1-5030r15"></a><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> </span><span class="cmtt-10"> }</span> 
+<a id="x1-5032r16"></a><span class="cmtt-10"> </span><span class="cmtt-10"> }</span></pre><p class="noindent"></p></div><p></p><p class="noindent">Catala uses literate programming, that is the mixing between the computer code and
+its specification in a single document. Why literate programming? Because it enables
+a fine-grained correspondance between the specification and the code. Whenever the
+specification is updated, knowing where to update the code is trivial with literal
+programming.
+</p><p class="noindent">Catala is a strongly-typed, statically compiled language, so all data structures and
+function signatures have to be explicitly declared.
+</p><p class="noindent">The name of the structure, ”Individual”, must start with an uppercase letter: this is
+the CamelCase convention.
+</p><p class="noindent">Available types include: ”integer”, ”decimal”, ”money”, ”date”, ”duration”, and any
+other structure or enumeration that you declare.
+</p><p class="noindent">Usually, you get one structure per concrete object on which the law applies (like the
+individual).
+</p><p class="noindent"></p><div class="minted-block" data-lang="catala_en"><p></p><pre class="fancyvrb" id="fancyvrb6"><a id="x1-5034r1"></a><span class="cmtt-10">#</span><span class="cmtt-10"> The</span><span class="cmtt-10"> name</span><span class="cmtt-10"> "TaxCredit"</span><span class="cmtt-10"> is</span><span class="cmtt-10"> also</span><span class="cmtt-10"> written</span><span class="cmtt-10"> in</span><span class="cmtt-10"> CamelCase.</span> 
+<a id="x1-5036r2"></a><span class="cmtt-10">declaration</span><span class="cmtt-10"> enumeration</span><span class="cmtt-10"> TaxCredit:</span> 
+<a id="x1-5038r3"></a><span class="cmtt-10">#</span><span class="cmtt-10"> The</span><span class="cmtt-10"> line</span><span class="cmtt-10"> below</span><span class="cmtt-10"> says</span><span class="cmtt-10"> that</span><span class="cmtt-10"> "TaxCredit"</span><span class="cmtt-10"> can</span><span class="cmtt-10"> be</span><span class="cmtt-10"> a</span><span class="cmtt-10"> "NoTaxCredit"</span><span class="cmtt-10"> situation.</span> 
+<a id="x1-5040r4"></a><span class="cmtt-10">--</span><span class="cmtt-10"> NoTaxCredit</span> 
+<a id="x1-5042r5"></a><span class="cmtt-10">#</span><span class="cmtt-10"> The</span><span class="cmtt-10"> line</span><span class="cmtt-10"> below</span><span class="cmtt-10"> says</span><span class="cmtt-10"> that</span><span class="cmtt-10"> alternatively,</span><span class="cmtt-10"> "TaxCredit"</span><span class="cmtt-10"> can</span><span class="cmtt-10"> be</span><span class="cmtt-10"> a</span> 
+<a id="x1-5044r6"></a><span class="cmtt-10">#</span><span class="cmtt-10"> "ChildrenTaxCredit"</span><span class="cmtt-10"> situation.</span><span class="cmtt-10"> This</span><span class="cmtt-10"> situation</span><span class="cmtt-10"> carries</span><span class="cmtt-10"> a</span><span class="cmtt-10"> content</span> 
+<a id="x1-5046r7"></a><span class="cmtt-10">#</span><span class="cmtt-10"> of</span><span class="cmtt-10"> type</span><span class="cmtt-10"> integer</span><span class="cmtt-10"> corresponding</span><span class="cmtt-10"> to</span><span class="cmtt-10"> the</span><span class="cmtt-10"> number</span><span class="cmtt-10"> of</span><span class="cmtt-10"> children</span><span class="cmtt-10"> concerned</span> 
+<a id="x1-5048r8"></a><span class="cmtt-10">#</span><span class="cmtt-10"> by</span><span class="cmtt-10"> the</span><span class="cmtt-10"> tax</span><span class="cmtt-10"> credit.</span><span class="cmtt-10"> This</span><span class="cmtt-10"> means</span><span class="cmtt-10"> that</span><span class="cmtt-10"> if</span><span class="cmtt-10"> you're</span><span class="cmtt-10"> in</span><span class="cmtt-10"> the</span><span class="cmtt-10"> "ChildrenTaxCredit"</span> 
+<a id="x1-5050r9"></a><span class="cmtt-10">#</span><span class="cmtt-10"> situation,</span><span class="cmtt-10"> you</span><span class="cmtt-10"> will</span><span class="cmtt-10"> also</span><span class="cmtt-10"> have</span><span class="cmtt-10"> access</span><span class="cmtt-10"> to</span><span class="cmtt-10"> this</span><span class="cmtt-10"> number</span><span class="cmtt-10"> of</span><span class="cmtt-10"> children.</span> 
+<a id="x1-5052r10"></a><span class="cmtt-10">--</span><span class="cmtt-10"> ChildrenTaxCredit</span><span class="cmtt-10"> content</span><span class="cmtt-10"> integer</span> 
+<a id="x1-5054r11"></a><span class="cmtt-10">#</span><span class="cmtt-10"> In</span><span class="cmtt-10"> computer</span><span class="cmtt-10"> science</span><span class="cmtt-10"> terms,</span><span class="cmtt-10"> such</span><span class="cmtt-10"> an</span><span class="cmtt-10"> enumeration</span><span class="cmtt-10"> is</span><span class="cmtt-10"> called</span><span class="cmtt-10"> a</span><span class="cmtt-10"> \sum</span><span class="cmtt-10"> type"</span><span class="cmtt-10"> or</span><span class="cmtt-10"> simply</span><span class="cmtt-10"> an</span><span class="cmtt-10"> enum.</span><span class="cmtt-10"> The</span><span class="cmtt-10"> combination</span><span class="cmtt-10"> of</span><span class="cmtt-10"> structures</span><span class="cmtt-10"> and</span><span class="cmtt-10"> enumerations</span><span class="cmtt-10"> allows</span><span class="cmtt-10"> the</span><span class="cmtt-10"> Catala</span><span class="cmtt-10"> programmer</span><span class="cmtt-10"> to</span><span class="cmtt-10"> declare</span><span class="cmtt-10"> all</span><span class="cmtt-10"> possible</span><span class="cmtt-10"> shapes</span><span class="cmtt-10"> of</span><span class="cmtt-10"> data,</span><span class="cmtt-10"> as</span><span class="cmtt-10"> they</span><span class="cmtt-10"> are</span><span class="cmtt-10"> equivalent</span><span class="cmtt-10"> to</span><span class="cmtt-10"> the</span><span class="cmtt-10"> powerful</span><span class="cmtt-10"> notion</span><span class="cmtt-10"> of</span><span class="cmtt-10"> algebraic</span><span class="cmtt-10"> data</span><span class="cmtt-10"> types.</span></pre><p class="noindent"></p></div><p></p><p class="noindent">Notice that these data structures that we have declared cannot always be attached
+naturally to a particular piece of the specification text. So, where to put these
+declarations in your literate programming file? Since you will be often going
+back to these data structure declarations during programming, we advise
+you to group them together in some sort of prelude in your code source
+file.
+</p><p class="noindent">Catala is a functional programming language, all code exists within a function.
+                                                                  
+
+                                                                  
+</p><p class="noindent">The scope is the basic abstraction unit in Catala programs, and scopes can be
+composed. Since a function can call other functions, scopes can also call other scopes.
+We will see later how to do this, but first let us focus on the inputs and outputs of
+scopes.
+</p><p class="noindent">The declaration of the scope is akin to a function signature: it contains a list of all
+the arguments along with their types. But in Catala, scope variables can be input,
+internal or output. input means that the variable has to be provided whenever the
+scope is called, and cannot be defined within the scope. internal means that the
+variable is defined within the scope and cannot be seen from outside the scope; it’s
+not part of the return value of the scope. output means that a caller can retrieve the
+computed value of the variable. Note that a variable can also be simultaneously an
+input and an output of the scope, in that case it should be annotated with input
+output.
+</p><p class="noindent">This is a common pattern when coding the law: the definitions for various variables
+are scattered in different articles.
+</p><p class="noindent">More generally, the order of toplevel definitions and declarations in Catala source
+code files does not matter
+</p>
 
 <h2 id="how_to_cite"><a href="#how_to_cite" class="header-anchor">How To Cite</a></h2>
 <p>Zelko, Jacob S. <em>Exploring Catala</em>. <a href="https://jacobzelko.com/notes/aaa-0287/">https://jacobzelko.com/notes/aaa-0287/</a>. August 24, 2026.</p>
