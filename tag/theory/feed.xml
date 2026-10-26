@@ -23,6 +23,102 @@
 
 <item>
   <title>
+    <![CDATA[  Conversation about Plausible Fiction at ACT2026  ]]>
+  </title>
+  <link> https://jacobzelko.com/notes/aaa-0295/index.html </link>
+  <guid> https://jacobzelko.com/notes/aaa-0295/index.html </guid>
+  <description>
+    <![CDATA[  Some notes with David Spivak, the creator of Plausible Fiction.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<link rel="stylesheet" href="aaa-0295.css">
+<h3 id="conversation-about-plausible-fiction-at-act" class="sectionHead"><span class="titlemark">1   </span><a id="x1-10001"></a>Conversation about Plausible Fiction at ACT2026</h3><div class="flushleft"><p class="noindent"><span class="cmbx-10">Keywords: </span>applied category theory, musing, polynomial functors, blog
+</p></div><p class="noindent"><span class="cmbx-10">Summary: </span>Some notes with David Spivak, the creator of Plausible Fiction.
+</p><p class="noindent">At ACT 2026, I spoke with David Spivak about his idea of <a href="https://web.archive.org/web/20260112101238/https://topos.institute/blog/2024-08-27-plausible-fiction/">Plausible Fiction</a>. While it
+is still a very early concept, David’s <a href="https://www.youtube.com/watch?v=wDB26DFATAU">IPAM Talk</a> gave a very nice overview of the
+work. Based on my recollection and notes from our conversation, the way he
+suggested to think about a plausible fiction is like a flow chart or as the
+“mathematics of a self-fulfilling prophecy”. An example he gave was, “suppose there
+is a task you want to do such as, ’we will make a national highway for the United
+States.”’ Accordingly, the outcomes for each step taken to achieve this goal are
+effectively a height one tree on a polynomial (i.e. a corolla) which could be explored
+further in the textbook, <a href="https://toposinstitute.github.io/poly/poly-book.pdf">Polynomial Functors: A Mathematical Theory of
+Interaction</a>.
+</p><p class="noindent">As I recall from my conversation with David, this process can be interpreted as the
+kleisli category of the free monad on <span class="cmbx-10">Poly</span> to your desired goal or outcome.
+Each of these corollas can be thought of as directed rooted graphs ascending
+upwards, where each branch coming from a node of this tree represents a
+decision path. You can then recursively add these corollas “upwards” as
+you continue progressing up the tree and branching out from each end of a
+branch on your graph. The whole tree itself may have arbitrary heights like a
+binary tree does and does not have to be balanced and certainly does not
+have to have a height of one. An important aspect of this branching is that
+these trees of decisions do not require any particular resolution. You can
+define subtasks as granularly or coarsely as required to denote and achieve a
+goal.
+</p><p class="noindent">When considering examples of plausible fictions, the example of “make a national
+highway,” actually comes from US President Eisenhower. David mentioned how the
+concept of a plausible fiction most directly applies to and is most readily understood
+by a goal or desired outcome described by an authority or individual figure leading
+an effort. Such an entity would then define and direct the progress related to a
+specific goal.
+</p><p class="noindent">It may be a surprise to note that President Eisenhower, was, in fact, no civil
+                                                                                                                                    
+engineer. Instead, what Eisenhower did and what plausible fiction allows, is the
+ability to make a critiquable, shared vision. When Eisenhower declared his goal for a
+national highway, there was no exact path to achieve this goal. Yet, he had plenty of
+advisors and aides who could help contribute their expertise to fill in all the
+necessary pieces along the way to that goal. Similarly, plausible fiction allows
+individuals with different skillsets to help the creator of the plausible fiction describe
+and address the gaps of a fiction with more details. In a way, plausible fiction can be
+thought of as an invitation to actualization.
+</p><p class="noindent">Moving from historical to personal examples, David pointed out that a personal
+anecdote I shared would qualify as a plausible fiction. This anecdote was, and is, my
+nebulous goal of “bringing and applying category theory to public health.” In
+particular, the reasonable detailed progression of:
+</p><p class="noindent"></p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+  1. </dt><dd class="enumerate-enumitem">Gradually moving from biomedical engineering and health informatics into
+     applied mathematics
+     </dd><dt class="enumerate-enumitem">
+  2. </dt><dd class="enumerate-enumitem">Receiving support and supervision to investigate applied category theory
+     </dd><dt class="enumerate-enumitem">
+  3. </dt><dd class="enumerate-enumitem">Advance  sufficiently  to  present  at  both  ACT  2025  and  ACT  2026
+     constitute components of a plausible fiction.
+     </dd></dl><p class="noindent">And while these pieces are no longer fiction but reality, there is still much work to be
+done to achieve my long-term plausible fiction!
+</p><p class="noindent">To conclude our discussion, another example we discussed was considering health
+systems. Thinking about sweeping, general improvements to a health system would
+be an underspecified plausible fiction and hard to take action on. The reason being is
+that it is hard to imagine what an “improved” health system would be as right now,
+the goal is too broad. However, building on this, a future discussion could consider
+from a health informaticist’s point of view of what could be a valid plausible fiction
+in a health system. Perhaps imagining something like, “I will define how to make
+health informatics research studies composable,” might be a fun place to
+start!
+</p><blockquote><p class="noindent"><span class="cmti-10">I would like to express thanks to David Spivak for the discussion and
+     some clarifications about the concept of Plausible Fiction!</span></p><footer></footer></blockquote><h2 id="how_to_cite">How To Cite</h2>
+<p>Zelko, Jacob S. <em>Conversation about Plausible Fiction at ACT2026</em>. <a href="https://jacobzelko.com/notes/aaa-0295/">https://jacobzelko.com/notes/aaa-0295/</a>. October 26, 2026.</p>
+<h2 id="discussion">Discussion:</h2>
+<script>talkyardServerUrl='https://site-vbm8wbc57o.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="aaa-0295.md" style="margin-top: 45px;">
+    <noscript>Please enable Javascript to view comments.</noscript>
+</div> ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Jacob S. Zelko</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Data Fabrics ACT 2025 Proposal  ]]>
   </title>
   <link> https://jacobzelko.com/notes/aaa-0292/index.html </link>
